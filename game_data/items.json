@@ -648,7 +648,7 @@
             ],
             [
                 "hit",
-                110
+                80
             ],
             [
                 "weapon_type",
@@ -671,15 +671,11 @@
             ],
             [
                 "weight",
-                12
+                2
             ],
             [
                 "crit",
-                0
-            ],
-            [
-                "wexp",
-                2
+                15
             ],
             [
                 "value",
@@ -737,7 +733,7 @@
             ],
             [
                 "weapon_rank",
-                "D"
+                "C"
             ],
             [
                 "uses",
@@ -752,7 +748,7 @@
             ],
             [
                 "weight",
-                12
+                3
             ],
             [
                 "crit",
@@ -812,11 +808,11 @@
             ],
             [
                 "weapon_rank",
-                "C"
+                "B"
             ],
             [
                 "uses",
-                25
+                30
             ],
             [
                 "uses_options",
@@ -827,7 +823,7 @@
             ],
             [
                 "weight",
-                14
+                5
             ],
             [
                 "crit",
@@ -875,11 +871,11 @@
             ],
             [
                 "damage",
-                14
+                10
             ],
             [
                 "hit",
-                60
+                70
             ],
             [
                 "weapon_type",
@@ -891,7 +887,7 @@
             ],
             [
                 "uses",
-                15
+                20
             ],
             [
                 "uses_options",
@@ -902,15 +898,15 @@
             ],
             [
                 "weight",
-                13
+                7
             ],
             [
                 "crit",
-                0
+                15
             ],
             [
                 "wexp",
-                2
+                3
             ],
             [
                 "value",
@@ -927,8 +923,8 @@
         ]
     },
     {
-        "nid": "Brave_Sword",
-        "name": "Brave Sword",
+        "nid": "DualKatanas",
+        "name": "Dual Katanas",
         "desc": "Allows 2 consecutive hits.",
         "icon_nid": "Sword",
         "icon_index": [
@@ -958,19 +954,19 @@
             ],
             [
                 "damage",
-                9
+                10
             ],
             [
                 "hit",
-                75
+                60
             ],
             [
                 "crit",
-                0
+                10
             ],
             [
                 "weight",
-                12
+                13
             ],
             [
                 "level_exp",
@@ -986,7 +982,7 @@
             ],
             [
                 "uses",
-                30
+                40
             ],
             [
                 "uses_options",
@@ -998,6 +994,10 @@
             [
                 "brave",
                 null
+            ],
+            [
+                "wexp",
+                3
             ]
         ]
     },
