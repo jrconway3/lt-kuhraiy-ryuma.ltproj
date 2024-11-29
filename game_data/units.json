@@ -2,7 +2,7 @@
     {
         "nid": "Miriam",
         "name": "Miriam",
-        "desc": "Lady of House Renald who desires justice for all.",
+        "desc": "Adopted daughter of House Renald. Cares for all in her realm, but still desires to find her true purpose.",
         "variant": "",
         "level": 1,
         "klass": "Lady",
@@ -56,7 +56,7 @@
                 false
             ],
             [
-                "Rapier",
+                "BurstRapier",
                 false
             ],
             [
@@ -64,7 +64,7 @@
                 false
             ],
             [
-                "Heal",
+                "Magic",
                 false
             ]
         ],
@@ -173,7 +173,7 @@
     {
         "nid": "Amaya",
         "name": "Amaya",
-        "desc": "A loyal knight of Oestridel and retainer to Miriam.\nShe serves her lady dutifully.",
+        "desc": "Former noblewoman of Omyrus, now a loyal retainer to Lady Miriam of Oestridel. She holds a strong desire to repay her debt to General Jethro.",
         "variant": "",
         "level": 5,
         "klass": "Lieutenant",
@@ -221,11 +221,7 @@
         },
         "starting_items": [
             [
-                "Steel_Sword",
-                false
-            ],
-            [
-                "Light_Brand",
+                "Joyeuse",
                 false
             ],
             [
@@ -323,14 +319,14 @@
     {
         "nid": "Leiland",
         "name": "Leiland",
-        "desc": "Heir to House Renald and Miriam's elder adopted brother.\nHe is loyal to a fault to his demesne.",
+        "desc": "Heir to House Renald and adoptive brother of Miriam. He dotes on her, but is stern with his duty.",
         "variant": "",
         "level": 12,
         "klass": "WolfKnight",
         "tags": [
             "Lord",
             "Mounted",
-            "Wolf",
+            "Chiylo",
             "Lykon"
         ],
         "bases": {
@@ -374,7 +370,7 @@
         },
         "starting_items": [
             [
-                "Silver_Sword",
+                "Mythril_Sword",
                 false
             ],
             [
@@ -483,12 +479,12 @@
         ]
     },
     {
-        "nid": "Gilliam",
-        "name": "Gilliam",
-        "desc": "An armoured knight from Frelia. He's quiet yet dependable.",
+        "nid": "Dehren",
+        "name": "Dehren",
+        "desc": "A skilled mage from a far away land. Having resided in Oestridel for some time, he became a retainer for Lady Miriam.",
         "variant": null,
         "level": 4,
-        "klass": "Knight",
+        "klass": "MageCorps",
         "tags": [],
         "bases": {
             "LCK": 3,
@@ -605,17 +601,17 @@
             ]
         },
         "alternate_classes": [],
-        "portrait_nid": "Gilliam",
+        "portrait_nid": "{Levin64} [F2E] OC 7",
         "affinity": "Thunder",
         "fields": []
     },
     {
-        "nid": "Vanessa",
-        "name": "Vanessa",
+        "nid": "Yarda",
+        "name": "Yarda",
         "desc": "A sincere, honest, and honourable pegasus knight of Frelia.",
         "variant": "",
         "level": 1,
-        "klass": "Pegasus_Knight",
+        "klass": "Dancer",
         "tags": [],
         "bases": {
             "LCK": 4,
@@ -740,13 +736,13 @@
             ]
         },
         "alternate_classes": [],
-        "portrait_nid": "Vanessa",
+        "portrait_nid": "{VelvetKitsune} F2E OC 1 [AI]",
         "affinity": "Anima",
         "fields": []
     },
     {
-        "nid": "Moulder",
-        "name": "Moulder",
+        "nid": "Thanya",
+        "name": "Thanya",
         "desc": "A mature priest of Frelia. He's gentle and reassuring.",
         "variant": null,
         "level": 3,
@@ -871,15 +867,15 @@
             ]
         },
         "alternate_classes": [],
-        "portrait_nid": "Moulder",
+        "portrait_nid": "Marisa (Black skin) {JeyTheCount} [F2E]",
         "affinity": "Anima",
         "fields": []
     },
     {
-        "nid": "Ross",
-        "name": "Ross",
+        "nid": "Magne",
+        "name": "Magne",
         "desc": "A young villager. He longs to be a warrior, like his father.",
-        "variant": null,
+        "variant": "",
         "level": 1,
         "klass": "Journeyman",
         "tags": [],
@@ -1002,7 +998,138 @@
             ]
         },
         "alternate_classes": [],
-        "portrait_nid": "Ross",
+        "portrait_nid": "Zoisite_Midir",
+        "affinity": "Fire",
+        "fields": []
+    },
+    {
+        "nid": "Neimi",
+        "name": "Neimi",
+        "desc": "A childhood friend of Colm who hails from Renais. She cries a lot.",
+        "variant": "Female",
+        "level": 1,
+        "klass": "Scout",
+        "tags": [],
+        "bases": {
+            "LCK": 4,
+            "RES": 2,
+            "CON": 5,
+            "MOV": 5,
+            "STR": 4,
+            "HP": 17,
+            "MAG": 2,
+            "SKL": 5,
+            "SPD": 6,
+            "DEF": 3,
+            "MP": 0
+        },
+        "growths": {
+            "LCK": 50,
+            "RES": 35,
+            "CON": 0,
+            "MOV": 0,
+            "STR": 45,
+            "HP": 55,
+            "MAG": 25,
+            "SKL": 50,
+            "SPD": 60,
+            "DEF": 15,
+            "MP": 0
+        },
+        "stat_cap_modifiers": {
+            "RES": 0,
+            "LCK": 0,
+            "CON": 0,
+            "MOV": 0,
+            "STR": 0,
+            "HP": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
+            "MP": 0
+        },
+        "starting_items": [
+            [
+                "Iron_Bow",
+                false
+            ],
+            [
+                "Vulnerary",
+                false
+            ]
+        ],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0,
+                251
+            ],
+            "Lance": [
+                false,
+                0,
+                251
+            ],
+            "Axe": [
+                false,
+                0,
+                251
+            ],
+            "Bow": [
+                true,
+                31,
+                251
+            ],
+            "Staff": [
+                false,
+                0,
+                251
+            ],
+            "Light": [
+                false,
+                0,
+                251
+            ],
+            "Anima": [
+                false,
+                0,
+                251
+            ],
+            "Dark": [
+                false,
+                0,
+                251
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ],
+            "Earth": [
+                false,
+                0,
+                251
+            ],
+            "Solus": [
+                false,
+                0,
+                251
+            ],
+            "Lunis": [
+                false,
+                0,
+                251
+            ],
+            "Tellus": [
+                false,
+                0,
+                251
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Neimi",
         "affinity": "Fire",
         "fields": []
     },
@@ -1142,143 +1269,12 @@
         "fields": []
     },
     {
-        "nid": "Neimi",
-        "name": "Neimi",
-        "desc": "A childhood friend of Colm who hails from Renais. She cries a lot.",
-        "variant": "Female",
-        "level": 1,
-        "klass": "Archer",
-        "tags": [],
-        "bases": {
-            "LCK": 4,
-            "RES": 2,
-            "CON": 5,
-            "MOV": 5,
-            "STR": 4,
-            "HP": 17,
-            "MAG": 2,
-            "SKL": 5,
-            "SPD": 6,
-            "DEF": 3,
-            "MP": 0
-        },
-        "growths": {
-            "LCK": 50,
-            "RES": 35,
-            "CON": 0,
-            "MOV": 0,
-            "STR": 45,
-            "HP": 55,
-            "MAG": 25,
-            "SKL": 50,
-            "SPD": 60,
-            "DEF": 15,
-            "MP": 0
-        },
-        "stat_cap_modifiers": {
-            "RES": 0,
-            "LCK": 0,
-            "CON": 0,
-            "MOV": 0,
-            "STR": 0,
-            "HP": 0,
-            "MAG": 0,
-            "SKL": 0,
-            "SPD": 0,
-            "DEF": 0,
-            "MP": 0
-        },
-        "starting_items": [
-            [
-                "Iron_Bow",
-                false
-            ],
-            [
-                "Vulnerary",
-                false
-            ]
-        ],
-        "learned_skills": [],
-        "unit_notes": [],
-        "wexp_gain": {
-            "Sword": [
-                false,
-                0,
-                251
-            ],
-            "Lance": [
-                false,
-                0,
-                251
-            ],
-            "Axe": [
-                false,
-                0,
-                251
-            ],
-            "Bow": [
-                true,
-                31,
-                251
-            ],
-            "Staff": [
-                false,
-                0,
-                251
-            ],
-            "Light": [
-                false,
-                0,
-                251
-            ],
-            "Anima": [
-                false,
-                0,
-                251
-            ],
-            "Dark": [
-                false,
-                0,
-                251
-            ],
-            "Default": [
-                false,
-                0,
-                251
-            ],
-            "Earth": [
-                false,
-                0,
-                251
-            ],
-            "Solus": [
-                false,
-                0,
-                251
-            ],
-            "Lunis": [
-                false,
-                0,
-                251
-            ],
-            "Tellus": [
-                false,
-                0,
-                251
-            ]
-        },
-        "alternate_classes": [],
-        "portrait_nid": "Neimi",
-        "affinity": "Fire",
-        "fields": []
-    },
-    {
         "nid": "Colm",
         "name": "Colm",
         "desc": "A childhood friend of Neimi who hails from Renais. He can be snide.",
         "variant": "",
         "level": 2,
-        "klass": "Thief",
+        "klass": "Shinobi",
         "tags": [],
         "bases": {
             "LCK": 8,
@@ -1544,7 +1540,7 @@
         "desc": "A young mage of Renais. She believes she is a prodigy.",
         "variant": "Female",
         "level": 1,
-        "klass": "Mage",
+        "klass": "Apprentice",
         "tags": [],
         "bases": {
             "LCK": 8,
@@ -1587,7 +1583,7 @@
         },
         "starting_items": [
             [
-                "Fire",
+                "Fireball",
                 false
             ]
         ],
@@ -1845,7 +1841,7 @@
         },
         "starting_items": [
             [
-                "Killing_Edge",
+                "Serrated_Edge",
                 false
             ]
         ],
@@ -2377,7 +2373,7 @@
         },
         "starting_items": [
             [
-                "Silver_Sword",
+                "Mythril_Sword",
                 false
             ],
             [
@@ -2469,7 +2465,7 @@
         "desc": "A young lady of Frelia. She is both cheery and sociable.",
         "variant": null,
         "level": 4,
-        "klass": "Pegasus_Knight",
+        "klass": "WindRider",
         "tags": [],
         "bases": {
             "LCK": 8,
@@ -2917,11 +2913,11 @@
         },
         "starting_items": [
             [
-                "Steel_Blade",
+                "Steel_Katana",
                 false
             ],
             [
-                "Hero_Crest",
+                "Master_Seal",
                 false
             ],
             [
@@ -3275,7 +3271,7 @@
         "desc": "A young woman from Rausten. She fights for justice and honour.",
         "variant": null,
         "level": 3,
-        "klass": "Troubadour",
+        "klass": "Tactician",
         "tags": [],
         "bases": {
             "LCK": 12,
@@ -3584,7 +3580,7 @@
         },
         "starting_items": [
             [
-                "Elfire",
+                "FlareBurst",
                 false
             ],
             [
@@ -3715,7 +3711,7 @@
         },
         "starting_items": [
             [
-                "Fire",
+                "Fireball",
                 false
             ],
             [
@@ -4073,7 +4069,7 @@
         "desc": "A courageous general in Grado\u2019s army. He\u2019s better known as Obsidian.",
         "variant": null,
         "level": 9,
-        "klass": "Great_Knight",
+        "klass": "Vanguard",
         "tags": [],
         "bases": {
             "LCK": 8,
@@ -4337,7 +4333,7 @@
         "desc": "Commander of a Grado military force.",
         "variant": null,
         "level": 4,
-        "klass": "Knight",
+        "klass": "Guard",
         "tags": [
             "Boss"
         ],
@@ -4466,7 +4462,7 @@
         "desc": "One of Bazba's henchmen.",
         "variant": null,
         "level": 4,
-        "klass": "Brigand",
+        "klass": "Barbarian",
         "tags": [
             "Boss"
         ],
@@ -4595,7 +4591,7 @@
         "desc": "The leader of Bazba's bandits.",
         "variant": "",
         "level": 6,
-        "klass": "Brigand",
+        "klass": "Barbarian",
         "tags": [
             "Boss"
         ],
@@ -4728,7 +4724,7 @@
         "desc": "Commander of Grado's border guard.\nHis loyalty is unshakable.",
         "variant": "",
         "level": 8,
-        "klass": "Knight",
+        "klass": "Guard",
         "tags": [
             "Boss"
         ],
@@ -4857,7 +4853,7 @@
         "desc": "",
         "variant": "Female",
         "level": 11,
-        "klass": "Mage Knight",
+        "klass": "MageCorps",
         "tags": [],
         "bases": {
             "LCK": 11,
@@ -4904,7 +4900,7 @@
                 false
             ],
             [
-                "Elfire",
+                "FlareBurst",
                 false
             ]
         ],
@@ -4988,7 +4984,7 @@
         "desc": "",
         "variant": "",
         "level": 13,
-        "klass": "General",
+        "klass": "Bulwark",
         "tags": [],
         "bases": {
             "LCK": 10,
@@ -5035,7 +5031,7 @@
                 false
             ],
             [
-                "Knight_Crest",
+                "Master_Seal",
                 true
             ]
         ],
@@ -5119,7 +5115,7 @@
         "desc": "",
         "variant": null,
         "level": 12,
-        "klass": "Hero",
+        "klass": "Brave",
         "tags": [],
         "bases": {
             "LCK": 15,

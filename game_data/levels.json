@@ -190,7 +190,7 @@
                 "generic": false
             },
             {
-                "nid": "Gilliam",
+                "nid": "Dehren",
                 "team": "player",
                 "ai": "None",
                 "roam_ai": null,
@@ -589,7 +589,7 @@
             {
                 "nid": "Rein",
                 "units": [
-                    "Gilliam",
+                    "Dehren",
                     "Leiland"
                 ],
                 "positions": {}
@@ -694,7 +694,7 @@
                 "generic": false
             },
             {
-                "nid": "Gilliam",
+                "nid": "Dehren",
                 "team": "player",
                 "ai": "None",
                 "roam_ai": null,
@@ -707,7 +707,7 @@
                 "generic": false
             },
             {
-                "nid": "Vanessa",
+                "nid": "Yarda",
                 "team": "player",
                 "ai": "None",
                 "roam_ai": null,
@@ -720,7 +720,7 @@
                 "generic": false
             },
             {
-                "nid": "Moulder",
+                "nid": "Thanya",
                 "team": "player",
                 "ai": "None",
                 "roam_ai": null,
@@ -733,7 +733,7 @@
                 "generic": false
             },
             {
-                "nid": "Ross",
+                "nid": "Magne",
                 "team": "npc",
                 "ai": "Guard",
                 "roam_ai": null,
@@ -775,7 +775,7 @@
                 "nid": "TopBandit",
                 "variant": null,
                 "level": 2,
-                "klass": "Brigand",
+                "klass": "Barbarian",
                 "faction": "Rogue",
                 "starting_items": [
                     [
@@ -799,7 +799,7 @@
                 "nid": "BoneBuddy",
                 "variant": null,
                 "level": 3,
-                "klass": "Brigand",
+                "klass": "Barbarian",
                 "faction": "Rogue",
                 "starting_items": [
                     [
@@ -823,7 +823,7 @@
                 "nid": "103",
                 "variant": null,
                 "level": 3,
-                "klass": "Brigand",
+                "klass": "Barbarian",
                 "faction": "Rogue",
                 "starting_items": [
                     [
@@ -847,7 +847,7 @@
                 "nid": "104",
                 "variant": null,
                 "level": 3,
-                "klass": "Brigand",
+                "klass": "Barbarian",
                 "faction": "Rogue",
                 "starting_items": [
                     [
@@ -875,7 +875,7 @@
                 "nid": "105",
                 "variant": null,
                 "level": 1,
-                "klass": "Archer",
+                "klass": "Scout",
                 "faction": "Rogue",
                 "starting_items": [
                     [
@@ -899,7 +899,7 @@
                 "nid": "106",
                 "variant": null,
                 "level": 2,
-                "klass": "Brigand",
+                "klass": "Barbarian",
                 "faction": "Rogue",
                 "starting_items": [
                     [
@@ -923,7 +923,7 @@
                 "nid": "107",
                 "variant": null,
                 "level": 3,
-                "klass": "Brigand",
+                "klass": "Barbarian",
                 "faction": "Rogue",
                 "starting_items": [
                     [
@@ -1113,7 +1113,7 @@
             {
                 "nid": "RossGarcia",
                 "units": [
-                    "Ross",
+                    "Magne",
                     "Garcia"
                 ],
                 "positions": {}
@@ -1124,8 +1124,8 @@
                     "Miriam",
                     "Amaya",
                     "Leiland",
-                    "Gilliam",
-                    "Moulder"
+                    "Dehren",
+                    "Thanya"
                 ],
                 "positions": {}
             }
@@ -1199,7 +1199,7 @@
                 "generic": false
             },
             {
-                "nid": "Gilliam",
+                "nid": "Dehren",
                 "team": "player",
                 "ai": "None",
                 "roam_ai": null,
@@ -1212,7 +1212,7 @@
                 "generic": false
             },
             {
-                "nid": "Vanessa",
+                "nid": "Yarda",
                 "team": "player",
                 "ai": "None",
                 "roam_ai": null,
@@ -1225,7 +1225,7 @@
                 "generic": false
             },
             {
-                "nid": "Moulder",
+                "nid": "Thanya",
                 "team": "player",
                 "ai": "None",
                 "roam_ai": null,
@@ -1238,7 +1238,7 @@
                 "generic": false
             },
             {
-                "nid": "Ross",
+                "nid": "Magne",
                 "team": "player",
                 "ai": "None",
                 "roam_ai": null,
@@ -1303,7 +1303,7 @@
                 "nid": "101",
                 "variant": null,
                 "level": 3,
-                "klass": "Brigand",
+                "klass": "Barbarian",
                 "faction": "Rogue",
                 "starting_items": [
                     [
@@ -1327,7 +1327,7 @@
                 "nid": "102",
                 "variant": null,
                 "level": 3,
-                "klass": "Brigand",
+                "klass": "Barbarian",
                 "faction": "Rogue",
                 "starting_items": [
                     [
@@ -1351,7 +1351,7 @@
                 "nid": "103",
                 "variant": null,
                 "level": 4,
-                "klass": "Brigand",
+                "klass": "Barbarian",
                 "faction": "Rogue",
                 "starting_items": [
                     [
@@ -1375,7 +1375,7 @@
                 "nid": "104",
                 "variant": null,
                 "level": 3,
-                "klass": "Brigand",
+                "klass": "Barbarian",
                 "faction": "Rogue",
                 "starting_items": [
                     [
@@ -1403,7 +1403,7 @@
                 "nid": "105",
                 "variant": null,
                 "level": 3,
-                "klass": "Brigand",
+                "klass": "Barbarian",
                 "faction": "Rogue",
                 "starting_items": [
                     [
@@ -1431,7 +1431,7 @@
                 "nid": "106",
                 "variant": null,
                 "level": 2,
-                "klass": "Brigand",
+                "klass": "Barbarian",
                 "faction": "Rogue",
                 "starting_items": [
                     [
@@ -1487,7 +1487,7 @@
                 "nid": "108",
                 "variant": null,
                 "level": 4,
-                "klass": "Archer",
+                "klass": "Scout",
                 "faction": "Rogue",
                 "starting_items": [
                     [
@@ -1511,7 +1511,7 @@
                 "nid": "109",
                 "variant": null,
                 "level": 4,
-                "klass": "Thief",
+                "klass": "Shinobi",
                 "faction": "Rogue",
                 "starting_items": [
                     [
@@ -1750,10 +1750,10 @@
                     "Miriam",
                     "Amaya",
                     "Leiland",
-                    "Gilliam",
-                    "Vanessa",
-                    "Moulder",
-                    "Ross",
+                    "Dehren",
+                    "Yarda",
+                    "Thanya",
+                    "Magne",
                     "Neimi",
                     "Garcia"
                 ],
@@ -1839,7 +1839,7 @@
                 "generic": false
             },
             {
-                "nid": "Gilliam",
+                "nid": "Dehren",
                 "team": "player",
                 "ai": "None",
                 "roam_ai": null,
@@ -1852,7 +1852,7 @@
                 "generic": false
             },
             {
-                "nid": "Vanessa",
+                "nid": "Yarda",
                 "team": "player",
                 "ai": "None",
                 "roam_ai": null,
@@ -1865,7 +1865,7 @@
                 "generic": false
             },
             {
-                "nid": "Moulder",
+                "nid": "Thanya",
                 "team": "player",
                 "ai": "None",
                 "roam_ai": null,
@@ -1878,7 +1878,7 @@
                 "generic": false
             },
             {
-                "nid": "Ross",
+                "nid": "Magne",
                 "team": "player",
                 "ai": "None",
                 "roam_ai": null,
@@ -2737,10 +2737,10 @@
                 "units": [
                     "Miriam",
                     "Amaya",
-                    "Gilliam",
-                    "Vanessa",
-                    "Moulder",
-                    "Ross",
+                    "Dehren",
+                    "Yarda",
+                    "Thanya",
+                    "Magne",
                     "Colm",
                     "Neimi"
                 ],
@@ -2887,7 +2887,7 @@
                 "nid": "102",
                 "variant": null,
                 "level": 5,
-                "klass": "Archer",
+                "klass": "Scout",
                 "faction": "Siegwang",
                 "starting_items": [
                     [
@@ -2983,7 +2983,7 @@
                 "nid": "106",
                 "variant": null,
                 "level": 5,
-                "klass": "Archer",
+                "klass": "Scout",
                 "faction": "Siegwang",
                 "starting_items": [
                     [
@@ -3175,7 +3175,7 @@
                 "nid": "114",
                 "variant": null,
                 "level": 4,
-                "klass": "Archer",
+                "klass": "Scout",
                 "faction": "Siegwang",
                 "starting_items": [
                     [
@@ -3223,7 +3223,7 @@
                 "nid": "116",
                 "variant": null,
                 "level": 4,
-                "klass": "Brigand",
+                "klass": "Barbarian",
                 "faction": "Barbarian",
                 "starting_items": [
                     [
@@ -3244,7 +3244,7 @@
                 "nid": "117",
                 "variant": null,
                 "level": 4,
-                "klass": "Brigand",
+                "klass": "Barbarian",
                 "faction": "Barbarian",
                 "starting_items": [
                     [
@@ -3265,7 +3265,7 @@
                 "nid": "118",
                 "variant": null,
                 "level": 5,
-                "klass": "Brigand",
+                "klass": "Barbarian",
                 "faction": "Barbarian",
                 "starting_items": [
                     [
@@ -3286,7 +3286,7 @@
                 "nid": "119",
                 "variant": null,
                 "level": 5,
-                "klass": "Brigand",
+                "klass": "Barbarian",
                 "faction": "Barbarian",
                 "starting_items": [
                     [
@@ -3307,7 +3307,7 @@
                 "nid": "120",
                 "variant": null,
                 "level": 5,
-                "klass": "Brigand",
+                "klass": "Barbarian",
                 "faction": "Barbarian",
                 "starting_items": [
                     [
@@ -3328,7 +3328,7 @@
                 "nid": "121",
                 "variant": null,
                 "level": 5,
-                "klass": "Brigand",
+                "klass": "Barbarian",
                 "faction": "Barbarian",
                 "starting_items": [
                     [
@@ -3832,7 +3832,7 @@
                 "generic": false
             },
             {
-                "nid": "Moulder",
+                "nid": "Thanya",
                 "team": "player",
                 "ai": "None",
                 "roam_ai": null,
@@ -3845,7 +3845,7 @@
                 "generic": false
             },
             {
-                "nid": "Vanessa",
+                "nid": "Yarda",
                 "team": "player",
                 "ai": "None",
                 "roam_ai": null,
@@ -3861,7 +3861,7 @@
                 "nid": "101",
                 "variant": null,
                 "level": 1,
-                "klass": "Shaman",
+                "klass": "Scholar",
                 "faction": "Siegwang",
                 "starting_items": [
                     [

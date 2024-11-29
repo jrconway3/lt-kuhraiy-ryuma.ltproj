@@ -171,5 +171,26 @@
                 0
             ]
         }
+    },
+    {
+        "nid": "Villager (U) Updated {Ghast, HyperGammaSpaces}",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Myrmidon (F) Sword {L95}",
+        "subicon_dict": {
+            "Myrmidon (F) Sword {L95} 0, 0": [
+                0,
+                0
+            ]
+        }
+    },
+    {
+        "nid": "Myrmidon (F) Bow {N426}",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Myrmidon (M) Bow {N426}",
+        "subicon_dict": {}
     }
 ]

@@ -138,6 +138,114 @@
         ]
     },
     {
+        "nid": "Armor",
+        "name": "Armor",
+        "desc": "Negates effective damage based on unit's race.\nDoes not affect mounts. All damage reduced by 5.",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "condition",
+                "'Armor' in unit.tags and 'ArmorBreak' not in unit.tags"
+            ],
+            [
+                "global",
+                null
+            ],
+            [
+                "negate_tags",
+                [
+                    "Dragon",
+                    "Lykon",
+                    "Queiza",
+                    "Avyon",
+                    "Nordak"
+                ]
+            ],
+            [
+                "resist",
+                5
+            ],
+            [
+                "hidden_if_inactive",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "LightArmor",
+        "name": "LightArmor",
+        "desc": "Negates effective damage based on unit's race.\nDoes not affect mounts. All damage reduced by 5.",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "condition",
+                "'Armor' in unit.tags and 'ArmorBreak' not in unit.tags"
+            ],
+            [
+                "global",
+                null
+            ],
+            [
+                "negate_tags",
+                [
+                    "Dragon",
+                    "Lykon",
+                    "Queiza",
+                    "Avyon",
+                    "Nordak"
+                ]
+            ],
+            [
+                "resist",
+                5
+            ],
+            [
+                "hidden_if_inactive",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "ArmorBreak",
+        "name": "ArmorBreak",
+        "desc": "Negates effective damage based on unit's race.\nDoes not affect mounts. All damage reduced by 5.",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "negate_tags",
+                [
+                    "Dragon",
+                    "Lykon",
+                    "Queiza",
+                    "Avyon",
+                    "Nordak"
+                ]
+            ],
+            [
+                "hidden_if_inactive",
+                null
+            ],
+            [
+                "has_tags",
+                [
+                    "LightArmor"
+                ]
+            ]
+        ]
+    },
+    {
         "nid": "Forest",
         "name": "Forest",
         "desc": "",
@@ -321,6 +429,30 @@
             [
                 "movement_type",
                 "Queiza"
+            ]
+        ]
+    },
+    {
+        "nid": "SelfImmolate",
+        "name": "SelfImmolate",
+        "desc": "Receives damage upon attacking as long as weapon level is too low.",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "condition",
+                "('Lykon' in unit.tags or 'Gjin' in unit.tags) and unit.wexp['Sword'] < 81"
+            ],
+            [
+                "post_combat_damage",
+                5
             ]
         ]
     },
@@ -772,6 +904,10 @@
             [
                 "dynamic_damage",
                 ""
+            ],
+            [
+                "event_after_initiated_combat",
+                "Global DeathEirika"
             ]
         ]
     },
