@@ -1,0 +1,220 @@
+[
+    {
+        "nid": "Affinity",
+        "subicon_dict": {
+            "Affinity 0, 8": [
+                0,
+                8
+            ],
+            "Affinity 0, 12": [
+                0,
+                12
+            ],
+            "Affinity 0, 4": [
+                0,
+                4
+            ]
+        }
+    },
+    {
+        "nid": "Anima",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Axe",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Boosters",
+        "subicon_dict": {
+            "Boosters 0, 18": [
+                0,
+                18
+            ]
+        }
+    },
+    {
+        "nid": "Bow",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Consumable",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Dark",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Lance",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Light",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Neutral",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Skills",
+        "subicon_dict": {
+            "Skills 1, 2": [
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "nid": "Staff",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Sword",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Valuable",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "wexp_icons",
+        "subicon_dict": {
+            "wexp_icons 0, 6": [
+                0,
+                6
+            ]
+        }
+    },
+    {
+        "nid": "Affinity2",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "[All Icons] - Rally Manuals {unuesu, Pikmin1211}",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "[Gabrielknight} Crossbows",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "[WEP] Pack 5 {Lisandra Brave}",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "{Beansy} {Axes} All Icons",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "{Beansy} {Bows} All Icons",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "{Beansy} {Lances} All Icons",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "{Beansy} {Swords} All Icons",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "{Beansy} AnimaSheet",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "{Beansy} DarkSheet",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "{Cardcafe} {Mixed 2} All Icons",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "{GabrielKnight} {2} All Icons",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "{GabrielKnight} {3} All Icons",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "{Leif} {Magical Tomes} All Icons",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "{Peerless} FE9 Weapon Icons (Custom Palette)",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Affinities {Shuusuke, Obsidian Daddy}",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "{Zelix} [WEP] FE13-FE14 Pack",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "{Zelix} FE11&13-style weapons",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "{J-Treecko} {Lex Talionis} All Icons",
+        "subicon_dict": {
+            "{J-Treecko} {Lex Talionis} All Icons 1, 16": [
+                1,
+                16
+            ]
+        }
+    },
+    {
+        "nid": "{CamTech075} Pack 2 ",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "{Cardcafe} {FE15} All Icons",
+        "subicon_dict": {
+            "{Cardcafe} {FE15} All Icons 0, 3": [
+                0,
+                3
+            ]
+        }
+    },
+    {
+        "nid": "{Cardcafe} {Mixed 1} All Icons",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "{Cardcafe} {Mixed 2} All Icons_1",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "{Cardcafe} {Skill Icons} All Icons",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "{Cardcafe} Affinity All Icons",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "{Celice} All Icons - FE8 Weapons",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "{Celice} All Icons - FE9 Weapons",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "{Tactics Ogre LUCT, EldritchAbo, serebii01} Item Icon Sheet 1",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "{Tactics Ogre LUCT, EldritchAbo, serebii01} Item Icon Sheet 2",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "{Tactics Ogre LUCT, EldritchAbo, serebii01} Item Icon Sheet 3",
+        "subicon_dict": {}
+    }
+]

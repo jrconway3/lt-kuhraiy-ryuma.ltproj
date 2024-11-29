@@ -1,0 +1,82 @@
+[
+    {
+        "nid": "Siegwang",
+        "name": "Siegwang",
+        "desc": "",
+        "icon_nid": "ConfederacyEmblem",
+        "icon_index": [
+            0,
+            0
+        ]
+    },
+    {
+        "nid": "Valynmur",
+        "name": "Valynmur",
+        "desc": "",
+        "icon_nid": "EmpireEmblem",
+        "icon_index": [
+            0,
+            0
+        ]
+    },
+    {
+        "nid": "Barbarian",
+        "name": "Barbarian",
+        "desc": "Roaming Lykon barbarians of Jehanna testing their might and skill.",
+        "icon_nid": "NeutralEmblem",
+        "icon_index": [
+            0,
+            0
+        ]
+    },
+    {
+        "nid": "Rogue",
+        "name": "Rogue",
+        "desc": "A rogue sect of Jehanna Lykons who chose to follow Katharina Domera.",
+        "icon_nid": "BanditEmblem",
+        "icon_index": [
+            0,
+            0
+        ]
+    },
+    {
+        "nid": "Kuhraiy",
+        "name": "Kuhraiy",
+        "desc": "A mysterious organization of spies who have infiltrated sects across the entire world.",
+        "icon_nid": "TemplarEmblem",
+        "icon_index": [
+            0,
+            0
+        ]
+    },
+    {
+        "nid": "Nephyliae",
+        "name": "Nephyliae",
+        "desc": "Daemonic Avyons who settled in the desolate land of Daemonia, unwelcome to the rest of the world.",
+        "icon_nid": "MonsterEmblem",
+        "icon_index": [
+            0,
+            0
+        ]
+    },
+    {
+        "nid": "Wall",
+        "name": "Wall",
+        "desc": "",
+        "icon_nid": "BlankEmblem",
+        "icon_index": [
+            0,
+            0
+        ]
+    },
+    {
+        "nid": "Daemon",
+        "name": "Daemon",
+        "desc": "A grotesque creature created by magic and born in darkness.",
+        "icon_nid": "MonsterEmblem",
+        "icon_index": [
+            0,
+            0
+        ]
+    }
+]

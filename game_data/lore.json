@@ -1,0 +1,121 @@
+[
+    {
+        "nid": "Miriam",
+        "name": "Miriam",
+        "title": "Miriam Pearl Renald",
+        "category": "Character",
+        "text": "Adoptive daughter of House Renald of Oestridel from the Kingdom of Masa.{br} Miriam is beloved by the people of Oestridel all across the demesne. However, as a Queiza living amongst Lykons she feels inadequate to her position at times."
+    },
+    {
+        "nid": "Miriam2",
+        "name": "Miriam (2)",
+        "title": "Miriam Henrykka Alder",
+        "category": "Character",
+        "text": "Miriam's birth name was Miriam Henrykka Alder, named after both of her parents, Admiral Henry Alder and Lady Mariya Alder.{br}\nShe was a miracle child, as it was believed Lady Mariya would be incapable of having additional children after her son, Dalton. However, after the Tragedy of Muyre, Miriam was given up for adoption, after which point she was taken in by Ambryl Renald."
+    },
+    {
+        "nid": "Miriam3",
+        "name": "Miriam (3)",
+        "title": "Miriam: Lanquiz",
+        "category": "Character",
+        "text": "Addendum:\nMiriam is actually not a proper Queiza. Rather, she is of the Lanquiz, a sub-race of the Queiza, also known as Water Dragons. The Lanquiz, fearful of the world, sealed away their own power for over a thousand years.{br}\nDue to being born outside of the Kingdom of Omyrus, however, Miriam escaped from the magical seal that would have been placed on her, allowing her to be born in her people's true form."
+    },
+    {
+        "nid": "Amaya",
+        "name": "Amaya",
+        "title": "Amaya Yurias Lyudam",
+        "category": "Character",
+        "text": "A former noblewoman of the Kingdom of Omyrus. Having been taken in by General Jethro Renald as a young child, she chose to enlist in the Knights.{br}\nYorwath desired her to be his daughter Miriam's retainer due to them both being of the Queizan people."
+    },
+    {
+        "nid": "Amaya2",
+        "name": "Amaya (2)",
+        "title": "Amaya: Truth Revealed",
+        "category": "Character",
+        "text": "Addendum:\nAmaya "
+    },
+    {
+        "nid": "Leiland",
+        "name": "Leiland",
+        "title": "Leiland Renald",
+        "category": "Character",
+        "text": "A nobleman of House Renald of Oestridel,  next in line to rule the demesne. Although they are not siblings by birth, Leiland sees Miriam as close as any birth sibling. He is dutiful to his people.{br}\nThrough his mother Ambryl, he is also a prince of the Kingdom, though distant. Should anything happen to Crown Princess Shayala, he is within the line of succession."
+    },
+    {
+        "nid": "Alphar",
+        "name": "Alphar",
+        "title": "Alphar",
+        "category": "Race",
+        "text": "Alphar are the primary sentient race of the planet, coming in all shapes and sizes. Alphar bear animalistic attributes of different types, though some have lost such attributes. This is known as the degradation."
+    },
+    {
+        "nid": "Dragon",
+        "name": "Dragon",
+        "title": "Dragon",
+        "category": "Race",
+        "text": "Mysterious beings who only exist in myth. It is said that Dragons once nearly destroyed the world during the ancient Daemon Wars. It is not known what has become of them since, but some fear their inevitable return."
+    },
+    {
+        "nid": "Dragon2",
+        "name": "Dragon (2)",
+        "title": "Dragon (2)",
+        "category": "Race",
+        "text": "Addendum:\nDragon is a term used to refer to any Drake-like being. These beings have drake-like tails, horns, and scaled skin. In truth, it is not the most descriptive term, as it has been used as a means of ostracizing specific races of Alphar who are seen as undesirable."
+    },
+    {
+        "nid": "Queiza",
+        "name": "Queiza",
+        "title": "Queiza",
+        "category": "Race",
+        "text": "Queiza are an aquatic race of Alphar who primarily live in and around Lake Okeanos, the largest freshwater lake in the world. Although their home primarily resides in Omyrus or at the bottom of Okeanos, some Queiza have come to live in the Kingdom of Masa. Queiza have a close connection with water, but have a strong weakness to lightning."
+    },
+    {
+        "nid": "Queiza_Lanquiz",
+        "name": "Lanquiz",
+        "title": "Queiza: Lanquiz",
+        "category": "Race",
+        "text": "Lanquiz are a sub-group of the Queiza. Due to their similarities to Nordak, they were hunted in the aftermath of the Daemon Wars, labeled as Dragons.{br}\nThe Lanquiz took a low profile and went into hiding as a result, finding whatever means they could in order to protect themselves from the hatred of the world."
+    },
+    {
+        "nid": "Queiza_Lanquiz2",
+        "name": "Lanquiz (2)",
+        "title": "Queiza: Lanquiz (2)",
+        "category": "Race",
+        "text": "Addendum:\nThe Lanquiz are the true form of Queizol, the \"degraded\" version of Queiza. They were once known as Water Dragons.{br}\nTo protect themselves from being hunted, they invented special magicks to prevent themselves from developing their draconic attributes, becoming what was known as the Queizol."
+    },
+    {
+        "nid": "Lykon",
+        "name": "Lykon",
+        "title": "Lykon",
+        "category": "Race",
+        "text": "Alphar who bear wolf-like attributes. Since time immemorial they have made their home all across the Iouna Continent. Their primary home in the present day is the Kingdom of Masa. Lykons are fast, agile, and strong, but have little in the way of physical defenses and are particularly vulnerable to fire."
+    },
+    {
+        "nid": "Chiylo",
+        "name": "Chiylo",
+        "title": "Chiylo",
+        "category": "Race",
+        "text": "Alphar who are incredibly strong and tough. They have scaled skin that makes them highly resilient to physical damage. They tend to not have the best resistances to magical attacks. The Chiylo who migrated to Siegwang in the east have adapted to Fulgus, however, giving them some control over and resistance to lightning."
+    },
+    {
+        "nid": "Avyon",
+        "name": "Avyon",
+        "title": "Avyon",
+        "category": "Race",
+        "text": "An ancient and powerful race of Alphar who have long-since held a ruling place in the world. Due to their high magical prowess and ability to fly, they managed to quickly overwhelm much of the world in the ancient days. It was only the Daemon Wars and the increasing further threat of Daemons in the aftermath where they finally began to take more... diplomatic measures."
+    },
+    {
+        "nid": "Nordak",
+        "name": "Nordak",
+        "title": "Nordak",
+        "category": "Race",
+        "text": "Alphar who bear drakonic attributes, the ancient dragons of lore. Nordak have long been forgotten to time, but their legacy has managed to live on to the present day, only in secret.{br}\nAlthough they were once a great world power, the might of the Nordak vanished after the Daemon Wars, and their incredibly feats were greatly exaggerated to paint them as far more dangerous and formidable than they truly are."
+    },
+    {
+        "nid": "Daemon",
+        "name": "Daemon",
+        "title": "Daemon",
+        "category": "Race",
+        "text": "Powerful beings that have become corrupted by dark magicks. Daemons can take nearly any form and are nigh impossible to kill. Daemons roam the land, seeking to kill or convert any who they can find. These beings hold no minds any longer and only wander aimlessly, lest someone aims to take control of their will."
+    }
+]

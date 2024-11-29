@@ -1,0 +1,427 @@
+[
+    {
+        "nid": "None",
+        "name": "None",
+        "desc": "No affinity",
+        "bonus": [],
+        "icon_nid": "",
+        "icon_index": [
+            0,
+            0
+        ]
+    },
+    {
+        "nid": "Fire",
+        "name": "Ignis",
+        "desc": "Grants increased might, accuracy, avoid, and crit rate.",
+        "bonus": [
+            {
+                "support_rank": "C",
+                "damage": 0.5,
+                "resist": 0,
+                "accuracy": 2.5,
+                "avoid": 2.5,
+                "crit": 2.5,
+                "dodge": 0,
+                "attack_speed": 0,
+                "defense_speed": 0
+            },
+            {
+                "support_rank": "B",
+                "damage": 1.0,
+                "resist": 0.0,
+                "accuracy": 5.0,
+                "avoid": 5.0,
+                "crit": 5.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            },
+            {
+                "support_rank": "A",
+                "damage": 1.5,
+                "resist": 0.0,
+                "accuracy": 7.5,
+                "avoid": 7.5,
+                "crit": 7.5,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            }
+        ],
+        "icon_nid": "Affinity",
+        "icon_index": [
+            0,
+            4
+        ]
+    },
+    {
+        "nid": "Wind",
+        "name": "Ventus",
+        "desc": "Grants increased might, accuracy, crit rate, and crit avoid.",
+        "bonus": [
+            {
+                "support_rank": "C",
+                "damage": 0.5,
+                "resist": 0,
+                "accuracy": 2.5,
+                "avoid": 0.0,
+                "crit": 2.5,
+                "dodge": 2.5,
+                "attack_speed": 0,
+                "defense_speed": 0
+            },
+            {
+                "support_rank": "B",
+                "damage": 1.0,
+                "resist": 0.0,
+                "accuracy": 5.0,
+                "avoid": 0.0,
+                "crit": 5.0,
+                "dodge": 5.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            },
+            {
+                "support_rank": "A",
+                "damage": 1.5,
+                "resist": 0.0,
+                "accuracy": 7.5,
+                "avoid": 0.0,
+                "crit": 7.5,
+                "dodge": 7.5,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            }
+        ],
+        "icon_nid": "Affinity",
+        "icon_index": [
+            0,
+            7
+        ]
+    },
+    {
+        "nid": "Thunder",
+        "name": "Fulgus",
+        "desc": "Grants increased defense, avoid, crit rate, and crit avoid.",
+        "bonus": [
+            {
+                "support_rank": "C",
+                "damage": 0.0,
+                "resist": 0.5,
+                "accuracy": 0.0,
+                "avoid": 2.5,
+                "crit": 2.5,
+                "dodge": 2.5,
+                "attack_speed": 0,
+                "defense_speed": 0
+            },
+            {
+                "support_rank": "B",
+                "damage": 0.0,
+                "resist": 1.0,
+                "accuracy": 0.0,
+                "avoid": 5.0,
+                "crit": 5.0,
+                "dodge": 5.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            },
+            {
+                "support_rank": "A",
+                "damage": 0.0,
+                "resist": 1.5,
+                "accuracy": 0.0,
+                "avoid": 7.5,
+                "crit": 7.5,
+                "dodge": 7.5,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            }
+        ],
+        "icon_nid": "Affinity",
+        "icon_index": [
+            0,
+            0
+        ]
+    },
+    {
+        "nid": "Ice",
+        "name": "Glacies",
+        "desc": "Grants increased defense, accuracy, avoid, and crit avoid.",
+        "bonus": [
+            {
+                "support_rank": "C",
+                "damage": 0.0,
+                "resist": 0.5,
+                "accuracy": 2.5,
+                "avoid": 2.5,
+                "crit": 0.0,
+                "dodge": 2.5,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            },
+            {
+                "support_rank": "B",
+                "damage": 0.0,
+                "resist": 1.0,
+                "accuracy": 5.0,
+                "avoid": 5.0,
+                "crit": 0.0,
+                "dodge": 5.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            },
+            {
+                "support_rank": "A",
+                "damage": 0.0,
+                "resist": 1.5,
+                "accuracy": 7.5,
+                "avoid": 7.5,
+                "crit": 0.0,
+                "dodge": 7.5,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            }
+        ],
+        "icon_nid": "Affinity",
+        "icon_index": [
+            0,
+            2
+        ]
+    },
+    {
+        "nid": "Water",
+        "name": "Aquis",
+        "desc": "",
+        "bonus": [],
+        "icon_nid": "Affinity2",
+        "icon_index": [
+            0,
+            6
+        ]
+    },
+    {
+        "nid": "Stone",
+        "name": "Tellus",
+        "desc": "",
+        "bonus": [],
+        "icon_nid": "Affinity",
+        "icon_index": [
+            0,
+            3
+        ]
+    },
+    {
+        "nid": "Dark",
+        "name": "Lunis",
+        "desc": "Grants increased accuracy, avoid, crit rate, and crit avoid.",
+        "bonus": [
+            {
+                "support_rank": "C",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 2.5,
+                "avoid": 2.5,
+                "crit": 2.5,
+                "dodge": 2.5,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            },
+            {
+                "support_rank": "B",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 5.0,
+                "avoid": 5.0,
+                "crit": 5.0,
+                "dodge": 5.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            },
+            {
+                "support_rank": "A",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 7.5,
+                "avoid": 7.5,
+                "crit": 7.5,
+                "dodge": 7.5,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            }
+        ],
+        "icon_nid": "Affinity2",
+        "icon_index": [
+            0,
+            13
+        ]
+    },
+    {
+        "nid": "Light",
+        "name": "Solus",
+        "desc": "Grants increased attack, defense, accuracy, and crit rate.",
+        "bonus": [
+            {
+                "support_rank": "C",
+                "damage": 0.5,
+                "resist": 0.5,
+                "accuracy": 2.5,
+                "avoid": 0.0,
+                "crit": 2.5,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            },
+            {
+                "support_rank": "B",
+                "damage": 1.0,
+                "resist": 1.0,
+                "accuracy": 5.0,
+                "avoid": 0.0,
+                "crit": 5.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            },
+            {
+                "support_rank": "A",
+                "damage": 1.5,
+                "resist": 1.5,
+                "accuracy": 7.5,
+                "avoid": 0.0,
+                "crit": 7.5,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            }
+        ],
+        "icon_nid": "Affinity2",
+        "icon_index": [
+            0,
+            5
+        ]
+    },
+    {
+        "nid": "Earth",
+        "name": "Ornus",
+        "desc": "",
+        "bonus": [],
+        "icon_nid": "Affinity2",
+        "icon_index": [
+            0,
+            8
+        ]
+    },
+    {
+        "nid": "Sea",
+        "name": "Maris",
+        "desc": "",
+        "bonus": [],
+        "icon_nid": "Affinity2",
+        "icon_index": [
+            0,
+            10
+        ]
+    },
+    {
+        "nid": "Sky",
+        "name": "Caelus",
+        "desc": "",
+        "bonus": [],
+        "icon_nid": "Affinity2",
+        "icon_index": [
+            0,
+            9
+        ]
+    },
+    {
+        "nid": "Life",
+        "name": "Indoles",
+        "desc": "",
+        "bonus": [],
+        "icon_nid": "Affinity2",
+        "icon_index": [
+            0,
+            15
+        ]
+    },
+    {
+        "nid": "Night",
+        "name": "Noxis",
+        "desc": "",
+        "bonus": [],
+        "icon_nid": "Affinity2",
+        "icon_index": [
+            0,
+            4
+        ]
+    },
+    {
+        "nid": "Day",
+        "name": "Luxis",
+        "desc": "",
+        "bonus": [],
+        "icon_nid": "Affinity2",
+        "icon_index": [
+            0,
+            12
+        ]
+    },
+    {
+        "nid": "Anima",
+        "name": "Animus",
+        "desc": "Grants increased attack, defense, avoid, and crit avoid.",
+        "bonus": [
+            {
+                "support_rank": "C",
+                "damage": 0.5,
+                "resist": 0.5,
+                "accuracy": 0.0,
+                "avoid": 2.5,
+                "crit": 0.0,
+                "dodge": 2.5,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            },
+            {
+                "support_rank": "B",
+                "damage": 1.0,
+                "resist": 1.0,
+                "accuracy": 0.0,
+                "avoid": 5.0,
+                "crit": 0.0,
+                "dodge": 5.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            },
+            {
+                "support_rank": "A",
+                "damage": 1.5,
+                "resist": 1.5,
+                "accuracy": 0.0,
+                "avoid": 7.5,
+                "crit": 0.0,
+                "dodge": 7.5,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            }
+        ],
+        "icon_nid": "Affinity2",
+        "icon_index": [
+            0,
+            14
+        ]
+    },
+    {
+        "nid": "Nature",
+        "name": "Gaeyis",
+        "desc": "",
+        "bonus": [],
+        "icon_nid": "Affinity2",
+        "icon_index": [
+            0,
+            11
+        ]
+    }
+]

@@ -1,0 +1,392 @@
+[
+    {
+        "nid": "Sword",
+        "name": "Sword",
+        "force_melee_anim": true,
+        "rank_bonus": [],
+        "advantage": [
+            {
+                "weapon_type": "Axe",
+                "weapon_rank": "All",
+                "damage": "1",
+                "resist": "0",
+                "accuracy": "15",
+                "avoid": "0",
+                "crit": "0",
+                "dodge": "0",
+                "attack_speed": "0",
+                "defense_speed": "0"
+            }
+        ],
+        "disadvantage": [
+            {
+                "weapon_type": "Lance",
+                "weapon_rank": "All",
+                "damage": "-1",
+                "resist": "0",
+                "accuracy": "-15",
+                "avoid": "0",
+                "crit": "0",
+                "dodge": "0",
+                "attack_speed": "0",
+                "defense_speed": "0"
+            }
+        ],
+        "icon_nid": "wexp_icons",
+        "icon_index": [
+            0,
+            0
+        ]
+    },
+    {
+        "nid": "Dagger",
+        "name": "Dagger",
+        "force_melee_anim": true,
+        "rank_bonus": [],
+        "advantage": [],
+        "disadvantage": [],
+        "icon_nid": "wexp_icons",
+        "icon_index": [
+            0,
+            6
+        ]
+    },
+    {
+        "nid": "Lance",
+        "name": "Lance",
+        "force_melee_anim": true,
+        "rank_bonus": [],
+        "advantage": [
+            {
+                "weapon_type": "Sword",
+                "weapon_rank": "All",
+                "damage": "1",
+                "resist": "0",
+                "accuracy": "15",
+                "avoid": "0",
+                "crit": "0",
+                "dodge": "0",
+                "attack_speed": "0",
+                "defense_speed": "0"
+            }
+        ],
+        "disadvantage": [
+            {
+                "weapon_type": "Axe",
+                "weapon_rank": "All",
+                "damage": "-1",
+                "resist": "0",
+                "accuracy": "-15",
+                "avoid": "0",
+                "crit": "0",
+                "dodge": "0",
+                "attack_speed": "0",
+                "defense_speed": "0"
+            }
+        ],
+        "icon_nid": "wexp_icons",
+        "icon_index": [
+            0,
+            1
+        ]
+    },
+    {
+        "nid": "Axe",
+        "name": "Axe",
+        "force_melee_anim": true,
+        "rank_bonus": [],
+        "advantage": [
+            {
+                "weapon_type": "Lance",
+                "weapon_rank": "All",
+                "damage": "1",
+                "resist": "0",
+                "accuracy": "15",
+                "avoid": "0",
+                "crit": "0",
+                "dodge": "0",
+                "attack_speed": "0",
+                "defense_speed": "0"
+            }
+        ],
+        "disadvantage": [
+            {
+                "weapon_type": "Sword",
+                "weapon_rank": "All",
+                "damage": "-1",
+                "resist": "0",
+                "accuracy": "-15",
+                "avoid": "0",
+                "crit": "0",
+                "dodge": "0",
+                "attack_speed": "0",
+                "defense_speed": "0"
+            }
+        ],
+        "icon_nid": "wexp_icons",
+        "icon_index": [
+            0,
+            2
+        ]
+    },
+    {
+        "nid": "Bow",
+        "name": "Bow",
+        "force_melee_anim": false,
+        "rank_bonus": [],
+        "advantage": [],
+        "disadvantage": [],
+        "icon_nid": "wexp_icons",
+        "icon_index": [
+            0,
+            3
+        ]
+    },
+    {
+        "nid": "Solus",
+        "name": "Solus",
+        "force_melee_anim": false,
+        "rank_bonus": [],
+        "advantage": [
+            {
+                "weapon_type": "Lunis",
+                "weapon_rank": "All",
+                "damage": "1",
+                "resist": "0",
+                "accuracy": "15",
+                "avoid": "0",
+                "crit": "0",
+                "dodge": "0",
+                "attack_speed": "0",
+                "defense_speed": "0"
+            }
+        ],
+        "disadvantage": [
+            {
+                "weapon_type": "Tellus",
+                "weapon_rank": "All",
+                "damage": "-1",
+                "resist": "0",
+                "accuracy": "-15",
+                "avoid": "0",
+                "crit": "0",
+                "dodge": "0",
+                "attack_speed": "0",
+                "defense_speed": "0"
+            }
+        ],
+        "icon_nid": "wexp_icons",
+        "icon_index": [
+            0,
+            5
+        ]
+    },
+    {
+        "nid": "Lunis",
+        "name": "Lunis",
+        "force_melee_anim": false,
+        "rank_bonus": [],
+        "advantage": [
+            {
+                "weapon_type": "Tellus",
+                "weapon_rank": "All",
+                "damage": "1",
+                "resist": "0",
+                "accuracy": "15",
+                "avoid": "0",
+                "crit": "0",
+                "dodge": "0",
+                "attack_speed": "0",
+                "defense_speed": "0"
+            }
+        ],
+        "disadvantage": [
+            {
+                "weapon_type": "Solus",
+                "weapon_rank": "All",
+                "damage": "-1",
+                "resist": "0",
+                "accuracy": "-15",
+                "avoid": "0",
+                "crit": "0",
+                "dodge": "0",
+                "attack_speed": "0",
+                "defense_speed": "0"
+            }
+        ],
+        "icon_nid": "wexp_icons",
+        "icon_index": [
+            0,
+            7
+        ]
+    },
+    {
+        "nid": "Ignis",
+        "name": "Ignis",
+        "force_melee_anim": false,
+        "rank_bonus": [],
+        "advantage": [],
+        "disadvantage": [],
+        "icon_nid": "Affinity",
+        "icon_index": [
+            0,
+            4
+        ]
+    },
+    {
+        "nid": "Ventus",
+        "name": "Ventus",
+        "force_melee_anim": false,
+        "rank_bonus": [],
+        "advantage": [],
+        "disadvantage": [],
+        "icon_nid": "Affinity",
+        "icon_index": [
+            0,
+            7
+        ]
+    },
+    {
+        "nid": "Fulgus",
+        "name": "Fulgus",
+        "force_melee_anim": false,
+        "rank_bonus": [],
+        "advantage": [],
+        "disadvantage": [],
+        "icon_nid": "Affinity",
+        "icon_index": [
+            0,
+            0
+        ]
+    },
+    {
+        "nid": "Tellus",
+        "name": "Tellus",
+        "force_melee_anim": false,
+        "rank_bonus": [],
+        "advantage": [
+            {
+                "weapon_type": "Solus",
+                "weapon_rank": "All",
+                "damage": "1",
+                "resist": "0",
+                "accuracy": "15",
+                "avoid": "0",
+                "crit": "0",
+                "dodge": "0",
+                "attack_speed": "0",
+                "defense_speed": "0"
+            }
+        ],
+        "disadvantage": [
+            {
+                "weapon_type": "Lunis",
+                "weapon_rank": "All",
+                "damage": "-1",
+                "resist": "0",
+                "accuracy": "-15",
+                "avoid": "0",
+                "crit": "0",
+                "dodge": "0",
+                "attack_speed": "0",
+                "defense_speed": "0"
+            }
+        ],
+        "icon_nid": "Affinity",
+        "icon_index": [
+            0,
+            3
+        ]
+    },
+    {
+        "nid": "Glacies",
+        "name": "Glacies",
+        "force_melee_anim": false,
+        "rank_bonus": [],
+        "advantage": [],
+        "disadvantage": [],
+        "icon_nid": "Affinity",
+        "icon_index": [
+            0,
+            2
+        ]
+    },
+    {
+        "nid": "Aquis",
+        "name": "Aquis",
+        "force_melee_anim": false,
+        "rank_bonus": [],
+        "advantage": [],
+        "disadvantage": [],
+        "icon_nid": "Affinity2",
+        "icon_index": [
+            0,
+            6
+        ]
+    },
+    {
+        "nid": "Claw",
+        "name": "Claw",
+        "force_melee_anim": true,
+        "rank_bonus": [],
+        "advantage": [],
+        "disadvantage": [],
+        "icon_nid": "Neutral",
+        "icon_index": [
+            0,
+            7
+        ]
+    },
+    {
+        "nid": "Staff",
+        "name": "Staff",
+        "force_melee_anim": false,
+        "rank_bonus": [],
+        "advantage": [],
+        "disadvantage": [],
+        "icon_nid": "wexp_icons",
+        "icon_index": [
+            0,
+            4
+        ]
+    },
+    {
+        "nid": "Armor",
+        "name": "Armor",
+        "force_melee_anim": false,
+        "rank_bonus": [],
+        "advantage": [],
+        "disadvantage": [],
+        "icon_nid": "{Cardcafe} {FE15} All Icons",
+        "icon_index": [
+            0,
+            3
+        ]
+    },
+    {
+        "nid": "Default",
+        "name": "Consumable",
+        "force_melee_anim": false,
+        "rank_bonus": [],
+        "advantage": [],
+        "disadvantage": [],
+        "icon_nid": "wexp_icons",
+        "icon_index": [
+            0,
+            8
+        ]
+    },
+    {
+        "nid": "Valuables",
+        "name": "Valuables",
+        "force_melee_anim": false,
+        "rank_bonus": [],
+        "advantage": [],
+        "disadvantage": [],
+        "icon_nid": "Boosters",
+        "icon_index": [
+            0,
+            18
+        ]
+    }
+]
