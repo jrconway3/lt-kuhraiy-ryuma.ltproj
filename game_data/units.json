@@ -30,12 +30,12 @@
             "MOV": 0,
             "RES": 20,
             "STR": 45,
-            "HP": 90,
+            "HP": 60,
             "MAG": 22,
             "SKL": 40,
             "SPD": 45,
             "DEF": 15,
-            "MP": 0
+            "MP": 90
         },
         "stat_cap_modifiers": {
             "RES": 0,
@@ -56,7 +56,7 @@
                 false
             ],
             [
-                "BurstRapier",
+                "Almace",
                 false
             ],
             [
@@ -182,16 +182,16 @@
         ],
         "bases": {
             "LCK": 0,
-            "CON": 10,
-            "MOV": 5,
+            "CON": 0,
+            "MOV": 0,
             "RES": 0,
-            "STR": 7,
-            "HP": 21,
-            "MAG": 3,
-            "SKL": 5,
-            "SPD": 9,
-            "DEF": 7,
-            "MP": 13
+            "STR": 0,
+            "HP": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
+            "MP": 0
         },
         "growths": {
             "LCK": 40,
@@ -227,6 +227,10 @@
             [
                 "Vulnerary",
                 false
+            ],
+            [
+                "Iron_Lance",
+                false
             ]
         ],
         "learned_skills": [],
@@ -239,7 +243,7 @@
             ],
             "Lance": [
                 true,
-                31,
+                0,
                 251
             ],
             "Axe": [
@@ -325,34 +329,34 @@
         "klass": "WolfKnight",
         "tags": [
             "Lord",
+            "Wolf",
             "Mounted",
-            "Chiylo",
             "Lykon"
         ],
         "bases": {
-            "LCK": 2,
-            "CON": 9,
-            "MOV": 7,
-            "RES": 1,
-            "STR": 7,
-            "HP": 20,
-            "MAG": 3,
-            "SKL": 5,
-            "SPD": 7,
-            "DEF": 6,
+            "LCK": 0,
+            "CON": 0,
+            "MOV": 0,
+            "RES": 0,
+            "STR": 0,
+            "HP": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
             "MP": 0
         },
         "growths": {
-            "LCK": 40,
+            "LCK": 25,
             "CON": 0,
             "MOV": 0,
-            "RES": 20,
-            "STR": 40,
-            "HP": 80,
-            "MAG": 20,
-            "SKL": 40,
-            "SPD": 50,
-            "DEF": 25,
+            "RES": 25,
+            "STR": 25,
+            "HP": 70,
+            "MAG": 12,
+            "SKL": 35,
+            "SPD": 25,
+            "DEF": 12,
             "MP": 0
         },
         "stat_cap_modifiers": {
@@ -484,32 +488,36 @@
         "desc": "A skilled mage from a far away land. Having resided in Oestridel for some time, he became a retainer for Lady Miriam.",
         "variant": null,
         "level": 4,
-        "klass": "MageCorps",
-        "tags": [],
+        "klass": "Tactician",
+        "tags": [
+            "Horse",
+            "Mounted",
+            "Zabos"
+        ],
         "bases": {
-            "LCK": 3,
-            "CON": 14,
-            "MOV": 4,
-            "RES": 3,
-            "STR": 9,
-            "HP": 25,
-            "MAG": 5,
-            "SKL": 6,
-            "SPD": 3,
-            "DEF": 9,
+            "LCK": 0,
+            "CON": 0,
+            "MOV": 0,
+            "RES": 0,
+            "STR": 0,
+            "HP": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
             "MP": 0
         },
         "growths": {
-            "LCK": 30,
+            "LCK": 45,
             "CON": 0,
             "MOV": 0,
-            "RES": 20,
-            "STR": 45,
-            "HP": 90,
-            "MAG": 20,
+            "RES": 40,
+            "STR": 0,
+            "HP": 50,
+            "MAG": 25,
             "SKL": 35,
-            "SPD": 30,
-            "DEF": 55,
+            "SPD": 55,
+            "DEF": 12,
             "MP": 0
         },
         "stat_cap_modifiers": {
@@ -536,12 +544,12 @@
         "wexp_gain": {
             "Sword": [
                 false,
-                0,
+                1,
                 251
             ],
             "Lance": [
                 true,
-                71,
+                0,
                 251
             ],
             "Axe": [
@@ -598,11 +606,16 @@
                 false,
                 0,
                 251
+            ],
+            "Ignis": [
+                false,
+                31,
+                null
             ]
         },
         "alternate_classes": [],
         "portrait_nid": "{Levin64} [F2E] OC 7",
-        "affinity": "Thunder",
+        "affinity": "Fire",
         "fields": []
     },
     {
@@ -612,31 +625,33 @@
         "variant": "",
         "level": 1,
         "klass": "Dancer",
-        "tags": [],
+        "tags": [
+            "Zabos"
+        ],
         "bases": {
-            "LCK": 4,
-            "RES": 5,
-            "CON": 5,
-            "MOV": 7,
-            "STR": 5,
-            "HP": 17,
-            "MAG": 2,
-            "SKL": 7,
-            "SPD": 11,
-            "DEF": 6,
+            "LCK": 0,
+            "RES": 0,
+            "CON": 0,
+            "MOV": 0,
+            "STR": 0,
+            "HP": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
             "MP": 0
         },
         "growths": {
-            "LCK": 50,
-            "RES": 30,
+            "LCK": 70,
+            "RES": 13,
             "CON": 0,
             "MOV": 0,
             "STR": 35,
-            "HP": 50,
-            "MAG": 20,
-            "SKL": 55,
+            "HP": 45,
+            "MAG": 45,
+            "SKL": 30,
             "SPD": 60,
-            "DEF": 20,
+            "DEF": 0,
             "MP": 0
         },
         "stat_cap_modifiers": {
@@ -676,7 +691,7 @@
             ],
             "Lance": [
                 true,
-                31,
+                0,
                 251
             ],
             "Axe": [
@@ -733,11 +748,21 @@
                 false,
                 0,
                 251
+            ],
+            "Ignis": [
+                false,
+                31,
+                null
+            ],
+            "Dagger": [
+                false,
+                1,
+                null
             ]
         },
         "alternate_classes": [],
         "portrait_nid": "{VelvetKitsune} F2E OC 1 [AI]",
-        "affinity": "Anima",
+        "affinity": "Fire",
         "fields": []
     },
     {
@@ -746,32 +771,35 @@
         "desc": "A mature priest of Frelia. He's gentle and reassuring.",
         "variant": null,
         "level": 3,
-        "klass": "Cleric",
-        "tags": [],
+        "klass": "Apprentice",
+        "tags": [
+            "Zabos",
+            "Nephyliae"
+        ],
         "bases": {
-            "LCK": 1,
-            "RES": 5,
-            "CON": 9,
-            "MOV": 5,
-            "STR": 6,
-            "HP": 20,
-            "MAG": 4,
-            "SKL": 6,
-            "SPD": 9,
-            "DEF": 2,
+            "LCK": 0,
+            "RES": 0,
+            "CON": 0,
+            "MOV": 0,
+            "STR": 0,
+            "HP": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
             "MP": 0
         },
         "growths": {
             "LCK": 20,
-            "RES": 25,
+            "RES": 40,
             "CON": 0,
             "MOV": 0,
-            "STR": 50,
-            "HP": 70,
-            "MAG": 40,
-            "SKL": 50,
-            "SPD": 40,
-            "DEF": 25,
+            "STR": 0,
+            "HP": 55,
+            "MAG": 55,
+            "SKL": 40,
+            "SPD": 35,
+            "DEF": 5,
             "MP": 0
         },
         "stat_cap_modifiers": {
@@ -857,18 +885,23 @@
             ],
             "Lunis": [
                 false,
-                0,
+                31,
                 251
             ],
             "Tellus": [
                 false,
                 0,
                 251
+            ],
+            "Ignis": [
+                false,
+                1,
+                null
             ]
         },
         "alternate_classes": [],
         "portrait_nid": "Marisa (Black skin) {JeyTheCount} [F2E]",
-        "affinity": "Anima",
+        "affinity": "Night",
         "fields": []
     },
     {
@@ -877,32 +910,36 @@
         "desc": "A young villager. He longs to be a warrior, like his father.",
         "variant": "",
         "level": 1,
-        "klass": "Journeyman",
-        "tags": [],
+        "klass": "Scout",
+        "tags": [
+            "Horse",
+            "LightArmor",
+            "Chiylo"
+        ],
         "bases": {
-            "LCK": 8,
+            "LCK": 0,
             "RES": 0,
-            "CON": 8,
-            "MOV": 5,
-            "STR": 5,
-            "HP": 15,
-            "MAG": 2,
-            "SKL": 2,
-            "SPD": 3,
-            "DEF": 3,
+            "CON": 0,
+            "MOV": 0,
+            "STR": 0,
+            "HP": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
             "MP": 0
         },
         "growths": {
-            "LCK": 50,
-            "RES": 25,
+            "LCK": 35,
+            "RES": 20,
             "CON": 0,
             "MOV": 0,
-            "STR": 60,
-            "HP": 80,
-            "MAG": 35,
-            "SKL": 45,
-            "SPD": 40,
-            "DEF": 30,
+            "STR": 35,
+            "HP": 70,
+            "MAG": 0,
+            "SKL": 40,
+            "SPD": 32,
+            "DEF": 15,
             "MP": 0
         },
         "stat_cap_modifiers": {
@@ -920,7 +957,7 @@
         },
         "starting_items": [
             [
-                "Hatchet",
+                "Iron_Bow",
                 false
             ],
             [
@@ -999,7 +1036,7 @@
         },
         "alternate_classes": [],
         "portrait_nid": "Zoisite_Midir",
-        "affinity": "Fire",
+        "affinity": "Stone",
         "fields": []
     },
     {
@@ -1024,15 +1061,15 @@
             "MP": 0
         },
         "growths": {
-            "LCK": 50,
-            "RES": 35,
+            "LCK": 35,
+            "RES": 20,
             "CON": 0,
             "MOV": 0,
-            "STR": 45,
-            "HP": 55,
-            "MAG": 25,
-            "SKL": 50,
-            "SPD": 60,
+            "STR": 35,
+            "HP": 70,
+            "MAG": 0,
+            "SKL": 40,
+            "SPD": 32,
             "DEF": 15,
             "MP": 0
         },
@@ -1155,16 +1192,16 @@
             "MP": 0
         },
         "growths": {
-            "LCK": 40,
+            "LCK": 15,
             "RES": 15,
             "CON": 0,
             "MOV": 0,
-            "STR": 65,
-            "HP": 80,
+            "STR": 55,
+            "HP": 85,
             "MAG": 0,
-            "SKL": 40,
-            "SPD": 20,
-            "DEF": 25,
+            "SKL": 35,
+            "SPD": 30,
+            "DEF": 15,
             "MP": 0
         },
         "stat_cap_modifiers": {

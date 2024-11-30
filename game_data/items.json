@@ -86,7 +86,7 @@
             ],
             [
                 "value",
-                600
+                300
             ],
             [
                 "target_enemy",
@@ -157,7 +157,7 @@
             ],
             [
                 "value",
-                460
+                500
             ],
             [
                 "target_enemy",
@@ -173,7 +173,7 @@
             ],
             [
                 "damage",
-                5
+                8
             ],
             [
                 "hit",
@@ -189,7 +189,7 @@
             ],
             [
                 "uses",
-                46
+                50
             ],
             [
                 "uses_options",
@@ -228,7 +228,7 @@
             ],
             [
                 "value",
-                480
+                800
             ],
             [
                 "target_enemy",
@@ -244,7 +244,7 @@
             ],
             [
                 "damage",
-                8
+                10
             ],
             [
                 "hit",
@@ -260,7 +260,7 @@
             ],
             [
                 "uses",
-                30
+                40
             ],
             [
                 "uses_options",
@@ -357,7 +357,7 @@
     {
         "nid": "Flamberge",
         "name": "Flamberge.",
-        "desc": "Wielder's weak to fire take +5 Damage wep level < C.\nEffective vs Lykons, Dragons.",
+        "desc": "Effective vs Lykons, Wolves.",
         "icon_nid": "Sword",
         "icon_index": [
             0,
@@ -378,7 +378,7 @@
             ],
             [
                 "max_range",
-                1
+                2
             ],
             [
                 "damage",
@@ -406,7 +406,7 @@
             ],
             [
                 "weapon_rank",
-                "E"
+                "C"
             ],
             [
                 "uses",
@@ -435,18 +435,8 @@
                 }
             ],
             [
-                "prf_tags",
-                [
-                    "Queiza"
-                ]
-            ],
-            [
                 "locked",
                 null
-            ],
-            [
-                "status_on_equip",
-                "SelfImmolate"
             ],
             [
                 "multi_item",
@@ -538,8 +528,8 @@
         ]
     },
     {
-        "nid": "Caliburn",
-        "name": "Caliburn",
+        "nid": "Caliburnus",
+        "name": "Caliburnus",
         "desc": "Resistance +5. Effective against monsters",
         "icon_nid": "Sword",
         "icon_index": [
@@ -1239,9 +1229,9 @@
         ]
     },
     {
-        "nid": "BurstRapier",
-        "name": "Burst Rapier",
-        "desc": "+5 Str/Mag. Wielder's weak to fire take +5 Damage wep level < C.\nEffective vs Lykons, Dragons.",
+        "nid": "Almace",
+        "name": "Almace",
+        "desc": "+5 Str/Mag. Miriam only.\nEffective vs Lykons, Dragons.",
         "icon_nid": "Sword",
         "icon_index": [
             0,
