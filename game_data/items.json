@@ -357,7 +357,7 @@
     {
         "nid": "Flamberge",
         "name": "Flamberge.",
-        "desc": "Effective vs Lykons, Wolves.",
+        "desc": "Attack with Ignis. Effective vs Lykons, Wolves.",
         "icon_nid": "{Beansy} {Swords} All Icons",
         "icon_index": [
             2,
@@ -449,7 +449,7 @@
     {
         "nid": "Light_Brand",
         "name": "Light Brand",
-        "desc": "Uses MAG to determine damage.",
+        "desc": "Attack with Solus. Eff vs Daemons, Nephyliae.",
         "icon_nid": "Sword",
         "icon_index": [
             0,
@@ -524,6 +524,20 @@
                 [
                     "Queiza"
                 ]
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "Cyrehn",
+                        "Nephyliae",
+                        "Monster"
+                    ],
+                    "effective_multiplier": 3,
+                    "effective_bonus_damage": 0,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
             ]
         ]
     },
