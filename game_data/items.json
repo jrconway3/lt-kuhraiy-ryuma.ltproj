@@ -1511,7 +1511,7 @@
             [
                 "multi_item",
                 [
-                    "Flood"
+                    "Deluge"
                 ]
             ]
         ]
@@ -7001,6 +7001,20 @@
             [
                 "battle_cast_anim",
                 "Glimmer"
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "Cyrehn",
+                        "Monster",
+                        "Nephyliae"
+                    ],
+                    "effective_multiplier": 3,
+                    "effective_bonus_damage": 0,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
             ]
         ]
     },
@@ -7159,6 +7173,20 @@
                     255,
                     0
                 ]
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "Cyrehn",
+                        "Nephyliae",
+                        "Monster"
+                    ],
+                    "effective_multiplier": 3,
+                    "effective_bonus_damage": 0,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
             ]
         ]
     },
@@ -7242,6 +7270,20 @@
                     255,
                     0
                 ]
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "Cyrehn",
+                        "Monster",
+                        "Nephyliae"
+                    ],
+                    "effective_multiplier": 3,
+                    "effective_bonus_damage": 0,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
             ]
         ]
     },
@@ -7329,6 +7371,20 @@
                     255,
                     0
                 ]
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "Nephyliae",
+                        "Cyrehn",
+                        "Monster"
+                    ],
+                    "effective_multiplier": 3,
+                    "effective_bonus_damage": 0,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
             ]
         ]
     },
@@ -7412,6 +7468,20 @@
             [
                 "magic",
                 null
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "Cyrehn",
+                        "Nephyliae",
+                        "Monster"
+                    ],
+                    "effective_multiplier": 3,
+                    "effective_bonus_damage": 0,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
             ]
         ]
     },
@@ -7504,7 +7574,9 @@
                 "effective_damage",
                 {
                     "effective_tags": [
-                        "Monster"
+                        "Monster",
+                        "Nephyliae",
+                        "Cyrehn"
                     ],
                     "effective_multiplier": 1.0,
                     "effective_bonus_damage": 34,
@@ -7547,10 +7619,6 @@
             [
                 "weapon_type",
                 "Solus"
-            ],
-            [
-                "weapon_rank",
-                "S"
             ],
             [
                 "magic",
@@ -7603,13 +7671,89 @@
                 "effective_damage",
                 {
                     "effective_tags": [
-                        "Monster"
+                        "Monster",
+                        "Siylphe",
+                        "Nephyliae"
                     ],
                     "effective_multiplier": 1.0,
                     "effective_bonus_damage": 34,
                     "show_effectiveness_flash": true,
                     "weapon_effectiveness_multiplied": true
                 }
+            ]
+        ]
+    },
+    {
+        "nid": "HolyBreath",
+        "name": "Holy Breath",
+        "desc": "Breath magic. Ignore's enemy defence. Dragons only.",
+        "icon_nid": "Neutral",
+        "icon_index": [
+            0,
+            1
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "damage",
+                10
+            ],
+            [
+                "hit",
+                100
+            ],
+            [
+                "locked",
+                null
+            ],
+            [
+                "status_on_equip",
+                "Wretched_Air"
+            ],
+            [
+                "wexp",
+                0
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "alternate_resist_formula",
+                "ZERO"
+            ],
+            [
+                "weapon_type",
+                "Solus"
+            ],
+            [
+                "weapon_rank",
+                "B"
+            ],
+            [
+                "prf_tags",
+                [
+                    "Dragon"
+                ]
             ]
         ]
     },
@@ -7985,6 +8129,20 @@
             [
                 "magic",
                 null
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "Gjin",
+                        "Wolf",
+                        "Lykon"
+                    ],
+                    "effective_multiplier": 3,
+                    "effective_bonus_damage": 0,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
             ]
         ]
     },
@@ -8072,6 +8230,20 @@
             [
                 "wexp",
                 2
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "Gjin",
+                        "Wolf",
+                        "Lykon"
+                    ],
+                    "effective_multiplier": 3,
+                    "effective_bonus_damage": 0,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
             ]
         ]
     },
@@ -8159,6 +8331,20 @@
             [
                 "wexp",
                 2
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "Lykon",
+                        "Gjin",
+                        "Wolf"
+                    ],
+                    "effective_multiplier": 3,
+                    "effective_bonus_damage": 0,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
             ]
         ]
     },
@@ -8246,6 +8432,20 @@
             [
                 "wexp",
                 2
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "Gjin",
+                        "Lykon",
+                        "Wolf"
+                    ],
+                    "effective_multiplier": 3,
+                    "effective_bonus_damage": 0,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
             ]
         ]
     },
@@ -8333,29 +8533,39 @@
             [
                 "wexp",
                 2
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "Gjin",
+                        "Wolf",
+                        "Lykon"
+                    ],
+                    "effective_multiplier": 3,
+                    "effective_bonus_damage": 0,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
             ]
         ]
     },
     {
-        "nid": "HealingWater",
-        "name": "Healing Water",
-        "desc": "Restores (User's MAG + 10) HP.",
-        "icon_nid": "Staff",
+        "nid": "Ragnarok",
+        "name": "Ragnarok",
+        "desc": "",
+        "icon_nid": "Anima",
         "icon_index": [
             0,
-            0
+            2
         ],
         "components": [
             [
-                "spell",
+                "weapon",
                 null
             ],
             [
-                "value",
-                600
-            ],
-            [
-                "target_ally",
+                "target_enemy",
                 null
             ],
             [
@@ -8364,575 +8574,160 @@
             ],
             [
                 "max_range",
-                1
+                3
+            ],
+            [
+                "damage",
+                15
+            ],
+            [
+                "hit",
+                70
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "weight",
+                16
+            ],
+            [
+                "level_exp",
+                null
             ],
             [
                 "weapon_type",
-                "Aquis"
+                "Ignis"
             ],
             [
                 "weapon_rank",
-                "E"
+                "S"
             ],
             [
-                "exp",
-                11
+                "map_hit_add_blend",
+                [
+                    224,
+                    96,
+                    0
+                ]
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "value",
+                6000
+            ],
+            [
+                "uses",
+                10
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
             ],
             [
                 "wexp",
                 2
             ],
             [
-                "map_hit_add_blend",
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "Gjin",
+                        "Wolf",
+                        "Lykon"
+                    ],
+                    "effective_multiplier": 3,
+                    "effective_bonus_damage": 0,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
+            ]
+        ]
+    },
+    {
+        "nid": "FireBreath",
+        "name": "Fire Breath",
+        "desc": "Breath magic. Ignore's enemy defence. Dragons only.",
+        "icon_nid": "Neutral",
+        "icon_index": [
+            0,
+            1
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "damage",
+                10
+            ],
+            [
+                "hit",
+                100
+            ],
+            [
+                "locked",
+                null
+            ],
+            [
+                "status_on_equip",
+                "Wretched_Air"
+            ],
+            [
+                "wexp",
+                0
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "alternate_resist_formula",
+                "ZERO"
+            ],
+            [
+                "weapon_type",
+                "Ignis"
+            ],
+            [
+                "weapon_rank",
+                "B"
+            ],
+            [
+                "prf_tags",
                 [
-                    96,
-                    144,
-                    232
+                    "Dragon"
                 ]
-            ],
-            [
-                "equation_heal",
-                "HEAL"
-            ],
-            [
-                "mana_cost",
-                3
-            ],
-            [
-                "map_cast_anim",
-                "MapSmallHealTrans"
-            ],
-            [
-                "equippable_accessory",
-                null
             ]
         ]
     },
     {
-        "nid": "AquaEdge",
-        "name": "Aqua Edge",
-        "desc": "",
-        "icon_nid": "Anima",
-        "icon_index": [
-            0,
-            4
-        ],
-        "components": [
-            [
-                "weapon",
-                null
-            ],
-            [
-                "target_enemy",
-                null
-            ],
-            [
-                "level_exp",
-                null
-            ],
-            [
-                "damage",
-                3
-            ],
-            [
-                "hit",
-                90
-            ],
-            [
-                "weapon_type",
-                "Aquis"
-            ],
-            [
-                "weapon_rank",
-                "E"
-            ],
-            [
-                "magic",
-                null
-            ],
-            [
-                "weight",
-                3
-            ],
-            [
-                "crit",
-                0
-            ],
-            [
-                "value",
-                300
-            ],
-            [
-                "min_range",
-                1
-            ],
-            [
-                "max_range",
-                2
-            ],
-            [
-                "mana_cost",
-                3
-            ],
-            [
-                "battle_cast_anim",
-                "AquaEdge_Bonzai_Blazer"
-            ]
-        ]
-    },
-    {
-        "nid": "Wave",
-        "name": "Wave",
-        "desc": "",
-        "icon_nid": "Anima",
-        "icon_index": [
-            0,
-            4
-        ],
-        "components": [
-            [
-                "weapon",
-                null
-            ],
-            [
-                "target_enemy",
-                null
-            ],
-            [
-                "level_exp",
-                null
-            ],
-            [
-                "damage",
-                13
-            ],
-            [
-                "hit",
-                80
-            ],
-            [
-                "weapon_type",
-                "Glacies"
-            ],
-            [
-                "weapon_rank",
-                "A"
-            ],
-            [
-                "magic",
-                null
-            ],
-            [
-                "uses",
-                20
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
-                "weight",
-                12
-            ],
-            [
-                "crit",
-                0
-            ],
-            [
-                "value",
-                6000
-            ],
-            [
-                "min_range",
-                1
-            ],
-            [
-                "max_range",
-                2
-            ]
-        ]
-    },
-    {
-        "nid": "Flood",
-        "name": "Flood",
-        "desc": "",
-        "icon_nid": "Anima",
-        "icon_index": [
-            0,
-            4
-        ],
-        "components": [
-            [
-                "weapon",
-                null
-            ],
-            [
-                "target_enemy",
-                null
-            ],
-            [
-                "level_exp",
-                null
-            ],
-            [
-                "damage",
-                13
-            ],
-            [
-                "hit",
-                80
-            ],
-            [
-                "weapon_type",
-                "Glacies"
-            ],
-            [
-                "weapon_rank",
-                "A"
-            ],
-            [
-                "magic",
-                null
-            ],
-            [
-                "uses",
-                20
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
-                "weight",
-                12
-            ],
-            [
-                "crit",
-                0
-            ],
-            [
-                "value",
-                6000
-            ],
-            [
-                "min_range",
-                1
-            ],
-            [
-                "max_range",
-                2
-            ]
-        ]
-    },
-    {
-        "nid": "Flood_1",
-        "name": "Flood",
-        "desc": "",
-        "icon_nid": "Anima",
-        "icon_index": [
-            0,
-            4
-        ],
-        "components": [
-            [
-                "weapon",
-                null
-            ],
-            [
-                "target_enemy",
-                null
-            ],
-            [
-                "level_exp",
-                null
-            ],
-            [
-                "damage",
-                13
-            ],
-            [
-                "hit",
-                80
-            ],
-            [
-                "weapon_type",
-                "Glacies"
-            ],
-            [
-                "weapon_rank",
-                "A"
-            ],
-            [
-                "magic",
-                null
-            ],
-            [
-                "uses",
-                20
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
-                "weight",
-                12
-            ],
-            [
-                "crit",
-                0
-            ],
-            [
-                "value",
-                6000
-            ],
-            [
-                "min_range",
-                1
-            ],
-            [
-                "max_range",
-                2
-            ]
-        ]
-    },
-    {
-        "nid": "Flood_2",
-        "name": "Flood",
-        "desc": "",
-        "icon_nid": "Anima",
-        "icon_index": [
-            0,
-            4
-        ],
-        "components": [
-            [
-                "weapon",
-                null
-            ],
-            [
-                "target_enemy",
-                null
-            ],
-            [
-                "level_exp",
-                null
-            ],
-            [
-                "damage",
-                13
-            ],
-            [
-                "hit",
-                80
-            ],
-            [
-                "weapon_type",
-                "Glacies"
-            ],
-            [
-                "weapon_rank",
-                "A"
-            ],
-            [
-                "magic",
-                null
-            ],
-            [
-                "uses",
-                20
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
-                "weight",
-                12
-            ],
-            [
-                "crit",
-                0
-            ],
-            [
-                "value",
-                6000
-            ],
-            [
-                "min_range",
-                1
-            ],
-            [
-                "max_range",
-                2
-            ]
-        ]
-    },
-    {
-        "nid": "Fimbulvetr_2",
-        "name": "Fimbulvetr",
-        "desc": "",
-        "icon_nid": "Anima",
-        "icon_index": [
-            0,
-            4
-        ],
-        "components": [
-            [
-                "weapon",
-                null
-            ],
-            [
-                "target_enemy",
-                null
-            ],
-            [
-                "level_exp",
-                null
-            ],
-            [
-                "damage",
-                13
-            ],
-            [
-                "hit",
-                80
-            ],
-            [
-                "weapon_type",
-                "Glacies"
-            ],
-            [
-                "weapon_rank",
-                "A"
-            ],
-            [
-                "magic",
-                null
-            ],
-            [
-                "uses",
-                20
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
-                "weight",
-                12
-            ],
-            [
-                "crit",
-                0
-            ],
-            [
-                "value",
-                6000
-            ],
-            [
-                "min_range",
-                1
-            ],
-            [
-                "max_range",
-                2
-            ]
-        ]
-    },
-    {
-        "nid": "Fimbulvetr_1",
-        "name": "Fimbulvetr",
-        "desc": "",
-        "icon_nid": "Anima",
-        "icon_index": [
-            0,
-            4
-        ],
-        "components": [
-            [
-                "weapon",
-                null
-            ],
-            [
-                "target_enemy",
-                null
-            ],
-            [
-                "level_exp",
-                null
-            ],
-            [
-                "damage",
-                13
-            ],
-            [
-                "hit",
-                80
-            ],
-            [
-                "weapon_type",
-                "Glacies"
-            ],
-            [
-                "weapon_rank",
-                "A"
-            ],
-            [
-                "magic",
-                null
-            ],
-            [
-                "uses",
-                20
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
-                "weight",
-                12
-            ],
-            [
-                "crit",
-                0
-            ],
-            [
-                "value",
-                6000
-            ],
-            [
-                "min_range",
-                1
-            ],
-            [
-                "max_range",
-                2
-            ]
-        ]
-    },
-    {
-        "nid": "Thunder",
-        "name": "Thunder",
+        "nid": "Static",
+        "name": "Static",
         "desc": "",
         "icon_nid": "Anima",
         "icon_index": [
@@ -9010,12 +8805,317 @@
                     "lose_uses_on_miss": false,
                     "one_loss_per_combat": false
                 }
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "Queiza",
+                        "Armor",
+                        "Cyrehn"
+                    ],
+                    "effective_multiplier": 3,
+                    "effective_bonus_damage": 0,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
             ]
         ]
     },
     {
-        "nid": "Bolting",
-        "name": "Bolting",
+        "nid": "Shockwave",
+        "name": "Shockwave",
+        "desc": "",
+        "icon_nid": "Anima",
+        "icon_index": [
+            0,
+            1
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "damage",
+                8
+            ],
+            [
+                "hit",
+                80
+            ],
+            [
+                "crit",
+                5
+            ],
+            [
+                "weight",
+                6
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Fulgus"
+            ],
+            [
+                "weapon_rank",
+                "E"
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    251,
+                    255,
+                    0
+                ]
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "value",
+                700
+            ],
+            [
+                "uses",
+                35
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "Queiza",
+                        "Armor",
+                        "Cyrehn"
+                    ],
+                    "effective_multiplier": 3,
+                    "effective_bonus_damage": 0,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
+            ]
+        ]
+    },
+    {
+        "nid": "HighVoltage",
+        "name": "High Voltage",
+        "desc": "",
+        "icon_nid": "Anima",
+        "icon_index": [
+            0,
+            1
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "damage",
+                8
+            ],
+            [
+                "hit",
+                80
+            ],
+            [
+                "crit",
+                5
+            ],
+            [
+                "weight",
+                6
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Fulgus"
+            ],
+            [
+                "weapon_rank",
+                "E"
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    251,
+                    255,
+                    0
+                ]
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "value",
+                700
+            ],
+            [
+                "uses",
+                35
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "Queiza",
+                        "Armor",
+                        "Cyrehn"
+                    ],
+                    "effective_multiplier": 3,
+                    "effective_bonus_damage": 0,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
+            ]
+        ]
+    },
+    {
+        "nid": "Thunderstorm",
+        "name": "Thunderstorm",
+        "desc": "",
+        "icon_nid": "Anima",
+        "icon_index": [
+            0,
+            1
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "damage",
+                8
+            ],
+            [
+                "hit",
+                80
+            ],
+            [
+                "crit",
+                5
+            ],
+            [
+                "weight",
+                6
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Fulgus"
+            ],
+            [
+                "weapon_rank",
+                "E"
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    251,
+                    255,
+                    0
+                ]
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "value",
+                700
+            ],
+            [
+                "uses",
+                35
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "Queiza",
+                        "Armor",
+                        "Cyrehn"
+                    ],
+                    "effective_multiplier": 3,
+                    "effective_bonus_damage": 0,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
+            ]
+        ]
+    },
+    {
+        "nid": "LightningBolt",
+        "name": "Lightning Bolt",
         "desc": "",
         "icon_nid": "Anima",
         "icon_index": [
@@ -9093,13 +9193,1659 @@
             [
                 "siege_weapon",
                 null
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "Cyrehn",
+                        "Queiza",
+                        "Armor"
+                    ],
+                    "effective_multiplier": 3,
+                    "effective_bonus_damage": 0,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
             ]
         ]
     },
     {
-        "nid": "Excalibur_1",
+        "nid": "AlterniaArrow",
+        "name": "Arrow of Alternia",
+        "desc": "",
+        "icon_nid": "Anima",
+        "icon_index": [
+            0,
+            3
+        ],
+        "components": [
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                3
+            ],
+            [
+                "max_range",
+                10
+            ],
+            [
+                "damage",
+                12
+            ],
+            [
+                "hit",
+                60
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "weight",
+                20
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Fulgus"
+            ],
+            [
+                "weapon_rank",
+                "S"
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    255,
+                    255,
+                    0
+                ]
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "value",
+                2500
+            ],
+            [
+                "uses",
+                5
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "siege_weapon",
+                null
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "Cyrehn",
+                        "Queiza",
+                        "Armor"
+                    ],
+                    "effective_multiplier": 3,
+                    "effective_bonus_damage": 0,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
+            ]
+        ]
+    },
+    {
+        "nid": "LightningBreath",
+        "name": "Lightbing Breath",
+        "desc": "Breath magic. Ignore's enemy defence. Dragons only.",
+        "icon_nid": "Neutral",
+        "icon_index": [
+            0,
+            1
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "damage",
+                10
+            ],
+            [
+                "hit",
+                100
+            ],
+            [
+                "locked",
+                null
+            ],
+            [
+                "status_on_equip",
+                "Wretched_Air"
+            ],
+            [
+                "wexp",
+                0
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "alternate_resist_formula",
+                "ZERO"
+            ],
+            [
+                "weapon_type",
+                "Lunis"
+            ],
+            [
+                "weapon_rank",
+                "B"
+            ],
+            [
+                "prf_tags",
+                [
+                    "Dragon"
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "HealingWater",
+        "name": "Healing Water",
+        "desc": "Restores (User's MAG + 10) HP.",
+        "icon_nid": "Staff",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "spell",
+                null
+            ],
+            [
+                "value",
+                600
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "weapon_type",
+                "Aquis"
+            ],
+            [
+                "weapon_rank",
+                "E"
+            ],
+            [
+                "exp",
+                11
+            ],
+            [
+                "wexp",
+                2
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    96,
+                    144,
+                    232
+                ]
+            ],
+            [
+                "equation_heal",
+                "HEAL"
+            ],
+            [
+                "mana_cost",
+                3
+            ],
+            [
+                "map_cast_anim",
+                "MapSmallHealTrans"
+            ],
+            [
+                "equippable_accessory",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "HealingRain",
+        "name": "HealingRain",
+        "desc": "Restores an ally's HP from afar.",
+        "icon_nid": "Staff",
+        "icon_index": [
+            0,
+            3
+        ],
+        "components": [
+            [
+                "spell",
+                null
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "weapon_type",
+                "Aquis"
+            ],
+            [
+                "weapon_rank",
+                "B"
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "uses",
+                15
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "wexp",
+                3
+            ],
+            [
+                "exp",
+                22
+            ],
+            [
+                "value",
+                3750
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    96,
+                    144,
+                    232
+                ]
+            ],
+            [
+                "max_equation_range",
+                "MAGIC_RANGE"
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "equation_heal",
+                "HEAL"
+            ],
+            [
+                "equippable_accessory",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "AquaEdge",
+        "name": "Aqua Edge",
+        "desc": "",
+        "icon_nid": "Anima",
+        "icon_index": [
+            0,
+            4
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "damage",
+                3
+            ],
+            [
+                "hit",
+                90
+            ],
+            [
+                "weapon_type",
+                "Aquis"
+            ],
+            [
+                "weapon_rank",
+                "E"
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "weight",
+                3
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "value",
+                300
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "mana_cost",
+                3
+            ],
+            [
+                "battle_cast_anim",
+                "AquaEdge_Bonzai_Blazer"
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "Chiylo",
+                        "Pnohm",
+                        "Horse"
+                    ],
+                    "effective_multiplier": 3,
+                    "effective_bonus_damage": 0,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    0,
+                    0,
+                    255
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Splash",
+        "name": "Splash",
+        "desc": "",
+        "icon_nid": "Anima",
+        "icon_index": [
+            0,
+            4
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "damage",
+                13
+            ],
+            [
+                "hit",
+                80
+            ],
+            [
+                "weapon_type",
+                "Aquis"
+            ],
+            [
+                "weapon_rank",
+                "D"
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "uses",
+                20
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "weight",
+                10
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "value",
+                6000
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "Chiylo",
+                        "Gjin",
+                        "Horse"
+                    ],
+                    "effective_multiplier": 3,
+                    "effective_bonus_damage": 0,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    0,
+                    0,
+                    255
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Wave",
+        "name": "Wave",
+        "desc": "",
+        "icon_nid": "Anima",
+        "icon_index": [
+            0,
+            4
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "damage",
+                13
+            ],
+            [
+                "hit",
+                80
+            ],
+            [
+                "weapon_type",
+                "Aquis"
+            ],
+            [
+                "weapon_rank",
+                "C"
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "uses",
+                20
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "weight",
+                12
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "value",
+                6000
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "Gjin",
+                        "Chiylo",
+                        "Horse"
+                    ],
+                    "effective_multiplier": 3,
+                    "effective_bonus_damage": 0,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    0,
+                    0,
+                    255
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Deluge",
+        "name": "Deluge",
+        "desc": "",
+        "icon_nid": "Anima",
+        "icon_index": [
+            0,
+            4
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "damage",
+                13
+            ],
+            [
+                "hit",
+                80
+            ],
+            [
+                "weapon_type",
+                "Aquis"
+            ],
+            [
+                "weapon_rank",
+                "B"
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "uses",
+                20
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "weight",
+                12
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "value",
+                6000
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "Gjin",
+                        "Chiylo",
+                        "Horse"
+                    ],
+                    "effective_multiplier": 3,
+                    "effective_bonus_damage": 0,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    0,
+                    0,
+                    255
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Leviathan",
+        "name": "Leviathan",
+        "desc": "",
+        "icon_nid": "Anima",
+        "icon_index": [
+            0,
+            4
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "damage",
+                13
+            ],
+            [
+                "hit",
+                80
+            ],
+            [
+                "weapon_type",
+                "Aquis"
+            ],
+            [
+                "weapon_rank",
+                "A"
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "uses",
+                20
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "weight",
+                12
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "value",
+                6000
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "Gjin",
+                        "Chiylo",
+                        "Horse"
+                    ],
+                    "effective_multiplier": 3,
+                    "effective_bonus_damage": 0,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    0,
+                    0,
+                    255
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "PurifyingBreath",
+        "name": "Purifying Breath",
+        "desc": "Breath magic. Heals allies and restores condition. Dragons only.",
+        "icon_nid": "Neutral",
+        "icon_index": [
+            0,
+            1
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "damage",
+                10
+            ],
+            [
+                "hit",
+                100
+            ],
+            [
+                "locked",
+                null
+            ],
+            [
+                "status_on_equip",
+                "Wretched_Air"
+            ],
+            [
+                "wexp",
+                0
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "alternate_resist_formula",
+                "ZERO"
+            ],
+            [
+                "weapon_type",
+                "Lunis"
+            ],
+            [
+                "weapon_rank",
+                "B"
+            ],
+            [
+                "prf_tags",
+                [
+                    "Dragon"
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Resist",
+        "name": "Resist",
+        "desc": "Raises ally's resistance.",
+        "icon_nid": "Staff",
+        "icon_index": [
+            0,
+            14
+        ],
+        "components": [
+            [
+                "spell",
+                null
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "weapon_type",
+                "Glacies"
+            ],
+            [
+                "weapon_rank",
+                "C"
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "uses",
+                15
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "status_on_hit",
+                "ResistPlus"
+            ],
+            [
+                "wexp",
+                4
+            ],
+            [
+                "exp",
+                17
+            ],
+            [
+                "value",
+                2250
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ]
+        ]
+    },
+    {
+        "nid": "Freeze",
+        "name": "Freeze",
+        "desc": "Enemy cannot move or attack for 2 turns. Frozen enemies receive critical damage if struck.",
+        "icon_nid": "Staff",
+        "icon_index": [
+            0,
+            7
+        ],
+        "components": [
+            [
+                "spell",
+                null
+            ],
+            [
+                "weapon_type",
+                "Glacies"
+            ],
+            [
+                "weapon_rank",
+                "B"
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "uses",
+                3
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "wexp",
+                5
+            ],
+            [
+                "exp",
+                35
+            ],
+            [
+                "value",
+                1500
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "status_on_hit",
+                "Sleep"
+            ],
+            [
+                "max_equation_range",
+                "MAGIC_RANGE"
+            ],
+            [
+                "target_enemy",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "TimeStop",
+        "name": "Time Stop",
+        "desc": "Freezes all units in place for one turn and stops the turn counter except for the wielder.\nCertain units may be immune.",
+        "icon_nid": "Staff",
+        "icon_index": [
+            0,
+            7
+        ],
+        "components": [
+            [
+                "spell",
+                null
+            ],
+            [
+                "weapon_type",
+                "Glacies"
+            ],
+            [
+                "weapon_rank",
+                "S"
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "uses",
+                3
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "wexp",
+                5
+            ],
+            [
+                "exp",
+                35
+            ],
+            [
+                "value",
+                1500
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "status_on_hit",
+                "Petrify"
+            ],
+            [
+                "max_equation_range",
+                "MAGIC_RANGE"
+            ],
+            [
+                "target_enemy",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Icicle",
+        "name": "Fimbulvetr",
+        "desc": "Eff vs Zabos, Avyons, Eagles.",
+        "icon_nid": "Anima",
+        "icon_index": [
+            0,
+            4
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "damage",
+                5
+            ],
+            [
+                "hit",
+                80
+            ],
+            [
+                "weapon_type",
+                "Glacies"
+            ],
+            [
+                "weapon_rank",
+                "E"
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "uses",
+                20
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "weight",
+                12
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "value",
+                6000
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "Zabos",
+                        "Pnohm",
+                        "Eagle",
+                        "Avyon"
+                    ],
+                    "effective_multiplier": 3,
+                    "effective_bonus_damage": 0,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    170,
+                    255,
+                    255
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Frostbite",
+        "name": "Frostbite",
+        "desc": "Eff vs Zabos, Avyons, Eagles.",
+        "icon_nid": "Anima",
+        "icon_index": [
+            0,
+            4
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "damage",
+                5
+            ],
+            [
+                "hit",
+                80
+            ],
+            [
+                "weapon_type",
+                "Glacies"
+            ],
+            [
+                "weapon_rank",
+                "D"
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "uses",
+                20
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "weight",
+                12
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "value",
+                6000
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "Zabos",
+                        "Pnohm",
+                        "Eagle",
+                        "Avyon"
+                    ],
+                    "effective_multiplier": 3,
+                    "effective_bonus_damage": 0,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    170,
+                    255,
+                    255
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Glacier",
+        "name": "Glacier",
+        "desc": "Eff vs Zabos, Avyons, Eagles.",
+        "icon_nid": "Anima",
+        "icon_index": [
+            0,
+            4
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "damage",
+                5
+            ],
+            [
+                "hit",
+                80
+            ],
+            [
+                "weapon_type",
+                "Glacies"
+            ],
+            [
+                "weapon_rank",
+                "C"
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "uses",
+                20
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "weight",
+                12
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "value",
+                6000
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "Zabos",
+                        "Pnohm",
+                        "Eagle",
+                        "Avyon"
+                    ],
+                    "effective_multiplier": 3,
+                    "effective_bonus_damage": 0,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    170,
+                    255,
+                    255
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Blizzard",
+        "name": "Blizzard",
+        "desc": "Eff vs Zabos, Avyons, Eagles.",
+        "icon_nid": "Anima",
+        "icon_index": [
+            0,
+            4
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "damage",
+                5
+            ],
+            [
+                "hit",
+                80
+            ],
+            [
+                "weapon_type",
+                "Glacies"
+            ],
+            [
+                "weapon_rank",
+                "C"
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "uses",
+                20
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "weight",
+                12
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "value",
+                6000
+            ],
+            [
+                "min_range",
+                3
+            ],
+            [
+                "max_range",
+                10
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "Zabos",
+                        "Pnohm",
+                        "Eagle",
+                        "Avyon"
+                    ],
+                    "effective_multiplier": 3,
+                    "effective_bonus_damage": 0,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    170,
+                    255,
+                    255
+                ]
+            ],
+            [
+                "siege_weapon",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Fimbulvetr",
+        "name": "Fimbulvetr",
+        "desc": "",
+        "icon_nid": "Anima",
+        "icon_index": [
+            0,
+            4
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "damage",
+                13
+            ],
+            [
+                "hit",
+                80
+            ],
+            [
+                "weapon_type",
+                "Glacies"
+            ],
+            [
+                "weapon_rank",
+                "A"
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "uses",
+                20
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "weight",
+                12
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "value",
+                6000
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    170,
+                    255,
+                    255
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "FrostBreath",
+        "name": "Frost Breath",
+        "desc": "Breath magic. Ignore's enemy defence. Dragons only.",
+        "icon_nid": "Neutral",
+        "icon_index": [
+            0,
+            1
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "damage",
+                10
+            ],
+            [
+                "hit",
+                100
+            ],
+            [
+                "locked",
+                null
+            ],
+            [
+                "status_on_equip",
+                "Wretched_Air"
+            ],
+            [
+                "wexp",
+                0
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "alternate_resist_formula",
+                "ZERO"
+            ],
+            [
+                "weapon_type",
+                "Lunis"
+            ],
+            [
+                "weapon_rank",
+                "B"
+            ],
+            [
+                "prf_tags",
+                [
+                    "Dragon"
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Gust",
         "name": "Excalibur",
-        "desc": "Speed +5. Effective against monsters",
+        "desc": "Eff vs Nordak, Drakes.",
         "icon_nid": "Anima",
         "icon_index": [
             0,
@@ -9132,7 +10878,7 @@
             ],
             [
                 "weapon_rank",
-                "S"
+                "E"
             ],
             [
                 "magic",
@@ -9169,13 +10915,298 @@
                 "effective_damage",
                 {
                     "effective_tags": [
-                        "Monster"
+                        "Nordak",
+                        "Drake"
                     ],
                     "effective_multiplier": 1.0,
                     "effective_bonus_damage": 36,
                     "show_effectiveness_flash": true,
                     "weapon_effectiveness_multiplied": true
                 }
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    0,
+                    170,
+                    0
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "AirCurrent",
+        "name": "Air Current",
+        "desc": "Eff vs Nordak, Drakes.",
+        "icon_nid": "Anima",
+        "icon_index": [
+            0,
+            5
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "damage",
+                18
+            ],
+            [
+                "hit",
+                90
+            ],
+            [
+                "weapon_type",
+                "Ventus"
+            ],
+            [
+                "weapon_rank",
+                "D"
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "uses",
+                30
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "weight",
+                13
+            ],
+            [
+                "crit",
+                10
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "Nordak",
+                        "Drake"
+                    ],
+                    "effective_multiplier": 1.0,
+                    "effective_bonus_damage": 36,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    0,
+                    170,
+                    0
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "WindCutter",
+        "name": "Wind Cutter",
+        "desc": "Eff vs Nordak, Drakes.",
+        "icon_nid": "Anima",
+        "icon_index": [
+            0,
+            5
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "damage",
+                18
+            ],
+            [
+                "hit",
+                90
+            ],
+            [
+                "weapon_type",
+                "Ventus"
+            ],
+            [
+                "weapon_rank",
+                "C"
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "uses",
+                30
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "weight",
+                13
+            ],
+            [
+                "crit",
+                10
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "Nordak",
+                        "Drake"
+                    ],
+                    "effective_multiplier": 1.0,
+                    "effective_bonus_damage": 36,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    0,
+                    170,
+                    0
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Tornado",
+        "name": "Wind Cutter",
+        "desc": "Eff vs Nordak, Drakes.",
+        "icon_nid": "Anima",
+        "icon_index": [
+            0,
+            5
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "damage",
+                18
+            ],
+            [
+                "hit",
+                90
+            ],
+            [
+                "weapon_type",
+                "Ventus"
+            ],
+            [
+                "weapon_rank",
+                "B"
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "uses",
+                30
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "weight",
+                13
+            ],
+            [
+                "crit",
+                10
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "Nordak",
+                        "Drake"
+                    ],
+                    "effective_multiplier": 1.0,
+                    "effective_bonus_damage": 36,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    0,
+                    170,
+                    0
+                ]
             ]
         ]
     },
@@ -9183,6 +11214,101 @@
         "nid": "Hurricane",
         "name": "Hurricane",
         "desc": "Speed +5. Effective against monsters",
+        "icon_nid": "Anima",
+        "icon_index": [
+            0,
+            5
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "damage",
+                18
+            ],
+            [
+                "hit",
+                90
+            ],
+            [
+                "weapon_type",
+                "Ventus"
+            ],
+            [
+                "weapon_rank",
+                "A"
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "uses",
+                30
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "weight",
+                13
+            ],
+            [
+                "crit",
+                10
+            ],
+            [
+                "status_on_equip",
+                "Speed_Plus5"
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "Monster"
+                    ],
+                    "effective_multiplier": 1.0,
+                    "effective_bonus_damage": 36,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    0,
+                    170,
+                    0
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Ultima",
+        "name": "Ultima",
+        "desc": "Technique perfected by Dalton. Combines Ventus,\nFulgus, and Aquis to form a massive tempest.",
         "icon_nid": "Anima",
         "icon_index": [
             0,
@@ -9263,17 +11389,25 @@
                     "show_effectiveness_flash": true,
                     "weapon_effectiveness_multiplied": true
                 }
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    0,
+                    170,
+                    0
+                ]
             ]
         ]
     },
     {
-        "nid": "Stone",
-        "name": "Stone",
-        "desc": "",
-        "icon_nid": "Dark",
+        "nid": "TempestBreath",
+        "name": "Tempest Breath",
+        "desc": "Breath magic. Ignore's enemy defence. Dragons only.",
+        "icon_nid": "Neutral",
         "icon_index": [
             0,
-            0
+            1
         ],
         "components": [
             [
@@ -9285,6 +11419,34 @@
                 null
             ],
             [
+                "level_exp",
+                null
+            ],
+            [
+                "damage",
+                10
+            ],
+            [
+                "hit",
+                100
+            ],
+            [
+                "locked",
+                null
+            ],
+            [
+                "status_on_equip",
+                "Wretched_Air"
+            ],
+            [
+                "wexp",
+                0
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
                 "min_range",
                 1
             ],
@@ -9293,24 +11455,8 @@
                 2
             ],
             [
-                "damage",
-                7
-            ],
-            [
-                "hit",
-                80
-            ],
-            [
-                "crit",
-                0
-            ],
-            [
-                "weight",
-                8
-            ],
-            [
-                "level_exp",
-                null
+                "alternate_resist_formula",
+                "ZERO"
             ],
             [
                 "weapon_type",
@@ -9318,34 +11464,13 @@
             ],
             [
                 "weapon_rank",
-                "D"
+                "B"
             ],
             [
-                "map_hit_add_blend",
+                "prf_tags",
                 [
-                    170,
-                    85,
-                    0
+                    "Dragon"
                 ]
-            ],
-            [
-                "magic",
-                null
-            ],
-            [
-                "value",
-                900
-            ],
-            [
-                "uses",
-                45
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
             ]
         ]
     },
@@ -9423,7 +11548,7 @@
     {
         "nid": "Petrify",
         "name": "Petrify",
-        "desc": "Encases target in stone for 2 turns.",
+        "desc": "Encases target in stone for 2 turns. All Avd reduced to 0, but damage is greatly reduced.",
         "icon_nid": "Neutral",
         "icon_index": [
             0,
@@ -9496,6 +11621,736 @@
         ]
     },
     {
+        "nid": "StoneWall",
+        "name": "Stone Wall",
+        "desc": "Unit cannot move, but is immune to all physical damage for 1 turn.",
+        "icon_nid": "Staff",
+        "icon_index": [
+            0,
+            12
+        ],
+        "components": [
+            [
+                "spell",
+                null
+            ],
+            [
+                "value",
+                1800
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "min_range",
+                0
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "weapon_type",
+                "Tellus"
+            ],
+            [
+                "weapon_rank",
+                "B"
+            ],
+            [
+                "uses",
+                5
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "exp",
+                20
+            ],
+            [
+                "wexp",
+                2
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    170,
+                    85,
+                    0
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Stone",
+        "name": "Stone",
+        "desc": "",
+        "icon_nid": "Dark",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "damage",
+                7
+            ],
+            [
+                "hit",
+                80
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "weight",
+                8
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Tellus"
+            ],
+            [
+                "weapon_rank",
+                "E"
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    170,
+                    85,
+                    0
+                ]
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "value",
+                900
+            ],
+            [
+                "uses",
+                45
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ]
+        ]
+    },
+    {
+        "nid": "Boulder",
+        "name": "Boulder",
+        "desc": "",
+        "icon_nid": "Dark",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "damage",
+                7
+            ],
+            [
+                "hit",
+                80
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "weight",
+                8
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Tellus"
+            ],
+            [
+                "weapon_rank",
+                "D"
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    170,
+                    85,
+                    0
+                ]
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "value",
+                900
+            ],
+            [
+                "uses",
+                45
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ]
+        ]
+    },
+    {
+        "nid": "Quake",
+        "name": "Quake",
+        "desc": "",
+        "icon_nid": "Dark",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "damage",
+                7
+            ],
+            [
+                "hit",
+                80
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "weight",
+                8
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Tellus"
+            ],
+            [
+                "weapon_rank",
+                "C"
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    170,
+                    85,
+                    0
+                ]
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "value",
+                900
+            ],
+            [
+                "uses",
+                45
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ]
+        ]
+    },
+    {
+        "nid": "Meteor",
+        "name": "Meteor",
+        "desc": "",
+        "icon_nid": "Dark",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                3
+            ],
+            [
+                "max_range",
+                10
+            ],
+            [
+                "damage",
+                7
+            ],
+            [
+                "hit",
+                80
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "weight",
+                8
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Tellus"
+            ],
+            [
+                "weapon_rank",
+                "B"
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    170,
+                    85,
+                    0
+                ]
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "value",
+                900
+            ],
+            [
+                "uses",
+                10
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "siege_weapon",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "RendTerra",
+        "name": "Rend Terra",
+        "desc": "",
+        "icon_nid": "Dark",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "damage",
+                7
+            ],
+            [
+                "hit",
+                80
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "weight",
+                8
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Tellus"
+            ],
+            [
+                "weapon_rank",
+                "A"
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    170,
+                    85,
+                    0
+                ]
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "value",
+                900
+            ],
+            [
+                "uses",
+                45
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ]
+        ]
+    },
+    {
+        "nid": "GaeyaWrath",
+        "name": "Wrath of Gaeya",
+        "desc": "",
+        "icon_nid": "Dark",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "damage",
+                7
+            ],
+            [
+                "hit",
+                80
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "weight",
+                8
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Tellus"
+            ],
+            [
+                "weapon_rank",
+                "S"
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    170,
+                    85,
+                    0
+                ]
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "value",
+                900
+            ],
+            [
+                "uses",
+                45
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ]
+        ]
+    },
+    {
+        "nid": "CorrosiveBreath",
+        "name": "Corrosive Breath",
+        "desc": "Breath magic. Ignore's enemy defence. Dragons only.",
+        "icon_nid": "Neutral",
+        "icon_index": [
+            0,
+            1
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "damage",
+                10
+            ],
+            [
+                "hit",
+                100
+            ],
+            [
+                "locked",
+                null
+            ],
+            [
+                "status_on_equip",
+                "Wretched_Air"
+            ],
+            [
+                "wexp",
+                0
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "alternate_resist_formula",
+                "ZERO"
+            ],
+            [
+                "weapon_type",
+                "Lunis"
+            ],
+            [
+                "weapon_rank",
+                "B"
+            ],
+            [
+                "prf_tags",
+                [
+                    "Dragon"
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Transfusion",
+        "name": "Transfusion",
+        "desc": "Restores an ally's HP from user's own HP, max: user's HP - 1.",
+        "icon_nid": "Staff",
+        "icon_index": [
+            0,
+            2
+        ],
+        "components": [
+            [
+                "spell",
+                null
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "weapon_type",
+                "Lunis"
+            ],
+            [
+                "weapon_rank",
+                "C"
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "heal",
+                99
+            ],
+            [
+                "uses",
+                15
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "wexp",
+                3
+            ],
+            [
+                "exp",
+                17
+            ],
+            [
+                "value",
+                2250
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    94,
+                    144,
+                    232
+                ]
+            ],
+            [
+                "equippable_accessory",
+                null
+            ],
+            [
+                "event_on_hit",
+                "Global DeathEirika"
+            ],
+            [
+                "lifelink",
+                -1.0
+            ]
+        ]
+    },
+    {
         "nid": "Tendril",
         "name": "Tendril",
         "desc": "",
@@ -9547,7 +12402,7 @@
             ],
             [
                 "weapon_rank",
-                "D"
+                "E"
             ],
             [
                 "map_hit_add_blend",
@@ -9574,6 +12429,107 @@
                 {
                     "lose_uses_on_miss": false,
                     "one_loss_per_combat": false
+                }
+            ]
+        ]
+    },
+    {
+        "nid": "Leech",
+        "name": "Leech",
+        "desc": "Dark magic. Eff vs Benoa, Holy.\nUser recovers HP equal to damage dealt.",
+        "icon_nid": "Dark",
+        "icon_index": [
+            0,
+            2
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "damage",
+                10
+            ],
+            [
+                "hit",
+                70
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "weight",
+                14
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Lunis"
+            ],
+            [
+                "weapon_rank",
+                "D"
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    72,
+                    0,
+                    65
+                ]
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "value",
+                3200
+            ],
+            [
+                "uses",
+                20
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "lifelink",
+                1.0
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "Siylphe",
+                        "Benoa",
+                        "Holy"
+                    ],
+                    "effective_multiplier": 3,
+                    "effective_bonus_damage": 0,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
                 }
             ]
         ]
@@ -9658,22 +12614,61 @@
         ]
     },
     {
-        "nid": "Leech",
-        "name": "Leech",
-        "desc": "Dark magic. Eff vs Benoa, Holy characters.\nUser recovers HP equal to damage dealt.",
+        "nid": "Eclipse",
+        "name": "Eclipse",
+        "desc": "",
         "icon_nid": "Dark",
         "icon_index": [
             0,
-            2
+            3
         ],
         "components": [
             [
-                "weapon",
+                "target_enemy",
                 null
             ],
             [
-                "target_enemy",
+                "level_exp",
                 null
+            ],
+            [
+                "hit",
+                30
+            ],
+            [
+                "weapon_type",
+                "Lunis"
+            ],
+            [
+                "weapon_rank",
+                "B"
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "uses",
+                5
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "weight",
+                12
+            ],
+            [
+                "wexp",
+                8
+            ],
+            [
+                "value",
+                4000
             ],
             [
                 "min_range",
@@ -9684,81 +12679,14 @@
                 2
             ],
             [
-                "damage",
-                10
-            ],
-            [
-                "hit",
-                70
-            ],
-            [
-                "crit",
-                0
-            ],
-            [
-                "weight",
-                14
-            ],
-            [
-                "level_exp",
+                "no_double",
                 null
-            ],
-            [
-                "weapon_type",
-                "Lunis"
-            ],
-            [
-                "weapon_rank",
-                "C"
-            ],
-            [
-                "map_hit_add_blend",
-                [
-                    72,
-                    0,
-                    65
-                ]
-            ],
-            [
-                "magic",
-                null
-            ],
-            [
-                "value",
-                3200
-            ],
-            [
-                "uses",
-                20
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
-                "lifelink",
-                1.0
-            ],
-            [
-                "effective_damage",
-                {
-                    "effective_tags": [
-                        "Lord"
-                    ],
-                    "effective_multiplier": 3,
-                    "effective_bonus_damage": 0,
-                    "show_effectiveness_flash": true,
-                    "weapon_effectiveness_multiplied": true
-                }
             ]
         ]
     },
     {
-        "nid": "Eclipse",
-        "name": "Eclipse",
+        "nid": "EclipseOld",
+        "name": "EclipseOld",
         "desc": "Halve's the enemy's current HP",
         "icon_nid": "Dark",
         "icon_index": [
@@ -9836,8 +12764,8 @@
         ]
     },
     {
-        "nid": "Fenrir",
-        "name": "Fenrir",
+        "nid": "Hellfire",
+        "name": "Hellfire",
         "desc": "",
         "icon_nid": "Dark",
         "icon_index": [
@@ -9998,9 +12926,9 @@
         ]
     },
     {
-        "nid": "Naglfar",
-        "name": "Naglfar",
-        "desc": "",
+        "nid": "Jormun",
+        "name": "Jormun",
+        "desc": "Sacred tome of Daemonia.",
         "icon_nid": "Dark",
         "icon_index": [
             0,
@@ -10121,7 +13049,7 @@
             ],
             [
                 "weapon_rank",
-                "A"
+                "B"
             ],
             [
                 "prf_tags",

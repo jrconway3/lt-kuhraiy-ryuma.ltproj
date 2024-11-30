@@ -3584,7 +3584,7 @@
                 false
             ],
             [
-                "Thunder",
+                "Static",
                 false
             ]
         ],
@@ -4896,7 +4896,7 @@
         },
         "starting_items": [
             [
-                "Bolting",
+                "LightningBolt",
                 false
             ],
             [
@@ -5559,7 +5559,7 @@
                 false
             ],
             [
-                "Fenrir",
+                "Hellfire",
                 false
             ]
         ],
