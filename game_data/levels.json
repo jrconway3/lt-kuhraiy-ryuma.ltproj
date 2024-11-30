@@ -1264,7 +1264,7 @@
                 "generic": false
             },
             {
-                "nid": "Neimi",
+                "nid": "Shayala",
                 "team": "player",
                 "ai": "None",
                 "roam_ai": null,
@@ -1754,7 +1754,7 @@
                     "Yarda",
                     "Thanya",
                     "Magne",
-                    "Neimi",
+                    "Shayala",
                     "Garcia"
                 ],
                 "positions": {}
@@ -1904,7 +1904,7 @@
                 "generic": false
             },
             {
-                "nid": "Neimi",
+                "nid": "Shayala",
                 "team": "player",
                 "ai": "None",
                 "roam_ai": null,
@@ -2742,7 +2742,7 @@
                     "Thanya",
                     "Magne",
                     "Colm",
-                    "Neimi"
+                    "Shayala"
                 ],
                 "positions": {}
             },

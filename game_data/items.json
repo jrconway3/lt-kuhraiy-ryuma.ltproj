@@ -3,10 +3,10 @@
         "nid": "Slim_Sword",
         "name": "Slim Sword",
         "desc": "",
-        "icon_nid": "Sword",
+        "icon_nid": "{Beansy} {Swords} All Icons",
         "icon_index": [
-            0,
-            1
+            2,
+            2
         ],
         "components": [
             [
@@ -74,10 +74,10 @@
         "nid": "Bronze_Sword",
         "name": "Bronze Sword",
         "desc": "",
-        "icon_nid": "Sword",
+        "icon_nid": "{Beansy} {Swords} All Icons",
         "icon_index": [
-            0,
-            0
+            3,
+            6
         ],
         "components": [
             [
@@ -145,10 +145,10 @@
         "nid": "Iron_Sword",
         "name": "Iron Sword",
         "desc": "",
-        "icon_nid": "Sword",
+        "icon_nid": "{Beansy} {Swords} All Icons",
         "icon_index": [
-            0,
-            0
+            2,
+            6
         ],
         "components": [
             [
@@ -216,10 +216,10 @@
         "nid": "Steel_Sword",
         "name": "Steel Sword",
         "desc": "",
-        "icon_nid": "Sword",
+        "icon_nid": "{Beansy} {Swords} All Icons",
         "icon_index": [
-            0,
-            2
+            1,
+            6
         ],
         "components": [
             [
@@ -287,10 +287,10 @@
         "nid": "Mythril_Sword",
         "name": "Mythril Sword",
         "desc": "",
-        "icon_nid": "Sword",
+        "icon_nid": "{Beansy} {Swords} All Icons",
         "icon_index": [
-            0,
-            3
+            1,
+            0
         ],
         "components": [
             [
@@ -358,10 +358,10 @@
         "nid": "Flamberge",
         "name": "Flamberge.",
         "desc": "Effective vs Lykons, Wolves.",
-        "icon_nid": "Sword",
+        "icon_nid": "{Beansy} {Swords} All Icons",
         "icon_index": [
-            0,
-            8
+            2,
+            1
         ],
         "components": [
             [
@@ -531,10 +531,10 @@
         "nid": "Caliburnus",
         "name": "Caliburnus",
         "desc": "Resistance +5. Effective against monsters",
-        "icon_nid": "Sword",
+        "icon_nid": "{Beansy} {Swords} All Icons",
         "icon_index": [
             0,
-            19
+            3
         ],
         "components": [
             [
@@ -614,10 +614,10 @@
         "nid": "Bronze_Katana",
         "name": "Bronze Katana",
         "desc": "",
-        "icon_nid": "Sword",
+        "icon_nid": "{Tactics Ogre LUCT, EldritchAbo, serebii01} Item Icon Sheet 1",
         "icon_index": [
-            0,
-            4
+            8,
+            13
         ],
         "components": [
             [
@@ -691,10 +691,10 @@
         "nid": "Iron_Katana",
         "name": "Iron Katana",
         "desc": "",
-        "icon_nid": "Sword",
+        "icon_nid": "{Tactics Ogre LUCT, EldritchAbo, serebii01} Item Icon Sheet 1",
         "icon_index": [
-            0,
-            4
+            6,
+            15
         ],
         "components": [
             [
@@ -766,10 +766,10 @@
         "nid": "Steel_Katana",
         "name": "Steel Katana",
         "desc": "",
-        "icon_nid": "Sword",
+        "icon_nid": "{Tactics Ogre LUCT, EldritchAbo, serebii01} Item Icon Sheet 1",
         "icon_index": [
-            0,
-            5
+            12,
+            15
         ],
         "components": [
             [
@@ -841,10 +841,10 @@
         "nid": "Mythril_Katana",
         "name": "Mythril Katana",
         "desc": "",
-        "icon_nid": "Sword",
+        "icon_nid": "{Tactics Ogre LUCT, EldritchAbo, serebii01} Item Icon Sheet 1",
         "icon_index": [
-            0,
-            6
+            2,
+            15
         ],
         "components": [
             [
@@ -913,13 +913,13 @@
         ]
     },
     {
-        "nid": "DualKatanas",
-        "name": "Dual Katanas",
+        "nid": "SwiftBlade",
+        "name": "Swift Blade",
         "desc": "Allows 2 consecutive hits.",
-        "icon_nid": "Sword",
+        "icon_nid": "{Tactics Ogre LUCT, EldritchAbo, serebii01} Item Icon Sheet 1",
         "icon_index": [
-            0,
-            9
+            14,
+            15
         ],
         "components": [
             [
@@ -995,10 +995,10 @@
         "nid": "Wind_Edge",
         "name": "Wind Edge",
         "desc": "Uses MAG to determine damage. Effective against fliers.",
-        "icon_nid": "Sword",
+        "icon_nid": "{Tactics Ogre LUCT, EldritchAbo, serebii01} Item Icon Sheet 1",
         "icon_index": [
-            0,
-            20
+            3,
+            15
         ],
         "components": [
             [
@@ -1077,12 +1077,12 @@
         ]
     },
     {
-        "nid": "Runesword",
-        "name": "Runesword",
+        "nid": "BloodEdge",
+        "name": "Blood Edge",
         "desc": "Uses MAG to determine damage. Drains HP from enemy",
-        "icon_nid": "Sword",
+        "icon_nid": "{Tactics Ogre LUCT, EldritchAbo, serebii01} Item Icon Sheet 1",
         "icon_index": [
-            0,
+            1,
             15
         ],
         "components": [
@@ -1153,6 +1153,162 @@
                 "prf_tags",
                 [
                     "Siylphe"
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Serrated_Edge",
+        "name": "Serrated Edge",
+        "desc": "",
+        "icon_nid": "Sword",
+        "icon_index": [
+            0,
+            11
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "value",
+                1300
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "damage",
+                9
+            ],
+            [
+                "hit",
+                75
+            ],
+            [
+                "crit",
+                30
+            ],
+            [
+                "weight",
+                7
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Sword"
+            ],
+            [
+                "weapon_rank",
+                "C"
+            ],
+            [
+                "uses",
+                20
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "warning",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Shamshir",
+        "name": "Shamshir",
+        "desc": "For light swordfighters only",
+        "icon_nid": "{Tactics Ogre LUCT, EldritchAbo, serebii01} Item Icon Sheet 1",
+        "icon_index": [
+            13,
+            15
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "damage",
+                8
+            ],
+            [
+                "hit",
+                75
+            ],
+            [
+                "weapon_type",
+                "Sword"
+            ],
+            [
+                "uses",
+                20
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "weight",
+                5
+            ],
+            [
+                "crit",
+                35
+            ],
+            [
+                "warning",
+                null
+            ],
+            [
+                "value",
+                1200
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "weapon_rank",
+                "D"
+            ],
+            [
+                "prf_tags",
+                [
+                    "Sword"
                 ]
             ]
         ]
@@ -1503,162 +1659,6 @@
                 [
                     "Deluge"
                 ]
-            ]
-        ]
-    },
-    {
-        "nid": "Shamshir",
-        "name": "Shamshir",
-        "desc": "For light swordfighters only",
-        "icon_nid": "Sword",
-        "icon_index": [
-            0,
-            10
-        ],
-        "components": [
-            [
-                "weapon",
-                null
-            ],
-            [
-                "target_enemy",
-                null
-            ],
-            [
-                "level_exp",
-                null
-            ],
-            [
-                "damage",
-                8
-            ],
-            [
-                "hit",
-                75
-            ],
-            [
-                "weapon_type",
-                "Sword"
-            ],
-            [
-                "uses",
-                20
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
-                "weight",
-                5
-            ],
-            [
-                "crit",
-                35
-            ],
-            [
-                "warning",
-                null
-            ],
-            [
-                "value",
-                1200
-            ],
-            [
-                "min_range",
-                1
-            ],
-            [
-                "max_range",
-                1
-            ],
-            [
-                "weapon_rank",
-                "D"
-            ],
-            [
-                "prf_tags",
-                [
-                    "Sword"
-                ]
-            ]
-        ]
-    },
-    {
-        "nid": "Serrated_Edge",
-        "name": "Serrated Edge",
-        "desc": "",
-        "icon_nid": "Sword",
-        "icon_index": [
-            0,
-            11
-        ],
-        "components": [
-            [
-                "weapon",
-                null
-            ],
-            [
-                "value",
-                1300
-            ],
-            [
-                "target_enemy",
-                null
-            ],
-            [
-                "min_range",
-                1
-            ],
-            [
-                "max_range",
-                1
-            ],
-            [
-                "damage",
-                9
-            ],
-            [
-                "hit",
-                75
-            ],
-            [
-                "crit",
-                30
-            ],
-            [
-                "weight",
-                7
-            ],
-            [
-                "level_exp",
-                null
-            ],
-            [
-                "weapon_type",
-                "Sword"
-            ],
-            [
-                "weapon_rank",
-                "C"
-            ],
-            [
-                "uses",
-                20
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
-                "warning",
-                null
             ]
         ]
     },

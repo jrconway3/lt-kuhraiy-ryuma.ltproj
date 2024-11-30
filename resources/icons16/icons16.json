@@ -117,7 +117,20 @@
     },
     {
         "nid": "{Beansy} {Swords} All Icons",
-        "subicon_dict": {}
+        "subicon_dict": {
+            "{Beansy} {Swords} All Icons 2, 2": [
+                2,
+                2
+            ],
+            "{Beansy} {Swords} All Icons 3, 6": [
+                3,
+                6
+            ],
+            "{Beansy} {Swords} All Icons 2, 1": [
+                2,
+                1
+            ]
+        }
     },
     {
         "nid": "{Beansy} AnimaSheet",
@@ -211,7 +224,36 @@
     },
     {
         "nid": "{Tactics Ogre LUCT, EldritchAbo, serebii01} Item Icon Sheet 1",
-        "subicon_dict": {}
+        "subicon_dict": {
+            "{Tactics Ogre LUCT, EldritchAbo, serebii01} Item Icon Sheet 1 8, 13": [
+                8,
+                13
+            ],
+            "{Tactics Ogre LUCT, EldritchAbo, serebii01} Item Icon Sheet 1 6, 15": [
+                6,
+                15
+            ],
+            "{Tactics Ogre LUCT, EldritchAbo, serebii01} Item Icon Sheet 1 2, 15": [
+                2,
+                15
+            ],
+            "{Tactics Ogre LUCT, EldritchAbo, serebii01} Item Icon Sheet 1 3, 15": [
+                3,
+                15
+            ],
+            "{Tactics Ogre LUCT, EldritchAbo, serebii01} Item Icon Sheet 1 14, 15": [
+                14,
+                15
+            ],
+            "{Tactics Ogre LUCT, EldritchAbo, serebii01} Item Icon Sheet 1 1, 15": [
+                1,
+                15
+            ],
+            "{Tactics Ogre LUCT, EldritchAbo, serebii01} Item Icon Sheet 1 13, 15": [
+                13,
+                15
+            ]
+        }
     },
     {
         "nid": "{Tactics Ogre LUCT, EldritchAbo, serebii01} Item Icon Sheet 2",
@@ -219,6 +261,18 @@
     },
     {
         "nid": "{Tactics Ogre LUCT, EldritchAbo, serebii01} Item Icon Sheet 3",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "{Ereshkigal} All Tomes",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "{Batima} All Tomes",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "{Beansy} All Tomes",
         "subicon_dict": {}
     }
 ]

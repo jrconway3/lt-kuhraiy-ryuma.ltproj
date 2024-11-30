@@ -1040,13 +1040,18 @@
         "fields": []
     },
     {
-        "nid": "Neimi",
-        "name": "Neimi",
-        "desc": "A childhood friend of Colm who hails from Renais. She cries a lot.",
+        "nid": "Shayala",
+        "name": "Shayala",
+        "desc": "Crown Princess of the Kingdom of Masa.",
         "variant": "Female",
-        "level": 1,
-        "klass": "Scout",
-        "tags": [],
+        "level": 15,
+        "klass": "Saint",
+        "tags": [
+            "Lord",
+            "Horse",
+            "Mounted",
+            "Lykon"
+        ],
         "bases": {
             "LCK": 4,
             "RES": 2,
@@ -1096,7 +1101,12 @@
                 false
             ]
         ],
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Mercy2"
+            ]
+        ],
         "unit_notes": [],
         "wexp_gain": {
             "Sword": [
@@ -1121,7 +1131,7 @@
             ],
             "Staff": [
                 false,
-                0,
+                181,
                 251
             ],
             "Light": [
@@ -1151,7 +1161,7 @@
             ],
             "Solus": [
                 false,
-                0,
+                71,
                 251
             ],
             "Lunis": [
@@ -1161,13 +1171,13 @@
             ],
             "Tellus": [
                 false,
-                0,
+                181,
                 251
             ]
         },
         "alternate_classes": [],
-        "portrait_nid": "Neimi",
-        "affinity": "Fire",
+        "portrait_nid": "Shayala",
+        "affinity": "Life",
         "fields": []
     },
     {
