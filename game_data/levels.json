@@ -4026,9 +4026,9 @@
         "ai_groups": []
     },
     {
-        "nid": "8",
-        "name": "Chapter 8",
-        "tilemap": null,
+        "nid": "5n",
+        "name": "Chapter 5",
+        "tilemap": "Chapter 5_1",
         "bg_tilemap": null,
         "party": "Miriam",
         "music": {},
