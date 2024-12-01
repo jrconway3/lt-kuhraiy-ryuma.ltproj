@@ -4006,14 +4006,14 @@
     {
         "nid": "7",
         "name": "Chapter 7",
-        "tilemap": null,
+        "tilemap": "Chapter 6",
         "bg_tilemap": null,
         "party": "Miriam",
         "music": {},
         "objective": {
-            "simple": "",
+            "simple": "Protect the Villagers",
             "win": "",
-            "loss": ""
+            "loss": "Miriam, Amaya, or Leiland Faint"
         },
         "roam": false,
         "roam_unit": null,

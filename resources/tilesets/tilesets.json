@@ -1409,5 +1409,25 @@
         "nid": "Castle + Customs - Improved Tileset",
         "terrain_grid": {},
         "autotiles": {}
+    },
+    {
+        "nid": "ch5",
+        "terrain_grid": {},
+        "autotiles": {}
+    },
+    {
+        "nid": "ch6",
+        "terrain_grid": {},
+        "autotiles": {}
+    },
+    {
+        "nid": "ch8",
+        "terrain_grid": {},
+        "autotiles": {}
+    },
+    {
+        "nid": "Village - Remake + Coconut Tree + Ship Extras - Tileset_1",
+        "terrain_grid": {},
+        "autotiles": {}
     }
 ]
