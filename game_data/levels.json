@@ -6,14 +6,15 @@
         "bg_tilemap": null,
         "party": "Miriam",
         "music": {
-            "player_phase": "Distant Roads",
-            "enemy_phase": "Shadow of the Enemy",
+            "player_phase": "Chapter - Simple (Riviera, Heaven's Gate by Pikmin1211)",
+            "enemy_phase": "Battle - Enemy (Suikoden, Army Advance by Pandan)",
             "other_phase": null,
             "enemy2_phase": null,
-            "player_battle": "Attack",
-            "enemy_battle": "Defense",
+            "player_battle": "Battle - Attack (Triangle Strategy, Combat - Destiny by Kaidras)",
+            "enemy_battle": "Battle - Defense (Triangle Strategy, Combat - Adversity by Kaidras)",
             "other_battle": null,
-            "enemy2_battle": null
+            "enemy2_battle": null,
+            "boss_battle": "Boss - Minor (Riviera, Fierce Clash by ShinKuma)"
         },
         "objective": {
             "simple": "Defeat boss",

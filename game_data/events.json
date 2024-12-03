@@ -348,10 +348,10 @@
     {
         "name": "Outro",
         "trigger": "level_end",
-        "level_nid": "0",
+        "level_nid": null,
         "condition": "True",
         "commands": [],
-        "only_once": false,
+        "only_once": true,
         "priority": 22,
         "_source": [
             "transition;Close",
@@ -367,7 +367,7 @@
             "speak;Eirika;...Don't worry, Seth. I won't give in to sorrow.|Let's get moving.|I'm not broken, and I won't stop until I see Renais restored.|I won't stop until I'm reunited with my father and brother.",
             "transition;Close"
         ],
-        "nid": "0 Outro"
+        "nid": "Global Outro"
     },
     {
         "name": "OnlyBoss",
@@ -3149,5 +3149,18 @@
             "wait;500"
         ],
         "nid": "2 OnLevelSelect"
+    },
+    {
+        "name": "CombatMercy",
+        "trigger": "combat_end",
+        "level_nid": null,
+        "condition": "'Mercy' in unit.skills",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            ""
+        ],
+        "nid": "Global CombatMercy"
     }
 ]

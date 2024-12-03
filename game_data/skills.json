@@ -140,7 +140,7 @@
     {
         "nid": "Armor",
         "name": "Armor",
-        "desc": "Negates effective damage based on unit's race.\nDoes not affect mounts. All damage reduced by 5.",
+        "desc": "Negates effective damage except armor, mounts.\nDamage taken reduced by 25%.",
         "icon_nid": null,
         "icon_index": [
             0,
@@ -166,19 +166,19 @@
                 ]
             ],
             [
-                "resist",
-                5
-            ],
-            [
                 "hidden_if_inactive",
                 null
+            ],
+            [
+                "resist_multiplier",
+                0.25
             ]
         ]
     },
     {
         "nid": "LightArmor",
         "name": "LightArmor",
-        "desc": "Negates effective damage based on unit's race.\nDoes not affect mounts. All damage reduced by 5.",
+        "desc": "Negates effective damage except light armor, mounts.",
         "icon_nid": null,
         "icon_index": [
             0,
@@ -187,7 +187,7 @@
         "components": [
             [
                 "condition",
-                "'Armor' in unit.tags and 'ArmorBreak' not in unit.tags"
+                "'LightArmor' in unit.tags and 'ArmorBreak' not in unit.tags"
             ],
             [
                 "global",
@@ -236,12 +236,6 @@
             [
                 "hidden_if_inactive",
                 null
-            ],
-            [
-                "has_tags",
-                [
-                    "LightArmor"
-                ]
             ]
         ]
     },
@@ -413,6 +407,34 @@
             [
                 "class_skill",
                 null
+            ]
+        ]
+    },
+    {
+        "nid": "Grounded",
+        "name": "Grounded",
+        "desc": "Unit is now affected by terrain, reduced movement.",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "hidden_if_inactive",
+                null
+            ],
+            [
+                "movement_type",
+                "Light Foot"
+            ],
+            [
+                "modify_maximum_range",
+                1
+            ],
+            [
+                "multi_skill",
+                []
             ]
         ]
     },
@@ -771,7 +793,7 @@
     {
         "nid": "Sleep",
         "name": "Sleep",
-        "desc": "Unit is asleep.",
+        "desc": "Unit is asleep. Recovers 5 HP, 1 MP per turn.\nAwakens upon hit.",
         "icon_nid": "Skills",
         "icon_index": [
             4,
@@ -802,13 +824,22 @@
             [
                 "cannot_use_items",
                 null
+            ],
+            [
+                "lost_on_end_combat2",
+                {
+                    "lost_on_self": false,
+                    "lost_on_ally": false,
+                    "lost_on_enemy": true,
+                    "lost_on_splash": false
+                }
             ]
         ]
     },
     {
-        "nid": "Petrify",
+        "nid": "Freeze",
         "name": "Petrify",
-        "desc": "Unit is petrified. Cannot avoid enemy attacks and suffers -30 dodge.",
+        "desc": "Unit is frozen. Cannot avoid enemy attacks.\nShatters upon being hit once, receiving critical damage.",
         "icon_nid": "Skills",
         "icon_index": [
             2,
@@ -851,10 +882,80 @@
             [
                 "unit_flickering_tint",
                 [
+                    177,
+                    239,
+                    234
+                ]
+            ],
+            [
+                "lost_on_end_combat2",
+                {
+                    "lost_on_self": false,
+                    "lost_on_ally": false,
+                    "lost_on_enemy": true,
+                    "lost_on_splash": false
+                }
+            ]
+        ]
+    },
+    {
+        "nid": "Petrify",
+        "name": "Petrify",
+        "desc": "Unit is petrified. Damage reduced by half.\nCannot avoid enemy attacks, -30 dodge.",
+        "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
+        "icon_index": [
+            5,
+            17
+        ],
+        "components": [
+            [
+                "time",
+                5
+            ],
+            [
+                "unselectable",
+                null
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "MOV",
+                        -99
+                    ]
+                ]
+            ],
+            [
+                "cannot_use_items",
+                null
+            ],
+            [
+                "negative",
+                null
+            ],
+            [
+                "avoid",
+                -1000
+            ],
+            [
+                "crit_avoid",
+                -30
+            ],
+            [
+                "unit_flickering_tint",
+                [
                     65,
                     65,
                     65
                 ]
+            ],
+            [
+                "damage_multiplier",
+                0.5
+            ],
+            [
+                "dynamic_defense_speed",
+                "ZERO"
             ]
         ]
     },
@@ -889,6 +990,26 @@
     },
     {
         "nid": "Mercy2",
+        "name": "Mercy+Init",
+        "desc": "Enemies will be left with 1 HP after combat.",
+        "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
+        "icon_index": [
+            1,
+            16
+        ],
+        "components": [
+            [
+                "skill_before_combat",
+                {
+                    "skill": "Mercy2Enemy",
+                    "recipient": "target",
+                    "allegiance": "enemy"
+                }
+            ]
+        ]
+    },
+    {
+        "nid": "Mercy2Enemy",
         "name": "Mercy+",
         "desc": "Enemies will be left with 1 HP after combat.",
         "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
@@ -898,16 +1019,21 @@
         ],
         "components": [
             [
-                "give_status_after_attack",
-                "Miracle2"
+                "TrueMiracle",
+                null
             ],
             [
-                "dynamic_damage",
-                ""
+                "hidden",
+                null
             ],
             [
-                "event_after_initiated_combat",
-                "Global DeathEirika"
+                "lost_on_end_combat2",
+                {
+                    "lost_on_self": true,
+                    "lost_on_ally": true,
+                    "lost_on_enemy": true,
+                    "lost_on_splash": true
+                }
             ]
         ]
     },
@@ -940,23 +1066,6 @@
             [
                 "TrueMiracle",
                 null
-            ],
-            [
-                "hidden",
-                null
-            ],
-            [
-                "lost_on_end_combat2",
-                {
-                    "lost_on_self": true,
-                    "lost_on_ally": true,
-                    "lost_on_enemy": true,
-                    "lost_on_splash": true
-                }
-            ],
-            [
-                "end_time",
-                0
             ]
         ]
     },

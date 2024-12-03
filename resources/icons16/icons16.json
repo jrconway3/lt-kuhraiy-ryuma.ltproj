@@ -101,7 +101,12 @@
     },
     {
         "nid": "[WEP] Pack 5 {Lisandra Brave}",
-        "subicon_dict": {}
+        "subicon_dict": {
+            "[WEP] Pack 5 {Lisandra Brave} 4, 1": [
+                4,
+                1
+            ]
+        }
     },
     {
         "nid": "{Beansy} {Axes} All Icons",
@@ -129,6 +134,10 @@
             "{Beansy} {Swords} All Icons 2, 1": [
                 2,
                 1
+            ],
+            "{Beansy} {Swords} All Icons 1, 4": [
+                1,
+                4
             ]
         }
     },
