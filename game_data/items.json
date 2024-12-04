@@ -9955,8 +9955,8 @@
         ]
     },
     {
-        "nid": "Wave",
-        "name": "Wave",
+        "nid": "WaterBlast",
+        "name": "Water Blast",
         "desc": "",
         "icon_nid": "Anima",
         "icon_index": [
@@ -10051,7 +10051,7 @@
             ],
             [
                 "battle_cast_anim",
-                "Supercool_MikeySeregon"
+                "BlueExplosion_Scraiza"
             ]
         ]
     },

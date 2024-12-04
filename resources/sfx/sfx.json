@@ -1010,5 +1010,33 @@
     [
         "ZombieWindup",
         null
+    ],
+    [
+        "XXX_2E0_rumbling_weird",
+        "Magic"
+    ],
+    [
+        "XXX_2F9_swish_sound",
+        "Magic"
+    ],
+    [
+        "XXX_11D_rumbling_sound",
+        "Magic"
+    ],
+    [
+        "Myrrh Transform 1",
+        "Dragon"
+    ],
+    [
+        "Myrrh Transform 2 (DD)",
+        "Dragon"
+    ],
+    [
+        "XXX_2F0_dragons_gate",
+        "Magic"
+    ],
+    [
+        "XXX_3X9_egg_grow",
+        "Monster"
     ]
 ]
