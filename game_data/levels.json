@@ -4091,5 +4091,27 @@
         "regions": [],
         "unit_groups": [],
         "ai_groups": []
+    },
+    {
+        "nid": "RoamOestridel",
+        "name": "Trade City Oestridel",
+        "tilemap": "Trade City Oestridel",
+        "bg_tilemap": null,
+        "party": "Miriam",
+        "music": {},
+        "objective": {
+            "simple": "Free Roam",
+            "win": "",
+            "loss": ""
+        },
+        "roam": true,
+        "roam_unit": "Miriam",
+        "go_to_overworld": false,
+        "should_record": false,
+        "tags": [],
+        "units": [],
+        "regions": [],
+        "unit_groups": [],
+        "ai_groups": []
     }
 ]
