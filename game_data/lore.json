@@ -4,7 +4,7 @@
         "name": "Miriam",
         "title": "Miriam Pearl Renald",
         "category": "Character",
-        "text": "Adoptive daughter of House Renald of Oestridel from the Kingdom of Masa.{br} Miriam is beloved by the people of Oestridel all across the demesne. However, as a Queiza living amongst Lykons she feels inadequate to her position at times."
+        "text": "It is my most esteemed pleasure to be able to write about all my findings. Alas, even I know not much about myself... mother still refuses to answer my questions. Where did I come from? How did I come to arrive in a Lykon house? What will happen if mother... were to...\n\nNo, I mustn\u2019t think it. I will prove myself. I won\u2019t be forgotten."
     },
     {
         "nid": "Miriam2",
@@ -21,6 +21,13 @@
         "text": "Addendum:\nMiriam is actually not a proper Queiza. Rather, she is of the Lanquiz, a sub-race of the Queiza, also known as Water Dragons. The Lanquiz, fearful of the world, sealed away their own power for over a thousand years.{br}\nDue to being born outside of the Kingdom of Omyrus, however, Miriam escaped from the magical seal that would have been placed on her, allowing her to be born in her people's true form."
     },
     {
+        "nid": "Leiland",
+        "name": "Leiland",
+        "title": "Leiland Renald",
+        "category": "Character",
+        "text": "A nobleman of House Renald of Oestridel,  next in line to rule the demesne. Although they are not siblings by birth, Leiland sees Miriam as close as any birth sibling. He is dutiful to his people.{br}\nThrough his mother Ambryl, he is also a prince of the Kingdom, though distant. Should anything happen to Crown Princess Shayala, he is within the line of succession."
+    },
+    {
         "nid": "Amaya",
         "name": "Amaya",
         "title": "Amaya Yurias Lyudam",
@@ -33,13 +40,6 @@
         "title": "Amaya: Truth Revealed",
         "category": "Character",
         "text": "Addendum:\nAmaya "
-    },
-    {
-        "nid": "Leiland",
-        "name": "Leiland",
-        "title": "Leiland Renald",
-        "category": "Character",
-        "text": "A nobleman of House Renald of Oestridel,  next in line to rule the demesne. Although they are not siblings by birth, Leiland sees Miriam as close as any birth sibling. He is dutiful to his people.{br}\nThrough his mother Ambryl, he is also a prince of the Kingdom, though distant. Should anything happen to Crown Princess Shayala, he is within the line of succession."
     },
     {
         "nid": "Alphar",
@@ -117,5 +117,12 @@
         "title": "Daemon",
         "category": "Race",
         "text": "Powerful beings that have become corrupted by dark magicks. Daemons can take nearly any form and are nigh impossible to kill. Daemons roam the land, seeking to kill or convert any who they can find. These beings hold no minds any longer and only wander aimlessly, lest someone aims to take control of their will."
+    },
+    {
+        "nid": "Music",
+        "name": "Music",
+        "title": "Music",
+        "category": "Credits",
+        "text": "\"Bumming Around in Pixel Town\"\nby Eric Matyas\nwww.soundimage.org"
     }
 ]

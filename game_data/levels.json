@@ -1,6 +1,196 @@
 [
     {
-        "nid": "0",
+        "nid": "_Oestridel",
+        "name": "Trade City Oestridel",
+        "tilemap": "Trade City Oestridel",
+        "bg_tilemap": null,
+        "party": "Miriam",
+        "music": {
+            "player_phase": "Bumming Around in Pixeltown_Looping"
+        },
+        "objective": {
+            "simple": "Free Roam",
+            "win": "",
+            "loss": ""
+        },
+        "roam": true,
+        "roam_unit": "Miriam",
+        "go_to_overworld": false,
+        "should_record": false,
+        "tags": [],
+        "units": [],
+        "regions": [],
+        "unit_groups": [],
+        "ai_groups": []
+    },
+    {
+        "nid": "Ch0",
+        "name": "Prologue - Lady of Oestridel",
+        "tilemap": null,
+        "bg_tilemap": null,
+        "party": "Miriam",
+        "music": {},
+        "objective": {
+            "simple": "Stop the Rioters",
+            "win": "",
+            "loss": "Any Ally Faints"
+        },
+        "roam": false,
+        "roam_unit": "Miriam",
+        "go_to_overworld": false,
+        "should_record": true,
+        "tags": [],
+        "units": [
+            {
+                "nid": "Miriam",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Amaya",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Leiland",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            }
+        ],
+        "regions": [
+            {
+                "nid": "New Region",
+                "region_type": "normal",
+                "position": null,
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            }
+        ],
+        "unit_groups": [
+            {
+                "nid": "Renald",
+                "units": [
+                    "Miriam",
+                    "Amaya",
+                    "Leiland"
+                ],
+                "positions": {}
+            }
+        ],
+        "ai_groups": []
+    },
+    {
+        "nid": "5",
+        "name": "Chapter 5",
+        "tilemap": null,
+        "bg_tilemap": null,
+        "party": "Miriam",
+        "music": {},
+        "objective": {
+            "simple": "",
+            "win": "",
+            "loss": ""
+        },
+        "roam": false,
+        "roam_unit": null,
+        "go_to_overworld": false,
+        "should_record": true,
+        "tags": [],
+        "units": [],
+        "regions": [],
+        "unit_groups": [],
+        "ai_groups": []
+    },
+    {
+        "nid": "7",
+        "name": "Chapter 7",
+        "tilemap": "Chapter 6",
+        "bg_tilemap": null,
+        "party": "Miriam",
+        "music": {},
+        "objective": {
+            "simple": "Protect the Villagers",
+            "win": "",
+            "loss": "Miriam, Amaya, or Leiland Faint"
+        },
+        "roam": false,
+        "roam_unit": null,
+        "go_to_overworld": false,
+        "should_record": true,
+        "tags": [],
+        "units": [],
+        "regions": [],
+        "unit_groups": [],
+        "ai_groups": []
+    },
+    {
+        "nid": "9",
+        "name": "Chapter 9",
+        "tilemap": "Chapter 5_1",
+        "bg_tilemap": null,
+        "party": "Miriam",
+        "music": {},
+        "objective": {
+            "simple": "",
+            "win": "",
+            "loss": ""
+        },
+        "roam": false,
+        "roam_unit": null,
+        "go_to_overworld": false,
+        "should_record": true,
+        "tags": [],
+        "units": [],
+        "regions": [],
+        "unit_groups": [],
+        "ai_groups": []
+    },
+    {
+        "nid": "10",
+        "name": "Chapter 10",
+        "tilemap": null,
+        "bg_tilemap": null,
+        "party": "Miriam",
+        "music": {},
+        "objective": {
+            "simple": "",
+            "win": "",
+            "loss": ""
+        },
+        "roam": false,
+        "roam_unit": null,
+        "go_to_overworld": false,
+        "should_record": true,
+        "tags": [],
+        "units": [],
+        "regions": [],
+        "unit_groups": [],
+        "ai_groups": []
+    },
+    {
+        "nid": "SS0",
         "name": "Prologue",
         "tilemap": "Prologue",
         "bg_tilemap": null,
@@ -138,7 +328,7 @@
         "ai_groups": []
     },
     {
-        "nid": "1",
+        "nid": "SS1",
         "name": "Ch. 1: Escape!",
         "tilemap": "Chapter 1",
         "bg_tilemap": null,
@@ -629,7 +819,7 @@
         "ai_groups": []
     },
     {
-        "nid": "2",
+        "nid": "SS2",
         "name": "Ch. 2: The Protected",
         "tilemap": "Chapter 2",
         "bg_tilemap": null,
@@ -1134,7 +1324,7 @@
         "ai_groups": []
     },
     {
-        "nid": "3",
+        "nid": "SS3",
         "name": "Ch. 3: The Bandits of Borgo",
         "tilemap": "Chapter 3",
         "bg_tilemap": null,
@@ -1764,7 +1954,7 @@
         "ai_groups": []
     },
     {
-        "nid": "4",
+        "nid": "SS4",
         "name": "Ch. 4: Ancient Horrors",
         "tilemap": "Chapter 4",
         "bg_tilemap": null,
@@ -2782,7 +2972,7 @@
         "ai_groups": []
     },
     {
-        "nid": "5",
+        "nid": "SS5",
         "name": "Ch. 5: The Empire's Reach",
         "tilemap": "Chapter 5",
         "bg_tilemap": null,
@@ -3923,194 +4113,6 @@
                 "interrupt_move": false
             }
         ],
-        "unit_groups": [],
-        "ai_groups": []
-    },
-    {
-        "nid": "Ch0",
-        "name": "Prologue - Lady of Oestridel",
-        "tilemap": null,
-        "bg_tilemap": null,
-        "party": "Miriam",
-        "music": {},
-        "objective": {
-            "simple": "Stop the Rioters",
-            "win": "",
-            "loss": "Any Ally Faints"
-        },
-        "roam": false,
-        "roam_unit": "Miriam",
-        "go_to_overworld": false,
-        "should_record": true,
-        "tags": [],
-        "units": [
-            {
-                "nid": "Miriam",
-                "team": "player",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
-                "nid": "Amaya",
-                "team": "player",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
-                "nid": "Leiland",
-                "team": "player",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": false
-            }
-        ],
-        "regions": [
-            {
-                "nid": "New Region",
-                "region_type": "normal",
-                "position": null,
-                "size": [
-                    1,
-                    1
-                ],
-                "sub_nid": "",
-                "condition": "True",
-                "time_left": null,
-                "only_once": false,
-                "interrupt_move": false
-            }
-        ],
-        "unit_groups": [
-            {
-                "nid": "Renald",
-                "units": [
-                    "Miriam",
-                    "Amaya",
-                    "Leiland"
-                ],
-                "positions": {}
-            }
-        ],
-        "ai_groups": []
-    },
-    {
-        "nid": "7",
-        "name": "Chapter 7",
-        "tilemap": "Chapter 6",
-        "bg_tilemap": null,
-        "party": "Miriam",
-        "music": {},
-        "objective": {
-            "simple": "Protect the Villagers",
-            "win": "",
-            "loss": "Miriam, Amaya, or Leiland Faint"
-        },
-        "roam": false,
-        "roam_unit": null,
-        "go_to_overworld": false,
-        "should_record": true,
-        "tags": [],
-        "units": [],
-        "regions": [],
-        "unit_groups": [],
-        "ai_groups": []
-    },
-    {
-        "nid": "5n",
-        "name": "Chapter 5",
-        "tilemap": "Chapter 5_1",
-        "bg_tilemap": null,
-        "party": "Miriam",
-        "music": {},
-        "objective": {
-            "simple": "",
-            "win": "",
-            "loss": ""
-        },
-        "roam": false,
-        "roam_unit": null,
-        "go_to_overworld": false,
-        "should_record": true,
-        "tags": [],
-        "units": [],
-        "regions": [],
-        "unit_groups": [],
-        "ai_groups": []
-    },
-    {
-        "nid": "9",
-        "name": "Chapter 9",
-        "tilemap": null,
-        "bg_tilemap": null,
-        "party": "Miriam",
-        "music": {},
-        "objective": {
-            "simple": "",
-            "win": "",
-            "loss": ""
-        },
-        "roam": false,
-        "roam_unit": null,
-        "go_to_overworld": false,
-        "should_record": true,
-        "tags": [],
-        "units": [],
-        "regions": [],
-        "unit_groups": [],
-        "ai_groups": []
-    },
-    {
-        "nid": "10",
-        "name": "Chapter 10",
-        "tilemap": null,
-        "bg_tilemap": null,
-        "party": "Miriam",
-        "music": {},
-        "objective": {
-            "simple": "",
-            "win": "",
-            "loss": ""
-        },
-        "roam": false,
-        "roam_unit": null,
-        "go_to_overworld": false,
-        "should_record": true,
-        "tags": [],
-        "units": [],
-        "regions": [],
-        "unit_groups": [],
-        "ai_groups": []
-    },
-    {
-        "nid": "RoamOestridel",
-        "name": "Trade City Oestridel",
-        "tilemap": "Trade City Oestridel",
-        "bg_tilemap": null,
-        "party": "Miriam",
-        "music": {},
-        "objective": {
-            "simple": "Free Roam",
-            "win": "",
-            "loss": ""
-        },
-        "roam": true,
-        "roam_unit": "Miriam",
-        "go_to_overworld": false,
-        "should_record": false,
-        "tags": [],
-        "units": [],
-        "regions": [],
         "unit_groups": [],
         "ai_groups": []
     }

@@ -10,7 +10,7 @@
         "minimap": "Grass",
         "platform": "Plains",
         "background": "combat_plains",
-        "mtype": "Normal",
+        "mtype": "Snow",
         "opaque": false,
         "status": null
     },
@@ -26,7 +26,7 @@
         "platform": "Wall",
         "background": "BlackBackground",
         "mtype": "Fence",
-        "opaque": false,
+        "opaque": true,
         "status": null
     },
     {
@@ -56,7 +56,7 @@
         "platform": "Thicket",
         "background": "combat_swamp",
         "mtype": "Thicket",
-        "opaque": false,
+        "opaque": true,
         "status": "Peak"
     },
     {
@@ -462,6 +462,66 @@
         "background": "combat_outside_castle",
         "mtype": "Fort",
         "opaque": false,
-        "status": "Fort"
+        "status": "Cathedral"
+    },
+    {
+        "nid": "40",
+        "name": "Chapel",
+        "color": [
+            199,
+            199,
+            199
+        ],
+        "minimap": "Fort",
+        "platform": "Pillar",
+        "background": "combat_outside_castle",
+        "mtype": "Fort",
+        "opaque": false,
+        "status": "Inn"
+    },
+    {
+        "nid": "41",
+        "name": "Inn",
+        "color": [
+            0,
+            255,
+            255
+        ],
+        "minimap": "Fort",
+        "platform": "Pillar",
+        "background": "combat_outside_castle",
+        "mtype": "Fort",
+        "opaque": false,
+        "status": "Inn"
+    },
+    {
+        "nid": "42",
+        "name": "Roof",
+        "color": [
+            170,
+            85,
+            0
+        ],
+        "minimap": "Wall",
+        "platform": "House",
+        "background": "combat_village",
+        "mtype": "Building",
+        "opaque": true,
+        "status": null
+    },
+    {
+        "nid": "43",
+        "name": "Building",
+        "color": [
+            85,
+            85,
+            0
+        ],
+        "minimap": "Wall",
+        "platform": "House",
+        "background": "combat_village",
+        "mtype": "Building",
+        "opaque": true,
+        "status": null
     }
 ]

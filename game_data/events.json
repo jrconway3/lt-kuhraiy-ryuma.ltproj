@@ -2,7 +2,7 @@
     {
         "name": "Intro",
         "trigger": "level_start",
-        "level_nid": "0",
+        "level_nid": "SS0",
         "condition": "True",
         "commands": [],
         "only_once": false,
@@ -65,7 +65,7 @@
             "remove_portrait;Eirika;no_block",
             "remove_portrait;Seth"
         ],
-        "nid": "0 Intro"
+        "nid": "SS0 Intro"
     },
     {
         "name": "DeathEirika",
@@ -300,7 +300,7 @@
     {
         "name": "DeathONeill",
         "trigger": "unit_death",
-        "level_nid": "0",
+        "level_nid": "SS0",
         "condition": "unit.nid == \"O'Neill\"",
         "commands": [],
         "only_once": false,
@@ -311,12 +311,12 @@
             "expression;O'Neill;CloseEyes",
             "remove_portrait;O'Neill"
         ],
-        "nid": "0 DeathONeill"
+        "nid": "SS0 DeathONeill"
     },
     {
         "name": "DeathSaar",
         "trigger": "unit_death",
-        "level_nid": "5",
+        "level_nid": "SS5",
         "condition": "unit.nid == \"Saar\"",
         "commands": [],
         "only_once": false,
@@ -327,12 +327,12 @@
             "expression;Saar;CloseEyes",
             "remove_portrait;Saar"
         ],
-        "nid": "5 DeathSaar"
+        "nid": "SS5 DeathSaar"
     },
     {
         "name": "DeathBreguet",
         "trigger": "unit_death",
-        "level_nid": "1",
+        "level_nid": "SS1",
         "condition": "unit.nid == \"Breguet\"",
         "commands": [],
         "only_once": false,
@@ -343,7 +343,7 @@
             "expression;Breguet;CloseEyes",
             "remove_portrait;Breguet"
         ],
-        "nid": "1 DeathBreguet"
+        "nid": "SS1 DeathBreguet"
     },
     {
         "name": "Outro",
@@ -372,7 +372,7 @@
     {
         "name": "OnlyBoss",
         "trigger": "combat_end",
-        "level_nid": "0",
+        "level_nid": "SS0",
         "condition": "len(game.get_enemy_units()) == 1",
         "commands": [],
         "only_once": true,
@@ -382,12 +382,12 @@
             "speak;Seth;All that's left is their leader...",
             "remove_portrait;Seth"
         ],
-        "nid": "0 OnlyBoss"
+        "nid": "SS0 OnlyBoss"
     },
     {
         "name": "Defeat Boss",
         "trigger": "combat_end",
-        "level_nid": "0",
+        "level_nid": "SS0",
         "condition": "game.check_dead(\"O'Neill\")",
         "commands": [],
         "only_once": false,
@@ -395,12 +395,12 @@
         "_source": [
             "win_game"
         ],
-        "nid": "0 Defeat Boss"
+        "nid": "SS0 Defeat Boss"
     },
     {
         "name": "Defeat Boss",
         "trigger": "combat_end",
-        "level_nid": "5",
+        "level_nid": "SS5",
         "condition": "game.check_dead(\"Saar\")",
         "commands": [],
         "only_once": false,
@@ -408,12 +408,12 @@
         "_source": [
             "win_game"
         ],
-        "nid": "5 Defeat Boss"
+        "nid": "SS5 Defeat Boss"
     },
     {
         "name": "EnemyTurn2",
         "trigger": "enemy_turn_change",
-        "level_nid": "0",
+        "level_nid": "SS0",
         "condition": "game.turncount == 2",
         "commands": [],
         "only_once": false,
@@ -424,12 +424,12 @@
             "remove_portrait;O'Neill",
             "change_ai;O'Neill;Defend"
         ],
-        "nid": "0 EnemyTurn2"
+        "nid": "SS0 EnemyTurn2"
     },
     {
         "name": "FightONeill",
         "trigger": "combat_start",
-        "level_nid": "0",
+        "level_nid": "SS0",
         "condition": "check_default(\"O'Neill\",['Eirika'])",
         "commands": [],
         "only_once": true,
@@ -440,12 +440,12 @@
             "remove_portrait;O'Neill",
             "change_music;player_phase;Grasp at Victory"
         ],
-        "nid": "0 FightONeill"
+        "nid": "SS0 FightONeill"
     },
     {
         "name": "Eirika/ONeill",
         "trigger": "combat_start",
-        "level_nid": "0",
+        "level_nid": "SS0",
         "condition": "check_pair('Eirika',\"O'Neill\")",
         "commands": [],
         "only_once": true,
@@ -463,12 +463,12 @@
             "change_music;player_phase;Grasp at Victory",
             "show_combat_ui"
         ],
-        "nid": "0 Eirika/ONeill"
+        "nid": "SS0 Eirika/ONeill"
     },
     {
         "name": "FightSaar",
         "trigger": "combat_start",
-        "level_nid": "5",
+        "level_nid": "SS5",
         "condition": "unit.nid == \"Saar\" or unit2.nid == \"Saar\"",
         "commands": [],
         "only_once": true,
@@ -478,12 +478,12 @@
             "speak;Saar;Enemy of the empire!{br}Death's too good for you!",
             "remove_portrait;Saar"
         ],
-        "nid": "5 FightSaar"
+        "nid": "SS5 FightSaar"
     },
     {
         "name": "FightBreguet",
         "trigger": "combat_start",
-        "level_nid": "1",
+        "level_nid": "SS1",
         "condition": "(unit.nid == \"Breguet\" and unit2.team == 'player') or (unit2.nid == \"Breguet\" and unit.team == 'player')",
         "commands": [],
         "only_once": true,
@@ -493,12 +493,12 @@
             "speak;Breguet;Bah, what a worthless lot of curs I've been assigned!",
             "remove_portrait;Breguet"
         ],
-        "nid": "1 FightBreguet"
+        "nid": "SS1 FightBreguet"
     },
     {
         "name": "GilliamFranzArrive",
         "trigger": "turn_change",
-        "level_nid": "1",
+        "level_nid": "SS1",
         "condition": "game.turncount == 2",
         "commands": [],
         "only_once": false,
@@ -523,12 +523,12 @@
             "remove_portrait;Franz;no_block",
             "remove_portrait;Gilliam"
         ],
-        "nid": "1 GilliamFranzArrive"
+        "nid": "SS1 GilliamFranzArrive"
     },
     {
         "name": "House1",
         "trigger": "Visit",
-        "level_nid": "1",
+        "level_nid": "SS1",
         "condition": "region.nid == 'House1'",
         "commands": [],
         "only_once": false,
@@ -545,12 +545,12 @@
             "transition;Open",
             "has_traded;{unit}"
         ],
-        "nid": "1 House1"
+        "nid": "SS1 House1"
     },
     {
         "name": "House2",
         "trigger": "Visit",
-        "level_nid": "1",
+        "level_nid": "SS1",
         "condition": "region.nid == 'House2'",
         "commands": [],
         "only_once": false,
@@ -567,12 +567,12 @@
             "transition;Open",
             "has_traded;{unit}"
         ],
-        "nid": "1 House2"
+        "nid": "SS1 House2"
     },
     {
         "name": "Seize",
         "trigger": "Seize",
-        "level_nid": "1",
+        "level_nid": "SS1",
         "condition": "'Lord' in unit.tags",
         "commands": [],
         "only_once": false,
@@ -580,12 +580,12 @@
         "_source": [
             "win_game"
         ],
-        "nid": "1 Seize"
+        "nid": "SS1 Seize"
     },
     {
         "name": "Seize",
         "trigger": "Seize",
-        "level_nid": "3",
+        "level_nid": "SS3",
         "condition": "'Lord' in unit.tags",
         "commands": [],
         "only_once": false,
@@ -593,12 +593,12 @@
         "_source": [
             "win_game"
         ],
-        "nid": "3 Seize"
+        "nid": "SS3 Seize"
     },
     {
         "name": "Intro",
         "trigger": "level_start",
-        "level_nid": "1",
+        "level_nid": "SS1",
         "condition": "True",
         "commands": [],
         "only_once": false,
@@ -720,12 +720,12 @@
             "remove_portrait;Seth;no_block",
             "remove_portrait;Eirika"
         ],
-        "nid": "1 Intro"
+        "nid": "SS1 Intro"
     },
     {
         "name": "Outro",
         "trigger": "level_end",
-        "level_nid": "1",
+        "level_nid": "SS1",
         "condition": "True",
         "commands": [],
         "only_once": false,
@@ -857,12 +857,12 @@
             "speak;Tana;Why would Grado invade? |Emperor Vigarde is a man of peace. His people adore him. |And you and Ephraim are friends with Prince Lyon, are you not? |What could be behind this madness? Why is this happening...",
             "speak;Eirika;I have no answers for you, Tana. |I don't want to believe it, but the reality is that we are at war. |If I do nothing, I may lose my brother as well as my father. |This is why I have to fight. It's the only answer I have."
         ],
-        "nid": "1 Outro"
+        "nid": "SS1 Outro"
     },
     {
         "name": "EnemyRein",
         "trigger": "turn_change",
-        "level_nid": "1",
+        "level_nid": "SS1",
         "condition": "game.level.regions.get('EnemyRein').contains(game.get_unit('Eirika').position)",
         "commands": [],
         "only_once": true,
@@ -877,12 +877,12 @@
             "speak;SoldierRed;I've found them! Stragglers from Renais! Don't let them get away.",
             "remove_portrait;SoldierRed"
         ],
-        "nid": "1 EnemyRein"
+        "nid": "SS1 EnemyRein"
     },
     {
         "name": "SethFranzTalk",
         "trigger": "on_talk",
-        "level_nid": "1",
+        "level_nid": "SS1",
         "condition": "unit.nid == 'Seth' and unit2.nid == 'Franz'",
         "commands": [],
         "only_once": false,
@@ -898,12 +898,12 @@
             "remove_portrait;Seth",
             "remove_talk;Seth;Franz"
         ],
-        "nid": "1 SethFranzTalk"
+        "nid": "SS1 SethFranzTalk"
     },
     {
         "name": "EirikaFranzTalk",
         "trigger": "on_talk",
-        "level_nid": "1",
+        "level_nid": "SS1",
         "condition": "unit.nid == 'Eirika' and unit2.nid == 'Franz'",
         "commands": [],
         "only_once": false,
@@ -920,12 +920,12 @@
             "remove_portrait;Franz",
             "remove_talk;Eirika;Franz"
         ],
-        "nid": "1 EirikaFranzTalk"
+        "nid": "SS1 EirikaFranzTalk"
     },
     {
         "name": "EnemyTurn1",
         "trigger": "enemy_turn_change",
-        "level_nid": "1",
+        "level_nid": "SS1",
         "condition": "game.turncount == 1",
         "commands": [],
         "only_once": false,
@@ -935,12 +935,12 @@
             "speak;Breguet;Hm? Is that the princess of Renais?|Ha ha! It really is my lucky day! Fame and fortune ride to meet me!|Move on, you slugs!{br}Bring that girl to me!",
             "remove_portrait;Breguet"
         ],
-        "nid": "1 EnemyTurn1"
+        "nid": "SS1 EnemyTurn1"
     },
     {
         "name": "Intro",
         "trigger": "level_start",
-        "level_nid": "2",
+        "level_nid": "SS2",
         "condition": "True",
         "commands": [],
         "only_once": false,
@@ -1077,12 +1077,12 @@
             "add_unit;BoneBuddy;;immediate",
             "set_current_hp;Ross;5"
         ],
-        "nid": "2 Intro"
+        "nid": "SS2 Intro"
     },
     {
         "name": "Armory",
         "trigger": "Armory",
-        "level_nid": "2",
+        "level_nid": "SS2",
         "condition": "True",
         "commands": [],
         "only_once": false,
@@ -1092,12 +1092,12 @@
             "shop;{unit};Iron Sword,Slim Sword,Iron Lance,Slim Lance,Iron Axe",
             "transition;Open"
         ],
-        "nid": "2 Armory"
+        "nid": "SS2 Armory"
     },
     {
         "name": "Armory",
         "trigger": "Armory",
-        "level_nid": "5",
+        "level_nid": "SS5",
         "condition": "True",
         "commands": [],
         "only_once": false,
@@ -1107,12 +1107,12 @@
             "shop;{unit};Iron Sword,Slim Sword,Steel Sword,Iron Lance,Slim Lance,Steel Lance,Iron Axe,Steel Axe,Iron Bow,Steel Bow",
             "transition;Open"
         ],
-        "nid": "5 Armory"
+        "nid": "SS5 Armory"
     },
     {
         "name": "Vendor",
         "trigger": "Vendor",
-        "level_nid": "5",
+        "level_nid": "SS5",
         "condition": "True",
         "commands": [],
         "only_once": false,
@@ -1122,12 +1122,12 @@
             "shop;{unit};Heal,Vulnerary,Fire,Shine;Vendor",
             "transition;Open"
         ],
-        "nid": "5 Vendor"
+        "nid": "SS5 Vendor"
     },
     {
         "name": "Village1Eirika",
         "trigger": "Visit",
-        "level_nid": "2",
+        "level_nid": "SS2",
         "condition": "region.nid == 'Village1' and unit.nid == 'Eirika'",
         "commands": [],
         "only_once": false,
@@ -1163,12 +1163,12 @@
             "give_item;Eirika;Red Gem",
             "has_traded;{unit}"
         ],
-        "nid": "2 Village1Eirika"
+        "nid": "SS2 Village1Eirika"
     },
     {
         "name": "Village1",
         "trigger": "Visit",
-        "level_nid": "2",
+        "level_nid": "SS2",
         "condition": "region.nid == 'Village1' and unit.nid != 'Eirika'",
         "commands": [],
         "only_once": false,
@@ -1187,12 +1187,12 @@
             "give_item;{unit};Red Gem",
             "has_traded;{unit}"
         ],
-        "nid": "2 Village1"
+        "nid": "SS2 Village1"
     },
     {
         "name": "Village1",
         "trigger": "Visit",
-        "level_nid": "5",
+        "level_nid": "SS5",
         "condition": "region.nid == 'Village1'",
         "commands": [],
         "only_once": false,
@@ -1211,12 +1211,12 @@
             "show_layer;Village1",
             "has_traded;{unit}"
         ],
-        "nid": "5 Village1"
+        "nid": "SS5 Village1"
     },
     {
         "name": "Village2",
         "trigger": "Visit",
-        "level_nid": "5",
+        "level_nid": "SS5",
         "condition": "region.nid == 'Village2'",
         "commands": [],
         "only_once": false,
@@ -1235,12 +1235,12 @@
             "show_layer;Village2",
             "has_traded;{unit}"
         ],
-        "nid": "5 Village2"
+        "nid": "SS5 Village2"
     },
     {
         "name": "Village3",
         "trigger": "Visit",
-        "level_nid": "5",
+        "level_nid": "SS5",
         "condition": "region.nid == 'Village3'",
         "commands": [],
         "only_once": false,
@@ -1259,12 +1259,12 @@
             "show_layer;Village3",
             "has_traded;{unit}"
         ],
-        "nid": "5 Village3"
+        "nid": "SS5 Village3"
     },
     {
         "name": "Village4",
         "trigger": "Visit",
-        "level_nid": "5",
+        "level_nid": "SS5",
         "condition": "region.nid == 'Village4'",
         "commands": [],
         "only_once": false,
@@ -1285,12 +1285,12 @@
             "show_layer;Village4",
             "has_traded;{unit}"
         ],
-        "nid": "5 Village4"
+        "nid": "SS5 Village4"
     },
     {
         "name": "Village1",
         "trigger": "Visit",
-        "level_nid": "4",
+        "level_nid": "SS4",
         "condition": "region.nid == 'Village1'",
         "commands": [],
         "only_once": false,
@@ -1309,12 +1309,12 @@
             "give_item;{unit};Iron Axe",
             "has_traded;{unit}"
         ],
-        "nid": "4 Village1"
+        "nid": "SS4 Village1"
     },
     {
         "name": "Village2",
         "trigger": "Visit",
-        "level_nid": "4",
+        "level_nid": "SS4",
         "condition": "region.nid == 'Village2'",
         "commands": [],
         "only_once": false,
@@ -1357,12 +1357,12 @@
             "transition;Open",
             "has_traded;{unit}"
         ],
-        "nid": "4 Village2"
+        "nid": "SS4 Village2"
     },
     {
         "name": "EirikaRossTalk",
         "trigger": "on_talk",
-        "level_nid": "2",
+        "level_nid": "SS2",
         "condition": "unit.nid == 'Eirika' and unit2.nid == 'Ross'",
         "commands": [],
         "only_once": false,
@@ -1381,12 +1381,12 @@
             "remove_portrait;Ross",
             "change_team;Ross;player"
         ],
-        "nid": "2 EirikaRossTalk"
+        "nid": "SS2 EirikaRossTalk"
     },
     {
         "name": "Village2",
         "trigger": "Visit",
-        "level_nid": "2",
+        "level_nid": "SS2",
         "condition": "region.nid == 'Village2'",
         "commands": [],
         "only_once": false,
@@ -1405,12 +1405,12 @@
             "give_item;{unit};Elixir",
             "has_traded;{unit}"
         ],
-        "nid": "2 Village2"
+        "nid": "SS2 Village2"
     },
     {
         "name": "Village3",
         "trigger": "Visit",
-        "level_nid": "2",
+        "level_nid": "SS2",
         "condition": "region.nid == 'Village3'",
         "commands": [],
         "only_once": false,
@@ -1429,12 +1429,12 @@
             "give_item;{unit};Pure Water",
             "has_traded;{unit}"
         ],
-        "nid": "2 Village3"
+        "nid": "SS2 Village3"
     },
     {
         "name": "RossGarciaTalk",
         "trigger": "on_talk",
-        "level_nid": "2",
+        "level_nid": "SS2",
         "condition": "unit.nid == 'Ross' and unit2.nid == 'Garcia'",
         "commands": [],
         "only_once": false,
@@ -1451,12 +1451,12 @@
             "remove_portrait;Garcia",
             "change_team;Garcia;player"
         ],
-        "nid": "2 RossGarciaTalk"
+        "nid": "SS2 RossGarciaTalk"
     },
     {
         "name": "NatashaJoshuaTalk",
         "trigger": "on_talk",
-        "level_nid": "5",
+        "level_nid": "SS5",
         "condition": "unit.nid == 'Natasha' and unit2.nid == 'Joshua'",
         "commands": [],
         "only_once": false,
@@ -1486,12 +1486,12 @@
             "remove_portrait;Joshua",
             "change_team;Joshua;player"
         ],
-        "nid": "5 NatashaJoshuaTalk"
+        "nid": "SS5 NatashaJoshuaTalk"
     },
     {
         "name": "Turn3",
         "trigger": "turn_change",
-        "level_nid": "2",
+        "level_nid": "SS2",
         "condition": "game.turncount == 3",
         "commands": [],
         "only_once": false,
@@ -1500,12 +1500,12 @@
             "move_cursor;1,9",
             "spawn_group;BanditReinforcements;West;BanditReinforcements"
         ],
-        "nid": "2 Turn3"
+        "nid": "SS2 Turn3"
     },
     {
         "name": "Turn2",
         "trigger": "turn_change",
-        "level_nid": "2",
+        "level_nid": "SS2",
         "condition": "game.turncount == 2",
         "commands": [],
         "only_once": false,
@@ -1517,12 +1517,12 @@
             "change_ai;BoneBuddy;PursueVillage",
             "change_ai;TopBandit;PursueVillage"
         ],
-        "nid": "2 Turn2"
+        "nid": "SS2 Turn2"
     },
     {
         "name": "FightBone",
         "trigger": "combat_start",
-        "level_nid": "2",
+        "level_nid": "SS2",
         "condition": "(unit.nid == \"Bone\" and unit2.team == 'player') or (unit2.nid == \"Bone\" and unit.team == 'player')",
         "commands": [],
         "only_once": false,
@@ -1532,12 +1532,12 @@
             "speak;Bone;Wait a minute!{br}Wh-who are you?",
             "remove_portrait;Bone"
         ],
-        "nid": "2 FightBone"
+        "nid": "SS2 FightBone"
     },
     {
         "name": "DeathBone",
         "trigger": "unit_death",
-        "level_nid": "2",
+        "level_nid": "SS2",
         "condition": "unit.nid == \"Bone\"",
         "commands": [],
         "only_once": false,
@@ -1547,12 +1547,12 @@
             "speak;Bone;Urgh... Blast...",
             "remove_portrait;Bone"
         ],
-        "nid": "2 DeathBone"
+        "nid": "SS2 DeathBone"
     },
     {
         "name": "DeathBazba",
         "trigger": "unit_death",
-        "level_nid": "3",
+        "level_nid": "SS3",
         "condition": "unit.nid == \"Bazba\"",
         "commands": [],
         "only_once": false,
@@ -1562,12 +1562,12 @@
             "speak;Bazba;I'm the...mighty...Bazba...{br}This...ain't--",
             "remove_portrait;Bazba"
         ],
-        "nid": "3 DeathBazba"
+        "nid": "SS3 DeathBazba"
     },
     {
         "name": "Outro",
         "trigger": "level_end",
-        "level_nid": "2",
+        "level_nid": "SS2",
         "condition": "True",
         "commands": [],
         "only_once": false,
@@ -1693,7 +1693,7 @@
             "remove_portrait;Seth",
             "transition;Close;250;0,0,0"
         ],
-        "nid": "2 Outro"
+        "nid": "SS2 Outro"
     },
     {
         "name": "Test",
@@ -1729,7 +1729,7 @@
     {
         "name": "DestroyVillage1",
         "trigger": "Destructible",
-        "level_nid": "2",
+        "level_nid": "SS2",
         "condition": "region.nid == 'DestroyVillage1'",
         "commands": [],
         "only_once": true,
@@ -1739,12 +1739,12 @@
             "show_layer;Ruin1",
             "wait;500"
         ],
-        "nid": "2 DestroyVillage1"
+        "nid": "SS2 DestroyVillage1"
     },
     {
         "name": "DestroyVillage1",
         "trigger": "Destructible",
-        "level_nid": "5",
+        "level_nid": "SS5",
         "condition": "region.nid == 'Village1'",
         "commands": [],
         "only_once": true,
@@ -1754,12 +1754,12 @@
             "show_layer;Ruin1",
             "wait;500"
         ],
-        "nid": "5 DestroyVillage1"
+        "nid": "SS5 DestroyVillage1"
     },
     {
         "name": "DestroyVillage2",
         "trigger": "Destructible",
-        "level_nid": "5",
+        "level_nid": "SS5",
         "condition": "region.nid == 'Village2'",
         "commands": [],
         "only_once": true,
@@ -1769,12 +1769,12 @@
             "show_layer;Ruin2",
             "wait;500"
         ],
-        "nid": "5 DestroyVillage2"
+        "nid": "SS5 DestroyVillage2"
     },
     {
         "name": "DestroyVillage3",
         "trigger": "Destructible",
-        "level_nid": "5",
+        "level_nid": "SS5",
         "condition": "region.nid == 'Village3'",
         "commands": [],
         "only_once": true,
@@ -1784,12 +1784,12 @@
             "show_layer;Ruin3",
             "wait;500"
         ],
-        "nid": "5 DestroyVillage3"
+        "nid": "SS5 DestroyVillage3"
     },
     {
         "name": "DestroyVillage4",
         "trigger": "Destructible",
-        "level_nid": "5",
+        "level_nid": "SS5",
         "condition": "region.nid == 'Village4'",
         "commands": [],
         "only_once": true,
@@ -1799,12 +1799,12 @@
             "show_layer;Ruin4",
             "wait;500"
         ],
-        "nid": "5 DestroyVillage4"
+        "nid": "SS5 DestroyVillage4"
     },
     {
         "name": "DestroyVillage2",
         "trigger": "Destructible",
-        "level_nid": "2",
+        "level_nid": "SS2",
         "condition": "region.nid == 'DestroyVillage2'",
         "commands": [],
         "only_once": true,
@@ -1814,12 +1814,12 @@
             "show_layer;Ruin2",
             "wait;500"
         ],
-        "nid": "2 DestroyVillage2"
+        "nid": "SS2 DestroyVillage2"
     },
     {
         "name": "DestroyVillage3",
         "trigger": "Destructible",
-        "level_nid": "2",
+        "level_nid": "SS2",
         "condition": "region.nid == 'DestroyVillage3'",
         "commands": [],
         "only_once": true,
@@ -1829,7 +1829,7 @@
             "show_layer;Ruin3",
             "wait;500"
         ],
-        "nid": "2 DestroyVillage3"
+        "nid": "SS2 DestroyVillage3"
     },
     {
         "name": "Turn2",
@@ -1863,7 +1863,7 @@
     {
         "name": "Rout",
         "trigger": "combat_end",
-        "level_nid": "2",
+        "level_nid": "SS2",
         "condition": "len(game.get_enemy_units()) == 0",
         "commands": [],
         "only_once": false,
@@ -1871,12 +1871,12 @@
         "_source": [
             "win_game"
         ],
-        "nid": "2 Rout"
+        "nid": "SS2 Rout"
     },
     {
         "name": "Rout",
         "trigger": "combat_end",
-        "level_nid": "4",
+        "level_nid": "SS4",
         "condition": "len(game.get_enemy_units()) == 0",
         "commands": [],
         "only_once": false,
@@ -1884,7 +1884,7 @@
         "_source": [
             "win_game"
         ],
-        "nid": "4 Rout"
+        "nid": "SS4 Rout"
     },
     {
         "name": "Rout (1)",
@@ -1916,7 +1916,7 @@
     {
         "name": "Chest1",
         "trigger": "Chest",
-        "level_nid": "3",
+        "level_nid": "SS3",
         "condition": "region.nid == 'Chest1'",
         "commands": [],
         "only_once": false,
@@ -1926,12 +1926,12 @@
             "show_layer;Chest1",
             "give_item;{unit};Javelin"
         ],
-        "nid": "3 Chest1"
+        "nid": "SS3 Chest1"
     },
     {
         "name": "Chest4",
         "trigger": "Chest",
-        "level_nid": "3",
+        "level_nid": "SS3",
         "condition": "region.nid == 'Chest4'",
         "commands": [],
         "only_once": false,
@@ -1941,12 +1941,12 @@
             "show_layer;Chest4",
             "give_item;{unit};Iron Sword"
         ],
-        "nid": "3 Chest4"
+        "nid": "SS3 Chest4"
     },
     {
         "name": "Chest3",
         "trigger": "Chest",
-        "level_nid": "3",
+        "level_nid": "SS3",
         "condition": "region.nid == 'Chest3'",
         "commands": [],
         "only_once": false,
@@ -1956,12 +1956,12 @@
             "show_layer;Chest3",
             "give_item;{unit};Hand Axe"
         ],
-        "nid": "3 Chest3"
+        "nid": "SS3 Chest3"
     },
     {
         "name": "Chest2",
         "trigger": "Chest",
-        "level_nid": "3",
+        "level_nid": "SS3",
         "condition": "region.nid == 'Chest2'",
         "commands": [],
         "only_once": false,
@@ -1971,12 +1971,12 @@
             "show_layer;Chest2",
             "give_item;{unit};Iron Lance"
         ],
-        "nid": "3 Chest2"
+        "nid": "SS3 Chest2"
     },
     {
         "name": "Door1",
         "trigger": "Door",
-        "level_nid": "3",
+        "level_nid": "SS3",
         "condition": "region.nid == 'Door1'",
         "commands": [],
         "only_once": false,
@@ -1985,12 +1985,12 @@
             "unlock;{unit}",
             "show_layer;Door1"
         ],
-        "nid": "3 Door1"
+        "nid": "SS3 Door1"
     },
     {
         "name": "Door2",
         "trigger": "Door",
-        "level_nid": "3",
+        "level_nid": "SS3",
         "condition": "region.nid == 'Door2'",
         "commands": [],
         "only_once": false,
@@ -1999,12 +1999,12 @@
             "unlock;{unit}",
             "show_layer;Door2"
         ],
-        "nid": "3 Door2"
+        "nid": "SS3 Door2"
     },
     {
         "name": "Door3",
         "trigger": "Door",
-        "level_nid": "3",
+        "level_nid": "SS3",
         "condition": "region.nid == 'Door3'",
         "commands": [],
         "only_once": false,
@@ -2013,12 +2013,12 @@
             "unlock;{unit}",
             "show_layer;Door3"
         ],
-        "nid": "3 Door3"
+        "nid": "SS3 Door3"
     },
     {
         "name": "Breakable1",
         "trigger": "unit_death",
-        "level_nid": "3",
+        "level_nid": "SS3",
         "condition": "unit.nid == 'Wall1'",
         "commands": [],
         "only_once": false,
@@ -2027,12 +2027,12 @@
             "map_anim;Snag;{position}",
             "show_layer;Breakable1"
         ],
-        "nid": "3 Breakable1"
+        "nid": "SS3 Breakable1"
     },
     {
         "name": "Snag",
         "trigger": "unit_death",
-        "level_nid": "4",
+        "level_nid": "SS4",
         "condition": "unit.nid == 'Snag'",
         "commands": [],
         "only_once": false,
@@ -2041,12 +2041,12 @@
             "map_anim;Snag;{position}",
             "show_layer;Snag"
         ],
-        "nid": "4 Snag"
+        "nid": "SS4 Snag"
     },
     {
         "name": "Breakable2",
         "trigger": "unit_death",
-        "level_nid": "3",
+        "level_nid": "SS3",
         "condition": "unit.nid == 'Wall2'",
         "commands": [],
         "only_once": false,
@@ -2055,12 +2055,12 @@
             "map_anim;Snag;{position}",
             "show_layer;Breakable2"
         ],
-        "nid": "3 Breakable2"
+        "nid": "SS3 Breakable2"
     },
     {
         "name": "Breakable3",
         "trigger": "unit_death",
-        "level_nid": "3",
+        "level_nid": "SS3",
         "condition": "unit.nid == 'Wall3'",
         "commands": [],
         "only_once": false,
@@ -2069,12 +2069,12 @@
             "map_anim;Snag;{position}",
             "show_layer;Breakable3"
         ],
-        "nid": "3 Breakable3"
+        "nid": "SS3 Breakable3"
     },
     {
         "name": "Intro",
         "trigger": "level_start",
-        "level_nid": "3",
+        "level_nid": "SS3",
         "condition": "True",
         "commands": [],
         "only_once": false,
@@ -2151,12 +2151,12 @@
             "speak;Bazba;Hm. Not sure who's out there, but it looks like we've got guests.|Let's give 'em a warm welcome, lads.{br}You see a stranger, stick an axe in him!",
             "remove_portrait;Bazba"
         ],
-        "nid": "3 Intro"
+        "nid": "SS3 Intro"
     },
     {
         "name": "Turn2",
         "trigger": "other_turn_change",
-        "level_nid": "3",
+        "level_nid": "SS3",
         "condition": "game.turncount == 1",
         "commands": [],
         "only_once": false,
@@ -2170,12 +2170,12 @@
             "speak;Colm;And here we go!|Ha! And not a soul saw me. These bandits are easy picking.|I guess I might as well start with these chests here.",
             "move_unit;Colm;2,4"
         ],
-        "nid": "3 Turn2"
+        "nid": "SS3 Turn2"
     },
     {
         "name": "NeimiColmTalk",
         "trigger": "on_talk",
-        "level_nid": "3",
+        "level_nid": "SS3",
         "condition": "unit1.nid == 'Neimi' and unit2.nid == 'Colm'",
         "commands": [],
         "only_once": false,
@@ -2197,12 +2197,12 @@
             "remove_portrait;Colm",
             "change_team;Colm;player"
         ],
-        "nid": "3 NeimiColmTalk"
+        "nid": "SS3 NeimiColmTalk"
     },
     {
         "name": "Outro",
         "trigger": "level_end",
-        "level_nid": "3",
+        "level_nid": "SS3",
         "condition": "True",
         "commands": [],
         "only_once": false,
@@ -2400,12 +2400,12 @@
             "remove_portrait;Valter",
             "transition;Close"
         ],
-        "nid": "3 Outro"
+        "nid": "SS3 Outro"
     },
     {
         "name": "FightBazba",
         "trigger": "combat_start",
-        "level_nid": "3",
+        "level_nid": "SS3",
         "condition": "check_default('Bazba',['Eirika'])",
         "commands": [],
         "only_once": false,
@@ -2415,12 +2415,12 @@
             "speak;Bazba;I'm the head of this bandit pack, the mighty Bazba!{w}{clear}Hope you've enjoyed your life, 'cuz it's about to end!",
             "remove_portrait;Bazba"
         ],
-        "nid": "3 FightBazba"
+        "nid": "SS3 FightBazba"
     },
     {
         "name": "Eirika/Bazba",
         "trigger": "combat_start",
-        "level_nid": "3",
+        "level_nid": "SS3",
         "condition": "check_pair('Bazba','Eirika')",
         "commands": [],
         "only_once": false,
@@ -2434,12 +2434,12 @@
             "remove_portrait;Bazba;no_block",
             "remove_portrait;Eirika"
         ],
-        "nid": "3 Eirika/Bazba"
+        "nid": "SS3 Eirika/Bazba"
     },
     {
         "name": "Intro",
         "trigger": "level_start",
-        "level_nid": "4",
+        "level_nid": "SS4",
         "condition": "True",
         "commands": [],
         "only_once": false,
@@ -2545,12 +2545,12 @@
             "speak;Artur;One of my companions is in that village to the south.|If you can get there swiftly, I implore you to watch over her safety.",
             "remove_portrait;Artur"
         ],
-        "nid": "4 Intro"
+        "nid": "SS4 Intro"
     },
     {
         "name": "Turn2",
         "trigger": "turn_change",
-        "level_nid": "4",
+        "level_nid": "SS4",
         "condition": "game.turncount == 2",
         "commands": [],
         "only_once": false,
@@ -2559,12 +2559,12 @@
             "move_cursor;14,8",
             "spawn_group;Turn2Rein;East;Turn2Rein"
         ],
-        "nid": "4 Turn2"
+        "nid": "SS4 Turn2"
     },
     {
         "name": "Turn2",
         "trigger": "turn_change",
-        "level_nid": "5",
+        "level_nid": "SS5",
         "condition": "game.turncount == 2",
         "commands": [],
         "only_once": false,
@@ -2577,12 +2577,12 @@
             "speak;Bandit1;Look at this. Now's our chance!|C'mon, lads!|Let's join the fights and steal our way through this pathetic town!",
             "remove_portrait;Bandit1"
         ],
-        "nid": "5 Turn2"
+        "nid": "SS5 Turn2"
     },
     {
         "name": "Turn4",
         "trigger": "turn_change",
-        "level_nid": "5",
+        "level_nid": "SS5",
         "condition": "game.turncount == 4",
         "commands": [],
         "only_once": false,
@@ -2591,12 +2591,12 @@
             "center_cursor;14,7",
             "add_group;Brigand2;Brigand2"
         ],
-        "nid": "5 Turn4"
+        "nid": "SS5 Turn4"
     },
     {
         "name": "Turn8",
         "trigger": "turn_change",
-        "level_nid": "5",
+        "level_nid": "SS5",
         "condition": "game.turncount == 8",
         "commands": [],
         "only_once": false,
@@ -2605,12 +2605,12 @@
             "center_cursor;14,0",
             "add_group;Brigand3;Brigand3"
         ],
-        "nid": "5 Turn8"
+        "nid": "SS5 Turn8"
     },
     {
         "name": "Turn3",
         "trigger": "turn_change",
-        "level_nid": "4",
+        "level_nid": "SS4",
         "condition": "game.turncount == 3",
         "commands": [],
         "only_once": false,
@@ -2642,12 +2642,12 @@
             "remove_unit;L'arachel",
             "remove_unit;Dozla"
         ],
-        "nid": "4 Turn3"
+        "nid": "SS4 Turn3"
     },
     {
         "name": "Trigger",
         "trigger": "turn_change",
-        "level_nid": "4",
+        "level_nid": "SS4",
         "condition": "any(game.level.regions.get('Trigger').contains(unit.position) for unit in game.get_units_in_party())",
         "commands": [],
         "only_once": false,
@@ -2657,12 +2657,12 @@
             "add_group;RevenantRein;0,0;immediate;stack",
             "move_group;RevenantRein;RevenantRein"
         ],
-        "nid": "4 Trigger"
+        "nid": "SS4 Trigger"
     },
     {
         "name": "Outro",
         "trigger": "level_end",
-        "level_nid": "4",
+        "level_nid": "SS4",
         "condition": "True",
         "commands": [],
         "only_once": false,
@@ -2753,12 +2753,12 @@
             "# (They leave)",
             "speak;Eirika;...What was that about?"
         ],
-        "nid": "4 Outro"
+        "nid": "SS4 Outro"
     },
     {
         "name": "Intro",
         "trigger": "level_start",
-        "level_nid": "5",
+        "level_nid": "SS5",
         "condition": "True",
         "commands": [],
         "only_once": false,
@@ -2954,23 +2954,23 @@
             "# Now actually start!",
             "add_talk;Natasha;Joshua"
         ],
-        "nid": "5 Intro"
+        "nid": "SS5 Intro"
     },
     {
         "name": "Outro",
         "trigger": "level_end",
-        "level_nid": "5",
+        "level_nid": "SS5",
         "condition": "True",
         "commands": [],
         "only_once": false,
         "priority": 20,
         "_source": [],
-        "nid": "5 Outro"
+        "nid": "SS5 Outro"
     },
     {
         "name": "AddPlaceholder",
         "trigger": "enemy_turn_change",
-        "level_nid": "3",
+        "level_nid": "SS3",
         "condition": "game.turncount == 1",
         "commands": [],
         "only_once": true,
@@ -2978,7 +2978,7 @@
         "_source": [
             "add_unit;Placeholder;16,15;immediate"
         ],
-        "nid": "3 AddPlaceholder"
+        "nid": "SS3 AddPlaceholder"
     },
     {
         "name": "Debug Setup",
@@ -3111,7 +3111,7 @@
     {
         "name": "OnOverworldEnter",
         "trigger": "overworld_start",
-        "level_nid": "2",
+        "level_nid": "SS2",
         "condition": "True",
         "commands": [],
         "only_once": true,
@@ -3124,12 +3124,12 @@
             "sound;Mend",
             "reveal_overworld_road;Frelia Castle (2);Ide (5)"
         ],
-        "nid": "2 OnOverworldEnter"
+        "nid": "SS2 OnOverworldEnter"
     },
     {
         "name": "OnLevelSelect",
         "trigger": "level_select",
-        "level_nid": "2",
+        "level_nid": "SS2",
         "condition": "True",
         "commands": [],
         "only_once": true,
@@ -3148,7 +3148,7 @@
             "transition;close;1500",
             "wait;500"
         ],
-        "nid": "2 OnLevelSelect"
+        "nid": "SS2 OnLevelSelect"
     },
     {
         "name": "CombatMercy",
