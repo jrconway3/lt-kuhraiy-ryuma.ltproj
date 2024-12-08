@@ -52,23 +52,15 @@
         },
         "starting_items": [
             [
-                "Leviathan",
-                false
-            ],
-            [
-                "Almace",
-                false
-            ],
-            [
                 "Splash",
                 false
             ],
             [
-                "WaterBlast",
+                "Slim_Sword",
                 false
             ],
             [
-                "Deluge",
+                "Static",
                 false
             ]
         ],
@@ -142,7 +134,7 @@
             ],
             "Aquis": [
                 false,
-                181,
+                71,
                 null
             ],
             "Fulgus": [
@@ -325,6 +317,163 @@
         ]
     },
     {
+        "nid": "Serena",
+        "name": "Serena",
+        "desc": "Miriam's former retainer promoted to Captainn of the guard. Miriam looks up to her as a mentor.",
+        "variant": "Serena",
+        "level": 25,
+        "klass": "Captain",
+        "tags": [],
+        "bases": {
+            "LCK": 0,
+            "CON": 0,
+            "MOV": 0,
+            "RES": 0,
+            "STR": 0,
+            "HP": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
+            "MP": 0
+        },
+        "growths": {
+            "LCK": 40,
+            "CON": 0,
+            "MOV": 0,
+            "RES": 20,
+            "STR": 45,
+            "HP": 80,
+            "MAG": 22,
+            "SKL": 40,
+            "SPD": 45,
+            "DEF": 15,
+            "MP": 0
+        },
+        "stat_cap_modifiers": {
+            "RES": 0,
+            "LCK": 0,
+            "CON": 0,
+            "MOV": 0,
+            "STR": 0,
+            "HP": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
+            "MP": 0
+        },
+        "starting_items": [
+            [
+                "Almace",
+                false
+            ],
+            [
+                "Vulnerary",
+                false
+            ],
+            [
+                "Steel_Lance",
+                false
+            ],
+            [
+                "Frostbite",
+                false
+            ]
+        ],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                true,
+                181,
+                251
+            ],
+            "Lance": [
+                true,
+                71,
+                251
+            ],
+            "Axe": [
+                false,
+                0,
+                251
+            ],
+            "Bow": [
+                false,
+                0,
+                251
+            ],
+            "Staff": [
+                false,
+                0,
+                251
+            ],
+            "Light": [
+                false,
+                0,
+                251
+            ],
+            "Anima": [
+                false,
+                0,
+                251
+            ],
+            "Dark": [
+                false,
+                0,
+                251
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ],
+            "Earth": [
+                false,
+                0,
+                251
+            ],
+            "Solus": [
+                false,
+                0,
+                251
+            ],
+            "Lunis": [
+                false,
+                0,
+                251
+            ],
+            "Tellus": [
+                false,
+                0,
+                251
+            ],
+            "Glacies": [
+                false,
+                31,
+                null
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Nephenee {NickT, Stitch}",
+        "affinity": "Ice",
+        "fields": [
+            [
+                "Race",
+                "Queiza"
+            ],
+            [
+                "Birthplace",
+                "Unknown"
+            ],
+            [
+                "Home",
+                "Trade City Oestridel"
+            ]
+        ]
+    },
+    {
         "nid": "Leiland",
         "name": "Leiland",
         "desc": "Heir to House Renald and adoptive brother of Miriam. He dotes on her, but is stern with his duty.",
@@ -485,6 +634,146 @@
                 "Trace City Oestridel"
             ]
         ]
+    },
+    {
+        "nid": "Kasuto",
+        "name": "Kasuto",
+        "desc": "A sister serving in the Church of Gaeya. She is a fountain of wisdom and beauty.",
+        "variant": "Female",
+        "level": 18,
+        "klass": "Prior",
+        "tags": [
+            "Dragon",
+            "Holy",
+            "Nordak",
+            "Siylphe"
+        ],
+        "bases": {
+            "LCK": 0,
+            "RES": 0,
+            "CON": 0,
+            "MOV": 0,
+            "STR": 0,
+            "HP": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
+            "MP": 0
+        },
+        "growths": {
+            "LCK": 60,
+            "RES": 55,
+            "CON": 0,
+            "MOV": 0,
+            "STR": 0,
+            "HP": 50,
+            "MAG": 60,
+            "SKL": 25,
+            "SPD": 40,
+            "DEF": 15,
+            "MP": 0
+        },
+        "stat_cap_modifiers": {
+            "RES": 0,
+            "LCK": 0,
+            "CON": 0,
+            "MOV": 0,
+            "STR": 0,
+            "HP": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
+            "MP": 0
+        },
+        "starting_items": [
+            [
+                "Physic",
+                false
+            ],
+            [
+                "Vulnerary",
+                false
+            ],
+            [
+                "Starlight",
+                false
+            ]
+        ],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                121,
+                251
+            ],
+            "Lance": [
+                false,
+                0,
+                251
+            ],
+            "Axe": [
+                false,
+                0,
+                251
+            ],
+            "Bow": [
+                false,
+                0,
+                251
+            ],
+            "Staff": [
+                true,
+                71,
+                251
+            ],
+            "Light": [
+                false,
+                0,
+                251
+            ],
+            "Anima": [
+                false,
+                0,
+                251
+            ],
+            "Dark": [
+                false,
+                0,
+                251
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ],
+            "Earth": [
+                false,
+                0,
+                251
+            ],
+            "Solus": [
+                false,
+                181,
+                251
+            ],
+            "Lunis": [
+                false,
+                0,
+                251
+            ],
+            "Tellus": [
+                false,
+                0,
+                251
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Natasha (Older) {MegaCowsamMan}",
+        "affinity": "Ice",
+        "fields": []
     },
     {
         "nid": "Dehren",
@@ -1710,137 +1999,6 @@
         "alternate_classes": [],
         "portrait_nid": "Lute",
         "affinity": "Anima",
-        "fields": []
-    },
-    {
-        "nid": "Natasha",
-        "name": "Natasha",
-        "desc": "A beautiful cleric from the Grado Empire. She's graceful and serious.",
-        "variant": "Female",
-        "level": 1,
-        "klass": "Cleric",
-        "tags": [],
-        "bases": {
-            "LCK": 0,
-            "RES": 0,
-            "CON": 0,
-            "MOV": 0,
-            "STR": 0,
-            "HP": 0,
-            "MAG": 0,
-            "SKL": 0,
-            "SPD": 0,
-            "DEF": 0,
-            "MP": 0
-        },
-        "growths": {
-            "LCK": 60,
-            "RES": 55,
-            "CON": 0,
-            "MOV": 0,
-            "STR": 0,
-            "HP": 50,
-            "MAG": 60,
-            "SKL": 25,
-            "SPD": 40,
-            "DEF": 15,
-            "MP": 0
-        },
-        "stat_cap_modifiers": {
-            "RES": 0,
-            "LCK": 0,
-            "CON": 0,
-            "MOV": 0,
-            "STR": 0,
-            "HP": 0,
-            "MAG": 0,
-            "SKL": 0,
-            "SPD": 0,
-            "DEF": 0,
-            "MP": 0
-        },
-        "starting_items": [
-            [
-                "Mend",
-                false
-            ],
-            [
-                "Vulnerary",
-                false
-            ]
-        ],
-        "learned_skills": [],
-        "unit_notes": [],
-        "wexp_gain": {
-            "Sword": [
-                false,
-                0,
-                251
-            ],
-            "Lance": [
-                false,
-                0,
-                251
-            ],
-            "Axe": [
-                false,
-                0,
-                251
-            ],
-            "Bow": [
-                false,
-                0,
-                251
-            ],
-            "Staff": [
-                true,
-                31,
-                251
-            ],
-            "Light": [
-                false,
-                0,
-                251
-            ],
-            "Anima": [
-                false,
-                0,
-                251
-            ],
-            "Dark": [
-                false,
-                0,
-                251
-            ],
-            "Default": [
-                false,
-                0,
-                251
-            ],
-            "Earth": [
-                false,
-                0,
-                251
-            ],
-            "Solus": [
-                false,
-                0,
-                251
-            ],
-            "Lunis": [
-                false,
-                0,
-                251
-            ],
-            "Tellus": [
-                false,
-                0,
-                251
-            ]
-        },
-        "alternate_classes": [],
-        "portrait_nid": "Natasha",
-        "affinity": "Ice",
         "fields": []
     },
     {

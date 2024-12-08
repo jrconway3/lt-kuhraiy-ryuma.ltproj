@@ -42,15 +42,41 @@
             "win": "Defeat All Enemies",
             "loss": "Miriam or Serena Faints"
         },
-        "roam": true,
+        "roam": false,
         "roam_unit": "Miriam",
         "go_to_overworld": false,
         "should_record": false,
         "tags": [],
-        "units": [],
+        "units": [
+            {
+                "nid": "Miriam",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Serena",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            }
+        ],
         "regions": [],
         "unit_groups": [],
-        "ai_groups": []
+        "ai_groups": [
+            {
+                "nid": "",
+                "trigger_threshold": 1
+            }
+        ]
     },
     {
         "nid": "5",
@@ -2963,7 +2989,7 @@
                 "generic": false
             },
             {
-                "nid": "Natasha",
+                "nid": "Kasuto",
                 "team": "player",
                 "ai": "None",
                 "roam_ai": null,

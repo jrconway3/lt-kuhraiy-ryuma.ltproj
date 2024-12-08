@@ -124,5 +124,12 @@
         "title": "Music",
         "category": "Credits",
         "text": "\"Bumming Around in Pixel Town\"\nby Eric Matyas\nwww.soundimage.org"
+    },
+    {
+        "nid": "MapSprites",
+        "name": "Map Sprites",
+        "title": "MapSprites",
+        "category": "Credits",
+        "text": "Sergeant (M) by Spud\nSergeant (F) by Spud, Dora Drago"
     }
 ]

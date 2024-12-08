@@ -1546,5 +1546,29 @@
             32
         ],
         "info_offset": 0
+    },
+    {
+        "nid": "Nephenee {NickT, Stitch}",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            24,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Natasha (Older) {MegaCowsamMan}",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
     }
 ]

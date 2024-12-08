@@ -192,5 +192,14 @@
     {
         "nid": "Myrmidon (M) Bow {N426}",
         "subicon_dict": {}
+    },
+    {
+        "nid": "Sergeant (F) {Spud, Rasdel, Pushwall}",
+        "subicon_dict": {
+            "Sergeant (F) {Spud, Rasdel, Pushwall} 0, 0": [
+                0,
+                0
+            ]
+        }
     }
 ]
