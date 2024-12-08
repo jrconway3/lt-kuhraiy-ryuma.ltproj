@@ -24,81 +24,32 @@
         "ai_groups": []
     },
     {
-        "nid": "Ch0",
+        "nid": "0",
         "name": "Prologue - Lady of Oestridel",
-        "tilemap": null,
+        "tilemap": "Ch0",
         "bg_tilemap": null,
         "party": "Miriam",
-        "music": {},
-        "objective": {
-            "simple": "Stop the Rioters",
-            "win": "",
-            "loss": "Any Ally Faints"
+        "music": {
+            "player_phase": "Chapter - Intense (Seiken Densetsu 3, Nuclear Fusion by MrGreen3339)",
+            "enemy_phase": "Battle - Enemy (Suikoden, Army Advance by Pandan)",
+            "npc_phase": "(Act Raiser, Fillmore by Alusq)",
+            "player_battle": "Battle - Attack (Triangle Strategy, Combat - Destiny by Kaidras)",
+            "enemy_battle": "Battle - Defense (Triangle Strategy, Combat - Adversity by Kaidras)",
+            "boss_battle": "Boss - Minor (Riviera, Fierce Clash by ShinKuma)"
         },
-        "roam": false,
+        "objective": {
+            "simple": "Stop the Riot!",
+            "win": "Defeat All Enemies",
+            "loss": "Miriam or Serena Faints"
+        },
+        "roam": true,
         "roam_unit": "Miriam",
         "go_to_overworld": false,
-        "should_record": true,
+        "should_record": false,
         "tags": [],
-        "units": [
-            {
-                "nid": "Miriam",
-                "team": "player",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
-                "nid": "Amaya",
-                "team": "player",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
-                "nid": "Leiland",
-                "team": "player",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": false
-            }
-        ],
-        "regions": [
-            {
-                "nid": "New Region",
-                "region_type": "normal",
-                "position": null,
-                "size": [
-                    1,
-                    1
-                ],
-                "sub_nid": "",
-                "condition": "True",
-                "time_left": null,
-                "only_once": false,
-                "interrupt_move": false
-            }
-        ],
-        "unit_groups": [
-            {
-                "nid": "Renald",
-                "units": [
-                    "Miriam",
-                    "Amaya",
-                    "Leiland"
-                ],
-                "positions": {}
-            }
-        ],
+        "units": [],
+        "regions": [],
+        "unit_groups": [],
         "ai_groups": []
     },
     {
