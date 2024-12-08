@@ -174,8 +174,8 @@
         ],
         "minimap": "Sea",
         "platform": "Lake",
-        "background": "combat_river",
-        "mtype": "Sea",
+        "background": "combat_sea",
+        "mtype": "Lake",
         "opaque": false,
         "status": "Avoid10"
     },
@@ -198,14 +198,59 @@
         "nid": "12",
         "name": "River",
         "color": [
-            0,
-            160,
+            5,
+            244,
             248
         ],
         "minimap": "River",
         "platform": "River",
         "background": "combat_river",
         "mtype": "River",
+        "opaque": false,
+        "status": null
+    },
+    {
+        "nid": "13",
+        "name": "Rapids",
+        "color": [
+            31,
+            190,
+            248
+        ],
+        "minimap": "River",
+        "platform": "River",
+        "background": "combat_river",
+        "mtype": "Rapids",
+        "opaque": false,
+        "status": null
+    },
+    {
+        "nid": "14",
+        "name": "Deeps",
+        "color": [
+            55,
+            74,
+            127
+        ],
+        "minimap": "Sea",
+        "platform": "Sea",
+        "background": "combat_sea",
+        "mtype": "Deepsea",
+        "opaque": false,
+        "status": "Avoid10"
+    },
+    {
+        "nid": "15",
+        "name": "Fountain",
+        "color": [
+            5,
+            244,
+            248
+        ],
+        "minimap": "River",
+        "platform": "Floor",
+        "background": "combat_village",
+        "mtype": "Fence",
         "opaque": false,
         "status": null
     },
@@ -236,7 +281,7 @@
         "platform": "Mountain",
         "background": "combat_hill",
         "mtype": "Mountain",
-        "opaque": false,
+        "opaque": true,
         "status": "Peak"
     },
     {
@@ -401,7 +446,7 @@
         "platform": "Floor",
         "background": "combat_castle3",
         "mtype": "Wall",
-        "opaque": false,
+        "opaque": true,
         "status": null
     },
     {
