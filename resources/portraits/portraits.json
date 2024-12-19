@@ -1406,12 +1406,12 @@
     {
         "nid": "{h0lyMushrooms} [F2E] OC Hanum (Version 1)",
         "blinking_offset": [
-            0,
-            0
+            23,
+            22
         ],
         "smiling_offset": [
-            0,
-            0
+            23,
+            38
         ],
         "info_offset": 0
     },
@@ -1567,6 +1567,54 @@
         ],
         "smiling_offset": [
             16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "{Levin64} OC 31",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            16,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "{monk-han} [F2E] OC Witch Lord (Version 1) ",
+        "blinking_offset": [
+            24,
+            16
+        ],
+        "smiling_offset": [
+            24,
+            32
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "{TrezVG} Prince(ss) Avarice",
+        "blinking_offset": [
+            32,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "{amema003} F2E OC 2",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            24,
             48
         ],
         "info_offset": 0

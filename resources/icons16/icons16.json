@@ -283,5 +283,22 @@
     {
         "nid": "{Beansy} All Tomes",
         "subicon_dict": {}
+    },
+    {
+        "nid": "wexp_expanded",
+        "subicon_dict": {
+            "wexp_expanded 0, 1": [
+                0,
+                1
+            ],
+            "wexp_expanded 1, 4": [
+                1,
+                4
+            ],
+            "wexp_expanded 1, 2": [
+                1,
+                2
+            ]
+        }
     }
 ]

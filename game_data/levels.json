@@ -909,7 +909,7 @@
                 "generic": false
             },
             {
-                "nid": "Garcia",
+                "nid": "Galahn",
                 "team": "npc",
                 "ai": "Defend",
                 "roam_ai": null,
@@ -1277,7 +1277,7 @@
                 "nid": "RossGarcia",
                 "units": [
                     "Magne",
-                    "Garcia"
+                    "Galahn"
                 ],
                 "positions": {}
             },
@@ -1414,7 +1414,7 @@
                 "generic": false
             },
             {
-                "nid": "Garcia",
+                "nid": "Galahn",
                 "team": "player",
                 "ai": "None",
                 "roam_ai": null,
@@ -1440,7 +1440,7 @@
                 "generic": false
             },
             {
-                "nid": "Colm",
+                "nid": "Relm",
                 "team": "npc",
                 "ai": "Thief",
                 "roam_ai": null,
@@ -1918,7 +1918,7 @@
                     "Thanya",
                     "Magne",
                     "Shayala",
-                    "Garcia"
+                    "Galahn"
                 ],
                 "positions": {}
             }
@@ -1966,7 +1966,7 @@
                 "generic": false
             },
             {
-                "nid": "Artur",
+                "nid": "Shane",
                 "team": "player",
                 "ai": "None",
                 "roam_ai": null,
@@ -1979,7 +1979,7 @@
                 "generic": false
             },
             {
-                "nid": "Lute",
+                "nid": "Morgaine",
                 "team": "npc",
                 "ai": "None",
                 "roam_ai": null,
@@ -2054,7 +2054,7 @@
                 "generic": false
             },
             {
-                "nid": "Colm",
+                "nid": "Relm",
                 "team": "player",
                 "ai": "None",
                 "roam_ai": null,
@@ -2904,7 +2904,7 @@
                     "Yarda",
                     "Thanya",
                     "Magne",
-                    "Colm",
+                    "Relm",
                     "Shayala"
                 ],
                 "positions": {}
@@ -2997,7 +2997,7 @@
                 "generic": false
             },
             {
-                "nid": "Joshua",
+                "nid": "Jan",
                 "team": "enemy",
                 "ai": "JoshuaDefend",
                 "roam_ai": null,
