@@ -466,7 +466,7 @@
     {
         "nid": "Serena",
         "name": "Serena",
-        "desc": "Miriam's former retainer promoted to Captainn of the guard. Miriam looks up to her as a mentor.",
+        "desc": "Miriam's former retainer promoted to Captain of the guard. Miriam looks up to her as a mentor.",
         "variant": "Serena",
         "level": 25,
         "klass": "Captain",
@@ -1201,7 +1201,7 @@
     {
         "nid": "Yarda",
         "name": "Yarda",
-        "desc": "A sincere, honest, and honourable pegasus knight of Frelia.",
+        "desc": "Dehren's wife and matriarch of the family. Yarda has served as Miriam's handmaiden since Miram was a child.",
         "variant": "",
         "level": 1,
         "klass": "Dancer",
@@ -1249,11 +1249,11 @@
         },
         "starting_items": [
             [
-                "Slim_Lance",
+                "Pierce",
                 false
             ],
             [
-                "Javelin",
+                "FlareBurst",
                 false
             ],
             [
@@ -1348,9 +1348,9 @@
     {
         "nid": "Thanya",
         "name": "Thanya",
-        "desc": "A mature priest of Frelia. He's gentle and reassuring.",
+        "desc": "Serena's aloof adopted daughter and close friend of Amaya.",
         "variant": null,
-        "level": 3,
+        "level": 1,
         "klass": "Apprentice",
         "tags": [
             "Zabos",
@@ -1487,7 +1487,7 @@
     {
         "nid": "Magne",
         "name": "Magne",
-        "desc": "A young villager. He longs to be a warrior, like his father.",
+        "desc": "The young lord of Estbalc, on loan to House Renald to train as a knight.",
         "variant": "",
         "level": 1,
         "klass": "Scout",
@@ -1622,7 +1622,7 @@
     {
         "nid": "Shayala",
         "name": "Shayala",
-        "desc": "Crown Princess of the Kingdom of Masa.",
+        "desc": "Crown Princess of the Kingdom of Masa, sometimes called the Sage Princess. While powerful she still has room to grow.",
         "variant": "Female",
         "level": 15,
         "klass": "Saint",
@@ -1763,7 +1763,7 @@
     {
         "nid": "Shane",
         "name": "Shane",
-        "desc": "A young monk from Renais. He is a very forthright and pious man.",
+        "desc": "Amaya's younger brother. He longs to prove himself as a knight.",
         "variant": "",
         "level": 8,
         "klass": "Apprentice",
@@ -1809,11 +1809,15 @@
         },
         "starting_items": [
             [
-                "Glimmer",
+                "Frostbite",
                 false
             ],
             [
                 "Vulnerary",
+                false
+            ],
+            [
+                "Gust",
                 false
             ]
         ],
@@ -1894,7 +1898,7 @@
     {
         "nid": "Morgaine",
         "name": "Morgaine",
-        "desc": "A young mage of Renais. She believes she is a prodigy.",
+        "desc": "The youngest princess of the Kingdom of Masa, married to Lord Leiland and mother of his child. She harbors disdain for outsiders.",
         "variant": "Female",
         "level": 1,
         "klass": "Apprentice",
@@ -2021,7 +2025,7 @@
     {
         "nid": "Baask",
         "name": "Baask",
-        "desc": "A steadfast and honourable cavalier in sworn service to Renais.",
+        "desc": "Young master of a fallen house. He seeks to reclaim his honor.",
         "variant": "",
         "level": 5,
         "klass": "Paladin",
@@ -2156,7 +2160,7 @@
     {
         "nid": "Galahn",
         "name": "Galahn",
-        "desc": "A villager from Renais. He was once a feared military leader.",
+        "desc": "A Lykon hailing from the island nation of Avalar. He joined the knights to form stronger bonds between their nations.",
         "variant": "",
         "level": 4,
         "klass": "Fighter",
@@ -2291,7 +2295,7 @@
     {
         "nid": "Myleih",
         "name": "Myleih",
-        "desc": "A cavalier from Renais. He is skilled, but reckless. He\u2019s Franz\u2019s brother.",
+        "desc": "An aspiring young recruit for the Kingdom and Baask's subordinate. Harbors a troubled past.",
         "variant": "",
         "level": 6,
         "klass": "Cavalier",
@@ -2426,7 +2430,7 @@
     {
         "nid": "Jan",
         "name": "Jan",
-        "desc": "A wandering sword fighter from Jehanna. He loves to gamble.",
+        "desc": "A young man who abandoned home and country. Wields a terrible power in his hands.",
         "variant": "",
         "level": 5,
         "klass": "Myrmidon",
@@ -2553,8 +2557,8 @@
     {
         "nid": "Florina",
         "name": "Florina",
-        "desc": "A young lady of Frelia. She is both cheery and sociable.",
-        "variant": null,
+        "desc": "A beautiful woman of Avyon descent. She's seeking something very dear to her and won't rest until it is returned.",
+        "variant": "",
         "level": 4,
         "klass": "WindRider",
         "tags": [],
@@ -2686,10 +2690,10 @@
         "fields": []
     },
     {
-        "nid": "Amelia",
-        "name": "Amelia",
+        "nid": "Michelle",
+        "name": "Michelle",
         "desc": "A young girl from a small village in Grado. She is honest and sincere.",
-        "variant": null,
+        "variant": "Female",
         "level": 1,
         "klass": "Recruit",
         "tags": [],
@@ -2816,42 +2820,42 @@
             ]
         },
         "alternate_classes": [],
-        "portrait_nid": "Amelia",
+        "portrait_nid": "Larcei {Redbean} [F2E]",
         "affinity": "Thunder",
         "fields": []
     },
     {
-        "nid": "Innes",
-        "name": "Innes",
-        "desc": "The prince of Frelia. He\u2019s brash and arrogant, but good at heart.",
-        "variant": null,
-        "level": 1,
-        "klass": "Sniper",
+        "nid": "Joan",
+        "name": "Joan",
+        "desc": "An aloof sword fighter from Jehanna. She\u2019s known as the Crimson Flash.",
+        "variant": "",
+        "level": 5,
+        "klass": "Myrmidon",
         "tags": [],
         "bases": {
-            "LCK": 14,
-            "RES": 9,
-            "CON": 9,
-            "MOV": 6,
-            "STR": 14,
-            "HP": 31,
-            "MAG": 0,
-            "SKL": 13,
-            "SPD": 15,
-            "DEF": 10,
+            "LCK": 9,
+            "RES": 3,
+            "CON": 5,
+            "MOV": 5,
+            "STR": 7,
+            "HP": 23,
+            "MAG": 4,
+            "SKL": 12,
+            "SPD": 13,
+            "DEF": 4,
             "MP": 0
         },
         "growths": {
-            "LCK": 45,
+            "LCK": 50,
             "RES": 25,
             "CON": 0,
             "MOV": 0,
-            "STR": 40,
+            "STR": 30,
             "HP": 75,
-            "MAG": 0,
-            "SKL": 40,
-            "SPD": 45,
-            "DEF": 20,
+            "MAG": 20,
+            "SKL": 55,
+            "SPD": 60,
+            "DEF": 15,
             "MP": 0
         },
         "stat_cap_modifiers": {
@@ -2869,15 +2873,11 @@
         },
         "starting_items": [
             [
-                "Mythril_Bow",
+                "Shamshir",
                 false
             ],
             [
-                "White_Gem",
-                false
-            ],
-            [
-                "Vulnerary",
+                "Elixir",
                 false
             ]
         ],
@@ -2885,8 +2885,8 @@
         "unit_notes": [],
         "wexp_gain": {
             "Sword": [
-                false,
-                0,
+                true,
+                31,
                 251
             ],
             "Lance": [
@@ -2900,8 +2900,8 @@
                 251
             ],
             "Bow": [
-                true,
-                181,
+                false,
+                0,
                 251
             ],
             "Staff": [
@@ -2951,15 +2951,15 @@
             ]
         },
         "alternate_classes": [],
-        "portrait_nid": "Innes",
+        "portrait_nid": "Larcei (New version) {Melia}",
         "affinity": "Ice",
         "fields": []
     },
     {
-        "nid": "Gerik",
-        "name": "Gerik",
+        "nid": "Bella",
+        "name": "Bella",
         "desc": "A mercenary leader from Jehanna. He's better known as the Desert Tiger.",
-        "variant": null,
+        "variant": "Female",
         "level": 10,
         "klass": "Mercenary",
         "tags": [],
@@ -3086,15 +3086,15 @@
             ]
         },
         "alternate_classes": [],
-        "portrait_nid": "Gerik",
+        "portrait_nid": "Eda {Atey}",
         "affinity": "Thunder",
         "fields": []
     },
     {
-        "nid": "Tethys",
-        "name": "Tethys",
+        "nid": "Hana",
+        "name": "Hana",
         "desc": "A beautiful and charming dancer from Jehanna.",
-        "variant": null,
+        "variant": "",
         "level": 1,
         "klass": "Dancer",
         "tags": [],
@@ -3226,37 +3226,37 @@
         "fields": []
     },
     {
-        "nid": "Marisa",
-        "name": "Marisa",
-        "desc": "An aloof sword fighter from Jehanna. She\u2019s known as the Crimson Flash.",
-        "variant": null,
-        "level": 5,
-        "klass": "Myrmidon",
+        "nid": "Liberius",
+        "name": "Liberius",
+        "desc": "The prince of Frelia. He\u2019s brash and arrogant, but good at heart.",
+        "variant": "Female",
+        "level": 1,
+        "klass": "Sniper",
         "tags": [],
         "bases": {
-            "LCK": 9,
-            "RES": 3,
-            "CON": 5,
-            "MOV": 5,
-            "STR": 7,
-            "HP": 23,
-            "MAG": 4,
-            "SKL": 12,
-            "SPD": 13,
-            "DEF": 4,
+            "LCK": 14,
+            "RES": 9,
+            "CON": 9,
+            "MOV": 6,
+            "STR": 14,
+            "HP": 31,
+            "MAG": 0,
+            "SKL": 13,
+            "SPD": 15,
+            "DEF": 10,
             "MP": 0
         },
         "growths": {
-            "LCK": 50,
+            "LCK": 45,
             "RES": 25,
             "CON": 0,
             "MOV": 0,
-            "STR": 30,
+            "STR": 40,
             "HP": 75,
-            "MAG": 20,
-            "SKL": 55,
-            "SPD": 60,
-            "DEF": 15,
+            "MAG": 0,
+            "SKL": 40,
+            "SPD": 45,
+            "DEF": 20,
             "MP": 0
         },
         "stat_cap_modifiers": {
@@ -3274,11 +3274,15 @@
         },
         "starting_items": [
             [
-                "Shamshir",
+                "Mythril_Bow",
                 false
             ],
             [
-                "Elixir",
+                "White_Gem",
+                false
+            ],
+            [
+                "Vulnerary",
                 false
             ]
         ],
@@ -3286,8 +3290,8 @@
         "unit_notes": [],
         "wexp_gain": {
             "Sword": [
-                true,
-                31,
+                false,
+                0,
                 251
             ],
             "Lance": [
@@ -3301,8 +3305,8 @@
                 251
             ],
             "Bow": [
-                false,
-                0,
+                true,
+                181,
                 251
             ],
             "Staff": [
@@ -3352,15 +3356,15 @@
             ]
         },
         "alternate_classes": [],
-        "portrait_nid": "Marisa",
+        "portrait_nid": "Innes",
         "affinity": "Ice",
         "fields": []
     },
     {
-        "nid": "L'arachel",
-        "name": "L'arachel",
+        "nid": "Nala",
+        "name": "Nala",
         "desc": "A young woman from Rausten. She fights for justice and honour.",
-        "variant": null,
+        "variant": "",
         "level": 3,
         "klass": "Tactician",
         "tags": [],
@@ -3487,7 +3491,7 @@
             ]
         },
         "alternate_classes": [],
-        "portrait_nid": "L'arachel",
+        "portrait_nid": "Flayn (Emotion 4) {Redbean} [F2E]",
         "affinity": "Light",
         "fields": []
     },

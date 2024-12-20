@@ -2634,7 +2634,7 @@
                 "generic": true
             },
             {
-                "nid": "L'arachel",
+                "nid": "Nala",
                 "team": "npc",
                 "ai": "None",
                 "roam_ai": null,
@@ -2926,17 +2926,17 @@
             {
                 "nid": "LGang",
                 "units": [
-                    "L'arachel",
+                    "Nala",
                     "Dozla"
                 ],
                 "positions": {
-                    "L'arachel": [
-                        10,
-                        5
-                    ],
                     "Dozla": [
                         11,
                         4
+                    ],
+                    "Nala": [
+                        10,
+                        5
                     ]
                 }
             }

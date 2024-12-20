@@ -1618,5 +1618,17 @@
             48
         ],
         "info_offset": 0
+    },
+    {
+        "nid": "Flayn (Emotion 4) {Redbean} [F2E]",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
     }
 ]
