@@ -49,5 +49,101 @@
                 0
             ]
         }
+    },
+    {
+        "nid": "{Beansy} Generic Portrait 1-1",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "{Beansy} Generic Portrait 1-2",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "{Beansy} Generic Portrait 1-3",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "{Beansy} Generic Portrait 1-4",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "{Beansy} Generic Portrait 1-5",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "{Beansy} Generic Portrait 2-1",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "{Beansy} Generic Portrait 2-2",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "{Beansy} Generic Portrait 2-3",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "{Beansy} Generic Portrait 2-4",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "{Beansy} Generic Portrait 2-5",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "{Beansy} Generic Portrait 2-6",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "{Beansy} Swords",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "{Dark} Ally Bandit",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "{Dark} Ally Dragon",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "{Dark} Ally Soldier",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "{Dark} Other Dragon",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "{Dark} Other Monster",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "{WAve} Factions",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "{WAve} Pink and Black Factions",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "{WAve} Renais Emblem (Ally)",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "{WAve} Renais Emblem (Enemy)",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "{WAve} Renais Emblem (Other)",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "{WAve} Renais Emblem 1 (Default)",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "{WAve} Renais Emblem Alt (Default)",
+        "subicon_dict": {}
     }
 ]

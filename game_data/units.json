@@ -318,12 +318,174 @@
         ]
     },
     {
-        "nid": "Dalton",
-        "name": "Dalton",
-        "desc": "The prince of Renais. He is a man of great honour and bravery.",
+        "nid": "Leiland",
+        "name": "Leiland",
+        "desc": "Heir to House Renald and adoptive brother of Miriam. He dotes on her, but is stern with his duty.",
+        "variant": "",
+        "level": 12,
+        "klass": "WolfKnight",
+        "tags": [
+            "Lord",
+            "Wolf",
+            "Mounted",
+            "Lykon"
+        ],
+        "bases": {
+            "LCK": 0,
+            "CON": 0,
+            "MOV": 0,
+            "RES": 0,
+            "STR": 0,
+            "HP": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
+            "MP": 0
+        },
+        "growths": {
+            "LCK": 25,
+            "CON": 0,
+            "MOV": 0,
+            "RES": 25,
+            "STR": 25,
+            "HP": 70,
+            "MAG": 12,
+            "SKL": 35,
+            "SPD": 25,
+            "DEF": 12,
+            "MP": 0
+        },
+        "stat_cap_modifiers": {
+            "RES": 0,
+            "LCK": 0,
+            "CON": 0,
+            "MOV": 0,
+            "STR": 0,
+            "HP": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
+            "MP": 0
+        },
+        "starting_items": [
+            [
+                "Mythril_Sword",
+                false
+            ],
+            [
+                "Steel_Bow",
+                false
+            ],
+            [
+                "Steel_Axe",
+                false
+            ],
+            [
+                "Vulnerary",
+                false
+            ]
+        ],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                true,
+                121,
+                251
+            ],
+            "Lance": [
+                true,
+                71,
+                251
+            ],
+            "Axe": [
+                false,
+                0,
+                251
+            ],
+            "Bow": [
+                false,
+                31,
+                251
+            ],
+            "Staff": [
+                false,
+                0,
+                251
+            ],
+            "Light": [
+                false,
+                0,
+                251
+            ],
+            "Anima": [
+                false,
+                0,
+                251
+            ],
+            "Dark": [
+                false,
+                0,
+                251
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ],
+            "Earth": [
+                false,
+                0,
+                251
+            ],
+            "Solus": [
+                false,
+                0,
+                251
+            ],
+            "Lunis": [
+                false,
+                0,
+                251
+            ],
+            "Tellus": [
+                false,
+                0,
+                251
+            ],
+            "Dagger": [
+                false,
+                0,
+                null
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Stefan {NickT, Stitch}",
+        "affinity": "Stone",
+        "fields": [
+            [
+                "Race",
+                "Lykon"
+            ],
+            [
+                "Birthplace",
+                "Trade City Oestridel"
+            ],
+            [
+                "Home",
+                "Trace City Oestridel"
+            ]
+        ]
+    },
+    {
+        "nid": "Lukas",
+        "name": "Lukas",
+        "desc": "A mysterious nobleman related to Count Garish Barrington. He seems to have taken a liking to Miriam...",
         "variant": "",
         "level": 15,
-        "klass": "Lord",
+        "klass": "WaterLord",
         "tags": [
             "Lord",
             "Holy",
@@ -464,471 +626,12 @@
         ]
     },
     {
-        "nid": "Serena",
-        "name": "Serena",
-        "desc": "Miriam's former retainer promoted to Captain of the guard. Miriam looks up to her as a mentor.",
-        "variant": "Serena",
-        "level": 25,
-        "klass": "Captain",
-        "tags": [],
-        "bases": {
-            "LCK": 0,
-            "CON": 0,
-            "MOV": 0,
-            "RES": 0,
-            "STR": 0,
-            "HP": 0,
-            "MAG": 0,
-            "SKL": 0,
-            "SPD": 0,
-            "DEF": 0,
-            "MP": 0
-        },
-        "growths": {
-            "LCK": 40,
-            "CON": 0,
-            "MOV": 0,
-            "RES": 20,
-            "STR": 45,
-            "HP": 80,
-            "MAG": 22,
-            "SKL": 40,
-            "SPD": 45,
-            "DEF": 15,
-            "MP": 0
-        },
-        "stat_cap_modifiers": {
-            "RES": 0,
-            "LCK": 0,
-            "CON": 0,
-            "MOV": 0,
-            "STR": 0,
-            "HP": 0,
-            "MAG": 0,
-            "SKL": 0,
-            "SPD": 0,
-            "DEF": 0,
-            "MP": 0
-        },
-        "starting_items": [
-            [
-                "Almace",
-                false
-            ],
-            [
-                "Vulnerary",
-                false
-            ],
-            [
-                "Steel_Lance",
-                false
-            ],
-            [
-                "Frostbite",
-                false
-            ]
-        ],
-        "learned_skills": [],
-        "unit_notes": [],
-        "wexp_gain": {
-            "Sword": [
-                true,
-                181,
-                251
-            ],
-            "Lance": [
-                true,
-                71,
-                251
-            ],
-            "Axe": [
-                false,
-                0,
-                251
-            ],
-            "Bow": [
-                false,
-                0,
-                251
-            ],
-            "Staff": [
-                false,
-                0,
-                251
-            ],
-            "Light": [
-                false,
-                0,
-                251
-            ],
-            "Anima": [
-                false,
-                0,
-                251
-            ],
-            "Dark": [
-                false,
-                0,
-                251
-            ],
-            "Default": [
-                false,
-                0,
-                251
-            ],
-            "Earth": [
-                false,
-                0,
-                251
-            ],
-            "Solus": [
-                false,
-                0,
-                251
-            ],
-            "Lunis": [
-                false,
-                0,
-                251
-            ],
-            "Tellus": [
-                false,
-                0,
-                251
-            ],
-            "Glacies": [
-                false,
-                31,
-                null
-            ]
-        },
-        "alternate_classes": [],
-        "portrait_nid": "Nephenee {NickT, Stitch}",
-        "affinity": "Ice",
-        "fields": [
-            [
-                "Race",
-                "Queiza"
-            ],
-            [
-                "Birthplace",
-                "Unknown"
-            ],
-            [
-                "Home",
-                "Trade City Oestridel"
-            ]
-        ]
-    },
-    {
-        "nid": "Leiland",
-        "name": "Leiland",
-        "desc": "Heir to House Renald and adoptive brother of Miriam. He dotes on her, but is stern with his duty.",
-        "variant": "",
-        "level": 12,
-        "klass": "WolfKnight",
-        "tags": [
-            "Lord",
-            "Wolf",
-            "Mounted",
-            "Lykon"
-        ],
-        "bases": {
-            "LCK": 0,
-            "CON": 0,
-            "MOV": 0,
-            "RES": 0,
-            "STR": 0,
-            "HP": 0,
-            "MAG": 0,
-            "SKL": 0,
-            "SPD": 0,
-            "DEF": 0,
-            "MP": 0
-        },
-        "growths": {
-            "LCK": 25,
-            "CON": 0,
-            "MOV": 0,
-            "RES": 25,
-            "STR": 25,
-            "HP": 70,
-            "MAG": 12,
-            "SKL": 35,
-            "SPD": 25,
-            "DEF": 12,
-            "MP": 0
-        },
-        "stat_cap_modifiers": {
-            "RES": 0,
-            "LCK": 0,
-            "CON": 0,
-            "MOV": 0,
-            "STR": 0,
-            "HP": 0,
-            "MAG": 0,
-            "SKL": 0,
-            "SPD": 0,
-            "DEF": 0,
-            "MP": 0
-        },
-        "starting_items": [
-            [
-                "Mythril_Sword",
-                false
-            ],
-            [
-                "Mythril_Lance",
-                false
-            ],
-            [
-                "Steel_Lance",
-                false
-            ],
-            [
-                "Vulnerary",
-                false
-            ]
-        ],
-        "learned_skills": [],
-        "unit_notes": [],
-        "wexp_gain": {
-            "Sword": [
-                true,
-                121,
-                251
-            ],
-            "Lance": [
-                true,
-                71,
-                251
-            ],
-            "Axe": [
-                false,
-                0,
-                251
-            ],
-            "Bow": [
-                false,
-                31,
-                251
-            ],
-            "Staff": [
-                false,
-                0,
-                251
-            ],
-            "Light": [
-                false,
-                0,
-                251
-            ],
-            "Anima": [
-                false,
-                0,
-                251
-            ],
-            "Dark": [
-                false,
-                0,
-                251
-            ],
-            "Default": [
-                false,
-                0,
-                251
-            ],
-            "Earth": [
-                false,
-                0,
-                251
-            ],
-            "Solus": [
-                false,
-                0,
-                251
-            ],
-            "Lunis": [
-                false,
-                0,
-                251
-            ],
-            "Tellus": [
-                false,
-                0,
-                251
-            ],
-            "Dagger": [
-                false,
-                0,
-                null
-            ]
-        },
-        "alternate_classes": [],
-        "portrait_nid": "Stefan {NickT, Stitch}",
-        "affinity": "Stone",
-        "fields": [
-            [
-                "Race",
-                "Lykon"
-            ],
-            [
-                "Birthplace",
-                "Trade City Oestridel"
-            ],
-            [
-                "Home",
-                "Trace City Oestridel"
-            ]
-        ]
-    },
-    {
-        "nid": "Kasuto",
-        "name": "Kasuto",
-        "desc": "A sister serving in the Church of Gaeya. She is a fountain of wisdom and beauty.",
-        "variant": "Female",
-        "level": 18,
-        "klass": "Prior",
-        "tags": [
-            "Dragon",
-            "Holy",
-            "Nordak",
-            "Siylphe"
-        ],
-        "bases": {
-            "LCK": 0,
-            "RES": 0,
-            "CON": 0,
-            "MOV": 0,
-            "STR": 0,
-            "HP": 0,
-            "MAG": 0,
-            "SKL": 0,
-            "SPD": 0,
-            "DEF": 0,
-            "MP": 0
-        },
-        "growths": {
-            "LCK": 60,
-            "RES": 55,
-            "CON": 0,
-            "MOV": 0,
-            "STR": 0,
-            "HP": 50,
-            "MAG": 60,
-            "SKL": 25,
-            "SPD": 40,
-            "DEF": 15,
-            "MP": 0
-        },
-        "stat_cap_modifiers": {
-            "RES": 0,
-            "LCK": 0,
-            "CON": 0,
-            "MOV": 0,
-            "STR": 0,
-            "HP": 0,
-            "MAG": 0,
-            "SKL": 0,
-            "SPD": 0,
-            "DEF": 0,
-            "MP": 0
-        },
-        "starting_items": [
-            [
-                "Physic",
-                false
-            ],
-            [
-                "Vulnerary",
-                false
-            ],
-            [
-                "Starlight",
-                false
-            ]
-        ],
-        "learned_skills": [],
-        "unit_notes": [],
-        "wexp_gain": {
-            "Sword": [
-                false,
-                121,
-                251
-            ],
-            "Lance": [
-                false,
-                0,
-                251
-            ],
-            "Axe": [
-                false,
-                0,
-                251
-            ],
-            "Bow": [
-                false,
-                0,
-                251
-            ],
-            "Staff": [
-                true,
-                71,
-                251
-            ],
-            "Light": [
-                false,
-                0,
-                251
-            ],
-            "Anima": [
-                false,
-                0,
-                251
-            ],
-            "Dark": [
-                false,
-                0,
-                251
-            ],
-            "Default": [
-                false,
-                0,
-                251
-            ],
-            "Earth": [
-                false,
-                0,
-                251
-            ],
-            "Solus": [
-                false,
-                181,
-                251
-            ],
-            "Lunis": [
-                false,
-                0,
-                251
-            ],
-            "Tellus": [
-                false,
-                0,
-                251
-            ]
-        },
-        "alternate_classes": [],
-        "portrait_nid": "Natasha (Older) {MegaCowsamMan}",
-        "affinity": "Ice",
-        "fields": []
-    },
-    {
         "nid": "Relm",
         "name": "Relm",
-        "desc": "",
+        "desc": "A mysterious young girl who is being hunted by the Nephyliae. She's actually Sister Kasuto's missing sister.",
         "variant": "",
         "level": 2,
-        "klass": "Shinobi",
+        "klass": "Tsuiho",
         "tags": [
             "Dragon",
             "Thief",
@@ -1063,6 +766,282 @@
         "fields": []
     },
     {
+        "nid": "Baask",
+        "name": "Baask",
+        "desc": "Young master of a fallen house. He seeks to reclaim his honor.",
+        "variant": "",
+        "level": 5,
+        "klass": "Paladin",
+        "tags": [],
+        "bases": {
+            "LCK": 0,
+            "RES": 0,
+            "CON": 0,
+            "MOV": 0,
+            "STR": 0,
+            "HP": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
+            "MP": 0
+        },
+        "growths": {
+            "LCK": 20,
+            "RES": 20,
+            "CON": 0,
+            "MOV": 0,
+            "STR": 50,
+            "HP": 90,
+            "MAG": 25,
+            "SKL": 40,
+            "SPD": 40,
+            "DEF": 25,
+            "MP": 0
+        },
+        "stat_cap_modifiers": {
+            "RES": 0,
+            "LCK": 0,
+            "CON": 0,
+            "MOV": 0,
+            "STR": 0,
+            "HP": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
+            "MP": 0
+        },
+        "starting_items": [
+            [
+                "Iron_Sword",
+                false
+            ],
+            [
+                "Steel_Lance",
+                false
+            ],
+            [
+                "Vulnerary",
+                false
+            ]
+        ],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                true,
+                31,
+                251
+            ],
+            "Lance": [
+                true,
+                71,
+                251
+            ],
+            "Axe": [
+                false,
+                0,
+                251
+            ],
+            "Bow": [
+                false,
+                0,
+                251
+            ],
+            "Staff": [
+                false,
+                0,
+                251
+            ],
+            "Light": [
+                false,
+                0,
+                251
+            ],
+            "Anima": [
+                false,
+                0,
+                251
+            ],
+            "Dark": [
+                false,
+                0,
+                251
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ],
+            "Earth": [
+                false,
+                0,
+                251
+            ],
+            "Solus": [
+                false,
+                0,
+                251
+            ],
+            "Lunis": [
+                false,
+                0,
+                251
+            ],
+            "Tellus": [
+                false,
+                0,
+                251
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "ZoramineFae_6",
+        "affinity": "Ice",
+        "fields": []
+    },
+    {
+        "nid": "Shayala",
+        "name": "Shayala",
+        "desc": "Crown Princess of the Kingdom of Masa, sometimes called the Sage Princess. While powerful she still has room to grow.",
+        "variant": "Female",
+        "level": 15,
+        "klass": "Saint",
+        "tags": [
+            "Lord",
+            "Horse",
+            "Mounted",
+            "Lykon"
+        ],
+        "bases": {
+            "LCK": 0,
+            "RES": 0,
+            "CON": 0,
+            "MOV": 0,
+            "STR": 0,
+            "HP": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
+            "MP": 0
+        },
+        "growths": {
+            "LCK": 35,
+            "RES": 20,
+            "CON": 0,
+            "MOV": 0,
+            "STR": 35,
+            "HP": 70,
+            "MAG": 0,
+            "SKL": 40,
+            "SPD": 32,
+            "DEF": 15,
+            "MP": 0
+        },
+        "stat_cap_modifiers": {
+            "RES": 0,
+            "LCK": 0,
+            "CON": 0,
+            "MOV": 0,
+            "STR": 0,
+            "HP": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
+            "MP": 0
+        },
+        "starting_items": [
+            [
+                "Iron_Bow",
+                false
+            ],
+            [
+                "Vulnerary",
+                false
+            ]
+        ],
+        "learned_skills": [
+            [
+                1,
+                "Mercy2"
+            ]
+        ],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0,
+                251
+            ],
+            "Lance": [
+                false,
+                0,
+                251
+            ],
+            "Axe": [
+                false,
+                0,
+                251
+            ],
+            "Bow": [
+                true,
+                31,
+                251
+            ],
+            "Staff": [
+                false,
+                181,
+                251
+            ],
+            "Light": [
+                false,
+                0,
+                251
+            ],
+            "Anima": [
+                false,
+                0,
+                251
+            ],
+            "Dark": [
+                false,
+                0,
+                251
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ],
+            "Earth": [
+                false,
+                0,
+                251
+            ],
+            "Solus": [
+                false,
+                71,
+                251
+            ],
+            "Lunis": [
+                false,
+                0,
+                251
+            ],
+            "Tellus": [
+                false,
+                181,
+                251
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Shayala",
+        "affinity": "Life",
+        "fields": []
+    },
+    {
         "nid": "Dehren",
         "name": "Dehren",
         "desc": "A skilled mage from a far away land. Having resided in Oestridel for some time, he became a retainer for Lady Miriam.",
@@ -1115,7 +1094,7 @@
         },
         "starting_items": [
             [
-                "Iron_Lance",
+                "Fireball",
                 false
             ]
         ],
@@ -1199,157 +1178,10 @@
         "fields": []
     },
     {
-        "nid": "Yarda",
-        "name": "Yarda",
-        "desc": "Dehren's wife and matriarch of the family. Yarda has served as Miriam's handmaiden since Miram was a child.",
-        "variant": "",
-        "level": 1,
-        "klass": "Dancer",
-        "tags": [
-            "Zabos"
-        ],
-        "bases": {
-            "LCK": 0,
-            "RES": 0,
-            "CON": 0,
-            "MOV": 0,
-            "STR": 0,
-            "HP": 0,
-            "MAG": 0,
-            "SKL": 0,
-            "SPD": 0,
-            "DEF": 0,
-            "MP": 0
-        },
-        "growths": {
-            "LCK": 70,
-            "RES": 13,
-            "CON": 0,
-            "MOV": 0,
-            "STR": 35,
-            "HP": 45,
-            "MAG": 45,
-            "SKL": 30,
-            "SPD": 60,
-            "DEF": 0,
-            "MP": 0
-        },
-        "stat_cap_modifiers": {
-            "RES": 0,
-            "LCK": 0,
-            "CON": 0,
-            "MOV": 0,
-            "STR": 0,
-            "HP": 0,
-            "MAG": 0,
-            "SKL": 0,
-            "SPD": 0,
-            "DEF": 0,
-            "MP": 0
-        },
-        "starting_items": [
-            [
-                "Pierce",
-                false
-            ],
-            [
-                "FlareBurst",
-                false
-            ],
-            [
-                "Vulnerary",
-                false
-            ]
-        ],
-        "learned_skills": [],
-        "unit_notes": [],
-        "wexp_gain": {
-            "Sword": [
-                false,
-                0,
-                251
-            ],
-            "Lance": [
-                true,
-                0,
-                251
-            ],
-            "Axe": [
-                false,
-                0,
-                251
-            ],
-            "Bow": [
-                false,
-                0,
-                251
-            ],
-            "Staff": [
-                false,
-                0,
-                251
-            ],
-            "Light": [
-                false,
-                0,
-                251
-            ],
-            "Anima": [
-                false,
-                0,
-                251
-            ],
-            "Dark": [
-                false,
-                0,
-                251
-            ],
-            "Default": [
-                false,
-                0,
-                251
-            ],
-            "Earth": [
-                false,
-                0,
-                251
-            ],
-            "Solus": [
-                false,
-                0,
-                251
-            ],
-            "Lunis": [
-                false,
-                0,
-                251
-            ],
-            "Tellus": [
-                false,
-                0,
-                251
-            ],
-            "Ignis": [
-                false,
-                31,
-                null
-            ],
-            "Dagger": [
-                false,
-                1,
-                null
-            ]
-        },
-        "alternate_classes": [],
-        "portrait_nid": "{VelvetKitsune} F2E OC 1 [AI]",
-        "affinity": "Fire",
-        "fields": []
-    },
-    {
         "nid": "Thanya",
         "name": "Thanya",
         "desc": "Serena's aloof adopted daughter and close friend of Amaya.",
-        "variant": null,
+        "variant": "",
         "level": 1,
         "klass": "Apprentice",
         "tags": [
@@ -1620,42 +1452,37 @@
         "fields": []
     },
     {
-        "nid": "Shayala",
-        "name": "Shayala",
-        "desc": "Crown Princess of the Kingdom of Masa, sometimes called the Sage Princess. While powerful she still has room to grow.",
-        "variant": "Female",
-        "level": 15,
-        "klass": "Saint",
-        "tags": [
-            "Lord",
-            "Horse",
-            "Mounted",
-            "Lykon"
-        ],
+        "nid": "Levyas",
+        "name": "Levyas",
+        "desc": "Florina's elder brother, he went missing some time in the past. He has devoted his life to Lady Kasuto.",
+        "variant": "",
+        "level": 1,
+        "klass": "WindRider",
+        "tags": [],
         "bases": {
-            "LCK": 0,
-            "RES": 0,
-            "CON": 0,
-            "MOV": 0,
-            "STR": 0,
-            "HP": 0,
+            "LCK": 14,
+            "RES": 9,
+            "CON": 9,
+            "MOV": 6,
+            "STR": 14,
+            "HP": 31,
             "MAG": 0,
-            "SKL": 0,
-            "SPD": 0,
-            "DEF": 0,
+            "SKL": 13,
+            "SPD": 15,
+            "DEF": 10,
             "MP": 0
         },
         "growths": {
-            "LCK": 35,
-            "RES": 20,
+            "LCK": 45,
+            "RES": 25,
             "CON": 0,
             "MOV": 0,
-            "STR": 35,
-            "HP": 70,
+            "STR": 40,
+            "HP": 75,
             "MAG": 0,
             "SKL": 40,
-            "SPD": 32,
-            "DEF": 15,
+            "SPD": 45,
+            "DEF": 20,
             "MP": 0
         },
         "stat_cap_modifiers": {
@@ -1673,7 +1500,11 @@
         },
         "starting_items": [
             [
-                "Iron_Bow",
+                "Mythril_Bow",
+                false
+            ],
+            [
+                "White_Gem",
                 false
             ],
             [
@@ -1681,12 +1512,7 @@
                 false
             ]
         ],
-        "learned_skills": [
-            [
-                1,
-                "Mercy2"
-            ]
-        ],
+        "learned_skills": [],
         "unit_notes": [],
         "wexp_gain": {
             "Sword": [
@@ -1706,12 +1532,12 @@
             ],
             "Bow": [
                 true,
-                31,
+                181,
                 251
             ],
             "Staff": [
                 false,
-                181,
+                0,
                 251
             ],
             "Light": [
@@ -1741,7 +1567,7 @@
             ],
             "Solus": [
                 false,
-                71,
+                0,
                 251
             ],
             "Lunis": [
@@ -1751,18 +1577,566 @@
             ],
             "Tellus": [
                 false,
-                181,
+                0,
                 251
             ]
         },
         "alternate_classes": [],
-        "portrait_nid": "Shayala",
-        "affinity": "Life",
+        "portrait_nid": "RandomWizard F2E 18",
+        "affinity": "Ice",
         "fields": []
     },
     {
-        "nid": "Shane",
-        "name": "Shane",
+        "nid": "Joan",
+        "name": "Joan",
+        "desc": "A woman of Dorma who leads the local militia, and younger twin sister of Michelle. She hates all outsiders.",
+        "variant": "",
+        "level": 5,
+        "klass": "Mercenary",
+        "tags": [],
+        "bases": {
+            "LCK": 9,
+            "RES": 3,
+            "CON": 5,
+            "MOV": 5,
+            "STR": 7,
+            "HP": 23,
+            "MAG": 4,
+            "SKL": 12,
+            "SPD": 13,
+            "DEF": 4,
+            "MP": 0
+        },
+        "growths": {
+            "LCK": 50,
+            "RES": 25,
+            "CON": 0,
+            "MOV": 0,
+            "STR": 30,
+            "HP": 75,
+            "MAG": 20,
+            "SKL": 55,
+            "SPD": 60,
+            "DEF": 15,
+            "MP": 0
+        },
+        "stat_cap_modifiers": {
+            "RES": 0,
+            "LCK": 0,
+            "CON": 0,
+            "MOV": 0,
+            "STR": 0,
+            "HP": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
+            "MP": 0
+        },
+        "starting_items": [
+            [
+                "Shamshir",
+                false
+            ],
+            [
+                "Elixir",
+                false
+            ]
+        ],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                true,
+                31,
+                251
+            ],
+            "Lance": [
+                false,
+                0,
+                251
+            ],
+            "Axe": [
+                false,
+                0,
+                251
+            ],
+            "Bow": [
+                false,
+                0,
+                251
+            ],
+            "Staff": [
+                false,
+                0,
+                251
+            ],
+            "Light": [
+                false,
+                0,
+                251
+            ],
+            "Anima": [
+                false,
+                0,
+                251
+            ],
+            "Dark": [
+                false,
+                0,
+                251
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ],
+            "Earth": [
+                false,
+                0,
+                251
+            ],
+            "Solus": [
+                false,
+                0,
+                251
+            ],
+            "Lunis": [
+                false,
+                0,
+                251
+            ],
+            "Tellus": [
+                false,
+                0,
+                251
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Larcei (New version) {Melia}",
+        "affinity": "Ice",
+        "fields": []
+    },
+    {
+        "nid": "Michelle",
+        "name": "Michelle",
+        "desc": "Elder twin sister of Joan, she seeks to make her fortunes outside the village to provide for her family.",
+        "variant": "Female",
+        "level": 1,
+        "klass": "Recruit",
+        "tags": [],
+        "bases": {
+            "LCK": 6,
+            "RES": 3,
+            "CON": 6,
+            "MOV": 4,
+            "STR": 4,
+            "HP": 16,
+            "MAG": 2,
+            "SKL": 3,
+            "SPD": 4,
+            "DEF": 2,
+            "MP": 0
+        },
+        "growths": {
+            "LCK": 60,
+            "RES": 20,
+            "CON": 0,
+            "MOV": 0,
+            "STR": 45,
+            "HP": 70,
+            "MAG": 30,
+            "SKL": 50,
+            "SPD": 50,
+            "DEF": 35,
+            "MP": 0
+        },
+        "stat_cap_modifiers": {
+            "RES": 0,
+            "LCK": 0,
+            "CON": 0,
+            "MOV": 0,
+            "STR": 0,
+            "HP": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
+            "MP": 0
+        },
+        "starting_items": [
+            [
+                "Slim_Lance",
+                false
+            ],
+            [
+                "Speedwing",
+                false
+            ],
+            [
+                "Vulnerary",
+                false
+            ]
+        ],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0,
+                251
+            ],
+            "Lance": [
+                true,
+                1,
+                251
+            ],
+            "Axe": [
+                false,
+                0,
+                251
+            ],
+            "Bow": [
+                false,
+                0,
+                251
+            ],
+            "Staff": [
+                false,
+                0,
+                251
+            ],
+            "Light": [
+                false,
+                0,
+                251
+            ],
+            "Anima": [
+                false,
+                0,
+                251
+            ],
+            "Dark": [
+                false,
+                0,
+                251
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ],
+            "Earth": [
+                false,
+                0,
+                251
+            ],
+            "Solus": [
+                false,
+                0,
+                251
+            ],
+            "Lunis": [
+                false,
+                0,
+                251
+            ],
+            "Tellus": [
+                false,
+                0,
+                251
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Larcei {Redbean} [F2E]",
+        "affinity": "Thunder",
+        "fields": []
+    },
+    {
+        "nid": "Liena",
+        "name": "Liena",
+        "desc": "Lady Priscilla's handmaiden. She searches for Priscilla's son, Lord Baask.",
+        "variant": "",
+        "level": 1,
+        "klass": "Scout",
+        "tags": [
+            "Zabos"
+        ],
+        "bases": {
+            "LCK": 0,
+            "RES": 0,
+            "CON": 0,
+            "MOV": 0,
+            "STR": 0,
+            "HP": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
+            "MP": 0
+        },
+        "growths": {
+            "LCK": 70,
+            "RES": 13,
+            "CON": 0,
+            "MOV": 0,
+            "STR": 35,
+            "HP": 45,
+            "MAG": 45,
+            "SKL": 30,
+            "SPD": 60,
+            "DEF": 0,
+            "MP": 0
+        },
+        "stat_cap_modifiers": {
+            "RES": 0,
+            "LCK": 0,
+            "CON": 0,
+            "MOV": 0,
+            "STR": 0,
+            "HP": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
+            "MP": 0
+        },
+        "starting_items": [
+            [
+                "Pierce",
+                false
+            ],
+            [
+                "FlareBurst",
+                false
+            ],
+            [
+                "Vulnerary",
+                false
+            ]
+        ],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0,
+                251
+            ],
+            "Lance": [
+                true,
+                0,
+                251
+            ],
+            "Axe": [
+                false,
+                0,
+                251
+            ],
+            "Bow": [
+                false,
+                0,
+                251
+            ],
+            "Staff": [
+                false,
+                0,
+                251
+            ],
+            "Light": [
+                false,
+                0,
+                251
+            ],
+            "Anima": [
+                false,
+                0,
+                251
+            ],
+            "Dark": [
+                false,
+                0,
+                251
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ],
+            "Earth": [
+                false,
+                0,
+                251
+            ],
+            "Solus": [
+                false,
+                0,
+                251
+            ],
+            "Lunis": [
+                false,
+                0,
+                251
+            ],
+            "Tellus": [
+                false,
+                0,
+                251
+            ],
+            "Ignis": [
+                false,
+                31,
+                null
+            ],
+            "Dagger": [
+                false,
+                1,
+                null
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Thea (Archer) {Freefall} [F2E]",
+        "affinity": "Fire",
+        "fields": []
+    },
+    {
+        "nid": "Nala",
+        "name": "Nala",
+        "desc": "A mysterious Lykon girl with an incredible power within her. Travels\nin a caravan with her big sister.",
+        "variant": "",
+        "level": 3,
+        "klass": "Nurse",
+        "tags": [],
+        "bases": {
+            "LCK": 12,
+            "RES": 8,
+            "CON": 5,
+            "MOV": 6,
+            "STR": 0,
+            "HP": 18,
+            "MAG": 6,
+            "SKL": 6,
+            "SPD": 10,
+            "DEF": 5,
+            "MP": 0
+        },
+        "growths": {
+            "LCK": 65,
+            "RES": 50,
+            "CON": 0,
+            "MOV": 0,
+            "STR": 0,
+            "HP": 45,
+            "MAG": 50,
+            "SKL": 45,
+            "SPD": 45,
+            "DEF": 15,
+            "MP": 0
+        },
+        "stat_cap_modifiers": {
+            "RES": 0,
+            "LCK": 0,
+            "CON": 0,
+            "MOV": 0,
+            "STR": 0,
+            "HP": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
+            "MP": 0
+        },
+        "starting_items": [
+            [
+                "Mend",
+                false
+            ],
+            [
+                "White_Gem",
+                false
+            ],
+            [
+                "Elixir",
+                false
+            ]
+        ],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0,
+                251
+            ],
+            "Lance": [
+                false,
+                0,
+                251
+            ],
+            "Axe": [
+                false,
+                0,
+                251
+            ],
+            "Bow": [
+                false,
+                0,
+                251
+            ],
+            "Staff": [
+                true,
+                31,
+                251
+            ],
+            "Light": [
+                false,
+                0,
+                251
+            ],
+            "Anima": [
+                false,
+                0,
+                251
+            ],
+            "Dark": [
+                false,
+                0,
+                251
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ],
+            "Earth": [
+                false,
+                0,
+                251
+            ],
+            "Solus": [
+                false,
+                0,
+                251
+            ],
+            "Lunis": [
+                false,
+                0,
+                251
+            ],
+            "Tellus": [
+                false,
+                0,
+                251
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Flayn (Emotion 4) {Redbean} [F2E]",
+        "affinity": "Light",
+        "fields": []
+    },
+    {
+        "nid": "Gwynn",
+        "name": "Gwynn",
         "desc": "Amaya's younger brother. He longs to prove himself as a knight.",
         "variant": "",
         "level": 8,
@@ -1896,274 +2270,12 @@
         "fields": []
     },
     {
-        "nid": "Morgaine",
-        "name": "Morgaine",
-        "desc": "The youngest princess of the Kingdom of Masa, married to Lord Leiland and mother of his child. She harbors disdain for outsiders.",
-        "variant": "Female",
-        "level": 1,
-        "klass": "Apprentice",
-        "tags": [],
-        "bases": {
-            "LCK": 0,
-            "RES": 0,
-            "CON": 0,
-            "MOV": 0,
-            "STR": 0,
-            "HP": 0,
-            "MAG": 0,
-            "SKL": 0,
-            "SPD": 0,
-            "DEF": 0,
-            "MP": 0
-        },
-        "growths": {
-            "LCK": 45,
-            "RES": 40,
-            "CON": 0,
-            "MOV": 0,
-            "STR": 0,
-            "HP": 45,
-            "MAG": 65,
-            "SKL": 30,
-            "SPD": 45,
-            "DEF": 15,
-            "MP": 0
-        },
-        "stat_cap_modifiers": {
-            "RES": 0,
-            "LCK": 0,
-            "CON": 0,
-            "MOV": 0,
-            "STR": 0,
-            "HP": 0,
-            "MAG": 0,
-            "SKL": 0,
-            "SPD": 0,
-            "DEF": 0,
-            "MP": 0
-        },
-        "starting_items": [
-            [
-                "Fireball",
-                false
-            ]
-        ],
-        "learned_skills": [],
-        "unit_notes": [],
-        "wexp_gain": {
-            "Sword": [
-                false,
-                0,
-                251
-            ],
-            "Lance": [
-                false,
-                0,
-                251
-            ],
-            "Axe": [
-                false,
-                0,
-                251
-            ],
-            "Bow": [
-                false,
-                0,
-                251
-            ],
-            "Staff": [
-                false,
-                0,
-                251
-            ],
-            "Light": [
-                false,
-                0,
-                251
-            ],
-            "Anima": [
-                true,
-                142,
-                251
-            ],
-            "Dark": [
-                false,
-                0,
-                251
-            ],
-            "Default": [
-                false,
-                0,
-                251
-            ],
-            "Earth": [
-                true,
-                142,
-                251
-            ],
-            "Solus": [
-                false,
-                0,
-                251
-            ],
-            "Lunis": [
-                false,
-                0,
-                251
-            ],
-            "Tellus": [
-                true,
-                142,
-                251
-            ]
-        },
-        "alternate_classes": [],
-        "portrait_nid": "XVI_Eve",
-        "affinity": "Anima",
-        "fields": []
-    },
-    {
-        "nid": "Baask",
-        "name": "Baask",
-        "desc": "Young master of a fallen house. He seeks to reclaim his honor.",
-        "variant": "",
-        "level": 5,
-        "klass": "Paladin",
-        "tags": [],
-        "bases": {
-            "LCK": 0,
-            "RES": 0,
-            "CON": 0,
-            "MOV": 0,
-            "STR": 0,
-            "HP": 0,
-            "MAG": 0,
-            "SKL": 0,
-            "SPD": 0,
-            "DEF": 0,
-            "MP": 0
-        },
-        "growths": {
-            "LCK": 20,
-            "RES": 20,
-            "CON": 0,
-            "MOV": 0,
-            "STR": 50,
-            "HP": 90,
-            "MAG": 25,
-            "SKL": 40,
-            "SPD": 40,
-            "DEF": 25,
-            "MP": 0
-        },
-        "stat_cap_modifiers": {
-            "RES": 0,
-            "LCK": 0,
-            "CON": 0,
-            "MOV": 0,
-            "STR": 0,
-            "HP": 0,
-            "MAG": 0,
-            "SKL": 0,
-            "SPD": 0,
-            "DEF": 0,
-            "MP": 0
-        },
-        "starting_items": [
-            [
-                "Iron_Sword",
-                false
-            ],
-            [
-                "Steel_Lance",
-                false
-            ],
-            [
-                "Vulnerary",
-                false
-            ]
-        ],
-        "learned_skills": [],
-        "unit_notes": [],
-        "wexp_gain": {
-            "Sword": [
-                true,
-                31,
-                251
-            ],
-            "Lance": [
-                true,
-                71,
-                251
-            ],
-            "Axe": [
-                false,
-                0,
-                251
-            ],
-            "Bow": [
-                false,
-                0,
-                251
-            ],
-            "Staff": [
-                false,
-                0,
-                251
-            ],
-            "Light": [
-                false,
-                0,
-                251
-            ],
-            "Anima": [
-                false,
-                0,
-                251
-            ],
-            "Dark": [
-                false,
-                0,
-                251
-            ],
-            "Default": [
-                false,
-                0,
-                251
-            ],
-            "Earth": [
-                false,
-                0,
-                251
-            ],
-            "Solus": [
-                false,
-                0,
-                251
-            ],
-            "Lunis": [
-                false,
-                0,
-                251
-            ],
-            "Tellus": [
-                false,
-                0,
-                251
-            ]
-        },
-        "alternate_classes": [],
-        "portrait_nid": "ZoramineFae_6",
-        "affinity": "Ice",
-        "fields": []
-    },
-    {
         "nid": "Galahn",
         "name": "Galahn",
         "desc": "A Lykon hailing from the island nation of Avalar. He joined the knights to form stronger bonds between their nations.",
         "variant": "",
         "level": 4,
-        "klass": "Fighter",
+        "klass": "Brigand",
         "tags": [],
         "bases": {
             "LCK": 0,
@@ -2298,7 +2410,7 @@
         "desc": "An aspiring young recruit for the Kingdom and Baask's subordinate. Harbors a troubled past.",
         "variant": "",
         "level": 6,
-        "klass": "Cavalier",
+        "klass": "Cavalry",
         "tags": [],
         "bases": {
             "LCK": 0,
@@ -2555,6 +2667,141 @@
         "fields": []
     },
     {
+        "nid": "Adrian",
+        "name": "Adrian",
+        "desc": "A Lykon guard of Raugmina, distant relative of House Jemaih. Has a great interest in Liena...",
+        "variant": "",
+        "level": 4,
+        "klass": "Guard",
+        "tags": [],
+        "bases": {
+            "LCK": 0,
+            "RES": 0,
+            "CON": 0,
+            "MOV": 0,
+            "STR": 0,
+            "HP": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
+            "MP": 0
+        },
+        "growths": {
+            "LCK": 15,
+            "RES": 15,
+            "CON": 0,
+            "MOV": 0,
+            "STR": 55,
+            "HP": 85,
+            "MAG": 0,
+            "SKL": 35,
+            "SPD": 30,
+            "DEF": 15,
+            "MP": 0
+        },
+        "stat_cap_modifiers": {
+            "RES": 0,
+            "LCK": 0,
+            "CON": 0,
+            "MOV": 0,
+            "STR": 0,
+            "HP": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
+            "MP": 0
+        },
+        "starting_items": [
+            [
+                "Iron_Axe",
+                false
+            ],
+            [
+                "Hand_Axe",
+                false
+            ],
+            [
+                "Vulnerary",
+                false
+            ]
+        ],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0,
+                251
+            ],
+            "Lance": [
+                false,
+                0,
+                251
+            ],
+            "Axe": [
+                true,
+                71,
+                251
+            ],
+            "Bow": [
+                false,
+                0,
+                251
+            ],
+            "Staff": [
+                false,
+                0,
+                251
+            ],
+            "Light": [
+                false,
+                0,
+                251
+            ],
+            "Anima": [
+                false,
+                0,
+                251
+            ],
+            "Dark": [
+                false,
+                0,
+                251
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ],
+            "Earth": [
+                false,
+                0,
+                251
+            ],
+            "Solus": [
+                false,
+                0,
+                251
+            ],
+            "Lunis": [
+                false,
+                0,
+                251
+            ],
+            "Tellus": [
+                false,
+                0,
+                251
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "{MeatofJustice} F2E OC 18",
+        "affinity": "Fire",
+        "fields": []
+    },
+    {
         "nid": "Florina",
         "name": "Florina",
         "desc": "A beautiful woman of Avyon descent. She's seeking something very dear to her and won't rest until it is returned.",
@@ -2690,42 +2937,16 @@
         "fields": []
     },
     {
-        "nid": "Michelle",
-        "name": "Michelle",
-        "desc": "A young girl from a small village in Grado. She is honest and sincere.",
-        "variant": "Female",
-        "level": 1,
-        "klass": "Recruit",
+        "nid": "Tatsuru",
+        "name": "Tatsuru",
+        "desc": "A scholar working for a mysterious shadow, but he tends to be a bit lazy.",
+        "variant": "",
+        "level": 8,
+        "klass": "Scholar",
         "tags": [],
         "bases": {
-            "LCK": 6,
-            "RES": 3,
-            "CON": 6,
-            "MOV": 4,
-            "STR": 4,
-            "HP": 16,
-            "MAG": 2,
-            "SKL": 3,
-            "SPD": 4,
-            "DEF": 2,
-            "MP": 0
-        },
-        "growths": {
-            "LCK": 60,
-            "RES": 20,
-            "CON": 0,
-            "MOV": 0,
-            "STR": 45,
-            "HP": 70,
-            "MAG": 30,
-            "SKL": 50,
-            "SPD": 50,
-            "DEF": 35,
-            "MP": 0
-        },
-        "stat_cap_modifiers": {
-            "RES": 0,
             "LCK": 0,
+            "RES": 0,
             "CON": 0,
             "MOV": 0,
             "STR": 0,
@@ -2736,125 +2957,16 @@
             "DEF": 0,
             "MP": 0
         },
-        "starting_items": [
-            [
-                "Slim_Lance",
-                false
-            ],
-            [
-                "Speedwing",
-                false
-            ],
-            [
-                "Vulnerary",
-                false
-            ]
-        ],
-        "learned_skills": [],
-        "unit_notes": [],
-        "wexp_gain": {
-            "Sword": [
-                false,
-                0,
-                251
-            ],
-            "Lance": [
-                true,
-                1,
-                251
-            ],
-            "Axe": [
-                false,
-                0,
-                251
-            ],
-            "Bow": [
-                false,
-                0,
-                251
-            ],
-            "Staff": [
-                false,
-                0,
-                251
-            ],
-            "Light": [
-                false,
-                0,
-                251
-            ],
-            "Anima": [
-                false,
-                0,
-                251
-            ],
-            "Dark": [
-                false,
-                0,
-                251
-            ],
-            "Default": [
-                false,
-                0,
-                251
-            ],
-            "Earth": [
-                false,
-                0,
-                251
-            ],
-            "Solus": [
-                false,
-                0,
-                251
-            ],
-            "Lunis": [
-                false,
-                0,
-                251
-            ],
-            "Tellus": [
-                false,
-                0,
-                251
-            ]
-        },
-        "alternate_classes": [],
-        "portrait_nid": "Larcei {Redbean} [F2E]",
-        "affinity": "Thunder",
-        "fields": []
-    },
-    {
-        "nid": "Joan",
-        "name": "Joan",
-        "desc": "An aloof sword fighter from Jehanna. She\u2019s known as the Crimson Flash.",
-        "variant": "",
-        "level": 5,
-        "klass": "Myrmidon",
-        "tags": [],
-        "bases": {
-            "LCK": 9,
-            "RES": 3,
-            "CON": 5,
-            "MOV": 5,
-            "STR": 7,
-            "HP": 23,
-            "MAG": 4,
-            "SKL": 12,
-            "SPD": 13,
-            "DEF": 4,
-            "MP": 0
-        },
         "growths": {
-            "LCK": 50,
-            "RES": 25,
+            "LCK": 25,
+            "RES": 55,
             "CON": 0,
             "MOV": 0,
-            "STR": 30,
-            "HP": 75,
-            "MAG": 20,
-            "SKL": 55,
-            "SPD": 60,
+            "STR": 0,
+            "HP": 55,
+            "MAG": 50,
+            "SKL": 50,
+            "SPD": 40,
             "DEF": 15,
             "MP": 0
         },
@@ -2873,11 +2985,15 @@
         },
         "starting_items": [
             [
-                "Shamshir",
+                "Frostbite",
                 false
             ],
             [
-                "Elixir",
+                "Vulnerary",
+                false
+            ],
+            [
+                "Gust",
                 false
             ]
         ],
@@ -2885,8 +3001,8 @@
         "unit_notes": [],
         "wexp_gain": {
             "Sword": [
-                true,
-                31,
+                false,
+                0,
                 251
             ],
             "Lance": [
@@ -2910,8 +3026,8 @@
                 251
             ],
             "Light": [
-                false,
-                0,
+                true,
+                1,
                 251
             ],
             "Anima": [
@@ -2935,8 +3051,8 @@
                 251
             ],
             "Solus": [
-                false,
-                0,
+                true,
+                1,
                 251
             ],
             "Lunis": [
@@ -2951,14 +3067,14 @@
             ]
         },
         "alternate_classes": [],
-        "portrait_nid": "Larcei (New version) {Melia}",
+        "portrait_nid": "Erk (Ponytail) {monk-han}",
         "affinity": "Ice",
         "fields": []
     },
     {
         "nid": "Bella",
         "name": "Bella",
-        "desc": "A mercenary leader from Jehanna. He's better known as the Desert Tiger.",
+        "desc": "The prodical daughter of House Toirahm currently acting as a mercenary for hire.",
         "variant": "Female",
         "level": 10,
         "klass": "Mercenary",
@@ -3091,307 +3207,37 @@
         "fields": []
     },
     {
-        "nid": "Hana",
-        "name": "Hana",
-        "desc": "A beautiful and charming dancer from Jehanna.",
-        "variant": "",
+        "nid": "Josif",
+        "name": "Josif",
+        "desc": "Younger brother of Thanya and close friend of Gwynn.",
+        "variant": null,
         "level": 1,
-        "klass": "Dancer",
+        "klass": "Apprentice",
         "tags": [],
         "bases": {
-            "LCK": 10,
-            "RES": 4,
-            "CON": 5,
-            "MOV": 5,
-            "STR": 1,
-            "HP": 18,
-            "MAG": 1,
-            "SKL": 2,
-            "SPD": 12,
-            "DEF": 5,
-            "MP": 0
-        },
-        "growths": {
-            "LCK": 80,
-            "RES": 75,
-            "CON": 0,
+            "LCK": 5,
+            "RES": 11,
+            "CON": 7,
             "MOV": 0,
-            "STR": 5,
-            "HP": 85,
+            "STR": 10,
+            "HP": 28,
             "MAG": 5,
-            "SKL": 10,
-            "SPD": 70,
-            "DEF": 30,
-            "MP": 0
-        },
-        "stat_cap_modifiers": {
-            "RES": 0,
-            "LCK": 0,
-            "CON": 0,
-            "MOV": 0,
-            "STR": 0,
-            "HP": 0,
-            "MAG": 0,
-            "SKL": 0,
-            "SPD": 0,
-            "DEF": 0,
-            "MP": 0
-        },
-        "starting_items": [
-            [
-                "Elixir",
-                false
-            ],
-            [
-                "Goddess_Icon",
-                false
-            ],
-            [
-                "Vulnerary",
-                false
-            ]
-        ],
-        "learned_skills": [],
-        "unit_notes": [],
-        "wexp_gain": {
-            "Sword": [
-                false,
-                0,
-                251
-            ],
-            "Lance": [
-                false,
-                0,
-                251
-            ],
-            "Axe": [
-                false,
-                0,
-                251
-            ],
-            "Bow": [
-                false,
-                0,
-                251
-            ],
-            "Staff": [
-                false,
-                0,
-                251
-            ],
-            "Light": [
-                false,
-                0,
-                251
-            ],
-            "Anima": [
-                false,
-                0,
-                251
-            ],
-            "Dark": [
-                false,
-                0,
-                251
-            ],
-            "Default": [
-                false,
-                0,
-                251
-            ],
-            "Earth": [
-                false,
-                0,
-                251
-            ],
-            "Solus": [
-                false,
-                0,
-                251
-            ],
-            "Lunis": [
-                false,
-                0,
-                251
-            ],
-            "Tellus": [
-                false,
-                0,
-                251
-            ]
-        },
-        "alternate_classes": [],
-        "portrait_nid": "Tethys",
-        "affinity": "Fire",
-        "fields": []
-    },
-    {
-        "nid": "Liberius",
-        "name": "Liberius",
-        "desc": "The prince of Frelia. He\u2019s brash and arrogant, but good at heart.",
-        "variant": "Female",
-        "level": 1,
-        "klass": "Sniper",
-        "tags": [],
-        "bases": {
-            "LCK": 14,
-            "RES": 9,
-            "CON": 9,
-            "MOV": 6,
-            "STR": 14,
-            "HP": 31,
-            "MAG": 0,
-            "SKL": 13,
-            "SPD": 15,
-            "DEF": 10,
+            "SKL": 16,
+            "SPD": 17,
+            "DEF": 9,
             "MP": 0
         },
         "growths": {
-            "LCK": 45,
-            "RES": 25,
+            "LCK": 25,
+            "RES": 30,
             "CON": 0,
             "MOV": 0,
-            "STR": 40,
-            "HP": 75,
-            "MAG": 0,
-            "SKL": 40,
-            "SPD": 45,
-            "DEF": 20,
-            "MP": 0
-        },
-        "stat_cap_modifiers": {
-            "RES": 0,
-            "LCK": 0,
-            "CON": 0,
-            "MOV": 0,
-            "STR": 0,
-            "HP": 0,
-            "MAG": 0,
-            "SKL": 0,
-            "SPD": 0,
-            "DEF": 0,
-            "MP": 0
-        },
-        "starting_items": [
-            [
-                "Mythril_Bow",
-                false
-            ],
-            [
-                "White_Gem",
-                false
-            ],
-            [
-                "Vulnerary",
-                false
-            ]
-        ],
-        "learned_skills": [],
-        "unit_notes": [],
-        "wexp_gain": {
-            "Sword": [
-                false,
-                0,
-                251
-            ],
-            "Lance": [
-                false,
-                0,
-                251
-            ],
-            "Axe": [
-                false,
-                0,
-                251
-            ],
-            "Bow": [
-                true,
-                181,
-                251
-            ],
-            "Staff": [
-                false,
-                0,
-                251
-            ],
-            "Light": [
-                false,
-                0,
-                251
-            ],
-            "Anima": [
-                false,
-                0,
-                251
-            ],
-            "Dark": [
-                false,
-                0,
-                251
-            ],
-            "Default": [
-                false,
-                0,
-                251
-            ],
-            "Earth": [
-                false,
-                0,
-                251
-            ],
-            "Solus": [
-                false,
-                0,
-                251
-            ],
-            "Lunis": [
-                false,
-                0,
-                251
-            ],
-            "Tellus": [
-                false,
-                0,
-                251
-            ]
-        },
-        "alternate_classes": [],
-        "portrait_nid": "Innes",
-        "affinity": "Ice",
-        "fields": []
-    },
-    {
-        "nid": "Nala",
-        "name": "Nala",
-        "desc": "A young woman from Rausten. She fights for justice and honour.",
-        "variant": "",
-        "level": 3,
-        "klass": "Tactician",
-        "tags": [],
-        "bases": {
-            "LCK": 12,
-            "RES": 8,
-            "CON": 5,
-            "MOV": 6,
-            "STR": 0,
-            "HP": 18,
-            "MAG": 6,
-            "SKL": 6,
-            "SPD": 10,
-            "DEF": 5,
-            "MP": 0
-        },
-        "growths": {
-            "LCK": 65,
-            "RES": 50,
-            "CON": 0,
-            "MOV": 0,
-            "STR": 0,
-            "HP": 45,
-            "MAG": 50,
+            "STR": 25,
+            "HP": 65,
+            "MAG": 15,
             "SKL": 45,
-            "SPD": 45,
-            "DEF": 15,
+            "SPD": 60,
+            "DEF": 25,
             "MP": 0
         },
         "stat_cap_modifiers": {
@@ -3409,11 +3255,7 @@
         },
         "starting_items": [
             [
-                "Mend",
-                false
-            ],
-            [
-                "White_Gem",
+                "Steel_Sword",
                 false
             ],
             [
@@ -3425,8 +3267,8 @@
         "unit_notes": [],
         "wexp_gain": {
             "Sword": [
-                false,
-                0,
+                true,
+                1,
                 251
             ],
             "Lance": [
@@ -3437,137 +3279,6 @@
             "Axe": [
                 false,
                 0,
-                251
-            ],
-            "Bow": [
-                false,
-                0,
-                251
-            ],
-            "Staff": [
-                true,
-                31,
-                251
-            ],
-            "Light": [
-                false,
-                0,
-                251
-            ],
-            "Anima": [
-                false,
-                0,
-                251
-            ],
-            "Dark": [
-                false,
-                0,
-                251
-            ],
-            "Default": [
-                false,
-                0,
-                251
-            ],
-            "Earth": [
-                false,
-                0,
-                251
-            ],
-            "Solus": [
-                false,
-                0,
-                251
-            ],
-            "Lunis": [
-                false,
-                0,
-                251
-            ],
-            "Tellus": [
-                false,
-                0,
-                251
-            ]
-        },
-        "alternate_classes": [],
-        "portrait_nid": "Flayn (Emotion 4) {Redbean} [F2E]",
-        "affinity": "Light",
-        "fields": []
-    },
-    {
-        "nid": "Dozla",
-        "name": "Dozla",
-        "desc": "A berserker from Rausten. He\u2019s a hearty man with a thirst for life.",
-        "variant": "",
-        "level": 1,
-        "klass": "Berserker",
-        "tags": [],
-        "bases": {
-            "LCK": 4,
-            "RES": 6,
-            "CON": 16,
-            "MOV": 6,
-            "STR": 16,
-            "HP": 43,
-            "MAG": 0,
-            "SKL": 11,
-            "SPD": 9,
-            "DEF": 11,
-            "MP": 0
-        },
-        "growths": {
-            "LCK": 30,
-            "RES": 25,
-            "CON": 0,
-            "MOV": 0,
-            "STR": 50,
-            "HP": 85,
-            "MAG": 0,
-            "SKL": 35,
-            "SPD": 40,
-            "DEF": 30,
-            "MP": 0
-        },
-        "stat_cap_modifiers": {
-            "RES": 0,
-            "LCK": 0,
-            "CON": 0,
-            "MOV": 0,
-            "STR": 0,
-            "HP": 0,
-            "MAG": 0,
-            "SKL": 0,
-            "SPD": 0,
-            "DEF": 0,
-            "MP": 0
-        },
-        "starting_items": [
-            [
-                "Battle_Axe",
-                false
-            ],
-            [
-                "Elixir",
-                false
-            ]
-        ],
-        "learned_skills": [],
-        "unit_notes": [],
-        "wexp_gain": {
-            "Sword": [
-                false,
-                0,
-                251
-            ],
-            "Lance": [
-                false,
-                0,
-                251
-            ],
-            "Axe": [
-                true,
-                121,
                 251
             ],
             "Bow": [
@@ -3622,146 +3333,15 @@
             ]
         },
         "alternate_classes": [],
-        "portrait_nid": "Dozla",
-        "affinity": "Thunder",
+        "portrait_nid": "Lugh",
+        "affinity": "Dark",
         "fields": []
     },
     {
-        "nid": "Saleh",
-        "name": "Saleh",
-        "desc": "A sage from the village Caer Pelyn. He\u2019s Ewan\u2019s solemn, but kind, teacher.",
-        "variant": null,
-        "level": 1,
-        "klass": "Sage",
-        "tags": [],
-        "bases": {
-            "LCK": 11,
-            "RES": 13,
-            "CON": 8,
-            "MOV": 6,
-            "STR": 0,
-            "HP": 30,
-            "MAG": 16,
-            "SKL": 18,
-            "SPD": 14,
-            "DEF": 8,
-            "MP": 0
-        },
-        "growths": {
-            "LCK": 40,
-            "RES": 35,
-            "CON": 0,
-            "MOV": 0,
-            "STR": 0,
-            "HP": 50,
-            "MAG": 30,
-            "SKL": 25,
-            "SPD": 40,
-            "DEF": 30,
-            "MP": 0
-        },
-        "stat_cap_modifiers": {
-            "RES": 0,
-            "LCK": 0,
-            "CON": 0,
-            "MOV": 0,
-            "STR": 0,
-            "HP": 0,
-            "MAG": 0,
-            "SKL": 0,
-            "SPD": 0,
-            "DEF": 0,
-            "MP": 0
-        },
-        "starting_items": [
-            [
-                "FlareBurst",
-                false
-            ],
-            [
-                "Static",
-                false
-            ]
-        ],
-        "learned_skills": [],
-        "unit_notes": [],
-        "wexp_gain": {
-            "Sword": [
-                false,
-                0,
-                251
-            ],
-            "Lance": [
-                false,
-                0,
-                251
-            ],
-            "Axe": [
-                false,
-                0,
-                251
-            ],
-            "Bow": [
-                false,
-                0,
-                251
-            ],
-            "Staff": [
-                true,
-                71,
-                251
-            ],
-            "Light": [
-                true,
-                121,
-                251
-            ],
-            "Anima": [
-                true,
-                362,
-                251
-            ],
-            "Dark": [
-                false,
-                0,
-                251
-            ],
-            "Default": [
-                false,
-                0,
-                251
-            ],
-            "Earth": [
-                true,
-                362,
-                251
-            ],
-            "Solus": [
-                true,
-                121,
-                251
-            ],
-            "Lunis": [
-                false,
-                0,
-                251
-            ],
-            "Tellus": [
-                true,
-                362,
-                251
-            ]
-        },
-        "alternate_classes": [],
-        "portrait_nid": "Saleh",
-        "affinity": "Wind",
-        "fields": []
-    },
-    {
-        "nid": "Ewan",
-        "name": "Ewan",
+        "nid": "Ioshua",
+        "name": "Ioshua",
         "desc": "A sage-in-training from Jehanna. He reveres his teacher, Saleh.",
-        "variant": null,
+        "variant": "",
         "level": 1,
         "klass": "Citizen",
         "tags": [],
@@ -3893,37 +3473,37 @@
         "fields": []
     },
     {
-        "nid": "Cormag",
-        "name": "Cormag",
-        "desc": "A wyvern knight of Grado. A gentle man, but a ferocious warrior.",
-        "variant": null,
-        "level": 9,
-        "klass": "Wyvern Rider",
+        "nid": "Granye",
+        "name": "Granye",
+        "desc": "Lady of a noble house of Siegwang. She bears the blood of the dragons, but what does that even mean?",
+        "variant": "",
+        "level": 1,
+        "klass": "Sage",
         "tags": [],
         "bases": {
-            "LCK": 4,
-            "RES": 2,
-            "CON": 11,
-            "MOV": 7,
-            "STR": 14,
+            "LCK": 11,
+            "RES": 13,
+            "CON": 8,
+            "MOV": 6,
+            "STR": 0,
             "HP": 30,
-            "MAG": 7,
-            "SKL": 9,
-            "SPD": 10,
-            "DEF": 12,
+            "MAG": 16,
+            "SKL": 18,
+            "SPD": 14,
+            "DEF": 8,
             "MP": 0
         },
         "growths": {
-            "LCK": 35,
-            "RES": 15,
+            "LCK": 40,
+            "RES": 35,
             "CON": 0,
             "MOV": 0,
-            "STR": 55,
-            "HP": 85,
-            "MAG": 25,
-            "SKL": 40,
-            "SPD": 45,
-            "DEF": 25,
+            "STR": 0,
+            "HP": 50,
+            "MAG": 30,
+            "SKL": 25,
+            "SPD": 40,
+            "DEF": 30,
             "MP": 0
         },
         "stat_cap_modifiers": {
@@ -3941,15 +3521,11 @@
         },
         "starting_items": [
             [
-                "Killer_Lance",
+                "FlareBurst",
                 false
             ],
             [
-                "Iron_Lance",
-                false
-            ],
-            [
-                "Vulnerary",
+                "Static",
                 false
             ]
         ],
@@ -3959,6 +3535,285 @@
             "Sword": [
                 false,
                 0,
+                251
+            ],
+            "Lance": [
+                false,
+                0,
+                251
+            ],
+            "Axe": [
+                false,
+                0,
+                251
+            ],
+            "Bow": [
+                false,
+                0,
+                251
+            ],
+            "Staff": [
+                true,
+                71,
+                251
+            ],
+            "Light": [
+                true,
+                121,
+                251
+            ],
+            "Anima": [
+                true,
+                362,
+                251
+            ],
+            "Dark": [
+                false,
+                0,
+                251
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ],
+            "Earth": [
+                true,
+                362,
+                251
+            ],
+            "Solus": [
+                true,
+                121,
+                251
+            ],
+            "Lunis": [
+                false,
+                0,
+                251
+            ],
+            "Tellus": [
+                true,
+                362,
+                251
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "{monk-han} [F2E] OC Witch Lord (Version 1) ",
+        "affinity": "Wind",
+        "fields": []
+    },
+    {
+        "nid": "Kasuto",
+        "name": "Kasuto",
+        "desc": "A sister serving in the Church of Gaeya. She is a fountain of wisdom and beauty. She seems to have been looking for something.",
+        "variant": "Female",
+        "level": 18,
+        "klass": "Doctor",
+        "tags": [
+            "Dragon",
+            "Holy",
+            "Nordak",
+            "Siylphe"
+        ],
+        "bases": {
+            "LCK": 0,
+            "RES": 0,
+            "CON": 0,
+            "MOV": 0,
+            "STR": 0,
+            "HP": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
+            "MP": 0
+        },
+        "growths": {
+            "LCK": 60,
+            "RES": 55,
+            "CON": 0,
+            "MOV": 0,
+            "STR": 0,
+            "HP": 50,
+            "MAG": 60,
+            "SKL": 25,
+            "SPD": 40,
+            "DEF": 15,
+            "MP": 0
+        },
+        "stat_cap_modifiers": {
+            "RES": 0,
+            "LCK": 0,
+            "CON": 0,
+            "MOV": 0,
+            "STR": 0,
+            "HP": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
+            "MP": 0
+        },
+        "starting_items": [
+            [
+                "Physic",
+                false
+            ],
+            [
+                "Vulnerary",
+                false
+            ],
+            [
+                "Starlight",
+                false
+            ]
+        ],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                121,
+                251
+            ],
+            "Lance": [
+                false,
+                0,
+                251
+            ],
+            "Axe": [
+                false,
+                0,
+                251
+            ],
+            "Bow": [
+                false,
+                0,
+                251
+            ],
+            "Staff": [
+                true,
+                71,
+                251
+            ],
+            "Light": [
+                false,
+                0,
+                251
+            ],
+            "Anima": [
+                false,
+                0,
+                251
+            ],
+            "Dark": [
+                false,
+                0,
+                251
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ],
+            "Earth": [
+                false,
+                0,
+                251
+            ],
+            "Solus": [
+                false,
+                181,
+                251
+            ],
+            "Lunis": [
+                false,
+                0,
+                251
+            ],
+            "Tellus": [
+                false,
+                0,
+                251
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Natasha (Older) {MegaCowsamMan}",
+        "affinity": "Ice",
+        "fields": []
+    },
+    {
+        "nid": "Serena",
+        "name": "Serena",
+        "desc": "Miriam's former retainer promoted to Captain of the guard. Miriam looks up to her as a mentor. She has a young son, Josif, and a stepdaughter, Thanya.",
+        "variant": "Serena",
+        "level": 25,
+        "klass": "Captain",
+        "tags": [],
+        "bases": {
+            "LCK": 0,
+            "CON": 0,
+            "MOV": 0,
+            "RES": 0,
+            "STR": 0,
+            "HP": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
+            "MP": 0
+        },
+        "growths": {
+            "LCK": 40,
+            "CON": 0,
+            "MOV": 0,
+            "RES": 20,
+            "STR": 45,
+            "HP": 80,
+            "MAG": 22,
+            "SKL": 40,
+            "SPD": 45,
+            "DEF": 15,
+            "MP": 0
+        },
+        "stat_cap_modifiers": {
+            "RES": 0,
+            "LCK": 0,
+            "CON": 0,
+            "MOV": 0,
+            "STR": 0,
+            "HP": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
+            "MP": 0
+        },
+        "starting_items": [
+            [
+                "Almace",
+                false
+            ],
+            [
+                "Vulnerary",
+                false
+            ],
+            [
+                "Steel_Lance",
+                false
+            ],
+            [
+                "Frostbite",
+                false
+            ]
+        ],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                true,
+                181,
                 251
             ],
             "Lance": [
@@ -4020,20 +3875,300 @@
                 false,
                 0,
                 251
+            ],
+            "Glacies": [
+                false,
+                31,
+                null
             ]
         },
         "alternate_classes": [],
-        "portrait_nid": "Cormag",
-        "affinity": "Fire",
+        "portrait_nid": "Nephenee {NickT, Stitch}",
+        "affinity": "Ice",
+        "fields": [
+            [
+                "Race",
+                "Queiza"
+            ],
+            [
+                "Birthplace",
+                "Unknown"
+            ],
+            [
+                "Home",
+                "Trade City Oestridel"
+            ]
+        ]
+    },
+    {
+        "nid": "Geval",
+        "name": "Geval",
+        "desc": "A berserker from Rausten. He\u2019s a hearty man with a thirst for life.",
+        "variant": "",
+        "level": 1,
+        "klass": "Fighter",
+        "tags": [],
+        "bases": {
+            "LCK": 4,
+            "RES": 6,
+            "CON": 16,
+            "MOV": 6,
+            "STR": 16,
+            "HP": 43,
+            "MAG": 0,
+            "SKL": 11,
+            "SPD": 9,
+            "DEF": 11,
+            "MP": 0
+        },
+        "growths": {
+            "LCK": 30,
+            "RES": 25,
+            "CON": 0,
+            "MOV": 0,
+            "STR": 50,
+            "HP": 85,
+            "MAG": 0,
+            "SKL": 35,
+            "SPD": 40,
+            "DEF": 30,
+            "MP": 0
+        },
+        "stat_cap_modifiers": {
+            "RES": 0,
+            "LCK": 0,
+            "CON": 0,
+            "MOV": 0,
+            "STR": 0,
+            "HP": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
+            "MP": 0
+        },
+        "starting_items": [
+            [
+                "Battle_Axe",
+                false
+            ],
+            [
+                "Elixir",
+                false
+            ]
+        ],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0,
+                251
+            ],
+            "Lance": [
+                false,
+                0,
+                251
+            ],
+            "Axe": [
+                true,
+                121,
+                251
+            ],
+            "Bow": [
+                false,
+                0,
+                251
+            ],
+            "Staff": [
+                false,
+                0,
+                251
+            ],
+            "Light": [
+                false,
+                0,
+                251
+            ],
+            "Anima": [
+                false,
+                0,
+                251
+            ],
+            "Dark": [
+                false,
+                0,
+                251
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ],
+            "Earth": [
+                false,
+                0,
+                251
+            ],
+            "Solus": [
+                false,
+                0,
+                251
+            ],
+            "Lunis": [
+                false,
+                0,
+                251
+            ],
+            "Tellus": [
+                false,
+                0,
+                251
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Yang Kai - Izarck",
+        "affinity": "Thunder",
         "fields": []
     },
     {
-        "nid": "Rennac",
-        "name": "Rennac",
-        "desc": "A lazy, greedy, but exceptional fighter from the Republic of Carcino.",
+        "nid": "Sherafima",
+        "name": "Sherafima",
+        "desc": "Former lady of House Leudona and Amaya's mother. She is a healer of great wisdom and prestige.",
         "variant": null,
         "level": 1,
-        "klass": "Rogue",
+        "klass": "Sage",
+        "tags": [],
+        "bases": {
+            "LCK": 11,
+            "RES": 13,
+            "CON": 8,
+            "MOV": 6,
+            "STR": 0,
+            "HP": 30,
+            "MAG": 16,
+            "SKL": 18,
+            "SPD": 14,
+            "DEF": 8,
+            "MP": 0
+        },
+        "growths": {
+            "LCK": 40,
+            "RES": 35,
+            "CON": 0,
+            "MOV": 0,
+            "STR": 0,
+            "HP": 50,
+            "MAG": 30,
+            "SKL": 25,
+            "SPD": 40,
+            "DEF": 30,
+            "MP": 0
+        },
+        "stat_cap_modifiers": {
+            "RES": 0,
+            "LCK": 0,
+            "CON": 0,
+            "MOV": 0,
+            "STR": 0,
+            "HP": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
+            "MP": 0
+        },
+        "starting_items": [
+            [
+                "FlareBurst",
+                false
+            ],
+            [
+                "Static",
+                false
+            ]
+        ],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0,
+                251
+            ],
+            "Lance": [
+                false,
+                0,
+                251
+            ],
+            "Axe": [
+                false,
+                0,
+                251
+            ],
+            "Bow": [
+                false,
+                0,
+                251
+            ],
+            "Staff": [
+                true,
+                71,
+                251
+            ],
+            "Light": [
+                true,
+                121,
+                251
+            ],
+            "Anima": [
+                true,
+                362,
+                251
+            ],
+            "Dark": [
+                false,
+                0,
+                251
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ],
+            "Earth": [
+                true,
+                362,
+                251
+            ],
+            "Solus": [
+                true,
+                121,
+                251
+            ],
+            "Lunis": [
+                false,
+                0,
+                251
+            ],
+            "Tellus": [
+                true,
+                362,
+                251
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Serra (Adult) {Spoon_Rhythm, Teelvade}",
+        "affinity": "Wind",
+        "fields": []
+    },
+    {
+        "nid": "Melody",
+        "name": "Melody",
+        "desc": "A young girl living on the streets, despite being a noble's daughter...",
+        "variant": null,
+        "level": 1,
+        "klass": "Shinobi",
         "tags": [],
         "bases": {
             "LCK": 5,
@@ -4154,15 +4289,329 @@
             ]
         },
         "alternate_classes": [],
-        "portrait_nid": "Rennac",
+        "portrait_nid": "Ilyana (Younger) {NickT, Stitch}",
         "affinity": "Dark",
         "fields": []
     },
     {
-        "nid": "Duessel",
-        "name": "Duessel",
+        "nid": "Mikhail",
+        "name": "Mikhail",
+        "desc": "Archsage of Masa's Academy of Magic and survivor of the Tragedy of Muyre. He holds incredible power.",
+        "variant": "",
+        "level": 25,
+        "klass": "Captain",
+        "tags": [],
+        "bases": {
+            "LCK": 0,
+            "CON": 0,
+            "MOV": 0,
+            "RES": 0,
+            "STR": 0,
+            "HP": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
+            "MP": 0
+        },
+        "growths": {
+            "LCK": 40,
+            "CON": 0,
+            "MOV": 0,
+            "RES": 20,
+            "STR": 45,
+            "HP": 80,
+            "MAG": 22,
+            "SKL": 40,
+            "SPD": 45,
+            "DEF": 15,
+            "MP": 0
+        },
+        "stat_cap_modifiers": {
+            "RES": 0,
+            "LCK": 0,
+            "CON": 0,
+            "MOV": 0,
+            "STR": 0,
+            "HP": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
+            "MP": 0
+        },
+        "starting_items": [
+            [
+                "Almace",
+                false
+            ],
+            [
+                "Vulnerary",
+                false
+            ],
+            [
+                "Steel_Lance",
+                false
+            ],
+            [
+                "Frostbite",
+                false
+            ]
+        ],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                true,
+                181,
+                251
+            ],
+            "Lance": [
+                true,
+                71,
+                251
+            ],
+            "Axe": [
+                false,
+                0,
+                251
+            ],
+            "Bow": [
+                false,
+                0,
+                251
+            ],
+            "Staff": [
+                false,
+                0,
+                251
+            ],
+            "Light": [
+                false,
+                0,
+                251
+            ],
+            "Anima": [
+                false,
+                0,
+                251
+            ],
+            "Dark": [
+                false,
+                0,
+                251
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ],
+            "Earth": [
+                false,
+                0,
+                251
+            ],
+            "Solus": [
+                false,
+                0,
+                251
+            ],
+            "Lunis": [
+                false,
+                0,
+                251
+            ],
+            "Tellus": [
+                false,
+                0,
+                251
+            ],
+            "Glacies": [
+                false,
+                31,
+                null
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "{LaurentLacroix} OC 3",
+        "affinity": "Ice",
+        "fields": [
+            [
+                "Race",
+                "Queiza"
+            ],
+            [
+                "Birthplace",
+                "Unknown"
+            ],
+            [
+                "Home",
+                "Trade City Oestridel"
+            ]
+        ]
+    },
+    {
+        "nid": "Gaeya",
+        "name": "Gaeya",
+        "desc": "Miriam's former retainer promoted to Captain of the guard. Miriam looks up to her as a mentor.",
+        "variant": "",
+        "level": 25,
+        "klass": "Captain",
+        "tags": [],
+        "bases": {
+            "LCK": 0,
+            "CON": 0,
+            "MOV": 0,
+            "RES": 0,
+            "STR": 0,
+            "HP": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
+            "MP": 0
+        },
+        "growths": {
+            "LCK": 40,
+            "CON": 0,
+            "MOV": 0,
+            "RES": 20,
+            "STR": 45,
+            "HP": 80,
+            "MAG": 22,
+            "SKL": 40,
+            "SPD": 45,
+            "DEF": 15,
+            "MP": 0
+        },
+        "stat_cap_modifiers": {
+            "RES": 0,
+            "LCK": 0,
+            "CON": 0,
+            "MOV": 0,
+            "STR": 0,
+            "HP": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
+            "MP": 0
+        },
+        "starting_items": [
+            [
+                "Almace",
+                false
+            ],
+            [
+                "Vulnerary",
+                false
+            ],
+            [
+                "Steel_Lance",
+                false
+            ],
+            [
+                "Frostbite",
+                false
+            ]
+        ],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                true,
+                181,
+                251
+            ],
+            "Lance": [
+                true,
+                71,
+                251
+            ],
+            "Axe": [
+                false,
+                0,
+                251
+            ],
+            "Bow": [
+                false,
+                0,
+                251
+            ],
+            "Staff": [
+                false,
+                0,
+                251
+            ],
+            "Light": [
+                false,
+                0,
+                251
+            ],
+            "Anima": [
+                false,
+                0,
+                251
+            ],
+            "Dark": [
+                false,
+                0,
+                251
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ],
+            "Earth": [
+                false,
+                0,
+                251
+            ],
+            "Solus": [
+                false,
+                0,
+                251
+            ],
+            "Lunis": [
+                false,
+                0,
+                251
+            ],
+            "Tellus": [
+                false,
+                0,
+                251
+            ],
+            "Glacies": [
+                false,
+                31,
+                null
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Mila {Kanna}",
+        "affinity": "Ice",
+        "fields": [
+            [
+                "Race",
+                "Queiza"
+            ],
+            [
+                "Birthplace",
+                "Unknown"
+            ],
+            [
+                "Home",
+                "Trade City Oestridel"
+            ]
+        ]
+    },
+    {
+        "nid": "Jethro",
+        "name": "Jethro",
         "desc": "A courageous general in Grado\u2019s army. He\u2019s better known as Obsidian.",
-        "variant": null,
+        "variant": "",
         "level": 9,
         "klass": "Vanguard",
         "tags": [],
@@ -4289,15 +4738,15 @@
             ]
         },
         "alternate_classes": [],
-        "portrait_nid": "Duessel",
+        "portrait_nid": "Sprite15",
         "affinity": "Anima",
         "fields": []
     },
     {
-        "nid": "Garish",
-        "name": "Garish",
+        "nid": "Yorwath",
+        "name": "Yorwath",
         "desc": "A cavalier of Renais. He\u2019s a devoted husband and a serene and quiet man.",
-        "variant": null,
+        "variant": "",
         "level": 3,
         "klass": "Paladin",
         "tags": [],
@@ -4429,20 +4878,18 @@
         "fields": []
     },
     {
-        "nid": "O'Neill",
-        "name": "O'Neill",
-        "desc": "A troop leader in Grado's army.",
-        "variant": null,
-        "level": 4,
-        "klass": "Fighter",
-        "tags": [
-            "Boss"
-        ],
+        "nid": "Mariya",
+        "name": "Mariya",
+        "desc": "Admiral Alder's widow, she has gone mad from the grief of the loss of her family. Lady Jezolda's twin sister.",
+        "variant": "Female",
+        "level": 11,
+        "klass": "Water_Lady",
+        "tags": [],
         "bases": {
             "LCK": 0,
+            "RES": 0,
             "CON": 0,
             "MOV": 0,
-            "RES": 0,
             "STR": 0,
             "HP": 0,
             "MAG": 0,
@@ -4453,9 +4900,9 @@
         },
         "growths": {
             "LCK": 0,
+            "RES": 0,
             "CON": 0,
             "MOV": 0,
-            "RES": 0,
             "STR": 0,
             "HP": 0,
             "MAG": 0,
@@ -4479,7 +4926,11 @@
         },
         "starting_items": [
             [
-                "Iron_Axe",
+                "LightningBolt",
+                false
+            ],
+            [
+                "FlareBurst",
                 false
             ]
         ],
@@ -4497,8 +4948,8 @@
                 251
             ],
             "Axe": [
-                true,
-                71,
+                false,
+                0,
                 251
             ],
             "Bow": [
@@ -4508,7 +4959,7 @@
             ],
             "Staff": [
                 false,
-                0,
+                121,
                 251
             ],
             "Light": [
@@ -4518,7 +4969,7 @@
             ],
             "Anima": [
                 false,
-                0,
+                362,
                 251
             ],
             "Dark": [
@@ -4533,7 +4984,7 @@
             ],
             "Earth": [
                 false,
-                0,
+                362,
                 251
             ],
             "Solus": [
@@ -4548,22 +4999,22 @@
             ],
             "Tellus": [
                 false,
-                0,
+                362,
                 251
             ]
         },
         "alternate_classes": [],
-        "portrait_nid": "Mercenary1",
+        "portrait_nid": "Sonya (FE8 colours) {JeyTheCount} [F2E]",
         "affinity": "None",
         "fields": []
     },
     {
-        "nid": "Breguet",
-        "name": "Breguet",
-        "desc": "Commander of a Grado military force.",
-        "variant": null,
+        "nid": "Rajyhna",
+        "name": "Rajyhna",
+        "desc": "",
+        "variant": "",
         "level": 4,
-        "klass": "Guard",
+        "klass": "Rogue",
         "tags": [
             "Boss"
         ],
@@ -4682,17 +5133,416 @@
             ]
         },
         "alternate_classes": [],
-        "portrait_nid": "Breguet",
-        "affinity": null,
+        "portrait_nid": "Nino (Adult, FE7 colours) {Spoon_Rhythm, Magelord Max}",
+        "affinity": "None",
         "fields": []
     },
     {
-        "nid": "Bone",
-        "name": "Bone",
-        "desc": "One of Bazba's henchmen.",
-        "variant": null,
+        "nid": "Hanallel",
+        "name": "Hanallel",
+        "desc": "A young Avyon woman of a fallen house,\nthe second of four Nephyliae siblings.\nShe is very loyal to her family.",
+        "variant": "",
+        "level": 9,
+        "klass": "Wyvern Rider",
+        "tags": [],
+        "bases": {
+            "LCK": 4,
+            "RES": 2,
+            "CON": 11,
+            "MOV": 7,
+            "STR": 14,
+            "HP": 30,
+            "MAG": 7,
+            "SKL": 9,
+            "SPD": 10,
+            "DEF": 12,
+            "MP": 0
+        },
+        "growths": {
+            "LCK": 35,
+            "RES": 15,
+            "CON": 0,
+            "MOV": 0,
+            "STR": 55,
+            "HP": 85,
+            "MAG": 25,
+            "SKL": 40,
+            "SPD": 45,
+            "DEF": 25,
+            "MP": 0
+        },
+        "stat_cap_modifiers": {
+            "RES": 0,
+            "LCK": 0,
+            "CON": 0,
+            "MOV": 0,
+            "STR": 0,
+            "HP": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
+            "MP": 0
+        },
+        "starting_items": [
+            [
+                "Killer_Lance",
+                false
+            ],
+            [
+                "Iron_Lance",
+                false
+            ],
+            [
+                "Vulnerary",
+                false
+            ]
+        ],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0,
+                251
+            ],
+            "Lance": [
+                true,
+                71,
+                251
+            ],
+            "Axe": [
+                false,
+                0,
+                251
+            ],
+            "Bow": [
+                false,
+                0,
+                251
+            ],
+            "Staff": [
+                false,
+                0,
+                251
+            ],
+            "Light": [
+                false,
+                0,
+                251
+            ],
+            "Anima": [
+                false,
+                0,
+                251
+            ],
+            "Dark": [
+                false,
+                0,
+                251
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ],
+            "Earth": [
+                false,
+                0,
+                251
+            ],
+            "Solus": [
+                false,
+                0,
+                251
+            ],
+            "Lunis": [
+                false,
+                0,
+                251
+            ],
+            "Tellus": [
+                false,
+                0,
+                251
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Sonya (Witch)  {Wasdye}",
+        "affinity": "Fire",
+        "fields": []
+    },
+    {
+        "nid": "Stubs",
+        "name": "Stubs",
+        "desc": "A goofball lackey of the Bohanes Pirates. He's quite skilled but remains the butt of many jokes.",
+        "variant": "",
         "level": 4,
-        "klass": "Barbarian",
+        "klass": "Pirate",
+        "tags": [
+            "Boss"
+        ],
+        "bases": {
+            "LCK": 0,
+            "CON": 0,
+            "MOV": 0,
+            "RES": 0,
+            "STR": 0,
+            "HP": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
+            "MP": 0
+        },
+        "growths": {
+            "LCK": 0,
+            "CON": 0,
+            "MOV": 0,
+            "RES": 0,
+            "STR": 0,
+            "HP": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
+            "MP": 0
+        },
+        "stat_cap_modifiers": {
+            "RES": 0,
+            "LCK": 0,
+            "CON": 0,
+            "MOV": 0,
+            "STR": 0,
+            "HP": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
+            "MP": 0
+        },
+        "starting_items": [
+            [
+                "Iron_Axe",
+                false
+            ]
+        ],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0,
+                251
+            ],
+            "Lance": [
+                false,
+                0,
+                251
+            ],
+            "Axe": [
+                true,
+                71,
+                251
+            ],
+            "Bow": [
+                false,
+                0,
+                251
+            ],
+            "Staff": [
+                false,
+                0,
+                251
+            ],
+            "Light": [
+                false,
+                0,
+                251
+            ],
+            "Anima": [
+                false,
+                0,
+                251
+            ],
+            "Dark": [
+                false,
+                0,
+                251
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ],
+            "Earth": [
+                false,
+                0,
+                251
+            ],
+            "Solus": [
+                false,
+                0,
+                251
+            ],
+            "Lunis": [
+                false,
+                0,
+                251
+            ],
+            "Tellus": [
+                false,
+                0,
+                251
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Vaike {Garytop} [F2E]",
+        "affinity": "None",
+        "fields": []
+    },
+    {
+        "nid": "Yeuxi",
+        "name": "Yeuxi",
+        "desc": "Joan's silent partner in the Dorma Village Militia. He goes along with whatever she says without question.",
+        "variant": "Female",
+        "level": 1,
+        "klass": "Marksman",
+        "tags": [],
+        "bases": {
+            "LCK": 14,
+            "RES": 9,
+            "CON": 9,
+            "MOV": 6,
+            "STR": 14,
+            "HP": 31,
+            "MAG": 0,
+            "SKL": 13,
+            "SPD": 15,
+            "DEF": 10,
+            "MP": 0
+        },
+        "growths": {
+            "LCK": 45,
+            "RES": 25,
+            "CON": 0,
+            "MOV": 0,
+            "STR": 40,
+            "HP": 75,
+            "MAG": 0,
+            "SKL": 40,
+            "SPD": 45,
+            "DEF": 20,
+            "MP": 0
+        },
+        "stat_cap_modifiers": {
+            "RES": 0,
+            "LCK": 0,
+            "CON": 0,
+            "MOV": 0,
+            "STR": 0,
+            "HP": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
+            "MP": 0
+        },
+        "starting_items": [
+            [
+                "Mythril_Bow",
+                false
+            ],
+            [
+                "White_Gem",
+                false
+            ],
+            [
+                "Vulnerary",
+                false
+            ]
+        ],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0,
+                251
+            ],
+            "Lance": [
+                false,
+                0,
+                251
+            ],
+            "Axe": [
+                false,
+                0,
+                251
+            ],
+            "Bow": [
+                true,
+                181,
+                251
+            ],
+            "Staff": [
+                false,
+                0,
+                251
+            ],
+            "Light": [
+                false,
+                0,
+                251
+            ],
+            "Anima": [
+                false,
+                0,
+                251
+            ],
+            "Dark": [
+                false,
+                0,
+                251
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ],
+            "Earth": [
+                false,
+                0,
+                251
+            ],
+            "Solus": [
+                false,
+                0,
+                251
+            ],
+            "Lunis": [
+                false,
+                0,
+                251
+            ],
+            "Tellus": [
+                false,
+                0,
+                251
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Joshua (Black skin) {JeyTheCount} [F2E]",
+        "affinity": "Ice",
+        "fields": []
+    },
+    {
+        "nid": "Shyara",
+        "name": "Shyara",
+        "desc": "Leader of a group of desert dwelling barbarian lykons. Admires her elder sister Fayza deeply.",
+        "variant": "",
+        "level": 4,
+        "klass": "Myrmidon",
         "tags": [
             "Boss"
         ],
@@ -4811,17 +5661,17 @@
             ]
         },
         "alternate_classes": [],
-        "portrait_nid": "Bone",
+        "portrait_nid": "Rutger (Female) {Fenriel}",
         "affinity": "None",
         "fields": []
     },
     {
-        "nid": "Bazba",
-        "name": "Bazba",
-        "desc": "The leader of Bazba's bandits.",
+        "nid": "Fayza",
+        "name": "Fayza",
+        "desc": "Fierce warrior woman from the Valley of Jehara. She values strength above all else and looks down upon the weak.",
         "variant": "",
         "level": 6,
-        "klass": "Barbarian",
+        "klass": "Brigand",
         "tags": [
             "Boss"
         ],
@@ -4944,14 +5794,413 @@
             ]
         },
         "alternate_classes": [],
-        "portrait_nid": "Bazba",
+        "portrait_nid": "Altena {Melia}",
         "affinity": "None",
         "fields": []
     },
     {
-        "nid": "Saar",
-        "name": "Saar",
-        "desc": "Commander of Grado's border guard.\nHis loyalty is unshakable.",
+        "nid": "Troia",
+        "name": "Troia",
+        "desc": "First Mate of the Bohanes Pirates and adoptive sister of Dalton. She seeks to be the greatest pirate in the world.",
+        "variant": "",
+        "level": 4,
+        "klass": "Pirate",
+        "tags": [
+            "Boss"
+        ],
+        "bases": {
+            "LCK": 0,
+            "CON": 0,
+            "MOV": 0,
+            "RES": 0,
+            "STR": 0,
+            "HP": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
+            "MP": 0
+        },
+        "growths": {
+            "LCK": 0,
+            "CON": 0,
+            "MOV": 0,
+            "RES": 0,
+            "STR": 0,
+            "HP": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
+            "MP": 0
+        },
+        "stat_cap_modifiers": {
+            "RES": 0,
+            "LCK": 0,
+            "CON": 0,
+            "MOV": 0,
+            "STR": 0,
+            "HP": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
+            "MP": 0
+        },
+        "starting_items": [
+            [
+                "Iron_Axe",
+                false
+            ]
+        ],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0,
+                251
+            ],
+            "Lance": [
+                false,
+                0,
+                251
+            ],
+            "Axe": [
+                true,
+                71,
+                251
+            ],
+            "Bow": [
+                false,
+                0,
+                251
+            ],
+            "Staff": [
+                false,
+                0,
+                251
+            ],
+            "Light": [
+                false,
+                0,
+                251
+            ],
+            "Anima": [
+                false,
+                0,
+                251
+            ],
+            "Dark": [
+                false,
+                0,
+                251
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ],
+            "Earth": [
+                false,
+                0,
+                251
+            ],
+            "Solus": [
+                false,
+                0,
+                251
+            ],
+            "Lunis": [
+                false,
+                0,
+                251
+            ],
+            "Tellus": [
+                false,
+                0,
+                251
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Brigid {Redbean} [F2E]",
+        "affinity": "None",
+        "fields": []
+    },
+    {
+        "nid": "Zajesh",
+        "name": "Zajesh",
+        "desc": "A Nephyliae drakoor mercenary, the second youngest of four siblings. Looks up to his big sis, Hanallel.",
+        "variant": "",
+        "level": 9,
+        "klass": "Wyvern Rider",
+        "tags": [],
+        "bases": {
+            "LCK": 4,
+            "RES": 2,
+            "CON": 11,
+            "MOV": 7,
+            "STR": 14,
+            "HP": 30,
+            "MAG": 7,
+            "SKL": 9,
+            "SPD": 10,
+            "DEF": 12,
+            "MP": 0
+        },
+        "growths": {
+            "LCK": 35,
+            "RES": 15,
+            "CON": 0,
+            "MOV": 0,
+            "STR": 55,
+            "HP": 85,
+            "MAG": 25,
+            "SKL": 40,
+            "SPD": 45,
+            "DEF": 25,
+            "MP": 0
+        },
+        "stat_cap_modifiers": {
+            "RES": 0,
+            "LCK": 0,
+            "CON": 0,
+            "MOV": 0,
+            "STR": 0,
+            "HP": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
+            "MP": 0
+        },
+        "starting_items": [
+            [
+                "Killer_Lance",
+                false
+            ],
+            [
+                "Iron_Lance",
+                false
+            ],
+            [
+                "Vulnerary",
+                false
+            ]
+        ],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0,
+                251
+            ],
+            "Lance": [
+                true,
+                71,
+                251
+            ],
+            "Axe": [
+                false,
+                0,
+                251
+            ],
+            "Bow": [
+                false,
+                0,
+                251
+            ],
+            "Staff": [
+                false,
+                0,
+                251
+            ],
+            "Light": [
+                false,
+                0,
+                251
+            ],
+            "Anima": [
+                false,
+                0,
+                251
+            ],
+            "Dark": [
+                false,
+                0,
+                251
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ],
+            "Earth": [
+                false,
+                0,
+                251
+            ],
+            "Solus": [
+                false,
+                0,
+                251
+            ],
+            "Lunis": [
+                false,
+                0,
+                251
+            ],
+            "Tellus": [
+                false,
+                0,
+                251
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "{TrezVG} Yrene",
+        "affinity": "Fire",
+        "fields": []
+    },
+    {
+        "nid": "Katoshi",
+        "name": "Katoshi",
+        "desc": "A Lykon girl who seems to be acting as a spy for a mysterious group, disguised as a maid.",
+        "variant": "",
+        "level": 1,
+        "klass": "Nurse",
+        "tags": [],
+        "bases": {
+            "LCK": 10,
+            "RES": 4,
+            "CON": 5,
+            "MOV": 5,
+            "STR": 1,
+            "HP": 18,
+            "MAG": 1,
+            "SKL": 2,
+            "SPD": 12,
+            "DEF": 5,
+            "MP": 0
+        },
+        "growths": {
+            "LCK": 80,
+            "RES": 75,
+            "CON": 0,
+            "MOV": 0,
+            "STR": 5,
+            "HP": 85,
+            "MAG": 5,
+            "SKL": 10,
+            "SPD": 70,
+            "DEF": 30,
+            "MP": 0
+        },
+        "stat_cap_modifiers": {
+            "RES": 0,
+            "LCK": 0,
+            "CON": 0,
+            "MOV": 0,
+            "STR": 0,
+            "HP": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
+            "MP": 0
+        },
+        "starting_items": [
+            [
+                "Elixir",
+                false
+            ],
+            [
+                "Goddess_Icon",
+                false
+            ],
+            [
+                "Vulnerary",
+                false
+            ]
+        ],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0,
+                251
+            ],
+            "Lance": [
+                false,
+                0,
+                251
+            ],
+            "Axe": [
+                false,
+                0,
+                251
+            ],
+            "Bow": [
+                false,
+                0,
+                251
+            ],
+            "Staff": [
+                false,
+                0,
+                251
+            ],
+            "Light": [
+                false,
+                0,
+                251
+            ],
+            "Anima": [
+                false,
+                0,
+                251
+            ],
+            "Dark": [
+                false,
+                0,
+                251
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ],
+            "Earth": [
+                false,
+                0,
+                251
+            ],
+            "Solus": [
+                false,
+                0,
+                251
+            ],
+            "Lunis": [
+                false,
+                0,
+                251
+            ],
+            "Tellus": [
+                false,
+                0,
+                251
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "{amema003} F2E OC 2",
+        "affinity": "Fire",
+        "fields": []
+    },
+    {
+        "nid": "Kuentin",
+        "name": "Kuentin",
+        "desc": "A Knight Captain of the Kingdom of Omyrus' royal navy and head of House Leudona. Dotes on his daughter fondly.",
         "variant": "",
         "level": 8,
         "klass": "Guard",
@@ -5073,14 +6322,1107 @@
             ]
         },
         "alternate_classes": [],
-        "portrait_nid": "Saar",
+        "portrait_nid": "Fado",
         "affinity": "None",
         "fields": []
     },
     {
-        "nid": "Selena",
-        "name": "Selena",
+        "nid": "Yarda",
+        "name": "Yarda",
+        "desc": "Dehren's wife and matriarch of the family. Yarda has served as Miriam's handmaiden since Miram was a child.",
+        "variant": "",
+        "level": 1,
+        "klass": "Dancer",
+        "tags": [
+            "Zabos"
+        ],
+        "bases": {
+            "LCK": 0,
+            "RES": 0,
+            "CON": 0,
+            "MOV": 0,
+            "STR": 0,
+            "HP": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
+            "MP": 0
+        },
+        "growths": {
+            "LCK": 70,
+            "RES": 13,
+            "CON": 0,
+            "MOV": 0,
+            "STR": 35,
+            "HP": 45,
+            "MAG": 45,
+            "SKL": 30,
+            "SPD": 60,
+            "DEF": 0,
+            "MP": 0
+        },
+        "stat_cap_modifiers": {
+            "RES": 0,
+            "LCK": 0,
+            "CON": 0,
+            "MOV": 0,
+            "STR": 0,
+            "HP": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
+            "MP": 0
+        },
+        "starting_items": [
+            [
+                "Pierce",
+                false
+            ],
+            [
+                "FlareBurst",
+                false
+            ],
+            [
+                "Vulnerary",
+                false
+            ]
+        ],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0,
+                251
+            ],
+            "Lance": [
+                true,
+                0,
+                251
+            ],
+            "Axe": [
+                false,
+                0,
+                251
+            ],
+            "Bow": [
+                false,
+                0,
+                251
+            ],
+            "Staff": [
+                false,
+                0,
+                251
+            ],
+            "Light": [
+                false,
+                0,
+                251
+            ],
+            "Anima": [
+                false,
+                0,
+                251
+            ],
+            "Dark": [
+                false,
+                0,
+                251
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ],
+            "Earth": [
+                false,
+                0,
+                251
+            ],
+            "Solus": [
+                false,
+                0,
+                251
+            ],
+            "Lunis": [
+                false,
+                0,
+                251
+            ],
+            "Tellus": [
+                false,
+                0,
+                251
+            ],
+            "Ignis": [
+                false,
+                31,
+                null
+            ],
+            "Dagger": [
+                false,
+                1,
+                null
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "{VelvetKitsune} F2E OC 1 [AI]",
+        "affinity": "Fire",
+        "fields": []
+    },
+    {
+        "nid": "Morgaine",
+        "name": "Morgaine",
+        "desc": "The youngest princess of the Kingdom of Masa, married to Lord Leiland and mother of his child. She harbors disdain for outsiders.",
+        "variant": "Female",
+        "level": 1,
+        "klass": "Apprentice",
+        "tags": [],
+        "bases": {
+            "LCK": 0,
+            "RES": 0,
+            "CON": 0,
+            "MOV": 0,
+            "STR": 0,
+            "HP": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
+            "MP": 0
+        },
+        "growths": {
+            "LCK": 45,
+            "RES": 40,
+            "CON": 0,
+            "MOV": 0,
+            "STR": 0,
+            "HP": 45,
+            "MAG": 65,
+            "SKL": 30,
+            "SPD": 45,
+            "DEF": 15,
+            "MP": 0
+        },
+        "stat_cap_modifiers": {
+            "RES": 0,
+            "LCK": 0,
+            "CON": 0,
+            "MOV": 0,
+            "STR": 0,
+            "HP": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
+            "MP": 0
+        },
+        "starting_items": [
+            [
+                "Fireball",
+                false
+            ]
+        ],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0,
+                251
+            ],
+            "Lance": [
+                false,
+                0,
+                251
+            ],
+            "Axe": [
+                false,
+                0,
+                251
+            ],
+            "Bow": [
+                false,
+                0,
+                251
+            ],
+            "Staff": [
+                false,
+                0,
+                251
+            ],
+            "Light": [
+                false,
+                0,
+                251
+            ],
+            "Anima": [
+                true,
+                142,
+                251
+            ],
+            "Dark": [
+                false,
+                0,
+                251
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ],
+            "Earth": [
+                true,
+                142,
+                251
+            ],
+            "Solus": [
+                false,
+                0,
+                251
+            ],
+            "Lunis": [
+                false,
+                0,
+                251
+            ],
+            "Tellus": [
+                true,
+                142,
+                251
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "XVI_Eve",
+        "affinity": "Anima",
+        "fields": []
+    },
+    {
+        "nid": "Liberius",
+        "name": "Liberius",
+        "desc": "A drakoor mercenary for hire seeking to support his family. Husband of Florina.",
+        "variant": "Female",
+        "level": 1,
+        "klass": "Wyvern Lord",
+        "tags": [],
+        "bases": {
+            "LCK": 14,
+            "RES": 9,
+            "CON": 9,
+            "MOV": 6,
+            "STR": 14,
+            "HP": 31,
+            "MAG": 0,
+            "SKL": 13,
+            "SPD": 15,
+            "DEF": 10,
+            "MP": 0
+        },
+        "growths": {
+            "LCK": 45,
+            "RES": 25,
+            "CON": 0,
+            "MOV": 0,
+            "STR": 40,
+            "HP": 75,
+            "MAG": 0,
+            "SKL": 40,
+            "SPD": 45,
+            "DEF": 20,
+            "MP": 0
+        },
+        "stat_cap_modifiers": {
+            "RES": 0,
+            "LCK": 0,
+            "CON": 0,
+            "MOV": 0,
+            "STR": 0,
+            "HP": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
+            "MP": 0
+        },
+        "starting_items": [
+            [
+                "Mythril_Bow",
+                false
+            ],
+            [
+                "White_Gem",
+                false
+            ],
+            [
+                "Vulnerary",
+                false
+            ]
+        ],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0,
+                251
+            ],
+            "Lance": [
+                false,
+                0,
+                251
+            ],
+            "Axe": [
+                false,
+                0,
+                251
+            ],
+            "Bow": [
+                true,
+                181,
+                251
+            ],
+            "Staff": [
+                false,
+                0,
+                251
+            ],
+            "Light": [
+                false,
+                0,
+                251
+            ],
+            "Anima": [
+                false,
+                0,
+                251
+            ],
+            "Dark": [
+                false,
+                0,
+                251
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ],
+            "Earth": [
+                false,
+                0,
+                251
+            ],
+            "Solus": [
+                false,
+                0,
+                251
+            ],
+            "Lunis": [
+                false,
+                0,
+                251
+            ],
+            "Tellus": [
+                false,
+                0,
+                251
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Julian {Glaceo}",
+        "affinity": "Ice",
+        "fields": []
+    },
+    {
+        "nid": "Nadirah",
+        "name": "Nadirah",
+        "desc": "A woman hailing from the days dragons still roamed the land and a powerful arcanist. Great grandmother of Yarda.",
+        "variant": "",
+        "level": 1,
+        "klass": "Necromancer",
+        "tags": [
+            "Zabos"
+        ],
+        "bases": {
+            "LCK": 0,
+            "RES": 0,
+            "CON": 0,
+            "MOV": 0,
+            "STR": 0,
+            "HP": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
+            "MP": 0
+        },
+        "growths": {
+            "LCK": 70,
+            "RES": 13,
+            "CON": 0,
+            "MOV": 0,
+            "STR": 35,
+            "HP": 45,
+            "MAG": 45,
+            "SKL": 30,
+            "SPD": 60,
+            "DEF": 0,
+            "MP": 0
+        },
+        "stat_cap_modifiers": {
+            "RES": 0,
+            "LCK": 0,
+            "CON": 0,
+            "MOV": 0,
+            "STR": 0,
+            "HP": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
+            "MP": 0
+        },
+        "starting_items": [
+            [
+                "Pierce",
+                false
+            ],
+            [
+                "FlareBurst",
+                false
+            ],
+            [
+                "Vulnerary",
+                false
+            ]
+        ],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0,
+                251
+            ],
+            "Lance": [
+                true,
+                0,
+                251
+            ],
+            "Axe": [
+                false,
+                0,
+                251
+            ],
+            "Bow": [
+                false,
+                0,
+                251
+            ],
+            "Staff": [
+                false,
+                0,
+                251
+            ],
+            "Light": [
+                false,
+                0,
+                251
+            ],
+            "Anima": [
+                false,
+                0,
+                251
+            ],
+            "Dark": [
+                false,
+                0,
+                251
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ],
+            "Earth": [
+                false,
+                0,
+                251
+            ],
+            "Solus": [
+                false,
+                0,
+                251
+            ],
+            "Lunis": [
+                false,
+                0,
+                251
+            ],
+            "Tellus": [
+                false,
+                0,
+                251
+            ],
+            "Ignis": [
+                false,
+                31,
+                null
+            ],
+            "Dagger": [
+                false,
+                1,
+                null
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Aimee {NickT, Stitch}",
+        "affinity": "Fire",
+        "fields": []
+    },
+    {
+        "nid": "Maieki",
+        "name": "Maieki",
+        "desc": "Crown princess of Valynmur and younger sister of Florina.",
+        "variant": "",
+        "level": 4,
+        "klass": "Falcoknight",
+        "tags": [],
+        "bases": {
+            "LCK": 8,
+            "RES": 7,
+            "CON": 5,
+            "MOV": 7,
+            "STR": 7,
+            "HP": 20,
+            "MAG": 4,
+            "SKL": 9,
+            "SPD": 13,
+            "DEF": 6,
+            "MP": 0
+        },
+        "growths": {
+            "LCK": 60,
+            "RES": 25,
+            "CON": 0,
+            "MOV": 0,
+            "STR": 45,
+            "HP": 65,
+            "MAG": 25,
+            "SKL": 40,
+            "SPD": 65,
+            "DEF": 20,
+            "MP": 0
+        },
+        "stat_cap_modifiers": {
+            "RES": 0,
+            "LCK": 0,
+            "CON": 0,
+            "MOV": 0,
+            "STR": 0,
+            "HP": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
+            "MP": 0
+        },
+        "starting_items": [
+            [
+                "Heavy_Spear",
+                false
+            ],
+            [
+                "Javelin",
+                false
+            ],
+            [
+                "Vulnerary",
+                false
+            ]
+        ],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0,
+                251
+            ],
+            "Lance": [
+                true,
+                31,
+                251
+            ],
+            "Axe": [
+                false,
+                0,
+                251
+            ],
+            "Bow": [
+                false,
+                0,
+                251
+            ],
+            "Staff": [
+                false,
+                0,
+                251
+            ],
+            "Light": [
+                false,
+                0,
+                251
+            ],
+            "Anima": [
+                false,
+                0,
+                251
+            ],
+            "Dark": [
+                false,
+                0,
+                251
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ],
+            "Earth": [
+                false,
+                0,
+                251
+            ],
+            "Solus": [
+                false,
+                0,
+                251
+            ],
+            "Lunis": [
+                false,
+                0,
+                251
+            ],
+            "Tellus": [
+                false,
+                0,
+                251
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "{monk-han} [F2E] OC Nomad Lord (Version 3) ",
+        "affinity": "Wind",
+        "fields": []
+    },
+    {
+        "nid": "Treiy",
+        "name": "Treiy",
+        "desc": "A Knight Commander of the Kingdom of Masa, Serena's husband and father to Josif and Thanya.",
+        "variant": "",
+        "level": 8,
+        "klass": "BladeDancer",
+        "tags": [
+            "Boss"
+        ],
+        "bases": {
+            "LCK": 0,
+            "CON": 0,
+            "MOV": 0,
+            "RES": 0,
+            "STR": 0,
+            "HP": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
+            "MP": 0
+        },
+        "growths": {
+            "LCK": 0,
+            "CON": 0,
+            "MOV": 0,
+            "RES": 0,
+            "STR": 0,
+            "HP": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
+            "MP": 0
+        },
+        "stat_cap_modifiers": {
+            "RES": 0,
+            "LCK": 0,
+            "CON": 0,
+            "MOV": 0,
+            "STR": 0,
+            "HP": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
+            "MP": 0
+        },
+        "starting_items": [
+            [
+                "Javelin",
+                false
+            ]
+        ],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0,
+                251
+            ],
+            "Lance": [
+                false,
+                71,
+                251
+            ],
+            "Axe": [
+                true,
+                710,
+                251
+            ],
+            "Bow": [
+                false,
+                0,
+                251
+            ],
+            "Staff": [
+                false,
+                0,
+                251
+            ],
+            "Light": [
+                false,
+                0,
+                251
+            ],
+            "Anima": [
+                false,
+                0,
+                251
+            ],
+            "Dark": [
+                false,
+                0,
+                251
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ],
+            "Earth": [
+                false,
+                0,
+                251
+            ],
+            "Solus": [
+                false,
+                0,
+                251
+            ],
+            "Lunis": [
+                false,
+                0,
+                251
+            ],
+            "Tellus": [
+                false,
+                0,
+                251
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Navarre (version 1) {BuskHusker}",
+        "affinity": "None",
+        "fields": []
+    },
+    {
+        "nid": "Drace",
+        "name": "Drace",
         "desc": "",
+        "variant": "",
+        "level": 16,
+        "klass": "Nurse",
+        "tags": [],
+        "bases": {
+            "LCK": 0,
+            "RES": 0,
+            "CON": 0,
+            "MOV": 0,
+            "STR": 0,
+            "HP": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
+            "MP": 0
+        },
+        "growths": {
+            "LCK": 0,
+            "RES": 0,
+            "CON": 0,
+            "MOV": 0,
+            "STR": 0,
+            "HP": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
+            "MP": 0
+        },
+        "stat_cap_modifiers": {
+            "RES": 0,
+            "LCK": 0,
+            "CON": 0,
+            "MOV": 0,
+            "STR": 0,
+            "HP": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
+            "MP": 0
+        },
+        "starting_items": [
+            [
+                "Starlight",
+                true
+            ]
+        ],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0,
+                251
+            ],
+            "Lance": [
+                false,
+                0,
+                251
+            ],
+            "Axe": [
+                false,
+                0,
+                251
+            ],
+            "Bow": [
+                false,
+                0,
+                251
+            ],
+            "Staff": [
+                false,
+                181,
+                251
+            ],
+            "Light": [
+                false,
+                251,
+                251
+            ],
+            "Anima": [
+                false,
+                0,
+                251
+            ],
+            "Dark": [
+                false,
+                0,
+                251
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ],
+            "Earth": [
+                false,
+                0,
+                251
+            ],
+            "Solus": [
+                false,
+                251,
+                251
+            ],
+            "Lunis": [
+                false,
+                0,
+                251
+            ],
+            "Tellus": [
+                false,
+                0,
+                251
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "{Zeldacrafter} OC 2",
+        "affinity": "None",
+        "fields": []
+    },
+    {
+        "nid": "Melodia",
+        "name": "Melodia",
+        "desc": "The Lanquiz daughter of Jezolda and Garish. Wielding the Staff of Gaeya has unlocked incredible power within her.",
+        "variant": null,
+        "level": 20,
+        "klass": "Doctor",
+        "tags": [],
+        "bases": {
+            "LCK": 5,
+            "RES": 11,
+            "CON": 7,
+            "MOV": 0,
+            "STR": 10,
+            "HP": 28,
+            "MAG": 5,
+            "SKL": 16,
+            "SPD": 17,
+            "DEF": 9,
+            "MP": 0
+        },
+        "growths": {
+            "LCK": 25,
+            "RES": 30,
+            "CON": 0,
+            "MOV": 0,
+            "STR": 25,
+            "HP": 65,
+            "MAG": 15,
+            "SKL": 45,
+            "SPD": 60,
+            "DEF": 25,
+            "MP": 0
+        },
+        "stat_cap_modifiers": {
+            "RES": 0,
+            "LCK": 0,
+            "CON": 0,
+            "MOV": 0,
+            "STR": 0,
+            "HP": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
+            "MP": 0
+        },
+        "starting_items": [
+            [
+                "Steel_Sword",
+                false
+            ],
+            [
+                "Elixir",
+                false
+            ]
+        ],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                true,
+                0,
+                251
+            ],
+            "Lance": [
+                false,
+                0,
+                251
+            ],
+            "Axe": [
+                false,
+                0,
+                251
+            ],
+            "Bow": [
+                false,
+                0,
+                251
+            ],
+            "Staff": [
+                false,
+                251,
+                251
+            ],
+            "Light": [
+                false,
+                0,
+                251
+            ],
+            "Anima": [
+                false,
+                0,
+                251
+            ],
+            "Dark": [
+                false,
+                0,
+                251
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ],
+            "Earth": [
+                false,
+                0,
+                251
+            ],
+            "Solus": [
+                false,
+                31,
+                251
+            ],
+            "Lunis": [
+                false,
+                0,
+                251
+            ],
+            "Tellus": [
+                false,
+                0,
+                251
+            ],
+            "Aquis": [
+                false,
+                251,
+                null
+            ],
+            "Dagger": [
+                false,
+                71,
+                null
+            ],
+            "Glacies": [
+                false,
+                181,
+                null
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Ilyana (Younger) {NickT, Stitch}",
+        "affinity": "Dark",
+        "fields": []
+    },
+    {
+        "nid": "Jezolda",
+        "name": "Jezolda",
+        "desc": "Mother of Melodia and former Lady Barrington of Omyrus, now the\nLady of Feirwall. Mariya's twin sister.",
         "variant": "Female",
         "level": 11,
         "klass": "MageCorps",
@@ -5204,13 +7546,13 @@
             ]
         },
         "alternate_classes": [],
-        "portrait_nid": "Selena",
-        "affinity": null,
+        "portrait_nid": "Sonya (version 2) {Redbean} [F2E]",
+        "affinity": "None",
         "fields": []
     },
     {
-        "nid": "Vigarde",
-        "name": "Vigarde",
+        "nid": "Garish",
+        "name": "Garish",
         "desc": "",
         "variant": "",
         "level": 13,
@@ -5340,9 +7682,9 @@
         "fields": []
     },
     {
-        "nid": "Caellach",
-        "name": "Caellach",
-        "desc": "",
+        "nid": "Razulis",
+        "name": "Razulis",
+        "desc": "A Zabos warrior who lost is way in life after the loss of his beloved daughter. Fiercely loyal to Drace Catacone.",
         "variant": null,
         "level": 12,
         "klass": "Brave",
@@ -5470,17 +7812,17 @@
             ]
         },
         "alternate_classes": [],
-        "portrait_nid": "Caellach",
+        "portrait_nid": "Giffca {NickT, Stitch}",
         "affinity": null,
         "fields": []
     },
     {
-        "nid": "Valter",
-        "name": "Valter",
-        "desc": "",
+        "nid": "Henry",
+        "name": "Henry",
+        "desc": "Former Admiral of the Kingdom of Omyrus, now a thrall of Drace. Dalton's strict and overbearing father.",
         "variant": null,
-        "level": 131,
-        "klass": "Wyvern Knight",
+        "level": 20,
+        "klass": "Captain",
         "tags": [],
         "bases": {
             "LCK": 0,
@@ -5605,17 +7947,17 @@
             ]
         },
         "alternate_classes": [],
-        "portrait_nid": "Valter",
-        "affinity": null,
+        "portrait_nid": "Lorenz {Blueyguy}",
+        "affinity": "None",
         "fields": []
     },
     {
-        "nid": "Riev",
-        "name": "Riev",
-        "desc": "",
+        "nid": "Daniya",
+        "name": "Daniya",
+        "desc": "A well known healer whose true colors have been revealed. She once took the guise of Drace Catacone. Daniyah was turned into a vampire by Mephisto and has long-since plotted her master's return.",
         "variant": "",
-        "level": 16,
-        "klass": "Cleric",
+        "level": 15,
+        "klass": "Dancer",
         "tags": [],
         "bases": {
             "LCK": 0,
@@ -5732,16 +8074,156 @@
             ]
         },
         "alternate_classes": [],
-        "portrait_nid": "Riev",
+        "portrait_nid": "{Zeldacrafter} OC 2",
         "affinity": "None",
         "fields": []
     },
     {
-        "nid": "Lyon",
-        "name": "Lyon",
-        "desc": "",
+        "nid": "Vyriel",
+        "name": "Vyriel",
+        "desc": "She was chosen as the heir to the Daemon Dragon, Mephisto. Inside her runs the blood of the Daemon Dragon and her ultimate power has been unleashed...",
+        "variant": "",
+        "level": 20,
+        "klass": "Seiryuchi",
+        "tags": [
+            "Dragon",
+            "Thief",
+            "Nordak",
+            "Siylphe"
+        ],
+        "bases": {
+            "LCK": 0,
+            "RES": 0,
+            "CON": 0,
+            "MOV": 0,
+            "STR": 0,
+            "HP": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
+            "MP": 0
+        },
+        "growths": {
+            "LCK": 45,
+            "RES": 20,
+            "CON": 0,
+            "MOV": 0,
+            "STR": 40,
+            "HP": 70,
+            "MAG": 20,
+            "SKL": 40,
+            "SPD": 65,
+            "DEF": 25,
+            "MP": 0
+        },
+        "stat_cap_modifiers": {
+            "RES": 0,
+            "LCK": 0,
+            "CON": 0,
+            "MOV": 0,
+            "STR": 0,
+            "HP": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
+            "MP": 0
+        },
+        "starting_items": [
+            [
+                "Iron_Sword",
+                false
+            ],
+            [
+                "Lockpick",
+                false
+            ],
+            [
+                "Vulnerary",
+                false
+            ]
+        ],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                71,
+                251
+            ],
+            "Lance": [
+                false,
+                0,
+                251
+            ],
+            "Axe": [
+                true,
+                0,
+                251
+            ],
+            "Bow": [
+                false,
+                0,
+                251
+            ],
+            "Staff": [
+                false,
+                0,
+                251
+            ],
+            "Light": [
+                false,
+                0,
+                251
+            ],
+            "Anima": [
+                false,
+                0,
+                251
+            ],
+            "Dark": [
+                false,
+                0,
+                251
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ],
+            "Earth": [
+                false,
+                0,
+                251
+            ],
+            "Solus": [
+                false,
+                0,
+                251
+            ],
+            "Lunis": [
+                false,
+                0,
+                251
+            ],
+            "Tellus": [
+                false,
+                0,
+                251
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Zwelix OC 1",
+        "affinity": "Light",
+        "fields": []
+    },
+    {
+        "nid": "Mephisto",
+        "name": "Mephisto",
+        "desc": "The mindless body of the ancient Daemon Dragon, awakened by Daniya's will and desire. With his resurrection foiled, all that remains is to destroy his mindless body.",
         "variant": null,
-        "level": 14,
+        "level": 20,
         "klass": "Necromancer",
         "tags": [],
         "bases": {
@@ -5863,7 +8345,138 @@
             ]
         },
         "alternate_classes": [],
-        "portrait_nid": "Lyon",
+        "portrait_nid": "Medeus {Frigid}",
+        "affinity": "None",
+        "fields": []
+    },
+    {
+        "nid": "Azira",
+        "name": "Azira",
+        "desc": "The ancient hero of the Daemon Wars, revealed now in fact to have been the Daemon Dragon himself. Now his lingering will only desires to find its true end.",
+        "variant": null,
+        "level": 20,
+        "klass": "Necromancer",
+        "tags": [],
+        "bases": {
+            "LCK": 0,
+            "RES": 0,
+            "CON": 0,
+            "MOV": 0,
+            "STR": 0,
+            "HP": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
+            "MP": 0
+        },
+        "growths": {
+            "LCK": 0,
+            "RES": 0,
+            "CON": 0,
+            "MOV": 0,
+            "STR": 0,
+            "HP": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
+            "MP": 0
+        },
+        "stat_cap_modifiers": {
+            "RES": 0,
+            "LCK": 0,
+            "CON": 0,
+            "MOV": 0,
+            "STR": 0,
+            "HP": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
+            "MP": 0
+        },
+        "starting_items": [
+            [
+                "Leech",
+                false
+            ],
+            [
+                "Hellfire",
+                false
+            ]
+        ],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0,
+                251
+            ],
+            "Lance": [
+                false,
+                0,
+                251
+            ],
+            "Axe": [
+                false,
+                0,
+                251
+            ],
+            "Bow": [
+                false,
+                0,
+                251
+            ],
+            "Staff": [
+                false,
+                181,
+                251
+            ],
+            "Light": [
+                false,
+                0,
+                251
+            ],
+            "Anima": [
+                false,
+                0,
+                251
+            ],
+            "Dark": [
+                false,
+                251,
+                251
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ],
+            "Earth": [
+                false,
+                0,
+                251
+            ],
+            "Solus": [
+                false,
+                0,
+                251
+            ],
+            "Lunis": [
+                false,
+                251,
+                251
+            ],
+            "Tellus": [
+                false,
+                0,
+                251
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Kurth (White Hair) {Sterling Glovner}",
         "affinity": "None",
         "fields": []
     }

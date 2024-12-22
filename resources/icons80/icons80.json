@@ -201,5 +201,29 @@
                 0
             ]
         }
+    },
+    {
+        "nid": "Great Knight (U) Axe {Leo_Link, DerTheVaporeon}",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Nomad (F) Bow {Jey the Count}",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Nomad (M) Bow {IS}",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Nomad Trooper (F) Bow {Jey the Count, Pushwall}",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Nomad Trooper (M) Bow {IS}",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Wolf Knight (F) Sword (Brown) {darkjaden, RobertFPY, VelvetKitsune}_1",
+        "subicon_dict": {}
     }
 ]

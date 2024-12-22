@@ -264,7 +264,7 @@
                 "generic": true
             },
             {
-                "nid": "O'Neill",
+                "nid": "Troia",
                 "team": "enemy",
                 "ai": "Guard",
                 "roam_ai": null,
@@ -379,7 +379,7 @@
                 "generic": false
             },
             {
-                "nid": "Breguet",
+                "nid": "Rajyhna",
                 "team": "enemy",
                 "ai": "Guard",
                 "roam_ai": null,
@@ -602,7 +602,7 @@
                 "nid": "GreenCav",
                 "variant": null,
                 "level": 1,
-                "klass": "Cavalier",
+                "klass": "Cavalry",
                 "faction": "Siegwang",
                 "starting_items": [],
                 "starting_skills": [],
@@ -710,7 +710,7 @@
             {
                 "nid": "Enemy1",
                 "units": [
-                    "Breguet",
+                    "Rajyhna",
                     "101",
                     "102",
                     "103",
@@ -719,10 +719,6 @@
                     "106"
                 ],
                 "positions": {
-                    "Breguet": [
-                        2,
-                        5
-                    ],
                     "101": [
                         1,
                         6
@@ -746,6 +742,10 @@
                     "103": [
                         1,
                         8
+                    ],
+                    "Rajyhna": [
+                        2,
+                        5
                     ]
                 }
             },
@@ -922,7 +922,7 @@
                 "generic": false
             },
             {
-                "nid": "Bone",
+                "nid": "Shyara",
                 "team": "enemy",
                 "ai": "Pursue",
                 "roam_ai": null,
@@ -938,7 +938,7 @@
                 "nid": "TopBandit",
                 "variant": null,
                 "level": 2,
-                "klass": "Barbarian",
+                "klass": "Brigand",
                 "faction": "Rogue",
                 "starting_items": [
                     [
@@ -962,7 +962,7 @@
                 "nid": "BoneBuddy",
                 "variant": null,
                 "level": 3,
-                "klass": "Barbarian",
+                "klass": "Brigand",
                 "faction": "Rogue",
                 "starting_items": [
                     [
@@ -986,7 +986,7 @@
                 "nid": "103",
                 "variant": null,
                 "level": 3,
-                "klass": "Barbarian",
+                "klass": "Brigand",
                 "faction": "Rogue",
                 "starting_items": [
                     [
@@ -1010,7 +1010,7 @@
                 "nid": "104",
                 "variant": null,
                 "level": 3,
-                "klass": "Barbarian",
+                "klass": "Brigand",
                 "faction": "Rogue",
                 "starting_items": [
                     [
@@ -1062,7 +1062,7 @@
                 "nid": "106",
                 "variant": null,
                 "level": 2,
-                "klass": "Barbarian",
+                "klass": "Brigand",
                 "faction": "Rogue",
                 "starting_items": [
                     [
@@ -1086,7 +1086,7 @@
                 "nid": "107",
                 "variant": null,
                 "level": 3,
-                "klass": "Barbarian",
+                "klass": "Brigand",
                 "faction": "Rogue",
                 "starting_items": [
                     [
@@ -1251,7 +1251,7 @@
                 "units": [
                     "TopBandit",
                     "105",
-                    "Bone",
+                    "Shyara",
                     "BoneBuddy"
                 ],
                 "positions": {
@@ -1263,12 +1263,12 @@
                         14,
                         9
                     ],
-                    "Bone": [
-                        13,
-                        7
-                    ],
                     "BoneBuddy": [
                         11,
+                        7
+                    ],
+                    "Shyara": [
+                        13,
                         7
                     ]
                 }
@@ -1450,7 +1450,7 @@
                 "generic": false
             },
             {
-                "nid": "Bazba",
+                "nid": "Fayza",
                 "team": "enemy",
                 "ai": "Guard",
                 "roam_ai": null,
@@ -1466,7 +1466,7 @@
                 "nid": "101",
                 "variant": null,
                 "level": 3,
-                "klass": "Barbarian",
+                "klass": "Brigand",
                 "faction": "Rogue",
                 "starting_items": [
                     [
@@ -1490,7 +1490,7 @@
                 "nid": "102",
                 "variant": null,
                 "level": 3,
-                "klass": "Barbarian",
+                "klass": "Brigand",
                 "faction": "Rogue",
                 "starting_items": [
                     [
@@ -1514,7 +1514,7 @@
                 "nid": "103",
                 "variant": null,
                 "level": 4,
-                "klass": "Barbarian",
+                "klass": "Brigand",
                 "faction": "Rogue",
                 "starting_items": [
                     [
@@ -1538,7 +1538,7 @@
                 "nid": "104",
                 "variant": null,
                 "level": 3,
-                "klass": "Barbarian",
+                "klass": "Brigand",
                 "faction": "Rogue",
                 "starting_items": [
                     [
@@ -1566,7 +1566,7 @@
                 "nid": "105",
                 "variant": null,
                 "level": 3,
-                "klass": "Barbarian",
+                "klass": "Brigand",
                 "faction": "Rogue",
                 "starting_items": [
                     [
@@ -1594,7 +1594,7 @@
                 "nid": "106",
                 "variant": null,
                 "level": 2,
-                "klass": "Barbarian",
+                "klass": "Brigand",
                 "faction": "Rogue",
                 "starting_items": [
                     [
@@ -1966,7 +1966,7 @@
                 "generic": false
             },
             {
-                "nid": "Shane",
+                "nid": "Gwynn",
                 "team": "player",
                 "ai": "None",
                 "roam_ai": null,
@@ -2647,7 +2647,7 @@
                 "generic": false
             },
             {
-                "nid": "Dozla",
+                "nid": "Geval",
                 "team": "npc",
                 "ai": "None",
                 "roam_ai": null,
@@ -2660,7 +2660,7 @@
                 "generic": false
             },
             {
-                "nid": "Rennac",
+                "nid": "Josif",
                 "team": "npc",
                 "ai": "None",
                 "roam_ai": null,
@@ -2927,16 +2927,16 @@
                 "nid": "LGang",
                 "units": [
                     "Nala",
-                    "Dozla"
+                    "Geval"
                 ],
                 "positions": {
-                    "Dozla": [
-                        11,
-                        4
-                    ],
                     "Nala": [
                         10,
                         5
+                    ],
+                    "Geval": [
+                        11,
+                        4
                     ]
                 }
             }
@@ -3010,7 +3010,7 @@
                 "generic": false
             },
             {
-                "nid": "Saar",
+                "nid": "Kuentin",
                 "team": "enemy",
                 "ai": "Guard",
                 "roam_ai": null,
@@ -3386,7 +3386,7 @@
                 "nid": "116",
                 "variant": null,
                 "level": 4,
-                "klass": "Barbarian",
+                "klass": "Brigand",
                 "faction": "Barbarian",
                 "starting_items": [
                     [
@@ -3407,7 +3407,7 @@
                 "nid": "117",
                 "variant": null,
                 "level": 4,
-                "klass": "Barbarian",
+                "klass": "Brigand",
                 "faction": "Barbarian",
                 "starting_items": [
                     [
@@ -3428,7 +3428,7 @@
                 "nid": "118",
                 "variant": null,
                 "level": 5,
-                "klass": "Barbarian",
+                "klass": "Brigand",
                 "faction": "Barbarian",
                 "starting_items": [
                     [
@@ -3449,7 +3449,7 @@
                 "nid": "119",
                 "variant": null,
                 "level": 5,
-                "klass": "Barbarian",
+                "klass": "Brigand",
                 "faction": "Barbarian",
                 "starting_items": [
                     [
@@ -3470,7 +3470,7 @@
                 "nid": "120",
                 "variant": null,
                 "level": 5,
-                "klass": "Barbarian",
+                "klass": "Brigand",
                 "faction": "Barbarian",
                 "starting_items": [
                     [
@@ -3491,7 +3491,7 @@
                 "nid": "121",
                 "variant": null,
                 "level": 5,
-                "klass": "Barbarian",
+                "klass": "Brigand",
                 "faction": "Barbarian",
                 "starting_items": [
                     [
@@ -3878,7 +3878,7 @@
                 "nid": "EnemyTeam",
                 "units": [
                     "101",
-                    "Saar",
+                    "Kuentin",
                     "102",
                     "103",
                     "104",
@@ -3924,7 +3924,7 @@
         "tags": [],
         "units": [
             {
-                "nid": "Bone",
+                "nid": "Shyara",
                 "team": "enemy",
                 "ai": "None",
                 "roam_ai": null,
