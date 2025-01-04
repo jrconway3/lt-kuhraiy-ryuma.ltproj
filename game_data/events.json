@@ -1,8 +1,8 @@
 [
     {
-        "name": "Intro",
-        "trigger": "level_start",
-        "level_nid": "SS0",
+        "name": "IntroOld",
+        "trigger": null,
+        "level_nid": null,
         "condition": "True",
         "commands": [],
         "only_once": false,
@@ -65,7 +65,36 @@
             "remove_portrait;Eirika;no_block",
             "remove_portrait;Seth"
         ],
-        "nid": "SS0 Intro"
+        "nid": "Global IntroOld"
+    },
+    {
+        "name": "Intro",
+        "trigger": "level_start",
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "remove_unit;Miriam;immediate",
+            "remove_unit;Kasuto;immediate",
+            "remove_group;Enemy1;immediate",
+            "add_unit;Miriam;4,3;immediate",
+            "add_portrait;Miriam;MidLeft;Middle;CloseEyes",
+            "speak;Miriam;...|Oh holy mother...|Blessed be this wondrous day. Guide me as I walk this path...",
+            "remove_portrait;Miriam;",
+            "add_unit;Kasuto;10,11;immediate",
+            "move_unit;Kasuto;4,4",
+            "multi_add_portrait;Miriam;MidLeft;Kasuto;MidRight;",
+            "speak;Kasuto;My dear child... what troubles you so?",
+            "wait;1000",
+            "speak;Miriam;...|Sister Kasuto! From when had you arrived?|Were you not yet still on your latest pilgrimage?",
+            "speak;Kasuto;My apologies, Lady Miriam.|Naught should I have left so suddenly during your time of need.",
+            "mirror_portrait;Miriam;",
+            "speak;Miriam;Truly you need not worry about my troubles.|Others far more need your aid that that of I!",
+            "change_tilemap;Ch0"
+        ],
+        "nid": "Global Intro"
     },
     {
         "name": "DeathEirika",
@@ -3047,7 +3076,7 @@
     {
         "name": "Summon Phantom",
         "trigger": null,
-        "level_nid": null,
+        "level_nid": "0",
         "condition": "True",
         "commands": [],
         "only_once": false,
@@ -3064,7 +3093,7 @@
             "wait;200",
             ""
         ],
-        "nid": "Global Summon Phantom"
+        "nid": "0 Summon Phantom"
     },
     {
         "name": "Summon Soldiers",

@@ -1,8 +1,8 @@
 {
-    "date": "2024-12-22 13:00:14.885138",
+    "date": "2025-01-04 04:00:24.832630",
     "engine_version": "2024.10.25a",
     "serialization_version": 0,
     "project": "KCR",
-    "has_fatal_errors": false,
+    "has_fatal_errors": true,
     "as_chunks": false
 }

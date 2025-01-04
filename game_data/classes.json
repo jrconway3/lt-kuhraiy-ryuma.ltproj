@@ -224,7 +224,7 @@
     {
         "nid": "Lady",
         "name": "Lady",
-        "desc": "Adopted heir to a ruling house.\nHarbors untapped potential.\nRace: Queiza2",
+        "desc": "Adopted heir to a ruling house.\nHarbors untapped potential.",
         "tier": 1,
         "movement_group": "Queiza",
         "promotes_from": null,
@@ -453,7 +453,20 @@
         ],
         "map_sprite_nid": "Lady",
         "combat_anim_nid": "Lady",
-        "fields": []
+        "fields": [
+            [
+                "Race",
+                "Queiza"
+            ],
+            [
+                "New Key",
+                "New Value"
+            ],
+            [
+                "New Key",
+                "New Value"
+            ]
+        ]
     },
     {
         "nid": "Water_Lady",
