@@ -530,16 +530,15 @@ XPGamesNL for his video guide (https://www.youtube.com/watch?v=6el531ZXMl4)
 Village - Vanilla FE8 (I replaced these with Village - Remake, but the early new map designs used this map)
 Village - Remake + Coconut Tree + Ship Extras (by flasuban, N426, ZoramineFae, Venno)
 FE8 - Fields - Remaster - Super Fields (by WAve, RandomWizard, Beast; Aquamarine Roofs + Gray Mountains by Dark, inspired by LeifOClaude; Autumn/Marsh/Verdant by Zarg)
+Cynon's Metropolis by Cynon
+
+##### Autotiles
+Custom tilesets cannot easily be imported into LT in all cases. Many custom tilesets change up the animations, and as such, need new autotiles to generate new animations for tilemaps.
+
+Cynon's Metropolis Autotiles by JaidynReiman (edited from Cynon's GBA Map Animations)
 
 
 #### Map Design
-
-##### Guides
-
-
-##### Tilesets
-
-
 
 ##### Maps
 AuraWolf's Snap a Crap Pack V3.1 maps in general have been very useful starting points to get the feel of how maps should look, and how certain tile placements should work. The ship tiles especially are quite complicated. All of the following maps of AuraWolf I used either as starting points/inspiration for map chapter designs, or heavily modified to map the final map:
