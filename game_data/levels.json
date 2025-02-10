@@ -40,9 +40,189 @@
         "go_to_overworld": false,
         "should_record": false,
         "tags": [],
-        "units": [],
-        "regions": [],
-        "unit_groups": [],
+        "units": [
+            {
+                "nid": "101",
+                "variant": "Child",
+                "level": 1,
+                "klass": "Citizen",
+                "faction": "Masa",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "npc",
+                "ai": "None",
+                "roam_ai": "Wander",
+                "ai_group": "",
+                "starting_position": [
+                    37,
+                    11
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "102",
+                "variant": "Child",
+                "level": 1,
+                "klass": "Citizen",
+                "faction": "Masa",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "npc",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    7,
+                    26
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "103",
+                "variant": "Child",
+                "level": 1,
+                "klass": "Citizen",
+                "faction": "Masa",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "npc",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    15,
+                    16
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "104",
+                "variant": "",
+                "level": 1,
+                "klass": "Citizen",
+                "faction": "Masa",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "npc",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    10,
+                    10
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "105",
+                "variant": "",
+                "level": 1,
+                "klass": "Citizen",
+                "faction": "Masa",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "npc",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    38,
+                    16
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "106",
+                "variant": "",
+                "level": 1,
+                "klass": "Citizen",
+                "faction": "Masa",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "npc",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Dehren",
+                "team": "npc",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            }
+        ],
+        "regions": [
+            {
+                "nid": "SW_Church",
+                "region_type": "event",
+                "position": [
+                    18,
+                    23
+                ],
+                "size": [
+                    3,
+                    1
+                ],
+                "sub_nid": "Oestridel_Enter_SW_Church",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": true
+            },
+            {
+                "nid": "N_Church",
+                "region_type": "event",
+                "position": [
+                    22,
+                    13
+                ],
+                "size": [
+                    4,
+                    1
+                ],
+                "sub_nid": "Oestridel_North_Church",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            }
+        ],
+        "unit_groups": [
+            {
+                "nid": "Civilians",
+                "units": [
+                    "101",
+                    "102",
+                    "103",
+                    "104",
+                    "105",
+                    "106"
+                ],
+                "positions": {}
+            },
+            {
+                "nid": "Masa",
+                "units": [],
+                "positions": {}
+            },
+            {
+                "nid": "Siegwang",
+                "units": [],
+                "positions": {}
+            }
+        ],
         "ai_groups": []
     },
     {

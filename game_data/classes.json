@@ -8547,7 +8547,7 @@
                 251
             ],
             "Axe": [
-                false,
+                true,
                 0,
                 251
             ],
@@ -8557,12 +8557,12 @@
                 251
             ],
             "Solus": [
-                false,
+                true,
                 16,
                 251
             ],
             "Lunis": [
-                true,
+                false,
                 0,
                 251
             ],
@@ -8582,7 +8582,7 @@
                 null
             ],
             "Tellus": [
-                false,
+                true,
                 0,
                 251
             ],
@@ -8592,7 +8592,7 @@
                 null
             ],
             "Aquis": [
-                true,
+                false,
                 0,
                 null
             ],
@@ -8647,8 +8647,8 @@
             0,
             0
         ],
-        "map_sprite_nid": "War Monk (M) Axe {Der}-stand",
-        "combat_anim_nid": "Bishop",
+        "map_sprite_nid": "Priestess",
+        "combat_anim_nid": null,
         "fields": []
     },
     {
@@ -12338,11 +12338,12 @@
     {
         "nid": "Tactician",
         "name": "Tactician",
-        "desc": "Kind-hearted healers.",
+        "desc": "Mounted tactical genius who fight from the back with magic.",
         "tier": 1,
         "movement_group": "Heavy Cav",
         "promotes_from": null,
         "turns_into": [
+            "MageCorps",
             "Saint"
         ],
         "tags": [
@@ -12355,24 +12356,24 @@
             "RES": 5,
             "CON": 5,
             "MOV": 6,
-            "STR": 0,
+            "STR": 2,
             "HP": 15,
-            "MAG": 1,
+            "MAG": 5,
             "SKL": 1,
             "SPD": 3,
             "DEF": 2,
-            "MP": 0
+            "MP": 13
         },
         "growths": {
             "LCK": 45,
             "RES": 40,
             "CON": 0,
             "MOV": 0,
-            "STR": 0,
-            "HP": 50,
-            "MAG": 25,
+            "STR": 25,
+            "HP": 60,
+            "MAG": 50,
             "SKL": 35,
-            "SPD": 55,
+            "SPD": 45,
             "DEF": 12,
             "MP": 0
         },
@@ -12423,7 +12424,7 @@
         ],
         "wexp_gain": {
             "Sword": [
-                true,
+                false,
                 0,
                 251
             ],
@@ -12533,12 +12534,12 @@
                 251
             ]
         },
-        "icon_nid": "Generic_Portrait_Troubadour",
+        "icon_nid": "Thaumaturge [M] Magic {Der}",
         "icon_index": [
             0,
             0
         ],
-        "map_sprite_nid": "Troubadour",
+        "map_sprite_nid": "Tactician",
         "combat_anim_nid": null,
         "fields": []
     },

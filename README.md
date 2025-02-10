@@ -12,8 +12,17 @@ Worldbuilding, Scenario Writing, Dialogue, and Characters by JaidynReiman
 
 ### Codebase
 
-Lex Talionis by Rainlash
+Lex Talionis Engine and LT-Maker Editor created by rainlash
 
+With additional programming and help from the Lex Talionis Discord server, including mag, KD, Sigmaraven, TheeBill, Lord Tweed, ZessDynamite, Nemid, Kyogokudo, beccarte, Meinerieve, Greentwip, Klokinator, Sealvester, Joytis, and aorlnn.
+
+Narrow fonts and droppable item icon originally created by Scraiza.
+
+Lex Talionis is a non-profit engine, released for free, and developed using Python, Pygame, and PyQt5. Some default assets are copyrighted or trademarked by their respective owners.
+
+Licensed under the MIT License.
+
+https://gitlab.com/rainlash/lt-maker
 https://lt-maker.readthedocs.io/en/latest/source/home.html
 
 
@@ -384,14 +393,26 @@ Scout-F (Thief-F Bow by Alice)
 
 ##### Soldiers / Halberdiers
 Militia (Militia by Alusq, Female edit by Knabepicer)
-Gladiator (Sergeant by Spud, Female Sargeant By ドラドラゴ, aka Dora Drago).
+Soldier (FE10 Style Soldier by Flasuban)
+Sergeant-M (Sergeant M by Spud)
+Sergeant-F (Sargeant F By ドラドラゴ, aka Dora Drago)
 
 ##### Armours
 
 
+##### Holy Mages
+War Monk (War Monk, Axe M by DerTheVaporean)
+War Nun (War Cleric, Axe F by DerTheVaporean)
+War Monk (War Monk, Staff M by Author_Pendragon)
+War Cleric (War Cleric, Staff F by SkidMarc25)
+
+##### Mounted Mages
+Tactician (Thaumaturge M/F by Pikmin1211, DerTheVaporean)
+
 ##### Monster Mounts
-Barbarian (Brigand Rider Axe by Zoramine)
-Wolf Knight (Brigand Rider Sword by Zoramine; temp, plan to replace this one with a different design)
+Barbarian (Brigand Rider M/F, Sword/Axe by ZoramineFae)
+Marauder (Berserker Rider M/F, Sword/Lance/Axe by ZoramineFae)
+Wolf Knight (Wolf Knight by JaidynReiman; original Wolf by VelvetKitsune and NomadTrooper Sword by Leif)
 
 
 #### Magic Extends Animations
