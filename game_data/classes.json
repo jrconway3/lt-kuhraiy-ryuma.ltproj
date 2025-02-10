@@ -5630,8 +5630,233 @@
             0,
             0
         ],
-        "map_sprite_nid": "Soldier (M) FE10-Style Lance {flasuban}-stand",
+        "map_sprite_nid": "Soldier",
         "combat_anim_nid": "Soldier",
+        "fields": []
+    },
+    {
+        "nid": "Sergeant",
+        "name": "Sergeant",
+        "desc": "",
+        "tier": 1,
+        "movement_group": "Pirates",
+        "promotes_from": "Soldier",
+        "turns_into": [],
+        "tags": [
+            "LightArmor",
+            "Queiza"
+        ],
+        "max_level": 40,
+        "bases": {
+            "LCK": 7,
+            "RES": 5,
+            "CON": 10,
+            "MOV": 6,
+            "STR": 10,
+            "HP": 27,
+            "MAG": 5,
+            "SKL": 8,
+            "SPD": 8,
+            "DEF": 12,
+            "MP": 0
+        },
+        "growths": {
+            "LCK": 30,
+            "RES": 30,
+            "CON": 0,
+            "MOV": 0,
+            "STR": 50,
+            "HP": 70,
+            "MAG": 30,
+            "SKL": 40,
+            "SPD": 35,
+            "DEF": 40,
+            "MP": 0
+        },
+        "growth_bonus": {
+            "LCK": 0,
+            "RES": 0,
+            "CON": 0,
+            "MOV": 0,
+            "STR": 0,
+            "HP": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
+            "MP": 0
+        },
+        "promotion": {
+            "LCK": 0,
+            "RES": 0,
+            "CON": 0,
+            "MOV": 0,
+            "STR": 0,
+            "HP": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
+            "MP": 0
+        },
+        "max_stats": {
+            "LCK": 40,
+            "RES": 40,
+            "CON": 15,
+            "MOV": 15,
+            "STR": 40,
+            "HP": 80,
+            "MAG": 40,
+            "SKL": 40,
+            "SPD": 40,
+            "DEF": 40,
+            "MP": 40
+        },
+        "learned_skills": [],
+        "wexp_gain": {
+            "Sword": [
+                true,
+                1,
+                251
+            ],
+            "Dagger": [
+                false,
+                0,
+                null
+            ],
+            "Lance": [
+                true,
+                31,
+                251
+            ],
+            "Axe": [
+                false,
+                0,
+                251
+            ],
+            "Bow": [
+                false,
+                0,
+                251
+            ],
+            "Solus": [
+                false,
+                0,
+                251
+            ],
+            "Lunis": [
+                false,
+                0,
+                251
+            ],
+            "Ignis": [
+                false,
+                0,
+                null
+            ],
+            "Ventus": [
+                false,
+                0,
+                null
+            ],
+            "Fulgus": [
+                false,
+                0,
+                null
+            ],
+            "Tellus": [
+                false,
+                0,
+                251
+            ],
+            "Glacies": [
+                false,
+                0,
+                null
+            ],
+            "Aquis": [
+                false,
+                0,
+                null
+            ],
+            "Claw": [
+                false,
+                0,
+                null
+            ],
+            "Staff": [
+                false,
+                0,
+                251
+            ],
+            "Armor": [
+                false,
+                0,
+                null
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ],
+            "Valuables": [
+                false,
+                0,
+                null
+            ],
+            "Light": [
+                false,
+                0,
+                251
+            ],
+            "Dark": [
+                false,
+                0,
+                251
+            ],
+            "Earth": [
+                false,
+                0,
+                251
+            ],
+            "Water": [
+                false,
+                0,
+                null
+            ],
+            "New_Weapon_Type_2": [
+                false,
+                0,
+                null
+            ],
+            "New Weapon Type_3": [
+                false,
+                0,
+                null
+            ],
+            "Anima": [
+                false,
+                0,
+                251
+            ],
+            "Ice": [
+                false,
+                0,
+                null
+            ],
+            "New_Weapon_Type_3": [
+                false,
+                0,
+                null
+            ]
+        },
+        "icon_nid": "Sergeant (F) {Spud, Rasdel, Pushwall}",
+        "icon_index": [
+            0,
+            0
+        ],
+        "map_sprite_nid": "Sergeant",
+        "combat_anim_nid": "Captain",
         "fields": []
     },
     {
@@ -5855,7 +6080,7 @@
             0,
             0
         ],
-        "map_sprite_nid": "Halberdier (M) 1.0 {Unknown}-stand",
+        "map_sprite_nid": "Captain",
         "combat_anim_nid": "Captain",
         "fields": []
     },
@@ -8846,7 +9071,7 @@
             0,
             0
         ],
-        "map_sprite_nid": "Mage (F) Thief {FEGirls}-stand",
+        "map_sprite_nid": "Streetrat",
         "combat_anim_nid": "Mage",
         "fields": []
     },
@@ -9046,7 +9271,7 @@
             0,
             0
         ],
-        "map_sprite_nid": "Mage (M) Fe4-Style Thunder Idle {Ash3wl, L95, Dominus_Vobiscum}-stand",
+        "map_sprite_nid": "Apprentice",
         "combat_anim_nid": "Mage",
         "fields": []
     },
@@ -9243,7 +9468,7 @@
             0,
             0
         ],
-        "map_sprite_nid": "Sage (M) Battle Sage Sword {L95}-stand",
+        "map_sprite_nid": "Sage",
         "combat_anim_nid": "Sage",
         "fields": []
     },
@@ -10258,7 +10483,7 @@
             0,
             0
         ],
-        "map_sprite_nid": "Brigand (M) Wolf Rider Axe {Zoramine}-stand",
+        "map_sprite_nid": "Barbarian",
         "combat_anim_nid": "Brigand",
         "fields": []
     },
@@ -10460,7 +10685,7 @@
             0,
             0
         ],
-        "map_sprite_nid": "Berserker (M) Axe Wolf Rider {Zoramine}-stand",
+        "map_sprite_nid": "MarauderAxe",
         "combat_anim_nid": "Berserker",
         "fields": []
     },
@@ -13555,9 +13780,9 @@
         "movement_group": "Regular",
         "promotes_from": null,
         "turns_into": [
+            "Guard",
             "Cavalry",
-            "WindRider",
-            "Guard"
+            "WindRider"
         ],
         "tags": [],
         "max_level": 10,

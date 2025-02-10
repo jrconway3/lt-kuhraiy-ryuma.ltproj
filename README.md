@@ -359,9 +359,13 @@ Dire Wolf (Velvet Kitsune)
 
 #### Map Sprite Animations
 
+Base Map Sprites From GBA Fire Emblem Games by Intelligent Systems
+
 ##### Lords
 Lord (Mage Lord-M by TyTheBulb, Elven Ears by JaidynReiman)
 Lady (Mage Lord-F by TyTheBulb, Elven Ears by JaidynReiman)
+Lieutenant (Lord-F Elf by JaidynReiman)
+Heiress (Lord-F Priestess Sword by blood)
 
 ##### Pirates, Brigands, Berserkers
 
@@ -396,11 +400,21 @@ Militia (Militia by Alusq, Female edit by Knabepicer)
 Soldier (FE10 Style Soldier by Flasuban)
 Sergeant-M (Sergeant M by Spud)
 Sergeant-F (Sargeant F By ドラドラゴ, aka Dora Drago)
+Captain-M (Halberdier-M 1.0 by Unknown)
+Captain-F (Great Lord Ephraim-Infantry Lance by VelvetKitsune, Snewping, HGS)
 
 ##### Armours
 
 
+##### Nature Mages
+Street Rat-F (Mage-F Thief by FEGirls)
+Apprentice (FE4 Thunder Mage M/F by Ash3wl, L95, Dominus_Vobiscum)
+Sage-M (Battle Sage M Sword by L95)
+Sage-F (Battle Sage F Sword by Leif, L95)
+???? (Battle Sage F Sword by Topazlight)
+
 ##### Holy Mages
+Priestess (Monk-F Veil by Tatuta_Chang)
 War Monk (War Monk, Axe M by DerTheVaporean)
 War Nun (War Cleric, Axe F by DerTheVaporean)
 War Monk (War Monk, Staff M by Author_Pendragon)
