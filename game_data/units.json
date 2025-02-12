@@ -159,6 +159,10 @@
             [
                 "Home",
                 "Trade City Oestridel"
+            ],
+            [
+                "Full",
+                "Miriam Pearl Renald"
             ]
         ]
     },
@@ -617,7 +621,7 @@
         },
         "alternate_classes": [],
         "portrait_nid": "Pent (Noble) {Plant_Academy} [F2E]",
-        "affinity": "Fire",
+        "affinity": "Thunder",
         "fields": [
             [
                 "New Key",
@@ -762,7 +766,7 @@
         },
         "alternate_classes": [],
         "portrait_nid": "Zwelix OC 1",
-        "affinity": "Light",
+        "affinity": "Night",
         "fields": []
     },
     {
@@ -897,7 +901,7 @@
         },
         "alternate_classes": [],
         "portrait_nid": "ZoramineFae_6",
-        "affinity": "Ice",
+        "affinity": "Earth",
         "fields": []
     },
     {
@@ -1038,7 +1042,142 @@
         },
         "alternate_classes": [],
         "portrait_nid": "Shayala",
-        "affinity": "Life",
+        "affinity": "Anima",
+        "fields": []
+    },
+    {
+        "nid": "Urso",
+        "name": "Urso",
+        "desc": "A Guardsman of Oestridel and scion of the Schenak merchant family.",
+        "variant": "",
+        "level": 8,
+        "klass": "Guard",
+        "tags": [],
+        "bases": {
+            "LCK": 0,
+            "RES": 0,
+            "CON": 0,
+            "MOV": 0,
+            "STR": 0,
+            "HP": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
+            "MP": 0
+        },
+        "growths": {
+            "LCK": 0,
+            "RES": 0,
+            "CON": 0,
+            "MOV": 0,
+            "STR": 0,
+            "HP": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
+            "MP": 0
+        },
+        "stat_cap_modifiers": {
+            "RES": 0,
+            "LCK": 0,
+            "CON": 0,
+            "MOV": 0,
+            "STR": 0,
+            "HP": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
+            "MP": 0
+        },
+        "starting_items": [
+            [
+                "Steel_Axe",
+                false
+            ],
+            [
+                "Javelin",
+                false
+            ],
+            [
+                "Vulnerary",
+                false
+            ]
+        ],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0,
+                251
+            ],
+            "Lance": [
+                false,
+                31,
+                251
+            ],
+            "Axe": [
+                true,
+                71,
+                251
+            ],
+            "Bow": [
+                false,
+                0,
+                251
+            ],
+            "Staff": [
+                false,
+                0,
+                251
+            ],
+            "Light": [
+                false,
+                0,
+                251
+            ],
+            "Anima": [
+                false,
+                0,
+                251
+            ],
+            "Dark": [
+                false,
+                0,
+                251
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ],
+            "Earth": [
+                false,
+                0,
+                251
+            ],
+            "Solus": [
+                false,
+                0,
+                251
+            ],
+            "Lunis": [
+                false,
+                0,
+                251
+            ],
+            "Tellus": [
+                false,
+                0,
+                251
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "{MeatofJustice} F2E OC 18",
+        "affinity": "Stone",
         "fields": []
     },
     {
@@ -1313,7 +1452,7 @@
         },
         "alternate_classes": [],
         "portrait_nid": "Marisa (Black skin) {JeyTheCount} [F2E]",
-        "affinity": "Night",
+        "affinity": "Dark",
         "fields": []
     },
     {
@@ -1448,7 +1587,7 @@
         },
         "alternate_classes": [],
         "portrait_nid": "Zoisite_Midir",
-        "affinity": "Stone",
+        "affinity": "Thunder",
         "fields": []
     },
     {
@@ -1583,7 +1722,7 @@
         },
         "alternate_classes": [],
         "portrait_nid": "RandomWizard F2E 18",
-        "affinity": "Ice",
+        "affinity": "Wind",
         "fields": []
     },
     {
@@ -2400,7 +2539,7 @@
             ]
         },
         "alternate_classes": [],
-        "portrait_nid": "{MeatofJustice} F2E OC 18",
+        "portrait_nid": "{MeatofJustice} F2E OC 4",
         "affinity": "Fire",
         "fields": []
     },
@@ -2797,7 +2936,7 @@
             ]
         },
         "alternate_classes": [],
-        "portrait_nid": "{MeatofJustice} F2E OC 18",
+        "portrait_nid": "{monk-han} [F2E] OC Composed Shaman (Version 4) ",
         "affinity": "Fire",
         "fields": []
     },
@@ -3343,7 +3482,7 @@
         "desc": "A sage-in-training from Jehanna. He reveres his teacher, Saleh.",
         "variant": "",
         "level": 1,
-        "klass": "Citizen",
+        "klass": "Eofol",
         "tags": [],
         "bases": {
             "LCK": 5,
@@ -3749,7 +3888,7 @@
         "desc": "Miriam's former retainer promoted to Captain of the guard. Miriam looks up to her as a mentor. She has a young son, Josif, and a stepdaughter, Thanya.",
         "variant": "Serena",
         "level": 25,
-        "klass": "Captain",
+        "klass": "Soldier",
         "tags": [],
         "bases": {
             "LCK": 0,
@@ -4883,7 +5022,7 @@
         "desc": "Admiral Alder's widow, she has gone mad from the grief of the loss of her family. Lady Jezolda's twin sister.",
         "variant": "Female",
         "level": 11,
-        "klass": "Water_Lady",
+        "klass": "WaterLady",
         "tags": [],
         "bases": {
             "LCK": 0,

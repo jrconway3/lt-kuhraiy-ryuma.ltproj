@@ -441,7 +441,7 @@
     {
         "nid": "Swimming",
         "name": "Queiza Swim",
-        "desc": "+2 Movement in Water",
+        "desc": "+2 Movement, +20 Hit/Avd, +5 Spd While in Water",
         "icon_nid": "Skills",
         "icon_index": [
             0,
@@ -449,8 +449,29 @@
         ],
         "components": [
             [
-                "movement_type",
-                "Queiza"
+                "hidden",
+                null
+            ],
+            [
+                "condition",
+                "('Lykon' in unit.tags or 'Gjin' in unit.tags) and unit.wexp['Sword'] < 81"
+            ],
+            [
+                "hit",
+                20
+            ],
+            [
+                "avoid",
+                20
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "SPD",
+                        5
+                    ]
+                ]
             ]
         ]
     },

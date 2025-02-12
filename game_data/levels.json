@@ -7,9 +7,9 @@
         "party": "Miriam",
         "music": {},
         "objective": {
-            "simple": "",
-            "win": "",
-            "loss": ""
+            "simple": "Explore",
+            "win": "N/A",
+            "loss": "N/A"
         },
         "roam": true,
         "roam_unit": "Miriam",
@@ -31,9 +31,9 @@
             "player_phase": "Bumming Around in Pixeltown_Looping"
         },
         "objective": {
-            "simple": "Free Roam",
-            "win": "",
-            "loss": ""
+            "simple": "Explore",
+            "win": "N/A",
+            "loss": "N/A"
         },
         "roam": true,
         "roam_unit": "Miriam",
@@ -43,9 +43,9 @@
         "units": [
             {
                 "nid": "101",
-                "variant": "Child",
+                "variant": "Girl",
                 "level": 1,
-                "klass": "Citizen",
+                "klass": "Lykon",
                 "faction": "Masa",
                 "starting_items": [],
                 "starting_skills": [],
@@ -55,16 +55,16 @@
                 "ai_group": "",
                 "starting_position": [
                     37,
-                    11
+                    15
                 ],
                 "starting_traveler": null,
                 "generic": true
             },
             {
                 "nid": "102",
-                "variant": "Child",
+                "variant": "Boy",
                 "level": 1,
-                "klass": "Citizen",
+                "klass": "Lykon",
                 "faction": "Masa",
                 "starting_items": [],
                 "starting_skills": [],
@@ -81,9 +81,9 @@
             },
             {
                 "nid": "103",
-                "variant": "Child",
+                "variant": "Woman",
                 "level": 1,
-                "klass": "Citizen",
+                "klass": "Lykon",
                 "faction": "Masa",
                 "starting_items": [],
                 "starting_skills": [],
@@ -92,8 +92,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    15,
-                    16
+                    8,
+                    19
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -102,7 +102,7 @@
                 "nid": "104",
                 "variant": "",
                 "level": 1,
-                "klass": "Citizen",
+                "klass": "Lykon",
                 "faction": "Masa",
                 "starting_items": [],
                 "starting_skills": [],
@@ -119,9 +119,9 @@
             },
             {
                 "nid": "105",
-                "variant": "",
+                "variant": "Woman",
                 "level": 1,
-                "klass": "Citizen",
+                "klass": "Lykon",
                 "faction": "Masa",
                 "starting_items": [],
                 "starting_skills": [],
@@ -131,7 +131,7 @@
                 "ai_group": "",
                 "starting_position": [
                     38,
-                    16
+                    15
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -140,7 +140,7 @@
                 "nid": "106",
                 "variant": "",
                 "level": 1,
-                "klass": "Citizen",
+                "klass": "Lykon",
                 "faction": "Masa",
                 "starting_items": [],
                 "starting_skills": [],
@@ -148,7 +148,10 @@
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": null,
+                "starting_position": [
+                    7,
+                    20
+                ],
                 "starting_traveler": null,
                 "generic": true
             },
@@ -158,7 +161,10 @@
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": null,
+                "starting_position": [
+                    24,
+                    8
+                ],
                 "starting_traveler": null,
                 "generic": false
             }
@@ -223,7 +229,12 @@
                 "positions": {}
             }
         ],
-        "ai_groups": []
+        "ai_groups": [
+            {
+                "nid": "",
+                "trigger_threshold": 1
+            }
+        ]
     },
     {
         "nid": "0",
@@ -256,7 +267,10 @@
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": null,
+                "starting_position": [
+                    2,
+                    26
+                ],
                 "starting_traveler": null,
                 "generic": false
             },
@@ -266,13 +280,215 @@
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
+                "starting_position": [
+                    10,
+                    26
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Leiland",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
                 "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Bella",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Amaya",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Magne",
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    10,
+                    3
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "101",
+                "variant": null,
+                "level": 1,
+                "klass": "Mercenary",
+                "faction": "Siegwang",
+                "starting_items": [
+                    [
+                        "Slim_Sword",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    11,
+                    6
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "102",
+                "variant": null,
+                "level": 1,
+                "klass": "Soldier",
+                "faction": "Siegwang",
+                "starting_items": [
+                    [
+                        "Slim_Sword",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    9,
+                    7
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "103",
+                "variant": null,
+                "level": 1,
+                "klass": "Fighter",
+                "faction": "Masa",
+                "starting_items": [
+                    [
+                        "Slim_Sword",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy2",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    6,
+                    11
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "104",
+                "variant": null,
+                "level": 1,
+                "klass": "Hunter",
+                "faction": "Masa",
+                "starting_items": [
+                    [
+                        "Slim_Sword",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy2",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    4,
+                    11
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "105",
+                "variant": null,
+                "level": 1,
+                "klass": "Barbarian",
+                "faction": "Masa",
+                "starting_items": [
+                    [
+                        "Slim_Sword",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy2",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    5,
+                    10
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Urso",
+                "team": "npc",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    1,
+                    11
+                ],
                 "starting_traveler": null,
                 "generic": false
             }
         ],
         "regions": [],
-        "unit_groups": [],
+        "unit_groups": [
+            {
+                "nid": "LeilandArmy",
+                "units": [
+                    "Leiland",
+                    "Bella",
+                    "Amaya"
+                ],
+                "positions": {
+                    "Leiland": [
+                        18,
+                        8
+                    ],
+                    "Bella": [
+                        19,
+                        7
+                    ],
+                    "Amaya": [
+                        19,
+                        9
+                    ]
+                }
+            }
+        ],
         "ai_groups": []
     },
     {
@@ -1957,7 +2173,7 @@
                 "nid": "Placeholder",
                 "variant": null,
                 "level": 1,
-                "klass": "Citizen",
+                "klass": "Eofol",
                 "faction": "Siegwang",
                 "starting_items": [],
                 "starting_skills": [],
