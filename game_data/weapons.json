@@ -3,6 +3,7 @@
         "nid": "Sword",
         "name": "Sword",
         "force_melee_anim": true,
+        "hide_from_display": false,
         "rank_bonus": [],
         "advantage": [
             {
@@ -42,6 +43,7 @@
         "nid": "Dagger",
         "name": "Dagger",
         "force_melee_anim": true,
+        "hide_from_display": false,
         "rank_bonus": [],
         "advantage": [],
         "disadvantage": [],
@@ -55,6 +57,7 @@
         "nid": "Lance",
         "name": "Lance",
         "force_melee_anim": true,
+        "hide_from_display": false,
         "rank_bonus": [],
         "advantage": [
             {
@@ -94,6 +97,7 @@
         "nid": "Axe",
         "name": "Axe",
         "force_melee_anim": true,
+        "hide_from_display": false,
         "rank_bonus": [],
         "advantage": [
             {
@@ -133,6 +137,7 @@
         "nid": "Bow",
         "name": "Bow",
         "force_melee_anim": false,
+        "hide_from_display": false,
         "rank_bonus": [],
         "advantage": [],
         "disadvantage": [],
@@ -146,6 +151,7 @@
         "nid": "Solus",
         "name": "Solus",
         "force_melee_anim": false,
+        "hide_from_display": false,
         "rank_bonus": [],
         "advantage": [
             {
@@ -185,6 +191,7 @@
         "nid": "Lunis",
         "name": "Lunis",
         "force_melee_anim": false,
+        "hide_from_display": false,
         "rank_bonus": [],
         "advantage": [
             {
@@ -224,6 +231,7 @@
         "nid": "Ignis",
         "name": "Ignis",
         "force_melee_anim": false,
+        "hide_from_display": false,
         "rank_bonus": [],
         "advantage": [],
         "disadvantage": [],
@@ -237,6 +245,7 @@
         "nid": "Ventus",
         "name": "Ventus",
         "force_melee_anim": false,
+        "hide_from_display": false,
         "rank_bonus": [],
         "advantage": [],
         "disadvantage": [],
@@ -250,6 +259,7 @@
         "nid": "Fulgus",
         "name": "Fulgus",
         "force_melee_anim": false,
+        "hide_from_display": false,
         "rank_bonus": [],
         "advantage": [],
         "disadvantage": [],
@@ -263,6 +273,7 @@
         "nid": "Tellus",
         "name": "Tellus",
         "force_melee_anim": false,
+        "hide_from_display": false,
         "rank_bonus": [],
         "advantage": [
             {
@@ -302,6 +313,7 @@
         "nid": "Glacies",
         "name": "Glacies",
         "force_melee_anim": false,
+        "hide_from_display": false,
         "rank_bonus": [],
         "advantage": [],
         "disadvantage": [],
@@ -315,6 +327,7 @@
         "nid": "Aquis",
         "name": "Aquis",
         "force_melee_anim": false,
+        "hide_from_display": false,
         "rank_bonus": [],
         "advantage": [],
         "disadvantage": [],
@@ -328,6 +341,7 @@
         "nid": "Claw",
         "name": "Claw",
         "force_melee_anim": true,
+        "hide_from_display": false,
         "rank_bonus": [],
         "advantage": [],
         "disadvantage": [],
@@ -338,22 +352,38 @@
         ]
     },
     {
-        "nid": "Staff",
-        "name": "Staff",
+        "nid": "Runic",
+        "name": "Runic",
         "force_melee_anim": false,
+        "hide_from_display": false,
         "rank_bonus": [],
         "advantage": [],
         "disadvantage": [],
-        "icon_nid": "wexp_icons",
+        "icon_nid": "wexp_expanded",
         "icon_index": [
             0,
             4
         ]
     },
     {
+        "nid": "Shield",
+        "name": "Shield",
+        "force_melee_anim": false,
+        "hide_from_display": false,
+        "rank_bonus": [],
+        "advantage": [],
+        "disadvantage": [],
+        "icon_nid": "wexp_expanded",
+        "icon_index": [
+            0,
+            5
+        ]
+    },
+    {
         "nid": "Armor",
         "name": "Armor",
         "force_melee_anim": false,
+        "hide_from_display": false,
         "rank_bonus": [],
         "advantage": [],
         "disadvantage": [],
@@ -367,6 +397,7 @@
         "nid": "Default",
         "name": "Consumable",
         "force_melee_anim": false,
+        "hide_from_display": false,
         "rank_bonus": [],
         "advantage": [],
         "disadvantage": [],
@@ -380,6 +411,7 @@
         "nid": "Valuables",
         "name": "Valuables",
         "force_melee_anim": false,
+        "hide_from_display": false,
         "rank_bonus": [],
         "advantage": [],
         "disadvantage": [],

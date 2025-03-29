@@ -1,73 +1,192 @@
 [
     {
-        "nid": "Miriam",
-        "name": "Miriam",
-        "title": "Miriam Pearl Renald",
+        "nid": "Svetlanya",
+        "name": "Svetlanya",
+        "title": "Svetlanya Pearl Renald",
         "category": "Character",
         "text": "It is my most esteemed pleasure to be able to write about all my findings. Alas, even I know not much about myself... mother still refuses to answer my questions. Where did I come from? How did I come to arrive in a Lykon house? What will happen if mother... were to...\n\nNo, I mustn\u2019t think it. I will prove myself. I won\u2019t be forgotten."
     },
     {
-        "nid": "Miriam2",
-        "name": "Miriam (2)",
-        "title": "Miriam Henrykka Alder",
+        "nid": "Svetlanya2",
+        "name": "Svetlanya (2)",
+        "title": "Svetlanya Henrykka Aldhar",
         "category": "Character",
-        "text": "Miriam's birth name was Miriam Henrykka Alder, named after both of her parents, Admiral Henry Alder and Lady Mariya Alder.{br}\nShe was a miracle child, as it was believed Lady Mariya would be incapable of having additional children after her son, Dalton. However, after the Tragedy of Muyre, Miriam was given up for adoption, after which point she was taken in by Ambryl Renald."
+        "text": "Svetlanya Henrykka Aldhar... that is my true name. Why did mo--no, Lady Ambryl... change my name? Why didn\u2019t she tell me anything about my past? My poor mother, sweet, dear mother, Mariya... I will find some way to save you, I swear it!"
     },
     {
-        "nid": "Miriam3",
-        "name": "Miriam (3)",
-        "title": "Miriam: Lanquiz",
+        "nid": "Svetlanya3",
+        "name": "Svetlanya (3)",
+        "title": "Svetlanya: Lanquiz",
         "category": "Character",
-        "text": "Addendum:\nMiriam is actually not a proper Queiza. Rather, she is of the Lanquiz, a sub-race of the Queiza, also known as Water Dragons. The Lanquiz, fearful of the world, sealed away their own power for over a thousand years.{br}\nDue to being born outside of the Kingdom of Omyrus, however, Miriam escaped from the magical seal that would have been placed on her, allowing her to be born in her people's true form."
+        "text": "I am... at a loss for words. How can I possibly, truly... be a dragon? What... is a dragon? Is this why I keep finding myself being hunted? Every time I find more answers, only more questions arise along therewith!\n\nYet... it all makes sense, does it not? Why Lady Ambryl kept this secret from me... why she made me cut off my horns... She was ripping away that which I was... out of some fear...\n\nWas I afraid... of myself?!"
+    },
+    {
+        "nid": "Kasuto",
+        "name": "Kasuto",
+        "title": "Sister Kasuto",
+        "category": "Character",
+        "text": "Sister Kasuto always is a lovely sight to behold. Such beauty hidden behind her veil and wise words beyond her years. Long has she been a beacon of hope for the lost souls of our fair city. Perhaps next she leaves on a pilgrimage, might I join her?"
+    },
+    {
+        "nid": "Kasuto2",
+        "name": "Kasuto",
+        "title": "Sister Kasuto Kisaragi",
+        "category": "Character",
+        "text": "Kasuto had a sister! They were separated at a young age and now they have found each other again! I am truly greatful I stumbled upon that young girl... Maybe some day I\u2019ll be able to reunite with mine own family, too."
+    },
+    {
+        "nid": "Kasuto3",
+        "name": "Kasuto3",
+        "title": "Kasuto Zenryu Kisaragi",
+        "category": "Character",
+        "text": "Sister Kasuto... was a spy all along! Was she... ever a loyal member of the church, or was that just her cover? The Kuhraiy... what are they? What is even going on here? Who can I even trust anymore?!"
+    },
+    {
+        "nid": "Kasuto4",
+        "name": "Kasuto",
+        "title": "Kasuto Zenryu Kisaragi",
+        "category": "Character",
+        "text": "I may have misjudged Kasuto. She continues to be a beacon of hope I always saw her to be. A spy she may have been, she is still a loyal follower of Mother Gaeya. She believed she was doing the right thing when she kidnapped me. I understand now why. Still, it was wrong all the same. Maybe I can still get through to her."
+    },
+    {
+        "nid": "Kasuto5",
+        "name": "Kasuto",
+        "title": "Kasuto Zenryu Kisaragi",
+        "category": "Character",
+        "text": "Kasuto is a Nordak as well... not only that, she is Airyukin! And I was a fool all along. Kasuto is much a victim as I was. I truly am sorry I doubted you, Sister Kasuto. Never shall I question your faith again.\n\nQuestion my faith, alas, I shall... Something isn\u2019t adding up. Kasuto was following the true faith of Gaeya, yet what about I? Was what I believed all a lie?"
+    },
+    {
+        "nid": "Serena",
+        "name": "Serena",
+        "title": "Serena Schahl",
+        "category": "Character",
+        "text": "Lady Serena has long been my mentor! She has taught me much in the way of swordplay, how to defend myself with blade and magic on land and in water, and how best to utilize my powers. Alas, she has gone up in the world, and soon shall she depart as my retainer and guardian. I shall cherish the time we have left!"
     },
     {
         "nid": "Leiland",
         "name": "Leiland",
         "title": "Leiland Renald",
         "category": "Character",
-        "text": "A nobleman of House Renald of Oestridel,  next in line to rule the demesne. Although they are not siblings by birth, Leiland sees Miriam as close as any birth sibling. He is dutiful to his people.{br}\nThrough his mother Ambryl, he is also a prince of the Kingdom, though distant. Should anything happen to Crown Princess Shayala, he is within the line of succession."
+        "text": "Leiland Renald, heir apparent to House Renald and future lord of Oestridel. My brother is truly a wonderful man, doing all he can for our people. I care not he\u2019s not of my blood, he\u2019s my big brother all the same, and I shall always remain by his side to support him!\n\nUnlike I, of course, he also inherited title of Prince of the Kingdom of Masa, albeit of a lower standing. Although unlikely due to his distance from the line of succession, he could potentially even be king one day! What a lovely fantasy..."
     },
     {
         "nid": "Amaya",
         "name": "Amaya",
         "title": "Amaya Yurias Lyudam",
         "category": "Character",
-        "text": "A former noblewoman of the Kingdom of Omyrus. Having been taken in by General Jethro Renald as a young child, she chose to enlist in the Knights.{br}\nYorwath desired her to be his daughter Miriam's retainer due to them both being of the Queizan people."
+        "text": "Amaya Yurias Lyudam? Such a noble name! Truly I love dearest Amaya already. A former noblewoman of Omyrus... why, I should be serving her, not the other way. Why would she give up her title?\n\nI have already lay witness to her swordplay, how remarkable! I do indeed yet still have much to learn. I look forward to having her as my new retainer."
     },
     {
         "nid": "Amaya2",
         "name": "Amaya (2)",
         "title": "Amaya: Truth Revealed",
         "category": "Character",
-        "text": "Addendum:\nAmaya "
+        "text": "Oh dearest me, how can this be? Poor Amaya... cannot swim? How is such possible? She and I are brethren, are we not? Father will not like this, but he worries too much... I shall bide my time to try and get behind such folly.\n\nAmaya\u2019s fears are very real, yet irrational... something happened to the poor girl in the past. Mayhaps I can help heal the wounds of her past..."
+    },
+    {
+        "nid": "Amaya3",
+        "name": "Amaya",
+        "title": "Amaya's Hatred",
+        "category": "Character",
+        "text": "So, Amaya\u2019s family were once connected to mine own... and she still bears a grudge against my blood brother. I yet fear the worst, we have grown so close, and even now I can tell she truly loved him... that is why it hurts so much, does it not?\n\nLady Amaya, how can I possibly make things right?"
+    },
+    {
+        "nid": "Meilyn",
+        "name": "Red",
+        "title": "Red-Haired Girl",
+        "category": "Character",
+        "text": "I met a girl scrambling for food. For some reason she took a liking to me. Alas, I was unable to catch her name. She wore a thick cloak, but her deep red hair was all too evident. Never before have I seen such a vibrant red... except with...\n\nRed hair is seen as a bad omen. Often have I heard concerns over our own King Consort, Lord Travian. But today all I saw was a young girl in need of help."
+    },
+    {
+        "nid": "Meilyn2",
+        "name": "Meilyn",
+        "title": "Meilyn",
+        "category": "Character",
+        "text": "That girl showed up again! Was she following me? She traveled all the way from Oestridel. How did she know where to look?\n\nI finally got a name. Meilyn! Such a cute name. She looks to be only seventeen... still young, yet not a child. She\u2019s already starting to bloom I can see. I wonder why she keeps hiding..."
+    },
+    {
+        "nid": "Meilyn3",
+        "name": "Meilyn",
+        "title": "Meilyn: Addendum",
+        "category": "Character",
+        "text": "Meilyn was attacked by a strange group, then we lost track of one another. I pray deeply to Mother Gaeya that she made it out safely! She\u2019s incredibly skilled and acrobatic. I daresay I could never pull off such feats in a hundred years! At least on land... in the water I would swim circles around her. I suppose we all have our own unique skills, don\u2019t we?\n\nShe\u2019s clearly not degraded... yet what is she? She\u2019s hiding something. I have to find out what happened to her, yet I know not where to begin looking."
+    },
+    {
+        "nid": "Relm",
+        "name": "Relm",
+        "title": "Relm Meilyn Kisaragi",
+        "category": "Character",
+        "text": "Relm Meilyn Kisaragi... that\u2019s her full name! She\u2019s... Sister Kasuto\u2019s sister! I didn\u2019t even know Kasuto had a sister! Well, she did say that she lost her family, not that they were dead... so all this time Relm is who she was looking for!\n\nIts so incredibly lovely. Relm is going to be living with Kasuto now, so I shall have to give them a warm welcome."
+    },
+    {
+        "nid": "Relm2",
+        "name": "Relm",
+        "title": "Relm: Addendum",
+        "category": "Character",
+        "text": "Relm is apparently called... a Nordak. That is what it is. What is a Nordak? I read such in my research references to such a people, but the information is vague and unclear. Relm has begun to wear a different style of outfit, but she\u2019s still continuing to cover herself up... just like Sister Kasuto as well... and I daresay she\u2019s not trying to make Relm a priestess, too. Nay, they are hiding something. That is the truth of it. Considering mine own... perhaps I cannot blame them."
+    },
+    {
+        "nid": "HouseRenald",
+        "name": "Renald",
+        "title": "House Renald",
+        "category": "Family",
+        "text": "House Renald is the name belonging to my adoptive family. Times have I see side eyes glancing at me in shock upon seeing me, though it is no secret I belong not by blood. I do nothing to hide my Queizan heritage, after all. The cool waters remain where I call home.\n\nYet the people of these lands remain mostly friendly even to one such as I. I do all I can to support my House and bring honor to the Renald family. House Renald is indeed a branch of the tribes that first formed the Kingdom in the ancient past, and therefore, all are distant relatives.\n\nExcept for I. May I not besmirch the good name of House Renald."
     },
     {
         "nid": "Alphar",
         "name": "Alphar",
         "title": "Alphar",
         "category": "Race",
-        "text": "Alphar are the primary sentient race of the planet, coming in all shapes and sizes. Alphar bear animalistic attributes of different types, though some have lost such attributes. This is known as the degradation."
-    },
-    {
-        "nid": "Dragon",
-        "name": "Dragon",
-        "title": "Dragon",
-        "category": "Race",
-        "text": "Mysterious beings who only exist in myth. It is said that Dragons once nearly destroyed the world during the ancient Daemon Wars. It is not known what has become of them since, but some fear their inevitable return."
-    },
-    {
-        "nid": "Dragon2",
-        "name": "Dragon (2)",
-        "title": "Dragon (2)",
-        "category": "Race",
-        "text": "Addendum:\nDragon is a term used to refer to any Drake-like being. These beings have drake-like tails, horns, and scaled skin. In truth, it is not the most descriptive term, as it has been used as a means of ostracizing specific races of Alphar who are seen as undesirable."
+        "text": "All the known peoples of the world are called Alphar... or Alves. While we may differ in many ways, we\u2019re all still tied together as Alphar.\n\nIt may be hard to see it sometimes. Relations between different Alphar races are incredibly rare, and the reasons are obvious. Our mating habits are especially notable. Lykons mate as soon as they are able, and for life. Queiza, however, take far longer to be ready for starting families. How can such people\u2019s be compatible with one another?\n\nSuch relations may occur, but not often. How have things come to this, I wonder? Is it just how each race\u2019s habits formed over time... or is it something far deeper? I long to learn the truth."
     },
     {
         "nid": "Queiza",
         "name": "Queiza",
         "title": "Queiza",
         "category": "Race",
-        "text": "Queiza are an aquatic race of Alphar who primarily live in and around Lake Okeanos, the largest freshwater lake in the world. Although their home primarily resides in Omyrus or at the bottom of Okeanos, some Queiza have come to live in the Kingdom of Masa. Queiza have a close connection with water, but have a strong weakness to lightning."
+        "text": "Much yet have I to learn about my own people! The Queiza, they are called, or so I am told. Few numbers resides in the Kingdom of Masa, yet far more than you might expect since the Tragedy of Muyre twenty-four years ago.\n\nAlas, my family is not well-versed in our ways... most of what I have learned came from Serena, yet I discovered much on my own. Naturally, as a people of the water we Queiza can breath underwater, skilled upon land and sea, though moreso sea. All of our equipment is forged to work in the water, even weapons and armor! However, even our physically strongest cannot hope to compare to that of other races. Our true skill lies in our magick, with few Queiza being incapable of wielding powerful magicks.\n\nMost Queiza live in the Kingdom of Omyrus far to the west. However, legends speak of an underwater kingdom of our people in Lake Omyrus! I wonder what that would look like..."
+    },
+    {
+        "nid": "Lykon",
+        "name": "Lykon",
+        "title": "Lykon",
+        "category": "Race",
+        "text": "Alphar who bear wolf-like attributes. Since time immemorial they have made their home all across the Iouna Continent. Their primary home in the present day is the Kingdom of Masa. Lykons are fast, agile, and strong, but have little in the way of physical defenses and are particularly vulnerable to fire."
+    },
+    {
+        "nid": "Chiylo",
+        "name": "Chiylo",
+        "title": "Chiylo",
+        "category": "Race",
+        "text": "Chiylo bear far closer resemblance to one such as I than even my lykon family... and yet, this fair city remains not too welcoming of them. Oh how my heart yearns for their acceptance, yet I understand the turmoil that has transpired.\n\nChiylo\u2019s skin is incredibly hard and tough, even moreso than that of the average Queiza. Perhaps I bear Chiylo parentage within myself? I know not. Yet, I do know they are not quite the same as I. After all, they are land Alphar and incredibly tall. They match the great heights of the lykons but are as resilient as the strongest mythril. However, magick fairs far better against them.\n\nI have studied some of their histories. Not much I have learn of their former continent far to the southeast. They traveled here due to terrible beasts that drove them out of their lands half a millennia ago. Since then, they have adapted to the Fulgus filled lands that they now called Siegwang. Many of their kind can now conduct electricity, something I am also familiar with.\n\nThey can also use their horns to channel their power, though it is weaker compared to other races. Their scaly skin can come in several shades, including tan, red, or green. Their tails are long and thin, easily maneuverable and they often retract them to hide them away.\n\nI have heard not much about their magical prowess, only that few ever become strong mages. Even the women tend to be incredibly strong, moreso than that of any other race I am aware of."
+    },
+    {
+        "nid": "Zabos",
+        "name": "Zabos",
+        "title": "Zabos",
+        "category": "Race",
+        "text": "Zabos... they seem not much different to Lykons at face value, yet they couldn\u2019t be even more different. Their fur and tails are thinner than that of lykons, and they tend to be a lot shorter. They bear a strong resembles to cats, great and small. I suppose perhaps that\u2019s one reason they tend not to get along well with lykons...\n\nZabos men are very rare. The few who do survive die young. It is said that in the ancient days the Zabos men used to be incredible beasts of men, a great lion who protects his family with his incredible strength, stronger than even an average lykon male. Now, they are but as shadow of their former selves.\n\nZabos women live far longer, but bear few children, almost always girls. My dear Yarda is no exception. Their beautiful is bountiful and would do anything to protect their kits. Zabos wield strong magicks within them, especially the women, but unlike my people they have a close relationship with fire and live amidst the distant desert sands."
+    },
+    {
+        "nid": "Merfolk",
+        "name": "Merfolk",
+        "title": "Merfolk",
+        "category": "Race",
+        "text": "Heeheehee... a child called me a Mermaid! Truly, I find it quite adorable. Yet, mer means the sea, right? Live not do our people within the sea, but what if some time in the past, we did? What if one time, the sea was not so salty? Or perhaps, maybe, our ancestors could process the salt and enable us to live on the depths of the ocean floor... how wondrous a thought!\n\nMuch research have I done into this subject. Truly, it is not impossible there are Queiza who yet live out in the sea. Perhaps some day, our people can create medical arts to allow us to travel to its very depths. Our legends speak of an ancient city buried in the depths of the ocean, Atalanta. Why, the Sea of Atalanta is name after those very legends!\n\nOf course, it is easy to confuse. Lake Okeanos is so large one could mistake it for a sea. And long have our people been called Merfolk by theirs regardless, so I care not to correct them. They can call me a Mermaid if they wish... it is not far from the truth, indeed."
+    },
+    {
+        "nid": "Dragon",
+        "name": "Dragon",
+        "title": "Dragon",
+        "category": "Race",
+        "text": "Dragon... why does that word send chills down my spine? Yet, I fear not the legends, but what exactly that would me if proven true...\n\nThey\u2019re nothing but a myth, right? Or might they not be just... some great drake? Is it not possible that is all the rumors transpired to?\n\nThe legends claim Dragons nearly destroyed the world during the ancient Daemon Wars. Alas, all of the information I have found in my research have become fragmented."
+    },
+    {
+        "nid": "Alf",
+        "name": "Alf",
+        "title": "Alf",
+        "category": "Character",
+        "text": "No longer Alphar... they have become something else. Alf are... strange. I know not what better words to use.\n\nIt is easy to differentiate an Alf from an Alphar, for the most part. Alf bear no tails, horns, fur nor scales. They\u2019re just... nothing. What more can I say? Their lifespan drops, their skills vastly decrease, their anima is weaker...\n\nI wish I knew what more to say. What has caused this... degradation to occur? Much research has been done, yet it barely crossed mine own mind. I am not degraded, I know not what it would even feel like!\n\nI wish to help if I can. The Queiza are known as great healers... Might I become one after a century of hard study?"
     },
     {
         "nid": "Queiza_Lanquiz",
@@ -84,18 +203,11 @@
         "text": "Addendum:\nThe Lanquiz are the true form of Queizol, the \"degraded\" version of Queiza. They were once known as Water Dragons.{br}\nTo protect themselves from being hunted, they invented special magicks to prevent themselves from developing their draconic attributes, becoming what was known as the Queizol."
     },
     {
-        "nid": "Lykon",
-        "name": "Lykon",
-        "title": "Lykon",
+        "nid": "Dragon2",
+        "name": "Dragon (2)",
+        "title": "Dragon (2)",
         "category": "Race",
-        "text": "Alphar who bear wolf-like attributes. Since time immemorial they have made their home all across the Iouna Continent. Their primary home in the present day is the Kingdom of Masa. Lykons are fast, agile, and strong, but have little in the way of physical defenses and are particularly vulnerable to fire."
-    },
-    {
-        "nid": "Chiylo",
-        "name": "Chiylo",
-        "title": "Chiylo",
-        "category": "Race",
-        "text": "Alphar who are incredibly strong and tough. They have scaled skin that makes them highly resilient to physical damage. They tend to not have the best resistances to magical attacks. The Chiylo who migrated to Siegwang in the east have adapted to Fulgus, however, giving them some control over and resistance to lightning."
+        "text": "Addendum:\nDragon is a term used to refer to any Drake-like being. These beings have drake-like tails, horns, and scaled skin. In truth, it is not the most descriptive term, as it has been used as a means of ostracizing specific races of Alphar who are seen as undesirable."
     },
     {
         "nid": "Avyon",
@@ -117,6 +229,34 @@
         "title": "Daemon",
         "category": "Race",
         "text": "Powerful beings that have become corrupted by dark magicks. Daemons can take nearly any form and are nigh impossible to kill. Daemons roam the land, seeking to kill or convert any who they can find. These beings hold no minds any longer and only wander aimlessly, lest someone aims to take control of their will."
+    },
+    {
+        "nid": "MasanKnights",
+        "name": "MasanKnights",
+        "title": "MasanKnights",
+        "category": "Organization",
+        "text": ""
+    },
+    {
+        "nid": "Kuhraiy",
+        "name": "Kuhraiy",
+        "title": "Kuhraiy",
+        "category": "Organization",
+        "text": "I have heard word of something strange... Kuhraiy, I am told. This name has cropped up in my research, yet I still know not what it is. Its like a shadow... even still that is what these notes have said. I barely paid in any mind, until I heard that name spoken of again.\n\nPeople truly believe it exists... Yet none know what it is. Yet father is unable to keep these secrets from me. They believe the Kuhraiy are here, somewhere. Why naught can I find more about them? Either they really are that elusive, or someone is covering up all traces."
+    },
+    {
+        "nid": "Kuhraiy2",
+        "name": "Kuhraiy",
+        "title": "Kuhraiy: Addendum",
+        "category": "Organization",
+        "text": "So, these are the Kuhraiy... a massive network of spies spread out around the world. They deal primarily in information, for a price. That is how they make their way in this world.\n\nSister Kasuto... how could you? You were... a spy... all along?! Your entire family are of these... Kuhraiy... including that of dear Relm?\n\nI see... so that's what Nordak are. Now it makes sense. Nordak must be... the ancient form of the Kuhraiy! Most of them seem to be degraded now. Might Kasuto also be..."
+    },
+    {
+        "nid": "Kuhraiy3",
+        "name": "Kuhraiy",
+        "title": "Kuhraiy: Addendum 2",
+        "category": "Organization",
+        "text": "Tis been long, yet finally have I chanced to speak with Kasuto. The Kuhraiy are the remnants of the ancient Nordak people... dragons. In truth, the Kuhraiy were merely their spy network. However, when the ancient Nordak were wiped out, all that remained were the spy network.\n\nNo one in the world accepted them, so they became but a shadow. In turn, becoming as a shadow, most of them degraded. Kasuto and Relm were the first true Nordak born to them in a milennia.\n\nThey used the name Kuhraiy to spread fear of their influence on purpose, but with their many branches, were able to limit the amount of knowledge of them. However, not entirely without fault.\n\nThey settled in these mountains of Masa before even the Kingdom itself did. The scattered tribes lived around the mountains, but not within them, until they were driven to the mountains and eventually, pushed the Kuhraiy out.\n\n'tis a tragic tale, one that shan't end here, either. After all, I too shall suffer from the same fate."
     },
     {
         "nid": "Music",

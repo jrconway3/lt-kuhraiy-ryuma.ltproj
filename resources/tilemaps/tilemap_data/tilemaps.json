@@ -55191,7 +55191,34 @@
                 "nid": "base",
                 "visible": true,
                 "foreground": false,
-                "terrain_grid": {},
+                "terrain_grid": {
+                    "4,15": "Fence",
+                    "4,16": "Fence",
+                    "3,15": "7",
+                    "3,16": "7",
+                    "3,17": "7",
+                    "2,16": "7",
+                    "2,15": "7",
+                    "2,17": "7",
+                    "2,18": "7",
+                    "3,18": "7",
+                    "1,18": "7",
+                    "1,17": "7",
+                    "0,17": "7",
+                    "0,18": "7",
+                    "1,16": "7",
+                    "0,16": "7",
+                    "0,15": "Fence",
+                    "1,15": "Fence",
+                    "3,19": "Fence",
+                    "4,19": "Fence",
+                    "5,19": "Fence",
+                    "2,19": "Fence",
+                    "1,19": "Fence",
+                    "0,19": "Fence",
+                    "4,18": "7",
+                    "4,17": "7"
+                },
                 "sprite_grid": {
                     "7,17": [
                         "roam-oestridel_church",
@@ -55292,10 +55319,10 @@
                         ]
                     ],
                     "3,15": [
-                        "roam-oestridel_church",
+                        "cynon_metropolis",
                         [
-                            3,
-                            15
+                            28,
+                            28
                         ]
                     ],
                     "14,15": [
@@ -55418,10 +55445,10 @@
                         ]
                     ],
                     "3,19": [
-                        "roam-oestridel_church",
+                        "cynon_metropolis",
                         [
-                            3,
-                            19
+                            9,
+                            2
                         ]
                     ],
                     "14,19": [
@@ -55593,10 +55620,10 @@
                         ]
                     ],
                     "2,17": [
-                        "roam-oestridel_church",
+                        "cynon_metropolis",
                         [
-                            2,
-                            17
+                            27,
+                            31
                         ]
                     ],
                     "3,0": [
@@ -55628,10 +55655,10 @@
                         ]
                     ],
                     "3,18": [
-                        "roam-oestridel_church",
+                        "cynon_metropolis",
                         [
-                            3,
-                            18
+                            27,
+                            29
                         ]
                     ],
                     "14,18": [
@@ -55754,10 +55781,10 @@
                         ]
                     ],
                     "2,16": [
-                        "roam-oestridel_church",
+                        "cynon_metropolis",
                         [
-                            2,
-                            16
+                            30,
+                            31
                         ]
                     ],
                     "13,13": [
@@ -55873,10 +55900,10 @@
                         ]
                     ],
                     "1,15": [
-                        "roam-oestridel_church",
+                        "cynon_metropolis",
                         [
-                            1,
-                            15
+                            10,
+                            2
                         ]
                     ],
                     "13,17": [
@@ -55985,10 +56012,10 @@
                         ]
                     ],
                     "1,19": [
-                        "roam-oestridel_church",
+                        "cynon_metropolis",
                         [
-                            1,
-                            19
+                            9,
+                            2
                         ]
                     ],
                     "16,17": [
@@ -56153,10 +56180,10 @@
                         ]
                     ],
                     "0,18": [
-                        "roam-oestridel_church",
+                        "cynon_metropolis",
                         [
-                            0,
-                            18
+                            27,
+                            29
                         ]
                     ],
                     "11,18": [
@@ -56195,10 +56222,10 @@
                         ]
                     ],
                     "4,15": [
-                        "roam-oestridel_church",
+                        "cynon_metropolis",
                         [
-                            4,
-                            15
+                            9,
+                            3
                         ]
                     ],
                     "1,0": [
@@ -56237,10 +56264,10 @@
                         ]
                     ],
                     "1,18": [
-                        "roam-oestridel_church",
+                        "cynon_metropolis",
                         [
-                            1,
-                            18
+                            27,
+                            29
                         ]
                     ],
                     "16,16": [
@@ -56342,10 +56369,10 @@
                         ]
                     ],
                     "4,19": [
-                        "roam-oestridel_church",
+                        "cynon_metropolis",
                         [
-                            4,
-                            19
+                            10,
+                            2
                         ]
                     ],
                     "1,4": [
@@ -56419,10 +56446,10 @@
                         ]
                     ],
                     "0,17": [
-                        "roam-oestridel_church",
+                        "cynon_metropolis",
                         [
-                            0,
-                            17
+                            27,
+                            31
                         ]
                     ],
                     "11,17": [
@@ -56699,10 +56726,10 @@
                         ]
                     ],
                     "0,16": [
-                        "roam-oestridel_church",
+                        "cynon_metropolis",
                         [
-                            0,
-                            16
+                            27,
+                            27
                         ]
                     ],
                     "11,16": [
@@ -56727,10 +56754,10 @@
                         ]
                     ],
                     "3,17": [
-                        "roam-oestridel_church",
+                        "cynon_metropolis",
                         [
-                            3,
-                            17
+                            29,
+                            31
                         ]
                     ],
                     "14,17": [
@@ -56923,10 +56950,10 @@
                         ]
                     ],
                     "2,15": [
-                        "roam-oestridel_church",
+                        "cynon_metropolis",
                         [
-                            2,
-                            15
+                            26,
+                            28
                         ]
                     ],
                     "3,7": [
@@ -56944,10 +56971,10 @@
                         ]
                     ],
                     "3,16": [
-                        "roam-oestridel_church",
+                        "cynon_metropolis",
                         [
-                            3,
-                            16
+                            28,
+                            28
                         ]
                     ],
                     "14,16": [
@@ -57021,10 +57048,10 @@
                         ]
                     ],
                     "2,19": [
-                        "roam-oestridel_church",
+                        "cynon_metropolis",
                         [
-                            2,
-                            19
+                            9,
+                            2
                         ]
                     ],
                     "3,2": [
@@ -57210,10 +57237,10 @@
                         ]
                     ],
                     "2,18": [
-                        "roam-oestridel_church",
+                        "cynon_metropolis",
                         [
-                            2,
-                            18
+                            27,
+                            29
                         ]
                     ],
                     "13,15": [
@@ -57268,8 +57295,8 @@
                     "5,19": [
                         "roam-oestridel_church",
                         [
-                            5,
-                            19
+                            0,
+                            13
                         ]
                     ],
                     "9,17": [
@@ -57336,10 +57363,10 @@
                         ]
                     ],
                     "1,17": [
-                        "roam-oestridel_church",
+                        "cynon_metropolis",
                         [
-                            1,
-                            17
+                            27,
+                            31
                         ]
                     ],
                     "13,19": [
@@ -57413,10 +57440,10 @@
                         ]
                     ],
                     "4,18": [
-                        "roam-oestridel_church",
+                        "cynon_metropolis",
                         [
-                            4,
-                            18
+                            27,
+                            29
                         ]
                     ],
                     "1,3": [
@@ -57581,10 +57608,10 @@
                         ]
                     ],
                     "1,16": [
-                        "roam-oestridel_church",
+                        "cynon_metropolis",
                         [
-                            1,
-                            16
+                            27,
+                            27
                         ]
                     ],
                     "13,18": [
@@ -57679,10 +57706,10 @@
                         ]
                     ],
                     "4,17": [
-                        "roam-oestridel_church",
+                        "cynon_metropolis",
                         [
-                            4,
-                            17
+                            27,
+                            27
                         ]
                     ],
                     "1,2": [
@@ -57784,10 +57811,10 @@
                         ]
                     ],
                     "0,15": [
-                        "roam-oestridel_church",
+                        "cynon_metropolis",
                         [
-                            0,
-                            15
+                            9,
+                            2
                         ]
                     ],
                     "11,15": [
@@ -57924,10 +57951,10 @@
                         ]
                     ],
                     "0,19": [
-                        "roam-oestridel_church",
+                        "cynon_metropolis",
                         [
-                            0,
-                            19
+                            8,
+                            2
                         ]
                     ],
                     "11,19": [
@@ -57959,10 +57986,10 @@
                         ]
                     ],
                     "4,16": [
-                        "roam-oestridel_church",
+                        "cynon_metropolis",
                         [
-                            4,
-                            16
+                            9,
+                            5
                         ]
                     ],
                     "1,1": [
@@ -58137,7 +58164,8 @@
             }
         ],
         "tilesets": [
-            "roam-oestridel_church"
+            "roam-oestridel_church",
+            "cynon_metropolis"
         ]
     }
 ]

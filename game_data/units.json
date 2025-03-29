@@ -1,7 +1,7 @@
 [
     {
-        "nid": "Miriam",
-        "name": "Miriam",
+        "nid": "Svetlanya",
+        "name": "Svetlanya",
         "desc": "Adopted daughter of House Renald. Cares for all in her realm, but still desires to find her true purpose.",
         "variant": "",
         "level": 1,
@@ -57,7 +57,7 @@
                 false
             ],
             [
-                "Slim_Sword",
+                "Epee",
                 false
             ],
             [
@@ -142,6 +142,16 @@
                 false,
                 1,
                 null
+            ],
+            "Magic": [
+                false,
+                0,
+                251
+            ],
+            "Runic": [
+                false,
+                0,
+                251
             ]
         },
         "alternate_classes": [],
@@ -162,7 +172,11 @@
             ],
             [
                 "Full",
-                "Miriam Pearl Renald"
+                "Svetlanya Pearl Renald"
+            ],
+            [
+                "Nickname",
+                "Lana"
             ]
         ]
     },
@@ -298,6 +312,16 @@
                 251
             ],
             "Tellus": [
+                false,
+                0,
+                251
+            ],
+            "Magic": [
+                false,
+                0,
+                251
+            ],
+            "Runic": [
                 false,
                 0,
                 251
@@ -463,6 +487,16 @@
                 false,
                 0,
                 null
+            ],
+            "Magic": [
+                false,
+                0,
+                251
+            ],
+            "Runic": [
+                false,
+                0,
+                251
             ]
         },
         "alternate_classes": [],
@@ -617,6 +651,16 @@
                 false,
                 0,
                 251
+            ],
+            "Magic": [
+                false,
+                0,
+                251
+            ],
+            "Runic": [
+                false,
+                0,
+                251
             ]
         },
         "alternate_classes": [],
@@ -762,6 +806,16 @@
                 false,
                 0,
                 251
+            ],
+            "Magic": [
+                false,
+                0,
+                251
+            ],
+            "Runic": [
+                false,
+                0,
+                251
             ]
         },
         "alternate_classes": [],
@@ -770,8 +824,8 @@
         "fields": []
     },
     {
-        "nid": "Baask",
-        "name": "Baask",
+        "nid": "Baschtian",
+        "name": "Baschtian",
         "desc": "Young master of a fallen house. He seeks to reclaim his honor.",
         "variant": "",
         "level": 5,
@@ -894,6 +948,16 @@
                 251
             ],
             "Tellus": [
+                false,
+                0,
+                251
+            ],
+            "Magic": [
+                false,
+                0,
+                251
+            ],
+            "Runic": [
                 false,
                 0,
                 251
@@ -1038,6 +1102,16 @@
                 false,
                 181,
                 251
+            ],
+            "Magic": [
+                false,
+                181,
+                251
+            ],
+            "Runic": [
+                false,
+                181,
+                251
             ]
         },
         "alternate_classes": [],
@@ -1170,6 +1244,16 @@
                 251
             ],
             "Tellus": [
+                false,
+                0,
+                251
+            ],
+            "Magic": [
+                false,
+                0,
+                251
+            ],
+            "Runic": [
                 false,
                 0,
                 251
@@ -1309,6 +1393,16 @@
                 false,
                 31,
                 null
+            ],
+            "Magic": [
+                false,
+                0,
+                251
+            ],
+            "Runic": [
+                false,
+                0,
+                251
             ]
         },
         "alternate_classes": [],
@@ -1448,6 +1542,16 @@
                 false,
                 1,
                 null
+            ],
+            "Magic": [
+                true,
+                71,
+                251
+            ],
+            "Runic": [
+                true,
+                71,
+                251
             ]
         },
         "alternate_classes": [],
@@ -1580,6 +1684,16 @@
                 251
             ],
             "Tellus": [
+                false,
+                0,
+                251
+            ],
+            "Magic": [
+                false,
+                0,
+                251
+            ],
+            "Runic": [
                 false,
                 0,
                 251
@@ -1718,6 +1832,16 @@
                 false,
                 0,
                 251
+            ],
+            "Magic": [
+                false,
+                0,
+                251
+            ],
+            "Runic": [
+                false,
+                0,
+                251
             ]
         },
         "alternate_classes": [],
@@ -1846,6 +1970,16 @@
                 251
             ],
             "Tellus": [
+                false,
+                0,
+                251
+            ],
+            "Magic": [
+                false,
+                0,
+                251
+            ],
+            "Runic": [
                 false,
                 0,
                 251
@@ -1981,6 +2115,16 @@
                 251
             ],
             "Tellus": [
+                false,
+                0,
+                251
+            ],
+            "Magic": [
+                false,
+                0,
+                251
+            ],
+            "Runic": [
                 false,
                 0,
                 251
@@ -2131,6 +2275,16 @@
                 false,
                 1,
                 null
+            ],
+            "Magic": [
+                false,
+                0,
+                251
+            ],
+            "Runic": [
+                false,
+                0,
+                251
             ]
         },
         "alternate_classes": [],
@@ -2266,6 +2420,16 @@
                 false,
                 0,
                 251
+            ],
+            "Magic": [
+                true,
+                31,
+                251
+            ],
+            "Runic": [
+                true,
+                31,
+                251
             ]
         },
         "alternate_classes": [],
@@ -2398,6 +2562,16 @@
                 251
             ],
             "Tellus": [
+                false,
+                0,
+                251
+            ],
+            "Magic": [
+                false,
+                0,
+                251
+            ],
+            "Runic": [
                 false,
                 0,
                 251
@@ -2536,6 +2710,16 @@
                 false,
                 0,
                 251
+            ],
+            "Magic": [
+                false,
+                0,
+                251
+            ],
+            "Runic": [
+                false,
+                0,
+                251
             ]
         },
         "alternate_classes": [],
@@ -2671,6 +2855,16 @@
                 false,
                 0,
                 251
+            ],
+            "Magic": [
+                false,
+                0,
+                251
+            ],
+            "Runic": [
+                false,
+                0,
+                251
             ]
         },
         "alternate_classes": [],
@@ -2795,6 +2989,16 @@
                 251
             ],
             "Tellus": [
+                false,
+                0,
+                251
+            ],
+            "Magic": [
+                false,
+                0,
+                251
+            ],
+            "Runic": [
                 false,
                 0,
                 251
@@ -2933,6 +3137,16 @@
                 false,
                 0,
                 251
+            ],
+            "Magic": [
+                false,
+                0,
+                251
+            ],
+            "Runic": [
+                false,
+                0,
+                251
             ]
         },
         "alternate_classes": [],
@@ -3065,6 +3279,16 @@
                 251
             ],
             "Tellus": [
+                false,
+                0,
+                251
+            ],
+            "Magic": [
+                false,
+                0,
+                251
+            ],
+            "Runic": [
                 false,
                 0,
                 251
@@ -3203,6 +3427,16 @@
                 false,
                 0,
                 251
+            ],
+            "Magic": [
+                false,
+                0,
+                251
+            ],
+            "Runic": [
+                false,
+                0,
+                251
             ]
         },
         "alternate_classes": [],
@@ -3211,8 +3445,8 @@
         "fields": []
     },
     {
-        "nid": "Bella",
-        "name": "Bella",
+        "nid": "Isabella",
+        "name": "Isabella",
         "desc": "The prodical daughter of House Toirahm currently acting as a mercenary for hire.",
         "variant": "Female",
         "level": 10,
@@ -3338,12 +3572,27 @@
                 false,
                 0,
                 251
+            ],
+            "Magic": [
+                false,
+                0,
+                251
+            ],
+            "Runic": [
+                false,
+                0,
+                251
             ]
         },
         "alternate_classes": [],
         "portrait_nid": "Eda {Atey}",
         "affinity": "Thunder",
-        "fields": []
+        "fields": [
+            [
+                "Nickname",
+                "Bella"
+            ]
+        ]
     },
     {
         "nid": "Josif",
@@ -3466,6 +3715,16 @@
                 251
             ],
             "Tellus": [
+                false,
+                0,
+                251
+            ],
+            "Magic": [
+                false,
+                0,
+                251
+            ],
+            "Runic": [
                 false,
                 0,
                 251
@@ -3604,6 +3863,16 @@
                 true,
                 2,
                 251
+            ],
+            "Magic": [
+                false,
+                0,
+                251
+            ],
+            "Runic": [
+                false,
+                0,
+                251
             ]
         },
         "alternate_classes": [],
@@ -3734,6 +4003,16 @@
             "Tellus": [
                 true,
                 362,
+                251
+            ],
+            "Magic": [
+                true,
+                71,
+                251
+            ],
+            "Runic": [
+                true,
+                71,
                 251
             ]
         },
@@ -3874,6 +4153,16 @@
             "Tellus": [
                 false,
                 0,
+                251
+            ],
+            "Magic": [
+                true,
+                71,
+                251
+            ],
+            "Runic": [
+                true,
+                71,
                 251
             ]
         },
@@ -4019,6 +4308,16 @@
                 false,
                 31,
                 null
+            ],
+            "Magic": [
+                false,
+                0,
+                251
+            ],
+            "Runic": [
+                false,
+                0,
+                251
             ]
         },
         "alternate_classes": [],
@@ -4163,6 +4462,16 @@
                 false,
                 0,
                 251
+            ],
+            "Magic": [
+                false,
+                0,
+                251
+            ],
+            "Runic": [
+                false,
+                0,
+                251
             ]
         },
         "alternate_classes": [],
@@ -4294,6 +4603,16 @@
                 true,
                 362,
                 251
+            ],
+            "Magic": [
+                true,
+                71,
+                251
+            ],
+            "Runic": [
+                true,
+                71,
+                251
             ]
         },
         "alternate_classes": [],
@@ -4422,6 +4741,16 @@
                 251
             ],
             "Tellus": [
+                false,
+                0,
+                251
+            ],
+            "Magic": [
+                false,
+                0,
+                251
+            ],
+            "Runic": [
                 false,
                 0,
                 251
@@ -4569,6 +4898,16 @@
                 false,
                 31,
                 null
+            ],
+            "Magic": [
+                false,
+                0,
+                251
+            ],
+            "Runic": [
+                false,
+                0,
+                251
             ]
         },
         "alternate_classes": [],
@@ -4726,6 +5065,16 @@
                 false,
                 31,
                 null
+            ],
+            "Magic": [
+                false,
+                0,
+                251
+            ],
+            "Runic": [
+                false,
+                0,
+                251
             ]
         },
         "alternate_classes": [],
@@ -4874,6 +5223,16 @@
                 false,
                 0,
                 251
+            ],
+            "Magic": [
+                false,
+                0,
+                251
+            ],
+            "Runic": [
+                false,
+                0,
+                251
             ]
         },
         "alternate_classes": [],
@@ -5009,6 +5368,16 @@
                 false,
                 0,
                 251
+            ],
+            "Magic": [
+                false,
+                0,
+                251
+            ],
+            "Runic": [
+                false,
+                0,
+                251
             ]
         },
         "alternate_classes": [],
@@ -5140,6 +5509,16 @@
                 false,
                 362,
                 251
+            ],
+            "Magic": [
+                false,
+                121,
+                251
+            ],
+            "Runic": [
+                false,
+                121,
+                251
             ]
         },
         "alternate_classes": [],
@@ -5266,6 +5645,16 @@
                 251
             ],
             "Tellus": [
+                false,
+                0,
+                251
+            ],
+            "Magic": [
+                false,
+                0,
+                251
+            ],
+            "Runic": [
                 false,
                 0,
                 251
@@ -5404,6 +5793,16 @@
                 false,
                 0,
                 251
+            ],
+            "Magic": [
+                false,
+                0,
+                251
+            ],
+            "Runic": [
+                false,
+                0,
+                251
             ]
         },
         "alternate_classes": [],
@@ -5530,6 +5929,16 @@
                 251
             ],
             "Tellus": [
+                false,
+                0,
+                251
+            ],
+            "Magic": [
+                false,
+                0,
+                251
+            ],
+            "Runic": [
                 false,
                 0,
                 251
@@ -5668,6 +6077,16 @@
                 false,
                 0,
                 251
+            ],
+            "Magic": [
+                false,
+                0,
+                251
+            ],
+            "Runic": [
+                false,
+                0,
+                251
             ]
         },
         "alternate_classes": [],
@@ -5794,6 +6213,16 @@
                 251
             ],
             "Tellus": [
+                false,
+                0,
+                251
+            ],
+            "Magic": [
+                false,
+                0,
+                251
+            ],
+            "Runic": [
                 false,
                 0,
                 251
@@ -5930,6 +6359,16 @@
                 false,
                 0,
                 251
+            ],
+            "Magic": [
+                false,
+                0,
+                251
+            ],
+            "Runic": [
+                false,
+                0,
+                251
             ]
         },
         "alternate_classes": [],
@@ -6056,6 +6495,16 @@
                 251
             ],
             "Tellus": [
+                false,
+                0,
+                251
+            ],
+            "Magic": [
+                false,
+                0,
+                251
+            ],
+            "Runic": [
                 false,
                 0,
                 251
@@ -6194,6 +6643,16 @@
                 false,
                 0,
                 251
+            ],
+            "Magic": [
+                false,
+                0,
+                251
+            ],
+            "Runic": [
+                false,
+                0,
+                251
             ]
         },
         "alternate_classes": [],
@@ -6329,6 +6788,16 @@
                 false,
                 0,
                 251
+            ],
+            "Magic": [
+                false,
+                0,
+                251
+            ],
+            "Runic": [
+                false,
+                0,
+                251
             ]
         },
         "alternate_classes": [],
@@ -6455,6 +6924,16 @@
                 251
             ],
             "Tellus": [
+                false,
+                0,
+                251
+            ],
+            "Magic": [
+                false,
+                0,
+                251
+            ],
+            "Runic": [
                 false,
                 0,
                 251
@@ -6605,6 +7084,16 @@
                 false,
                 1,
                 null
+            ],
+            "Magic": [
+                false,
+                0,
+                251
+            ],
+            "Runic": [
+                false,
+                0,
+                251
             ]
         },
         "alternate_classes": [],
@@ -6731,6 +7220,16 @@
             "Tellus": [
                 true,
                 142,
+                251
+            ],
+            "Magic": [
+                false,
+                0,
+                251
+            ],
+            "Runic": [
+                false,
+                0,
                 251
             ]
         },
@@ -6864,6 +7363,16 @@
                 251
             ],
             "Tellus": [
+                false,
+                0,
+                251
+            ],
+            "Magic": [
+                false,
+                0,
+                251
+            ],
+            "Runic": [
                 false,
                 0,
                 251
@@ -7014,6 +7523,16 @@
                 false,
                 1,
                 null
+            ],
+            "Magic": [
+                false,
+                0,
+                251
+            ],
+            "Runic": [
+                false,
+                0,
+                251
             ]
         },
         "alternate_classes": [],
@@ -7149,6 +7668,16 @@
                 false,
                 0,
                 251
+            ],
+            "Magic": [
+                false,
+                0,
+                251
+            ],
+            "Runic": [
+                false,
+                0,
+                251
             ]
         },
         "alternate_classes": [],
@@ -7278,6 +7807,16 @@
                 false,
                 0,
                 251
+            ],
+            "Magic": [
+                false,
+                0,
+                251
+            ],
+            "Runic": [
+                false,
+                0,
+                251
             ]
         },
         "alternate_classes": [],
@@ -7404,6 +7943,16 @@
             "Tellus": [
                 false,
                 0,
+                251
+            ],
+            "Magic": [
+                false,
+                181,
+                251
+            ],
+            "Runic": [
+                false,
+                181,
                 251
             ]
         },
@@ -7551,6 +8100,16 @@
                 false,
                 181,
                 null
+            ],
+            "Magic": [
+                false,
+                251,
+                251
+            ],
+            "Runic": [
+                false,
+                251,
+                251
             ]
         },
         "alternate_classes": [],
@@ -7682,6 +8241,16 @@
                 false,
                 362,
                 251
+            ],
+            "Magic": [
+                false,
+                121,
+                251
+            ],
+            "Runic": [
+                false,
+                121,
+                251
             ]
         },
         "alternate_classes": [],
@@ -7810,6 +8379,16 @@
                 251
             ],
             "Tellus": [
+                false,
+                0,
+                251
+            ],
+            "Magic": [
+                false,
+                0,
+                251
+            ],
+            "Runic": [
                 false,
                 0,
                 251
@@ -7948,6 +8527,16 @@
                 false,
                 0,
                 251
+            ],
+            "Magic": [
+                false,
+                0,
+                251
+            ],
+            "Runic": [
+                false,
+                0,
+                251
             ]
         },
         "alternate_classes": [],
@@ -8083,6 +8672,16 @@
                 false,
                 0,
                 251
+            ],
+            "Magic": [
+                false,
+                0,
+                251
+            ],
+            "Runic": [
+                false,
+                0,
+                251
             ]
         },
         "alternate_classes": [],
@@ -8209,6 +8808,16 @@
             "Tellus": [
                 false,
                 0,
+                251
+            ],
+            "Magic": [
+                false,
+                181,
+                251
+            ],
+            "Runic": [
+                false,
+                181,
                 251
             ]
         },
@@ -8350,6 +8959,16 @@
                 false,
                 0,
                 251
+            ],
+            "Magic": [
+                false,
+                0,
+                251
+            ],
+            "Runic": [
+                false,
+                0,
+                251
             ]
         },
         "alternate_classes": [],
@@ -8481,6 +9100,16 @@
                 false,
                 0,
                 251
+            ],
+            "Magic": [
+                false,
+                181,
+                251
+            ],
+            "Runic": [
+                false,
+                181,
+                251
             ]
         },
         "alternate_classes": [],
@@ -8611,6 +9240,16 @@
             "Tellus": [
                 false,
                 0,
+                251
+            ],
+            "Magic": [
+                false,
+                181,
+                251
+            ],
+            "Runic": [
+                false,
+                181,
                 251
             ]
         },

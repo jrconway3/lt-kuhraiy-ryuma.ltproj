@@ -1,8 +1,89 @@
 [
     {
-        "nid": "Slim_Sword",
-        "name": "Slim Sword",
-        "desc": "",
+        "nid": "Foil",
+        "name": "Foil",
+        "desc": "A lightweight sword designed for training purposes only.\nIncreases Sword EXP gain.",
+        "icon_nid": "{Beansy} {Swords} All Icons",
+        "icon_index": [
+            0,
+            6
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "value",
+                100
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "damage",
+                2
+            ],
+            [
+                "hit",
+                150
+            ],
+            [
+                "crit",
+                5
+            ],
+            [
+                "weight",
+                4
+            ],
+            [
+                "uses",
+                10
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Sword"
+            ],
+            [
+                "weapon_rank",
+                "E"
+            ],
+            [
+                "wexp",
+                2
+            ],
+            [
+                "item_tags",
+                [
+                    "Iron"
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Epee",
+        "name": "Epee",
+        "desc": "A lightweight sword made of steel. While weaker, it is easier to use.\nIncreases Sword EXP gain.",
         "icon_nid": "{Beansy} {Swords} All Icons",
         "icon_index": [
             2,
@@ -15,7 +96,7 @@
             ],
             [
                 "value",
-                480
+                300
             ],
             [
                 "target_enemy",
@@ -35,7 +116,7 @@
             ],
             [
                 "hit",
-                100
+                120
             ],
             [
                 "crit",
@@ -66,14 +147,263 @@
             ],
             [
                 "weapon_rank",
-                "E"
+                "D"
+            ],
+            [
+                "item_tags",
+                [
+                    "Steel"
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Cursed_Sword",
+        "name": "Cursed Sword",
+        "desc": "Preferred by thieves. Inflicts a curse to damage both health and mana.",
+        "icon_nid": "{Beansy} {Swords} All Icons",
+        "icon_index": [
+            0,
+            4
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "damage",
+                3
+            ],
+            [
+                "hit",
+                70
+            ],
+            [
+                "weapon_type",
+                "Sword"
+            ],
+            [
+                "weapon_rank",
+                "D"
+            ],
+            [
+                "uses",
+                40
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "weight",
+                6
+            ],
+            [
+                "crit",
+                5
+            ],
+            [
+                "status_on_hit",
+                "Curse"
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ]
+        ]
+    },
+    {
+        "nid": "Sabre",
+        "name": "Sabre",
+        "desc": "A lightweight soldier's sidearm made of mythril. While weaker, it is easier to use.",
+        "icon_nid": "{Peerless} FE9 Weapon Icons (Custom Palette)",
+        "icon_index": [
+            5,
+            2
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "value",
+                1000
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "damage",
+                10
+            ],
+            [
+                "hit",
+                100
+            ],
+            [
+                "crit",
+                5
+            ],
+            [
+                "weight",
+                8
+            ],
+            [
+                "uses",
+                30
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Sword"
+            ],
+            [
+                "weapon_rank",
+                "C"
+            ],
+            [
+                "item_tags",
+                [
+                    "Mythril"
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Lightning_Blade",
+        "name": "Lightning Blade",
+        "desc": "Attack with Fulgus. Eff vs Daemons, Nephyliae.",
+        "icon_nid": "{Beansy} {Swords} All Icons",
+        "icon_index": [
+            3,
+            4
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "damage",
+                9
+            ],
+            [
+                "hit",
+                70
+            ],
+            [
+                "weapon_type",
+                "Sword"
+            ],
+            [
+                "weapon_rank",
+                "B"
+            ],
+            [
+                "uses",
+                25
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "weight",
+                9
+            ],
+            [
+                "value",
+                1250
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "battle_cast_anim",
+                "Glimmer"
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "Cyrehn",
+                        "Nephyliae",
+                        "Monster"
+                    ],
+                    "effective_multiplier": 3,
+                    "effective_bonus_damage": 0,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
+            ],
+            [
+                "item_tags",
+                [
+                    "Mythril"
+                ]
             ]
         ]
     },
     {
         "nid": "Bronze_Sword",
         "name": "Bronze Sword",
-        "desc": "",
+        "desc": "A simple sword made of bronze. Not particularly strong or durable.",
         "icon_nid": "{Beansy} {Swords} All Icons",
         "icon_index": [
             3,
@@ -138,13 +468,19 @@
             [
                 "weapon_rank",
                 "E"
+            ],
+            [
+                "item_tags",
+                [
+                    "Bronze"
+                ]
             ]
         ]
     },
     {
         "nid": "Iron_Sword",
         "name": "Iron Sword",
-        "desc": "",
+        "desc": "An average sword made of iron.",
         "icon_nid": "{Beansy} {Swords} All Icons",
         "icon_index": [
             2,
@@ -209,6 +545,12 @@
             [
                 "weapon_rank",
                 "E"
+            ],
+            [
+                "item_tags",
+                [
+                    "Iron"
+                ]
             ]
         ]
     },
@@ -218,8 +560,8 @@
         "desc": "",
         "icon_nid": "{Beansy} {Swords} All Icons",
         "icon_index": [
-            1,
-            6
+            0,
+            1
         ],
         "components": [
             [
@@ -280,16 +622,22 @@
             [
                 "weapon_rank",
                 "D"
+            ],
+            [
+                "item_tags",
+                [
+                    "Steel"
+                ]
             ]
         ]
     },
     {
         "nid": "Mythril_Sword",
         "name": "Mythril Sword",
-        "desc": "",
+        "desc": "A powerful and sturdy sword made of mythril. Capable of breaking through magical defenses.",
         "icon_nid": "{Beansy} {Swords} All Icons",
         "icon_index": [
-            1,
+            2,
             0
         ],
         "components": [
@@ -327,649 +675,6 @@
             ],
             [
                 "weight",
-                15
-            ],
-            [
-                "level_exp",
-                null
-            ],
-            [
-                "weapon_type",
-                "Sword"
-            ],
-            [
-                "weapon_rank",
-                "A"
-            ],
-            [
-                "uses",
-                30
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ]
-        ]
-    },
-    {
-        "nid": "Flamberge",
-        "name": "Flamberge.",
-        "desc": "Attack with Ignis. Effective vs Lykons, Wolves.",
-        "icon_nid": "{Beansy} {Swords} All Icons",
-        "icon_index": [
-            2,
-            1
-        ],
-        "components": [
-            [
-                "weapon",
-                null
-            ],
-            [
-                "target_enemy",
-                null
-            ],
-            [
-                "min_range",
-                1
-            ],
-            [
-                "max_range",
-                2
-            ],
-            [
-                "damage",
-                7
-            ],
-            [
-                "hit",
-                95
-            ],
-            [
-                "crit",
-                10
-            ],
-            [
-                "weight",
-                5
-            ],
-            [
-                "level_exp",
-                null
-            ],
-            [
-                "weapon_type",
-                "Sword"
-            ],
-            [
-                "weapon_rank",
-                "C"
-            ],
-            [
-                "uses",
-                40
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
-                "effective_damage",
-                {
-                    "effective_tags": [
-                        "Lykon",
-                        "Gjin",
-                        "Wolf",
-                        "Dragon"
-                    ],
-                    "effective_multiplier": 1.0,
-                    "effective_bonus_damage": 14,
-                    "show_effectiveness_flash": true,
-                    "weapon_effectiveness_multiplied": true
-                }
-            ],
-            [
-                "locked",
-                null
-            ],
-            [
-                "multi_item",
-                [
-                    "Fireball"
-                ]
-            ]
-        ]
-    },
-    {
-        "nid": "Light_Brand",
-        "name": "Light Brand",
-        "desc": "Attack with Solus. Eff vs Daemons, Nephyliae.",
-        "icon_nid": "Sword",
-        "icon_index": [
-            0,
-            14
-        ],
-        "components": [
-            [
-                "weapon",
-                null
-            ],
-            [
-                "target_enemy",
-                null
-            ],
-            [
-                "level_exp",
-                null
-            ],
-            [
-                "damage",
-                9
-            ],
-            [
-                "hit",
-                70
-            ],
-            [
-                "weapon_type",
-                "Sword"
-            ],
-            [
-                "weapon_rank",
-                "C"
-            ],
-            [
-                "uses",
-                25
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
-                "weight",
-                9
-            ],
-            [
-                "value",
-                1250
-            ],
-            [
-                "min_range",
-                1
-            ],
-            [
-                "max_range",
-                2
-            ],
-            [
-                "magic",
-                null
-            ],
-            [
-                "battle_cast_anim",
-                "Glimmer"
-            ],
-            [
-                "prf_tags",
-                [
-                    "Queiza"
-                ]
-            ],
-            [
-                "effective_damage",
-                {
-                    "effective_tags": [
-                        "Cyrehn",
-                        "Nephyliae",
-                        "Monster"
-                    ],
-                    "effective_multiplier": 3,
-                    "effective_bonus_damage": 0,
-                    "show_effectiveness_flash": true,
-                    "weapon_effectiveness_multiplied": true
-                }
-            ]
-        ]
-    },
-    {
-        "nid": "Caliburnus",
-        "name": "Caliburnus",
-        "desc": "Resistance +5. Effective against monsters",
-        "icon_nid": "{Beansy} {Swords} All Icons",
-        "icon_index": [
-            0,
-            3
-        ],
-        "components": [
-            [
-                "weapon",
-                null
-            ],
-            [
-                "target_enemy",
-                null
-            ],
-            [
-                "level_exp",
-                null
-            ],
-            [
-                "damage",
-                18
-            ],
-            [
-                "hit",
-                85
-            ],
-            [
-                "weapon_type",
-                "Sword"
-            ],
-            [
-                "weapon_rank",
-                "S"
-            ],
-            [
-                "uses",
-                30
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
-                "weight",
-                9
-            ],
-            [
-                "status_on_equip",
-                "Resistance_Plus5"
-            ],
-            [
-                "crit",
-                0
-            ],
-            [
-                "min_range",
-                1
-            ],
-            [
-                "max_range",
-                1
-            ],
-            [
-                "effective_damage",
-                {
-                    "effective_tags": [
-                        "Monster"
-                    ],
-                    "effective_multiplier": 1.0,
-                    "effective_bonus_damage": 36,
-                    "show_effectiveness_flash": true,
-                    "weapon_effectiveness_multiplied": true
-                }
-            ]
-        ]
-    },
-    {
-        "nid": "Bronze_Katana",
-        "name": "Bronze Katana",
-        "desc": "",
-        "icon_nid": "{Tactics Ogre LUCT, EldritchAbo, serebii01} Item Icon Sheet 1",
-        "icon_index": [
-            8,
-            13
-        ],
-        "components": [
-            [
-                "weapon",
-                null
-            ],
-            [
-                "target_enemy",
-                null
-            ],
-            [
-                "level_exp",
-                null
-            ],
-            [
-                "damage",
-                3
-            ],
-            [
-                "hit",
-                80
-            ],
-            [
-                "weapon_type",
-                "Sword"
-            ],
-            [
-                "weapon_rank",
-                "D"
-            ],
-            [
-                "uses",
-                40
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
-                "weight",
-                2
-            ],
-            [
-                "crit",
-                15
-            ],
-            [
-                "value",
-                980
-            ],
-            [
-                "min_range",
-                1
-            ],
-            [
-                "max_range",
-                1
-            ],
-            [
-                "prf_tags",
-                [
-                    "Nordak"
-                ]
-            ]
-        ]
-    },
-    {
-        "nid": "Iron_Katana",
-        "name": "Iron Katana",
-        "desc": "",
-        "icon_nid": "{Tactics Ogre LUCT, EldritchAbo, serebii01} Item Icon Sheet 1",
-        "icon_index": [
-            6,
-            15
-        ],
-        "components": [
-            [
-                "weapon",
-                null
-            ],
-            [
-                "target_enemy",
-                null
-            ],
-            [
-                "level_exp",
-                null
-            ],
-            [
-                "damage",
-                9
-            ],
-            [
-                "hit",
-                70
-            ],
-            [
-                "weapon_type",
-                "Sword"
-            ],
-            [
-                "weapon_rank",
-                "C"
-            ],
-            [
-                "uses",
-                35
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
-                "weight",
-                3
-            ],
-            [
-                "crit",
-                0
-            ],
-            [
-                "wexp",
-                2
-            ],
-            [
-                "value",
-                980
-            ],
-            [
-                "min_range",
-                1
-            ],
-            [
-                "max_range",
-                1
-            ]
-        ]
-    },
-    {
-        "nid": "Steel_Katana",
-        "name": "Steel Katana",
-        "desc": "",
-        "icon_nid": "{Tactics Ogre LUCT, EldritchAbo, serebii01} Item Icon Sheet 1",
-        "icon_index": [
-            12,
-            15
-        ],
-        "components": [
-            [
-                "weapon",
-                null
-            ],
-            [
-                "target_enemy",
-                null
-            ],
-            [
-                "level_exp",
-                null
-            ],
-            [
-                "damage",
-                11
-            ],
-            [
-                "hit",
-                65
-            ],
-            [
-                "weapon_type",
-                "Sword"
-            ],
-            [
-                "weapon_rank",
-                "B"
-            ],
-            [
-                "uses",
-                30
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
-                "weight",
-                5
-            ],
-            [
-                "crit",
-                0
-            ],
-            [
-                "wexp",
-                2
-            ],
-            [
-                "value",
-                1000
-            ],
-            [
-                "min_range",
-                1
-            ],
-            [
-                "max_range",
-                1
-            ]
-        ]
-    },
-    {
-        "nid": "Mythril_Katana",
-        "name": "Mythril Katana",
-        "desc": "",
-        "icon_nid": "{Tactics Ogre LUCT, EldritchAbo, serebii01} Item Icon Sheet 1",
-        "icon_index": [
-            2,
-            15
-        ],
-        "components": [
-            [
-                "weapon",
-                null
-            ],
-            [
-                "target_enemy",
-                null
-            ],
-            [
-                "level_exp",
-                null
-            ],
-            [
-                "damage",
-                10
-            ],
-            [
-                "hit",
-                70
-            ],
-            [
-                "weapon_type",
-                "Sword"
-            ],
-            [
-                "weapon_rank",
-                "A"
-            ],
-            [
-                "uses",
-                20
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
-                "weight",
-                7
-            ],
-            [
-                "crit",
-                15
-            ],
-            [
-                "wexp",
-                3
-            ],
-            [
-                "value",
-                1800
-            ],
-            [
-                "min_range",
-                1
-            ],
-            [
-                "max_range",
-                1
-            ]
-        ]
-    },
-    {
-        "nid": "SwiftBlade",
-        "name": "Swift Blade",
-        "desc": "Allows 2 consecutive hits.",
-        "icon_nid": "{Tactics Ogre LUCT, EldritchAbo, serebii01} Item Icon Sheet 1",
-        "icon_index": [
-            14,
-            15
-        ],
-        "components": [
-            [
-                "weapon",
-                null
-            ],
-            [
-                "value",
-                7500
-            ],
-            [
-                "target_enemy",
-                null
-            ],
-            [
-                "min_range",
-                1
-            ],
-            [
-                "max_range",
-                1
-            ],
-            [
-                "damage",
-                10
-            ],
-            [
-                "hit",
-                60
-            ],
-            [
-                "crit",
-                10
-            ],
-            [
-                "weight",
                 13
             ],
             [
@@ -986,7 +691,7 @@
             ],
             [
                 "uses",
-                40
+                30
             ],
             [
                 "uses_options",
@@ -996,200 +701,32 @@
                 }
             ],
             [
-                "brave",
-                null
-            ],
-            [
-                "wexp",
-                3
+                "item_tags",
+                [
+                    "Mythril"
+                ]
             ]
         ]
     },
     {
-        "nid": "Wind_Edge",
-        "name": "Wind Edge",
-        "desc": "Uses MAG to determine damage. Effective against fliers.",
-        "icon_nid": "{Tactics Ogre LUCT, EldritchAbo, serebii01} Item Icon Sheet 1",
+        "nid": "Adamant_Sword",
+        "name": "Adamant Sword",
+        "desc": "A powerful and sturdy sword made of adamantium, the strongest metal known to exist.",
+        "icon_nid": "{Beansy} {Swords} All Icons",
         "icon_index": [
-            3,
-            15
+            0,
+            2
         ],
         "components": [
             [
                 "weapon",
                 null
-            ],
-            [
-                "target_enemy",
-                null
-            ],
-            [
-                "level_exp",
-                null
-            ],
-            [
-                "damage",
-                9
-            ],
-            [
-                "hit",
-                70
-            ],
-            [
-                "weapon_type",
-                "Sword"
-            ],
-            [
-                "weapon_rank",
-                "B"
-            ],
-            [
-                "uses",
-                40
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
-                "weight",
-                9
             ],
             [
                 "value",
                 8000
             ],
             [
-                "min_range",
-                1
-            ],
-            [
-                "max_range",
-                2
-            ],
-            [
-                "effective_damage",
-                {
-                    "effective_tags": [
-                        "Flying"
-                    ],
-                    "effective_multiplier": 1.0,
-                    "effective_bonus_damage": 18,
-                    "show_effectiveness_flash": true,
-                    "weapon_effectiveness_multiplied": true
-                }
-            ],
-            [
-                "prf_tags",
-                [
-                    "Nordak"
-                ]
-            ]
-        ]
-    },
-    {
-        "nid": "BloodEdge",
-        "name": "Blood Edge",
-        "desc": "Uses MAG to determine damage. Drains HP from enemy",
-        "icon_nid": "{Tactics Ogre LUCT, EldritchAbo, serebii01} Item Icon Sheet 1",
-        "icon_index": [
-            1,
-            15
-        ],
-        "components": [
-            [
-                "weapon",
-                null
-            ],
-            [
-                "target_enemy",
-                null
-            ],
-            [
-                "level_exp",
-                null
-            ],
-            [
-                "damage",
-                12
-            ],
-            [
-                "hit",
-                65
-            ],
-            [
-                "weapon_type",
-                "Sword"
-            ],
-            [
-                "weapon_rank",
-                "A"
-            ],
-            [
-                "uses",
-                15
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
-                "weight",
-                11
-            ],
-            [
-                "magic",
-                null
-            ],
-            [
-                "lifelink",
-                1.0
-            ],
-            [
-                "value",
-                3300
-            ],
-            [
-                "min_range",
-                1
-            ],
-            [
-                "max_range",
-                2
-            ],
-            [
-                "prf_tags",
-                [
-                    "Siylphe"
-                ]
-            ]
-        ]
-    },
-    {
-        "nid": "Serrated_Edge",
-        "name": "Serrated Edge",
-        "desc": "",
-        "icon_nid": "Sword",
-        "icon_index": [
-            0,
-            11
-        ],
-        "components": [
-            [
-                "weapon",
-                null
-            ],
-            [
-                "value",
-                1300
-            ],
-            [
                 "target_enemy",
                 null
             ],
@@ -1203,171 +740,35 @@
             ],
             [
                 "damage",
-                9
-            ],
-            [
-                "hit",
-                75
-            ],
-            [
-                "crit",
-                30
-            ],
-            [
-                "weight",
-                7
-            ],
-            [
-                "level_exp",
-                null
-            ],
-            [
-                "weapon_type",
-                "Sword"
-            ],
-            [
-                "weapon_rank",
-                "C"
-            ],
-            [
-                "uses",
-                20
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
-                "warning",
-                null
-            ]
-        ]
-    },
-    {
-        "nid": "Shamshir",
-        "name": "Shamshir",
-        "desc": "For light swordfighters only",
-        "icon_nid": "{Tactics Ogre LUCT, EldritchAbo, serebii01} Item Icon Sheet 1",
-        "icon_index": [
-            13,
-            15
-        ],
-        "components": [
-            [
-                "weapon",
-                null
-            ],
-            [
-                "target_enemy",
-                null
-            ],
-            [
-                "level_exp",
-                null
-            ],
-            [
-                "damage",
-                8
-            ],
-            [
-                "hit",
-                75
-            ],
-            [
-                "weapon_type",
-                "Sword"
-            ],
-            [
-                "uses",
-                20
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
-                "weight",
-                5
-            ],
-            [
-                "crit",
-                35
-            ],
-            [
-                "warning",
-                null
-            ],
-            [
-                "value",
-                1200
-            ],
-            [
-                "min_range",
-                1
-            ],
-            [
-                "max_range",
-                1
-            ],
-            [
-                "weapon_rank",
-                "D"
-            ],
-            [
-                "prf_tags",
-                [
-                    "Sword"
-                ]
-            ]
-        ]
-    },
-    {
-        "nid": "Poison_Sword",
-        "name": "Poison Sword",
-        "desc": "Poisons on contact.",
-        "icon_nid": "Sword",
-        "icon_index": [
-            0,
-            7
-        ],
-        "components": [
-            [
-                "weapon",
-                null
-            ],
-            [
-                "target_enemy",
-                null
-            ],
-            [
-                "level_exp",
-                null
-            ],
-            [
-                "damage",
-                3
+                18
             ],
             [
                 "hit",
                 70
             ],
             [
+                "crit",
+                0
+            ],
+            [
+                "weight",
+                15
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
                 "weapon_type",
                 "Sword"
             ],
             [
                 "weapon_rank",
-                "D"
+                "S"
             ],
             [
                 "uses",
-                40
+                60
             ],
             [
                 "uses_options",
@@ -1377,299 +778,9 @@
                 }
             ],
             [
-                "weight",
-                6
-            ],
-            [
-                "crit",
-                0
-            ],
-            [
-                "status_on_hit",
-                "Poisoned"
-            ],
-            [
-                "min_range",
-                1
-            ],
-            [
-                "max_range",
-                1
-            ]
-        ]
-    },
-    {
-        "nid": "Almace",
-        "name": "Almace",
-        "desc": "+5 Str/Mag. Miriam only.\nEffective vs Lykons, Dragons.",
-        "icon_nid": "{Beansy} {Swords} All Icons",
-        "icon_index": [
-            1,
-            4
-        ],
-        "components": [
-            [
-                "weapon",
-                null
-            ],
-            [
-                "target_enemy",
-                null
-            ],
-            [
-                "min_range",
-                1
-            ],
-            [
-                "max_range",
-                2
-            ],
-            [
-                "damage",
-                7
-            ],
-            [
-                "hit",
-                95
-            ],
-            [
-                "crit",
-                10
-            ],
-            [
-                "weight",
-                5
-            ],
-            [
-                "level_exp",
-                null
-            ],
-            [
-                "weapon_type",
-                "Sword"
-            ],
-            [
-                "uses",
-                40
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
-                "effective_damage",
-                {
-                    "effective_tags": [
-                        "Lykon",
-                        "Gjin",
-                        "Wolf",
-                        "Dragon"
-                    ],
-                    "effective_multiplier": 1.0,
-                    "effective_bonus_damage": 14,
-                    "show_effectiveness_flash": true,
-                    "weapon_effectiveness_multiplied": true
-                }
-            ],
-            [
-                "prf_tags",
+                "item_tags",
                 [
-                    "Queiza"
-                ]
-            ],
-            [
-                "locked",
-                null
-            ],
-            [
-                "status_on_equip",
-                "SelfImmolate"
-            ],
-            [
-                "battle_cast_anim",
-                "Fire"
-            ]
-        ]
-    },
-    {
-        "nid": "Joyeuse",
-        "name": "Joyeuse",
-        "desc": "A prized weapon of House Lyudam. Amaya only.\nContains Light Magic.",
-        "icon_nid": "[WEP] Pack 5 {Lisandra Brave}",
-        "icon_index": [
-            4,
-            1
-        ],
-        "components": [
-            [
-                "weapon",
-                null
-            ],
-            [
-                "target_enemy",
-                null
-            ],
-            [
-                "min_range",
-                1
-            ],
-            [
-                "max_range",
-                2
-            ],
-            [
-                "damage",
-                7
-            ],
-            [
-                "hit",
-                95
-            ],
-            [
-                "crit",
-                10
-            ],
-            [
-                "weight",
-                5
-            ],
-            [
-                "level_exp",
-                null
-            ],
-            [
-                "weapon_type",
-                "Sword"
-            ],
-            [
-                "uses",
-                40
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
-                "effective_damage",
-                {
-                    "effective_tags": [
-                        "Dragon",
-                        "Monster",
-                        "Cyrehn",
-                        "Nephyliae"
-                    ],
-                    "effective_multiplier": 1.0,
-                    "effective_bonus_damage": 14,
-                    "show_effectiveness_flash": true,
-                    "weapon_effectiveness_multiplied": true
-                }
-            ],
-            [
-                "prf_unit",
-                [
-                    "Amaya"
-                ]
-            ],
-            [
-                "battle_cast_anim",
-                "Shine"
-            ]
-        ]
-    },
-    {
-        "nid": "Galatine",
-        "name": "Galatine",
-        "desc": "Kitezh sacred treasure. Int+10.\nLake Lady only. Eff vs Dragons, Horses.",
-        "icon_nid": "Sword",
-        "icon_index": [
-            0,
-            18
-        ],
-        "components": [
-            [
-                "weapon",
-                null
-            ],
-            [
-                "target_enemy",
-                null
-            ],
-            [
-                "level_exp",
-                null
-            ],
-            [
-                "damage",
-                16
-            ],
-            [
-                "hit",
-                90
-            ],
-            [
-                "weapon_type",
-                "Sword"
-            ],
-            [
-                "uses",
-                30
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
-                "weight",
-                9
-            ],
-            [
-                "status_on_equip",
-                "Resistance_Plus5"
-            ],
-            [
-                "crit",
-                0
-            ],
-            [
-                "min_range",
-                1
-            ],
-            [
-                "max_range",
-                1
-            ],
-            [
-                "effective_damage",
-                {
-                    "effective_tags": [
-                        "Dragon",
-                        "Horse"
-                    ],
-                    "effective_multiplier": 1.0,
-                    "effective_bonus_damage": 32,
-                    "show_effectiveness_flash": true,
-                    "weapon_effectiveness_multiplied": true
-                }
-            ],
-            [
-                "prf_class",
-                [
-                    "Lake_Lady"
-                ]
-            ],
-            [
-                "multi_item",
-                [
-                    "Deluge"
+                    "Adamantium"
                 ]
             ]
         ]
@@ -2005,6 +1116,1373 @@
         ]
     },
     {
+        "nid": "Flamberge",
+        "name": "Flamberge.",
+        "desc": "Attack with Ignis. Effective vs Lykons, Wolves.",
+        "icon_nid": "{Beansy} {Swords} All Icons",
+        "icon_index": [
+            2,
+            1
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "damage",
+                7
+            ],
+            [
+                "hit",
+                95
+            ],
+            [
+                "crit",
+                10
+            ],
+            [
+                "weight",
+                5
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Sword"
+            ],
+            [
+                "weapon_rank",
+                "C"
+            ],
+            [
+                "uses",
+                40
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "Lykon",
+                        "Gjin",
+                        "Wolf",
+                        "Dragon"
+                    ],
+                    "effective_multiplier": 1.0,
+                    "effective_bonus_damage": 14,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
+            ],
+            [
+                "locked",
+                null
+            ],
+            [
+                "multi_item",
+                [
+                    "Flamberge",
+                    "Fireball"
+                ]
+            ],
+            [
+                "item_tags",
+                [
+                    "Steel"
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Caliburnus",
+        "name": "Caliburnus",
+        "desc": "Resistance +5. Effective against monsters",
+        "icon_nid": "{Beansy} {Swords} All Icons",
+        "icon_index": [
+            0,
+            3
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "damage",
+                18
+            ],
+            [
+                "hit",
+                85
+            ],
+            [
+                "weapon_type",
+                "Sword"
+            ],
+            [
+                "weapon_rank",
+                "S"
+            ],
+            [
+                "uses",
+                30
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "weight",
+                9
+            ],
+            [
+                "status_on_equip",
+                "Resistance_Plus5"
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "Monster"
+                    ],
+                    "effective_multiplier": 1.0,
+                    "effective_bonus_damage": 36,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
+            ],
+            [
+                "item_tags",
+                [
+                    "Adamantium"
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Bronze_Katana",
+        "name": "Bronze Katana",
+        "desc": "",
+        "icon_nid": "{Tactics Ogre LUCT, EldritchAbo, serebii01} Item Icon Sheet 1",
+        "icon_index": [
+            8,
+            13
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "damage",
+                3
+            ],
+            [
+                "hit",
+                80
+            ],
+            [
+                "weapon_type",
+                "Sword"
+            ],
+            [
+                "weapon_rank",
+                "D"
+            ],
+            [
+                "uses",
+                40
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "weight",
+                2
+            ],
+            [
+                "crit",
+                15
+            ],
+            [
+                "value",
+                980
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "prf_tags",
+                [
+                    "Nordak"
+                ]
+            ],
+            [
+                "item_tags",
+                [
+                    "Bronze"
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Iron_Katana",
+        "name": "Iron Katana",
+        "desc": "",
+        "icon_nid": "{Tactics Ogre LUCT, EldritchAbo, serebii01} Item Icon Sheet 1",
+        "icon_index": [
+            6,
+            15
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "damage",
+                9
+            ],
+            [
+                "hit",
+                70
+            ],
+            [
+                "weapon_type",
+                "Sword"
+            ],
+            [
+                "weapon_rank",
+                "C"
+            ],
+            [
+                "uses",
+                35
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "weight",
+                3
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "wexp",
+                2
+            ],
+            [
+                "value",
+                980
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "item_tags",
+                [
+                    "Iron"
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Steel_Katana",
+        "name": "Steel Katana",
+        "desc": "",
+        "icon_nid": "{Tactics Ogre LUCT, EldritchAbo, serebii01} Item Icon Sheet 1",
+        "icon_index": [
+            12,
+            15
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "damage",
+                11
+            ],
+            [
+                "hit",
+                65
+            ],
+            [
+                "weapon_type",
+                "Sword"
+            ],
+            [
+                "weapon_rank",
+                "B"
+            ],
+            [
+                "uses",
+                30
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "weight",
+                5
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "wexp",
+                2
+            ],
+            [
+                "value",
+                1000
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "item_tags",
+                [
+                    "Steel"
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Mithril_Katana",
+        "name": "Mithril Katana",
+        "desc": "",
+        "icon_nid": "{Tactics Ogre LUCT, EldritchAbo, serebii01} Item Icon Sheet 1",
+        "icon_index": [
+            2,
+            15
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "damage",
+                10
+            ],
+            [
+                "hit",
+                70
+            ],
+            [
+                "weapon_type",
+                "Sword"
+            ],
+            [
+                "weapon_rank",
+                "A"
+            ],
+            [
+                "uses",
+                20
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "weight",
+                7
+            ],
+            [
+                "crit",
+                15
+            ],
+            [
+                "wexp",
+                3
+            ],
+            [
+                "value",
+                1800
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "item_tags",
+                [
+                    "Mythril"
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Damaz_Katana",
+        "name": "Mithril Katana",
+        "desc": "",
+        "icon_nid": "{Tactics Ogre LUCT, EldritchAbo, serebii01} Item Icon Sheet 1",
+        "icon_index": [
+            0,
+            14
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "damage",
+                16
+            ],
+            [
+                "hit",
+                80
+            ],
+            [
+                "weapon_type",
+                "Sword"
+            ],
+            [
+                "weapon_rank",
+                "S"
+            ],
+            [
+                "uses",
+                20
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "weight",
+                7
+            ],
+            [
+                "crit",
+                15
+            ],
+            [
+                "wexp",
+                3
+            ],
+            [
+                "value",
+                6000
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "item_tags",
+                [
+                    "Damazos"
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "SwiftBlade",
+        "name": "Swift Blade",
+        "desc": "Allows 2 consecutive hits.",
+        "icon_nid": "{Tactics Ogre LUCT, EldritchAbo, serebii01} Item Icon Sheet 1",
+        "icon_index": [
+            14,
+            15
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "value",
+                7500
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "damage",
+                10
+            ],
+            [
+                "hit",
+                60
+            ],
+            [
+                "crit",
+                10
+            ],
+            [
+                "weight",
+                13
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Sword"
+            ],
+            [
+                "weapon_rank",
+                "B"
+            ],
+            [
+                "uses",
+                40
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "brave",
+                null
+            ],
+            [
+                "wexp",
+                3
+            ]
+        ]
+    },
+    {
+        "nid": "Wind_Edge",
+        "name": "Wind Edge",
+        "desc": "Uses MAG to determine damage. Effective against fliers.",
+        "icon_nid": "{Tactics Ogre LUCT, EldritchAbo, serebii01} Item Icon Sheet 1",
+        "icon_index": [
+            3,
+            15
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "damage",
+                9
+            ],
+            [
+                "hit",
+                70
+            ],
+            [
+                "weapon_type",
+                "Sword"
+            ],
+            [
+                "weapon_rank",
+                "B"
+            ],
+            [
+                "uses",
+                40
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "weight",
+                9
+            ],
+            [
+                "value",
+                8000
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "Flying"
+                    ],
+                    "effective_multiplier": 1.0,
+                    "effective_bonus_damage": 18,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
+            ],
+            [
+                "prf_tags",
+                [
+                    "Nordak"
+                ]
+            ],
+            [
+                "item_tags",
+                [
+                    "Mythril"
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "BloodEdge",
+        "name": "Blood Edge",
+        "desc": "Uses MAG to determine damage. Drains HP from enemy",
+        "icon_nid": "{Tactics Ogre LUCT, EldritchAbo, serebii01} Item Icon Sheet 1",
+        "icon_index": [
+            1,
+            15
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "damage",
+                12
+            ],
+            [
+                "hit",
+                65
+            ],
+            [
+                "weapon_type",
+                "Sword"
+            ],
+            [
+                "weapon_rank",
+                "A"
+            ],
+            [
+                "uses",
+                15
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "weight",
+                11
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "lifelink",
+                1.0
+            ],
+            [
+                "value",
+                3300
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "prf_tags",
+                [
+                    "Siylphe"
+                ]
+            ],
+            [
+                "item_tags",
+                [
+                    "Damazos"
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Serrated_Edge",
+        "name": "Serrated Edge",
+        "desc": "",
+        "icon_nid": "Sword",
+        "icon_index": [
+            0,
+            11
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "value",
+                1300
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "damage",
+                9
+            ],
+            [
+                "hit",
+                75
+            ],
+            [
+                "crit",
+                30
+            ],
+            [
+                "weight",
+                7
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Sword"
+            ],
+            [
+                "weapon_rank",
+                "C"
+            ],
+            [
+                "uses",
+                20
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "warning",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Shamshir",
+        "name": "Shamshir",
+        "desc": "For light swordfighters only",
+        "icon_nid": "{Tactics Ogre LUCT, EldritchAbo, serebii01} Item Icon Sheet 1",
+        "icon_index": [
+            13,
+            15
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "damage",
+                8
+            ],
+            [
+                "hit",
+                75
+            ],
+            [
+                "weapon_type",
+                "Sword"
+            ],
+            [
+                "uses",
+                20
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "weight",
+                5
+            ],
+            [
+                "crit",
+                35
+            ],
+            [
+                "warning",
+                null
+            ],
+            [
+                "value",
+                1200
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "weapon_rank",
+                "D"
+            ],
+            [
+                "prf_tags",
+                [
+                    "Sword"
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Almace",
+        "name": "Almace",
+        "desc": "+5 Str/Int. Svetlanya only.\nEffective vs Lykons, Dragons.",
+        "icon_nid": "{Beansy} {Swords} All Icons",
+        "icon_index": [
+            1,
+            4
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "damage",
+                7
+            ],
+            [
+                "hit",
+                95
+            ],
+            [
+                "crit",
+                10
+            ],
+            [
+                "weight",
+                5
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Sword"
+            ],
+            [
+                "uses",
+                60
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "Lykon",
+                        "Gjin",
+                        "Wolf",
+                        "Dragon"
+                    ],
+                    "effective_multiplier": 1.0,
+                    "effective_bonus_damage": 14,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
+            ],
+            [
+                "locked",
+                null
+            ],
+            [
+                "battle_cast_anim",
+                "Fire"
+            ],
+            [
+                "multi_status_on_equip",
+                [
+                    "Strength_Plus5",
+                    "Magic_Plus5"
+                ]
+            ],
+            [
+                "prf_unit",
+                [
+                    "Svetlanya",
+                    "Serena"
+                ]
+            ],
+            [
+                "wexp",
+                2
+            ]
+        ]
+    },
+    {
+        "nid": "Almacia",
+        "name": "Almacia",
+        "desc": "Royal blade of Omyrus. +5 Str/Int.\nEffective vs Lykons, Dragons.",
+        "icon_nid": "{Beansy} {Swords} All Icons",
+        "icon_index": [
+            1,
+            4
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "damage",
+                15
+            ],
+            [
+                "hit",
+                100
+            ],
+            [
+                "crit",
+                15
+            ],
+            [
+                "weight",
+                10
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Sword"
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "Lykon",
+                        "Gjin",
+                        "Wolf",
+                        "Dragon"
+                    ],
+                    "effective_multiplier": 1.0,
+                    "effective_bonus_damage": 14,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
+            ],
+            [
+                "locked",
+                null
+            ],
+            [
+                "battle_cast_anim",
+                "Explosion"
+            ]
+        ]
+    },
+    {
+        "nid": "Joyeuse",
+        "name": "Joyeuse",
+        "desc": "A prized weapon of House Lyudam. Amaya only.\nContains Light Magic. Eff vs armor and dragons.",
+        "icon_nid": "[WEP] Pack 5 {Lisandra Brave}",
+        "icon_index": [
+            4,
+            1
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "damage",
+                7
+            ],
+            [
+                "hit",
+                95
+            ],
+            [
+                "crit",
+                10
+            ],
+            [
+                "weight",
+                5
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Sword"
+            ],
+            [
+                "uses",
+                40
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "Dragon",
+                        "Monster",
+                        "Cyrehn",
+                        "Nephyliae"
+                    ],
+                    "effective_multiplier": 1.0,
+                    "effective_bonus_damage": 14,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
+            ],
+            [
+                "prf_unit",
+                [
+                    "Amaya"
+                ]
+            ],
+            [
+                "battle_cast_anim",
+                "Shine"
+            ]
+        ]
+    },
+    {
+        "nid": "Galatine",
+        "name": "Galatine",
+        "desc": "Kitezh sacred treasure. Int+10.\nLake Lady only. Eff vs Dragons, Horses.",
+        "icon_nid": "Sword",
+        "icon_index": [
+            0,
+            18
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "damage",
+                16
+            ],
+            [
+                "hit",
+                90
+            ],
+            [
+                "weapon_type",
+                "Sword"
+            ],
+            [
+                "uses",
+                30
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "weight",
+                9
+            ],
+            [
+                "status_on_equip",
+                "Resistance_Plus5"
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "Dragon",
+                        "Horse"
+                    ],
+                    "effective_multiplier": 1.0,
+                    "effective_bonus_damage": 32,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
+            ],
+            [
+                "prf_class",
+                [
+                    "LakeLady"
+                ]
+            ],
+            [
+                "multi_item",
+                [
+                    "Deluge"
+                ]
+            ]
+        ]
+    },
+    {
         "nid": "Bronze_Lance",
         "name": "Bronze Lance",
         "desc": "",
@@ -2072,6 +2550,12 @@
                     "lose_uses_on_miss": false,
                     "one_loss_per_combat": false
                 }
+            ],
+            [
+                "item_tags",
+                [
+                    "Bronze"
+                ]
             ]
         ]
     },
@@ -2143,6 +2627,12 @@
                     "lose_uses_on_miss": false,
                     "one_loss_per_combat": false
                 }
+            ],
+            [
+                "item_tags",
+                [
+                    "Steel"
+                ]
             ]
         ]
     },
@@ -2214,6 +2704,12 @@
                     "lose_uses_on_miss": false,
                     "one_loss_per_combat": false
                 }
+            ],
+            [
+                "item_tags",
+                [
+                    "Iron"
+                ]
             ]
         ]
     },
@@ -2253,7 +2749,7 @@
             ],
             [
                 "weapon_rank",
-                "D"
+                "S"
             ],
             [
                 "uses",
@@ -2289,6 +2785,12 @@
             [
                 "max_range",
                 1
+            ],
+            [
+                "item_tags",
+                [
+                    "Steel"
+                ]
             ]
         ]
     },
@@ -2360,6 +2862,12 @@
                     "lose_uses_on_miss": false,
                     "one_loss_per_combat": false
                 }
+            ],
+            [
+                "item_tags",
+                [
+                    "Mythril"
+                ]
             ]
         ]
     },
@@ -2422,7 +2930,7 @@
             ],
             [
                 "status_on_hit",
-                "Poisoned"
+                "Curse"
             ],
             [
                 "min_range",
@@ -2431,6 +2939,12 @@
             [
                 "max_range",
                 1
+            ],
+            [
+                "item_tags",
+                [
+                    "Damazos"
+                ]
             ]
         ]
     },
@@ -2577,6 +3091,12 @@
                     "lose_uses_on_miss": false,
                     "one_loss_per_combat": false
                 }
+            ],
+            [
+                "item_tags",
+                [
+                    "Iron"
+                ]
             ]
         ]
     },
@@ -2648,6 +3168,12 @@
             [
                 "max_range",
                 2
+            ],
+            [
+                "item_tags",
+                [
+                    "Steel"
+                ]
             ]
         ]
     },
@@ -2719,6 +3245,12 @@
                     "lose_uses_on_miss": false,
                     "one_loss_per_combat": false
                 }
+            ],
+            [
+                "item_tags",
+                [
+                    "Mythril"
+                ]
             ]
         ]
     },
@@ -3043,6 +3575,12 @@
                     "show_effectiveness_flash": true,
                     "weapon_effectiveness_multiplied": true
                 }
+            ],
+            [
+                "item_tags",
+                [
+                    "Adamantium"
+                ]
             ]
         ]
     },
@@ -3197,7 +3735,7 @@
             [
                 "prf_unit",
                 [
-                    "Miriam"
+                    "Lukas"
                 ]
             ],
             [
@@ -3362,12 +3900,6 @@
             [
                 "max_range",
                 1
-            ],
-            [
-                "prf_unit",
-                [
-                    "Miriam"
-                ]
             ],
             [
                 "effective_damage",
@@ -3730,7 +4262,7 @@
             ],
             [
                 "status_on_hit",
-                "Poisoned"
+                "Curse"
             ],
             [
                 "min_range",
@@ -5132,7 +5664,7 @@
             ],
             [
                 "status_on_hit",
-                "Poisoned"
+                "Curse"
             ],
             [
                 "weight",
@@ -5878,7 +6410,7 @@
             ],
             [
                 "weapon_type",
-                "Staff"
+                "Runic"
             ],
             [
                 "weapon_rank",
@@ -5941,7 +6473,7 @@
             ],
             [
                 "weapon_type",
-                "Staff"
+                "Runic"
             ],
             [
                 "weapon_rank",
@@ -6004,7 +6536,7 @@
             ],
             [
                 "weapon_type",
-                "Staff"
+                "Runic"
             ],
             [
                 "weapon_rank",
@@ -6083,7 +6615,7 @@
             ],
             [
                 "weapon_type",
-                "Staff"
+                "Runic"
             ],
             [
                 "weapon_rank",
@@ -6162,7 +6694,7 @@
             ],
             [
                 "weapon_type",
-                "Staff"
+                "Runic"
             ],
             [
                 "weapon_rank",
@@ -6233,7 +6765,7 @@
             ],
             [
                 "weapon_type",
-                "Staff"
+                "Runic"
             ],
             [
                 "weapon_rank",
@@ -6284,7 +6816,7 @@
             ],
             [
                 "weapon_type",
-                "Staff"
+                "Runic"
             ],
             [
                 "weapon_rank",
@@ -6347,7 +6879,7 @@
             ],
             [
                 "weapon_type",
-                "Staff"
+                "Runic"
             ],
             [
                 "weapon_rank",
@@ -6434,7 +6966,7 @@
             ],
             [
                 "weapon_type",
-                "Staff"
+                "Runic"
             ],
             [
                 "weapon_rank",
@@ -6493,7 +7025,7 @@
             ],
             [
                 "weapon_type",
-                "Staff"
+                "Runic"
             ],
             [
                 "weapon_rank",
@@ -6560,7 +7092,7 @@
             ],
             [
                 "weapon_type",
-                "Staff"
+                "Runic"
             ],
             [
                 "weapon_rank",
@@ -6643,7 +7175,7 @@
             ],
             [
                 "weapon_type",
-                "Staff"
+                "Runic"
             ],
             [
                 "weapon_rank",
@@ -6710,7 +7242,7 @@
             ],
             [
                 "weapon_type",
-                "Staff"
+                "Runic"
             ],
             [
                 "weapon_rank",
@@ -6769,7 +7301,7 @@
             ],
             [
                 "weapon_type",
-                "Staff"
+                "Runic"
             ],
             [
                 "weapon_rank",
@@ -6832,7 +7364,7 @@
             ],
             [
                 "weapon_type",
-                "Staff"
+                "Runic"
             ],
             [
                 "weapon_rank",
@@ -6978,7 +7510,7 @@
             ],
             [
                 "weapon_type",
-                "Staff"
+                "Runic"
             ],
             [
                 "weapon_rank",
@@ -7128,12 +7660,16 @@
             ],
             [
                 "weapon_type",
-                "Staff"
+                "Runic"
             ],
             [
                 "prf_unit",
                 [
-                    "Miriam"
+                    "Svetlanya",
+                    "Shayala",
+                    "Gaeya",
+                    "Melodia",
+                    "Nala"
                 ]
             ],
             [
@@ -13318,7 +13854,7 @@
             ],
             [
                 "weapon_type",
-                "Staff"
+                "Runic"
             ],
             [
                 "magic",
@@ -13785,7 +14321,7 @@
         "components": [
             [
                 "status_on_hit",
-                "Poisoned"
+                "Curse"
             ],
             [
                 "weapon",
@@ -13845,7 +14381,7 @@
         "components": [
             [
                 "status_on_hit",
-                "Poisoned"
+                "Curse"
             ],
             [
                 "weapon",
@@ -14317,7 +14853,7 @@
             ],
             [
                 "restore_specific",
-                "Poisoned"
+                "Curse"
             ]
         ]
     },
@@ -15384,7 +15920,7 @@
             ],
             [
                 "event_on_hit",
-                "Global Summon Phantom"
+                "Global Summon Soldiers"
             ]
         ]
     },

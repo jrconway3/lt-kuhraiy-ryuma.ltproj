@@ -1,32 +1,10 @@
 [
     {
-        "nid": "_OestridelChurch",
-        "name": "Oestridel Cathedral",
-        "tilemap": "Oestridel Church",
-        "bg_tilemap": null,
-        "party": "Miriam",
-        "music": {},
-        "objective": {
-            "simple": "Explore",
-            "win": "N/A",
-            "loss": "N/A"
-        },
-        "roam": true,
-        "roam_unit": "Miriam",
-        "go_to_overworld": false,
-        "should_record": true,
-        "tags": [],
-        "units": [],
-        "regions": [],
-        "unit_groups": [],
-        "ai_groups": []
-    },
-    {
-        "nid": "_Oestridel",
+        "nid": "_1_1",
         "name": "Trade City Oestridel",
         "tilemap": "Trade City Oestridel",
         "bg_tilemap": null,
-        "party": "Miriam",
+        "party": "Svetlanya",
         "music": {
             "player_phase": "Bumming Around in Pixeltown_Looping"
         },
@@ -36,7 +14,7 @@
             "loss": "N/A"
         },
         "roam": true,
-        "roam_unit": "Miriam",
+        "roam_unit": "Svetlanya",
         "go_to_overworld": false,
         "should_record": false,
         "tags": [],
@@ -198,11 +176,28 @@
                     4,
                     1
                 ],
-                "sub_nid": "Oestridel_North_Church",
+                "sub_nid": "Oestridel_Enter_North_Church",
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
-                "interrupt_move": false
+                "interrupt_move": true
+            },
+            {
+                "nid": "E_Church",
+                "region_type": "event",
+                "position": [
+                    32,
+                    25
+                ],
+                "size": [
+                    1,
+                    2
+                ],
+                "sub_nid": "Oestridel_Enter_East_Church",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": true
             }
         ],
         "unit_groups": [
@@ -229,19 +224,36 @@
                 "positions": {}
             }
         ],
-        "ai_groups": [
-            {
-                "nid": "",
-                "trigger_threshold": 1
-            }
-        ]
+        "ai_groups": []
+    },
+    {
+        "nid": "_1_2",
+        "name": "Oestridel Cathedral",
+        "tilemap": "Oestridel Church",
+        "bg_tilemap": null,
+        "party": "Svetlanya",
+        "music": {},
+        "objective": {
+            "simple": "Explore",
+            "win": "N/A",
+            "loss": "N/A"
+        },
+        "roam": true,
+        "roam_unit": "Svetlanya",
+        "go_to_overworld": false,
+        "should_record": true,
+        "tags": [],
+        "units": [],
+        "regions": [],
+        "unit_groups": [],
+        "ai_groups": []
     },
     {
         "nid": "0",
         "name": "Prologue - Lady of Oestridel",
         "tilemap": "Ch0",
         "bg_tilemap": null,
-        "party": "Miriam",
+        "party": "Svetlanya",
         "music": {
             "player_phase": "Chapter - Intense (Seiken Densetsu 3, Nuclear Fusion by MrGreen3339)",
             "enemy_phase": "Battle - Enemy (Suikoden, Army Advance by Pandan)",
@@ -262,7 +274,7 @@
         "tags": [],
         "units": [
             {
-                "nid": "Miriam",
+                "nid": "Svetlanya",
                 "team": "player",
                 "ai": "None",
                 "roam_ai": null,
@@ -298,7 +310,7 @@
                 "generic": false
             },
             {
-                "nid": "Bella",
+                "nid": "Isabella",
                 "team": "player",
                 "ai": "None",
                 "roam_ai": null,
@@ -338,7 +350,7 @@
                 "faction": "Siegwang",
                 "starting_items": [
                     [
-                        "Slim_Sword",
+                        "Epee",
                         false
                     ]
                 ],
@@ -362,7 +374,7 @@
                 "faction": "Siegwang",
                 "starting_items": [
                     [
-                        "Slim_Sword",
+                        "Epee",
                         false
                     ]
                 ],
@@ -386,7 +398,7 @@
                 "faction": "Masa",
                 "starting_items": [
                     [
-                        "Slim_Sword",
+                        "Epee",
                         false
                     ]
                 ],
@@ -410,7 +422,7 @@
                 "faction": "Masa",
                 "starting_items": [
                     [
-                        "Slim_Sword",
+                        "Epee",
                         false
                     ]
                 ],
@@ -434,7 +446,7 @@
                 "faction": "Masa",
                 "starting_items": [
                     [
-                        "Slim_Sword",
+                        "Epee",
                         false
                     ]
                 ],
@@ -470,7 +482,7 @@
                 "nid": "LeilandArmy",
                 "units": [
                     "Leiland",
-                    "Bella",
+                    "Isabella",
                     "Amaya"
                 ],
                 "positions": {
@@ -478,13 +490,13 @@
                         18,
                         8
                     ],
-                    "Bella": [
-                        19,
-                        7
-                    ],
                     "Amaya": [
                         19,
                         9
+                    ],
+                    "Isabella": [
+                        19,
+                        7
                     ]
                 }
             }
@@ -496,7 +508,7 @@
         "name": "Chapter 5",
         "tilemap": null,
         "bg_tilemap": null,
-        "party": "Miriam",
+        "party": "Svetlanya",
         "music": {},
         "objective": {
             "simple": "",
@@ -518,7 +530,7 @@
         "name": "Chapter 7",
         "tilemap": "Chapter 6",
         "bg_tilemap": null,
-        "party": "Miriam",
+        "party": "Svetlanya",
         "music": {},
         "objective": {
             "simple": "Protect the Villagers",
@@ -540,7 +552,7 @@
         "name": "Chapter 9",
         "tilemap": "Chapter 5_1",
         "bg_tilemap": null,
-        "party": "Miriam",
+        "party": "Svetlanya",
         "music": {},
         "objective": {
             "simple": "",
@@ -562,7 +574,7 @@
         "name": "Chapter 10",
         "tilemap": null,
         "bg_tilemap": null,
-        "party": "Miriam",
+        "party": "Svetlanya",
         "music": {},
         "objective": {
             "simple": "",
@@ -584,7 +596,7 @@
         "name": "Prologue",
         "tilemap": "Prologue",
         "bg_tilemap": null,
-        "party": "Miriam",
+        "party": "Svetlanya",
         "music": {
             "player_phase": "Chapter - Simple (Riviera, Heaven's Gate by Pikmin1211)",
             "enemy_phase": "Battle - Enemy (Suikoden, Army Advance by Pandan)",
@@ -608,7 +620,7 @@
         "tags": [],
         "units": [
             {
-                "nid": "Miriam",
+                "nid": "Svetlanya",
                 "team": "player",
                 "ai": "None",
                 "roam_ai": null,
@@ -722,7 +734,7 @@
         "name": "Ch. 1: Escape!",
         "tilemap": "Chapter 1",
         "bg_tilemap": null,
-        "party": "Miriam",
+        "party": "Svetlanya",
         "music": {
             "player_phase": "Distant Roads",
             "enemy_phase": "Shadow of the Enemy",
@@ -745,7 +757,7 @@
         "tags": [],
         "units": [
             {
-                "nid": "Miriam",
+                "nid": "Svetlanya",
                 "team": "player",
                 "ai": "None",
                 "roam_ai": null,
@@ -1200,7 +1212,7 @@
             {
                 "nid": "EirikaSeth",
                 "units": [
-                    "Miriam",
+                    "Svetlanya",
                     "Amaya"
                 ],
                 "positions": {}
@@ -1213,7 +1225,7 @@
         "name": "Ch. 2: The Protected",
         "tilemap": "Chapter 2",
         "bg_tilemap": null,
-        "party": "Miriam",
+        "party": "Svetlanya",
         "music": {
             "player_phase": "Distant Roads",
             "enemy_phase": "Shadow of the Enemy",
@@ -1236,7 +1248,7 @@
         "tags": [],
         "units": [
             {
-                "nid": "Miriam",
+                "nid": "Svetlanya",
                 "team": "player",
                 "ai": "None",
                 "roam_ai": null,
@@ -1702,7 +1714,7 @@
             {
                 "nid": "BlueTeam",
                 "units": [
-                    "Miriam",
+                    "Svetlanya",
                     "Amaya",
                     "Leiland",
                     "Dehren",
@@ -1718,7 +1730,7 @@
         "name": "Ch. 3: The Bandits of Borgo",
         "tilemap": "Chapter 3",
         "bg_tilemap": null,
-        "party": "Miriam",
+        "party": "Svetlanya",
         "music": {
             "player_phase": null,
             "enemy_phase": null,
@@ -1741,7 +1753,7 @@
         "tags": [],
         "units": [
             {
-                "nid": "Miriam",
+                "nid": "Svetlanya",
                 "team": "player",
                 "ai": "None",
                 "roam_ai": null,
@@ -2328,7 +2340,7 @@
             {
                 "nid": "PlayerTeam",
                 "units": [
-                    "Miriam",
+                    "Svetlanya",
                     "Amaya",
                     "Leiland",
                     "Dehren",
@@ -2348,7 +2360,7 @@
         "name": "Ch. 4: Ancient Horrors",
         "tilemap": "Chapter 4",
         "bg_tilemap": null,
-        "party": "Miriam",
+        "party": "Svetlanya",
         "music": {
             "player_phase": null,
             "enemy_phase": null,
@@ -2371,7 +2383,7 @@
         "tags": [],
         "units": [
             {
-                "nid": "Miriam",
+                "nid": "Svetlanya",
                 "team": "player",
                 "ai": "None",
                 "roam_ai": null,
@@ -3316,7 +3328,7 @@
             {
                 "nid": "PlayerTeam",
                 "units": [
-                    "Miriam",
+                    "Svetlanya",
                     "Amaya",
                     "Dehren",
                     "Yarda",
@@ -3366,7 +3378,7 @@
         "name": "Ch. 5: The Empire's Reach",
         "tilemap": "Chapter 5",
         "bg_tilemap": null,
-        "party": "Miriam",
+        "party": "Svetlanya",
         "music": {
             "player_phase": null,
             "enemy_phase": null,
@@ -3389,7 +3401,7 @@
         "tags": [],
         "units": [
             {
-                "nid": "Miriam",
+                "nid": "Svetlanya",
                 "team": "player",
                 "ai": "None",
                 "roam_ai": null,
@@ -4319,7 +4331,7 @@
         "name": "DEBUG",
         "tilemap": "Chapter 2",
         "bg_tilemap": null,
-        "party": "Miriam",
+        "party": "Svetlanya",
         "music": {
             "player_phase": "Shadow of the Enemy",
             "enemy_phase": null,
@@ -4355,7 +4367,7 @@
                 "generic": false
             },
             {
-                "nid": "Miriam",
+                "nid": "Svetlanya",
                 "team": "player",
                 "ai": "None",
                 "roam_ai": null,

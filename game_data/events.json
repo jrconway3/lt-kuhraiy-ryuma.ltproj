@@ -76,22 +76,22 @@
         "only_once": false,
         "priority": 20,
         "_source": [
-            "remove_unit;Miriam;immediate",
+            "remove_unit;Svetlanya;immediate",
             "remove_unit;Kasuto;immediate",
             "remove_group;Enemy1;immediate",
-            "add_unit;Miriam;4,3;immediate",
-            "add_portrait;Miriam;MidLeft;Middle;CloseEyes",
-            "speak;Miriam;...|Oh holy mother...|Blessed be this wondrous day. Guide me as I walk this path...",
-            "remove_portrait;Miriam;",
+            "add_unit;Svetlanya;4,3;immediate",
+            "add_portrait;Svetlanya;MidLeft;Middle;CloseEyes",
+            "speak;Svetlanya;...|Oh holy mother...|Blessed be this wondrous day. Guide me as I walk this path...",
+            "remove_portrait;Svetlanya;",
             "add_unit;Kasuto;10,11;immediate",
             "move_unit;Kasuto;4,4",
-            "multi_add_portrait;Miriam;MidLeft;Kasuto;MidRight;",
+            "multi_add_portrait;Svetlanya;MidLeft;Kasuto;MidRight;",
             "speak;Kasuto;My dear child... what troubles you so?",
             "wait;1000",
-            "speak;Miriam;...|Sister Kasuto! From when had you arrived?|Were you not yet still on your latest pilgrimage?",
-            "speak;Kasuto;My apologies, Lady Miriam.|Naught should I have left so suddenly during your time of need.",
-            "mirror_portrait;Miriam;",
-            "speak;Miriam;Truly you need not worry about my troubles.|Others far more need your aid that that of I!",
+            "speak;Svetlanya;...|Sister Kasuto! From when had you arrived?|Were you not yet still on your latest pilgrimage?",
+            "speak;Kasuto;My apologies, Lady Svetlanya.|Naught should I have left so suddenly during your time of need.",
+            "mirror_portrait;Svetlanya;",
+            "speak;Svetlanya;Truly you need not worry about my troubles.|Others far more need your aid than that of I!",
             "change_tilemap;Ch0"
         ],
         "nid": "Global Intro"
@@ -3191,5 +3191,20 @@
             ""
         ],
         "nid": "Global CombatMercy"
+    },
+    {
+        "name": "BurnWeapons",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "if;'Oak' in [obj for obj in list_of_objects if obj is good]",
+            "    ",
+            "end"
+        ],
+        "nid": "Global BurnWeapons"
     }
 ]

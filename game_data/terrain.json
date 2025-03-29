@@ -177,7 +177,7 @@
         "background": "combat_sea",
         "mtype": "Lake",
         "opaque": false,
-        "status": "Avoid10"
+        "status": "Water"
     },
     {
         "nid": "11",
@@ -192,7 +192,7 @@
         "background": "combat_sea",
         "mtype": "Sea",
         "opaque": false,
-        "status": "Avoid10"
+        "status": "Sea"
     },
     {
         "nid": "12",
@@ -207,7 +207,7 @@
         "background": "combat_river",
         "mtype": "River",
         "opaque": false,
-        "status": null
+        "status": "Water"
     },
     {
         "nid": "13",
@@ -222,7 +222,7 @@
         "background": "combat_river",
         "mtype": "Rapids",
         "opaque": false,
-        "status": null
+        "status": "Water"
     },
     {
         "nid": "14",
@@ -237,7 +237,7 @@
         "background": "combat_sea",
         "mtype": "Deepsea",
         "opaque": false,
-        "status": "Avoid10"
+        "status": "Water"
     },
     {
         "nid": "15",

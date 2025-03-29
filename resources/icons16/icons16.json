@@ -55,7 +55,12 @@
     },
     {
         "nid": "Neutral",
-        "subicon_dict": {}
+        "subicon_dict": {
+            "Neutral 0, 0": [
+                0,
+                0
+            ]
+        }
     },
     {
         "nid": "Skills",
@@ -63,6 +68,22 @@
             "Skills 1, 2": [
                 1,
                 2
+            ],
+            "Skills 9, 10": [
+                9,
+                10
+            ],
+            "Skills 0, 2": [
+                0,
+                2
+            ],
+            "Skills 8, 10": [
+                8,
+                10
+            ],
+            "Skills 10, 0": [
+                10,
+                0
             ]
         }
     },
@@ -138,6 +159,14 @@
             "{Beansy} {Swords} All Icons 1, 4": [
                 1,
                 4
+            ],
+            "{Beansy} {Swords} All Icons 0, 1": [
+                0,
+                1
+            ],
+            "{Beansy} {Swords} All Icons 0, 6": [
+                0,
+                6
             ]
         }
     },
@@ -175,7 +204,12 @@
     },
     {
         "nid": "{Zelix} [WEP] FE13-FE14 Pack",
-        "subicon_dict": {}
+        "subicon_dict": {
+            "{Zelix} [WEP] FE13-FE14 Pack 4, 0": [
+                4,
+                0
+            ]
+        }
     },
     {
         "nid": "{Zelix} FE11&13-style weapons",
@@ -261,12 +295,25 @@
             "{Tactics Ogre LUCT, EldritchAbo, serebii01} Item Icon Sheet 1 13, 15": [
                 13,
                 15
+            ],
+            "{Tactics Ogre LUCT, EldritchAbo, serebii01} Item Icon Sheet 1 0, 14": [
+                0,
+                14
             ]
         }
     },
     {
         "nid": "{Tactics Ogre LUCT, EldritchAbo, serebii01} Item Icon Sheet 2",
-        "subicon_dict": {}
+        "subicon_dict": {
+            "{Tactics Ogre LUCT, EldritchAbo, serebii01} Item Icon Sheet 2 10, 4": [
+                10,
+                4
+            ],
+            "{Tactics Ogre LUCT, EldritchAbo, serebii01} Item Icon Sheet 2 8, 3": [
+                8,
+                3
+            ]
+        }
     },
     {
         "nid": "{Tactics Ogre LUCT, EldritchAbo, serebii01} Item Icon Sheet 3",
