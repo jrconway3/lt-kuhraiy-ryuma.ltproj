@@ -462,55 +462,65 @@ Obstacle (Obstacle FE14 by Alice)
 ##### Staves
 Vanilla - IS
 
-###### Fire / Lightning / Wind / Ice Spells (Classified as Anima)
+###### Fire Spells
 Fireball (Vanilla Fire by IS)
 Flare Burst (Binding Blade Fire by SHYUTERz, IS)
 Flame Wall (Flame Sweep by Scraiza)
 Explosion (Bakuretsu Remake /Thunderfire Blast by Shyuterz)
 Eruption (DS Bolganone by Mikey_Seregon)
+
+###### Electric Spells
 Static (Vertical Light Blast by Scraiza)
 Shockwave (Archthunder by BwdYeti)
 High Voltage (Lazm Thunder by Windsweep)
 Thunderstorm (Super Thunderstorm by SHYUTERz)
 Lightning Bolt (Dire Thunder by Orihara_Saki)
+Ultima (Ragnarok by Arch)
+
+###### Ice Spells
 Icicle (Ice Shard by Sme, Compile)
 Frostbite (Supercool by Mikey_Seregon)
-Frost Launcher (Ice Horn by Mikey_Seregon)
+Hail (Ice Horn by Mikey_Seregon)
 Glacier (Hail by Mikey_Seregon)
 Fimbulvetr (Fimbuvletr by IS)
+
+###### Wind Spells
 Gust (Shaver by Blazer, BwdYeti)
 Air Current (Aircalibur by Mikey_Seregon)
 Wind Cutter (DS Excalibur by Mikey_Seregon)
 Tornado (GS Tempest by Mikey_Seregon)
 Hurricane (Super Excalibur by SHYUTERz)
-
 Ragnarok (Gigafire by SHYUTERz)
-Ultima (Ragnarok by Arch)
 
-
-###### Water / Light Spells (Classified as Light)
+###### Water Spells
 Healing Water (Heal by IS)
 Aqua Edge (Aqua Edge by Bonzai, Blazer)
-Wave (FF5 Tidal Wave by St Jack)
-Flood (Aqua by Alusq)
+Splash (Aqua by Alusq)
+Deluge (Donbettyr by Alusq)
+Water Blast (BlueExplosion by Scraiza)
 Healing Rain (Physic by IS)
-Water Dragon (Frostbite by Struedelmuffin, Alusq)
-Glimmer ()
+Leviathan (Frostbite by Struedelmuffin, Alusq)
+
+###### Light Spells
+Glimmer (Lightning by IS)
 Life Energy ()
-Shine ()
+Shine (Shine by IS)
 Ray (Javelin Rain by Scraiza)
 Starlight (Starlight by Blazer, Jubby)
 Solar Flare (Exordium by Arch)
 Excalibur (Thani / DS Aura by Mikey_Seregon)
 Arrow of Alternia (Dimensional Light by PMD, redblueyellow, Jj09)
 
-###### Earth / Dark Spells (Classified as Dark)
+###### Earth Spells
 Stone (FEH Stone by Norikins)
 Boulder (FEH Elstone by Norikins)
 Rend Terra (FEH Atlas by Norikins)
 Quake (Ground Dasher by Bonzai, Blazer)
-Nature's Wrath (GS Mad Growth by Mikey_Seregon)
+Gaeya's Wrath (GS Mad Growth by Mikey_Seregon)
+Jormungandr (Demonic Tome by Norikins)
 Meteor (Meteor by Blazer, Jubby)
+
+###### Dark Spells
 Tendril (Vanilla Flux by IS)
 Leech (Resire Fast by MisakoMikoto, 7743)
 Bleed (Purple Blast by Scraiza)

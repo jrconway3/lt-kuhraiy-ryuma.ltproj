@@ -413,6 +413,10 @@
             [
                 "Vulnerary",
                 false
+            ],
+            [
+                "Lightning_Blade",
+                false
             ]
         ],
         "learned_skills": [],

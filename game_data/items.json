@@ -397,6 +397,28 @@
                 [
                     "Mythril"
                 ]
+            ],
+            [
+                "multi_item",
+                [
+                    "Lightning_Blade2"
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Lightning_Blade2",
+        "name": "Attack",
+        "desc": "Attack with Fulgus. Eff vs Daemons, Nephyliae.",
+        "icon_nid": "{Beansy} {Swords} All Icons",
+        "icon_index": [
+            3,
+            4
+        ],
+        "components": [
+            [
+                "item_prefab",
+                "Lightning_Blade"
             ]
         ]
     },
@@ -7683,7 +7705,7 @@
     {
         "nid": "Glimmer",
         "name": "Glimmer",
-        "desc": "",
+        "desc": "Weakest holy magic. Eff vs daemons.",
         "icon_nid": "Light",
         "icon_index": [
             0,
@@ -7855,7 +7877,7 @@
     {
         "nid": "Shine",
         "name": "Shine",
-        "desc": "",
+        "desc": "Moderate holy magic. Eff vs daemons.",
         "icon_nid": "Light",
         "icon_index": [
             0,
@@ -7956,7 +7978,7 @@
     {
         "nid": "Ray",
         "name": "Ray",
-        "desc": "",
+        "desc": "Strong holy magic. Eff vs daemons.",
         "icon_nid": "Light",
         "icon_index": [
             0,
@@ -8053,7 +8075,7 @@
     {
         "nid": "SolarFlare",
         "name": "Solar Flare",
-        "desc": "",
+        "desc": "Strong long-range holy magic. Eff vs daemons.",
         "icon_nid": "Light",
         "icon_index": [
             0,
@@ -8154,7 +8176,7 @@
     {
         "nid": "Starlight",
         "name": "Starlight",
-        "desc": "",
+        "desc": "Powerful holy magic. Eff vs daemons.",
         "icon_nid": "Light",
         "icon_index": [
             0,
@@ -8352,7 +8374,7 @@
     {
         "nid": "Airyukin",
         "name": "Airyukin",
-        "desc": "Summons a dragon of light to smite evil.",
+        "desc": "A dragon of light smites evil. Eff vs daemons.",
         "icon_nid": "Light",
         "icon_index": [
             0,
@@ -8443,6 +8465,12 @@
                     "show_effectiveness_flash": true,
                     "weapon_effectiveness_multiplied": true
                 }
+            ],
+            [
+                "prf_unit",
+                [
+                    "Kasuto"
+                ]
             ]
         ]
     },
@@ -12969,6 +12997,66 @@
         ]
     },
     {
+        "nid": "Jormungandr",
+        "name": "Jormungandr",
+        "desc": "Sacred tome of Daemonia.",
+        "icon_nid": "Dark",
+        "icon_index": [
+            0,
+            6
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "damage",
+                25
+            ],
+            [
+                "hit",
+                95
+            ],
+            [
+                "weapon_type",
+                "Tellus"
+            ],
+            [
+                "weapon_rank",
+                "S"
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "weight",
+                18
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                2
+            ]
+        ]
+    },
+    {
         "nid": "CorrosiveBreath",
         "name": "Corrosive Breath",
         "desc": "Breath magic. Ignore's enemy defence. Dragons only.",
@@ -13693,66 +13781,6 @@
             [
                 "wexp",
                 3
-            ],
-            [
-                "min_range",
-                1
-            ],
-            [
-                "max_range",
-                2
-            ]
-        ]
-    },
-    {
-        "nid": "Jormun",
-        "name": "Jormun",
-        "desc": "Sacred tome of Daemonia.",
-        "icon_nid": "Dark",
-        "icon_index": [
-            0,
-            6
-        ],
-        "components": [
-            [
-                "weapon",
-                null
-            ],
-            [
-                "target_enemy",
-                null
-            ],
-            [
-                "level_exp",
-                null
-            ],
-            [
-                "damage",
-                25
-            ],
-            [
-                "hit",
-                95
-            ],
-            [
-                "weapon_type",
-                "Lunis"
-            ],
-            [
-                "weapon_rank",
-                "S"
-            ],
-            [
-                "magic",
-                null
-            ],
-            [
-                "weight",
-                18
-            ],
-            [
-                "crit",
-                0
             ],
             [
                 "min_range",
