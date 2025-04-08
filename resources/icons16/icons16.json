@@ -321,15 +321,42 @@
     },
     {
         "nid": "{Ereshkigal} All Tomes",
-        "subicon_dict": {}
+        "subicon_dict": {
+            "{Ereshkigal} All Tomes 2, 0": [
+                2,
+                0
+            ],
+            "{Ereshkigal} All Tomes 6, 0": [
+                6,
+                0
+            ]
+        }
     },
     {
         "nid": "{Batima} All Tomes",
-        "subicon_dict": {}
+        "subicon_dict": {
+            "{Batima} All Tomes 6, 1": [
+                6,
+                1
+            ],
+            "{Batima} All Tomes 9, 2": [
+                9,
+                2
+            ],
+            "{Batima} All Tomes 8, 9": [
+                8,
+                9
+            ]
+        }
     },
     {
         "nid": "{Beansy} All Tomes",
-        "subicon_dict": {}
+        "subicon_dict": {
+            "{Beansy} All Tomes 0, 5": [
+                0,
+                5
+            ]
+        }
     },
     {
         "nid": "wexp_expanded",
