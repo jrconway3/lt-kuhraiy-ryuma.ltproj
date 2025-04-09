@@ -3,10 +3,10 @@
         "nid": "Fort",
         "name": "Fort",
         "desc": "",
-        "icon_nid": "Skills",
+        "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
         "icon_index": [
-            1,
-            2
+            9,
+            15
         ],
         "components": [
             [
@@ -36,10 +36,10 @@
         "nid": "Throne",
         "name": "Throne",
         "desc": "",
-        "icon_nid": "Skills",
+        "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
         "icon_index": [
-            1,
-            2
+            9,
+            15
         ],
         "components": [
             [
@@ -69,10 +69,10 @@
         "nid": "Inn",
         "name": "Inn",
         "desc": "Restore Half Health and 5 Mana each turn.",
-        "icon_nid": "Skills",
+        "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
         "icon_index": [
-            1,
-            2
+            10,
+            15
         ],
         "components": [
             [
@@ -93,10 +93,10 @@
         "nid": "Cathedral",
         "name": "Cathedral",
         "desc": "Fully restore Health and Mana, and restore all status ailments.",
-        "icon_nid": "Skills",
+        "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
         "icon_index": [
-            1,
-            2
+            10,
+            15
         ],
         "components": [
             [
@@ -121,10 +121,10 @@
         "nid": "Forest",
         "name": "Forest",
         "desc": "",
-        "icon_nid": "Skills",
+        "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
         "icon_index": [
-            0,
-            0
+            9,
+            2
         ],
         "components": [
             [
@@ -150,10 +150,10 @@
         "nid": "Mountain",
         "name": "Mountain",
         "desc": "",
-        "icon_nid": "Skills",
+        "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
         "icon_index": [
-            0,
-            0
+            8,
+            2
         ],
         "components": [
             [
@@ -179,10 +179,10 @@
         "nid": "Peak",
         "name": "Peak",
         "desc": "",
-        "icon_nid": "Skills",
+        "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
         "icon_index": [
-            0,
-            0
+            8,
+            2
         ],
         "components": [
             [
@@ -208,10 +208,10 @@
         "nid": "Water",
         "name": "Water",
         "desc": "",
-        "icon_nid": "Skills",
+        "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
         "icon_index": [
-            0,
-            0
+            9,
+            4
         ],
         "components": [
             [
@@ -231,10 +231,10 @@
         "nid": "Sea",
         "name": "Sea",
         "desc": "",
-        "icon_nid": "Skills",
+        "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
         "icon_index": [
-            0,
-            0
+            9,
+            4
         ],
         "components": [
             [
@@ -253,10 +253,10 @@
         "nid": "NoAvoid",
         "name": "NoAvoid",
         "desc": "",
-        "icon_nid": "Skills",
+        "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
         "icon_index": [
-            0,
-            0
+            9,
+            12
         ],
         "components": [
             [
@@ -277,10 +277,10 @@
         "nid": "Avoid10",
         "name": "Avoid10",
         "desc": "",
-        "icon_nid": "Skills",
+        "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
         "icon_index": [
-            0,
-            0
+            9,
+            11
         ],
         "components": [
             [
@@ -297,10 +297,10 @@
         "nid": "Avoid5",
         "name": "Avoid5",
         "desc": "",
-        "icon_nid": "Skills",
+        "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
         "icon_index": [
-            0,
-            0
+            9,
+            11
         ],
         "components": [
             [
@@ -317,10 +317,10 @@
         "nid": "Canter",
         "name": "Canter",
         "desc": "Can move again after certain actions.",
-        "icon_nid": "Skills",
+        "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
         "icon_index": [
-            1,
-            4
+            3,
+            0
         ],
         "components": [
             [
@@ -337,10 +337,10 @@
         "nid": "Flying",
         "name": "Flying",
         "desc": "Can fly.",
-        "icon_nid": "Skills",
+        "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
         "icon_index": [
-            3,
-            10
+            9,
+            16
         ],
         "components": [
             [
@@ -385,10 +385,10 @@
         "nid": "PirateSwim",
         "name": "Pirate Swim",
         "desc": "+10 Avd While in Water",
-        "icon_nid": "Skills",
+        "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
         "icon_index": [
-            0,
-            0
+            4,
+            6
         ],
         "components": [
             [
@@ -409,10 +409,10 @@
         "nid": "QueizaSwim",
         "name": "Queiza Swim",
         "desc": "+2 Movement, +20 Hit/Avd, +5 Spd While in Water",
-        "icon_nid": "Skills",
+        "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
         "icon_index": [
-            0,
-            0
+            4,
+            6
         ],
         "components": [
             [
@@ -446,10 +446,10 @@
         "nid": "QueizaSeaSwim",
         "name": "Queiza Sea Swim",
         "desc": "+2 Movement, +20 Hit/Avd, +5 Spd While in Water\n1 MP Lost Per Turn",
-        "icon_nid": "Skills",
+        "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
         "icon_index": [
-            0,
-            0
+            4,
+            6
         ],
         "components": [
             [
@@ -484,13 +484,42 @@
         ]
     },
     {
+        "nid": "Rescue",
+        "name": "Rescue",
+        "desc": "Unit is weighed down with a traveler.",
+        "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "stat_multiplier",
+                [
+                    [
+                        "SKL",
+                        0.5
+                    ],
+                    [
+                        "SPD",
+                        0.5
+                    ]
+                ]
+            ]
+        ]
+    },
+    {
         "nid": "Armor",
         "name": "Armor",
         "desc": "Negates effective damage except armor, mounts.\nDamage taken reduced by 25%.",
-        "icon_nid": "{Tactics Ogre LUCT, EldritchAbo, serebii01} Item Icon Sheet 2",
+        "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
         "icon_index": [
-            10,
-            4
+            0,
+            17
         ],
         "components": [
             [
@@ -521,10 +550,10 @@
         "nid": "LightArmor",
         "name": "Light Armor",
         "desc": "Negates effective damage except light armor, mounts.\nDamage taken reduced by 5.",
-        "icon_nid": "{Tactics Ogre LUCT, EldritchAbo, serebii01} Item Icon Sheet 2",
+        "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
         "icon_index": [
-            8,
-            3
+            1,
+            17
         ],
         "components": [
             [
@@ -555,10 +584,10 @@
         "nid": "ArmorBreak",
         "name": "Armor Break",
         "desc": "Negates special effects caused by all armor.",
-        "icon_nid": "Boosters",
+        "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
         "icon_index": [
-            0,
-            18
+            4,
+            17
         ],
         "components": [
             [
@@ -571,10 +600,10 @@
         "nid": "Dragonscale",
         "name": "Dragonscale",
         "desc": "Take quarter damage, immune to fatal strikes.\nDragon effective weapons ignore damage reduction.",
-        "icon_nid": "Neutral",
+        "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
         "icon_index": [
-            0,
-            0
+            3,
+            3
         ],
         "components": [
             [
@@ -591,10 +620,10 @@
         "nid": "Rusty",
         "name": "Rusty",
         "desc": "+1 Weapon Weight, +1 Durability Use Per Hit.",
-        "icon_nid": "Skills",
+        "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
         "icon_index": [
-            10,
-            0
+            3,
+            3
         ],
         "components": [
             [
@@ -611,10 +640,10 @@
         "nid": "SelfImmolate",
         "name": "Self-Immolate",
         "desc": "Inflicts Burn after attacking if weapon level is too low.",
-        "icon_nid": "Skills",
+        "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
         "icon_index": [
             8,
-            10
+            4
         ],
         "components": [
             [
@@ -639,10 +668,10 @@
         "nid": "Sword_Hit_Plus10",
         "name": "Sword Hit +10",
         "desc": "",
-        "icon_nid": "Skills",
+        "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
         "icon_index": [
             5,
-            6
+            7
         ],
         "components": [
             [
@@ -1052,13 +1081,47 @@
         ]
     },
     {
-        "nid": "ResistPlus",
-        "name": "Resist+",
-        "desc": "Grants additional RES.",
-        "icon_nid": "Skills",
+        "nid": "StrPlus",
+        "name": "Str+",
+        "desc": "Grants additional STR.",
+        "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
         "icon_index": [
-            5,
-            5
+            8,
+            13
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "RES",
+                        7
+                    ]
+                ]
+            ],
+            [
+                "time",
+                7
+            ],
+            [
+                "upkeep_stat_change",
+                [
+                    [
+                        "RES",
+                        -1
+                    ]
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "ResPlus",
+        "name": "Res+",
+        "desc": "Grants additional RES.",
+        "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
+        "icon_index": [
+            1,
+            14
         ],
         "components": [
             [
@@ -1089,10 +1152,10 @@
         "nid": "Stoneskin",
         "name": "Stoneskin",
         "desc": "Take half damage but inflicts -2 SPD.",
-        "icon_nid": "Skills",
+        "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
         "icon_index": [
-            9,
-            7
+            2,
+            3
         ],
         "components": [
             [
@@ -1109,35 +1172,6 @@
                     [
                         "SPD",
                         -4
-                    ]
-                ]
-            ]
-        ]
-    },
-    {
-        "nid": "Rescue",
-        "name": "Rescue",
-        "desc": "Unit is weighed down with a traveler.",
-        "icon_nid": "Skills",
-        "icon_index": [
-            0,
-            0
-        ],
-        "components": [
-            [
-                "hidden",
-                null
-            ],
-            [
-                "stat_multiplier",
-                [
-                    [
-                        "SKL",
-                        0.5
-                    ],
-                    [
-                        "SPD",
-                        0.5
                     ]
                 ]
             ]
@@ -1196,10 +1230,10 @@
         "nid": "Miracle",
         "name": "Miracle",
         "desc": "HP cannot drop below 1.",
-        "icon_nid": "Skills",
+        "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
         "icon_index": [
-            1,
-            3
+            7,
+            16
         ],
         "components": [
             [
@@ -1212,10 +1246,10 @@
         "nid": "Miracle2",
         "name": "Miracle+",
         "desc": "HP cannot drop below 1.",
-        "icon_nid": "Skills",
+        "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
         "icon_index": [
-            1,
-            3
+            7,
+            16
         ],
         "components": [
             [
@@ -1225,13 +1259,13 @@
         ]
     },
     {
-        "nid": "Torch",
-        "name": "Torch",
+        "nid": "Light",
+        "name": "Light",
         "desc": "Grants increased sight range in fog of war.",
-        "icon_nid": "Skills",
+        "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
         "icon_index": [
-            8,
-            5
+            10,
+            4
         ],
         "components": [
             [
@@ -1248,10 +1282,10 @@
         "nid": "Steal",
         "name": "Steal",
         "desc": "Can steal items from enemies with lower speed.",
-        "icon_nid": "Skills",
+        "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
         "icon_index": [
-            7,
-            10
+            9,
+            6
         ],
         "components": [
             [
@@ -1269,43 +1303,498 @@
         ]
     },
     {
-        "nid": "Demon_Light",
-        "name": "Demon Light",
-        "desc": "Grants MAG +10, SKL +10, LCK +10, DEF +10, RES +15.",
-        "icon_nid": "Neutral",
+        "nid": "Strength_Plus2",
+        "name": "Strength +2",
+        "desc": "Grants STR +2.",
+        "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
         "icon_index": [
-            0,
-            3
+            11,
+            1
         ],
         "components": [
             [
-                "hidden",
-                null
+                "stat_change",
+                [
+                    [
+                        "STR",
+                        2
+                    ]
+                ]
             ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Strength_Plus5",
+        "name": "Strength +5",
+        "desc": "Grants STR +5.",
+        "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
+        "icon_index": [
+            11,
+            1
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "STR",
+                        5
+                    ]
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Strength_Plus10",
+        "name": "Strength +10",
+        "desc": "Grants STR +10.",
+        "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
+        "icon_index": [
+            11,
+            1
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "STR",
+                        10
+                    ]
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Magic_Plus2",
+        "name": "Int +2",
+        "desc": "Grants INT +2.",
+        "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
+        "icon_index": [
+            9,
+            1
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "MAG",
+                        2
+                    ]
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Magic_Plus5",
+        "name": "Int +5",
+        "desc": "Grants INT +5.",
+        "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
+        "icon_index": [
+            9,
+            1
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "MAG",
+                        5
+                    ]
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Magic_Plus10",
+        "name": "Int +10",
+        "desc": "Grants INT +10.",
+        "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
+        "icon_index": [
+            9,
+            1
+        ],
+        "components": [
             [
                 "stat_change",
                 [
                     [
                         "MAG",
                         10
-                    ],
-                    [
-                        "SKL",
-                        10
-                    ],
-                    [
-                        "DEF",
-                        10
-                    ],
+                    ]
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Resistance_Plus2",
+        "name": "Resistance +2",
+        "desc": "Grants RES +2.",
+        "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
+        "icon_index": [
+            7,
+            1
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
                     [
                         "RES",
-                        15
-                    ],
+                        2
+                    ]
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Resistance_Plus5",
+        "name": "Resistance +5",
+        "desc": "Grants RES +5.",
+        "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
+        "icon_index": [
+            7,
+            1
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
                     [
-                        "LCK",
+                        "RES",
+                        5
+                    ]
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Resistance_Plus10",
+        "name": "Resistance +10",
+        "desc": "Grants RES +10.",
+        "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
+        "icon_index": [
+            7,
+            1
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "RES",
                         10
                     ]
                 ]
+            ]
+        ]
+    },
+    {
+        "nid": "Defense_Plus2",
+        "name": "Defense +2",
+        "desc": "Grants DEF +5.",
+        "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
+        "icon_index": [
+            10,
+            1
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "DEF",
+                        2
+                    ]
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Defense_Plus5",
+        "name": "Defense +5",
+        "desc": "Grants DEF +5.",
+        "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
+        "icon_index": [
+            10,
+            1
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "DEF",
+                        5
+                    ]
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Defense_Plus10",
+        "name": "Defense +10",
+        "desc": "Grants DEF +5.",
+        "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
+        "icon_index": [
+            10,
+            1
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "DEF",
+                        10
+                    ]
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Speed_Plus2",
+        "name": "Agility +2",
+        "desc": "Grants AGI +2.",
+        "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
+        "icon_index": [
+            6,
+            1
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "SPD",
+                        2
+                    ]
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Speed_Plus5",
+        "name": "Agility +5",
+        "desc": "Grants AGI +5.",
+        "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
+        "icon_index": [
+            6,
+            1
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "SPD",
+                        5
+                    ]
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Speed_Plus10",
+        "name": "Agility +10",
+        "desc": "Grants AGI +10.",
+        "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
+        "icon_index": [
+            6,
+            1
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "SPD",
+                        10
+                    ]
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Skill_Plus2",
+        "name": "Dex +2",
+        "desc": "Grants DEX +2.",
+        "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
+        "icon_index": [
+            8,
+            1
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "SKL",
+                        2
+                    ]
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Skill_Plus5",
+        "name": "Dex +5",
+        "desc": "Grants DEX +5.",
+        "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
+        "icon_index": [
+            8,
+            1
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "SKL",
+                        5
+                    ]
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Skill_Plus10",
+        "name": "Dex +10",
+        "desc": "Grants DEX +10.",
+        "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
+        "icon_index": [
+            8,
+            1
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "SKL",
+                        10
+                    ]
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Luck_Plus5",
+        "name": "Luck +5",
+        "desc": "Grants LCK +5.",
+        "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
+        "icon_index": [
+            8,
+            15
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "LCK",
+                        5
+                    ]
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Crit_Plus15",
+        "name": "Crit +15",
+        "desc": "Grants +15 Critical change",
+        "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
+        "icon_index": [
+            7,
+            15
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "crit",
+                15
+            ]
+        ]
+    },
+    {
+        "nid": "Crit_Plus30",
+        "name": "Crit +30",
+        "desc": "Grants +30 Critical change",
+        "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
+        "icon_index": [
+            7,
+            15
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "crit",
+                30
+            ]
+        ]
+    },
+    {
+        "nid": "Anticrit",
+        "name": "Anticrit",
+        "desc": "Grants immunity to critical hits.",
+        "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
+        "icon_index": [
+            10,
+            6
+        ],
+        "components": [
+            [
+                "crit_avoid",
+                1000
+            ]
+        ]
+    },
+    {
+        "nid": "Dragonstone",
+        "name": "Dragonstone",
+        "desc": "Grants STR +12, SKL +12, DEF +15, RES+20.",
+        "icon_nid": "Neutral",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "STR",
+                        12
+                    ],
+                    [
+                        "SKL",
+                        12
+                    ],
+                    [
+                        "DEF",
+                        15
+                    ],
+                    [
+                        "RES",
+                        20
+                    ]
+                ]
+            ],
+            [
+                "hidden",
+                null
             ]
         ]
     },
@@ -1384,351 +1873,43 @@
         ]
     },
     {
-        "nid": "Strength_Plus2",
-        "name": "Strength +2",
-        "desc": "Grants STR +2.",
-        "icon_nid": "Skills",
-        "icon_index": [
-            0,
-            1
-        ],
-        "components": [
-            [
-                "stat_change",
-                [
-                    [
-                        "STR",
-                        2
-                    ]
-                ]
-            ],
-            [
-                "class_skill",
-                null
-            ]
-        ]
-    },
-    {
-        "nid": "Strength_Plus5",
-        "name": "Strength +5",
-        "desc": "Grants STR +5.",
-        "icon_nid": "Skills",
-        "icon_index": [
-            11,
-            6
-        ],
-        "components": [
-            [
-                "stat_change",
-                [
-                    [
-                        "STR",
-                        5
-                    ]
-                ]
-            ]
-        ]
-    },
-    {
-        "nid": "Strength_Plus10",
-        "name": "Strength +10",
-        "desc": "Grants STR +10.",
-        "icon_nid": "Skills",
-        "icon_index": [
-            11,
-            1
-        ],
-        "components": [
-            [
-                "stat_change",
-                [
-                    [
-                        "STR",
-                        10
-                    ]
-                ]
-            ]
-        ]
-    },
-    {
-        "nid": "Magic_Plus2",
-        "name": "Int +2",
-        "desc": "Grants INT +2.",
-        "icon_nid": "Skills",
-        "icon_index": [
-            0,
-            2
-        ],
-        "components": [
-            [
-                "stat_change",
-                [
-                    [
-                        "MAG",
-                        2
-                    ]
-                ]
-            ]
-        ]
-    },
-    {
-        "nid": "Magic_Plus5",
-        "name": "Int +5",
-        "desc": "Grants INT +5.",
-        "icon_nid": "Skills",
-        "icon_index": [
-            0,
-            2
-        ],
-        "components": [
-            [
-                "stat_change",
-                [
-                    [
-                        "MAG",
-                        5
-                    ]
-                ]
-            ]
-        ]
-    },
-    {
-        "nid": "Magic_Plus10",
-        "name": "Int +10",
-        "desc": "Grants INT +10.",
-        "icon_nid": "Skills",
-        "icon_index": [
-            11,
-            2
-        ],
-        "components": [
-            [
-                "stat_change",
-                [
-                    [
-                        "MAG",
-                        10
-                    ]
-                ]
-            ]
-        ]
-    },
-    {
-        "nid": "Resistance_Plus5",
-        "name": "Resistance +5",
-        "desc": "Grants RES +5.",
-        "icon_nid": "Skills",
-        "icon_index": [
-            9,
-            9
-        ],
-        "components": [
-            [
-                "stat_change",
-                [
-                    [
-                        "RES",
-                        5
-                    ]
-                ]
-            ]
-        ]
-    },
-    {
-        "nid": "Resistance_Plus10",
-        "name": "Resistance +10",
-        "desc": "Grants RES +10.",
-        "icon_nid": "Skills",
-        "icon_index": [
-            9,
-            10
-        ],
-        "components": [
-            [
-                "stat_change",
-                [
-                    [
-                        "RES",
-                        10
-                    ]
-                ]
-            ]
-        ]
-    },
-    {
-        "nid": "Defense_Plus5",
-        "name": "Defense +5",
-        "desc": "Grants DEF +5.",
-        "icon_nid": "Skills",
-        "icon_index": [
-            9,
-            8
-        ],
-        "components": [
-            [
-                "stat_change",
-                [
-                    [
-                        "DEF",
-                        5
-                    ]
-                ]
-            ]
-        ]
-    },
-    {
-        "nid": "Speed_Plus5",
-        "name": "Agility +5",
-        "desc": "Grants AGI +5.",
-        "icon_nid": "Skills",
-        "icon_index": [
-            11,
-            10
-        ],
-        "components": [
-            [
-                "stat_change",
-                [
-                    [
-                        "SPD",
-                        5
-                    ]
-                ]
-            ]
-        ]
-    },
-    {
-        "nid": "Skill_Plus5",
-        "name": "Dex +5",
-        "desc": "Grants DEX +5.",
-        "icon_nid": "Skills",
-        "icon_index": [
-            11,
-            7
-        ],
-        "components": [
-            [
-                "stat_change",
-                [
-                    [
-                        "SKL",
-                        5
-                    ]
-                ]
-            ]
-        ]
-    },
-    {
-        "nid": "Luck_Plus5",
-        "name": "Luck +5",
-        "desc": "Grants LCK +5.",
-        "icon_nid": "Skills",
-        "icon_index": [
-            11,
-            8
-        ],
-        "components": [
-            [
-                "stat_change",
-                [
-                    [
-                        "LCK",
-                        5
-                    ]
-                ]
-            ]
-        ]
-    },
-    {
-        "nid": "Crit_Plus15",
-        "name": "Crit +15",
-        "desc": "Grants +15 Critical change",
-        "icon_nid": "Skills",
-        "icon_index": [
-            2,
-            3
-        ],
-        "components": [
-            [
-                "class_skill",
-                null
-            ],
-            [
-                "crit",
-                15
-            ]
-        ]
-    },
-    {
-        "nid": "Crit_Plus30",
-        "name": "Crit +30",
-        "desc": "Grants +30 Critical change",
-        "icon_nid": "Skills",
-        "icon_index": [
-            2,
-            3
-        ],
-        "components": [
-            [
-                "class_skill",
-                null
-            ],
-            [
-                "crit",
-                30
-            ]
-        ]
-    },
-    {
-        "nid": "Anticrit",
-        "name": "Anticrit",
-        "desc": "Grants immunity to critical hits.",
-        "icon_nid": "Skills",
-        "icon_index": [
-            10,
-            3
-        ],
-        "components": [
-            [
-                "crit_avoid",
-                1000
-            ]
-        ]
-    },
-    {
-        "nid": "Dragonstone",
-        "name": "Dragonstone",
-        "desc": "Grants STR +12, SKL +12, DEF +15, RES+20.",
+        "nid": "Demon_Light",
+        "name": "Demon Light",
+        "desc": "Grants MAG +10, SKL +10, LCK +10, DEF +10, RES +15.",
         "icon_nid": "Neutral",
         "icon_index": [
             0,
-            0
+            3
         ],
         "components": [
+            [
+                "hidden",
+                null
+            ],
             [
                 "stat_change",
                 [
                     [
-                        "STR",
-                        12
+                        "MAG",
+                        10
                     ],
                     [
                         "SKL",
-                        12
+                        10
                     ],
                     [
                         "DEF",
-                        15
+                        10
                     ],
                     [
                         "RES",
-                        20
+                        15
+                    ],
+                    [
+                        "LCK",
+                        10
                     ]
                 ]
-            ],
-            [
-                "hidden",
-                null
             ]
         ]
     },
@@ -1736,9 +1917,9 @@
         "nid": "Locktouch",
         "name": "Locktouch",
         "desc": "Unit can opened locks without a key.",
-        "icon_nid": "Skills",
+        "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
         "icon_index": [
-            1,
+            7,
             0
         ],
         "components": [
@@ -1756,10 +1937,10 @@
         "nid": "Inspiration",
         "name": "Inspiration",
         "desc": "Aura - Grants +1 damage and +1 resist to allies.",
-        "icon_nid": "Skills",
+        "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
         "icon_index": [
-            10,
-            4
+            4,
+            5
         ],
         "components": [
             [
@@ -1784,10 +1965,10 @@
         "nid": "Inspiration_child",
         "name": "Inspired",
         "desc": "Grants +1 damage and +1 resist.",
-        "icon_nid": "Skills",
+        "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
         "icon_index": [
-            10,
-            4
+            4,
+            5
         ],
         "components": [
             [
@@ -1804,10 +1985,10 @@
         "nid": "Void_Curse",
         "name": "Void Curse",
         "desc": "No exp gained for attacking this unit.",
-        "icon_nid": "Skills",
+        "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
         "icon_index": [
-            10,
-            0
+            11,
+            5
         ],
         "components": [
             [

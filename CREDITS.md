@@ -17,7 +17,7 @@ Many assets used at this time (ESPECIALLY portraits) are merely placeholders. Ev
 
 ### Icons
 
-Since switching to Lex Talionis, I have no yet fully imported all icons. LT icons are in sheets and I'm trying to set up solid configuration for these sheets.
+Since switching to Lex Talionis, I have no yet fully imported all icons. LT icons are in sheets and I'm trying to set up solid configuration for these sheets. I am attempting to use pre-configured sheets where possible, otherwise I'm compiling full sheets for different artists so I can easily credit just one artist for all their assets. However, I'm also trying to keep my icons relatively similar.
 
 #### Item Icons
 Diamond (Gem 6 - Maxim)
@@ -38,7 +38,6 @@ Siule Horn / Replaces Talisman (FE15 Item 53 by Cardcafe)
 Nordak Talon / Replaces Boots (icon 116 by Zelix)
 Queiza Fin / Mag+ New Item (FE15 Item 14 by Cardcafe)
 
-
 ##### Promotion Icons
 Masan Seal / Replaces Master Seal ()
 Pirate's Proof / Replaces Ocean Seal (Item 35 by Zarg) NOTE: this has been cut
@@ -46,35 +45,79 @@ Kitezh Crest / Replaces Lunar Brace (Sylvain Scale by Beanzy) NOTE: this has bee
 Nordak Crest / Replaces Solar Brace (SacredWar Item 33 by Seal) NOTE: this has been cut
 
 
-##### Weapon Icons
+#### Skill Icons
+210 17+ Color Icons by J-Treecko
+364 LT Skill Icons by ZessDynamite & Rainlash
 
-###### Swords
+Originally I used J-Treecko's but a lot of desired options are missing. ZessDynamite and Rainlash's pack is more complete, but the style is different from J-Treecko's making it difficult to use both. I may just stick with ZessDynamite and Rainlash's for greater flexibility.
+
+I will try and reflect FE's normal icon styles if possible but if I'm not using something from FE, I may repurpose an icon that fits well.
+
+
+#### Affinity Icons
+I always had 16 affinities. 8 elemental affinites and 8 advanced affinites. Animus and Gaeyis are incredibly rare so if they are present they'll add massively high buffs.
+
+Ignis Icon (Vanilla Fire)
+Fulgus Icon (Vanilla Lightning)
+Ventus Icon (Vanilla Wind)
+Glacies Icon (Vanilla Ice)
+Lunis Icon (Luna from Affinity Icons Pack by Topazlight)
+Solus Icon (Vanilla Light)
+Aquis Icon (Water / Affinity Icon 2 by Artist Unknown)
+Tellus Icon (Earth from Affinity Icons Pack by Topazlight)
+Ornus Icon (Fire / Affinity Icon 3 by Artist Unknown)
+Maris Icon (Water from Affinity Icons Pack by Topazlight)
+Caelus Icon (Wind / Affinity Icon 7 by Artist Unknown)
+Indoles Icon (Plant/Nature from Affinity Icons Pack by Topazlight)
+Luxis Icon (Solar from Affinity Icons Pack by Topazlight)
+Noxis Icon (Shadow / Affinity Icon 6 by Artist Unknown)
+Animus Icon (Vanilla Anima)
+Gaeyis Icon (Heaven from Affinity Icons Pack by Topazlight)
+
+
+#### Weapon Icons
+
+##### Swords
+
+Swords have a series of subcategories. Most subcategories have some restrictions on them. Lightblades can be use by anybody but are weaker to compensate, being my equivalent to Slim Swords.
+
+###### Common Swords
 Bronze Sword (BronzeSword / icon 000 by Zelix)
 Iron Sword (icon 001 by Zelix)
 Steel Sword (icon 002 by Zelix)
 Mythril Sword (icon 003 by Zelix)
+Wingclipper (Wing Clipper FE4 by Topazlight)
+Cutlass (Icon 025 by Peerless)
+Lancereaver (Lancereaver by Beansy)
+
+###### Katanas
 Bronze Katana (sword 10 by Zarg)
 Iron Katana (iron katana by batima)
 Steel Katana (steel katana by batima)
 Mythril Katana (silver katana by batima)
+Dual Katanas (Sword 4 by MeatOfJustice)
+Serrated Edge (Superior Edge by Topazlight)
+Dardevaja (sword 5 by SMITHYGCN)
+
+###### Lightblade
+
+
+###### Rapiers
 Lady Rapier (Ladyblade by Topazlight)
 Joyeuse (Eirika's Blade by Batima)
-Dual Katanas (Sword 4 by MeatOfJustice)
 Shamshir (Extra 17 by Ereshhkigal)
-Serrated Edge (Superior Edge by Topazlight)
 Cortaine (Florest Old by Batima)
 Estoc (Estoc by Orihara Saki)
-Wingclipper (Wing Clipper FE4 by Topazlight)
-Cutlass (Icon 025 by Peerless)
+
+###### Greatsword
+Zweihander (Iron Zweihander by VelvetKitsune, Beansy, Ereshkigal)
+Mythril Zweihander (Silver Zweihander by VelvetKitsune, 2WB, Ereshkigal)
 Zanbato (Sword 27 by SMITHYGCN)
-Lancereaver (Lancereaver by Beansy)
 
 ###### Ranged/Magic Swords
 Fire Sabre (Sword 8 by Jubby)
 Frost Sword (Frost Blade - Beansy)
 Lightning Blade (Levin Sword - Zarg)
-Zweihander (Iron Zweihander by VelvetKitsune, Beansy, Ereshkigal)
-Mythril Zweihander (Silver Zweihander by VelvetKitsune, 2WB, Ereshkigal)
 Flamberge (Tactics Ogre Sword 17 by EldritchAbomination, Indogutsu Tenbuki)
 Wind Edge (Proficient Sword 7 by Ereshkigal)
 Durandel (Sword 20 by Zarg)
@@ -82,19 +125,24 @@ Kusanagi (Raijinto w/Bolts by Batima)
 Galatine (Tactics Ogre Sword 32 by EldritchAbomination, Indogutsu Tenbuki)
 Excalibur (FE Ragnell by Batima)
 Masamune (Thunderbrand by Beansy)
-Dardevaja (sword 5 by SMITHYGCN)
 
-###### Daggers/Knives
+##### Daggers / Claws
+
+###### Knives
 Bronze Knife (dagger 1 by Ereshkigal)
 Iron Knife (dagger 2 by Ereshkigal)
 Steel Knife (dagger 3 by Ereshkigal)
 Mythril Knife (dagger 4 by Ereshkigal)
+
+###### Daggers
 Kard (FEH Jaffar's Dagger / Deadly Dagger by Sacred Stones)
 Stiletto (Stiletto by Batima)
 Baselard (Baselard by Sacred Stones)
 Murasame (Blessed Dagger by Ysor)
 Muramasa (Dark Knife by 2WB, Hanakko)
 
+
+##### Lances
 
 ###### Lances
 Bronze Lance (Bronze Lance by Beansy)
@@ -108,19 +156,27 @@ Partisan (icon 212 by Zane)
 Corseque (Wing Spear by Batima)
 Ranseur (spear 3 by AteliaLabs)
 Axereaver (Icon Blitz 1 Axereaver by 2WB)
+Naginata (icon 198 - Zelix)
 
-###### Magic Lances/Spears
+###### Javelins / Spears
 Javelin (lance 15 - Ereshkigal)
 Short Spear (lance 16 - Ereshkigal)
 Spear (lance 17 - Ereshkigal)
 Ballam (lance 15 - Ereshkigal)
-Shockstick (Shockstick - Batima)
+
+###### Tridents
 Trident (lance 17 - Celice)
-Naginata (icon 198 - Zelix)
 Rhongomiant (Lance 10 - Celice)
 Criorend (Icon Blitz 3 Lance - Gabriel Knight)
 
-###### Axes
+###### Rods / Staves
+Shockstick (Shockstick - Batima)
+Thyrceus (Staff 4 by AtelierLabs)
+Miwata's Blessing ()
+
+##### Axes
+
+###### Simple Axes
 Bronze Axe (Icon Blitz 1 Axe 11 by George Reds)
 Iron Axe (Icon Blitz 1 Axe 12 by George Reds)
 Steel Axe (Icon Blitz 1 Axe 13 by George Reds)
@@ -128,33 +184,43 @@ Mythril Axe (Icon Blitz 1 Axe 14 by George Reds)
 Dual Axes (Axe 3 by Meat of Justice)
 Bardiche (Axe 5 by LordGlenn)
 Halberd (Halberd by Beansy)
+Swordreaver (Icon Blitz 1 Axe 15 by George Reds)
+Frozen Axe (Icon Blitz 3 Axe - GabrielKnight)
+Stonecrusher (Tactics Ogre Axe 6 - EldritchAbomination, Indogutsu Tenbuki)
+
+###### Hammers
 Hammer (Icon 063 by Zelix)
 Mallet (Hammer 2 by Ereshkigal )
 Warhammer (Hammer 12 by Ereshkigal)
 Skeggox (Axe 42 by Zane)
-Swordreaver (Icon Blitz 1 Axe 15 by George Reds)
 
-###### Magic/Ranged Axes
+###### Throwing Axes
 Hatchet (Throwing Axe - Zarg)
 Hand Axe (Icon 078 - Zarg)
 Short Axe (Short Axe - Zarg)
 Tomahawk (Tomahawk - Zarg)
-Frozen Axe (Icon Blitz 3 Axe - GabrielKnight)
-Stonecrusher (Tactics Ogre Axe 6 - EldritchAbomination, Indogutsu Tenbuki)
+
+###### Maces
 Vidyudabhi (Axe 13 - Jubby)
 Myollnir (Mjollnir - Furious Haunter)
 Daikokuten (Golden Hammer - Mike)
 
 
-###### Bows
+##### Bows
+
+###### Simple Bows
 Oak Bow (Bronze Bow by Beansy)
 Elm Bow (Iron Bow by Beansy)
+Maple Bow ()
 Yew Bow (Arectaris by Beansy)
 Sylvan Bow (Crystal Longbow by Beansy)
 Rapidfire Bow (Bow 2 by Meat Of Justice)
 Composite Bow (Brave Bow by Beansy)
 Recurve Bow (KillingBow by Zenix)
+
+###### Longbows
 Oak Longbow (Bronze Longbow by Batima)
+Maple Longbow ()
 Elm Longbow (Steel Longbow by Batima)
 Yew Longbow (Double Bow by Batima)
 Sylvan Longbow (Silver Longbow by Batima)
@@ -185,16 +251,12 @@ Frost Launcher (Snowmaker by Purple)
 Shock Launcher (Thunderbolt by Purple)
 
 
-##### Magic Icons
+#### Magic Icons
 
-###### Staves 
-Thyrceus (Staff 4 by AtelierLabs)
-Miwata's Blessing ()
-
-###### Fire Spells
-Strengthen ()
+##### Fire Spells
+Strengthen (Arcfire by Batima)
 Enflame (Veillantif by Batima)
-Burn ()
+Burn (Ember by Batima)
 Fireball (Icon Blitz 1 Fire by 2WB)
 Flare Burst (Icon Blitz 1 Elfire by 2WB)
 Flame Wall (Arcfire by SN_Ivan)
@@ -202,7 +264,7 @@ Explosion (Fire 5 by Leif)
 Eruption (Fire 6 by Leif)
 Ragnarok (Icon Blitz 1 Tome 9 by Valak)
 
-###### Lightning Spells
+##### Lightning Spells
 Swift
 Teleport (Thoron by Batima)
 Warp (Katarina's Bolt by Batima)
@@ -215,7 +277,7 @@ Thunderstorm (Superior Jolt by Batima)
 Lightning Bolt (Tome 9 by Ereshkigal)
 Arrow of Alternia (Mjolnir by Batima)
 
-###### Ice Spells
+##### Ice Spells
 Resist (Unique 20 by Ereshkigal)
 Freeze (Unique 18 by Ereshkigal)
 Time Stop (Sleet by Batima)
@@ -225,7 +287,7 @@ Hailstorm (Other Tome 10 by Ereshkigal)
 Blizzard (Unique 28 by Ereshkigal)
 Fimbulvetr (Fimbulvetr by Beansy)
 
-###### Wind Spells
+##### Wind Spells
 Agile
 Gust (Wilderwind by Batima)
 Air Current (Celica's Gale by Batima)
@@ -234,7 +296,7 @@ Tornado (Tornado by Batima)
 Hurricane (Giga Excalibur by Batima)
 Ultima (Sacred War Tome 4 by Seal)
 
-###### Water Spells
+##### Water Spells
 Healing Water (Magic 1?? by AtelierLabs)
 Purify (Sleet by Batima)
 Healing Rain (Hailstorm by Beansy)
@@ -245,7 +307,7 @@ Water Blast (Crossfreeze by Beansy)
 Deluge (Unique 19 by Ereshkigal)
 Leviathan (Aurora by Beansy)
 
-###### Light Spells
+##### Light Spells
 Life Energy (Lifelight [Devil Tome] by Beansy)
 Blind (Unique 7 by Ereshkigal)
 Enrage (Purge by Beansy)
@@ -258,7 +320,7 @@ Starlight (Starlight by Batima)
 Excalibur (POR Rexaura by Batima)
 Airyukin (Book of Naga Alt Color by Batima)
 
-###### Earth Spells
+##### Earth Spells
 Stone (Stone Tome Icon by Topaz)
 Boulder (Sacred War Dark 3 by Seal)
 Quake (ArcaneaIcon Project tile194 by LordGlenn)
@@ -267,7 +329,7 @@ Nature's Wrath (Brynhilldr by Beansy)
 Meteor (Eclipse by Beansy)
 Jormungandr (Apocalypse by Batima)
 
-###### Dark Spells
+##### Dark Spells
 Tendril (Flux by Beansy)
 Leech (Icon 044 by Zarg)
 Bleed (Dark Spikes by Batima)
@@ -275,24 +337,6 @@ Eclipse (Naglfar by Beansy)
 Hellfire (Loptous by Batima)
 Transfusion (Fenrir Jugdral by Batima)
 
-
-#### Affinity Icons
-Ignis Icon (Vanilla Fire)
-Fulgus Icon (Vanilla Lightning)
-Ventus Icon (Vanilla Wind)
-Glacies Icon (Vanilla Ice)
-Lunis Icon (Luna from Affinity Icons Pack by Topazlight)
-Solus Icon (Vanilla Light)
-Aquis Icon (Water / Affinity Icon 2 by Artist Unknown)
-Tellus Icon (Earth from Affinity Icons Pack by Topazlight)
-Ornus Icon (Fire / Affinity Icon 3 by Artist Unknown)
-Maris Icon (Water from Affinity Icons Pack by Topazlight)
-Caelus Icon (Wind / Affinity Icon 7 by Artist Unknown)
-Indoles Icon (Plant/Nature from Affinity Icons Pack by Topazlight)
-Luxis Icon (Solar from Affinity Icons Pack by Topazlight)
-Noxis Icon (Shadow / Affinity Icon 6 by Artist Unknown)
-Animus Icon (Vanilla Anima)
-Gaeyis Icon (Heaven from Affinity Icons Pack by Topazlight)
 
 ### Animations
 

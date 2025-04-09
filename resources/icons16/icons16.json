@@ -221,6 +221,10 @@
             "{J-Treecko} {Lex Talionis} All Icons 1, 16": [
                 1,
                 16
+            ],
+            "{J-Treecko} {Lex Talionis} All Icons 4, 6": [
+                4,
+                6
             ]
         }
     },
@@ -243,10 +247,6 @@
     },
     {
         "nid": "{Cardcafe} {Mixed 1} All Icons",
-        "subicon_dict": {}
-    },
-    {
-        "nid": "{Cardcafe} {Mixed 2} All Icons_1",
         "subicon_dict": {}
     },
     {
@@ -374,5 +374,9 @@
                 2
             ]
         }
+    },
+    {
+        "nid": "{ZessDynamite, Rainlash} All Icons",
+        "subicon_dict": {}
     }
 ]

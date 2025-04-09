@@ -7346,7 +7346,7 @@
             ],
             [
                 "status_on_hit",
-                "ResistPlus"
+                "ResPlus"
             ],
             [
                 "wexp",
@@ -8601,13 +8601,17 @@
         "desc": "Ally Str+5 for 2 turns.",
         "icon_nid": "{Batima} All Tomes",
         "icon_index": [
-            7,
-            1
+            2,
+            0
         ],
         "components": [
             [
-                "value",
-                560
+                "magic",
+                null
+            ],
+            [
+                "spell",
+                null
             ],
             [
                 "min_range",
@@ -8618,31 +8622,8 @@
                 2
             ],
             [
-                "damage",
-                5
-            ],
-            [
-                "hit",
-                90
-            ],
-            [
                 "crit",
                 0
-            ],
-            [
-                "weight",
-                4
-            ],
-            [
-                "uses",
-                40
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
             ],
             [
                 "level_exp",
@@ -8665,16 +8646,16 @@
                 ]
             ],
             [
-                "magic",
-                null
-            ],
-            [
-                "spell",
-                null
-            ],
-            [
                 "target_ally",
                 null
+            ],
+            [
+                "mana_cost",
+                3
+            ],
+            [
+                "status_on_hit",
+                "Fort"
             ]
         ]
     },
@@ -11501,7 +11482,7 @@
             ],
             [
                 "status_on_hit",
-                "ResistPlus"
+                "ResPlus"
             ],
             [
                 "wexp",
@@ -15397,7 +15378,7 @@
             ],
             [
                 "status_on_hit",
-                "ResistPlus"
+                "ResPlus"
             ]
         ]
     },
@@ -15582,7 +15563,7 @@
             ],
             [
                 "status_on_hit",
-                "Torch"
+                "Light"
             ]
         ]
     },
