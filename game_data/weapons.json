@@ -47,10 +47,10 @@
         "rank_bonus": [],
         "advantage": [],
         "disadvantage": [],
-        "icon_nid": "wexp_expanded",
+        "icon_nid": "{VelvetKitsune} All Icons",
         "icon_index": [
             0,
-            1
+            3
         ]
     },
     {
@@ -338,20 +338,6 @@
         ]
     },
     {
-        "nid": "Claw",
-        "name": "Claw",
-        "force_melee_anim": true,
-        "hide_from_display": false,
-        "rank_bonus": [],
-        "advantage": [],
-        "disadvantage": [],
-        "icon_nid": "wexp_expanded",
-        "icon_index": [
-            0,
-            3
-        ]
-    },
-    {
         "nid": "Runic",
         "name": "Runic",
         "force_melee_anim": false,
@@ -373,10 +359,10 @@
         "rank_bonus": [],
         "advantage": [],
         "disadvantage": [],
-        "icon_nid": "wexp_expanded",
+        "icon_nid": "{VelvetKitsune} All Icons",
         "icon_index": [
-            0,
-            5
+            1,
+            3
         ]
     },
     {
@@ -387,10 +373,10 @@
         "rank_bonus": [],
         "advantage": [],
         "disadvantage": [],
-        "icon_nid": "wexp_expanded",
+        "icon_nid": "{VelvetKitsune} All Icons",
         "icon_index": [
-            0,
-            5
+            1,
+            3
         ]
     },
     {

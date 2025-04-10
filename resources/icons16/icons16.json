@@ -378,5 +378,25 @@
     {
         "nid": "{ZessDynamite, Rainlash} All Icons",
         "subicon_dict": {}
+    },
+    {
+        "nid": "{AtelierLabs} All Icons",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "{FuriousHaunter} All Icons",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "{Valak} All Tomes",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "{VelvetKitsune} All Icons",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "{Zarg} All Icons",
+        "subicon_dict": {}
     }
 ]

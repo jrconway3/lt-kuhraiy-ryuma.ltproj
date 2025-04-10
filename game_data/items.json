@@ -1733,6 +1733,91 @@
         ]
     },
     {
+        "nid": "Dardevaja",
+        "name": "Dardevaja",
+        "desc": "Legendary blade once said to have been wielded\nby the Daemon Dragon, Mephisto. It holds incredible\ndaemonic powers within.",
+        "icon_nid": "{VelvetKitsune} All Icons",
+        "icon_index": [
+            3,
+            0
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "damage",
+                16
+            ],
+            [
+                "hit",
+                80
+            ],
+            [
+                "weapon_type",
+                "Sword"
+            ],
+            [
+                "uses",
+                20
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "weight",
+                7
+            ],
+            [
+                "crit",
+                20
+            ],
+            [
+                "wexp",
+                3
+            ],
+            [
+                "value",
+                6000
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "item_tags",
+                [
+                    "Damazos",
+                    "Lord"
+                ]
+            ],
+            [
+                "prf_unit",
+                [
+                    "Jan",
+                    "Relm"
+                ]
+            ]
+        ]
+    },
+    {
         "nid": "SwiftBlade",
         "name": "Swift Blade",
         "desc": "Allows 2 consecutive hits.",
@@ -3934,6 +4019,247 @@
                     "show_effectiveness_flash": true,
                     "weapon_effectiveness_multiplied": true
                 }
+            ]
+        ]
+    },
+    {
+        "nid": "Heal",
+        "name": "Heal Staff",
+        "desc": "Healing Range + 1, grants \"Healing Water\" when equipped.",
+        "icon_nid": "{Celice} All Icons - FE9 Weapons",
+        "icon_index": [
+            1,
+            9
+        ],
+        "components": [
+            [
+                "value",
+                600
+            ],
+            [
+                "weapon_type",
+                "Lance"
+            ],
+            [
+                "weapon_rank",
+                "E"
+            ],
+            [
+                "map_cast_anim",
+                "MapSmallHealTrans"
+            ],
+            [
+                "equippable_accessory",
+                null
+            ],
+            [
+                "uses",
+                40
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "min_range",
+                1
+            ]
+        ]
+    },
+    {
+        "nid": "Mend",
+        "name": "Mend",
+        "desc": "Healing Range + 1, grants \"Life Energy\" when equipped.",
+        "icon_nid": "{Celice} All Icons - FE8 Weapons",
+        "icon_index": [
+            2,
+            9
+        ],
+        "components": [
+            [
+                "value",
+                1000
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "weapon_type",
+                "Lance"
+            ],
+            [
+                "weapon_rank",
+                "D"
+            ],
+            [
+                "uses",
+                20
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "exp",
+                12
+            ],
+            [
+                "wexp",
+                3
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    96,
+                    144,
+                    232
+                ]
+            ],
+            [
+                "equation_heal",
+                "HEAL"
+            ],
+            [
+                "equippable_accessory",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Recover",
+        "name": "Recover",
+        "desc": "Healing Range + 1, grants \"Transfusion\" when equipped.",
+        "icon_nid": "{Celice} All Icons - FE8 Weapons",
+        "icon_index": [
+            3,
+            9
+        ],
+        "components": [
+            [
+                "spell",
+                null
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "weapon_type",
+                "Lance"
+            ],
+            [
+                "weapon_rank",
+                "C"
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "heal",
+                99
+            ],
+            [
+                "uses",
+                15
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "wexp",
+                3
+            ],
+            [
+                "exp",
+                17
+            ],
+            [
+                "value",
+                2250
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    94,
+                    144,
+                    232
+                ]
+            ],
+            [
+                "equippable_accessory",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Thyrceus",
+        "name": "Thyrceus",
+        "desc": "Grants Healing Range + 2.\nLegendary Staff of Gaeya.",
+        "icon_nid": "{AtelierLabs} All Icons",
+        "icon_index": [
+            2,
+            5
+        ],
+        "components": [
+            [
+                "spell",
+                null
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "weapon_type",
+                "Lance"
+            ],
+            [
+                "prf_unit",
+                [
+                    "Svetlanya",
+                    "Shayala",
+                    "Gaeya",
+                    "Melodia",
+                    "Nala"
+                ]
+            ],
+            [
+                "multi_item",
+                [
+                    "SylvansLight"
+                ]
             ]
         ]
     },
@@ -6417,1146 +6743,6 @@
         ]
     },
     {
-        "nid": "Heal",
-        "name": "Heal Staff",
-        "desc": "Healing Range + 1, grants \"Healing Water\" when equipped.",
-        "icon_nid": "Staff",
-        "icon_index": [
-            0,
-            0
-        ],
-        "components": [
-            [
-                "value",
-                600
-            ],
-            [
-                "weapon_type",
-                "Runic"
-            ],
-            [
-                "weapon_rank",
-                "E"
-            ],
-            [
-                "map_cast_anim",
-                "MapSmallHealTrans"
-            ],
-            [
-                "equippable_accessory",
-                null
-            ],
-            [
-                "uses",
-                40
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
-                "max_range",
-                2
-            ],
-            [
-                "min_range",
-                1
-            ]
-        ]
-    },
-    {
-        "nid": "Mend",
-        "name": "Mend",
-        "desc": "Healing Range + 1, grants \"Life Energy\" when equipped.",
-        "icon_nid": "Staff",
-        "icon_index": [
-            0,
-            1
-        ],
-        "components": [
-            [
-                "value",
-                1000
-            ],
-            [
-                "target_ally",
-                null
-            ],
-            [
-                "min_range",
-                1
-            ],
-            [
-                "max_range",
-                1
-            ],
-            [
-                "weapon_type",
-                "Runic"
-            ],
-            [
-                "weapon_rank",
-                "D"
-            ],
-            [
-                "uses",
-                20
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
-                "exp",
-                12
-            ],
-            [
-                "wexp",
-                3
-            ],
-            [
-                "map_hit_add_blend",
-                [
-                    96,
-                    144,
-                    232
-                ]
-            ],
-            [
-                "equation_heal",
-                "HEAL"
-            ],
-            [
-                "equippable_accessory",
-                null
-            ]
-        ]
-    },
-    {
-        "nid": "Recover",
-        "name": "Recover",
-        "desc": "Fully restore's an ally's HP",
-        "icon_nid": "Staff",
-        "icon_index": [
-            0,
-            2
-        ],
-        "components": [
-            [
-                "spell",
-                null
-            ],
-            [
-                "target_ally",
-                null
-            ],
-            [
-                "weapon_type",
-                "Runic"
-            ],
-            [
-                "weapon_rank",
-                "C"
-            ],
-            [
-                "magic",
-                null
-            ],
-            [
-                "heal",
-                99
-            ],
-            [
-                "uses",
-                15
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
-                "wexp",
-                3
-            ],
-            [
-                "exp",
-                17
-            ],
-            [
-                "value",
-                2250
-            ],
-            [
-                "min_range",
-                1
-            ],
-            [
-                "max_range",
-                1
-            ],
-            [
-                "map_hit_add_blend",
-                [
-                    94,
-                    144,
-                    232
-                ]
-            ],
-            [
-                "equippable_accessory",
-                null
-            ]
-        ]
-    },
-    {
-        "nid": "Physic",
-        "name": "Physic",
-        "desc": "Restores an ally's HP from afar.",
-        "icon_nid": "Staff",
-        "icon_index": [
-            0,
-            3
-        ],
-        "components": [
-            [
-                "spell",
-                null
-            ],
-            [
-                "target_ally",
-                null
-            ],
-            [
-                "weapon_type",
-                "Runic"
-            ],
-            [
-                "weapon_rank",
-                "B"
-            ],
-            [
-                "magic",
-                null
-            ],
-            [
-                "uses",
-                15
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
-                "wexp",
-                3
-            ],
-            [
-                "exp",
-                22
-            ],
-            [
-                "value",
-                3750
-            ],
-            [
-                "map_hit_add_blend",
-                [
-                    96,
-                    144,
-                    232
-                ]
-            ],
-            [
-                "max_equation_range",
-                "MAGIC_RANGE"
-            ],
-            [
-                "min_range",
-                1
-            ],
-            [
-                "equation_heal",
-                "HEAL"
-            ],
-            [
-                "equippable_accessory",
-                null
-            ]
-        ]
-    },
-    {
-        "nid": "Fortify",
-        "name": "Fortify",
-        "desc": "Restores (User's Magic + 10) HP to all allies within range.",
-        "icon_nid": "Staff",
-        "icon_index": [
-            0,
-            4
-        ],
-        "components": [
-            [
-                "spell",
-                null
-            ],
-            [
-                "target_ally",
-                null
-            ],
-            [
-                "weapon_type",
-                "Runic"
-            ],
-            [
-                "weapon_rank",
-                "A"
-            ],
-            [
-                "magic",
-                null
-            ],
-            [
-                "uses",
-                8
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
-                "wexp",
-                5
-            ],
-            [
-                "exp",
-                60
-            ],
-            [
-                "value",
-                8000
-            ],
-            [
-                "equation_blast_aoe",
-                "MAGIC_RANGE"
-            ],
-            [
-                "equation_heal",
-                "HEAL"
-            ]
-        ]
-    },
-    {
-        "nid": "Unlock",
-        "name": "Unlock",
-        "desc": "Opens locks.",
-        "icon_nid": "Staff",
-        "icon_index": [
-            0,
-            13
-        ],
-        "components": [
-            [
-                "spell",
-                null
-            ],
-            [
-                "value",
-                1500
-            ],
-            [
-                "min_range",
-                1
-            ],
-            [
-                "max_range",
-                2
-            ],
-            [
-                "weapon_type",
-                "Runic"
-            ],
-            [
-                "weapon_rank",
-                "D"
-            ],
-            [
-                "uses",
-                10
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
-                "exp",
-                17
-            ],
-            [
-                "wexp",
-                5
-            ],
-            [
-                "unlock_staff",
-                null
-            ]
-        ]
-    },
-    {
-        "nid": "Restore",
-        "name": "Restore",
-        "desc": "Removes all temporary statuses.",
-        "icon_nid": "Staff",
-        "icon_index": [
-            0,
-            5
-        ],
-        "components": [
-            [
-                "spell",
-                null
-            ],
-            [
-                "target_ally",
-                null
-            ],
-            [
-                "weapon_type",
-                "Runic"
-            ],
-            [
-                "weapon_rank",
-                "C"
-            ],
-            [
-                "magic",
-                null
-            ],
-            [
-                "uses",
-                10
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
-                "wexp",
-                3
-            ],
-            [
-                "exp",
-                20
-            ],
-            [
-                "value",
-                2000
-            ],
-            [
-                "min_range",
-                1
-            ],
-            [
-                "max_range",
-                1
-            ],
-            [
-                "restore",
-                null
-            ]
-        ]
-    },
-    {
-        "nid": "Silence",
-        "name": "Silence",
-        "desc": "Enemy is rendered unable to use magic.",
-        "icon_nid": "Staff",
-        "icon_index": [
-            0,
-            6
-        ],
-        "components": [
-            [
-                "spell",
-                null
-            ],
-            [
-                "weapon_type",
-                "Runic"
-            ],
-            [
-                "weapon_rank",
-                "B"
-            ],
-            [
-                "magic",
-                null
-            ],
-            [
-                "uses",
-                3
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
-                "wexp",
-                5
-            ],
-            [
-                "exp",
-                30
-            ],
-            [
-                "value",
-                1200
-            ],
-            [
-                "min_range",
-                1
-            ],
-            [
-                "status_on_hit",
-                "Silence"
-            ],
-            [
-                "max_equation_range",
-                "MAGIC_RANGE"
-            ],
-            [
-                "target_enemy",
-                null
-            ],
-            [
-                "eval_target_restrict_2",
-                "target.wexp['Light'] or target.wexp['Anima'] or target.wexp['Dark'] or target.wexp['Staff']"
-            ]
-        ]
-    },
-    {
-        "nid": "Trade",
-        "name": "Telekinesis",
-        "desc": "Trade with a far away ally.",
-        "icon_nid": "Staff",
-        "icon_index": [
-            0,
-            7
-        ],
-        "components": [
-            [
-                "spell",
-                null
-            ],
-            [
-                "value",
-                600
-            ],
-            [
-                "target_ally",
-                null
-            ],
-            [
-                "min_range",
-                1
-            ],
-            [
-                "max_range",
-                10
-            ],
-            [
-                "weapon_type",
-                "Runic"
-            ],
-            [
-                "weapon_rank",
-                "E"
-            ],
-            [
-                "uses",
-                10
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
-                "exp",
-                11
-            ],
-            [
-                "wexp",
-                2
-            ],
-            [
-                "map_hit_add_blend",
-                [
-                    232,
-                    200,
-                    15
-                ]
-            ],
-            [
-                "trade",
-                null
-            ],
-            [
-                "menu_after_combat",
-                null
-            ]
-        ]
-    },
-    {
-        "nid": "Sleep",
-        "name": "Sleep",
-        "desc": "Enemy cannot move or attack.",
-        "icon_nid": "Staff",
-        "icon_index": [
-            0,
-            7
-        ],
-        "components": [
-            [
-                "spell",
-                null
-            ],
-            [
-                "weapon_type",
-                "Runic"
-            ],
-            [
-                "weapon_rank",
-                "B"
-            ],
-            [
-                "magic",
-                null
-            ],
-            [
-                "uses",
-                3
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
-                "wexp",
-                5
-            ],
-            [
-                "exp",
-                35
-            ],
-            [
-                "value",
-                1500
-            ],
-            [
-                "min_range",
-                1
-            ],
-            [
-                "status_on_hit",
-                "Sleep"
-            ],
-            [
-                "max_equation_range",
-                "MAGIC_RANGE"
-            ],
-            [
-                "target_enemy",
-                null
-            ]
-        ]
-    },
-    {
-        "nid": "Berserk",
-        "name": "Berserk",
-        "desc": "Enemy becomes berserk.",
-        "icon_nid": "Staff",
-        "icon_index": [
-            0,
-            8
-        ],
-        "components": [
-            [
-                "spell",
-                null
-            ],
-            [
-                "weapon_type",
-                "Runic"
-            ],
-            [
-                "weapon_rank",
-                "B"
-            ],
-            [
-                "magic",
-                null
-            ],
-            [
-                "uses",
-                3
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
-                "wexp",
-                5
-            ],
-            [
-                "exp",
-                40
-            ],
-            [
-                "value",
-                1800
-            ],
-            [
-                "min_range",
-                1
-            ],
-            [
-                "status_on_hit",
-                "Berserk"
-            ],
-            [
-                "max_equation_range",
-                "MAGIC_RANGE"
-            ],
-            [
-                "target_enemy",
-                null
-            ]
-        ]
-    },
-    {
-        "nid": "Hammerne",
-        "name": "Hammerne",
-        "desc": "Repair an item to full uses.",
-        "icon_nid": "Staff",
-        "icon_index": [
-            0,
-            12
-        ],
-        "components": [
-            [
-                "spell",
-                null
-            ],
-            [
-                "value",
-                1800
-            ],
-            [
-                "target_ally",
-                null
-            ],
-            [
-                "min_range",
-                1
-            ],
-            [
-                "max_range",
-                1
-            ],
-            [
-                "weapon_type",
-                "Runic"
-            ],
-            [
-                "weapon_rank",
-                "C"
-            ],
-            [
-                "uses",
-                3
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
-                "exp",
-                40
-            ],
-            [
-                "wexp",
-                8
-            ],
-            [
-                "map_hit_add_blend",
-                [
-                    234,
-                    255,
-                    0
-                ]
-            ],
-            [
-                "repair",
-                null
-            ]
-        ]
-    },
-    {
-        "nid": "Thief",
-        "name": "Thief",
-        "desc": "Steal items from enemies.",
-        "icon_nid": "Staff",
-        "icon_index": [
-            0,
-            12
-        ],
-        "components": [
-            [
-                "spell",
-                null
-            ],
-            [
-                "value",
-                1800
-            ],
-            [
-                "min_range",
-                1
-            ],
-            [
-                "max_range",
-                10
-            ],
-            [
-                "weapon_type",
-                "Runic"
-            ],
-            [
-                "weapon_rank",
-                "C"
-            ],
-            [
-                "uses",
-                5
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
-                "exp",
-                40
-            ],
-            [
-                "map_hit_add_blend",
-                [
-                    255,
-                    238,
-                    238
-                ]
-            ],
-            [
-                "steal",
-                null
-            ],
-            [
-                "target_enemy",
-                null
-            ]
-        ]
-    },
-    {
-        "nid": "Barrier",
-        "name": "Barrier",
-        "desc": "Raises ally's resistance.",
-        "icon_nid": "Staff",
-        "icon_index": [
-            0,
-            14
-        ],
-        "components": [
-            [
-                "spell",
-                null
-            ],
-            [
-                "target_ally",
-                null
-            ],
-            [
-                "weapon_type",
-                "Runic"
-            ],
-            [
-                "weapon_rank",
-                "C"
-            ],
-            [
-                "magic",
-                null
-            ],
-            [
-                "uses",
-                15
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
-                "status_on_hit",
-                "ResPlus"
-            ],
-            [
-                "wexp",
-                4
-            ],
-            [
-                "exp",
-                17
-            ],
-            [
-                "value",
-                2250
-            ],
-            [
-                "min_range",
-                1
-            ],
-            [
-                "max_range",
-                1
-            ]
-        ]
-    },
-    {
-        "nid": "Rescue",
-        "name": "Rescue",
-        "desc": "Bring an ally to a space adjacent to the user",
-        "icon_nid": "Staff",
-        "icon_index": [
-            0,
-            10
-        ],
-        "components": [
-            [
-                "spell",
-                null
-            ],
-            [
-                "weapon_type",
-                "Runic"
-            ],
-            [
-                "weapon_rank",
-                "B"
-            ],
-            [
-                "magic",
-                null
-            ],
-            [
-                "uses",
-                3
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
-                "value",
-                1800
-            ],
-            [
-                "exp",
-                40
-            ],
-            [
-                "wexp",
-                7
-            ],
-            [
-                "sequence_item",
-                [
-                    "Rescue1",
-                    "Rescue2"
-                ]
-            ],
-            [
-                "no_ai",
-                null
-            ],
-            [
-                "min_range",
-                1
-            ],
-            [
-                "max_equation_range",
-                "MAGIC_RANGE"
-            ],
-            [
-                "target_tile",
-                null
-            ]
-        ]
-    },
-    {
-        "nid": "Rescue1",
-        "name": "Rescue",
-        "desc": "Rescues an ally.",
-        "icon_nid": "Staff",
-        "icon_index": [
-            0,
-            10
-        ],
-        "components": [
-            [
-                "spell",
-                null
-            ],
-            [
-                "target_ally",
-                null
-            ],
-            [
-                "magic",
-                null
-            ],
-            [
-                "min_range",
-                1
-            ],
-            [
-                "max_equation_range",
-                "MAGIC_RANGE"
-            ],
-            [
-                "store_unit",
-                null
-            ]
-        ]
-    },
-    {
-        "nid": "Rescue2",
-        "name": "Rescue",
-        "desc": "Rescues an ally.",
-        "icon_nid": "Staff",
-        "icon_index": [
-            0,
-            10
-        ],
-        "components": [
-            [
-                "spell",
-                null
-            ],
-            [
-                "magic",
-                null
-            ],
-            [
-                "min_range",
-                1
-            ],
-            [
-                "max_range",
-                1
-            ],
-            [
-                "target_tile",
-                null
-            ],
-            [
-                "unload_unit",
-                null
-            ]
-        ]
-    },
-    {
-        "nid": "Thyrceus",
-        "name": "Thyrceus",
-        "desc": "Legendary Staff of Gaeya.",
-        "icon_nid": "Staff",
-        "icon_index": [
-            0,
-            15
-        ],
-        "components": [
-            [
-                "spell",
-                null
-            ],
-            [
-                "target_ally",
-                null
-            ],
-            [
-                "weapon_type",
-                "Runic"
-            ],
-            [
-                "prf_unit",
-                [
-                    "Svetlanya",
-                    "Shayala",
-                    "Gaeya",
-                    "Melodia",
-                    "Nala"
-                ]
-            ],
-            [
-                "multi_item",
-                [
-                    "SylvansBlessing"
-                ]
-            ]
-        ]
-    },
-    {
         "nid": "LifeEnergy",
         "name": "LifeEnergy",
         "desc": "Restores (User's MAG + 20) HP.",
@@ -7628,9 +6814,92 @@
         ]
     },
     {
+        "nid": "Blessing",
+        "name": "Blessing",
+        "desc": "Ally deals holy elemental damage for 2 turns.",
+        "icon_nid": "{Batima} All Tomes",
+        "icon_index": [
+            6,
+            11
+        ],
+        "components": [
+            [
+                "value",
+                560
+            ],
+            [
+                "min_range",
+                0
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "damage",
+                5
+            ],
+            [
+                "hit",
+                90
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "weight",
+                4
+            ],
+            [
+                "uses",
+                40
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Ignis"
+            ],
+            [
+                "weapon_rank",
+                "D"
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    224,
+                    96,
+                    0
+                ]
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "spell",
+                null
+            ],
+            [
+                "target_ally",
+                null
+            ]
+        ]
+    },
+    {
         "nid": "Blind",
         "name": "Blind",
-        "desc": "Shining light blinds foe, greatly decreasing accuracy.",
+        "desc": "Shining light blinds foe, greatly decreasing accuracy for 2 turns.",
         "icon_nid": "{Ereshkigal} All Tomes",
         "icon_index": [
             10,
@@ -7647,7 +6916,7 @@
             ],
             [
                 "weapon_rank",
-                "C"
+                "D"
             ],
             [
                 "magic",
@@ -7695,8 +6964,8 @@
         ]
     },
     {
-        "nid": "Enrage",
-        "name": "Enrage",
+        "nid": "Fury",
+        "name": "Fury",
         "desc": "Amplifies one foe's anger, causing\nenemy to go berserk.",
         "icon_nid": "{Beansy} All Tomes",
         "icon_index": [
@@ -7762,9 +7031,9 @@
         ]
     },
     {
-        "nid": "SylvansBlessing",
-        "name": "Blessing of Sylvan",
-        "desc": "Call upon the blessing of Sylvan. Heals all allies on map once per chapter.",
+        "nid": "SylvansLight",
+        "name": "Light of Sylvan",
+        "desc": "Call upon the light of Sylvan. Heals all allies on map once per chapter.",
         "icon_nid": "{Batima} All Tomes",
         "icon_index": [
             0,
@@ -8320,7 +7589,7 @@
     {
         "nid": "Excalibur",
         "name": "Excalibur",
-        "desc": "Defense +5. Effective against monsters",
+        "desc": "Defense +5. Eff vs daemons.",
         "icon_nid": "{Batima} All Tomes",
         "icon_index": [
             7,
@@ -8592,6 +7861,77 @@
                 [
                     "Dragon"
                 ]
+            ]
+        ]
+    },
+    {
+        "nid": "Hammerne",
+        "name": "Hammerne",
+        "desc": "Repair an item to full uses.",
+        "icon_nid": "Staff",
+        "icon_index": [
+            0,
+            12
+        ],
+        "components": [
+            [
+                "spell",
+                null
+            ],
+            [
+                "value",
+                1800
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "weapon_type",
+                "Runic"
+            ],
+            [
+                "weapon_rank",
+                "C"
+            ],
+            [
+                "uses",
+                3
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "exp",
+                40
+            ],
+            [
+                "wexp",
+                8
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    234,
+                    255,
+                    0
+                ]
+            ],
+            [
+                "repair",
+                null
             ]
         ]
     },
@@ -9472,6 +8812,282 @@
         ]
     },
     {
+        "nid": "Unlock",
+        "name": "Unlock",
+        "desc": "Opens locks.",
+        "icon_nid": "Staff",
+        "icon_index": [
+            0,
+            13
+        ],
+        "components": [
+            [
+                "spell",
+                null
+            ],
+            [
+                "value",
+                1500
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "weapon_type",
+                "Runic"
+            ],
+            [
+                "weapon_rank",
+                "D"
+            ],
+            [
+                "uses",
+                10
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "exp",
+                17
+            ],
+            [
+                "wexp",
+                5
+            ],
+            [
+                "unlock_staff",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Swiftness",
+        "name": "Swiftness",
+        "desc": "Raises ally's dexterity by 5 for 2 turns.",
+        "icon_nid": "{Ereshkigal} All Tomes",
+        "icon_index": [
+            10,
+            1
+        ],
+        "components": [
+            [
+                "spell",
+                null
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "weapon_type",
+                "Fulgus"
+            ],
+            [
+                "weapon_rank",
+                "D"
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "uses",
+                15
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "status_on_hit",
+                "ResPlus"
+            ],
+            [
+                "wexp",
+                4
+            ],
+            [
+                "exp",
+                17
+            ],
+            [
+                "value",
+                2250
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ]
+        ]
+    },
+    {
+        "nid": "Illusion",
+        "name": "Illusion",
+        "desc": "Guarantees dodging the next two attacks.",
+        "icon_nid": "{Valak} All Tomes",
+        "icon_index": [
+            3,
+            1
+        ],
+        "components": [
+            [
+                "spell",
+                null
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "weapon_type",
+                "Fulgus"
+            ],
+            [
+                "weapon_rank",
+                "B"
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "uses",
+                15
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "status_on_hit",
+                "ResPlus"
+            ],
+            [
+                "wexp",
+                4
+            ],
+            [
+                "exp",
+                17
+            ],
+            [
+                "value",
+                2250
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ]
+        ]
+    },
+    {
+        "nid": "Enshock",
+        "name": "Enshock",
+        "desc": "Ally deals electric elemental damage for 2 turns.",
+        "icon_nid": "{Beansy} All Tomes",
+        "icon_index": [
+            4,
+            2
+        ],
+        "components": [
+            [
+                "value",
+                560
+            ],
+            [
+                "min_range",
+                0
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "damage",
+                5
+            ],
+            [
+                "hit",
+                90
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "weight",
+                4
+            ],
+            [
+                "uses",
+                40
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Ignis"
+            ],
+            [
+                "weapon_rank",
+                "D"
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    224,
+                    96,
+                    0
+                ]
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "spell",
+                null
+            ],
+            [
+                "target_ally",
+                null
+            ]
+        ]
+    },
+    {
         "nid": "Teleport",
         "name": "Teleport",
         "desc": "Teleports self to a distant location.",
@@ -9769,89 +9385,6 @@
             [
                 "max_range",
                 5
-            ],
-            [
-                "damage",
-                5
-            ],
-            [
-                "hit",
-                90
-            ],
-            [
-                "crit",
-                0
-            ],
-            [
-                "weight",
-                4
-            ],
-            [
-                "uses",
-                40
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
-                "level_exp",
-                null
-            ],
-            [
-                "weapon_type",
-                "Ignis"
-            ],
-            [
-                "weapon_rank",
-                "D"
-            ],
-            [
-                "map_hit_add_blend",
-                [
-                    224,
-                    96,
-                    0
-                ]
-            ],
-            [
-                "magic",
-                null
-            ],
-            [
-                "spell",
-                null
-            ],
-            [
-                "target_ally",
-                null
-            ]
-        ]
-    },
-    {
-        "nid": "Enshock",
-        "name": "Enshock",
-        "desc": "Ally deals electric elemental damage for 2 turns.",
-        "icon_nid": "{Beansy} All Tomes",
-        "icon_index": [
-            4,
-            2
-        ],
-        "components": [
-            [
-                "value",
-                560
-            ],
-            [
-                "min_range",
-                0
-            ],
-            [
-                "max_range",
-                2
             ],
             [
                 "damage",
@@ -10574,10 +10107,10 @@
         "nid": "HealingWater",
         "name": "Healing Water",
         "desc": "Restores (User's MAG + 10) HP.",
-        "icon_nid": "Staff",
+        "icon_nid": "{AtelierLabs} All Icons",
         "icon_index": [
-            0,
-            0
+            4,
+            3
         ],
         "components": [
             [
@@ -10645,11 +10178,11 @@
     {
         "nid": "Purify",
         "name": "Purify",
-        "desc": "Removes all temporary statuses.",
-        "icon_nid": "{Batima} All Tomes",
+        "desc": "Cleanses physical statuses Bleed, Curse,\nSilence, Paralyze, Sleep, and Burn.",
+        "icon_nid": "{Zarg} All Icons",
         "icon_index": [
-            4,
-            5
+            9,
+            13
         ],
         "components": [
             [
@@ -10666,7 +10199,7 @@
             ],
             [
                 "weapon_rank",
-                "C"
+                "D"
             ],
             [
                 "magic",
@@ -10702,10 +10235,144 @@
             [
                 "max_range",
                 1
+            ]
+        ]
+    },
+    {
+        "nid": "Intellectual",
+        "name": "Intellectual",
+        "desc": "Raises ally's intellect by 5 for 2 turns.",
+        "icon_nid": "{Batima} All Tomes",
+        "icon_index": [
+            2,
+            5
+        ],
+        "components": [
+            [
+                "spell",
+                null
             ],
             [
-                "restore",
+                "target_ally",
                 null
+            ],
+            [
+                "weapon_type",
+                "Aquis"
+            ],
+            [
+                "weapon_rank",
+                "D"
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "uses",
+                15
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "status_on_hit",
+                "ResPlus"
+            ],
+            [
+                "wexp",
+                4
+            ],
+            [
+                "exp",
+                17
+            ],
+            [
+                "value",
+                2250
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ]
+        ]
+    },
+    {
+        "nid": "Silence",
+        "name": "Silence",
+        "desc": "Enemy is rendered unable to use magic.",
+        "icon_nid": "{Batima} All Tomes",
+        "icon_index": [
+            4,
+            5
+        ],
+        "components": [
+            [
+                "spell",
+                null
+            ],
+            [
+                "weapon_type",
+                "Runic"
+            ],
+            [
+                "weapon_rank",
+                "C"
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "uses",
+                3
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "wexp",
+                5
+            ],
+            [
+                "exp",
+                30
+            ],
+            [
+                "value",
+                1200
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "status_on_hit",
+                "Silence"
+            ],
+            [
+                "max_equation_range",
+                "MAGIC_RANGE"
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "eval_target_restrict_2",
+                "target.wexp['Solus'] or target.wexp['Ignis'] or target.wexp['Fulgus'] or target.wexp['Aquis'] or target.wexp['Glacies'] or target.wexp['Ventus'] or target.wexp['Tellus'] or target.wexp['Lunis']"
             ]
         ]
     },
@@ -10789,8 +10456,8 @@
         ]
     },
     {
-        "nid": "Rejuvenation",
-        "name": "Rejuvenation",
+        "nid": "MiwataBlessing",
+        "name": "Blessing of Miwata",
         "desc": "Fully heal all nearby allies in a 5-square radius and grants Autolife.",
         "icon_nid": "{Batima} All Tomes",
         "icon_index": [
@@ -10967,7 +10634,7 @@
         "desc": "",
         "icon_nid": "{Batima} All Tomes",
         "icon_index": [
-            0,
+            1,
             5
         ],
         "components": [
@@ -11440,9 +11107,9 @@
         ]
     },
     {
-        "nid": "Resist",
-        "name": "Resist",
-        "desc": "Raises ally's resistance.",
+        "nid": "Barrier",
+        "name": "Barrier",
+        "desc": "Raises ally's resistance by 5 for 2 turns.",
         "icon_nid": "{Ereshkigal} All Tomes",
         "icon_index": [
             10,
@@ -11463,22 +11130,11 @@
             ],
             [
                 "weapon_rank",
-                "C"
+                "D"
             ],
             [
                 "magic",
                 null
-            ],
-            [
-                "uses",
-                15
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
             ],
             [
                 "status_on_hit",
@@ -11510,10 +11166,10 @@
         "nid": "Freeze",
         "name": "Freeze",
         "desc": "Enemy cannot move or attack for 2 turns. Frozen enemies receive critical damage if struck.",
-        "icon_nid": "{Ereshkigal} All Tomes",
+        "icon_nid": "{FuriousHaunter} All Icons",
         "icon_index": [
-            8,
-            3
+            2,
+            0
         ],
         "components": [
             [
@@ -11574,17 +11230,21 @@
         ]
     },
     {
-        "nid": "TimeStop",
-        "name": "Time Stop",
-        "desc": "Freezes all units in place for one turn and stops the turn counter except for the wielder.\nCertain units may be immune.",
-        "icon_nid": "{Batima} All Tomes",
+        "nid": "MindRead",
+        "name": "Mind Read",
+        "desc": "Read foe's actions in next attack. All unit's attacks will\nhit before foe can take action.",
+        "icon_nid": "{Zarg} All Icons",
         "icon_index": [
-            3,
-            5
+            4,
+            13
         ],
         "components": [
             [
                 "spell",
+                null
+            ],
+            [
+                "target_ally",
                 null
             ],
             [
@@ -11593,50 +11253,35 @@
             ],
             [
                 "weapon_rank",
-                "S"
+                "B"
             ],
             [
                 "magic",
                 null
             ],
             [
-                "uses",
-                3
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
+                "status_on_hit",
+                "ResPlus"
             ],
             [
                 "wexp",
-                5
+                4
             ],
             [
                 "exp",
-                35
+                17
             ],
             [
                 "value",
-                1500
+                2250
             ],
             [
                 "min_range",
                 1
             ],
             [
-                "status_on_hit",
-                "Petrify"
-            ],
-            [
-                "max_equation_range",
-                "MAGIC_RANGE"
-            ],
-            [
-                "target_enemy",
-                null
+                "max_range",
+                1
             ]
         ]
     },
@@ -11974,7 +11619,7 @@
             ],
             [
                 "weapon_rank",
-                "C"
+                "B"
             ],
             [
                 "magic",
@@ -12120,6 +11765,73 @@
         ]
     },
     {
+        "nid": "Kronos",
+        "name": "Kronos",
+        "desc": "Freezes all other units in place for one turn.\nCertain units may be immune.",
+        "icon_nid": "{Batima} All Tomes",
+        "icon_index": [
+            3,
+            5
+        ],
+        "components": [
+            [
+                "spell",
+                null
+            ],
+            [
+                "weapon_type",
+                "Glacies"
+            ],
+            [
+                "weapon_rank",
+                "S"
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "uses",
+                3
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "wexp",
+                5
+            ],
+            [
+                "exp",
+                35
+            ],
+            [
+                "value",
+                1500
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "status_on_hit",
+                "Petrify"
+            ],
+            [
+                "max_equation_range",
+                "MAGIC_RANGE"
+            ],
+            [
+                "target_enemy",
+                null
+            ]
+        ]
+    },
+    {
         "nid": "FrostBreath",
         "name": "Frost Breath",
         "desc": "Breath magic. Ignore's enemy defence. Dragons only.",
@@ -12194,13 +11906,419 @@
         ]
     },
     {
+        "nid": "HealingWind",
+        "name": "HealingWind",
+        "desc": "Restores (User's Magic + 10) HP to all allies within range.",
+        "icon_nid": "{Valak} All Tomes",
+        "icon_index": [
+            5,
+            2
+        ],
+        "components": [
+            [
+                "spell",
+                null
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "weapon_type",
+                "Runic"
+            ],
+            [
+                "weapon_rank",
+                "A"
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "uses",
+                8
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "wexp",
+                5
+            ],
+            [
+                "exp",
+                60
+            ],
+            [
+                "value",
+                8000
+            ],
+            [
+                "equation_blast_aoe",
+                "MAGIC_RANGE"
+            ],
+            [
+                "equation_heal",
+                "HEAL"
+            ]
+        ]
+    },
+    {
+        "nid": "Hasten",
+        "name": "Hasten",
+        "desc": "Raises ally's agility by 5 for 2 turns.",
+        "icon_nid": "{Ereshkigal} All Tomes",
+        "icon_index": [
+            9,
+            2
+        ],
+        "components": [
+            [
+                "spell",
+                null
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "weapon_type",
+                "Ventus"
+            ],
+            [
+                "weapon_rank",
+                "D"
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "uses",
+                15
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "status_on_hit",
+                "ResPlus"
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ]
+        ]
+    },
+    {
+        "nid": "Trade",
+        "name": "Telekinesis",
+        "desc": "Trade with a far away ally.",
+        "icon_nid": "{Ereshkigal} All Tomes",
+        "icon_index": [
+            6,
+            2
+        ],
+        "components": [
+            [
+                "spell",
+                null
+            ],
+            [
+                "value",
+                600
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                10
+            ],
+            [
+                "weapon_type",
+                "Ventus"
+            ],
+            [
+                "weapon_rank",
+                "D"
+            ],
+            [
+                "uses",
+                10
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "exp",
+                11
+            ],
+            [
+                "wexp",
+                2
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    232,
+                    200,
+                    15
+                ]
+            ],
+            [
+                "trade",
+                null
+            ],
+            [
+                "menu_after_combat",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Rescue",
+        "name": "Rescue",
+        "desc": "Bring an ally to a space adjacent to the user",
+        "icon_nid": "{Ereshkigal} All Tomes",
+        "icon_index": [
+            7,
+            2
+        ],
+        "components": [
+            [
+                "spell",
+                null
+            ],
+            [
+                "weapon_type",
+                "Ventus"
+            ],
+            [
+                "weapon_rank",
+                "B"
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "uses",
+                3
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "value",
+                1800
+            ],
+            [
+                "exp",
+                40
+            ],
+            [
+                "wexp",
+                7
+            ],
+            [
+                "sequence_item",
+                [
+                    "Rescue1",
+                    "Rescue2"
+                ]
+            ],
+            [
+                "no_ai",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_equation_range",
+                "MAGIC_RANGE"
+            ],
+            [
+                "target_tile",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Rescue1",
+        "name": "Rescue",
+        "desc": "Rescues an ally.",
+        "icon_nid": "{Ereshkigal} All Tomes",
+        "icon_index": [
+            7,
+            2
+        ],
+        "components": [
+            [
+                "spell",
+                null
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_equation_range",
+                "MAGIC_RANGE"
+            ],
+            [
+                "store_unit",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Rescue2",
+        "name": "Rescue",
+        "desc": "Rescues an ally.",
+        "icon_nid": "{Ereshkigal} All Tomes",
+        "icon_index": [
+            7,
+            2
+        ],
+        "components": [
+            [
+                "spell",
+                null
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "target_tile",
+                null
+            ],
+            [
+                "unload_unit",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Sleep",
+        "name": "Sleep",
+        "desc": "Enemy cannot move or attack for 5 turns.\nRestores 2 HP and 1 MP per turn.",
+        "icon_nid": "{Zarg} All Icons",
+        "icon_index": [
+            8,
+            15
+        ],
+        "components": [
+            [
+                "spell",
+                null
+            ],
+            [
+                "weapon_type",
+                "Runic"
+            ],
+            [
+                "weapon_rank",
+                "B"
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "uses",
+                3
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "wexp",
+                5
+            ],
+            [
+                "exp",
+                35
+            ],
+            [
+                "value",
+                1500
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "status_on_hit",
+                "Sleep"
+            ],
+            [
+                "max_equation_range",
+                "MAGIC_RANGE"
+            ],
+            [
+                "target_enemy",
+                null
+            ]
+        ]
+    },
+    {
         "nid": "Gust",
         "name": "Excalibur",
         "desc": "Eff vs Nordak, Drakes.",
-        "icon_nid": "Anima",
+        "icon_nid": "{Batima} All Tomes",
         "icon_index": [
-            0,
-            5
+            5,
+            3
         ],
         "components": [
             [
@@ -12289,10 +12407,10 @@
         "nid": "AirCurrent",
         "name": "Air Current",
         "desc": "Eff vs Nordak, Drakes.",
-        "icon_nid": "Anima",
+        "icon_nid": "{Batima} All Tomes",
         "icon_index": [
-            0,
-            5
+            6,
+            4
         ],
         "components": [
             [
@@ -12381,10 +12499,10 @@
         "nid": "WindCutter",
         "name": "Wind Cutter",
         "desc": "Eff vs Nordak, Drakes.",
-        "icon_nid": "Anima",
+        "icon_nid": "{Batima} All Tomes",
         "icon_index": [
-            0,
-            5
+            4,
+            3
         ],
         "components": [
             [
@@ -12473,10 +12591,10 @@
         "nid": "Tornado",
         "name": "Wind Cutter",
         "desc": "Eff vs Nordak, Drakes.",
-        "icon_nid": "Anima",
+        "icon_nid": "{Batima} All Tomes",
         "icon_index": [
-            0,
-            5
+            8,
+            4
         ],
         "components": [
             [
@@ -12565,10 +12683,10 @@
         "nid": "Hurricane",
         "name": "Hurricane",
         "desc": "Speed +5. Effective against monsters",
-        "icon_nid": "Anima",
+        "icon_nid": "{Batima} All Tomes",
         "icon_index": [
-            0,
-            5
+            3,
+            4
         ],
         "components": [
             [
@@ -12657,13 +12775,108 @@
         ]
     },
     {
+        "nid": "ThorresTempest",
+        "name": "Thorre's Tempest",
+        "desc": "",
+        "icon_nid": "{Zarg} All Icons",
+        "icon_index": [
+            7,
+            13
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "damage",
+                18
+            ],
+            [
+                "hit",
+                90
+            ],
+            [
+                "weapon_type",
+                "Ventus"
+            ],
+            [
+                "weapon_rank",
+                "S"
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "uses",
+                30
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "weight",
+                13
+            ],
+            [
+                "crit",
+                10
+            ],
+            [
+                "status_on_equip",
+                "Speed_Plus5"
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "Monster"
+                    ],
+                    "effective_multiplier": 1.0,
+                    "effective_bonus_damage": 36,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    0,
+                    170,
+                    0
+                ]
+            ]
+        ]
+    },
+    {
         "nid": "Ultima",
         "name": "Ultima",
         "desc": "Technique perfected by Dalton. Combines Ventus,\nFulgus, and Aquis to form a massive tempest.",
-        "icon_nid": "Anima",
+        "icon_nid": "{Ereshkigal} All Tomes",
         "icon_index": [
-            0,
-            5
+            13,
+            4
         ],
         "components": [
             [
@@ -12899,7 +13112,7 @@
     {
         "nid": "Petrify",
         "name": "Petrify",
-        "desc": "Encases target in stone for 2 turns. All Avd reduced to 0, but damage is greatly reduced.",
+        "desc": "Encases target in stone for 2 turns. All Avd reduced to 0,\nbut damage reduced by 80%. Can be broken with a hammer,\ndealing critical damage and removing petrify.",
         "icon_nid": "Neutral",
         "icon_index": [
             0,
@@ -12972,9 +13185,9 @@
         ]
     },
     {
-        "nid": "Statue",
-        "name": "Statue",
-        "desc": "Unit cannot move, but is immune to all physical damage for 1 turn.",
+        "nid": "Stoneskin",
+        "name": "Stoneskin",
+        "desc": "Raises ally's vitality by 5 for 2 turns.",
         "icon_nid": "Staff",
         "icon_index": [
             0,
@@ -13007,7 +13220,7 @@
             ],
             [
                 "weapon_rank",
-                "B"
+                "D"
             ],
             [
                 "uses",
@@ -13675,6 +13888,73 @@
         ]
     },
     {
+        "nid": "Thief",
+        "name": "Thief",
+        "desc": "Steal items from enemies.",
+        "icon_nid": "Staff",
+        "icon_index": [
+            0,
+            12
+        ],
+        "components": [
+            [
+                "spell",
+                null
+            ],
+            [
+                "value",
+                1800
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                10
+            ],
+            [
+                "weapon_type",
+                "Runic"
+            ],
+            [
+                "weapon_rank",
+                "C"
+            ],
+            [
+                "uses",
+                5
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "exp",
+                40
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    255,
+                    238,
+                    238
+                ]
+            ],
+            [
+                "steal",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ]
+        ]
+    },
+    {
         "nid": "Transfusion",
         "name": "Transfusion",
         "desc": "Restores an ally's HP from user's own HP, max: user's HP - 1.",
@@ -13758,6 +14038,73 @@
             [
                 "lifelink",
                 -1.0
+            ]
+        ]
+    },
+    {
+        "nid": "Restore",
+        "name": "Restore",
+        "desc": "Removes all temporary statuses.",
+        "icon_nid": "Staff",
+        "icon_index": [
+            0,
+            5
+        ],
+        "components": [
+            [
+                "spell",
+                null
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "weapon_type",
+                "Runic"
+            ],
+            [
+                "weapon_rank",
+                "B"
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "uses",
+                10
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "wexp",
+                3
+            ],
+            [
+                "exp",
+                20
+            ],
+            [
+                "value",
+                2000
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "restore",
+                null
             ]
         ]
     },
@@ -14096,85 +14443,6 @@
         ]
     },
     {
-        "nid": "EclipseOld",
-        "name": "EclipseOld",
-        "desc": "Halve's the enemy's current HP",
-        "icon_nid": "Dark",
-        "icon_index": [
-            0,
-            3
-        ],
-        "components": [
-            [
-                "target_enemy",
-                null
-            ],
-            [
-                "level_exp",
-                null
-            ],
-            [
-                "hit",
-                30
-            ],
-            [
-                "weapon_type",
-                "Lunis"
-            ],
-            [
-                "weapon_rank",
-                "B"
-            ],
-            [
-                "magic",
-                null
-            ],
-            [
-                "uses",
-                5
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
-                "weight",
-                12
-            ],
-            [
-                "wexp",
-                8
-            ],
-            [
-                "value",
-                4000
-            ],
-            [
-                "min_range",
-                3
-            ],
-            [
-                "max_range",
-                10
-            ],
-            [
-                "status_on_hit",
-                "Eclipse_Helper"
-            ],
-            [
-                "siege_weapon",
-                null
-            ],
-            [
-                "no_double",
-                null
-            ]
-        ]
-    },
-    {
         "nid": "Hellfire",
         "name": "Hellfire",
         "desc": "",
@@ -14258,13 +14526,13 @@
         ]
     },
     {
-        "nid": "Gleipnir",
-        "name": "Gleipnir",
+        "nid": "MephistoVengeance",
+        "name": "Vengeance of Mephisto",
         "desc": "",
-        "icon_nid": "Dark",
+        "icon_nid": "{Ereshkigal} All Tomes",
         "icon_index": [
-            0,
-            5
+            5,
+            8
         ],
         "components": [
             [
@@ -14407,6 +14675,85 @@
                 [
                     "Dragon"
                 ]
+            ]
+        ]
+    },
+    {
+        "nid": "EclipseOld",
+        "name": "EclipseOld",
+        "desc": "Halve's the enemy's current HP",
+        "icon_nid": "Dark",
+        "icon_index": [
+            0,
+            3
+        ],
+        "components": [
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "hit",
+                30
+            ],
+            [
+                "weapon_type",
+                "Lunis"
+            ],
+            [
+                "weapon_rank",
+                "B"
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "uses",
+                5
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "weight",
+                12
+            ],
+            [
+                "wexp",
+                8
+            ],
+            [
+                "value",
+                4000
+            ],
+            [
+                "min_range",
+                3
+            ],
+            [
+                "max_range",
+                10
+            ],
+            [
+                "status_on_hit",
+                "Eclipse_Helper"
+            ],
+            [
+                "siege_weapon",
+                null
+            ],
+            [
+                "no_double",
+                null
             ]
         ]
     },

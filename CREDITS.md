@@ -97,7 +97,7 @@ Steel Katana (steel katana by batima)
 Mythril Katana (silver katana by batima)
 Dual Katanas (Sword 4 by MeatOfJustice)
 Serrated Edge (Superior Edge by Topazlight)
-Dardevaja (sword 5 by SMITHYGCN)
+Dardevaja (Obsidian Blade [Tactics Ogre] by VelvetKitsune, EldritchA, Indogutsu Tenbuki)
 
 ###### Lightblade
 
@@ -253,6 +253,21 @@ Shock Launcher (Thunderbolt by Purple)
 
 #### Magic Icons
 
+##### Light Spells
+Life Energy (Lifelight [Devil Tome] by Beansy)
+Blessing (Rexaura by Batima)
+Blind (Unique 7 by Ereshkigal)
+Enrage (Purge by Beansy)
+Sylvan's Blessing (Starlight DS by Batima)
+Glimmer (Light/Lightning Alt Color by Batima)
+Shine (Ellight Alt Color by Batima)
+Ray (Aura Jugdral by Batima)
+Solar Flare (Sunbeam by Beansy)
+Starlight (Starlight by Batima)
+Excalibur (POR Rexaura by Batima)
+Airyukin (Book of Naga Alt Color by Batima)
+Holy Breath (?? unsure how to handle breath icons yet)
+
 ##### Fire Spells
 Strengthen (Arcfire by Batima)
 Enflame (Veillantif by Batima)
@@ -265,10 +280,11 @@ Eruption (Fire 6 by Leif)
 Ragnarok (Icon Blitz 1 Tome 9 by Valak)
 
 ##### Lightning Spells
-Swift
+Swiftness (Unique 16 by Ereshkigal)
+Illusion (Tome 20 by Valak)
+Enshock (Arectaris by Beansy)
 Teleport (Thoron by Batima)
 Warp (Katarina's Bolt by Batima)
-Enshock (Arectaris by Beansy)
 Paralyze (Unique 13 by Ereshkigal)
 Static (GBA Style Elthunder by Batima)
 Shockwave (Unique 29 by Ereshkigal)
@@ -277,28 +293,11 @@ Thunderstorm (Superior Jolt by Batima)
 Lightning Bolt (Tome 9 by Ereshkigal)
 Arrow of Alternia (Mjolnir by Batima)
 
-##### Ice Spells
-Resist (Unique 20 by Ereshkigal)
-Freeze (Unique 18 by Ereshkigal)
-Time Stop (Sleet by Batima)
-Icicle (Anima 16 by Ereshkigal)
-Frostbite (Other Tome 4 by Ereshkigal)
-Hailstorm (Other Tome 10 by Ereshkigal)
-Blizzard (Unique 28 by Ereshkigal)
-Fimbulvetr (Fimbulvetr by Beansy)
-
-##### Wind Spells
-Agile
-Gust (Wilderwind by Batima)
-Air Current (Celica's Gale by Batima)
-Wind Cutter (DS Excalibur by Batima)
-Tornado (Tornado by Batima)
-Hurricane (Giga Excalibur by Batima)
-Ultima (Sacred War Tome 4 by Seal)
-
 ##### Water Spells
-Healing Water (Magic 1?? by AtelierLabs)
-Purify (Sleet by Batima)
+Intellectual (Arcblizzard by Batima)
+Healing Water (Magic 1 by AtelierLabs)
+Purify (Anima 10 by Zarg)
+Silence (Sleet by Batima)
 Healing Rain (Hailstorm by Beansy)
 Rejuvenation (Blizzard POR by Batima)
 Aqua Edge (Ice Shards by Beansy)
@@ -307,20 +306,35 @@ Water Blast (Crossfreeze by Beansy)
 Deluge (Unique 19 by Ereshkigal)
 Leviathan (Aurora by Beansy)
 
-##### Light Spells
-Life Energy (Lifelight [Devil Tome] by Beansy)
-Blind (Unique 7 by Ereshkigal)
-Enrage (Purge by Beansy)
-Sylvan's Blessing (Starlight DS by Batima)
-Glimmer (Light/Lightning Alt Color by Batima)
-Shine (Ellight Alt Color by Batima)
-Ray (Aura Jugdral by Batima)
-Solar Flare (Sunbeam by Beansy)
-Starlight (Starlight by Batima)
-Excalibur (POR Rexaura by Batima)
-Airyukin (Book of Naga Alt Color by Batima)
+##### Ice Spells
+Barrier (Unique 20 by Ereshkigal)
+Enfrost ()
+Freeze (Glacier by FuriousHaunter)
+Mind Read (Anima 5 by Zarg)
+Time Stop (Sleet by Batima)
+Icicle (Anima 16 by Ereshkigal)
+Frostbite (Other Tome 4 by Ereshkigal)
+Hailstorm (Other Tome 10 by Ereshkigal)
+Blizzard (Unique 28 by Ereshkigal)
+Fimbulvetr (Fimbulvetr by Beansy)
+
+##### Wind Spells
+Healing Wind (Tome 16 by Valak)
+Hasten (Unique 23 by Ereshkigal)
+Sleep (Dark 9 by Zarg)
+Trade (Tome 5 by Ereshkigal)
+Rescue (Unique 21 by Ereshkigal)
+Gust (Wilderwind by Batima)
+Air Current (Celica's Gale by Batima)
+Wind Cutter (Windstorm by Batima)
+Tornado (Tornado by Batima)
+Hurricane (Giga Excalibur by Batima)
+Ultima (Unique 26 by Ereshkigal)
 
 ##### Earth Spells
+Reforge
+Stoneskin
+Petrify
 Stone (Stone Tome Icon by Topaz)
 Boulder (Sacred War Dark 3 by Seal)
 Quake (ArcaneaIcon Project tile194 by LordGlenn)
