@@ -141,15 +141,15 @@
                 0,
                 null
             ],
-            "Claw": [
-                false,
-                0,
-                null
-            ],
-            "Staff": [
+            "Runic": [
                 false,
                 0,
                 251
+            ],
+            "Shield": [
+                false,
+                0,
+                null
             ],
             "Armor": [
                 false,
@@ -165,6 +165,16 @@
                 false,
                 0,
                 null
+            ],
+            "Claw": [
+                false,
+                0,
+                null
+            ],
+            "Staff": [
+                false,
+                0,
+                251
             ],
             "Light": [
                 false,
@@ -212,11 +222,6 @@
                 null
             ],
             "Magic": [
-                false,
-                0,
-                251
-            ],
-            "Runic": [
                 false,
                 0,
                 251
@@ -1319,15 +1324,15 @@
                 71,
                 null
             ],
-            "Claw": [
-                false,
-                0,
-                null
-            ],
-            "Staff": [
+            "Runic": [
                 false,
                 0,
                 251
+            ],
+            "Shield": [
+                false,
+                0,
+                null
             ],
             "Armor": [
                 false,
@@ -1343,6 +1348,16 @@
                 false,
                 0,
                 null
+            ],
+            "Claw": [
+                false,
+                0,
+                null
+            ],
+            "Staff": [
+                false,
+                0,
+                251
             ],
             "Light": [
                 false,
@@ -1390,11 +1405,6 @@
                 null
             ],
             "Magic": [
-                false,
-                0,
-                251
-            ],
-            "Runic": [
                 false,
                 0,
                 251
@@ -1570,15 +1580,15 @@
                 0,
                 null
             ],
-            "Claw": [
-                false,
-                0,
-                null
-            ],
-            "Staff": [
+            "Runic": [
                 true,
                 0,
                 251
+            ],
+            "Shield": [
+                false,
+                0,
+                null
             ],
             "Armor": [
                 false,
@@ -1594,6 +1604,16 @@
                 false,
                 0,
                 null
+            ],
+            "Claw": [
+                false,
+                0,
+                null
+            ],
+            "Staff": [
+                true,
+                0,
+                251
             ],
             "Light": [
                 false,
@@ -1641,11 +1661,6 @@
                 null
             ],
             "Magic": [
-                true,
-                0,
-                251
-            ],
-            "Runic": [
                 true,
                 0,
                 251
@@ -6061,7 +6076,7 @@
         "learned_skills": [
             [
                 1,
-                "Crit_Plus15"
+                "Crit_Plus10"
             ]
         ],
         "wexp_gain": {
@@ -7000,15 +7015,15 @@
                 0,
                 null
             ],
-            "Claw": [
-                false,
-                0,
-                null
-            ],
-            "Staff": [
+            "Runic": [
                 false,
                 0,
                 251
+            ],
+            "Shield": [
+                false,
+                0,
+                null
             ],
             "Armor": [
                 false,
@@ -7024,6 +7039,16 @@
                 false,
                 0,
                 null
+            ],
+            "Claw": [
+                false,
+                0,
+                null
+            ],
+            "Staff": [
+                false,
+                0,
+                251
             ],
             "Light": [
                 false,
@@ -7046,11 +7071,6 @@
                 251
             ],
             "Magic": [
-                false,
-                0,
-                251
-            ],
-            "Runic": [
                 false,
                 0,
                 251
@@ -7445,15 +7465,15 @@
                 0,
                 null
             ],
-            "Claw": [
-                false,
-                0,
-                null
-            ],
-            "Staff": [
+            "Runic": [
                 false,
                 0,
                 251
+            ],
+            "Shield": [
+                false,
+                0,
+                null
             ],
             "Armor": [
                 false,
@@ -7469,6 +7489,16 @@
                 false,
                 0,
                 null
+            ],
+            "Claw": [
+                false,
+                0,
+                null
+            ],
+            "Staff": [
+                false,
+                0,
+                251
             ],
             "Light": [
                 false,
@@ -7516,11 +7546,6 @@
                 null
             ],
             "Magic": [
-                false,
-                0,
-                251
-            ],
-            "Runic": [
                 false,
                 0,
                 251
@@ -8239,7 +8264,7 @@
         "learned_skills": [
             [
                 1,
-                "Crit_Plus15"
+                "Crit_Plus10"
             ]
         ],
         "wexp_gain": {
@@ -8660,7 +8685,7 @@
         "learned_skills": [
             [
                 1,
-                "Crit_Plus15"
+                "Crit_Plus10"
             ]
         ],
         "wexp_gain": {
@@ -12236,7 +12261,7 @@
         "learned_skills": [
             [
                 1,
-                "Crit_Plus15"
+                "Crit_Plus10"
             ]
         ],
         "wexp_gain": {

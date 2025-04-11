@@ -374,7 +374,7 @@
                 "faction": "Siegwang",
                 "starting_items": [
                     [
-                        "Epee",
+                        "Iron_Lance",
                         false
                     ]
                 ],
@@ -398,7 +398,7 @@
                 "faction": "Masa",
                 "starting_items": [
                     [
-                        "Epee",
+                        "Steel_Axe",
                         false
                     ]
                 ],
@@ -422,7 +422,7 @@
                 "faction": "Masa",
                 "starting_items": [
                     [
-                        "Epee",
+                        "Steel_Bow",
                         false
                     ]
                 ],
@@ -446,7 +446,7 @@
                 "faction": "Masa",
                 "starting_items": [
                     [
-                        "Epee",
+                        "Iron_Axe",
                         false
                     ]
                 ],

@@ -53,15 +53,11 @@
         },
         "starting_items": [
             [
-                "Splash",
+                "Foil",
                 false
             ],
             [
-                "Epee",
-                false
-            ],
-            [
-                "Static",
+                "Spellbook",
                 false
             ]
         ],
@@ -4181,7 +4177,7 @@
         "desc": "Miriam's former retainer promoted to Captain of the guard. Miriam looks up to her as a mentor. She has a young son, Josif, and a stepdaughter, Thanya.",
         "variant": "Serena",
         "level": 25,
-        "klass": "Soldier",
+        "klass": "Captain",
         "tags": [],
         "bases": {
             "LCK": 0,
@@ -4236,7 +4232,7 @@
                 false
             ],
             [
-                "Frostbite",
+                "Spellbook",
                 false
             ]
         ],
@@ -4334,7 +4330,7 @@
             ],
             [
                 "Birthplace",
-                "Unknown"
+                "Creodysna"
             ],
             [
                 "Home",

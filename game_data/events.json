@@ -68,35 +68,6 @@
         "nid": "Global IntroOld"
     },
     {
-        "name": "Intro",
-        "trigger": "level_start",
-        "level_nid": null,
-        "condition": "True",
-        "commands": [],
-        "only_once": false,
-        "priority": 20,
-        "_source": [
-            "remove_unit;Svetlanya;immediate",
-            "remove_unit;Kasuto;immediate",
-            "remove_group;Enemy1;immediate",
-            "add_unit;Svetlanya;4,3;immediate",
-            "add_portrait;Svetlanya;MidLeft;Middle;CloseEyes",
-            "speak;Svetlanya;...|Oh holy mother...|Blessed be this wondrous day. Guide me as I walk this path...",
-            "remove_portrait;Svetlanya;",
-            "add_unit;Kasuto;10,11;immediate",
-            "move_unit;Kasuto;4,4",
-            "multi_add_portrait;Svetlanya;MidLeft;Kasuto;MidRight;",
-            "speak;Kasuto;My dear child... what troubles you so?",
-            "wait;1000",
-            "speak;Svetlanya;...|Sister Kasuto! From when had you arrived?|Were you not yet still on your latest pilgrimage?",
-            "speak;Kasuto;My apologies, Lady Svetlanya.|Naught should I have left so suddenly during your time of need.",
-            "mirror_portrait;Svetlanya;",
-            "speak;Svetlanya;Truly you need not worry about my troubles.|Others far more need your aid than that of I!",
-            "change_tilemap;Ch0"
-        ],
-        "nid": "Global Intro"
-    },
-    {
         "name": "DeathEirika",
         "trigger": "unit_death",
         "level_nid": null,
@@ -3076,7 +3047,7 @@
     {
         "name": "Summon Phantom",
         "trigger": null,
-        "level_nid": "0",
+        "level_nid": null,
         "condition": "True",
         "commands": [],
         "only_once": false,
@@ -3093,7 +3064,7 @@
             "wait;200",
             ""
         ],
-        "nid": "0 Summon Phantom"
+        "nid": "Global Summon Phantom"
     },
     {
         "name": "Summon Soldiers",
@@ -3118,7 +3089,7 @@
     },
     {
         "name": "Support Gain",
-        "trigger": "on_support",
+        "trigger": null,
         "level_nid": null,
         "condition": "True",
         "commands": [],
@@ -3206,5 +3177,69 @@
             "end"
         ],
         "nid": "Global BurnWeapons"
+    },
+    {
+        "name": "Intro",
+        "trigger": null,
+        "level_nid": "0",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "music;Event - Legacy 2 (Suikoden 2, Reminiscence by Tak);100;no_warn",
+            "remove_unit;Svetlanya;immediate",
+            "remove_unit;Kasuto;immediate",
+            "remove_group;Enemy1;immediate",
+            "change_background;CastleSepia",
+            "change_tilemap;Oestridel Church",
+            "add_unit;Svetlanya;4,3;immediate",
+            "add_portrait;Svetlanya;MidLeft;Middle;CloseEyes",
+            "speak;Svetlanya;...|Oh holy mother...|Blessed be this wondrous day. Guide me as I walk this path...",
+            "remove_portrait;Svetlanya;",
+            "add_unit;Kasuto;10,11;immediate",
+            "move_unit;Kasuto;4,4",
+            "multi_add_portrait;Svetlanya;MidLeft;Kasuto;MidRight;",
+            "speak;Kasuto;My dear child... what troubles you so?",
+            "wait;1000",
+            "speak;Svetlanya;...|Sister Kasuto! From whence did you arrive?|Were you yet not still on your latest pilgrimage?",
+            "speak;Kasuto;My apologies, Lady Svetlanya.|Naught should I have left so suddenly during your time of need.",
+            "mirror_portrait;Svetlanya;",
+            "speak;Svetlanya;Truly you need not worry about my troubles.|Others far more need your aid than that of I!",
+            ""
+        ],
+        "nid": "0 Intro"
+    },
+    {
+        "name": "LearnSpell",
+        "trigger": "unit_level_up",
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            ""
+        ],
+        "nid": "Global LearnSpell"
+    },
+    {
+        "name": "PrologueStart",
+        "trigger": "level_start",
+        "level_nid": "0",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "music;Chapter - Simple (Riviera, Heaven's Gate by Pikmin1211);500;no_warn",
+            "add_item_to_multiitem;Svetlanya;Spellbook;HealingWater",
+            "add_item_to_multiitem;Svetlanya;Spellbook;Splash",
+            "add_item_to_multiitem;Svetlanya;Spellbook;Static",
+            "add_item_to_multiitem;Serena;Spellbook;Frostbite",
+            "move_unit;Svetlanya;9,26;normal;giveup",
+            "move_unit;Svetlanya;"
+        ],
+        "nid": "0 PrologueStart"
     }
 ]

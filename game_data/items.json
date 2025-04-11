@@ -415,12 +415,7 @@
             3,
             4
         ],
-        "components": [
-            [
-                "item_prefab",
-                "Lightning_Blade"
-            ]
-        ]
+        "components": []
     },
     {
         "nid": "Bronze_Sword",
@@ -2312,7 +2307,7 @@
             ],
             [
                 "battle_cast_anim",
-                "Fire"
+                "Fireball"
             ],
             [
                 "multi_status_on_equip",
@@ -2405,7 +2400,7 @@
             ],
             [
                 "battle_cast_anim",
-                "Explosion"
+                "Flareblade"
             ]
         ]
     },
@@ -6743,6 +6738,26 @@
         ]
     },
     {
+        "nid": "Spellbook",
+        "name": "Spellbook",
+        "desc": "A book of spells one has acquired knowledge of.\nMore can be learned as one gains experience.",
+        "icon_nid": "{Cardcafe} {Mixed 1} All Icons",
+        "icon_index": [
+            3,
+            1
+        ],
+        "components": [
+            [
+                "multi_item",
+                []
+            ],
+            [
+                "accessory",
+                null
+            ]
+        ]
+    },
+    {
         "nid": "LifeEnergy",
         "name": "LifeEnergy",
         "desc": "Restores (User's MAG + 20) HP.",
@@ -7865,13 +7880,13 @@
         ]
     },
     {
-        "nid": "Hammerne",
-        "name": "Hammerne",
-        "desc": "Repair an item to full uses.",
-        "icon_nid": "Staff",
+        "nid": "Reforge",
+        "name": "Reforge",
+        "desc": "Fully repair a single metal weapon or armor\nin target's inventory to full use.",
+        "icon_nid": "{Batima} All Tomes",
         "icon_index": [
-            0,
-            12
+            6,
+            1
         ],
         "components": [
             [
@@ -7896,11 +7911,11 @@
             ],
             [
                 "weapon_type",
-                "Runic"
+                "Ignis"
             ],
             [
                 "weapon_rank",
-                "C"
+                "B"
             ],
             [
                 "uses",
@@ -8003,10 +8018,10 @@
         "nid": "Enflame",
         "name": "Enflame",
         "desc": "Ally deals fire elemental damage for 2 turns.",
-        "icon_nid": "{Batima} All Tomes",
+        "icon_nid": "{Zarg} All Icons",
         "icon_index": [
-            6,
-            1
+            8,
+            13
         ],
         "components": [
             [
@@ -8085,7 +8100,7 @@
     {
         "nid": "Burn",
         "name": "Burn",
-        "desc": "Burn a foe to deal damage over time.",
+        "desc": "Burn a foe to deal damage over time and\nreduce wooden weapon durability.",
         "icon_nid": "{Batima} All Tomes",
         "icon_index": [
             8,
@@ -8913,7 +8928,7 @@
             ],
             [
                 "status_on_hit",
-                "ResPlus"
+                "RallyRes"
             ],
             [
                 "wexp",
@@ -8980,7 +8995,7 @@
             ],
             [
                 "status_on_hit",
-                "ResPlus"
+                "RallyRes"
             ],
             [
                 "wexp",
@@ -10281,7 +10296,7 @@
             ],
             [
                 "status_on_hit",
-                "ResPlus"
+                "RallyRes"
             ],
             [
                 "wexp",
@@ -11138,7 +11153,7 @@
             ],
             [
                 "status_on_hit",
-                "ResPlus"
+                "RallyRes"
             ],
             [
                 "wexp",
@@ -11261,7 +11276,7 @@
             ],
             [
                 "status_on_hit",
-                "ResPlus"
+                "RallyRes"
             ],
             [
                 "wexp",
@@ -12011,7 +12026,7 @@
             ],
             [
                 "status_on_hit",
-                "ResPlus"
+                "RallyRes"
             ],
             [
                 "min_range",
@@ -13039,13 +13054,147 @@
         ]
     },
     {
-        "nid": "Reforge",
-        "name": "Reforge",
-        "desc": "Restores ally's equipped weapon to full uses.",
-        "icon_nid": "Staff",
+        "nid": "Stoneskin",
+        "name": "Stoneskin",
+        "desc": "Raises ally's vitality by 5 for 2 turns.",
+        "icon_nid": "{Batima} All Tomes",
         "icon_index": [
-            0,
-            12
+            4,
+            7
+        ],
+        "components": [
+            [
+                "spell",
+                null
+            ],
+            [
+                "value",
+                1800
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "min_range",
+                0
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "weapon_type",
+                "Tellus"
+            ],
+            [
+                "weapon_rank",
+                "D"
+            ],
+            [
+                "uses",
+                5
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "exp",
+                20
+            ],
+            [
+                "wexp",
+                2
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    170,
+                    85,
+                    0
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Stoneskin_1",
+        "name": "Stoneskin",
+        "desc": "Raises ally's vitality by 5 for 2 turns.",
+        "icon_nid": "{Batima} All Tomes",
+        "icon_index": [
+            4,
+            7
+        ],
+        "components": [
+            [
+                "spell",
+                null
+            ],
+            [
+                "value",
+                1800
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "min_range",
+                0
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "weapon_type",
+                "Tellus"
+            ],
+            [
+                "weapon_rank",
+                "D"
+            ],
+            [
+                "uses",
+                5
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "exp",
+                20
+            ],
+            [
+                "wexp",
+                2
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    170,
+                    85,
+                    0
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Reinforce",
+        "name": "Reinforce",
+        "desc": "Restores ally's equipped weapon's uses by 50%.",
+        "icon_nid": "{Ereshkigal} All Tomes",
+        "icon_index": [
+            10,
+            7
         ],
         "components": [
             [
@@ -13110,13 +13259,84 @@
         ]
     },
     {
+        "nid": "Regrowth",
+        "name": "Regrowth",
+        "desc": "Fully restores uses of all target's held\nnon-metal weapons and armor.",
+        "icon_nid": "{Zarg} All Icons",
+        "icon_index": [
+            3,
+            15
+        ],
+        "components": [
+            [
+                "spell",
+                null
+            ],
+            [
+                "value",
+                1800
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "weapon_type",
+                "Tellus"
+            ],
+            [
+                "weapon_rank",
+                "A"
+            ],
+            [
+                "uses",
+                3
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "exp",
+                40
+            ],
+            [
+                "wexp",
+                8
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    170,
+                    85,
+                    0
+                ]
+            ],
+            [
+                "repair",
+                null
+            ]
+        ]
+    },
+    {
         "nid": "Petrify",
         "name": "Petrify",
         "desc": "Encases target in stone for 2 turns. All Avd reduced to 0,\nbut damage reduced by 80%. Can be broken with a hammer,\ndealing critical damage and removing petrify.",
-        "icon_nid": "Neutral",
+        "icon_nid": "{Batima} All Tomes",
         "icon_index": [
-            0,
-            16
+            6,
+            8
         ],
         "components": [
             [
@@ -13185,80 +13405,13 @@
         ]
     },
     {
-        "nid": "Stoneskin",
-        "name": "Stoneskin",
-        "desc": "Raises ally's vitality by 5 for 2 turns.",
-        "icon_nid": "Staff",
-        "icon_index": [
-            0,
-            12
-        ],
-        "components": [
-            [
-                "spell",
-                null
-            ],
-            [
-                "value",
-                1800
-            ],
-            [
-                "target_ally",
-                null
-            ],
-            [
-                "min_range",
-                0
-            ],
-            [
-                "max_range",
-                1
-            ],
-            [
-                "weapon_type",
-                "Tellus"
-            ],
-            [
-                "weapon_rank",
-                "D"
-            ],
-            [
-                "uses",
-                5
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
-                "exp",
-                20
-            ],
-            [
-                "wexp",
-                2
-            ],
-            [
-                "map_hit_add_blend",
-                [
-                    170,
-                    85,
-                    0
-                ]
-            ]
-        ]
-    },
-    {
         "nid": "Stone",
         "name": "Stone",
         "desc": "",
-        "icon_nid": "Dark",
+        "icon_nid": "{Zarg} All Icons",
         "icon_index": [
             0,
-            0
+            15
         ],
         "components": [
             [
@@ -13338,10 +13491,10 @@
         "nid": "Boulder",
         "name": "Boulder",
         "desc": "",
-        "icon_nid": "Dark",
+        "icon_nid": "{Beansy} All Tomes",
         "icon_index": [
-            0,
-            0
+            5,
+            7
         ],
         "components": [
             [
@@ -13421,10 +13574,10 @@
         "nid": "Quake",
         "name": "Quake",
         "desc": "",
-        "icon_nid": "Dark",
+        "icon_nid": "{Zarg} All Icons",
         "icon_index": [
-            0,
-            0
+            2,
+            16
         ],
         "components": [
             [
@@ -13504,9 +13657,9 @@
         "nid": "Meteor",
         "name": "Meteor",
         "desc": "",
-        "icon_nid": "Dark",
+        "icon_nid": "{FuriousHaunter} All Icons",
         "icon_index": [
-            0,
+            4,
             0
         ],
         "components": [
@@ -13591,10 +13744,10 @@
         "nid": "RendTerra",
         "name": "Rend Terra",
         "desc": "",
-        "icon_nid": "Dark",
+        "icon_nid": "{Zarg} All Icons",
         "icon_index": [
-            0,
-            0
+            6,
+            15
         ],
         "components": [
             [
@@ -13674,10 +13827,10 @@
         "nid": "GaeyaWrath",
         "name": "Wrath of Gaeya",
         "desc": "",
-        "icon_nid": "Dark",
+        "icon_nid": "{Zarg} All Icons",
         "icon_index": [
-            0,
-            0
+            3,
+            16
         ],
         "components": [
             [
@@ -13757,10 +13910,10 @@
         "nid": "Jormungandr",
         "name": "Jormungandr",
         "desc": "Sacred tome of Daemonia.",
-        "icon_nid": "Dark",
+        "icon_nid": "{Batima} All Tomes",
         "icon_index": [
-            0,
-            6
+            8,
+            7
         ],
         "components": [
             [
@@ -15725,7 +15878,7 @@
             ],
             [
                 "status_on_hit",
-                "ResPlus"
+                "RallyRes"
             ]
         ]
     },
@@ -16712,22 +16865,6 @@
             [
                 "value",
                 20000
-            ]
-        ]
-    },
-    {
-        "nid": "Magic",
-        "name": "Magic",
-        "desc": "Cast a spell from your personal spell list.",
-        "icon_nid": "{Cardcafe} {FE15} All Icons",
-        "icon_index": [
-            2,
-            1
-        ],
-        "components": [
-            [
-                "multi_item",
-                []
             ]
         ]
     },

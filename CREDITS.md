@@ -269,8 +269,9 @@ Airyukin (Book of Naga Alt Color by Batima)
 Holy Breath (?? unsure how to handle breath icons yet)
 
 ##### Fire Spells
+Reforge (Veillantif by Batima)
 Strengthen (Arcfire by Batima)
-Enflame (Veillantif by Batima)
+Enflame ()
 Burn (Ember by Batima)
 Fireball (Icon Blitz 1 Fire by 2WB)
 Flare Burst (Icon Blitz 1 Elfire by 2WB)
@@ -334,7 +335,7 @@ Ultima (Unique 26 by Ereshkigal)
 ##### Earth Spells
 Reforge
 Stoneskin
-Petrify
+Petrify (Apocalypse by Batima)
 Stone (Stone Tome Icon by Topaz)
 Boulder (Sacred War Dark 3 by Seal)
 Quake (ArcaneaIcon Project tile194 by LordGlenn)
