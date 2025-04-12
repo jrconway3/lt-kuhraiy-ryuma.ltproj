@@ -56,13 +56,6 @@
         "text": "Kasuto is a Nordak as well... not only that, she is Airyukin! And I was a fool all along. Kasuto is much a victim as I was. I truly am sorry I doubted you, Sister Kasuto. Never shall I question your faith again.\n\nQuestion my faith, alas, I shall... Something isn\u2019t adding up. Kasuto was following the true faith of Gaeya, yet what about I? Was what I believed all a lie?"
     },
     {
-        "nid": "Serena",
-        "name": "Serena",
-        "title": "Serena Schahl",
-        "category": "Character",
-        "text": "Lady Serena has long been my mentor! She has taught me much in the way of swordplay, how to defend myself with blade and magic on land and in water, and how best to utilize my powers. Alas, she has gone up in the world, and soon shall she depart as my retainer and guardian. I shall cherish the time we have left!"
-    },
-    {
         "nid": "Leiland",
         "name": "Leiland",
         "title": "Leiland Renald",
@@ -126,6 +119,27 @@
         "text": "Relm is apparently called... a Nordak. That is what it is. What is a Nordak? I read such in my research references to such a people, but the information is vague and unclear. Relm has begun to wear a different style of outfit, but she\u2019s still continuing to cover herself up... just like Sister Kasuto as well... and I daresay she\u2019s not trying to make Relm a priestess, too. Nay, they are hiding something. That is the truth of it. Considering mine own... perhaps I cannot blame them."
     },
     {
+        "nid": "Serena",
+        "name": "Serena",
+        "title": "Serena Schahl",
+        "category": "Character",
+        "text": "Lady Serena has long been my mentor! She has taught me much in the way of swordplay, how to defend myself with blade and magic on land and in water, and how best to utilize my powers. Alas, she has gone up in the world, and soon shall she depart as my retainer and guardian. I shall cherish the time we have left!"
+    },
+    {
+        "nid": "Thanya",
+        "name": "Thanya",
+        "title": "Thanya Schahl",
+        "category": "Character",
+        "text": "Thanya is Lady Serena\u2019s stepdaughter. She is an eccentric young woman who tends to be rather scatterbrained. Her magicks are unique to our lands, yet her power isn\u2019t particularly strong. Perhaps she could be of some use should she be capable of remembering what she was doing.\n\nI believe her memory problems may be tied to her degradat, but I know naught. She tends not wander far from home and merely follows Serena\u2019s instructions. At times I have seen her dancing in the town square, trying to attract fine young men, but they all seem turned off by her... I know naught why, she is a lovely young woman. Mayhaps I should introduce her..."
+    },
+    {
+        "nid": "Thanya2",
+        "name": "Thanya (2)",
+        "title": "Thanya: Zabos?",
+        "category": "Character",
+        "text": "Ah, I see. So that may be why. I spoke with some of the men in town about her, and truth be it, they are turned off by her scent. They say she reeks of mongrel...\n\nThanya\u2019s anima is similar to Yarda\u2019s, I see it now. Could she be a degraded Zabos, then?"
+    },
+    {
         "nid": "HouseRenald",
         "name": "Renald",
         "title": "House Renald",
@@ -166,6 +180,13 @@
         "title": "Zabos",
         "category": "Race",
         "text": "Zabos... they seem not much different to Lykons at face value, yet they couldn\u2019t be even more different. Their fur and tails are thinner than that of lykons, and they tend to be a lot shorter. They bear a strong resembles to cats, great and small. I suppose perhaps that\u2019s one reason they tend not to get along well with lykons...\n\nZabos men are very rare. The few who do survive die young. It is said that in the ancient days the Zabos men used to be incredible beasts of men, a great lion who protects his family with his incredible strength, stronger than even an average lykon male. Now, they are but as shadow of their former selves.\n\nZabos women live far longer, but bear few children, almost always girls. My dear Yarda is no exception. Their beautiful is bountiful and would do anything to protect their kits. Zabos wield strong magicks within them, especially the women, but unlike my people they have a close relationship with fire and live amidst the distant desert sands."
+    },
+    {
+        "nid": "Mongrel",
+        "name": "Mongrel",
+        "title": "Mongrel",
+        "category": "Character",
+        "text": "Mongrels... is that what Zabos truly are? I cannot believe so, but that is what my people believe... that is to say, the lykon kind. Perhaps being a Queizan woman living amidst Lykons grants me alternative perspectives.\n\nAlas, though, my people are well respected, and yet lykons label Zabos as \"mongrels\". Why can't they simply get along?"
     },
     {
         "nid": "Merfolk",

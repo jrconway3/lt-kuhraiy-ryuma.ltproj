@@ -398,5 +398,13 @@
     {
         "nid": "{Zarg} All Icons",
         "subicon_dict": {}
+    },
+    {
+        "nid": "{2WB} All Tomes",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "{Zane} All Icons",
+        "subicon_dict": {}
     }
 ]

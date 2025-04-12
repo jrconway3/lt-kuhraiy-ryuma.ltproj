@@ -401,7 +401,8 @@
             [
                 "multi_item",
                 [
-                    "Lightning_Blade2"
+                    "Lightning_Blade2",
+                    "Shockwave"
                 ]
             ]
         ]
@@ -6758,84 +6759,77 @@
         ]
     },
     {
-        "nid": "LifeEnergy",
-        "name": "LifeEnergy",
-        "desc": "Restores (User's MAG + 20) HP.",
-        "icon_nid": "{Beansy} All Tomes",
+        "nid": "Blessing",
+        "name": "Blessing",
+        "desc": "Holy blessing restores 2 MP every turn for 5 turns.",
+        "icon_nid": "{Batima} All Tomes",
         "icon_index": [
-            1,
-            5
+            8,
+            9
         ],
         "components": [
+            [
+                "magic",
+                null
+            ],
             [
                 "spell",
                 null
             ],
             [
-                "value",
-                1000
-            ],
-            [
-                "target_ally",
-                null
-            ],
-            [
                 "min_range",
-                1
+                0
             ],
             [
                 "max_range",
-                1
+                2
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "level_exp",
+                null
             ],
             [
                 "weapon_type",
-                "Solus"
+                "Ignis"
             ],
             [
                 "weapon_rank",
                 "D"
             ],
             [
-                "uses",
-                20
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
-                "exp",
-                12
-            ],
-            [
-                "wexp",
-                3
-            ],
-            [
                 "map_hit_add_blend",
                 [
+                    224,
                     96,
-                    144,
-                    232
+                    0
                 ]
             ],
             [
-                "equation_heal",
-                "HEAL"
+                "target_ally",
+                null
+            ],
+            [
+                "mana_cost",
+                3
+            ],
+            [
+                "status_on_hit",
+                "Fort"
             ]
         ]
     },
     {
-        "nid": "Blessing",
-        "name": "Blessing",
+        "nid": "Enlighten",
+        "name": "Enlighten",
         "desc": "Ally deals holy elemental damage for 2 turns.",
-        "icon_nid": "{Batima} All Tomes",
+        "icon_nid": "{2WB} All Tomes",
         "icon_index": [
-            6,
-            11
+            1,
+            5
         ],
         "components": [
             [
@@ -6908,6 +6902,77 @@
             [
                 "target_ally",
                 null
+            ]
+        ]
+    },
+    {
+        "nid": "LifeEnergy",
+        "name": "LifeEnergy",
+        "desc": "Restores (User's MAG + 20) HP.",
+        "icon_nid": "{Beansy} All Tomes",
+        "icon_index": [
+            1,
+            5
+        ],
+        "components": [
+            [
+                "spell",
+                null
+            ],
+            [
+                "value",
+                1000
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "weapon_type",
+                "Solus"
+            ],
+            [
+                "weapon_rank",
+                "D"
+            ],
+            [
+                "uses",
+                20
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "exp",
+                12
+            ],
+            [
+                "wexp",
+                3
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    96,
+                    144,
+                    232
+                ]
+            ],
+            [
+                "equation_heal",
+                "HEAL"
             ]
         ]
     },
@@ -7310,10 +7375,10 @@
         "nid": "Ray",
         "name": "Ray",
         "desc": "Strong holy magic. Eff vs daemons.",
-        "icon_nid": "{Batima} All Tomes",
+        "icon_nid": "{2WB} All Tomes",
         "icon_index": [
-            9,
-            9
+            5,
+            4
         ],
         "components": [
             [
@@ -7407,10 +7472,10 @@
         "nid": "SolarFlare",
         "name": "Solar Flare",
         "desc": "Strong long-range holy magic. Eff vs daemons.",
-        "icon_nid": "{Beansy} All Tomes",
+        "icon_nid": "{Zarg} All Icons",
         "icon_index": [
-            0,
-            5
+            1,
+            14
         ],
         "components": [
             [
@@ -7605,10 +7670,10 @@
         "nid": "Excalibur",
         "name": "Excalibur",
         "desc": "Defense +5. Eff vs daemons.",
-        "icon_nid": "{Batima} All Tomes",
+        "icon_nid": "{FuriousHaunter} All Icons",
         "icon_index": [
-            7,
-            11
+            2,
+            2
         ],
         "components": [
             [
@@ -7880,77 +7945,6 @@
         ]
     },
     {
-        "nid": "Reforge",
-        "name": "Reforge",
-        "desc": "Fully repair a single metal weapon or armor\nin target's inventory to full use.",
-        "icon_nid": "{Batima} All Tomes",
-        "icon_index": [
-            6,
-            1
-        ],
-        "components": [
-            [
-                "spell",
-                null
-            ],
-            [
-                "value",
-                1800
-            ],
-            [
-                "target_ally",
-                null
-            ],
-            [
-                "min_range",
-                1
-            ],
-            [
-                "max_range",
-                1
-            ],
-            [
-                "weapon_type",
-                "Ignis"
-            ],
-            [
-                "weapon_rank",
-                "B"
-            ],
-            [
-                "uses",
-                3
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
-                "exp",
-                40
-            ],
-            [
-                "wexp",
-                8
-            ],
-            [
-                "map_hit_add_blend",
-                [
-                    234,
-                    255,
-                    0
-                ]
-            ],
-            [
-                "repair",
-                null
-            ]
-        ]
-    },
-    {
         "nid": "Strengthen",
         "name": "Strengthen",
         "desc": "Ally Str+5 for 2 turns.",
@@ -8098,12 +8092,12 @@
         ]
     },
     {
-        "nid": "Burn",
-        "name": "Burn",
-        "desc": "Burn a foe to deal damage over time and\nreduce wooden weapon durability.",
+        "nid": "Reforge",
+        "name": "Reforge",
+        "desc": "Fully repair a single metal weapon or armor\nin target's inventory to full use.",
         "icon_nid": "{Batima} All Tomes",
         "icon_index": [
-            8,
+            6,
             1
         ],
         "components": [
@@ -8112,8 +8106,185 @@
                 null
             ],
             [
+                "value",
+                1800
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
                 "weapon_type",
-                "Solus"
+                "Ignis"
+            ],
+            [
+                "weapon_rank",
+                "B"
+            ],
+            [
+                "uses",
+                3
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "exp",
+                40
+            ],
+            [
+                "wexp",
+                8
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    234,
+                    255,
+                    0
+                ]
+            ],
+            [
+                "repair",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "TorchOld",
+        "name": "TorchOld",
+        "desc": "Increases user's sight range in fog of war",
+        "icon_nid": "Consumable",
+        "icon_index": [
+            0,
+            11
+        ],
+        "components": [
+            [
+                "value",
+                500
+            ],
+            [
+                "uses",
+                5
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "usable",
+                null
+            ],
+            [
+                "status_on_hit",
+                "Light"
+            ]
+        ]
+    },
+    {
+        "nid": "Torch",
+        "name": "Torch",
+        "desc": "Increases target's sight range in fog of war.",
+        "icon_nid": "{Batima} All Tomes",
+        "icon_index": [
+            7,
+            0
+        ],
+        "components": [
+            [
+                "spell",
+                null
+            ],
+            [
+                "weapon_type",
+                "Ignis"
+            ],
+            [
+                "weapon_rank",
+                "D"
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "uses",
+                3
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "wexp",
+                5
+            ],
+            [
+                "exp",
+                40
+            ],
+            [
+                "value",
+                1800
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "status_on_hit",
+                "Light"
+            ],
+            [
+                "max_equation_range",
+                "MAGIC_RANGE"
+            ],
+            [
+                "target_ally",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Burn",
+        "name": "Burn",
+        "desc": "Burn a foe to deal damage over time and\nreduce wooden weapon durability.",
+        "icon_nid": "{2WB} All Tomes",
+        "icon_index": [
+            2,
+            0
+        ],
+        "components": [
+            [
+                "spell",
+                null
+            ],
+            [
+                "weapon_type",
+                "Ignis"
             ],
             [
                 "weapon_rank",
@@ -8165,12 +8336,79 @@
         ]
     },
     {
+        "nid": "Immolate",
+        "name": "Immolate",
+        "desc": "????",
+        "icon_nid": "{Ereshkigal} All Tomes",
+        "icon_index": [
+            13,
+            0
+        ],
+        "components": [
+            [
+                "spell",
+                null
+            ],
+            [
+                "weapon_type",
+                "Ignis"
+            ],
+            [
+                "weapon_rank",
+                "A"
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "uses",
+                3
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "wexp",
+                5
+            ],
+            [
+                "exp",
+                40
+            ],
+            [
+                "value",
+                1800
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "status_on_hit",
+                "Berserk"
+            ],
+            [
+                "max_equation_range",
+                "MAGIC_RANGE"
+            ],
+            [
+                "target_enemy",
+                null
+            ]
+        ]
+    },
+    {
         "nid": "Fireball",
         "name": "Fireball",
         "desc": "Weakest fire magic. Eff vs lykons, wolves.\nIneffective vs Zabos.",
-        "icon_nid": "{Ereshkigal} All Tomes",
+        "icon_nid": "{2WB} All Tomes",
         "icon_index": [
-            1,
+            0,
             0
         ],
         "components": [
@@ -8258,7 +8496,7 @@
         "nid": "FlareBurst",
         "name": "Flare Burst",
         "desc": "Moderate fire magic. Eff vs lykons, wolves.",
-        "icon_nid": "{Batima} All Tomes",
+        "icon_nid": "{Ereshkigal} All Tomes",
         "icon_index": [
             1,
             0
@@ -8352,7 +8590,7 @@
         "nid": "FlameWall",
         "name": "Flame Wall",
         "desc": "",
-        "icon_nid": "{Ereshkigal} All Tomes",
+        "icon_nid": "{2WB} All Tomes",
         "icon_index": [
             3,
             0
@@ -8396,7 +8634,7 @@
             ],
             [
                 "weapon_type",
-                "Tellus"
+                "Ignis"
             ],
             [
                 "weapon_rank",
@@ -8655,9 +8893,9 @@
         "nid": "Ragnarok",
         "name": "Ragnarok",
         "desc": "",
-        "icon_nid": "{Ereshkigal} All Tomes",
+        "icon_nid": "{Valak} All Tomes",
         "icon_index": [
-            13,
+            3,
             0
         ],
         "components": [
@@ -8953,73 +9191,6 @@
         ]
     },
     {
-        "nid": "Illusion",
-        "name": "Illusion",
-        "desc": "Guarantees dodging the next two attacks.",
-        "icon_nid": "{Valak} All Tomes",
-        "icon_index": [
-            3,
-            1
-        ],
-        "components": [
-            [
-                "spell",
-                null
-            ],
-            [
-                "target_ally",
-                null
-            ],
-            [
-                "weapon_type",
-                "Fulgus"
-            ],
-            [
-                "weapon_rank",
-                "B"
-            ],
-            [
-                "magic",
-                null
-            ],
-            [
-                "uses",
-                15
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
-                "status_on_hit",
-                "RallyRes"
-            ],
-            [
-                "wexp",
-                4
-            ],
-            [
-                "exp",
-                17
-            ],
-            [
-                "value",
-                2250
-            ],
-            [
-                "min_range",
-                1
-            ],
-            [
-                "max_range",
-                1
-            ]
-        ]
-    },
-    {
         "nid": "Enshock",
         "name": "Enshock",
         "desc": "Ally deals electric elemental damage for 2 turns.",
@@ -9103,17 +9274,21 @@
         ]
     },
     {
-        "nid": "Teleport",
-        "name": "Teleport",
-        "desc": "Teleports self to a distant location.",
-        "icon_nid": "{Batima} All Tomes",
+        "nid": "Illusion",
+        "name": "Illusion",
+        "desc": "Guarantees dodging the next two attacks.",
+        "icon_nid": "{Valak} All Tomes",
         "icon_index": [
-            9,
-            2
+            3,
+            1
         ],
         "components": [
             [
                 "spell",
+                null
+            ],
+            [
+                "target_ally",
                 null
             ],
             [
@@ -9129,107 +9304,39 @@
                 null
             ],
             [
-                "exp",
-                30
+                "uses",
+                15
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "status_on_hit",
+                "RallyRes"
             ],
             [
                 "wexp",
-                7
+                4
             ],
             [
-                "sequence_item",
-                [
-                    "Teleport1",
-                    "Teleport2"
-                ]
+                "exp",
+                17
             ],
             [
-                "no_ai",
-                null
+                "value",
+                2250
             ],
             [
                 "min_range",
                 1
-            ],
-            [
-                "target_ally",
-                null
             ],
             [
                 "max_range",
                 1
-            ]
-        ]
-    },
-    {
-        "nid": "Teleport1",
-        "name": "Teleport",
-        "desc": "Teleports self to a distant location.",
-        "icon_nid": "{Batima} All Tomes",
-        "icon_index": [
-            9,
-            2
-        ],
-        "components": [
-            [
-                "spell",
-                null
-            ],
-            [
-                "target_ally",
-                null
-            ],
-            [
-                "magic",
-                null
-            ],
-            [
-                "min_range",
-                0
-            ],
-            [
-                "store_unit",
-                null
-            ],
-            [
-                "max_range",
-                0
-            ]
-        ]
-    },
-    {
-        "nid": "Teleport2",
-        "name": "Teleport",
-        "desc": "Teleports self to a distant location.",
-        "icon_nid": "{Batima} All Tomes",
-        "icon_index": [
-            9,
-            2
-        ],
-        "components": [
-            [
-                "spell",
-                null
-            ],
-            [
-                "magic",
-                null
-            ],
-            [
-                "min_range",
-                1
-            ],
-            [
-                "target_tile",
-                null
-            ],
-            [
-                "unload_unit",
-                null
-            ],
-            [
-                "max_equation_range",
-                "MAGIC_RANGE"
             ]
         ]
     },
@@ -10119,6 +10226,140 @@
         ]
     },
     {
+        "nid": "Intellectual",
+        "name": "Intellectual",
+        "desc": "Raises ally's intellect by 5 for 2 turns.",
+        "icon_nid": "{Batima} All Tomes",
+        "icon_index": [
+            2,
+            5
+        ],
+        "components": [
+            [
+                "spell",
+                null
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "weapon_type",
+                "Aquis"
+            ],
+            [
+                "weapon_rank",
+                "D"
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "uses",
+                15
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "status_on_hit",
+                "RallyRes"
+            ],
+            [
+                "wexp",
+                4
+            ],
+            [
+                "exp",
+                17
+            ],
+            [
+                "value",
+                2250
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ]
+        ]
+    },
+    {
+        "nid": "Enflow",
+        "name": "Enflow",
+        "desc": "Ally deals water elemental damage for 2 turns.",
+        "icon_nid": "{FuriousHaunter} All Icons",
+        "icon_index": [
+            4,
+            2
+        ],
+        "components": [
+            [
+                "spell",
+                null
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "weapon_type",
+                "Aquis"
+            ],
+            [
+                "weapon_rank",
+                "D"
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "uses",
+                15
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "status_on_hit",
+                "RallyRes"
+            ],
+            [
+                "wexp",
+                4
+            ],
+            [
+                "exp",
+                17
+            ],
+            [
+                "value",
+                2250
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ]
+        ]
+    },
+    {
         "nid": "HealingWater",
         "name": "Healing Water",
         "desc": "Restores (User's MAG + 10) HP.",
@@ -10242,73 +10483,6 @@
             [
                 "value",
                 2000
-            ],
-            [
-                "min_range",
-                1
-            ],
-            [
-                "max_range",
-                1
-            ]
-        ]
-    },
-    {
-        "nid": "Intellectual",
-        "name": "Intellectual",
-        "desc": "Raises ally's intellect by 5 for 2 turns.",
-        "icon_nid": "{Batima} All Tomes",
-        "icon_index": [
-            2,
-            5
-        ],
-        "components": [
-            [
-                "spell",
-                null
-            ],
-            [
-                "target_ally",
-                null
-            ],
-            [
-                "weapon_type",
-                "Aquis"
-            ],
-            [
-                "weapon_rank",
-                "D"
-            ],
-            [
-                "magic",
-                null
-            ],
-            [
-                "uses",
-                15
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
-                "status_on_hit",
-                "RallyRes"
-            ],
-            [
-                "wexp",
-                4
-            ],
-            [
-                "exp",
-                17
-            ],
-            [
-                "value",
-                2250
             ],
             [
                 "min_range",
@@ -10616,10 +10790,6 @@
                 3
             ],
             [
-                "battle_cast_anim",
-                "AquaEdge_Bonzai_Blazer"
-            ],
-            [
                 "effective_damage",
                 {
                     "effective_tags": [
@@ -10737,10 +10907,6 @@
                     0,
                     255
                 ]
-            ],
-            [
-                "battle_cast_anim",
-                "Aqua_Alusq"
             ]
         ]
     },
@@ -10838,10 +11004,6 @@
                     0,
                     255
                 ]
-            ],
-            [
-                "battle_cast_anim",
-                "BlueExplosion_Scraiza"
             ]
         ]
     },
@@ -10939,10 +11101,6 @@
                     0,
                     255
                 ]
-            ],
-            [
-                "battle_cast_anim",
-                "Donbettyr_Alusq"
             ]
         ]
     },
@@ -11040,10 +11198,6 @@
                     0,
                     255
                 ]
-            ],
-            [
-                "battle_cast_anim",
-                "Frostbite_Struedelmuffin_Alusq"
             ]
         ]
     },
@@ -11174,6 +11328,227 @@
             [
                 "max_range",
                 1
+            ]
+        ]
+    },
+    {
+        "nid": "Enfrost",
+        "name": "Enfrost",
+        "desc": "Ally deals ice elemental damage for 2 turns.",
+        "icon_nid": "{VelvetKitsune} All Icons",
+        "icon_index": [
+            3,
+            2
+        ],
+        "components": [
+            [
+                "spell",
+                null
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "weapon_type",
+                "Glacies"
+            ],
+            [
+                "weapon_rank",
+                "D"
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "uses",
+                15
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "status_on_hit",
+                "RallyRes"
+            ],
+            [
+                "wexp",
+                4
+            ],
+            [
+                "exp",
+                17
+            ],
+            [
+                "value",
+                2250
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ]
+        ]
+    },
+    {
+        "nid": "Cauterize",
+        "name": "Cauterize",
+        "desc": "Cures Curse, Bleed, and Deep Wounds,\nas well as protecting against these status ailments for 3 turns.",
+        "icon_nid": "{Ereshkigal} All Tomes",
+        "icon_index": [
+            2,
+            3
+        ],
+        "components": [
+            [
+                "spell",
+                null
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "weapon_type",
+                "Lunis"
+            ],
+            [
+                "weapon_rank",
+                "D"
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "heal",
+                99
+            ],
+            [
+                "uses",
+                15
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "wexp",
+                3
+            ],
+            [
+                "exp",
+                17
+            ],
+            [
+                "value",
+                2250
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    94,
+                    144,
+                    232
+                ]
+            ],
+            [
+                "equippable_accessory",
+                null
+            ],
+            [
+                "event_on_hit",
+                "Global DeathEirika"
+            ],
+            [
+                "lifelink",
+                -1.0
+            ]
+        ]
+    },
+    {
+        "nid": "Slow",
+        "name": "Slow",
+        "desc": "Slow all units across a wide area, reducing movement by 2.",
+        "icon_nid": "{Zarg} All Icons",
+        "icon_index": [
+            5,
+            13
+        ],
+        "components": [
+            [
+                "spell",
+                null
+            ],
+            [
+                "weapon_type",
+                "Glacies"
+            ],
+            [
+                "weapon_rank",
+                "C"
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "uses",
+                3
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "wexp",
+                5
+            ],
+            [
+                "exp",
+                35
+            ],
+            [
+                "value",
+                1500
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "status_on_hit",
+                "Freeze"
+            ],
+            [
+                "max_equation_range",
+                "MAGIC_RANGE"
+            ],
+            [
+                "target_enemy",
+                null
             ]
         ]
     },
@@ -11783,10 +12158,10 @@
         "nid": "Kronos",
         "name": "Kronos",
         "desc": "Freezes all other units in place for one turn.\nCertain units may be immune.",
-        "icon_nid": "{Batima} All Tomes",
+        "icon_nid": "{Zarg} All Icons",
         "icon_index": [
-            3,
-            5
+            6,
+            13
         ],
         "components": [
             [
@@ -11921,6 +12296,128 @@
         ]
     },
     {
+        "nid": "Hasten",
+        "name": "Hasten",
+        "desc": "Raises ally's agility by 5 for 2 turns.",
+        "icon_nid": "{Ereshkigal} All Tomes",
+        "icon_index": [
+            9,
+            2
+        ],
+        "components": [
+            [
+                "spell",
+                null
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "weapon_type",
+                "Ventus"
+            ],
+            [
+                "weapon_rank",
+                "D"
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "uses",
+                15
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "status_on_hit",
+                "RallyRes"
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ]
+        ]
+    },
+    {
+        "nid": "Enwisp",
+        "name": "Enwisp",
+        "desc": "Ally deals wind elemental damage for 2 turns.",
+        "icon_nid": "{VelvetKitsune} All Icons",
+        "icon_index": [
+            3,
+            2
+        ],
+        "components": [
+            [
+                "spell",
+                null
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "weapon_type",
+                "Ventus"
+            ],
+            [
+                "weapon_rank",
+                "D"
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "uses",
+                15
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "status_on_hit",
+                "RallyRes"
+            ],
+            [
+                "wexp",
+                4
+            ],
+            [
+                "exp",
+                17
+            ],
+            [
+                "value",
+                2250
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ]
+        ]
+    },
+    {
         "nid": "HealingWind",
         "name": "HealingWind",
         "desc": "Restores (User's Magic + 10) HP to all allies within range.",
@@ -11980,61 +12477,6 @@
             [
                 "equation_heal",
                 "HEAL"
-            ]
-        ]
-    },
-    {
-        "nid": "Hasten",
-        "name": "Hasten",
-        "desc": "Raises ally's agility by 5 for 2 turns.",
-        "icon_nid": "{Ereshkigal} All Tomes",
-        "icon_index": [
-            9,
-            2
-        ],
-        "components": [
-            [
-                "spell",
-                null
-            ],
-            [
-                "target_ally",
-                null
-            ],
-            [
-                "weapon_type",
-                "Ventus"
-            ],
-            [
-                "weapon_rank",
-                "D"
-            ],
-            [
-                "magic",
-                null
-            ],
-            [
-                "uses",
-                15
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
-                "status_on_hit",
-                "RallyRes"
-            ],
-            [
-                "min_range",
-                1
-            ],
-            [
-                "max_range",
-                1
             ]
         ]
     },
@@ -12790,7 +13232,7 @@
         ]
     },
     {
-        "nid": "ThorresTempest",
+        "nid": "ThorreTempest",
         "name": "Thorre's Tempest",
         "desc": "",
         "icon_nid": "{Zarg} All Icons",
@@ -13054,13 +13496,13 @@
         ]
     },
     {
-        "nid": "Stoneskin",
-        "name": "Stoneskin",
+        "nid": "Fortitude",
+        "name": "Fortitude",
         "desc": "Raises ally's vitality by 5 for 2 turns.",
-        "icon_nid": "{Batima} All Tomes",
+        "icon_nid": "{Zarg} All Icons",
         "icon_index": [
             4,
-            7
+            15
         ],
         "components": [
             [
@@ -13121,13 +13563,13 @@
         ]
     },
     {
-        "nid": "Stoneskin_1",
-        "name": "Stoneskin",
-        "desc": "Raises ally's vitality by 5 for 2 turns.",
-        "icon_nid": "{Batima} All Tomes",
+        "nid": "Enearth",
+        "name": "Enearth",
+        "desc": "Ally deals earth elemental damage for 2 turns.",
+        "icon_nid": "{Valak} All Tomes",
         "icon_index": [
-            4,
-            7
+            0,
+            3
         ],
         "components": [
             [
@@ -13144,7 +13586,7 @@
             ],
             [
                 "min_range",
-                0
+                1
             ],
             [
                 "max_range",
@@ -13160,7 +13602,7 @@
             ],
             [
                 "uses",
-                5
+                3
             ],
             [
                 "uses_options",
@@ -13171,11 +13613,11 @@
             ],
             [
                 "exp",
-                20
+                40
             ],
             [
                 "wexp",
-                2
+                8
             ],
             [
                 "map_hit_add_blend",
@@ -13184,6 +13626,10 @@
                     85,
                     0
                 ]
+            ],
+            [
+                "repair",
+                null
             ]
         ]
     },
@@ -13259,13 +13705,80 @@
         ]
     },
     {
-        "nid": "Regrowth",
-        "name": "Regrowth",
-        "desc": "Fully restores uses of all target's held\nnon-metal weapons and armor.",
+        "nid": "Stoneskin",
+        "name": "Stoneskin",
+        "desc": "All damage to target cut in half, but -2 Spd for 2 Turns.",
         "icon_nid": "{Zarg} All Icons",
         "icon_index": [
-            3,
+            5,
             15
+        ],
+        "components": [
+            [
+                "spell",
+                null
+            ],
+            [
+                "value",
+                1800
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "min_range",
+                0
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "weapon_type",
+                "Tellus"
+            ],
+            [
+                "weapon_rank",
+                "A"
+            ],
+            [
+                "uses",
+                5
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "exp",
+                20
+            ],
+            [
+                "wexp",
+                2
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    170,
+                    85,
+                    0
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Gravity",
+        "name": "Gravity",
+        "desc": "Fully restores uses of all target's held\nnon-metal weapons and armor.",
+        "icon_nid": "{Beansy} All Tomes",
+        "icon_index": [
+            3,
+            6
         ],
         "components": [
             [
@@ -13294,7 +13807,7 @@
             ],
             [
                 "weapon_rank",
-                "A"
+                "C"
             ],
             [
                 "uses",
@@ -13744,10 +14257,10 @@
         "nid": "RendTerra",
         "name": "Rend Terra",
         "desc": "",
-        "icon_nid": "{Zarg} All Icons",
+        "icon_nid": "{Batima} All Tomes",
         "icon_index": [
-            6,
-            15
+            2,
+            8
         ],
         "components": [
             [
@@ -13793,89 +14306,6 @@
             [
                 "weapon_rank",
                 "A"
-            ],
-            [
-                "map_hit_add_blend",
-                [
-                    170,
-                    85,
-                    0
-                ]
-            ],
-            [
-                "magic",
-                null
-            ],
-            [
-                "value",
-                900
-            ],
-            [
-                "uses",
-                45
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ]
-        ]
-    },
-    {
-        "nid": "GaeyaWrath",
-        "name": "Wrath of Gaeya",
-        "desc": "",
-        "icon_nid": "{Zarg} All Icons",
-        "icon_index": [
-            3,
-            16
-        ],
-        "components": [
-            [
-                "weapon",
-                null
-            ],
-            [
-                "target_enemy",
-                null
-            ],
-            [
-                "min_range",
-                1
-            ],
-            [
-                "max_range",
-                2
-            ],
-            [
-                "damage",
-                7
-            ],
-            [
-                "hit",
-                80
-            ],
-            [
-                "crit",
-                0
-            ],
-            [
-                "weight",
-                8
-            ],
-            [
-                "level_exp",
-                null
-            ],
-            [
-                "weapon_type",
-                "Tellus"
-            ],
-            [
-                "weapon_rank",
-                "S"
             ],
             [
                 "map_hit_add_blend",
@@ -14041,80 +14471,13 @@
         ]
     },
     {
-        "nid": "Thief",
-        "name": "Thief",
-        "desc": "Steal items from enemies.",
-        "icon_nid": "Staff",
+        "nid": "Regenerate",
+        "name": "Regenerate",
+        "desc": "Amplifies bodily self-regeneration to\nrestore 5 HP every turn for 5 turns.",
+        "icon_nid": "{Batima} All Tomes",
         "icon_index": [
-            0,
-            12
-        ],
-        "components": [
-            [
-                "spell",
-                null
-            ],
-            [
-                "value",
-                1800
-            ],
-            [
-                "min_range",
-                1
-            ],
-            [
-                "max_range",
-                10
-            ],
-            [
-                "weapon_type",
-                "Runic"
-            ],
-            [
-                "weapon_rank",
-                "C"
-            ],
-            [
-                "uses",
-                5
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
-                "exp",
-                40
-            ],
-            [
-                "map_hit_add_blend",
-                [
-                    255,
-                    238,
-                    238
-                ]
-            ],
-            [
-                "steal",
-                null
-            ],
-            [
-                "target_enemy",
-                null
-            ]
-        ]
-    },
-    {
-        "nid": "Transfusion",
-        "name": "Transfusion",
-        "desc": "Restores an ally's HP from user's own HP, max: user's HP - 1.",
-        "icon_nid": "Staff",
-        "icon_index": [
-            0,
-            2
+            6,
+            7
         ],
         "components": [
             [
@@ -14195,13 +14558,84 @@
         ]
     },
     {
-        "nid": "Restore",
-        "name": "Restore",
-        "desc": "Removes all temporary statuses.",
-        "icon_nid": "Staff",
+        "nid": "Enshade",
+        "name": "Enshade",
+        "desc": "Ally deals shadow elemental damage for 2 turns.",
+        "icon_nid": "{2WB} All Tomes",
         "icon_index": [
             0,
-            5
+            3
+        ],
+        "components": [
+            [
+                "spell",
+                null
+            ],
+            [
+                "value",
+                1800
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "weapon_type",
+                "Lunis"
+            ],
+            [
+                "weapon_rank",
+                "D"
+            ],
+            [
+                "uses",
+                3
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "exp",
+                40
+            ],
+            [
+                "wexp",
+                8
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    170,
+                    85,
+                    0
+                ]
+            ],
+            [
+                "repair",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Transfusion",
+        "name": "Transfusion",
+        "desc": "Restores an ally's HP from user's own HP, max: user's HP - 1.",
+        "icon_nid": "{Batima} All Tomes",
+        "icon_index": [
+            7,
+            6
         ],
         "components": [
             [
@@ -14214,7 +14648,94 @@
             ],
             [
                 "weapon_type",
-                "Runic"
+                "Lunis"
+            ],
+            [
+                "weapon_rank",
+                "C"
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "heal",
+                99
+            ],
+            [
+                "uses",
+                15
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "wexp",
+                3
+            ],
+            [
+                "exp",
+                17
+            ],
+            [
+                "value",
+                2250
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    94,
+                    144,
+                    232
+                ]
+            ],
+            [
+                "equippable_accessory",
+                null
+            ],
+            [
+                "event_on_hit",
+                "Global DeathEirika"
+            ],
+            [
+                "lifelink",
+                -1.0
+            ]
+        ]
+    },
+    {
+        "nid": "Cleanse",
+        "name": "Cleanse",
+        "desc": "Removes all negative status effects.",
+        "icon_nid": "{Batima} All Tomes",
+        "icon_index": [
+            0,
+            7
+        ],
+        "components": [
+            [
+                "spell",
+                null
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "weapon_type",
+                "Lunis"
             ],
             [
                 "weapon_rank",
@@ -14262,13 +14783,211 @@
         ]
     },
     {
+        "nid": "Teleport",
+        "name": "Teleport",
+        "desc": "Teleports self to a distant location.",
+        "icon_nid": "{2WB} All Tomes",
+        "icon_index": [
+            7,
+            3
+        ],
+        "components": [
+            [
+                "spell",
+                null
+            ],
+            [
+                "weapon_type",
+                "Lunis"
+            ],
+            [
+                "weapon_rank",
+                "B"
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "exp",
+                30
+            ],
+            [
+                "wexp",
+                7
+            ],
+            [
+                "sequence_item",
+                [
+                    "Teleport1",
+                    "Teleport2"
+                ]
+            ],
+            [
+                "no_ai",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "max_range",
+                1
+            ]
+        ]
+    },
+    {
+        "nid": "Teleport1",
+        "name": "Teleport",
+        "desc": "Teleports self to a distant location.",
+        "icon_nid": "{2WB} All Tomes",
+        "icon_index": [
+            7,
+            3
+        ],
+        "components": [
+            [
+                "spell",
+                null
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "min_range",
+                0
+            ],
+            [
+                "store_unit",
+                null
+            ],
+            [
+                "max_range",
+                0
+            ]
+        ]
+    },
+    {
+        "nid": "Teleport2",
+        "name": "Teleport",
+        "desc": "Teleports self to a distant location.",
+        "icon_nid": "{2WB} All Tomes",
+        "icon_index": [
+            7,
+            3
+        ],
+        "components": [
+            [
+                "spell",
+                null
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "target_tile",
+                null
+            ],
+            [
+                "unload_unit",
+                null
+            ],
+            [
+                "max_equation_range",
+                "MAGIC_RANGE"
+            ]
+        ]
+    },
+    {
+        "nid": "Thief",
+        "name": "Thief",
+        "desc": "Steal items from enemies.",
+        "icon_nid": "{2WB} All Tomes",
+        "icon_index": [
+            2,
+            3
+        ],
+        "components": [
+            [
+                "spell",
+                null
+            ],
+            [
+                "value",
+                1800
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                10
+            ],
+            [
+                "weapon_type",
+                "Lunis"
+            ],
+            [
+                "weapon_rank",
+                "C"
+            ],
+            [
+                "uses",
+                5
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "exp",
+                40
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    255,
+                    238,
+                    238
+                ]
+            ],
+            [
+                "steal",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ]
+        ]
+    },
+    {
         "nid": "Tendril",
         "name": "Tendril",
         "desc": "",
-        "icon_nid": "Dark",
+        "icon_nid": "{2WB} All Tomes",
         "icon_index": [
-            0,
-            0
+            6,
+            3
         ],
         "components": [
             [
@@ -14348,10 +15067,10 @@
         "nid": "Leech",
         "name": "Leech",
         "desc": "Dark magic. Eff vs Benoa, Holy.\nUser recovers HP equal to damage dealt.",
-        "icon_nid": "Dark",
+        "icon_nid": "{Zane} All Icons",
         "icon_index": [
-            0,
-            2
+            4,
+            14
         ],
         "components": [
             [
@@ -14449,10 +15168,10 @@
         "nid": "Pierce",
         "name": "Pierce",
         "desc": "Ignore's enemy resistance",
-        "icon_nid": "Dark",
+        "icon_nid": "{2WB} All Tomes",
         "icon_index": [
-            0,
-            1
+            5,
+            3
         ],
         "components": [
             [
@@ -14528,9 +15247,9 @@
         "nid": "Eclipse",
         "name": "Eclipse",
         "desc": "",
-        "icon_nid": "Dark",
+        "icon_nid": "{2WB} All Tomes",
         "icon_index": [
-            0,
+            3,
             3
         ],
         "components": [
@@ -14599,9 +15318,9 @@
         "nid": "Hellfire",
         "name": "Hellfire",
         "desc": "",
-        "icon_nid": "Dark",
+        "icon_nid": "{CamTech075} Pack 2 ",
         "icon_index": [
-            0,
+            5,
             4
         ],
         "components": [
@@ -14668,6 +15387,89 @@
             [
                 "uses",
                 20
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ]
+        ]
+    },
+    {
+        "nid": "GaeyaWrath",
+        "name": "Wrath of Gaeya",
+        "desc": "",
+        "icon_nid": "{Zarg} All Icons",
+        "icon_index": [
+            3,
+            16
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "damage",
+                7
+            ],
+            [
+                "hit",
+                80
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "weight",
+                8
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Tellus"
+            ],
+            [
+                "weapon_rank",
+                "S"
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    170,
+                    85,
+                    0
+                ]
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "value",
+                900
+            ],
+            [
+                "uses",
+                45
             ],
             [
                 "uses_options",
@@ -14758,8 +15560,8 @@
         ]
     },
     {
-        "nid": "Wretched_Air",
-        "name": "Wretched Air",
+        "nid": "DaemonicBreath",
+        "name": "DaemonicBreath",
         "desc": "Breath magic. Ignore's enemy defence. Dragons only.",
         "icon_nid": "Neutral",
         "icon_index": [
@@ -14828,6 +15630,148 @@
                 [
                     "Dragon"
                 ]
+            ]
+        ]
+    },
+    {
+        "nid": "Regrowth",
+        "name": "Regrowth",
+        "desc": "Fully restores uses of all target's held\nnon-metal weapons and armor.",
+        "icon_nid": "{Zarg} All Icons",
+        "icon_index": [
+            3,
+            15
+        ],
+        "components": [
+            [
+                "spell",
+                null
+            ],
+            [
+                "value",
+                1800
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "weapon_type",
+                "Tellus"
+            ],
+            [
+                "weapon_rank",
+                "A"
+            ],
+            [
+                "uses",
+                3
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "exp",
+                40
+            ],
+            [
+                "wexp",
+                8
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    170,
+                    85,
+                    0
+                ]
+            ],
+            [
+                "repair",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Cloak",
+        "name": "Cloak",
+        "desc": "Fully restores uses of all target's held\nnon-metal weapons and armor.",
+        "icon_nid": "{Zane} All Icons",
+        "icon_index": [
+            6,
+            14
+        ],
+        "components": [
+            [
+                "spell",
+                null
+            ],
+            [
+                "value",
+                1800
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "weapon_type",
+                "Tellus"
+            ],
+            [
+                "weapon_rank",
+                "A"
+            ],
+            [
+                "uses",
+                3
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "exp",
+                40
+            ],
+            [
+                "wexp",
+                8
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    170,
+                    85,
+                    0
+                ]
+            ],
+            [
+                "repair",
+                null
             ]
         ]
     },
@@ -16025,45 +16969,6 @@
             [
                 "can_unlock",
                 "region.nid.startswith('Door')"
-            ]
-        ]
-    },
-    {
-        "nid": "Torch",
-        "name": "Torch",
-        "desc": "Increases user's sight range in fog of war",
-        "icon_nid": "Consumable",
-        "icon_index": [
-            0,
-            11
-        ],
-        "components": [
-            [
-                "value",
-                500
-            ],
-            [
-                "uses",
-                5
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
-                "target_ally",
-                null
-            ],
-            [
-                "usable",
-                null
-            ],
-            [
-                "status_on_hit",
-                "Light"
             ]
         ]
     },

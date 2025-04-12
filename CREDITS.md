@@ -253,16 +253,19 @@ Shock Launcher (Thunderbolt by Purple)
 
 #### Magic Icons
 
+Spellbook (Anima Tome 3 by Cardcafe)
+
 ##### Light Spells
+Blessing (DS Aura by Batima)
+Enlighten (Icon Blitz 1 Shine by 2WB)
 Life Energy (Lifelight [Devil Tome] by Beansy)
-Blessing (Rexaura by Batima)
 Blind (Unique 7 by Ereshkigal)
-Enrage (Purge by Beansy)
-Sylvan's Blessing (Starlight DS by Batima)
+Fury (Purge by Beansy)
+Light of Sylvan (Starlight DS by Batima)
 Glimmer (Light/Lightning Alt Color by Batima)
 Shine (Ellight Alt Color by Batima)
-Ray (Aura Jugdral by Batima)
-Solar Flare (Sunbeam by Beansy)
+Ray (Vanilla + Blitz Aureola 6 by 2WB)
+Solar Flare (Light 2 by Zarg)
 Starlight (Starlight by Batima)
 Excalibur (POR Rexaura by Batima)
 Airyukin (Book of Naga Alt Color by Batima)
@@ -271,20 +274,22 @@ Holy Breath (?? unsure how to handle breath icons yet)
 ##### Fire Spells
 Reforge (Veillantif by Batima)
 Strengthen (Arcfire by Batima)
-Enflame ()
-Burn (Ember by Batima)
+Enflame (Anima 9 by Zarg)
+Burn (Icon Blitz 1 Elfire by 2WB)
+Torch (Meteor by Batima)
+Immolate (Tome 8 by Ereshkigal)
 Fireball (Icon Blitz 1 Fire by 2WB)
-Flare Burst (Icon Blitz 1 Elfire by 2WB)
-Flame Wall (Arcfire by SN_Ivan)
-Explosion (Fire 5 by Leif)
-Eruption (Fire 6 by Leif)
+Flare Burst (Amima 2 by Ereshkigal)
+Flame Wall (Vanilla+Blitza Forblaze by 2WB)
+Explosion (Tome 2 by Ereshkigal)
+Eruption (Unique 8 by Ereshkigal)
 Ragnarok (Icon Blitz 1 Tome 9 by Valak)
 
 ##### Lightning Spells
+Unlock ()
 Swiftness (Unique 16 by Ereshkigal)
 Illusion (Tome 20 by Valak)
 Enshock (Arectaris by Beansy)
-Teleport (Thoron by Batima)
 Warp (Katarina's Bolt by Batima)
 Paralyze (Unique 13 by Ereshkigal)
 Static (GBA Style Elthunder by Batima)
@@ -296,11 +301,12 @@ Arrow of Alternia (Mjolnir by Batima)
 
 ##### Water Spells
 Intellectual (Arcblizzard by Batima)
+Enflow (Placidity by FuriousHaunter)
 Healing Water (Magic 1 by AtelierLabs)
 Purify (Anima 10 by Zarg)
 Silence (Sleet by Batima)
 Healing Rain (Hailstorm by Beansy)
-Rejuvenation (Blizzard POR by Batima)
+Miwata's Blessing (Blizzard POR by Batima)
 Aqua Edge (Ice Shards by Beansy)
 Splash (Blizzard by Batima)
 Water Blast (Crossfreeze by Beansy)
@@ -309,20 +315,23 @@ Leviathan (Aurora by Beansy)
 
 ##### Ice Spells
 Barrier (Unique 20 by Ereshkigal)
-Enfrost ()
+Enfrost (Aurion by VelvetKitsune)
+Cauterize (Anima 15 by Ereshkigal)
+Slow (Anima 6 by Zarg)
 Freeze (Glacier by FuriousHaunter)
 Mind Read (Anima 5 by Zarg)
-Time Stop (Sleet by Batima)
 Icicle (Anima 16 by Ereshkigal)
 Frostbite (Other Tome 4 by Ereshkigal)
 Hailstorm (Other Tome 10 by Ereshkigal)
 Blizzard (Unique 28 by Ereshkigal)
 Fimbulvetr (Fimbulvetr by Beansy)
+Kronos (Anima 7 by Zarg)
 
 ##### Wind Spells
 Healing Wind (Tome 16 by Valak)
 Hasten (Unique 23 by Ereshkigal)
 Sleep (Dark 9 by Zarg)
+Enwisp
 Trade (Tome 5 by Ereshkigal)
 Rescue (Unique 21 by Ereshkigal)
 Gust (Wilderwind by Batima)
@@ -333,24 +342,37 @@ Hurricane (Giga Excalibur by Batima)
 Ultima (Unique 26 by Ereshkigal)
 
 ##### Earth Spells
-Reforge
-Stoneskin
+Fortitude (Dark 5 by Zarg)
+Enearth (Dark Tome 1 by Valak)
+Reinforce (Unique 2 by Ereshkigal)
+Stoneskin (Dark 6 by Zarg)
+Gravity (Nosferatu by Beansy)
 Petrify (Apocalypse by Batima)
-Stone (Stone Tome Icon by Topaz)
-Boulder (Sacred War Dark 3 by Seal)
-Quake (ArcaneaIcon Project tile194 by LordGlenn)
-Rend Terra (Dark Spikes by Batima)
-Nature's Wrath (Brynhilldr by Beansy)
-Meteor (Eclipse by Beansy)
-Jormungandr (Apocalypse by Batima)
+Stone (Dark 1 by Zarg)
+Boulder (Gleipnir by Beansy)
+Quake (Dark 12 by Zarg)
+Meteor (Collision by FuriousHaunter)
+Rend Terra (Dark 7 by Zarg)
+Jormungandr (Imhullu by Batima)
 
 ##### Dark Spells
-Tendril (Flux by Beansy)
-Leech (Icon 044 by Zarg)
-Bleed (Dark Spikes by Batima)
-Eclipse (Naglfar by Beansy)
-Hellfire (Loptous by Batima)
+Regenerate (Grima's Truth by Batima)
+Enshade (Icon Blitz 1 Flux by 2WB)
 Transfusion (Fenrir Jugdral by Batima)
+Cleanse (Aversa's Night by Batima)
+Teleport (Icon Blitz 1 DARK Unknown by 2WB)
+Thief (Icon Blitz 1 Nosferatu by 2WB)
+Tendril (Slime by 2WB)
+Leech (Icon 044 by Zane)
+Pierce (Icon Blitz 1 Gespenst by 2WB)
+Eclipse (Eclipse by 2WB)
+Hellfire (Pack 2 Icon 033 by CamTech075)
+Wrath of Gaeya (Dark 4 by Zarg)
+Vengeance of Mephisto (Monster 6 by Ereshkigal)
+
+
+Cloak (Dark Icon 074 by Zane)???
+Regrowth (Dark 4 by Zarg)???
 
 
 ### Animations
@@ -718,6 +740,18 @@ Chapter
 Chapter 14 Haunted by Tragedy (the original Prologue map; base design is Aura Wolf's Ship 2 but it was updated by me, JaidynReiman, with tile changes, but still is heavily inspired by it)
 Chapter 14-Scene / Miriam's Room in Oestridel Manor ()
 
+
+### Backgrounds
+
+#### Event Backgrounds
+Lunar PSP Backgrounds by Fenreir
+
+#### Battle Platforms
+Metropolis Platforms (Dark Cobblestone by Cynon)
+
+#### Battle Backgrounds
+
+#### Battle Grounds
 
 
 ### Music

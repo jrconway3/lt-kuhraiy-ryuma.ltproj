@@ -3188,10 +3188,7 @@
         "priority": 20,
         "_source": [
             "music;Event - Legacy 2 (Suikoden 2, Reminiscence by Tak);100;no_warn",
-            "remove_unit;Svetlanya;immediate",
-            "remove_unit;Kasuto;immediate",
-            "remove_group;Enemy1;immediate",
-            "change_background;CastleSepia",
+            "change_background;lunar_bg06_cathedral",
             "change_tilemap;Oestridel Church",
             "add_unit;Svetlanya;4,3;immediate",
             "add_portrait;Svetlanya;MidLeft;Middle;CloseEyes",
@@ -3206,12 +3203,13 @@
             "speak;Kasuto;My apologies, Lady Svetlanya.|Naught should I have left so suddenly during your time of need.",
             "mirror_portrait;Svetlanya;",
             "speak;Svetlanya;Truly you need not worry about my troubles.|Others far more need your aid than that of I!",
-            ""
+            "add_lore;Svetlanya",
+            "add_lore;Kasuto"
         ],
         "nid": "0 Intro"
     },
     {
-        "name": "LearnSpell",
+        "name": "SpellsLearned",
         "trigger": "unit_level_up",
         "level_nid": null,
         "condition": "True",
@@ -3219,9 +3217,13 @@
         "only_once": false,
         "priority": 20,
         "_source": [
-            ""
+            "if;unit.nid === 'Svetlanya'",
+            "    if;unit.level === 3",
+            "        add_item_to_multiitem;Svetlanya;Spellbook;HealingWater",
+            "    end",
+            "end"
         ],
-        "nid": "Global LearnSpell"
+        "nid": "Global SpellsLearned"
     },
     {
         "name": "PrologueStart",
@@ -3233,13 +3235,61 @@
         "priority": 20,
         "_source": [
             "music;Chapter - Simple (Riviera, Heaven's Gate by Pikmin1211);500;no_warn",
+            "move_unit;Svetlanya;9,26;normal;giveup",
+            "add_portrait;Serena;Right;normal",
+            "add_portrait;Svetlanya;OffscreenLeft;right;Smile",
+            "speak;Serena;My lady Svetlanya... have you tended to your prayers?",
+            "move_portrait;Svetlanya;Left;no_block",
+            "speak;Svetlanya;Indeed I have, dearest Serena. Mayhaps we shall head back into the city... this is our final day together, is it not?",
+            "expression;Serena;Smile",
+            "speak;Serena;You speak as if we shan't see one another again, my lady. You need not worry, I am merely taking another position under your lord father.",
+            "expression;Svetlanya;CloseEyes",
+            "speak;Svetlanya;O-of course I know that! Yet you have long been my loyal retainer all these years... I always knew I would be safe behind your shield, Serena.",
+            "expression;Svetlanya;OpenEyes",
+            "move_unit;Serena;10,17;normal;giveup;300;no_block",
+            "wait;200",
+            "move_unit;Svetlanya;9,17;normal;giveup;300;no_block",
+            "speak;Serena;I can assure you, my lady... I have tested this Amaya myself. She is more than capable.",
+            "speak;Svetlanya;I trust your judgment, but alas, I know not who this Amaya is... why should I...",
+            "speak;Serena;Hold! Something is amiss.",
+            "multi_remove_portrait;Svetlanya;Serena",
+            "move_unit;Serena;7,15;normal;giveup",
+            "",
+            "add_lore;Serena",
+            "add_lore;Thanya",
+            "add_lore;Queiza"
+        ],
+        "nid": "0 PrologueStart"
+    },
+    {
+        "name": "SpellsStart",
+        "trigger": "level_start",
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": true,
+        "priority": 99,
+        "_source": [
             "add_item_to_multiitem;Svetlanya;Spellbook;HealingWater",
             "add_item_to_multiitem;Svetlanya;Spellbook;Splash",
             "add_item_to_multiitem;Svetlanya;Spellbook;Static",
             "add_item_to_multiitem;Serena;Spellbook;Frostbite",
-            "move_unit;Svetlanya;9,26;normal;giveup",
-            "move_unit;Svetlanya;"
+            "add_item_to_multiitem;Serena;Spellbook;Enfrost"
         ],
-        "nid": "0 PrologueStart"
+        "nid": "Global SpellsStart"
+    },
+    {
+        "name": "Credits",
+        "trigger": "level_start",
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": true,
+        "priority": 98,
+        "_source": [
+            "add_lore;Music;no_warn",
+            "add_lore;MapSprites;no_warn"
+        ],
+        "nid": "Global Credits"
     }
 ]

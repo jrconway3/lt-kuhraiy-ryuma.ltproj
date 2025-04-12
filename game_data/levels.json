@@ -1,254 +1,5 @@
 [
     {
-        "nid": "_1_1",
-        "name": "Trade City Oestridel",
-        "tilemap": "Trade City Oestridel",
-        "bg_tilemap": null,
-        "party": "Svetlanya",
-        "music": {
-            "player_phase": "Bumming Around in Pixeltown_Looping"
-        },
-        "objective": {
-            "simple": "Explore",
-            "win": "N/A",
-            "loss": "N/A"
-        },
-        "roam": true,
-        "roam_unit": "Svetlanya",
-        "go_to_overworld": false,
-        "should_record": false,
-        "tags": [],
-        "units": [
-            {
-                "nid": "101",
-                "variant": "Girl",
-                "level": 1,
-                "klass": "Lykon",
-                "faction": "Masa",
-                "starting_items": [],
-                "starting_skills": [],
-                "team": "npc",
-                "ai": "None",
-                "roam_ai": "Wander",
-                "ai_group": "",
-                "starting_position": [
-                    37,
-                    15
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "102",
-                "variant": "Boy",
-                "level": 1,
-                "klass": "Lykon",
-                "faction": "Masa",
-                "starting_items": [],
-                "starting_skills": [],
-                "team": "npc",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    7,
-                    26
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "103",
-                "variant": "Woman",
-                "level": 1,
-                "klass": "Lykon",
-                "faction": "Masa",
-                "starting_items": [],
-                "starting_skills": [],
-                "team": "npc",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    8,
-                    19
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "104",
-                "variant": "",
-                "level": 1,
-                "klass": "Lykon",
-                "faction": "Masa",
-                "starting_items": [],
-                "starting_skills": [],
-                "team": "npc",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    10,
-                    10
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "105",
-                "variant": "Woman",
-                "level": 1,
-                "klass": "Lykon",
-                "faction": "Masa",
-                "starting_items": [],
-                "starting_skills": [],
-                "team": "npc",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    38,
-                    15
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "106",
-                "variant": "",
-                "level": 1,
-                "klass": "Lykon",
-                "faction": "Masa",
-                "starting_items": [],
-                "starting_skills": [],
-                "team": "npc",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    7,
-                    20
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "Dehren",
-                "team": "npc",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    24,
-                    8
-                ],
-                "starting_traveler": null,
-                "generic": false
-            }
-        ],
-        "regions": [
-            {
-                "nid": "SW_Church",
-                "region_type": "event",
-                "position": [
-                    18,
-                    23
-                ],
-                "size": [
-                    3,
-                    1
-                ],
-                "sub_nid": "Oestridel_Enter_SW_Church",
-                "condition": "True",
-                "time_left": null,
-                "only_once": false,
-                "interrupt_move": true
-            },
-            {
-                "nid": "N_Church",
-                "region_type": "event",
-                "position": [
-                    22,
-                    13
-                ],
-                "size": [
-                    4,
-                    1
-                ],
-                "sub_nid": "Oestridel_Enter_North_Church",
-                "condition": "True",
-                "time_left": null,
-                "only_once": false,
-                "interrupt_move": true
-            },
-            {
-                "nid": "E_Church",
-                "region_type": "event",
-                "position": [
-                    32,
-                    25
-                ],
-                "size": [
-                    1,
-                    2
-                ],
-                "sub_nid": "Oestridel_Enter_East_Church",
-                "condition": "True",
-                "time_left": null,
-                "only_once": false,
-                "interrupt_move": true
-            }
-        ],
-        "unit_groups": [
-            {
-                "nid": "Civilians",
-                "units": [
-                    "101",
-                    "102",
-                    "103",
-                    "104",
-                    "105",
-                    "106"
-                ],
-                "positions": {}
-            },
-            {
-                "nid": "Masa",
-                "units": [],
-                "positions": {}
-            },
-            {
-                "nid": "Siegwang",
-                "units": [],
-                "positions": {}
-            }
-        ],
-        "ai_groups": []
-    },
-    {
-        "nid": "_1_2",
-        "name": "Oestridel Cathedral",
-        "tilemap": "Oestridel Church",
-        "bg_tilemap": null,
-        "party": "Svetlanya",
-        "music": {},
-        "objective": {
-            "simple": "Explore",
-            "win": "N/A",
-            "loss": "N/A"
-        },
-        "roam": true,
-        "roam_unit": "Svetlanya",
-        "go_to_overworld": false,
-        "should_record": true,
-        "tags": [],
-        "units": [],
-        "regions": [],
-        "unit_groups": [],
-        "ai_groups": []
-    },
-    {
         "nid": "0",
         "name": "Prologue - Lady of Oestridel",
         "tilemap": "Ch0",
@@ -501,6 +252,255 @@
                 }
             }
         ],
+        "ai_groups": []
+    },
+    {
+        "nid": "_1_1",
+        "name": "Trade City Oestridel",
+        "tilemap": "Trade City Oestridel",
+        "bg_tilemap": null,
+        "party": "Svetlanya",
+        "music": {
+            "player_phase": "Bumming Around in Pixeltown_Looping"
+        },
+        "objective": {
+            "simple": "Explore",
+            "win": "N/A",
+            "loss": "N/A"
+        },
+        "roam": true,
+        "roam_unit": "Svetlanya",
+        "go_to_overworld": false,
+        "should_record": false,
+        "tags": [],
+        "units": [
+            {
+                "nid": "101",
+                "variant": "Girl",
+                "level": 1,
+                "klass": "Lykon",
+                "faction": "Masa",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "npc",
+                "ai": "None",
+                "roam_ai": "Wander",
+                "ai_group": "",
+                "starting_position": [
+                    37,
+                    15
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "102",
+                "variant": "Boy",
+                "level": 1,
+                "klass": "Lykon",
+                "faction": "Masa",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "npc",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    7,
+                    26
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "103",
+                "variant": "Woman",
+                "level": 1,
+                "klass": "Lykon",
+                "faction": "Masa",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "npc",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    8,
+                    19
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "104",
+                "variant": "",
+                "level": 1,
+                "klass": "Lykon",
+                "faction": "Masa",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "npc",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    10,
+                    10
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "105",
+                "variant": "Woman",
+                "level": 1,
+                "klass": "Lykon",
+                "faction": "Masa",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "npc",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    38,
+                    15
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "106",
+                "variant": "",
+                "level": 1,
+                "klass": "Lykon",
+                "faction": "Masa",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "npc",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    7,
+                    20
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Dehren",
+                "team": "npc",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    24,
+                    8
+                ],
+                "starting_traveler": null,
+                "generic": false
+            }
+        ],
+        "regions": [
+            {
+                "nid": "SW_Church",
+                "region_type": "event",
+                "position": [
+                    18,
+                    23
+                ],
+                "size": [
+                    3,
+                    1
+                ],
+                "sub_nid": "Oestridel_Enter_SW_Church",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": true
+            },
+            {
+                "nid": "N_Church",
+                "region_type": "event",
+                "position": [
+                    22,
+                    13
+                ],
+                "size": [
+                    4,
+                    1
+                ],
+                "sub_nid": "Oestridel_Enter_North_Church",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": true
+            },
+            {
+                "nid": "E_Church",
+                "region_type": "event",
+                "position": [
+                    32,
+                    25
+                ],
+                "size": [
+                    1,
+                    2
+                ],
+                "sub_nid": "Oestridel_Enter_East_Church",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": true
+            }
+        ],
+        "unit_groups": [
+            {
+                "nid": "Civilians",
+                "units": [
+                    "101",
+                    "102",
+                    "103",
+                    "104",
+                    "105",
+                    "106"
+                ],
+                "positions": {}
+            },
+            {
+                "nid": "Masa",
+                "units": [],
+                "positions": {}
+            },
+            {
+                "nid": "Siegwang",
+                "units": [],
+                "positions": {}
+            }
+        ],
+        "ai_groups": []
+    },
+    {
+        "nid": "_1_2",
+        "name": "Oestridel Cathedral",
+        "tilemap": "Oestridel Church",
+        "bg_tilemap": null,
+        "party": "Svetlanya",
+        "music": {},
+        "objective": {
+            "simple": "Explore",
+            "win": "N/A",
+            "loss": "N/A"
+        },
+        "roam": true,
+        "roam_unit": "Svetlanya",
+        "go_to_overworld": false,
+        "should_record": true,
+        "tags": [],
+        "units": [],
+        "regions": [],
+        "unit_groups": [],
         "ai_groups": []
     },
     {

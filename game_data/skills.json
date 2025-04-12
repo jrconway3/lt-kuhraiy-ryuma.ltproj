@@ -560,6 +560,10 @@
             [
                 "resist_multiplier",
                 0.25
+            ],
+            [
+                "hidden_if_inactive",
+                null
             ]
         ]
     },
@@ -594,6 +598,10 @@
             [
                 "resist",
                 5
+            ],
+            [
+                "hidden_if_inactive",
+                null
             ]
         ]
     },

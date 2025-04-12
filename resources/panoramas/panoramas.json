@@ -162,5 +162,17 @@
     [
         "combat_village",
         1
+    ],
+    [
+        "lunar_bg02_temple",
+        1
+    ],
+    [
+        "lunar_bg04_palace_night",
+        1
+    ],
+    [
+        "lunar_bg06_cathedral",
+        1
     ]
 ]
