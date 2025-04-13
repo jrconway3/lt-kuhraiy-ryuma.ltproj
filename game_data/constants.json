@@ -5,7 +5,7 @@
     ],
     [
         "num_accessories",
-        2
+        4
     ],
     [
         "turnwheel",
@@ -57,7 +57,7 @@
     ],
     [
         "support",
-        false
+        true
     ],
     [
         "overworld",
@@ -81,7 +81,7 @@
     ],
     [
         "long_range_storage",
-        true
+        false
     ],
     [
         "allow_negative_as",
@@ -97,7 +97,7 @@
     ],
     [
         "alt_growth_format",
-        false
+        true
     ],
     [
         "glancing_hit",
@@ -113,11 +113,11 @@
     ],
     [
         "line_of_sight",
-        false
+        true
     ],
     [
         "aura_los",
-        false
+        true
     ],
     [
         "fog_los",
@@ -213,7 +213,7 @@
     ],
     [
         "convoy_on_death",
-        false
+        true
     ],
     [
         "repair_shop",
@@ -277,7 +277,7 @@
     ],
     [
         "music_main",
-        "Main Theme"
+        "Event - World (Something Custom by Sme)"
     ],
     [
         "music_promotion",
@@ -289,7 +289,7 @@
     ],
     [
         "music_game_over",
-        "Game Over"
+        "Death (Triangle Strategy, Elegy of Battle by Kaidras)"
     ],
     [
         "restart_phase_music",

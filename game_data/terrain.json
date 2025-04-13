@@ -120,6 +120,21 @@
         "status": null
     },
     {
+        "nid": "7_City",
+        "name": "Road",
+        "color": [
+            84,
+            84,
+            84
+        ],
+        "minimap": "Floor",
+        "platform": "Metropolis",
+        "background": "combat_outside_castle",
+        "mtype": "Normal",
+        "opaque": false,
+        "status": null
+    },
+    {
         "nid": "8",
         "name": "Pillar",
         "color": [
@@ -248,9 +263,9 @@
             248
         ],
         "minimap": "River",
-        "platform": "Floor",
-        "background": "combat_village",
-        "mtype": "Fence",
+        "platform": "Bridge",
+        "background": "combat_outside_castle",
+        "mtype": "River",
         "opaque": false,
         "status": null
     },
@@ -360,6 +375,21 @@
         "status": "Throne"
     },
     {
+        "nid": "32_City",
+        "name": "Gate",
+        "color": [
+            38,
+            81,
+            109
+        ],
+        "minimap": "Throne",
+        "platform": "MetropolisGate",
+        "background": "combat_outside_castle",
+        "mtype": "Throne",
+        "opaque": false,
+        "status": "Throne"
+    },
+    {
         "nid": "33",
         "name": "Armory",
         "color": [
@@ -405,6 +435,21 @@
         "status": "Avoid10"
     },
     {
+        "nid": "Arena_City",
+        "name": "Arena",
+        "color": [
+            84,
+            84,
+            84
+        ],
+        "minimap": "Shop",
+        "platform": "MetropolisArena",
+        "background": "combat_outside_castle",
+        "mtype": "Normal",
+        "opaque": false,
+        "status": null
+    },
+    {
         "nid": "35",
         "name": "Village",
         "color": [
@@ -415,6 +460,21 @@
         "minimap": "House",
         "platform": "Village",
         "background": "combat_village",
+        "mtype": "Normal",
+        "opaque": false,
+        "status": "Avoid10"
+    },
+    {
+        "nid": "35_City",
+        "name": "Village",
+        "color": [
+            85,
+            0,
+            0
+        ],
+        "minimap": "House",
+        "platform": "MetropolisGate",
+        "background": "combat_outside_castle",
         "mtype": "Normal",
         "opaque": false,
         "status": "Avoid10"

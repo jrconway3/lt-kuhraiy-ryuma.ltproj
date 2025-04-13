@@ -2229,11 +2229,11 @@
     {
         "nid": "Almace",
         "name": "Almace",
-        "desc": "+5 Str/Int. Svetlanya only.\nEffective vs Lykons, Dragons.",
-        "icon_nid": "{Beansy} {Swords} All Icons",
+        "desc": "+5 Str/Int. Svetlanya only.\nEff vs Lykons, Dragons.",
+        "icon_nid": "[WEP] Pack 5 {Lisandra Brave}",
         "icon_index": [
-            1,
-            4
+            4,
+            1
         ],
         "components": [
             [
@@ -2311,12 +2311,39 @@
                 "Fireball"
             ],
             [
+                "wexp",
+                2
+            ],
+            [
+                "magic_at_range",
+                null
+            ],
+            [
                 "multi_status_on_equip",
                 [
                     "Strength_Plus5",
                     "Magic_Plus5"
                 ]
             ],
+            [
+                "multi_item",
+                [
+                    "Almace1",
+                    "Almace2"
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Almace01",
+        "name": "Almace",
+        "desc": "+5 Str/Mag. Damage = 1/2 Str+Int.\nTargets Avg Def/Res. Eff vs Lykons, Dragons.",
+        "icon_nid": "[WEP] Pack 5 {Lisandra Brave}",
+        "icon_index": [
+            4,
+            1
+        ],
+        "components": [
             [
                 "prf_unit",
                 [
@@ -2325,8 +2352,134 @@
                 ]
             ],
             [
+                "multi_item",
+                [
+                    "Almace1",
+                    "Almace2"
+                ]
+            ],
+            [
+                "uses",
+                60
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "prf_tags",
+                [
+                    "Rapier"
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Almace1",
+        "name": "Almace1",
+        "desc": "+5 Str/Mag. Damage = 1/2 Str+Int.\nTargets Avg Def/Res. Eff vs Lykons, Dragons.",
+        "icon_nid": "[WEP] Pack 5 {Lisandra Brave}",
+        "icon_index": [
+            4,
+            1
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "damage",
+                7
+            ],
+            [
+                "hit",
+                95
+            ],
+            [
+                "crit",
+                10
+            ],
+            [
+                "weight",
+                5
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Sword"
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "Lykon",
+                        "Gjin",
+                        "Wolf",
+                        "Dragon"
+                    ],
+                    "effective_multiplier": 1.0,
+                    "effective_bonus_damage": 14,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
+            ],
+            [
+                "battle_cast_anim",
+                "Fireball"
+            ],
+            [
                 "wexp",
                 2
+            ],
+            [
+                "alternate_damage_formula",
+                "MIXED_DAMAGE"
+            ],
+            [
+                "alternate_resist_formula",
+                "AVG_DEFENSE"
+            ],
+            [
+                "multi_status_on_equip",
+                [
+                    "Magic_Plus5",
+                    "Strength_Plus5"
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Almace2",
+        "name": "Fireball",
+        "desc": "Weakest fire magic. Eff vs lykons, wolves.\nIneffective vs Zabos.",
+        "icon_nid": "{2WB} All Tomes",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "item_prefab",
+                "Fireball0"
             ]
         ]
     },
@@ -2334,10 +2487,10 @@
         "nid": "Almacia",
         "name": "Almacia",
         "desc": "Royal blade of Omyrus. +5 Str/Int.\nEffective vs Lykons, Dragons.",
-        "icon_nid": "{Beansy} {Swords} All Icons",
+        "icon_nid": "{Zelix} [WEP] FE13-FE14 Pack",
         "icon_index": [
-            1,
-            4
+            10,
+            0
         ],
         "components": [
             [
@@ -2409,9 +2562,9 @@
         "nid": "Joyeuse",
         "name": "Joyeuse",
         "desc": "A prized weapon of House Lyudam. Amaya only.\nContains Light Magic. Eff vs armor and dragons.",
-        "icon_nid": "[WEP] Pack 5 {Lisandra Brave}",
+        "icon_nid": "{Zelix} [WEP] FE13-FE14 Pack",
         "icon_index": [
-            4,
+            14,
             1
         ],
         "components": [
@@ -2497,10 +2650,10 @@
         "nid": "Galatine",
         "name": "Galatine",
         "desc": "Kitezh sacred treasure. Int+10.\nLake Lady only. Eff vs Dragons, Horses.",
-        "icon_nid": "Sword",
+        "icon_nid": "{Zarg} All Icons",
         "icon_index": [
-            0,
-            18
+            3,
+            0
         ],
         "components": [
             [
@@ -6755,6 +6908,10 @@
             [
                 "accessory",
                 null
+            ],
+            [
+                "locked",
+                null
             ]
         ]
     },
@@ -8403,8 +8560,8 @@
         ]
     },
     {
-        "nid": "Fireball",
-        "name": "Fireball",
+        "nid": "Fireball0",
+        "name": "Fireball0",
         "desc": "Weakest fire magic. Eff vs lykons, wolves.\nIneffective vs Zabos.",
         "icon_nid": "{2WB} All Tomes",
         "icon_index": [
@@ -8453,14 +8610,6 @@
                 null
             ],
             [
-                "weapon_type",
-                "Ignis"
-            ],
-            [
-                "weapon_rank",
-                "E"
-            ],
-            [
                 "map_hit_add_blend",
                 [
                     224,
@@ -8489,6 +8638,30 @@
             [
                 "mana_cost",
                 2
+            ]
+        ]
+    },
+    {
+        "nid": "Fireball",
+        "name": "Fireball",
+        "desc": "Weakest fire magic. Eff vs lykons, wolves.\nIneffective vs Zabos.",
+        "icon_nid": "{2WB} All Tomes",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "item_prefab",
+                "Fireball0"
+            ],
+            [
+                "weapon_rank",
+                "E"
+            ],
+            [
+                "weapon_type",
+                "Ignis"
             ]
         ]
     },
@@ -10787,7 +10960,7 @@
             ],
             [
                 "mana_cost",
-                3
+                2
             ],
             [
                 "effective_damage",
@@ -10819,7 +10992,7 @@
         "desc": "",
         "icon_nid": "{Batima} All Tomes",
         "icon_index": [
-            1,
+            0,
             5
         ],
         "components": [
@@ -10837,11 +11010,11 @@
             ],
             [
                 "damage",
-                13
+                5
             ],
             [
                 "hit",
-                80
+                85
             ],
             [
                 "weapon_type",
@@ -10856,19 +11029,8 @@
                 null
             ],
             [
-                "uses",
-                20
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
                 "weight",
-                10
+                4
             ],
             [
                 "crit",
@@ -10876,7 +11038,7 @@
             ],
             [
                 "value",
-                6000
+                600
             ],
             [
                 "min_range",
@@ -10907,6 +11069,10 @@
                     0,
                     255
                 ]
+            ],
+            [
+                "mana_cost",
+                5
             ]
         ]
     },
@@ -10934,7 +11100,7 @@
             ],
             [
                 "damage",
-                13
+                7
             ],
             [
                 "hit",
@@ -10965,15 +11131,15 @@
             ],
             [
                 "weight",
-                12
+                6
             ],
             [
                 "crit",
-                0
+                5
             ],
             [
                 "value",
-                6000
+                1000
             ],
             [
                 "min_range",
@@ -11004,6 +11170,10 @@
                     0,
                     255
                 ]
+            ],
+            [
+                "mana_cost",
+                9
             ]
         ]
     },
@@ -11276,6 +11446,62 @@
         ]
     },
     {
+        "nid": "Enfrost",
+        "name": "Enfrost",
+        "desc": "Ally deals ice elemental damage for 2 turns.",
+        "icon_nid": "{VelvetKitsune} All Icons",
+        "icon_index": [
+            3,
+            2
+        ],
+        "components": [
+            [
+                "spell",
+                null
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "weapon_type",
+                "Glacies"
+            ],
+            [
+                "weapon_rank",
+                "E"
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "wexp",
+                4
+            ],
+            [
+                "exp",
+                17
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "status_on_hit",
+                "RallyRes"
+            ],
+            [
+                "mana_cost",
+                2
+            ]
+        ]
+    },
+    {
         "nid": "Barrier",
         "name": "Barrier",
         "desc": "Raises ally's resistance by 5 for 2 turns.",
@@ -11304,73 +11530,6 @@
             [
                 "magic",
                 null
-            ],
-            [
-                "status_on_hit",
-                "RallyRes"
-            ],
-            [
-                "wexp",
-                4
-            ],
-            [
-                "exp",
-                17
-            ],
-            [
-                "value",
-                2250
-            ],
-            [
-                "min_range",
-                1
-            ],
-            [
-                "max_range",
-                1
-            ]
-        ]
-    },
-    {
-        "nid": "Enfrost",
-        "name": "Enfrost",
-        "desc": "Ally deals ice elemental damage for 2 turns.",
-        "icon_nid": "{VelvetKitsune} All Icons",
-        "icon_index": [
-            3,
-            2
-        ],
-        "components": [
-            [
-                "spell",
-                null
-            ],
-            [
-                "target_ally",
-                null
-            ],
-            [
-                "weapon_type",
-                "Glacies"
-            ],
-            [
-                "weapon_rank",
-                "D"
-            ],
-            [
-                "magic",
-                null
-            ],
-            [
-                "uses",
-                15
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
             ],
             [
                 "status_on_hit",
@@ -11677,7 +11836,7 @@
     },
     {
         "nid": "Icicle",
-        "name": "Fimbulvetr",
+        "name": "Icicle",
         "desc": "Eff vs Zabos, Avyons, Eagles.",
         "icon_nid": "{Ereshkigal} All Tomes",
         "icon_index": [
@@ -11730,7 +11889,7 @@
             ],
             [
                 "weight",
-                12
+                6
             ],
             [
                 "crit",
@@ -11797,11 +11956,11 @@
             ],
             [
                 "damage",
-                5
+                9
             ],
             [
                 "hit",
-                80
+                75
             ],
             [
                 "weapon_type",
@@ -11816,27 +11975,12 @@
                 null
             ],
             [
-                "uses",
-                20
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
                 "weight",
-                12
+                10
             ],
             [
                 "crit",
                 0
-            ],
-            [
-                "value",
-                6000
             ],
             [
                 "min_range",
@@ -11868,6 +12012,10 @@
                     255,
                     255
                 ]
+            ],
+            [
+                "mana_cost",
+                7
             ]
         ]
     },
@@ -11899,7 +12047,7 @@
             ],
             [
                 "hit",
-                80
+                70
             ],
             [
                 "weapon_type",

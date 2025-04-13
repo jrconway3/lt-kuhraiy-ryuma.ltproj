@@ -177,6 +177,173 @@
         ]
     },
     {
+        "nid": "Serena",
+        "name": "Serena",
+        "desc": "Knight Captain of House Renald and Svetlanya's former retainer.",
+        "variant": "Serena",
+        "level": 8,
+        "klass": "Captain",
+        "tags": [],
+        "bases": {
+            "LCK": 4,
+            "CON": 0,
+            "MOV": 0,
+            "RES": 5,
+            "STR": 3,
+            "HP": 8,
+            "MAG": 6,
+            "SKL": 5,
+            "SPD": 2,
+            "DEF": 3,
+            "MP": 7
+        },
+        "growths": {
+            "LCK": 40,
+            "CON": 0,
+            "MOV": 0,
+            "RES": 5,
+            "STR": 45,
+            "HP": 80,
+            "MAG": 22,
+            "SKL": 40,
+            "SPD": 45,
+            "DEF": 10,
+            "MP": 10
+        },
+        "stat_cap_modifiers": {
+            "RES": 0,
+            "LCK": 0,
+            "CON": 0,
+            "MOV": 0,
+            "STR": 0,
+            "HP": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
+            "MP": 0
+        },
+        "starting_items": [
+            [
+                "Almace01",
+                false
+            ],
+            [
+                "Vulnerary",
+                false
+            ],
+            [
+                "Steel_Lance",
+                false
+            ],
+            [
+                "Spellbook",
+                false
+            ]
+        ],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                true,
+                121,
+                251
+            ],
+            "Lance": [
+                true,
+                71,
+                251
+            ],
+            "Axe": [
+                false,
+                0,
+                251
+            ],
+            "Bow": [
+                false,
+                0,
+                251
+            ],
+            "Staff": [
+                false,
+                0,
+                251
+            ],
+            "Light": [
+                false,
+                0,
+                251
+            ],
+            "Anima": [
+                false,
+                0,
+                251
+            ],
+            "Dark": [
+                false,
+                0,
+                251
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ],
+            "Earth": [
+                false,
+                0,
+                251
+            ],
+            "Solus": [
+                false,
+                0,
+                251
+            ],
+            "Lunis": [
+                false,
+                0,
+                251
+            ],
+            "Tellus": [
+                false,
+                0,
+                251
+            ],
+            "Glacies": [
+                false,
+                31,
+                null
+            ],
+            "Magic": [
+                false,
+                0,
+                251
+            ],
+            "Runic": [
+                false,
+                0,
+                251
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Nephenee {NickT, Stitch}",
+        "affinity": "Ice",
+        "fields": [
+            [
+                "Race",
+                "Queiza"
+            ],
+            [
+                "Birthplace",
+                "Creodysna"
+            ],
+            [
+                "Home",
+                "Trade City Oestridel"
+            ]
+        ]
+    },
+    {
         "nid": "Amaya",
         "name": "Amaya",
         "desc": "Former noblewoman of Omyrus, now a loyal retainer to Lady Miriam of Oestridel. She holds a strong desire to repay her debt to General Jethro.",
@@ -236,6 +403,10 @@
             ],
             [
                 "Iron_Lance",
+                false
+            ],
+            [
+                "Spellbook",
                 false
             ]
         ],
@@ -413,6 +584,10 @@
             [
                 "Lightning_Blade",
                 false
+            ],
+            [
+                "Spellbook",
+                false
             ]
         ],
         "learned_skills": [],
@@ -582,6 +757,10 @@
             [
                 "Elixir",
                 false
+            ],
+            [
+                "Spellbook",
+                false
             ]
         ],
         "learned_skills": [],
@@ -737,6 +916,10 @@
             [
                 "Vulnerary",
                 false
+            ],
+            [
+                "Spellbook",
+                false
             ]
         ],
         "learned_skills": [],
@@ -881,6 +1064,10 @@
             ],
             [
                 "Vulnerary",
+                false
+            ],
+            [
+                "Spellbook",
                 false
             ]
         ],
@@ -1027,6 +1214,10 @@
             ],
             [
                 "Vulnerary",
+                false
+            ],
+            [
+                "Spellbook",
                 false
             ]
         ],
@@ -1178,6 +1369,10 @@
             [
                 "Vulnerary",
                 false
+            ],
+            [
+                "Spellbook",
+                false
             ]
         ],
         "learned_skills": [],
@@ -1317,7 +1512,7 @@
         },
         "starting_items": [
             [
-                "Fireball",
+                "Spellbook",
                 false
             ]
         ],
@@ -4172,173 +4367,6 @@
         "fields": []
     },
     {
-        "nid": "Serena",
-        "name": "Serena",
-        "desc": "Miriam's former retainer promoted to Captain of the guard. Miriam looks up to her as a mentor. She has a young son, Josif, and a stepdaughter, Thanya.",
-        "variant": "Serena",
-        "level": 25,
-        "klass": "Captain",
-        "tags": [],
-        "bases": {
-            "LCK": 0,
-            "CON": 0,
-            "MOV": 0,
-            "RES": 0,
-            "STR": 0,
-            "HP": 0,
-            "MAG": 0,
-            "SKL": 0,
-            "SPD": 0,
-            "DEF": 0,
-            "MP": 0
-        },
-        "growths": {
-            "LCK": 40,
-            "CON": 0,
-            "MOV": 0,
-            "RES": 20,
-            "STR": 45,
-            "HP": 80,
-            "MAG": 22,
-            "SKL": 40,
-            "SPD": 45,
-            "DEF": 15,
-            "MP": 0
-        },
-        "stat_cap_modifiers": {
-            "RES": 0,
-            "LCK": 0,
-            "CON": 0,
-            "MOV": 0,
-            "STR": 0,
-            "HP": 0,
-            "MAG": 0,
-            "SKL": 0,
-            "SPD": 0,
-            "DEF": 0,
-            "MP": 0
-        },
-        "starting_items": [
-            [
-                "Almace",
-                false
-            ],
-            [
-                "Vulnerary",
-                false
-            ],
-            [
-                "Steel_Lance",
-                false
-            ],
-            [
-                "Spellbook",
-                false
-            ]
-        ],
-        "learned_skills": [],
-        "unit_notes": [],
-        "wexp_gain": {
-            "Sword": [
-                true,
-                181,
-                251
-            ],
-            "Lance": [
-                true,
-                71,
-                251
-            ],
-            "Axe": [
-                false,
-                0,
-                251
-            ],
-            "Bow": [
-                false,
-                0,
-                251
-            ],
-            "Staff": [
-                false,
-                0,
-                251
-            ],
-            "Light": [
-                false,
-                0,
-                251
-            ],
-            "Anima": [
-                false,
-                0,
-                251
-            ],
-            "Dark": [
-                false,
-                0,
-                251
-            ],
-            "Default": [
-                false,
-                0,
-                251
-            ],
-            "Earth": [
-                false,
-                0,
-                251
-            ],
-            "Solus": [
-                false,
-                0,
-                251
-            ],
-            "Lunis": [
-                false,
-                0,
-                251
-            ],
-            "Tellus": [
-                false,
-                0,
-                251
-            ],
-            "Glacies": [
-                false,
-                31,
-                null
-            ],
-            "Magic": [
-                false,
-                0,
-                251
-            ],
-            "Runic": [
-                false,
-                0,
-                251
-            ]
-        },
-        "alternate_classes": [],
-        "portrait_nid": "Nephenee {NickT, Stitch}",
-        "affinity": "Ice",
-        "fields": [
-            [
-                "Race",
-                "Queiza"
-            ],
-            [
-                "Birthplace",
-                "Creodysna"
-            ],
-            [
-                "Home",
-                "Trade City Oestridel"
-            ]
-        ]
-    },
-    {
         "nid": "Geval",
         "name": "Geval",
         "desc": "A berserker from Rausten. He\u2019s a hearty man with a thirst for life.",
@@ -4810,7 +4838,7 @@
         },
         "starting_items": [
             [
-                "Almace",
+                "Almace01",
                 false
             ],
             [
@@ -4977,7 +5005,7 @@
         },
         "starting_items": [
             [
-                "Almace",
+                "Almace01",
                 false
             ],
             [
