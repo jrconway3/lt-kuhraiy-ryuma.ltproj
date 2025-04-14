@@ -405,6 +405,11 @@
     },
     {
         "nid": "{Zane} All Icons",
-        "subicon_dict": {}
+        "subicon_dict": {
+            "{Zane} All Icons 0, 0": [
+                0,
+                0
+            ]
+        }
     }
 ]

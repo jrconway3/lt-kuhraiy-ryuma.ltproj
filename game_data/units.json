@@ -225,7 +225,7 @@
         },
         "starting_items": [
             [
-                "Almace01",
+                "Almace",
                 false
             ],
             [
@@ -582,7 +582,7 @@
                 false
             ],
             [
-                "Lightning_Blade",
+                "LightningBlade1",
                 false
             ],
             [
@@ -4838,7 +4838,7 @@
         },
         "starting_items": [
             [
-                "Almace01",
+                "Almace",
                 false
             ],
             [
@@ -5005,7 +5005,7 @@
         },
         "starting_items": [
             [
-                "Almace01",
+                "Almace",
                 false
             ],
             [

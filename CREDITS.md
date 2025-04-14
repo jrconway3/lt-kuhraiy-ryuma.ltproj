@@ -97,22 +97,34 @@ Steel Katana (steel katana by batima)
 Mythril Katana (silver katana by batima)
 Dual Katanas (Sword 4 by MeatOfJustice)
 Serrated Edge (Superior Edge by Topazlight)
+ORIGINAL Zanbato (Sword 27 by SMITHYGCN)
+Zanbato (?? by Zelix)
+Wind Edge ()
+Blood Edge ()
 Dardevaja (Obsidian Blade [Tactics Ogre] by VelvetKitsune, EldritchA, Indogutsu Tenbuki)
 
 ###### Lightblade
-
+Foil
+Estoc (Estoc by Orihara Saki)
+Shamshir (Extra 17 by Ereshhkigal)
 
 ###### Rapiers
-Lady Rapier (Ladyblade by Topazlight)
+Bronze Rapier
+Iron Rapier
+Steel Rapier
+Mythril Rapier
+Espada Ropera
+
+Lady Rapier (Ladyblade by Topazlight)??
+Almace (WEP Pack 5 by Lisanda Brave)
+Almacia (WEP FE13-FE14 Pack by Zelix)
 Joyeuse (Eirika's Blade by Batima)
-Shamshir (Extra 17 by Ereshhkigal)
 Cortaine (Florest Old by Batima)
-Estoc (Estoc by Orihara Saki)
+Cortaine (Peerless)
 
 ###### Greatsword
 Zweihander (Iron Zweihander by VelvetKitsune, Beansy, Ereshkigal)
 Mythril Zweihander (Silver Zweihander by VelvetKitsune, 2WB, Ereshkigal)
-Zanbato (Sword 27 by SMITHYGCN)
 
 ###### Ranged/Magic Swords
 Fire Sabre (Sword 8 by Jubby)
