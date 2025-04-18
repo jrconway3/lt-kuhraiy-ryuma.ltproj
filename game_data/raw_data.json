@@ -1,1 +1,51 @@
-[]
+[
+    {
+        "nid": "SvetlanyaSpellbookList",
+        "dtype": "list",
+        "svalue": "",
+        "kvvalue": [],
+        "oattrs": [
+            "nid",
+            "Item",
+            "Type",
+            "Wexp",
+            "Rank"
+        ],
+        "lovalue": [
+            {
+                "nid": "svet1",
+                "Item": "HealingWater",
+                "Type": "Aquis",
+                "Wexp": "1",
+                "Rank": "E",
+                "Unit": "Svetlanya",
+                "Level": "1"
+            },
+            {
+                "nid": "svet2",
+                "Item": "Static",
+                "Type": "Fulgus",
+                "Wexp": "1",
+                "Rank": "E",
+                "Unit": "Svetlanya",
+                "Level": "1"
+            },
+            {
+                "nid": "svet3",
+                "Item": "Splash",
+                "Type": "Aquis",
+                "Wexp": "31",
+                "Rank": "D",
+                "Unit": "Svetlanya",
+                "Level": ""
+            },
+            {
+                "nid": "svet4",
+                "Item": "HealingRain",
+                "Type": "Aquis",
+                "Wexp": "71",
+                "Rank": "C"
+            }
+        ]
+    }
+]

@@ -2,7 +2,7 @@
     {
         "nid": "0",
         "name": "Prologue - Lady of Oestridel",
-        "tilemap": "Ch0",
+        "tilemap": "Blank",
         "bg_tilemap": null,
         "party": "Svetlanya",
         "music": {
@@ -30,10 +30,7 @@
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": [
-                    2,
-                    26
-                ],
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": false
             },
@@ -43,10 +40,17 @@
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": [
-                    10,
-                    26
-                ],
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Thanya",
+                "team": "npc",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": false
             },
@@ -86,10 +90,7 @@
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": [
-                    10,
-                    3
-                ],
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": false
             },
@@ -110,10 +111,7 @@
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": [
-                    11,
-                    6
-                ],
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
             },
@@ -134,10 +132,7 @@
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": [
-                    9,
-                    7
-                ],
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
             },
@@ -158,10 +153,7 @@
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": [
-                    6,
-                    11
-                ],
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
             },
@@ -182,10 +174,7 @@
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": [
-                    4,
-                    11
-                ],
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
             },
@@ -206,10 +195,7 @@
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": [
-                    5,
-                    10
-                ],
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
             },
@@ -219,10 +205,17 @@
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": [
-                    1,
-                    11
-                ],
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Kasuto",
+                "team": "other",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": false
             }
@@ -236,20 +229,42 @@
                     "Isabella",
                     "Amaya"
                 ],
+                "positions": {}
+            },
+            {
+                "nid": "ChiyloMercs",
+                "units": [
+                    "Magne",
+                    "101",
+                    "102"
+                ],
                 "positions": {
-                    "Leiland": [
-                        18,
+                    "Magne": [
+                        10,
+                        3
+                    ],
+                    "101": [
+                        9,
+                        7
+                    ],
+                    "102": [
+                        10,
                         8
                     ],
-                    "Amaya": [
-                        19,
+                    "103": [
+                        7,
                         9
-                    ],
-                    "Isabella": [
-                        19,
-                        7
                     ]
                 }
+            },
+            {
+                "nid": "LykonMerchants",
+                "units": [
+                    "103",
+                    "104",
+                    "105"
+                ],
+                "positions": {}
             }
         ],
         "ai_groups": []

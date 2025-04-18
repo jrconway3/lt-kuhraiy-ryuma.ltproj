@@ -46,10 +46,8 @@ Nordak Crest / Replaces Solar Brace (SacredWar Item 33 by Seal) NOTE: this has b
 
 
 #### Skill Icons
-210 17+ Color Icons by J-Treecko
-364 LT Skill Icons by ZessDynamite & Rainlash
-
-Originally I used J-Treecko's but a lot of desired options are missing. ZessDynamite and Rainlash's pack is more complete, but the style is different from J-Treecko's making it difficult to use both. I may just stick with ZessDynamite and Rainlash's for greater flexibility.
+Complete LT Skill Icons by ZessDynamite, Rainlash, LordGleen, and Suneohair
++/- 7 and 10 to all stats added by JaidynReiman
 
 I will try and reflect FE's normal icon styles if possible but if I'm not using something from FE, I may repurpose an icon that fits well.
 
@@ -85,10 +83,17 @@ Swords have a series of subcategories. Most subcategories have some restrictions
 Bronze Sword (BronzeSword / icon 000 by Zelix)
 Iron Sword (icon 001 by Zelix)
 Steel Sword (icon 002 by Zelix)
-Mythril Sword (icon 003 by Zelix)
-Wingclipper (Wing Clipper FE4 by Topazlight)
-Cutlass (Icon 025 by Peerless)
+Frost Blade (Frost Blade - Beansy)
+Mythril Sword (SilverSword by Zelix)
+Flamberge (Tactics Ogre Sword 17 by EldritchAbomination, Indogutsu Tenbuki)
+Adamant Sword (icon 004 by Zelix)
 Lancereaver (Lancereaver by Beansy)
+
+###### Greatsword
+Zweihander (Iron Zweihander by VelvetKitsune, Beansy, Ereshkigal)
+Mythril Zweihander (Silver Zweihander by VelvetKitsune, 2WB, Ereshkigal)
+Caliburnus (FE Ragnell by Batima)
+Durandel (Sword 20 by Zarg)
 
 ###### Katanas
 Bronze Katana (sword 10 by Zarg)
@@ -99,44 +104,34 @@ Dual Katanas (Sword 4 by MeatOfJustice)
 Serrated Edge (Superior Edge by Topazlight)
 ORIGINAL Zanbato (Sword 27 by SMITHYGCN)
 Zanbato (?? by Zelix)
-Wind Edge ()
+Wind Edge (Proficient Sword 7 by Ereshkigal)
 Blood Edge ()
+Kusanagi (Raijinto w/Bolts by Batima)
+Masamune (Thunderbrand by Beansy)
 Dardevaja (Obsidian Blade [Tactics Ogre] by VelvetKitsune, EldritchA, Indogutsu Tenbuki)
 
 ###### Lightblade
 Foil
+Wingclipper (Wing Clipper FE4 by Topazlight)
 Estoc (Estoc by Orihara Saki)
-Shamshir (Extra 17 by Ereshhkigal)
+Lightning Blade (Levin Sword - Zarg)
+Shamshir (Icon 018 by Zelix)
 
 ###### Rapiers
-Bronze Rapier
-Iron Rapier
 Steel Rapier
 Mythril Rapier
+Adamant Rapier
 Espada Ropera
-
+Cutlass (Icon 025 by Peerless)
+Flame Sabre (Sword 8 by Jubby)
 Lady Rapier (Ladyblade by Topazlight)??
 Almace (WEP Pack 5 by Lisanda Brave)
-Almacia (WEP FE13-FE14 Pack by Zelix)
+Almacia (icon 010 by Zelix)
 Joyeuse (Eirika's Blade by Batima)
 Cortaine (Florest Old by Batima)
 Cortaine (Peerless)
-
-###### Greatsword
-Zweihander (Iron Zweihander by VelvetKitsune, Beansy, Ereshkigal)
-Mythril Zweihander (Silver Zweihander by VelvetKitsune, 2WB, Ereshkigal)
-
-###### Ranged/Magic Swords
-Fire Sabre (Sword 8 by Jubby)
-Frost Sword (Frost Blade - Beansy)
-Lightning Blade (Levin Sword - Zarg)
-Flamberge (Tactics Ogre Sword 17 by EldritchAbomination, Indogutsu Tenbuki)
-Wind Edge (Proficient Sword 7 by Ereshkigal)
-Durandel (Sword 20 by Zarg)
-Kusanagi (Raijinto w/Bolts by Batima)
 Galatine (Tactics Ogre Sword 32 by EldritchAbomination, Indogutsu Tenbuki)
-Excalibur (FE Ragnell by Batima)
-Masamune (Thunderbrand by Beansy)
+
 
 ##### Daggers / Claws
 
@@ -552,10 +547,12 @@ Sage-F (Battle Sage F Sword by Leif, L95)
 
 ##### Holy Mages
 Priestess (Monk-F Veil by Tatuta_Chang)
+Clergy-F (Monk-F by Teraspark)
 War Monk (War Monk, Axe M by DerTheVaporean)
 War Nun (War Cleric, Axe F by DerTheVaporean)
 War Monk (War Monk, Staff M by Author_Pendragon)
 War Cleric (War Cleric, Staff F by SkidMarc25)
+
 
 ##### Mounted Mages
 Tactician (Thaumaturge M/F by Pikmin1211, DerTheVaporean)

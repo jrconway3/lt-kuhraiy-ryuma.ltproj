@@ -642,6 +642,26 @@
         ]
     },
     {
+        "nid": "Ignis",
+        "name": "Corrosion",
+        "desc": "Temporarily grant ability to use Ignis.",
+        "icon_nid": "wexp_expanded",
+        "icon_index": [
+            1,
+            4
+        ],
+        "components": [
+            [
+                "wexp_usable_skill",
+                "Ignis"
+            ],
+            [
+                "hidden",
+                null
+            ]
+        ]
+    },
+    {
         "nid": "Corrosion",
         "name": "Corrosion",
         "desc": "+1 Weapon Weight, +1 Durability Use Per Hit.",

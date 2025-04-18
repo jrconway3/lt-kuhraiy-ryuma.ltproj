@@ -26,17 +26,17 @@
             "MP": 0
         },
         "growths": {
-            "LCK": 40,
+            "LCK": 0,
             "CON": 0,
             "MOV": 0,
-            "RES": 20,
-            "STR": 45,
-            "HP": 60,
-            "MAG": 22,
-            "SKL": 40,
-            "SPD": 45,
-            "DEF": 15,
-            "MP": 90
+            "RES": 0,
+            "STR": 0,
+            "HP": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
+            "MP": 0
         },
         "stat_cap_modifiers": {
             "RES": 0,
@@ -54,10 +54,6 @@
         "starting_items": [
             [
                 "Foil",
-                false
-            ],
-            [
-                "Spellbook",
                 false
             ]
         ],
@@ -116,22 +112,22 @@
             ],
             "Solus": [
                 false,
-                0,
+                1,
                 251
             ],
             "Lunis": [
                 false,
-                0,
+                1,
                 251
             ],
             "Tellus": [
                 false,
-                0,
+                1,
                 251
             ],
             "Aquis": [
                 false,
-                71,
+                31,
                 null
             ],
             "Fulgus": [
@@ -148,6 +144,36 @@
                 false,
                 0,
                 251
+            ],
+            "Ignis": [
+                false,
+                1,
+                null
+            ],
+            "Ventus": [
+                false,
+                1,
+                null
+            ],
+            "Glacies": [
+                false,
+                1,
+                null
+            ],
+            "Shield": [
+                false,
+                0,
+                null
+            ],
+            "Armor": [
+                false,
+                0,
+                null
+            ],
+            "Valuables": [
+                false,
+                0,
+                null
             ]
         },
         "alternate_classes": [],
@@ -198,17 +224,17 @@
             "MP": 7
         },
         "growths": {
-            "LCK": 40,
+            "LCK": 0,
             "CON": 0,
             "MOV": 0,
-            "RES": 5,
-            "STR": 45,
-            "HP": 80,
-            "MAG": 22,
-            "SKL": 40,
-            "SPD": 45,
-            "DEF": 10,
-            "MP": 10
+            "RES": 0,
+            "STR": 0,
+            "HP": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
+            "MP": 0
         },
         "stat_cap_modifiers": {
             "RES": 0,
@@ -229,15 +255,7 @@
                 false
             ],
             [
-                "Vulnerary",
-                false
-            ],
-            [
                 "Steel_Lance",
-                false
-            ],
-            [
-                "Spellbook",
                 false
             ]
         ],
@@ -296,17 +314,17 @@
             ],
             "Solus": [
                 false,
-                0,
+                1,
                 251
             ],
             "Lunis": [
                 false,
-                0,
+                1,
                 251
             ],
             "Tellus": [
                 false,
-                0,
+                1,
                 251
             ],
             "Glacies": [
@@ -323,6 +341,26 @@
                 false,
                 0,
                 251
+            ],
+            "Ignis": [
+                false,
+                1,
+                null
+            ],
+            "Ventus": [
+                false,
+                1,
+                null
+            ],
+            "Fulgus": [
+                false,
+                1,
+                null
+            ],
+            "Aquis": [
+                false,
+                1,
+                null
             ]
         },
         "alternate_classes": [],
@@ -344,20 +382,21 @@
         ]
     },
     {
-        "nid": "Amaya",
-        "name": "Amaya",
-        "desc": "Former noblewoman of Omyrus, now a loyal retainer to Lady Miriam of Oestridel. She holds a strong desire to repay her debt to General Jethro.",
-        "variant": "",
-        "level": 5,
-        "klass": "Lieutenant",
+        "nid": "Thanya",
+        "name": "Thanya",
+        "desc": "Serena's aloof adopted daughter and close friend of Amaya.",
+        "variant": "Female",
+        "level": 1,
+        "klass": "Scholar",
         "tags": [
-            "Lord"
+            "Zabos",
+            "Nephyliae"
         ],
         "bases": {
             "LCK": 0,
+            "RES": 0,
             "CON": 0,
             "MOV": 0,
-            "RES": 0,
             "STR": 0,
             "HP": 0,
             "MAG": 0,
@@ -367,16 +406,16 @@
             "MP": 0
         },
         "growths": {
-            "LCK": 40,
+            "LCK": 0,
+            "RES": 0,
             "CON": 0,
             "MOV": 0,
-            "RES": 20,
-            "STR": 45,
-            "HP": 90,
-            "MAG": 22,
-            "SKL": 40,
-            "SPD": 45,
-            "DEF": 15,
+            "STR": 0,
+            "HP": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
             "MP": 0
         },
         "stat_cap_modifiers": {
@@ -392,39 +431,17 @@
             "DEF": 0,
             "MP": 0
         },
-        "starting_items": [
-            [
-                "Joyeuse",
-                false
-            ],
-            [
-                "Vulnerary",
-                false
-            ],
-            [
-                "Iron_Lance",
-                false
-            ],
-            [
-                "Spellbook",
-                false
-            ]
-        ],
-        "learned_skills": [
-            [
-                1,
-                "Mercy2"
-            ]
-        ],
+        "starting_items": [],
+        "learned_skills": [],
         "unit_notes": [],
         "wexp_gain": {
             "Sword": [
-                true,
-                71,
+                false,
+                0,
                 251
             ],
             "Lance": [
-                true,
+                false,
                 0,
                 251
             ],
@@ -439,8 +456,8 @@
                 251
             ],
             "Staff": [
-                false,
-                0,
+                true,
+                71,
                 251
             ],
             "Light": [
@@ -470,47 +487,59 @@
             ],
             "Solus": [
                 false,
-                0,
+                1,
                 251
             ],
             "Lunis": [
                 false,
-                0,
+                31,
                 251
             ],
             "Tellus": [
                 false,
-                0,
+                1,
                 251
             ],
-            "Magic": [
+            "Ignis": [
                 false,
-                0,
+                71,
+                null
+            ],
+            "Magic": [
+                true,
+                71,
                 251
             ],
             "Runic": [
-                false,
+                true,
                 0,
                 251
+            ],
+            "Ventus": [
+                false,
+                1,
+                null
+            ],
+            "Fulgus": [
+                false,
+                1,
+                null
+            ],
+            "Glacies": [
+                false,
+                1,
+                null
+            ],
+            "Aquis": [
+                false,
+                1,
+                null
             ]
         },
         "alternate_classes": [],
-        "portrait_nid": "Amaya",
-        "affinity": "Wind",
-        "fields": [
-            [
-                "Race",
-                "Alf"
-            ],
-            [
-                "Birthplace",
-                "Port Town Altina"
-            ],
-            [
-                "Home",
-                "Trade City Oestridel"
-            ]
-        ]
+        "portrait_nid": "Marisa (Black skin) {JeyTheCount} [F2E]",
+        "affinity": "Dark",
+        "fields": []
     },
     {
         "nid": "Leiland",
@@ -539,16 +568,16 @@
             "MP": 0
         },
         "growths": {
-            "LCK": 25,
+            "LCK": 0,
             "CON": 0,
             "MOV": 0,
-            "RES": 25,
-            "STR": 25,
-            "HP": 70,
-            "MAG": 12,
-            "SKL": 35,
-            "SPD": 25,
-            "DEF": 12,
+            "RES": 0,
+            "STR": 0,
+            "HP": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
             "MP": 0
         },
         "stat_cap_modifiers": {
@@ -584,10 +613,6 @@
             [
                 "LightningBlade1",
                 false
-            ],
-            [
-                "Spellbook",
-                false
             ]
         ],
         "learned_skills": [],
@@ -645,17 +670,17 @@
             ],
             "Solus": [
                 false,
-                0,
+                1,
                 251
             ],
             "Lunis": [
                 false,
-                0,
+                1,
                 251
             ],
             "Tellus": [
                 false,
-                0,
+                1,
                 251
             ],
             "Dagger": [
@@ -672,6 +697,31 @@
                 false,
                 0,
                 251
+            ],
+            "Ignis": [
+                false,
+                1,
+                null
+            ],
+            "Ventus": [
+                false,
+                1,
+                null
+            ],
+            "Fulgus": [
+                false,
+                1,
+                null
+            ],
+            "Glacies": [
+                false,
+                1,
+                null
+            ],
+            "Aquis": [
+                false,
+                1,
+                null
             ]
         },
         "alternate_classes": [],
@@ -693,6 +743,481 @@
         ]
     },
     {
+        "nid": "Amaya",
+        "name": "Amaya",
+        "desc": "Former noblewoman of Omyrus, now a loyal retainer to Lady Miriam of Oestridel. She holds a strong desire to repay her debt to General Jethro.",
+        "variant": "",
+        "level": 5,
+        "klass": "Lieutenant",
+        "tags": [
+            "Lord"
+        ],
+        "bases": {
+            "LCK": 0,
+            "CON": 0,
+            "MOV": 0,
+            "RES": 0,
+            "STR": 0,
+            "HP": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
+            "MP": 0
+        },
+        "growths": {
+            "LCK": 0,
+            "CON": 0,
+            "MOV": 0,
+            "RES": 0,
+            "STR": 0,
+            "HP": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
+            "MP": 0
+        },
+        "stat_cap_modifiers": {
+            "RES": 0,
+            "LCK": 0,
+            "CON": 0,
+            "MOV": 0,
+            "STR": 0,
+            "HP": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
+            "MP": 0
+        },
+        "starting_items": [
+            [
+                "Joyeuse",
+                false
+            ],
+            [
+                "Vulnerary",
+                false
+            ],
+            [
+                "Iron_Lance",
+                false
+            ]
+        ],
+        "learned_skills": [
+            [
+                1,
+                "Mercy2"
+            ]
+        ],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                true,
+                71,
+                251
+            ],
+            "Lance": [
+                true,
+                0,
+                251
+            ],
+            "Axe": [
+                false,
+                0,
+                251
+            ],
+            "Bow": [
+                false,
+                0,
+                251
+            ],
+            "Staff": [
+                false,
+                0,
+                251
+            ],
+            "Light": [
+                false,
+                0,
+                251
+            ],
+            "Anima": [
+                false,
+                0,
+                251
+            ],
+            "Dark": [
+                false,
+                0,
+                251
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ],
+            "Earth": [
+                false,
+                0,
+                251
+            ],
+            "Solus": [
+                false,
+                1,
+                251
+            ],
+            "Lunis": [
+                false,
+                1,
+                251
+            ],
+            "Tellus": [
+                false,
+                1,
+                251
+            ],
+            "Magic": [
+                false,
+                0,
+                251
+            ],
+            "Runic": [
+                false,
+                0,
+                251
+            ],
+            "Ignis": [
+                false,
+                1,
+                null
+            ],
+            "Ventus": [
+                false,
+                1,
+                null
+            ],
+            "Fulgus": [
+                false,
+                1,
+                null
+            ],
+            "Glacies": [
+                false,
+                1,
+                null
+            ],
+            "Aquis": [
+                false,
+                1,
+                null
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Amaya",
+        "affinity": "Wind",
+        "fields": [
+            [
+                "Race",
+                "Alf"
+            ],
+            [
+                "Birthplace",
+                "Port Town Altina"
+            ],
+            [
+                "Home",
+                "Trade City Oestridel"
+            ]
+        ]
+    },
+    {
+        "nid": "Isabella",
+        "name": "Isabella",
+        "desc": "Heir of House Toirahm of Siegwang.",
+        "variant": "Female",
+        "level": 10,
+        "klass": "Mercenary",
+        "tags": [
+            "Katana"
+        ],
+        "bases": {
+            "LCK": 0,
+            "RES": 0,
+            "CON": 0,
+            "MOV": 0,
+            "STR": 0,
+            "HP": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
+            "MP": 0
+        },
+        "growths": {
+            "LCK": 0,
+            "RES": 0,
+            "CON": 0,
+            "MOV": 0,
+            "STR": 0,
+            "HP": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
+            "MP": 0
+        },
+        "stat_cap_modifiers": {
+            "RES": 0,
+            "LCK": 0,
+            "CON": 0,
+            "MOV": 0,
+            "STR": 0,
+            "HP": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
+            "MP": 0
+        },
+        "starting_items": [
+            [
+                "Steel_Katana",
+                false
+            ]
+        ],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                true,
+                71,
+                251
+            ],
+            "Lance": [
+                false,
+                0,
+                251
+            ],
+            "Axe": [
+                false,
+                0,
+                251
+            ],
+            "Bow": [
+                false,
+                0,
+                251
+            ],
+            "Staff": [
+                false,
+                0,
+                251
+            ],
+            "Light": [
+                false,
+                0,
+                251
+            ],
+            "Anima": [
+                false,
+                0,
+                251
+            ],
+            "Dark": [
+                false,
+                0,
+                251
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ],
+            "Earth": [
+                false,
+                0,
+                251
+            ],
+            "Solus": [
+                false,
+                0,
+                251
+            ],
+            "Lunis": [
+                false,
+                0,
+                251
+            ],
+            "Tellus": [
+                false,
+                0,
+                251
+            ],
+            "Magic": [
+                false,
+                0,
+                251
+            ],
+            "Runic": [
+                false,
+                0,
+                251
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Eda {Atey}",
+        "affinity": "Thunder",
+        "fields": [
+            [
+                "Nickname",
+                "Bella"
+            ]
+        ]
+    },
+    {
+        "nid": "Kasuto",
+        "name": "Kasuto",
+        "desc": "A sister serving in the Church of Gaeya, a true fountain of wisdom and beauty.",
+        "variant": "Female",
+        "level": 18,
+        "klass": "HighPriestess",
+        "tags": [
+            "Holy",
+            "Nordak",
+            "Siylphe"
+        ],
+        "bases": {
+            "LCK": 0,
+            "RES": 0,
+            "CON": 0,
+            "MOV": 0,
+            "STR": 0,
+            "HP": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
+            "MP": 0
+        },
+        "growths": {
+            "LCK": 0,
+            "RES": 0,
+            "CON": 0,
+            "MOV": 0,
+            "STR": 0,
+            "HP": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
+            "MP": 0
+        },
+        "stat_cap_modifiers": {
+            "RES": 0,
+            "LCK": 0,
+            "CON": 0,
+            "MOV": 0,
+            "STR": 0,
+            "HP": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
+            "MP": 0
+        },
+        "starting_items": [
+            [
+                "Heal",
+                false
+            ]
+        ],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                121,
+                251
+            ],
+            "Lance": [
+                false,
+                31,
+                251
+            ],
+            "Axe": [
+                false,
+                0,
+                251
+            ],
+            "Bow": [
+                false,
+                0,
+                251
+            ],
+            "Staff": [
+                true,
+                71,
+                251
+            ],
+            "Light": [
+                false,
+                0,
+                251
+            ],
+            "Anima": [
+                false,
+                0,
+                251
+            ],
+            "Dark": [
+                false,
+                0,
+                251
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ],
+            "Earth": [
+                false,
+                0,
+                251
+            ],
+            "Solus": [
+                false,
+                181,
+                251
+            ],
+            "Lunis": [
+                false,
+                0,
+                251
+            ],
+            "Tellus": [
+                false,
+                0,
+                251
+            ],
+            "Magic": [
+                true,
+                71,
+                251
+            ],
+            "Runic": [
+                true,
+                71,
+                251
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Natasha (Older) {MegaCowsamMan}",
+        "affinity": "Day",
+        "fields": []
+    },
+    {
         "nid": "Lukas",
         "name": "Lukas",
         "desc": "A mysterious nobleman related to Count Garish Barrington. He seems to have taken a liking to Miriam...",
@@ -702,7 +1227,7 @@
         "tags": [
             "Lord",
             "Holy",
-            "Pirate",
+            "Lanquiz",
             "Queiza",
             "Gjin"
         ],
@@ -720,16 +1245,16 @@
             "MP": 0
         },
         "growths": {
-            "LCK": 50,
-            "RES": 25,
+            "LCK": 0,
+            "RES": 0,
             "CON": 0,
             "MOV": 0,
-            "STR": 55,
-            "HP": 80,
-            "MAG": 25,
-            "SKL": 55,
-            "SPD": 45,
-            "DEF": 35,
+            "STR": 0,
+            "HP": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
             "MP": 0
         },
         "stat_cap_modifiers": {
@@ -757,10 +1282,6 @@
             [
                 "Elixir",
                 false
-            ],
-            [
-                "Spellbook",
-                false
             ]
         ],
         "learned_skills": [],
@@ -818,17 +1339,17 @@
             ],
             "Solus": [
                 false,
-                0,
+                1,
                 251
             ],
             "Lunis": [
                 false,
-                0,
+                1,
                 251
             ],
             "Tellus": [
                 false,
-                0,
+                1,
                 251
             ],
             "Magic": [
@@ -840,6 +1361,31 @@
                 false,
                 0,
                 251
+            ],
+            "Ignis": [
+                false,
+                1,
+                null
+            ],
+            "Ventus": [
+                false,
+                1,
+                null
+            ],
+            "Fulgus": [
+                false,
+                1,
+                null
+            ],
+            "Glacies": [
+                false,
+                1,
+                null
+            ],
+            "Aquis": [
+                false,
+                1,
+                null
             ]
         },
         "alternate_classes": [],
@@ -861,7 +1407,7 @@
         "klass": "Tsuiho",
         "tags": [
             "Dragon",
-            "Thief",
+            "Lanquiz",
             "Nordak",
             "Siylphe"
         ],
@@ -879,16 +1425,16 @@
             "MP": 0
         },
         "growths": {
-            "LCK": 45,
-            "RES": 20,
+            "LCK": 0,
+            "RES": 0,
             "CON": 0,
             "MOV": 0,
-            "STR": 40,
-            "HP": 70,
-            "MAG": 20,
-            "SKL": 40,
-            "SPD": 65,
-            "DEF": 25,
+            "STR": 0,
+            "HP": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
             "MP": 0
         },
         "stat_cap_modifiers": {
@@ -916,10 +1462,6 @@
             [
                 "Vulnerary",
                 false
-            ],
-            [
-                "Spellbook",
-                false
             ]
         ],
         "learned_skills": [],
@@ -977,17 +1519,17 @@
             ],
             "Solus": [
                 false,
-                0,
+                1,
                 251
             ],
             "Lunis": [
                 false,
-                0,
+                1,
                 251
             ],
             "Tellus": [
                 false,
-                0,
+                1,
                 251
             ],
             "Magic": [
@@ -999,6 +1541,31 @@
                 false,
                 0,
                 251
+            ],
+            "Ignis": [
+                false,
+                1,
+                null
+            ],
+            "Ventus": [
+                false,
+                1,
+                null
+            ],
+            "Fulgus": [
+                false,
+                1,
+                null
+            ],
+            "Glacies": [
+                false,
+                1,
+                null
+            ],
+            "Aquis": [
+                false,
+                1,
+                null
             ]
         },
         "alternate_classes": [],
@@ -1028,16 +1595,16 @@
             "MP": 0
         },
         "growths": {
-            "LCK": 20,
-            "RES": 20,
+            "LCK": 0,
+            "RES": 0,
             "CON": 0,
             "MOV": 0,
-            "STR": 50,
-            "HP": 90,
-            "MAG": 25,
-            "SKL": 40,
-            "SPD": 40,
-            "DEF": 25,
+            "STR": 0,
+            "HP": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
             "MP": 0
         },
         "stat_cap_modifiers": {
@@ -1064,10 +1631,6 @@
             ],
             [
                 "Vulnerary",
-                false
-            ],
-            [
-                "Spellbook",
                 false
             ]
         ],
@@ -1126,17 +1689,17 @@
             ],
             "Solus": [
                 false,
-                0,
+                1,
                 251
             ],
             "Lunis": [
                 false,
-                0,
+                1,
                 251
             ],
             "Tellus": [
                 false,
-                0,
+                1,
                 251
             ],
             "Magic": [
@@ -1148,6 +1711,31 @@
                 false,
                 0,
                 251
+            ],
+            "Ignis": [
+                false,
+                1,
+                null
+            ],
+            "Ventus": [
+                false,
+                1,
+                null
+            ],
+            "Fulgus": [
+                false,
+                1,
+                null
+            ],
+            "Glacies": [
+                false,
+                1,
+                null
+            ],
+            "Aquis": [
+                false,
+                1,
+                null
             ]
         },
         "alternate_classes": [],
@@ -1182,16 +1770,16 @@
             "MP": 0
         },
         "growths": {
-            "LCK": 35,
-            "RES": 20,
+            "LCK": 0,
+            "RES": 0,
             "CON": 0,
             "MOV": 0,
-            "STR": 35,
-            "HP": 70,
+            "STR": 0,
+            "HP": 0,
             "MAG": 0,
-            "SKL": 40,
-            "SPD": 32,
-            "DEF": 15,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
             "MP": 0
         },
         "stat_cap_modifiers": {
@@ -1215,10 +1803,6 @@
             [
                 "Vulnerary",
                 false
-            ],
-            [
-                "Spellbook",
-                false
             ]
         ],
         "learned_skills": [
@@ -1236,7 +1820,7 @@
             ],
             "Lance": [
                 false,
-                0,
+                181,
                 251
             ],
             "Axe": [
@@ -1286,7 +1870,7 @@
             ],
             "Lunis": [
                 false,
-                0,
+                1,
                 251
             ],
             "Tellus": [
@@ -1301,8 +1885,33 @@
             ],
             "Runic": [
                 false,
-                181,
+                0,
                 251
+            ],
+            "Ignis": [
+                false,
+                1,
+                null
+            ],
+            "Ventus": [
+                false,
+                1,
+                null
+            ],
+            "Fulgus": [
+                false,
+                1,
+                null
+            ],
+            "Glacies": [
+                false,
+                1,
+                null
+            ],
+            "Aquis": [
+                false,
+                1,
+                null
             ]
         },
         "alternate_classes": [],
@@ -1369,10 +1978,6 @@
             [
                 "Vulnerary",
                 false
-            ],
-            [
-                "Spellbook",
-                false
             ]
         ],
         "learned_skills": [],
@@ -1430,17 +2035,17 @@
             ],
             "Solus": [
                 false,
-                0,
+                1,
                 251
             ],
             "Lunis": [
                 false,
-                0,
+                1,
                 251
             ],
             "Tellus": [
                 false,
-                0,
+                1,
                 251
             ],
             "Magic": [
@@ -1452,6 +2057,31 @@
                 false,
                 0,
                 251
+            ],
+            "Ignis": [
+                false,
+                1,
+                null
+            ],
+            "Ventus": [
+                false,
+                1,
+                null
+            ],
+            "Fulgus": [
+                false,
+                1,
+                null
+            ],
+            "Glacies": [
+                false,
+                1,
+                null
+            ],
+            "Aquis": [
+                false,
+                1,
+                null
             ]
         },
         "alternate_classes": [],
@@ -1485,16 +2115,16 @@
             "MP": 0
         },
         "growths": {
-            "LCK": 45,
+            "LCK": 0,
             "CON": 0,
             "MOV": 0,
-            "RES": 40,
+            "RES": 0,
             "STR": 0,
-            "HP": 50,
-            "MAG": 25,
-            "SKL": 35,
-            "SPD": 55,
-            "DEF": 12,
+            "HP": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
             "MP": 0
         },
         "stat_cap_modifiers": {
@@ -1510,12 +2140,7 @@
             "DEF": 0,
             "MP": 0
         },
-        "starting_items": [
-            [
-                "Spellbook",
-                false
-            ]
-        ],
+        "starting_items": [],
         "learned_skills": [],
         "unit_notes": [],
         "wexp_gain": {
@@ -1571,17 +2196,17 @@
             ],
             "Solus": [
                 false,
-                0,
+                1,
                 251
             ],
             "Lunis": [
                 false,
-                0,
+                1,
                 251
             ],
             "Tellus": [
                 false,
-                0,
+                1,
                 251
             ],
             "Ignis": [
@@ -1598,160 +2223,31 @@
                 false,
                 0,
                 251
+            ],
+            "Ventus": [
+                false,
+                1,
+                null
+            ],
+            "Fulgus": [
+                false,
+                1,
+                null
+            ],
+            "Glacies": [
+                false,
+                1,
+                null
+            ],
+            "Aquis": [
+                false,
+                1,
+                null
             ]
         },
         "alternate_classes": [],
         "portrait_nid": "{Levin64} [F2E] OC 7",
         "affinity": "Fire",
-        "fields": []
-    },
-    {
-        "nid": "Thanya",
-        "name": "Thanya",
-        "desc": "Serena's aloof adopted daughter and close friend of Amaya.",
-        "variant": "",
-        "level": 1,
-        "klass": "Apprentice",
-        "tags": [
-            "Zabos",
-            "Nephyliae"
-        ],
-        "bases": {
-            "LCK": 0,
-            "RES": 0,
-            "CON": 0,
-            "MOV": 0,
-            "STR": 0,
-            "HP": 0,
-            "MAG": 0,
-            "SKL": 0,
-            "SPD": 0,
-            "DEF": 0,
-            "MP": 0
-        },
-        "growths": {
-            "LCK": 20,
-            "RES": 40,
-            "CON": 0,
-            "MOV": 0,
-            "STR": 0,
-            "HP": 55,
-            "MAG": 55,
-            "SKL": 40,
-            "SPD": 35,
-            "DEF": 5,
-            "MP": 0
-        },
-        "stat_cap_modifiers": {
-            "RES": 0,
-            "LCK": 0,
-            "CON": 0,
-            "MOV": 0,
-            "STR": 0,
-            "HP": 0,
-            "MAG": 0,
-            "SKL": 0,
-            "SPD": 0,
-            "DEF": 0,
-            "MP": 0
-        },
-        "starting_items": [
-            [
-                "Heal",
-                false
-            ],
-            [
-                "Vulnerary",
-                false
-            ]
-        ],
-        "learned_skills": [],
-        "unit_notes": [],
-        "wexp_gain": {
-            "Sword": [
-                false,
-                0,
-                251
-            ],
-            "Lance": [
-                false,
-                0,
-                251
-            ],
-            "Axe": [
-                false,
-                0,
-                251
-            ],
-            "Bow": [
-                false,
-                0,
-                251
-            ],
-            "Staff": [
-                true,
-                71,
-                251
-            ],
-            "Light": [
-                false,
-                0,
-                251
-            ],
-            "Anima": [
-                false,
-                0,
-                251
-            ],
-            "Dark": [
-                false,
-                0,
-                251
-            ],
-            "Default": [
-                false,
-                0,
-                251
-            ],
-            "Earth": [
-                false,
-                0,
-                251
-            ],
-            "Solus": [
-                false,
-                0,
-                251
-            ],
-            "Lunis": [
-                false,
-                31,
-                251
-            ],
-            "Tellus": [
-                false,
-                0,
-                251
-            ],
-            "Ignis": [
-                false,
-                1,
-                null
-            ],
-            "Magic": [
-                true,
-                71,
-                251
-            ],
-            "Runic": [
-                true,
-                71,
-                251
-            ]
-        },
-        "alternate_classes": [],
-        "portrait_nid": "Marisa (Black skin) {JeyTheCount} [F2E]",
-        "affinity": "Dark",
         "fields": []
     },
     {
@@ -1780,16 +2276,16 @@
             "MP": 0
         },
         "growths": {
-            "LCK": 35,
-            "RES": 20,
+            "LCK": 0,
+            "RES": 0,
             "CON": 0,
             "MOV": 0,
-            "STR": 35,
-            "HP": 70,
+            "STR": 0,
+            "HP": 0,
             "MAG": 0,
-            "SKL": 40,
-            "SPD": 32,
-            "DEF": 15,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
             "MP": 0
         },
         "stat_cap_modifiers": {
@@ -1870,17 +2366,17 @@
             ],
             "Solus": [
                 false,
-                0,
+                1,
                 251
             ],
             "Lunis": [
                 false,
-                0,
+                1,
                 251
             ],
             "Tellus": [
                 false,
-                0,
+                1,
                 251
             ],
             "Magic": [
@@ -1892,6 +2388,31 @@
                 false,
                 0,
                 251
+            ],
+            "Ignis": [
+                false,
+                1,
+                null
+            ],
+            "Ventus": [
+                false,
+                1,
+                null
+            ],
+            "Fulgus": [
+                false,
+                1,
+                null
+            ],
+            "Glacies": [
+                false,
+                1,
+                null
+            ],
+            "Aquis": [
+                false,
+                1,
+                null
             ]
         },
         "alternate_classes": [],
@@ -1908,29 +2429,29 @@
         "klass": "WindRider",
         "tags": [],
         "bases": {
-            "LCK": 14,
-            "RES": 9,
-            "CON": 9,
-            "MOV": 6,
-            "STR": 14,
-            "HP": 31,
+            "LCK": 0,
+            "RES": 0,
+            "CON": 0,
+            "MOV": 0,
+            "STR": 0,
+            "HP": 0,
             "MAG": 0,
-            "SKL": 13,
-            "SPD": 15,
-            "DEF": 10,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
             "MP": 0
         },
         "growths": {
-            "LCK": 45,
-            "RES": 25,
+            "LCK": 0,
+            "RES": 0,
             "CON": 0,
             "MOV": 0,
-            "STR": 40,
-            "HP": 75,
+            "STR": 0,
+            "HP": 0,
             "MAG": 0,
-            "SKL": 40,
-            "SPD": 45,
-            "DEF": 20,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
             "MP": 0
         },
         "stat_cap_modifiers": {
@@ -2015,17 +2536,17 @@
             ],
             "Solus": [
                 false,
-                0,
+                1,
                 251
             ],
             "Lunis": [
                 false,
-                0,
+                1,
                 251
             ],
             "Tellus": [
                 false,
-                0,
+                1,
                 251
             ],
             "Magic": [
@@ -2037,6 +2558,31 @@
                 false,
                 0,
                 251
+            ],
+            "Ignis": [
+                false,
+                1,
+                null
+            ],
+            "Ventus": [
+                false,
+                31,
+                null
+            ],
+            "Fulgus": [
+                false,
+                1,
+                null
+            ],
+            "Glacies": [
+                false,
+                1,
+                null
+            ],
+            "Aquis": [
+                false,
+                1,
+                null
             ]
         },
         "alternate_classes": [],
@@ -2053,29 +2599,29 @@
         "klass": "Mercenary",
         "tags": [],
         "bases": {
-            "LCK": 9,
-            "RES": 3,
-            "CON": 5,
-            "MOV": 5,
-            "STR": 7,
-            "HP": 23,
-            "MAG": 4,
-            "SKL": 12,
-            "SPD": 13,
-            "DEF": 4,
+            "LCK": 0,
+            "RES": 0,
+            "CON": 6,
+            "MOV": 4,
+            "STR": 0,
+            "HP": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
             "MP": 0
         },
         "growths": {
-            "LCK": 50,
-            "RES": 25,
+            "LCK": 0,
+            "RES": 0,
             "CON": 0,
             "MOV": 0,
-            "STR": 30,
-            "HP": 75,
-            "MAG": 20,
-            "SKL": 55,
-            "SPD": 60,
-            "DEF": 15,
+            "STR": 0,
+            "HP": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
             "MP": 0
         },
         "stat_cap_modifiers": {
@@ -2156,17 +2702,17 @@
             ],
             "Solus": [
                 false,
-                0,
+                1,
                 251
             ],
             "Lunis": [
                 false,
-                0,
+                1,
                 251
             ],
             "Tellus": [
                 false,
-                0,
+                1,
                 251
             ],
             "Magic": [
@@ -2178,6 +2724,31 @@
                 false,
                 0,
                 251
+            ],
+            "Ignis": [
+                false,
+                1,
+                null
+            ],
+            "Ventus": [
+                false,
+                1,
+                null
+            ],
+            "Fulgus": [
+                false,
+                1,
+                null
+            ],
+            "Glacies": [
+                false,
+                1,
+                null
+            ],
+            "Aquis": [
+                false,
+                1,
+                null
             ]
         },
         "alternate_classes": [],
@@ -2194,29 +2765,29 @@
         "klass": "Recruit",
         "tags": [],
         "bases": {
-            "LCK": 6,
-            "RES": 3,
+            "LCK": 0,
+            "RES": 0,
             "CON": 6,
             "MOV": 4,
-            "STR": 4,
-            "HP": 16,
-            "MAG": 2,
-            "SKL": 3,
-            "SPD": 4,
-            "DEF": 2,
+            "STR": 0,
+            "HP": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
             "MP": 0
         },
         "growths": {
-            "LCK": 60,
-            "RES": 20,
+            "LCK": 0,
+            "RES": 0,
             "CON": 0,
             "MOV": 0,
-            "STR": 45,
-            "HP": 70,
-            "MAG": 30,
-            "SKL": 50,
-            "SPD": 50,
-            "DEF": 35,
+            "STR": 0,
+            "HP": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
             "MP": 0
         },
         "stat_cap_modifiers": {
@@ -2301,17 +2872,17 @@
             ],
             "Solus": [
                 false,
-                0,
+                1,
                 251
             ],
             "Lunis": [
                 false,
-                0,
+                1,
                 251
             ],
             "Tellus": [
                 false,
-                0,
+                1,
                 251
             ],
             "Magic": [
@@ -2323,6 +2894,31 @@
                 false,
                 0,
                 251
+            ],
+            "Ignis": [
+                false,
+                1,
+                null
+            ],
+            "Ventus": [
+                false,
+                1,
+                null
+            ],
+            "Fulgus": [
+                false,
+                1,
+                null
+            ],
+            "Glacies": [
+                false,
+                1,
+                null
+            ],
+            "Aquis": [
+                false,
+                1,
+                null
             ]
         },
         "alternate_classes": [],
@@ -2354,15 +2950,15 @@
             "MP": 0
         },
         "growths": {
-            "LCK": 70,
-            "RES": 13,
+            "LCK": 0,
+            "RES": 0,
             "CON": 0,
             "MOV": 0,
-            "STR": 35,
-            "HP": 45,
-            "MAG": 45,
-            "SKL": 30,
-            "SPD": 60,
+            "STR": 0,
+            "HP": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
             "DEF": 0,
             "MP": 0
         },
@@ -2379,20 +2975,7 @@
             "DEF": 0,
             "MP": 0
         },
-        "starting_items": [
-            [
-                "Pierce",
-                false
-            ],
-            [
-                "FlareBurst",
-                false
-            ],
-            [
-                "Vulnerary",
-                false
-            ]
-        ],
+        "starting_items": [],
         "learned_skills": [],
         "unit_notes": [],
         "wexp_gain": {
@@ -2448,22 +3031,22 @@
             ],
             "Solus": [
                 false,
-                0,
+                1,
                 251
             ],
             "Lunis": [
                 false,
-                0,
+                1,
                 251
             ],
             "Tellus": [
                 false,
-                0,
+                31,
                 251
             ],
             "Ignis": [
                 false,
-                31,
+                1,
                 null
             ],
             "Dagger": [
@@ -2480,6 +3063,26 @@
                 false,
                 0,
                 251
+            ],
+            "Ventus": [
+                false,
+                1,
+                null
+            ],
+            "Fulgus": [
+                false,
+                1,
+                null
+            ],
+            "Glacies": [
+                false,
+                1,
+                null
+            ],
+            "Aquis": [
+                false,
+                1,
+                null
             ]
         },
         "alternate_classes": [],
@@ -2496,29 +3099,29 @@
         "klass": "Nurse",
         "tags": [],
         "bases": {
-            "LCK": 12,
-            "RES": 8,
+            "LCK": 0,
+            "RES": 0,
             "CON": 5,
             "MOV": 6,
             "STR": 0,
-            "HP": 18,
-            "MAG": 6,
-            "SKL": 6,
-            "SPD": 10,
-            "DEF": 5,
+            "HP": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
             "MP": 0
         },
         "growths": {
-            "LCK": 65,
-            "RES": 50,
+            "LCK": 0,
+            "RES": 0,
             "CON": 0,
             "MOV": 0,
             "STR": 0,
-            "HP": 45,
-            "MAG": 50,
-            "SKL": 45,
-            "SPD": 45,
-            "DEF": 15,
+            "HP": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
             "MP": 0
         },
         "stat_cap_modifiers": {
@@ -2603,17 +3206,17 @@
             ],
             "Solus": [
                 false,
-                0,
+                71,
                 251
             ],
             "Lunis": [
                 false,
-                0,
+                1,
                 251
             ],
             "Tellus": [
                 false,
-                0,
+                1,
                 251
             ],
             "Magic": [
@@ -2623,8 +3226,33 @@
             ],
             "Runic": [
                 true,
-                31,
+                0,
                 251
+            ],
+            "Ignis": [
+                false,
+                1,
+                null
+            ],
+            "Ventus": [
+                false,
+                1,
+                null
+            ],
+            "Fulgus": [
+                false,
+                1,
+                null
+            ],
+            "Glacies": [
+                false,
+                31,
+                null
+            ],
+            "Aquis": [
+                false,
+                1,
+                null
             ]
         },
         "alternate_classes": [],
@@ -2654,16 +3282,16 @@
             "MP": 0
         },
         "growths": {
-            "LCK": 25,
-            "RES": 55,
+            "LCK": 0,
+            "RES": 0,
             "CON": 0,
             "MOV": 0,
             "STR": 0,
-            "HP": 55,
-            "MAG": 50,
-            "SKL": 50,
-            "SPD": 40,
-            "DEF": 15,
+            "HP": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
             "MP": 0
         },
         "stat_cap_modifiers": {
@@ -2753,12 +3381,12 @@
             ],
             "Lunis": [
                 false,
-                0,
+                1,
                 251
             ],
             "Tellus": [
                 false,
-                0,
+                1,
                 251
             ],
             "Magic": [
@@ -2770,6 +3398,31 @@
                 false,
                 0,
                 251
+            ],
+            "Glacies": [
+                false,
+                71,
+                null
+            ],
+            "Ventus": [
+                false,
+                31,
+                null
+            ],
+            "Ignis": [
+                false,
+                1,
+                null
+            ],
+            "Fulgus": [
+                false,
+                1,
+                null
+            ],
+            "Aquis": [
+                false,
+                1,
+                null
             ]
         },
         "alternate_classes": [],
@@ -2799,16 +3452,16 @@
             "MP": 0
         },
         "growths": {
-            "LCK": 15,
-            "RES": 15,
+            "LCK": 0,
+            "RES": 0,
             "CON": 0,
             "MOV": 0,
-            "STR": 55,
-            "HP": 85,
+            "STR": 0,
+            "HP": 0,
             "MAG": 0,
-            "SKL": 35,
-            "SPD": 30,
-            "DEF": 15,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
             "MP": 0
         },
         "stat_cap_modifiers": {
@@ -2944,16 +3597,16 @@
             "MP": 0
         },
         "growths": {
-            "LCK": 35,
-            "RES": 25,
+            "LCK": 0,
+            "RES": 0,
             "CON": 0,
             "MOV": 0,
-            "STR": 40,
-            "HP": 85,
-            "MAG": 25,
-            "SKL": 50,
-            "SPD": 45,
-            "DEF": 20,
+            "STR": 0,
+            "HP": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
             "MP": 0
         },
         "stat_cap_modifiers": {
@@ -3089,16 +3742,16 @@
             "MP": 0
         },
         "growths": {
-            "LCK": 30,
-            "RES": 20,
+            "LCK": 0,
+            "RES": 0,
             "CON": 0,
             "MOV": 0,
-            "STR": 35,
-            "HP": 80,
-            "MAG": 20,
-            "SKL": 55,
-            "SPD": 55,
-            "DEF": 20,
+            "STR": 0,
+            "HP": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
             "MP": 0
         },
         "stat_cap_modifiers": {
@@ -3226,16 +3879,16 @@
             "MP": 0
         },
         "growths": {
-            "LCK": 15,
-            "RES": 15,
+            "LCK": 0,
+            "RES": 0,
             "CON": 0,
             "MOV": 0,
-            "STR": 55,
-            "HP": 85,
+            "STR": 0,
+            "HP": 0,
             "MAG": 0,
-            "SKL": 35,
-            "SPD": 30,
-            "DEF": 15,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
             "MP": 0
         },
         "stat_cap_modifiers": {
@@ -3371,16 +4024,16 @@
             "MP": 0
         },
         "growths": {
-            "LCK": 60,
-            "RES": 25,
+            "LCK": 0,
+            "RES": 0,
             "CON": 0,
             "MOV": 0,
-            "STR": 45,
-            "HP": 65,
-            "MAG": 25,
-            "SKL": 40,
-            "SPD": 65,
-            "DEF": 20,
+            "STR": 0,
+            "HP": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
             "MP": 0
         },
         "stat_cap_modifiers": {
@@ -3516,16 +4169,16 @@
             "MP": 0
         },
         "growths": {
-            "LCK": 25,
-            "RES": 55,
+            "LCK": 0,
+            "RES": 0,
             "CON": 0,
             "MOV": 0,
             "STR": 0,
-            "HP": 55,
-            "MAG": 50,
-            "SKL": 50,
-            "SPD": 40,
-            "DEF": 15,
+            "HP": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
             "MP": 0
         },
         "stat_cap_modifiers": {
@@ -3640,160 +4293,10 @@
         "fields": []
     },
     {
-        "nid": "Isabella",
-        "name": "Isabella",
-        "desc": "The prodical daughter of House Toirahm currently acting as a mercenary for hire.",
-        "variant": "Female",
-        "level": 10,
-        "klass": "Mercenary",
-        "tags": [],
-        "bases": {
-            "LCK": 8,
-            "RES": 4,
-            "CON": 13,
-            "MOV": 5,
-            "STR": 14,
-            "HP": 32,
-            "MAG": 7,
-            "SKL": 13,
-            "SPD": 13,
-            "DEF": 10,
-            "MP": 0
-        },
-        "growths": {
-            "LCK": 30,
-            "RES": 25,
-            "CON": 0,
-            "MOV": 0,
-            "STR": 45,
-            "HP": 90,
-            "MAG": 20,
-            "SKL": 40,
-            "SPD": 30,
-            "DEF": 35,
-            "MP": 0
-        },
-        "stat_cap_modifiers": {
-            "RES": 0,
-            "LCK": 0,
-            "CON": 0,
-            "MOV": 0,
-            "STR": 0,
-            "HP": 0,
-            "MAG": 0,
-            "SKL": 0,
-            "SPD": 0,
-            "DEF": 0,
-            "MP": 0
-        },
-        "starting_items": [
-            [
-                "Steel_Katana",
-                false
-            ],
-            [
-                "Master_Seal",
-                false
-            ],
-            [
-                "Vulnerary",
-                false
-            ]
-        ],
-        "learned_skills": [],
-        "unit_notes": [],
-        "wexp_gain": {
-            "Sword": [
-                true,
-                71,
-                251
-            ],
-            "Lance": [
-                false,
-                0,
-                251
-            ],
-            "Axe": [
-                false,
-                0,
-                251
-            ],
-            "Bow": [
-                false,
-                0,
-                251
-            ],
-            "Staff": [
-                false,
-                0,
-                251
-            ],
-            "Light": [
-                false,
-                0,
-                251
-            ],
-            "Anima": [
-                false,
-                0,
-                251
-            ],
-            "Dark": [
-                false,
-                0,
-                251
-            ],
-            "Default": [
-                false,
-                0,
-                251
-            ],
-            "Earth": [
-                false,
-                0,
-                251
-            ],
-            "Solus": [
-                false,
-                0,
-                251
-            ],
-            "Lunis": [
-                false,
-                0,
-                251
-            ],
-            "Tellus": [
-                false,
-                0,
-                251
-            ],
-            "Magic": [
-                false,
-                0,
-                251
-            ],
-            "Runic": [
-                false,
-                0,
-                251
-            ]
-        },
-        "alternate_classes": [],
-        "portrait_nid": "Eda {Atey}",
-        "affinity": "Thunder",
-        "fields": [
-            [
-                "Nickname",
-                "Bella"
-            ]
-        ]
-    },
-    {
         "nid": "Josif",
         "name": "Josif",
         "desc": "Younger brother of Thanya and close friend of Gwynn.",
-        "variant": null,
+        "variant": "",
         "level": 1,
         "klass": "Apprentice",
         "tags": [],
@@ -3811,16 +4314,16 @@
             "MP": 0
         },
         "growths": {
-            "LCK": 25,
-            "RES": 30,
+            "LCK": 0,
+            "RES": 0,
             "CON": 0,
             "MOV": 0,
-            "STR": 25,
-            "HP": 65,
-            "MAG": 15,
-            "SKL": 45,
-            "SPD": 60,
-            "DEF": 25,
+            "STR": 0,
+            "HP": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
             "MP": 0
         },
         "stat_cap_modifiers": {
@@ -3952,16 +4455,16 @@
             "MP": 0
         },
         "growths": {
-            "LCK": 60,
-            "RES": 45,
+            "LCK": 0,
+            "RES": 0,
             "CON": 0,
             "MOV": 0,
             "STR": 0,
-            "HP": 60,
-            "MAG": 55,
-            "SKL": 50,
-            "SPD": 45,
-            "DEF": 20,
+            "HP": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
             "MP": 0
         },
         "stat_cap_modifiers": {
@@ -4097,16 +4600,16 @@
             "MP": 0
         },
         "growths": {
-            "LCK": 40,
-            "RES": 35,
+            "LCK": 0,
+            "RES": 0,
             "CON": 0,
             "MOV": 0,
             "STR": 0,
-            "HP": 50,
-            "MAG": 30,
-            "SKL": 25,
-            "SPD": 40,
-            "DEF": 30,
+            "HP": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
             "MP": 0
         },
         "stat_cap_modifiers": {
@@ -4217,156 +4720,6 @@
         "fields": []
     },
     {
-        "nid": "Kasuto",
-        "name": "Kasuto",
-        "desc": "A sister serving in the Church of Gaeya. She is a fountain of wisdom and beauty. She seems to have been looking for something.",
-        "variant": "Female",
-        "level": 18,
-        "klass": "Doctor",
-        "tags": [
-            "Dragon",
-            "Holy",
-            "Nordak",
-            "Siylphe"
-        ],
-        "bases": {
-            "LCK": 0,
-            "RES": 0,
-            "CON": 0,
-            "MOV": 0,
-            "STR": 0,
-            "HP": 0,
-            "MAG": 0,
-            "SKL": 0,
-            "SPD": 0,
-            "DEF": 0,
-            "MP": 0
-        },
-        "growths": {
-            "LCK": 60,
-            "RES": 55,
-            "CON": 0,
-            "MOV": 0,
-            "STR": 0,
-            "HP": 50,
-            "MAG": 60,
-            "SKL": 25,
-            "SPD": 40,
-            "DEF": 15,
-            "MP": 0
-        },
-        "stat_cap_modifiers": {
-            "RES": 0,
-            "LCK": 0,
-            "CON": 0,
-            "MOV": 0,
-            "STR": 0,
-            "HP": 0,
-            "MAG": 0,
-            "SKL": 0,
-            "SPD": 0,
-            "DEF": 0,
-            "MP": 0
-        },
-        "starting_items": [
-            [
-                "LifeEnergy",
-                false
-            ],
-            [
-                "Vulnerary",
-                false
-            ],
-            [
-                "Starlight",
-                false
-            ]
-        ],
-        "learned_skills": [],
-        "unit_notes": [],
-        "wexp_gain": {
-            "Sword": [
-                false,
-                121,
-                251
-            ],
-            "Lance": [
-                false,
-                0,
-                251
-            ],
-            "Axe": [
-                false,
-                0,
-                251
-            ],
-            "Bow": [
-                false,
-                0,
-                251
-            ],
-            "Staff": [
-                true,
-                71,
-                251
-            ],
-            "Light": [
-                false,
-                0,
-                251
-            ],
-            "Anima": [
-                false,
-                0,
-                251
-            ],
-            "Dark": [
-                false,
-                0,
-                251
-            ],
-            "Default": [
-                false,
-                0,
-                251
-            ],
-            "Earth": [
-                false,
-                0,
-                251
-            ],
-            "Solus": [
-                false,
-                181,
-                251
-            ],
-            "Lunis": [
-                false,
-                0,
-                251
-            ],
-            "Tellus": [
-                false,
-                0,
-                251
-            ],
-            "Magic": [
-                true,
-                71,
-                251
-            ],
-            "Runic": [
-                true,
-                71,
-                251
-            ]
-        },
-        "alternate_classes": [],
-        "portrait_nid": "Natasha (Older) {MegaCowsamMan}",
-        "affinity": "Ice",
-        "fields": []
-    },
-    {
         "nid": "Geval",
         "name": "Geval",
         "desc": "A berserker from Rausten. He\u2019s a hearty man with a thirst for life.",
@@ -4388,16 +4741,16 @@
             "MP": 0
         },
         "growths": {
-            "LCK": 30,
-            "RES": 25,
+            "LCK": 0,
+            "RES": 0,
             "CON": 0,
             "MOV": 0,
-            "STR": 50,
-            "HP": 85,
+            "STR": 0,
+            "HP": 0,
             "MAG": 0,
-            "SKL": 35,
-            "SPD": 40,
-            "DEF": 30,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
             "MP": 0
         },
         "stat_cap_modifiers": {
@@ -4529,16 +4882,16 @@
             "MP": 0
         },
         "growths": {
-            "LCK": 40,
-            "RES": 35,
+            "LCK": 0,
+            "RES": 0,
             "CON": 0,
             "MOV": 0,
             "STR": 0,
-            "HP": 50,
-            "MAG": 30,
-            "SKL": 25,
-            "SPD": 40,
-            "DEF": 30,
+            "HP": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
             "MP": 0
         },
         "stat_cap_modifiers": {
@@ -8863,7 +9216,7 @@
         "klass": "Seiryuchi",
         "tags": [
             "Dragon",
-            "Thief",
+            "Lanquiz",
             "Nordak",
             "Siylphe"
         ],

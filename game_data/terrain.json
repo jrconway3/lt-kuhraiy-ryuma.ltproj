@@ -90,6 +90,21 @@
         "status": null
     },
     {
+        "nid": "5_City",
+        "name": "Stairs",
+        "color": [
+            78,
+            56,
+            84
+        ],
+        "minimap": "Floor",
+        "platform": "MetropolisStairs",
+        "background": "combat_castle3",
+        "mtype": "Normal",
+        "opaque": false,
+        "status": null
+    },
+    {
         "nid": "6",
         "name": "Floor",
         "color": [
@@ -99,6 +114,21 @@
         ],
         "minimap": "Floor",
         "platform": "Floor",
+        "background": "combat_castle2",
+        "mtype": "Normal",
+        "opaque": false,
+        "status": null
+    },
+    {
+        "nid": "6_Carpet",
+        "name": "Floor",
+        "color": [
+            84,
+            42,
+            51
+        ],
+        "minimap": "Floor",
+        "platform": "Throne",
         "background": "combat_castle2",
         "mtype": "Normal",
         "opaque": false,
@@ -123,9 +153,9 @@
         "nid": "7_City",
         "name": "Road",
         "color": [
-            84,
-            84,
-            84
+            188,
+            186,
+            139
         ],
         "minimap": "Floor",
         "platform": "Metropolis",
@@ -267,7 +297,7 @@
         "background": "combat_outside_castle",
         "mtype": "River",
         "opaque": false,
-        "status": null
+        "status": "Water"
     },
     {
         "nid": "20",
@@ -330,6 +360,51 @@
         "status": null
     },
     {
+        "nid": "25_City",
+        "name": "Barrel",
+        "color": [
+            168,
+            134,
+            118
+        ],
+        "minimap": "Wall",
+        "platform": "Metropolis",
+        "background": "combat_outside_castle",
+        "mtype": "Fence",
+        "opaque": false,
+        "status": null
+    },
+    {
+        "nid": "26",
+        "name": "Crate",
+        "color": [
+            134,
+            82,
+            45
+        ],
+        "minimap": "Wall",
+        "platform": "Deck",
+        "background": "combat_sea",
+        "mtype": "Fence",
+        "opaque": false,
+        "status": null
+    },
+    {
+        "nid": "26_City",
+        "name": "Crate",
+        "color": [
+            86,
+            70,
+            58
+        ],
+        "minimap": "Wall",
+        "platform": "Metropolis",
+        "background": "combat_outside_castle",
+        "mtype": "Fence",
+        "opaque": false,
+        "status": null
+    },
+    {
         "nid": "30",
         "name": "House",
         "color": [
@@ -339,6 +414,21 @@
         ],
         "minimap": "House",
         "platform": "House",
+        "background": "combat_village",
+        "mtype": "Normal",
+        "opaque": false,
+        "status": "Avoid10"
+    },
+    {
+        "nid": "30_City",
+        "name": "House",
+        "color": [
+            168,
+            122,
+            119
+        ],
+        "minimap": "House",
+        "platform": "MetropolisVendor",
         "background": "combat_village",
         "mtype": "Normal",
         "opaque": false,
@@ -394,12 +484,27 @@
         "name": "Armory",
         "color": [
             168,
-            1,
-            4
+            3,
+            83
         ],
         "minimap": "Shop",
         "platform": "Armory",
         "background": "combat_plains",
+        "mtype": "Normal",
+        "opaque": false,
+        "status": "Avoid10"
+    },
+    {
+        "nid": "33_City",
+        "name": "Armory",
+        "color": [
+            168,
+            94,
+            142
+        ],
+        "minimap": "Shop",
+        "platform": "MetropolisVendor",
+        "background": "combat_outside_castle",
         "mtype": "Normal",
         "opaque": false,
         "status": "Avoid10"
@@ -415,6 +520,21 @@
         "minimap": "Shop",
         "platform": "Vendor",
         "background": "combat_plains",
+        "mtype": "Normal",
+        "opaque": false,
+        "status": "Avoid10"
+    },
+    {
+        "nid": "34_1",
+        "name": "Vendor",
+        "color": [
+            160,
+            78,
+            80
+        ],
+        "minimap": "Shop",
+        "platform": "MetropolisVendor",
+        "background": "combat_outside_castle",
         "mtype": "Normal",
         "opaque": false,
         "status": "Avoid10"
@@ -469,8 +589,8 @@
         "name": "Village",
         "color": [
             85,
-            0,
-            0
+            42,
+            42
         ],
         "minimap": "House",
         "platform": "MetropolisGate",
@@ -490,6 +610,21 @@
         "minimap": "Chest",
         "platform": "Chest",
         "background": "combat_castle3",
+        "mtype": "Normal",
+        "opaque": false,
+        "status": null
+    },
+    {
+        "nid": "36_City",
+        "name": "Chest",
+        "color": [
+            255,
+            247,
+            138
+        ],
+        "minimap": "Chest",
+        "platform": "MetropolisArena",
+        "background": "combat_outside_castle",
         "mtype": "Normal",
         "opaque": false,
         "status": null

@@ -27,6 +27,7 @@
     "Fort": "Terrain",
     "Freeze": "Statuses/Negative",
     "Grounded": "Movement",
+    "Ignis": "Weapon/Magic Weapons",
     "Inn": "Terrain",
     "Inspiration": "Passive",
     "Inspiration_child": "Passive",

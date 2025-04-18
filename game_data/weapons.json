@@ -167,20 +167,7 @@
                 "defense_speed": "0"
             }
         ],
-        "disadvantage": [
-            {
-                "weapon_type": "Tellus",
-                "weapon_rank": "All",
-                "damage": "-1",
-                "resist": "0",
-                "accuracy": "-15",
-                "avoid": "0",
-                "crit": "0",
-                "dodge": "0",
-                "attack_speed": "0",
-                "defense_speed": "0"
-            }
-        ],
+        "disadvantage": [],
         "icon_nid": "wexp_icons",
         "icon_index": [
             0,
@@ -195,7 +182,7 @@
         "rank_bonus": [],
         "advantage": [
             {
-                "weapon_type": "Tellus",
+                "weapon_type": "Solus",
                 "weapon_rank": "All",
                 "damage": "1",
                 "resist": "0",
@@ -207,20 +194,7 @@
                 "defense_speed": "0"
             }
         ],
-        "disadvantage": [
-            {
-                "weapon_type": "Solus",
-                "weapon_rank": "All",
-                "damage": "-1",
-                "resist": "0",
-                "accuracy": "-15",
-                "avoid": "0",
-                "crit": "0",
-                "dodge": "0",
-                "attack_speed": "0",
-                "defense_speed": "0"
-            }
-        ],
+        "disadvantage": [],
         "icon_nid": "wexp_icons",
         "icon_index": [
             0,
@@ -233,8 +207,34 @@
         "force_melee_anim": false,
         "hide_from_display": false,
         "rank_bonus": [],
-        "advantage": [],
-        "disadvantage": [],
+        "advantage": [
+            {
+                "weapon_type": "Glacies",
+                "weapon_rank": "All",
+                "damage": 0,
+                "resist": 0,
+                "accuracy": 0,
+                "avoid": 0,
+                "crit": 0,
+                "dodge": 0,
+                "attack_speed": 0,
+                "defense_speed": 0
+            }
+        ],
+        "disadvantage": [
+            {
+                "weapon_type": "Aquis",
+                "weapon_rank": "All",
+                "damage": 0,
+                "resist": 0,
+                "accuracy": 0,
+                "avoid": 0,
+                "crit": 0,
+                "dodge": 0,
+                "attack_speed": 0,
+                "defense_speed": 0
+            }
+        ],
         "icon_nid": "wexp_expanded",
         "icon_index": [
             1,
@@ -247,8 +247,34 @@
         "force_melee_anim": false,
         "hide_from_display": false,
         "rank_bonus": [],
-        "advantage": [],
-        "disadvantage": [],
+        "advantage": [
+            {
+                "weapon_type": "Tellus",
+                "weapon_rank": "All",
+                "damage": 0,
+                "resist": 0,
+                "accuracy": 0,
+                "avoid": 0,
+                "crit": 0,
+                "dodge": 0,
+                "attack_speed": 0,
+                "defense_speed": 0
+            }
+        ],
+        "disadvantage": [
+            {
+                "weapon_type": "Fulgus",
+                "weapon_rank": "All",
+                "damage": 0,
+                "resist": 0,
+                "accuracy": 0,
+                "avoid": 0,
+                "crit": 0,
+                "dodge": 0,
+                "attack_speed": 0,
+                "defense_speed": 0
+            }
+        ],
         "icon_nid": "wexp_expanded",
         "icon_index": [
             1,
@@ -261,8 +287,34 @@
         "force_melee_anim": false,
         "hide_from_display": false,
         "rank_bonus": [],
-        "advantage": [],
-        "disadvantage": [],
+        "advantage": [
+            {
+                "weapon_type": "Ventus",
+                "weapon_rank": "All",
+                "damage": 0,
+                "resist": 0,
+                "accuracy": 0,
+                "avoid": 0,
+                "crit": 0,
+                "dodge": 0,
+                "attack_speed": 0,
+                "defense_speed": 0
+            }
+        ],
+        "disadvantage": [
+            {
+                "weapon_type": "Tellus",
+                "weapon_rank": "All",
+                "damage": 0,
+                "resist": 0,
+                "accuracy": 0,
+                "avoid": 0,
+                "crit": 0,
+                "dodge": 0,
+                "attack_speed": 0,
+                "defense_speed": 0
+            }
+        ],
         "icon_nid": "wexp_expanded",
         "icon_index": [
             1,
@@ -277,7 +329,7 @@
         "rank_bonus": [],
         "advantage": [
             {
-                "weapon_type": "Solus",
+                "weapon_type": "Fulgus",
                 "weapon_rank": "All",
                 "damage": "1",
                 "resist": "0",
@@ -291,7 +343,7 @@
         ],
         "disadvantage": [
             {
-                "weapon_type": "Lunis",
+                "weapon_type": "Ventus",
                 "weapon_rank": "All",
                 "damage": "-1",
                 "resist": "0",
@@ -315,8 +367,34 @@
         "force_melee_anim": false,
         "hide_from_display": false,
         "rank_bonus": [],
-        "advantage": [],
-        "disadvantage": [],
+        "advantage": [
+            {
+                "weapon_type": "Aquis",
+                "weapon_rank": "All",
+                "damage": 0,
+                "resist": 0,
+                "accuracy": 0,
+                "avoid": 0,
+                "crit": 0,
+                "dodge": 0,
+                "attack_speed": 0,
+                "defense_speed": 0
+            }
+        ],
+        "disadvantage": [
+            {
+                "weapon_type": "Ignis",
+                "weapon_rank": "All",
+                "damage": 0,
+                "resist": 0,
+                "accuracy": 0,
+                "avoid": 0,
+                "crit": 0,
+                "dodge": 0,
+                "attack_speed": 0,
+                "defense_speed": 0
+            }
+        ],
         "icon_nid": "wexp_expanded",
         "icon_index": [
             1,
@@ -329,8 +407,34 @@
         "force_melee_anim": false,
         "hide_from_display": false,
         "rank_bonus": [],
-        "advantage": [],
-        "disadvantage": [],
+        "advantage": [
+            {
+                "weapon_type": "Ignis",
+                "weapon_rank": "All",
+                "damage": 0,
+                "resist": 0,
+                "accuracy": 0,
+                "avoid": 0,
+                "crit": 0,
+                "dodge": 0,
+                "attack_speed": 0,
+                "defense_speed": 0
+            }
+        ],
+        "disadvantage": [
+            {
+                "weapon_type": "Glacies",
+                "weapon_rank": "All",
+                "damage": 0,
+                "resist": 0,
+                "accuracy": 0,
+                "avoid": 0,
+                "crit": 0,
+                "dodge": 0,
+                "attack_speed": 0,
+                "defense_speed": 0
+            }
+        ],
         "icon_nid": "wexp_expanded",
         "icon_index": [
             1,

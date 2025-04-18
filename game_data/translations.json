@@ -161,7 +161,7 @@
     },
     {
         "nid": "MAG_desc",
-        "text": "Magical power. Increases ward and spell damage."
+        "text": "Magical power. Increases spell damage."
     },
     {
         "nid": "SKL_desc",
@@ -237,7 +237,7 @@
     },
     {
         "nid": "Crit_desc",
-        "text": "Chance the weapon will strike a critical blow, dealing extra damage."
+        "text": "Chance the weapon will deal a fatal blow, dealing extra damage."
     },
     {
         "nid": "Level_desc",
@@ -382,5 +382,9 @@
     {
         "nid": "Transfer_desc",
         "text": "Give paired unit to adjacent ally."
+    },
+    {
+        "nid": "MANA_desc",
+        "text": "Current Mana points. Compare this to your Max MP on the left."
     }
 ]

@@ -25,11 +25,11 @@
     ],
     [
         "growth_range",
-        1
+        99
     ],
     [
         "chapter_points",
-        0
+        5
     ],
     [
         "end_turn_points",
@@ -37,7 +37,7 @@
     ],
     [
         "combat_points",
-        0
+        1
     ],
     [
         "interact_points",

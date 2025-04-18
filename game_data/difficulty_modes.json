@@ -4,7 +4,7 @@
         "name": "Normal",
         "color": "blue",
         "permadeath_choice": "Casual",
-        "growths_choice": "Random",
+        "growths_choice": "Dynamic",
         "rng_choice": "True Hit",
         "player_bases": {
             "HP": 0,
