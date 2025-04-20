@@ -1,6 +1,6 @@
 [
     {
-        "nid": "Miriam",
+        "nid": "Svetlanya",
         "blinking_offset": [
             24,
             32
@@ -710,8 +710,8 @@
     {
         "nid": "{CapibaraInSpace} [F2U] OC 27",
         "blinking_offset": [
-            0,
-            0
+            25,
+            32
         ],
         "smiling_offset": [
             25,

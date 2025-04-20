@@ -19065,6 +19065,10 @@
             [
                 "weapon",
                 null
+            ],
+            [
+                "map_cast_anim",
+                "Swoosh"
             ]
         ]
     }

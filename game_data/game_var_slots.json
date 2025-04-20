@@ -70,5 +70,9 @@
     {
         "nid": "_last_choice",
         "desc": "Holds the most recent choice made by the player using choice event."
+    },
+    {
+        "nid": "ch0_fountain",
+        "desc": "Prologue - Svetlanya entered the fountain. Changes dialogue later if she did."
     }
 ]

@@ -550,7 +550,7 @@
             [
                 "negate_tags",
                 [
-                    "Dragon",
+                    "Lanquiz",
                     "Lykon",
                     "Queiza",
                     "Avyon",
@@ -588,7 +588,7 @@
             [
                 "negate_tags",
                 [
-                    "Dragon",
+                    "Lanquiz",
                     "Lykon",
                     "Queiza",
                     "Avyon",
@@ -625,10 +625,50 @@
         "nid": "Dragonscale",
         "name": "Dragonscale",
         "desc": "Take quarter damage, immune to fatal strikes.\nDragon effective weapons ignore damage reduction.",
-        "icon_nid": "{ZessDynamite, Rainlash} All Icons",
+        "icon_nid": "{ZessDynamite, Rainlash, LordGlenn, Suneohair, JaidynReiman} Complete Skill Icon Sheet",
         "icon_index": [
-            1,
-            50
+            9,
+            42
+        ],
+        "components": [
+            [
+                "time",
+                4
+            ],
+            [
+                "resist_multiplier",
+                0.25
+            ]
+        ]
+    },
+    {
+        "nid": "Lightscale",
+        "name": "Lightscale",
+        "desc": "Reduce damage by 7.\nEffective weapons ignore damage reduction.",
+        "icon_nid": "{ZessDynamite, Rainlash, LordGlenn, Suneohair, JaidynReiman} Complete Skill Icon Sheet",
+        "icon_index": [
+            8,
+            42
+        ],
+        "components": [
+            [
+                "time",
+                4
+            ],
+            [
+                "resist",
+                7
+            ]
+        ]
+    },
+    {
+        "nid": "Seascale",
+        "name": "Seascale",
+        "desc": "Take quarter damage, immune to fatal strikes.\nEffective weapons ignore damage reduction.",
+        "icon_nid": "{ZessDynamite, Rainlash, LordGlenn, Suneohair, JaidynReiman} Complete Skill Icon Sheet",
+        "icon_index": [
+            10,
+            42
         ],
         "components": [
             [

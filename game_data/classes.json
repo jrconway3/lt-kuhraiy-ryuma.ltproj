@@ -1259,7 +1259,12 @@
             "DEF": 20,
             "MP": 30
         },
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Seascale"
+            ]
+        ],
         "wexp_gain": {
             "Sword": [
                 true,
@@ -1518,7 +1523,12 @@
             "DEF": 22,
             "MP": 30
         },
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Seascale"
+            ]
+        ],
         "wexp_gain": {
             "Sword": [
                 true,
@@ -1767,7 +1777,12 @@
             "DEF": 22,
             "MP": 30
         },
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Seascale"
+            ]
+        ],
         "wexp_gain": {
             "Sword": [
                 true,
@@ -2255,7 +2270,12 @@
             "DEF": 22,
             "MP": 30
         },
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Seascale"
+            ]
+        ],
         "wexp_gain": {
             "Sword": [
                 true,
@@ -7254,7 +7274,12 @@
             "DEF": 20,
             "MP": 30
         },
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Lightscale"
+            ]
+        ],
         "wexp_gain": {
             "Sword": [
                 true,
@@ -7495,7 +7520,12 @@
             "DEF": 40,
             "MP": 40
         },
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Lightscale"
+            ]
+        ],
         "wexp_gain": {
             "Sword": [
                 true,
@@ -8014,15 +8044,15 @@
                 0,
                 null
             ],
-            "Claw": [
-                false,
-                0,
-                null
-            ],
-            "Staff": [
+            "Runic": [
                 false,
                 0,
                 251
+            ],
+            "Shield": [
+                false,
+                0,
+                null
             ],
             "Armor": [
                 false,
@@ -8038,6 +8068,16 @@
                 false,
                 0,
                 null
+            ],
+            "Claw": [
+                false,
+                0,
+                null
+            ],
+            "Staff": [
+                false,
+                0,
+                251
             ],
             "Light": [
                 false,
@@ -8060,11 +8100,6 @@
                 251
             ],
             "Magic": [
-                false,
-                0,
-                251
-            ],
-            "Runic": [
                 false,
                 0,
                 251
@@ -10615,7 +10650,7 @@
             0
         ],
         "map_sprite_nid": "Cleric",
-        "combat_anim_nid": "Tactician",
+        "combat_anim_nid": "Cleric",
         "fields": []
     },
     {
@@ -11391,15 +11426,15 @@
                 0,
                 null
             ],
-            "Claw": [
-                false,
-                0,
-                null
-            ],
-            "Staff": [
+            "Runic": [
                 false,
                 31,
                 251
+            ],
+            "Shield": [
+                false,
+                0,
+                null
             ],
             "Armor": [
                 false,
@@ -11415,6 +11450,16 @@
                 false,
                 0,
                 null
+            ],
+            "Claw": [
+                false,
+                0,
+                null
+            ],
+            "Staff": [
+                false,
+                31,
+                251
             ],
             "Light": [
                 true,
@@ -11437,11 +11482,6 @@
                 251
             ],
             "Magic": [
-                false,
-                31,
-                251
-            ],
-            "Runic": [
                 false,
                 31,
                 251
@@ -11664,14 +11704,14 @@
             0,
             0
         ],
-        "map_sprite_nid": "Shaman",
+        "map_sprite_nid": "Scholar",
         "combat_anim_nid": "Shaman",
         "fields": []
     },
     {
         "nid": "Shaman",
         "name": "Shaman",
-        "desc": "Wandering ",
+        "desc": "",
         "tier": 1,
         "movement_group": "Zabos",
         "promotes_from": null,

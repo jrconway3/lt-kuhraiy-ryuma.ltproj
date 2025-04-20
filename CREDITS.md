@@ -384,7 +384,7 @@ Regrowth (Dark 4 by Zarg)???
 
 ### Animations
 
-#### Battle Sprite Animations
+#### Battle Animations
 
 ##### Lords
 Lord/Dalton (Mage Lord; customizations needed: Mage Lord needs a sword animation and longer hair)
@@ -438,6 +438,15 @@ Bulwark (Baron Cape, No Clicks by Leo_link, Nuramon, Iscaneus, Revamped Handaxe 
 
 ##### Mounted, Cavaliers
 Mounted Nomad (Vanilla by IS)
+
+
+##### Nature Mages
+
+##### Holy Mages
+
+##### Dark Mages
+Shaman (Diviner Orochi by Sphealnuke)
+Scholar
 
 
 ##### Monster Mounts
@@ -546,12 +555,19 @@ Sage-F (Battle Sage F Sword by Leif, L95)
 ???? (Battle Sage F Sword by Topazlight)
 
 ##### Holy Mages
-Priestess (Monk-F Veil by Tatuta_Chang)
+High Priestess (Monk-F Veil by Tatuta_Chang); TEMPORARY!!! (this will get a brand new icon when I make it)
 Clergy-F (Monk-F by Teraspark)
 War Monk (War Monk, Axe M by DerTheVaporean)
 War Nun (War Cleric, Axe F by DerTheVaporean)
 War Monk (War Monk, Staff M by Author_Pendragon)
 War Cleric (War Cleric, Staff F by SkidMarc25)
+
+##### Dark Mages
+Shaman (Mage-F Gaiden-Style by TAS20XX)
+Shaman (Diviner-F Orochi by Sphealnuke)
+Druid-M (Unhooded Druid by IS, Stormblight)
+Druid-F (Druid Female by IS)
+
 
 
 ##### Mounted Mages
@@ -794,7 +810,7 @@ Character - Dalton (Pirates of the Carribbean, He's a Pirate - FEGBA by RandomWi
 #### Other Themes
 Supports / Reunion Event (Tales of Phantasia, Mint's Theme - FEGBA by A Reliable Choir)
 Player Death (Triangle Strategy, Elegy of Battle by Kaidras)
-Into Victory (Lunar, Toward the Horizon - FEGBA by A Reliable Chair)
+Victory Near (Lunar, Toward the Horizon - FEGBA by A Reliable Chair)
 Victory (Sword of Mana, Courage and Pride From the Heart - FEGBA by RandomWizard)
 
 #### Map Themes
