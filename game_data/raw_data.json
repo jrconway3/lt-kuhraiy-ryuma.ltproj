@@ -47,5 +47,85 @@
                 "Rank": "C"
             }
         ]
+    },
+    {
+        "nid": "SerenaSpellbookList",
+        "dtype": "list",
+        "svalue": "",
+        "kvvalue": [],
+        "oattrs": [
+            "nid",
+            "Item",
+            "Type",
+            "Wexp",
+            "Rank"
+        ],
+        "lovalue": [
+            {
+                "nid": "ser1",
+                "Item": "Enfrost",
+                "Type": "Glacies",
+                "Wexp": "1",
+                "Rank": "E",
+                "Unit": "Svetlanya",
+                "Level": "1"
+            },
+            {
+                "nid": "ser2",
+                "Item": "Frostbite",
+                "Type": "Glacies",
+                "Wexp": "31",
+                "Rank": "D",
+                "Unit": "Svetlanya",
+                "Level": "1"
+            }
+        ]
+    },
+    {
+        "nid": "KasutoSpellbookList",
+        "dtype": "list",
+        "svalue": "",
+        "kvvalue": [],
+        "oattrs": [
+            "nid",
+            "Item",
+            "Type",
+            "Wexp",
+            "Rank"
+        ],
+        "lovalue": [
+            {
+                "nid": "kas1",
+                "Item": "Enlighten",
+                "Type": "Solus",
+                "Wexp": "1",
+                "Rank": "E",
+                "Unit": "Svetlanya",
+                "Level": "1"
+            },
+            {
+                "nid": "kas2",
+                "Item": "LifeEnergy",
+                "Type": "Solus",
+                "Wexp": "31",
+                "Rank": "D",
+                "Unit": "Svetlanya",
+                "Level": "1"
+            },
+            {
+                "nid": "kas3",
+                "Item": "Blind",
+                "Type": "Solus",
+                "Wexp": "71",
+                "Rank": "C"
+            },
+            {
+                "nid": "kas4",
+                "Item": "Starlight",
+                "Type": "Solus",
+                "Wexp": "71",
+                "Rank": "A"
+            }
+        ]
     }
 ]

@@ -57,7 +57,12 @@
                 false
             ]
         ],
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Inspiration"
+            ]
+        ],
         "unit_notes": [],
         "wexp_gain": {
             "Sword": [
@@ -198,7 +203,11 @@
             ],
             [
                 "Nickname",
-                "Lana"
+                "Lana, Anya"
+            ],
+            [
+                "New Key",
+                "New Value"
             ]
         ]
     },
@@ -207,7 +216,7 @@
         "name": "Amaya",
         "desc": "Former noblewoman of Omyrus, now a loyal retainer to Lady Miriam of Oestridel. She holds a strong desire to repay her debt to General Jethro.",
         "variant": "",
-        "level": 5,
+        "level": 3,
         "klass": "Lieutenant",
         "tags": [
             "Lord"
@@ -265,12 +274,7 @@
                 false
             ]
         ],
-        "learned_skills": [
-            [
-                1,
-                "Mercy2"
-            ]
-        ],
+        "learned_skills": [],
         "unit_notes": [],
         "wexp_gain": {
             "Sword": [
