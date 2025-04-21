@@ -150,10 +150,10 @@
         "nid": "Mountain",
         "name": "Mountain",
         "desc": "",
-        "icon_nid": "{ZessDynamite, Rainlash} All Icons",
+        "icon_nid": "{ZessDynamite, Rainlash, LordGlenn, Suneohair, JaidynReiman} Complete Skill Icon Sheet",
         "icon_index": [
-            1,
-            50
+            6,
+            33
         ],
         "components": [
             [
@@ -179,10 +179,10 @@
         "nid": "Peak",
         "name": "Peak",
         "desc": "",
-        "icon_nid": "{ZessDynamite, Rainlash} All Icons",
+        "icon_nid": "{ZessDynamite, Rainlash, LordGlenn, Suneohair, JaidynReiman} Complete Skill Icon Sheet",
         "icon_index": [
-            1,
-            50
+            6,
+            33
         ],
         "components": [
             [
@@ -254,10 +254,10 @@
         "nid": "NoAvoid",
         "name": "NoAvoid",
         "desc": "",
-        "icon_nid": "{ZessDynamite, Rainlash} All Icons",
+        "icon_nid": "{ZessDynamite, Rainlash, LordGlenn, Suneohair, JaidynReiman} Complete Skill Icon Sheet",
         "icon_index": [
-            3,
-            43
+            15,
+            11
         ],
         "components": [
             [
@@ -1087,10 +1087,10 @@
         "nid": "Freeze",
         "name": "Petrify",
         "desc": "Unit is frozen. Cannot avoid enemy attacks.\nShatters upon being hit once, receiving critical damage.",
-        "icon_nid": "{ZessDynamite, Rainlash} All Icons",
+        "icon_nid": "{ZessDynamite, Rainlash, LordGlenn, Suneohair, JaidynReiman} Complete Skill Icon Sheet",
         "icon_index": [
-            4,
-            42
+            0,
+            38
         ],
         "components": [
             [

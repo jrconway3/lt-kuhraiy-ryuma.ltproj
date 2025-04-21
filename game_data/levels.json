@@ -1054,12 +1054,7 @@
                 }
             }
         ],
-        "ai_groups": [
-            {
-                "nid": "",
-                "trigger_threshold": 1
-            }
-        ]
+        "ai_groups": []
     },
     {
         "nid": "r1",
@@ -5280,7 +5275,7 @@
                         false
                     ],
                     [
-                        "Slim_Lance",
+                        "Corseque",
                         false
                     ],
                     [

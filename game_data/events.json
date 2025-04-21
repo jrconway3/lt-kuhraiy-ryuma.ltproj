@@ -3632,6 +3632,18 @@
         "only_once": false,
         "priority": 20,
         "_source": [
+            "multi_add_portrait;Svetlanya;CenterLeft;Serena;FarLeft;Urso;Right",
+            "mirror_portrait;Urso",
+            "speak;Urso;Come now, I will not allow such unruly rabble within this city!",
+            "speak;Svetlanya;Sir Urso, what rubbish has become of our marketplace?|Out with it at once, I demand you!",
+            "mirror;Urso",
+            "speak;Urso;M-my lady! My deepest apologies, Lady Svetlanya.|The knights are working to resolve this dispute as swiftly as possible.|Need you worry not.",
+            "speak;Svetlanya;How incorrible! Await shall I for a quick resolution.",
+            "speak;Urso;Thank you for your patience, my lady.",
+            "remove_portrait;Urso",
+            "speak;Serena;You need not be so harsh on him.|He's doing his best to resolve this dispute.|Come, let us give him a moment longer.",
+            "speak;Svetlanya;Blast... and here I thought we still had the rest of the day... Where has Yarda come off to, then?",
+            "speak;Serena;Did she return home?|Let's head to the Nadirah's Magicks, then.",
             ""
         ],
         "nid": "0 TalkUrso"
@@ -3655,7 +3667,7 @@
             "wait;200",
             "move_cursor;Svetlanya",
             "speak;Serena;Perhaps he knows what's going on.",
-            "speak;Svetlanya;Indeed shall his ear hear my thoughts!"
+            "speak;Svetlanya;Indeed shall his ear receive a word from I!"
         ],
         "nid": "0 RoamSquare"
     },

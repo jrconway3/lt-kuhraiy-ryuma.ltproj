@@ -414,7 +414,12 @@
     },
     {
         "nid": "{ZessDynamite, Rainlash, LordGlenn, Suneohair, JaidynReiman} Complete Skill Icon Sheet",
-        "subicon_dict": {}
+        "subicon_dict": {
+            "{ZessDynamite, Rainlash, LordGlenn, Suneohair, JaidynReiman} Complete Skill Icon Sheet 11, 20": [
+                11,
+                20
+            ]
+        }
     },
     {
         "nid": "{Alice, RLC, VelvetKitsune, JaidynReiman, Stephano} Expanded Weapon Icons",
