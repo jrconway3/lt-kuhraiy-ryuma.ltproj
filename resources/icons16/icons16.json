@@ -415,5 +415,13 @@
     {
         "nid": "{ZessDynamite, Rainlash, LordGlenn, Suneohair, JaidynReiman} Complete Skill Icon Sheet",
         "subicon_dict": {}
+    },
+    {
+        "nid": "{Alice, RLC, VelvetKitsune, JaidynReiman, Stephano} Expanded Weapon Icons",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "{EldritchA, Indogutsu Tenbuki} Tactics Ogre All Icons",
+        "subicon_dict": {}
     }
 ]

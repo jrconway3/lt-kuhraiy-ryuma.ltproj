@@ -504,7 +504,7 @@
                 "multi_item",
                 [
                     "Flamberge",
-                    "Fireball"
+                    "Fireball0"
                 ]
             ],
             [
@@ -2367,10 +2367,10 @@
         "nid": "Foil",
         "name": "Foil",
         "desc": "A lightweight sword designed for training purposes only.\nIncreases Sword EXP gain.",
-        "icon_nid": "{Beansy} {Swords} All Icons",
+        "icon_nid": "{EldritchA, Indogutsu Tenbuki} Tactics Ogre All Icons",
         "icon_index": [
-            0,
-            6
+            9,
+            1
         ],
         "components": [
             [
@@ -2444,10 +2444,10 @@
         "nid": "Epee",
         "name": "Epee",
         "desc": "A lightweight sword made of steel. While weaker, it is easier to use.\nIncreases Sword EXP gain.",
-        "icon_nid": "{Beansy} {Swords} All Icons",
+        "icon_nid": "{EldritchA, Indogutsu Tenbuki} Tactics Ogre All Icons",
         "icon_index": [
-            2,
-            2
+            12,
+            1
         ],
         "components": [
             [
@@ -2521,10 +2521,10 @@
         "nid": "Cursed_Sword",
         "name": "Cursed Sword",
         "desc": "Preferred by thieves. Inflicts a curse to damage both health and mana.",
-        "icon_nid": "{Beansy} {Swords} All Icons",
+        "icon_nid": "{EldritchA, Indogutsu Tenbuki} Tactics Ogre All Icons",
         "icon_index": [
-            0,
-            4
+            6,
+            1
         ],
         "components": [
             [
@@ -2592,10 +2592,10 @@
         "nid": "Sabre",
         "name": "Sabre",
         "desc": "A lightweight soldier's sidearm made of mythril. While weaker, it is easier to use.",
-        "icon_nid": "{Peerless} FE9 Weapon Icons (Custom Palette)",
+        "icon_nid": "{EldritchA, Indogutsu Tenbuki} Tactics Ogre All Icons",
         "icon_index": [
-            5,
-            2
+            8,
+            1
         ],
         "components": [
             [
@@ -2669,10 +2669,10 @@
         "nid": "Shamshir",
         "name": "Shamshir",
         "desc": "High chance to deal fatal blows.\nPreferred by desert dwellers.",
-        "icon_nid": "{Zelix} [WEP] FE13-FE14 Pack",
+        "icon_nid": "{EldritchA, Indogutsu Tenbuki} Tactics Ogre All Icons",
         "icon_index": [
-            2,
-            1
+            6,
+            0
         ],
         "components": [
             [
@@ -2750,10 +2750,10 @@
         "nid": "LightningBlade",
         "name": "Lightning Blade",
         "desc": "Attack with Fulgus. Eff vs Daemons, Nephyliae.",
-        "icon_nid": "{Beansy} {Swords} All Icons",
+        "icon_nid": "{Tactics Ogre LUCT, EldritchAbo, serebii01} Item Icon Sheet 1",
         "icon_index": [
             3,
-            4
+            3
         ],
         "components": []
     },
@@ -3173,7 +3173,7 @@
                 "multi_item",
                 [
                     "Almace1",
-                    "Almace2"
+                    "Fireball"
                 ]
             ],
             [
@@ -3199,9 +3199,9 @@
         "nid": "Almace",
         "name": "Almace",
         "desc": "Adds Mag to Atk. Eff vs Lykons.\nIgnores Damage reduction of Dragons.",
-        "icon_nid": "[WEP] Pack 5 {Lisandra Brave}",
+        "icon_nid": "{EldritchA, Indogutsu Tenbuki} Tactics Ogre All Icons",
         "icon_index": [
-            4,
+            12,
             1
         ],
         "components": [
@@ -3216,7 +3216,7 @@
                 "multi_item",
                 [
                     "Almace1",
-                    "Fireball"
+                    "Fireball0"
                 ]
             ],
             [
@@ -3320,22 +3320,6 @@
         ]
     },
     {
-        "nid": "Almace2",
-        "name": "Fireball",
-        "desc": "Weakest fire magic. Eff vs lykons, wolves.\nIneffective vs Zabos.",
-        "icon_nid": "{2WB} All Tomes",
-        "icon_index": [
-            0,
-            0
-        ],
-        "components": [
-            [
-                "item_prefab",
-                "Fireball"
-            ]
-        ]
-    },
-    {
         "nid": "Almacia",
         "name": "Almacia",
         "desc": "Royal blade of Omyrus. +5 Str/Int.\nEffective vs Lykons, Dragons.",
@@ -3422,9 +3406,9 @@
         "nid": "Galatine",
         "name": "Galatine",
         "desc": "Kitezh sacred treasure. Int+10.\nLake Lady only. Eff vs Dragons, Horses.",
-        "icon_nid": "{Peerless} FE9 Weapon Icons (Custom Palette)",
+        "icon_nid": "{EldritchA, Indogutsu Tenbuki} Tactics Ogre All Icons",
         "icon_index": [
-            5,
+            15,
             1
         ],
         "components": [
@@ -9421,6 +9405,26 @@
     },
     {
         "nid": "Fireball",
+        "name": "Fireball",
+        "desc": "Weakest fire magic. Eff vs lykons, wolves.\nIneffective vs Zabos.",
+        "icon_nid": "{2WB} All Tomes",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "item_prefab",
+                "Fireball0"
+            ],
+            [
+                "weapon_rank",
+                "E"
+            ]
+        ]
+    },
+    {
+        "nid": "Fireball0",
         "name": "Fireball",
         "desc": "Weakest fire magic. Eff vs lykons, wolves.\nIneffective vs Zabos.",
         "icon_nid": "{2WB} All Tomes",

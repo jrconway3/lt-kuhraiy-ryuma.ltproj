@@ -3185,7 +3185,7 @@
         "condition": "True",
         "commands": [],
         "only_once": true,
-        "priority": 50,
+        "priority": 70,
         "_source": [
             "t;close",
             "music;Event - Legacy 2 (Suikoden 2, Reminiscence by Tak);100;no_warn",
@@ -3568,8 +3568,8 @@
         "_source": [
             "music;Town - Metropolis (Bumming Around in PixelTown by Eric Mattyas www.soundimage.org)",
             "add_group;FreeRoam;FreeRoam;immediate",
+            "change_tilemap;Trade City Oestridel",
             "center_cursor;Svetlanya",
-            "change_tilemap;Trade City Oestridel;no_warn",
             "show_layer;ch0;immediate",
             "wait;200",
             "t;open",
@@ -3580,7 +3580,7 @@
             "add_portrait;Serena;Left",
             "add_portrait;Thanya;Right",
             "speak;Serena;Thank you for looking into it.|Keep up the good work.",
-            "speak;Thanya;Y-yes, moth--er, I mean, Captain Serena.",
+            "speak;Thanya;Y-yes, moth--oh, I mean, Captain Serena.",
             "multi_remove_portrait;Thanya;Serena",
             "move_unit;Thanya;46,25;normal;no_follow;no_block",
             "move_unit;Svetlanya;41,26;normal;no_block",
