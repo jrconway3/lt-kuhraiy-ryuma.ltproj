@@ -3192,6 +3192,7 @@
             "add_unit;Kasuto;5,10;immediate",
             "change_tilemap;Oestridel Church;reload",
             "change_background;lunar_bg06_cathedral",
+            "add_unit;Svetlanya;4,3",
             "add_group;Intro;Intro;immediate",
             "add_portrait;Svetlanya;Left;normal;CloseEyes",
             "t;open",
@@ -3470,19 +3471,6 @@
         "nid": "0 Rout"
     },
     {
-        "name": "RoutStart",
-        "trigger": null,
-        "level_nid": "0",
-        "condition": "len(game.get_enemy_units()) == 0 and game.turncount > 1",
-        "commands": [],
-        "only_once": true,
-        "priority": 5,
-        "_source": [
-            "win_game"
-        ],
-        "nid": "0 RoutStart"
-    },
-    {
         "name": "PrologueOutro",
         "trigger": "level_end",
         "level_nid": "0",
@@ -3567,14 +3555,14 @@
         "priority": 50,
         "_source": [
             "music;Town - Metropolis (Bumming Around in PixelTown by Eric Mattyas www.soundimage.org)",
-            "add_group;FreeRoam;FreeRoam;immediate",
             "change_tilemap;Trade City Oestridel",
+            "add_group;Party;Party;immediate",
+            "add_group;FreeRoam;FreeRoam;immediate",
             "center_cursor;Svetlanya",
             "show_layer;ch0;immediate",
             "wait;200",
             "t;open",
-            "move_cursor;Serena;500",
-            "disp_cursor;1",
+            "move_cursor;42,26",
             "flicker_cursor;Serena",
             "wait;500",
             "add_portrait;Serena;Left",
@@ -3616,7 +3604,7 @@
         "name": "RoamFountain",
         "trigger": "fountain_enter",
         "level_nid": "0",
-        "condition": "True",
+        "condition": "region.nid == 'CathedralN'",
         "commands": [],
         "only_once": false,
         "priority": 20,
@@ -3652,18 +3640,22 @@
         "name": "RoamSquare",
         "trigger": "enter_town_square",
         "level_nid": "0",
-        "condition": "True",
+        "condition": "region.nid == 'TownSquare'",
         "commands": [],
         "only_once": true,
         "priority": 20,
         "_source": [
             "multi_add_portrait;Svetlanya;Middle;Serena;Left",
             "speak;Svetlanya;What meaning is this?|Why yet have these deliveries not been finished?",
-            "speak;Serena;Seems some kind of dispute.|Worry not, the knights shall deal with it.",
-            "speak;Svetlanya;How utterly rude...|Dreadfully it must seem but my favorite shop is blocked by this cargo.",
-            "speak;Serena;The guardsman Urso is over there.|Perhaps he knows what's going on.",
-            "speak;Svetlanya;Indeed he shall have a piece of my mind!",
-            ""
+            "speak;Serena;Seems there may be some kind of dispute.|Worry not, the knights shall deal with it.",
+            "speak;Svetlanya;How utterly insolent!|Dreadfully it must seem but my favorite shop is blocked by this cargo.",
+            "speak;Serena;The guardsman Urso is over there.",
+            "move_cursor;Urso;no_warn",
+            "flicker_cursor;Urso",
+            "wait;200",
+            "move_cursor;Svetlanya",
+            "speak;Serena;Perhaps he knows what's going on.",
+            "speak;Svetlanya;Indeed shall his ear hear my thoughts!"
         ],
         "nid": "0 RoamSquare"
     },
@@ -3706,5 +3698,46 @@
             ""
         ],
         "nid": "0 TalkDehren"
+    },
+    {
+        "name": "CathedralSW",
+        "trigger": "enter_church_sw",
+        "level_nid": "r1",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            ""
+        ],
+        "nid": "r1 CathedralSW"
+    },
+    {
+        "name": "RoamMenu",
+        "trigger": "roam_press_start",
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "main_menu;no_warn"
+        ],
+        "nid": "Global RoamMenu"
+    },
+    {
+        "name": "RoamCathedral",
+        "trigger": "roaming_interrupt",
+        "level_nid": "0",
+        "condition": "region.nid == 'CathedralN' || region.nid == 'CathedralSE' || region.nid == 'CathedralSW1' || region.nid == 'CathedralSW2'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "#pyev1",
+            "",
+            ""
+        ],
+        "nid": "0 RoamCathedral"
     }
 ]

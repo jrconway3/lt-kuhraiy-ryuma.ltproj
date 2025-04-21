@@ -14,9 +14,9 @@
             "boss_battle": "Boss - Minor (Riviera, Fierce Clash by ShinKuma)"
         },
         "objective": {
-            "simple": "Stop the Riot!",
-            "win": "Defeat All Enemies",
-            "loss": "Svetlanya or Serena Faints"
+            "simple": "Go Shopping!",
+            "win": "",
+            "loss": ""
         },
         "roam": true,
         "roam_unit": "Svetlanya",
@@ -30,10 +30,7 @@
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": [
-                    32,
-                    26
-                ],
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": false
             },
@@ -43,10 +40,7 @@
                 "ai": "None",
                 "roam_ai": "FollowSvetlanya",
                 "ai_group": "",
-                "starting_position": [
-                    40,
-                    26
-                ],
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": false
             },
@@ -56,10 +50,7 @@
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": [
-                    41,
-                    26
-                ],
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": false
             },
@@ -241,7 +232,7 @@
             },
             {
                 "nid": "Kasuto",
-                "team": "npc",
+                "team": "other",
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
@@ -347,7 +338,7 @@
                 "faction": "Masa",
                 "starting_items": [],
                 "starting_skills": [],
-                "team": "other",
+                "team": "npc",
                 "ai": "None",
                 "roam_ai": "Wander",
                 "ai_group": "",
@@ -363,7 +354,7 @@
                 "faction": "Masa",
                 "starting_items": [],
                 "starting_skills": [],
-                "team": "other",
+                "team": "npc",
                 "ai": "None",
                 "roam_ai": "None",
                 "ai_group": "",
@@ -379,7 +370,7 @@
                 "faction": "Masa",
                 "starting_items": [],
                 "starting_skills": [],
-                "team": "other",
+                "team": "npc",
                 "ai": "None",
                 "roam_ai": "Wander",
                 "ai_group": "",
@@ -395,7 +386,7 @@
                 "faction": "Masa",
                 "starting_items": [],
                 "starting_skills": [],
-                "team": "other",
+                "team": "npc",
                 "ai": "None",
                 "roam_ai": "None",
                 "ai_group": "",
@@ -411,7 +402,7 @@
                 "faction": "Masa",
                 "starting_items": [],
                 "starting_skills": [],
-                "team": "other",
+                "team": "npc",
                 "ai": "None",
                 "roam_ai": "None",
                 "ai_group": "",
@@ -427,7 +418,7 @@
                 "faction": "Masa",
                 "starting_items": [],
                 "starting_skills": [],
-                "team": "other",
+                "team": "npc",
                 "ai": "None",
                 "roam_ai": "None",
                 "ai_group": "",
@@ -443,7 +434,7 @@
                 "faction": "Masa",
                 "starting_items": [],
                 "starting_skills": [],
-                "team": "other",
+                "team": "npc",
                 "ai": "None",
                 "roam_ai": "Wander",
                 "ai_group": "",
@@ -459,7 +450,7 @@
                 "faction": "Masa",
                 "starting_items": [],
                 "starting_skills": [],
-                "team": "other",
+                "team": "npc",
                 "ai": "None",
                 "roam_ai": "Wander",
                 "ai_group": "",
@@ -475,7 +466,7 @@
                 "faction": "Masa",
                 "starting_items": [],
                 "starting_skills": [],
-                "team": "other",
+                "team": "npc",
                 "ai": "None",
                 "roam_ai": "Wander",
                 "ai_group": "",
@@ -491,7 +482,7 @@
                 "faction": "Masa",
                 "starting_items": [],
                 "starting_skills": [],
-                "team": "other",
+                "team": "npc",
                 "ai": "None",
                 "roam_ai": "Wander",
                 "ai_group": "",
@@ -501,7 +492,7 @@
             },
             {
                 "nid": "Yarda",
-                "team": "other",
+                "team": "npc",
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
@@ -517,7 +508,7 @@
                 "faction": "Siegwang",
                 "starting_items": [],
                 "starting_skills": [],
-                "team": "other2",
+                "team": "npc2",
                 "ai": "None",
                 "roam_ai": "None",
                 "ai_group": "",
@@ -527,7 +518,7 @@
             },
             {
                 "nid": "Dehren",
-                "team": "other",
+                "team": "npc",
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
@@ -543,7 +534,7 @@
                 "faction": "Masa",
                 "starting_items": [],
                 "starting_skills": [],
-                "team": "other",
+                "team": "npc",
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
@@ -559,7 +550,7 @@
                 "faction": "Masa",
                 "starting_items": [],
                 "starting_skills": [],
-                "team": "other",
+                "team": "npc",
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
@@ -575,7 +566,7 @@
                 "faction": "Masa",
                 "starting_items": [],
                 "starting_skills": [],
-                "team": "other",
+                "team": "npc",
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
@@ -591,7 +582,7 @@
                 "faction": "Masa",
                 "starting_items": [],
                 "starting_skills": [],
-                "team": "other",
+                "team": "npc",
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
@@ -607,7 +598,7 @@
                 "faction": "Masa",
                 "starting_items": [],
                 "starting_skills": [],
-                "team": "other",
+                "team": "npc",
                 "ai": "None",
                 "roam_ai": "Wander",
                 "ai_group": "",
@@ -618,7 +609,7 @@
         ],
         "regions": [
             {
-                "nid": "fountain",
+                "nid": "Fountain",
                 "region_type": "event",
                 "position": [
                     39,
@@ -628,7 +619,7 @@
                     3,
                     3
                 ],
-                "sub_nid": "fountain_enter",
+                "sub_nid": "",
                 "condition": "",
                 "time_left": null,
                 "only_once": true,
@@ -645,7 +636,7 @@
                     1,
                     1
                 ],
-                "sub_nid": "house_serena",
+                "sub_nid": "",
                 "condition": "",
                 "time_left": null,
                 "only_once": true,
@@ -662,7 +653,7 @@
                     4,
                     1
                 ],
-                "sub_nid": "cathedral",
+                "sub_nid": "",
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
@@ -679,7 +670,7 @@
                     1,
                     2
                 ],
-                "sub_nid": "cathedral",
+                "sub_nid": "",
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
@@ -696,7 +687,7 @@
                     3,
                     1
                 ],
-                "sub_nid": "cathedral",
+                "sub_nid": "",
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
@@ -713,7 +704,7 @@
                     1,
                     1
                 ],
-                "sub_nid": "cathedral",
+                "sub_nid": "",
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
@@ -730,7 +721,7 @@
                     1,
                     3
                 ],
-                "sub_nid": "gate_west",
+                "sub_nid": "",
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
@@ -747,7 +738,7 @@
                     3,
                     1
                 ],
-                "sub_nid": "exit_north",
+                "sub_nid": "",
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
@@ -764,7 +755,7 @@
                     3,
                     1
                 ],
-                "sub_nid": "exit_north",
+                "sub_nid": "",
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
@@ -781,7 +772,7 @@
                     3,
                     1
                 ],
-                "sub_nid": "exit_south",
+                "sub_nid": "",
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
@@ -798,7 +789,7 @@
                     3,
                     1
                 ],
-                "sub_nid": "exit_south",
+                "sub_nid": "",
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
@@ -808,14 +799,14 @@
                 "nid": "TownSquare",
                 "region_type": "event",
                 "position": [
-                    33,
-                    6
+                    38,
+                    18
                 ],
                 "size": [
-                    14,
-                    13
+                    6,
+                    1
                 ],
-                "sub_nid": "enter_town_square",
+                "sub_nid": "",
                 "condition": "True",
                 "time_left": null,
                 "only_once": true,
@@ -997,7 +988,6 @@
             {
                 "nid": "Intro",
                 "units": [
-                    "Svetlanya",
                     "Kasuto",
                     "Event1",
                     "Clergy2",
@@ -1040,12 +1030,39 @@
                         3
                     ]
                 }
+            },
+            {
+                "nid": "Party",
+                "units": [
+                    "Svetlanya",
+                    "Serena",
+                    "Thanya"
+                ],
+                "positions": {
+                    "Svetlanya": [
+                        32,
+                        26
+                    ],
+                    "Serena": [
+                        40,
+                        26
+                    ],
+                    "Thanya": [
+                        41,
+                        26
+                    ]
+                }
             }
         ],
-        "ai_groups": []
+        "ai_groups": [
+            {
+                "nid": "",
+                "trigger_threshold": 1
+            }
+        ]
     },
     {
-        "nid": "_1_1",
+        "nid": "r1",
         "name": "Trade City Oestridel",
         "tilemap": "Trade City Oestridel",
         "bg_tilemap": null,
@@ -1190,11 +1207,31 @@
                 ],
                 "starting_traveler": null,
                 "generic": false
+            },
+            {
+                "nid": "Svetlanya",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Amaya",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
             }
         ],
         "regions": [
             {
-                "nid": "SW_Church",
+                "nid": "ChurchSW",
                 "region_type": "event",
                 "position": [
                     18,
@@ -1204,14 +1241,14 @@
                     3,
                     1
                 ],
-                "sub_nid": "Oestridel_Enter_SW_Church",
+                "sub_nid": "enter_church_sw",
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
                 "interrupt_move": true
             },
             {
-                "nid": "N_Church",
+                "nid": "ChurchN",
                 "region_type": "event",
                 "position": [
                     22,
@@ -1221,14 +1258,14 @@
                     4,
                     1
                 ],
-                "sub_nid": "Oestridel_Enter_North_Church",
+                "sub_nid": "enter_church_n",
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
                 "interrupt_move": true
             },
             {
-                "nid": "E_Church",
+                "nid": "ChurchE",
                 "region_type": "event",
                 "position": [
                     32,
@@ -1238,16 +1275,95 @@
                     1,
                     2
                 ],
-                "sub_nid": "Oestridel_Enter_East_Church",
+                "sub_nid": "enter_church_e",
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
                 "interrupt_move": true
+            },
+            {
+                "nid": "CityGate",
+                "region_type": "event",
+                "position": [
+                    0,
+                    10
+                ],
+                "size": [
+                    1,
+                    3
+                ],
+                "sub_nid": "leave_w",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "GardenDistrict",
+                "region_type": "event",
+                "position": [
+                    12,
+                    0
+                ],
+                "size": [
+                    3,
+                    1
+                ],
+                "sub_nid": "leave_nw",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "Riverside",
+                "region_type": "event",
+                "position": [
+                    39,
+                    0
+                ],
+                "size": [
+                    3,
+                    1
+                ],
+                "sub_nid": "leave_ne",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "LowtownW",
+                "region_type": "event",
+                "position": null,
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "leave_sw",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "LowtownE",
+                "region_type": "event",
+                "position": null,
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "leave_se",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
             }
         ],
         "unit_groups": [
             {
-                "nid": "Civilians",
+                "nid": "CentralOestridel",
                 "units": [
                     "101",
                     "102",
@@ -1259,38 +1375,21 @@
                 "positions": {}
             },
             {
-                "nid": "Masa",
+                "nid": "Cathedral",
                 "units": [],
                 "positions": {}
             },
             {
-                "nid": "Siegwang",
+                "nid": "Castle",
+                "units": [],
+                "positions": {}
+            },
+            {
+                "nid": "Party",
                 "units": [],
                 "positions": {}
             }
         ],
-        "ai_groups": []
-    },
-    {
-        "nid": "_1_2",
-        "name": "Oestridel Cathedral",
-        "tilemap": "Oestridel Church",
-        "bg_tilemap": null,
-        "party": "Svetlanya",
-        "music": {},
-        "objective": {
-            "simple": "Explore",
-            "win": "N/A",
-            "loss": "N/A"
-        },
-        "roam": true,
-        "roam_unit": "Svetlanya",
-        "go_to_overworld": false,
-        "should_record": true,
-        "tags": [],
-        "units": [],
-        "regions": [],
-        "unit_groups": [],
         "ai_groups": []
     },
     {

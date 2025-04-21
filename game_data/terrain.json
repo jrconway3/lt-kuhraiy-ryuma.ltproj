@@ -99,7 +99,7 @@
         ],
         "minimap": "Floor",
         "platform": "MetropolisStairs",
-        "background": "combat_castle3",
+        "background": "combat_outside_castle",
         "mtype": "Normal",
         "opaque": false,
         "status": null
