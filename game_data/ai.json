@@ -591,9 +591,9 @@
                 "action": "None",
                 "target": "None",
                 "target_spec": null,
-                "view_range": 0,
+                "view_range": 5,
                 "invert_targeting": false,
-                "roam_speed": 100,
+                "roam_speed": 20,
                 "desired_proximity": 5,
                 "condition": ""
             },

@@ -3559,8 +3559,9 @@
             "add_group;Party;Party;immediate",
             "add_group;FreeRoam;FreeRoam;immediate",
             "center_cursor;Svetlanya",
+            "wait;500",
             "show_layer;ch0;immediate",
-            "wait;200",
+            "show_layer;dr4_nadira;immediate",
             "t;open",
             "move_cursor;42,26",
             "flicker_cursor;Serena",
@@ -3604,7 +3605,7 @@
         "name": "RoamFountain",
         "trigger": "fountain_enter",
         "level_nid": "0",
-        "condition": "region.nid == 'CathedralN'",
+        "condition": "region.nid == 'Fountain'",
         "commands": [],
         "only_once": false,
         "priority": 20,
@@ -3637,20 +3638,23 @@
             "speak;Urso;Come now, I will not allow such unruly rabble within this city!",
             "speak;Svetlanya;Sir Urso, what rubbish has become of our marketplace?|Out with it at once, I demand you!",
             "mirror;Urso",
-            "speak;Urso;M-my lady! My deepest apologies, Lady Svetlanya.|The knights are working to resolve this dispute as swiftly as possible.|Need you worry not.",
-            "speak;Svetlanya;How incorrible! Await shall I for a quick resolution.",
+            "speak;Urso;M-my lady! Truly my deepest apologies, Lady Svetlanya.|The knights are working to resolve this dispute as swiftly as possible.|Need you worry not.",
+            "speak;Svetlanya;How pretentious! Await shall I for a quick resolution.",
             "speak;Urso;Thank you for your patience, my lady.",
             "remove_portrait;Urso",
             "speak;Serena;You need not be so harsh on him.|He's doing his best to resolve this dispute.|Come, let us give him a moment longer.",
-            "speak;Svetlanya;Blast... and here I thought we still had the rest of the day... Where has Yarda come off to, then?",
+            "speak;Svetlanya;Why must everything go wrong on this day...|Hoped I for a bit time longer together.|Yarda was supposed to meet us here! Where has she gone?",
             "speak;Serena;Did she return home?|Let's head to the Nadirah's Magicks, then.",
-            ""
+            "hide_layer;dr4_nadira;immediate",
+            "move_cursor;24,7;200",
+            "flicker_cursor;24,7",
+            "move_cursor;Svetlanya;200"
         ],
         "nid": "0 TalkUrso"
     },
     {
         "name": "RoamSquare",
-        "trigger": "enter_town_square",
+        "trigger": "roaming_interrupt",
         "level_nid": "0",
         "condition": "region.nid == 'TownSquare'",
         "commands": [],
@@ -3699,8 +3703,8 @@
         "nid": "0 RoamSetup"
     },
     {
-        "name": "TalkDehren",
-        "trigger": "on_talk",
+        "name": "Nadirahs",
+        "trigger": "roam_press_aux",
         "level_nid": "0",
         "condition": "unit.nid == 'Svetlanya' and unit2.nid == 'Dehren'",
         "commands": [],
@@ -3709,7 +3713,7 @@
         "_source": [
             ""
         ],
-        "nid": "0 TalkDehren"
+        "nid": "0 Nadirahs"
     },
     {
         "name": "CathedralSW",
