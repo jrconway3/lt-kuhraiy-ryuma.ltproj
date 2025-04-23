@@ -3190,7 +3190,7 @@
             "t;close",
             "music;Event - Legacy 2 (Suikoden 2, Reminiscence by Tak);100;no_warn",
             "add_unit;Kasuto;5,10;immediate",
-            "change_tilemap;Oestridel Church;reload",
+            "change_tilemap;Oestridel Church;0,0;Oestridel Church;reload",
             "change_background;lunar_bg06_cathedral",
             "add_unit;Svetlanya;4,3",
             "add_group;Intro;Intro;immediate",
@@ -3428,8 +3428,7 @@
         "only_once": true,
         "priority": 20,
         "_source": [
-            "spawn_group;Turn2;east;Turn2;fade;no_warn",
-            ""
+            "spawn_group;Turn2;east;Turn2;fade;no_warn"
         ],
         "nid": "0 Turn2"
     },
@@ -3538,7 +3537,7 @@
             "list = unit.nid + \"SpellbookList\"",
             "if game.get_data(list):",
             "    for spell in game.get_data(list):",
-            "        if not get_subitem(unit, spells, spell.Item) and int(spell.Wexp) <= unit.wexp[spell.Type]:",
+            "        if not get_subitem(unit, spells, spell.Item) and weapon_type != 'spell.Type' and int(spell.Wexp) <= unit.wexp[weapon_type]:",
             "            $add_item_to_multiitem unit.nid spells spell.Item,no_duplicate no_warn",
             "            $sound \"Item\"",
             "            $alert (unit.nid + \" has learned \" + spell.Item + \"!\") Item=spell.Item"
@@ -3555,7 +3554,7 @@
         "priority": 50,
         "_source": [
             "music;Town - Metropolis (Bumming Around in PixelTown by Eric Mattyas www.soundimage.org)",
-            "change_tilemap;Trade City Oestridel",
+            "change_tilemap;Trade City Oestridel;0,0;Trade City Oestridel;reload",
             "add_group;Party;Party;immediate",
             "add_group;FreeRoam;FreeRoam;immediate",
             "center_cursor;Svetlanya",
@@ -3603,7 +3602,7 @@
     },
     {
         "name": "RoamFountain",
-        "trigger": "fountain_enter",
+        "trigger": "roaming_interrupt",
         "level_nid": "0",
         "condition": "region.nid == 'Fountain'",
         "commands": [],
@@ -3648,7 +3647,9 @@
             "hide_layer;dr4_nadira;immediate",
             "move_cursor;24,7;200",
             "flicker_cursor;24,7",
-            "move_cursor;Svetlanya;200"
+            "move_cursor;Svetlanya;200",
+            "",
+            "set_wexp;Svetlanya;Aquis;181"
         ],
         "nid": "0 TalkUrso"
     },
@@ -3656,7 +3657,7 @@
         "name": "RoamSquare",
         "trigger": "roaming_interrupt",
         "level_nid": "0",
-        "condition": "region.nid == 'TownSquare'",
+        "condition": "region.nid == 'TownSquareS'",
         "commands": [],
         "only_once": true,
         "priority": 20,
@@ -3745,7 +3746,7 @@
         "name": "RoamCathedral",
         "trigger": "roaming_interrupt",
         "level_nid": "0",
-        "condition": "region.nid == 'CathedralN' || region.nid == 'CathedralSE' || region.nid == 'CathedralSW1' || region.nid == 'CathedralSW2'",
+        "condition": "region.nid == 'CathedralN' or region.nid == 'CathedralSE' or region.nid == 'CathedralSW1' or region.nid == 'CathedralSW2'",
         "commands": [],
         "only_once": false,
         "priority": 20,
@@ -3755,5 +3756,42 @@
             ""
         ],
         "nid": "0 RoamCathedral"
+    },
+    {
+        "name": "SpellbookLearnBak",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "#pyev1",
+            "",
+            "spells = \"Spellbook\"",
+            "",
+            "# get raw data",
+            "list = unit.nid + \"SpellbookList\"",
+            "if game.get_data(list):",
+            "    for spell in game.get_data(list):",
+            "        if not get_subitem(unit, spells, spell.Item) and int(spell.Wexp) <= unit.wexp[spell.Type]:",
+            "            $add_item_to_multiitem unit.nid spells spell.Item,no_duplicate no_warn",
+            "            $sound \"Item\"",
+            "            $alert (unit.nid + \" has learned \" + spell.Item + \"!\") Item=spell.Item"
+        ],
+        "nid": "Global SpellbookLearnBak"
+    },
+    {
+        "name": "New Event",
+        "trigger": "on_region_interact",
+        "level_nid": "0",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "alert;Does this work?"
+        ],
+        "nid": "0 New Event"
     }
 ]

@@ -611,7 +611,7 @@
     {
         "nid": "Adamant_Sword",
         "name": "Adamant Sword",
-        "desc": "A powerful and sturdy sword made of adamantium,\nthe strongest metal known to exist.",
+        "desc": "A mighty indestructable sword made of adamantium.",
         "icon_nid": "{Zelix} [WEP] FE13-FE14 Pack",
         "icon_index": [
             4,
@@ -2520,7 +2520,7 @@
     {
         "nid": "Cursed_Sword",
         "name": "Cursed Sword",
-        "desc": "Preferred by thieves. Inflicts a curse to damage both health and mana.",
+        "desc": "Inflicts a curse to damage both health and mana.",
         "icon_nid": "{EldritchA, Indogutsu Tenbuki} Tactics Ogre All Icons",
         "icon_index": [
             6,
@@ -2750,10 +2750,10 @@
         "nid": "LightningBlade",
         "name": "Lightning Blade",
         "desc": "Attack with Fulgus. Eff vs Daemons, Nephyliae.",
-        "icon_nid": "{Tactics Ogre LUCT, EldritchAbo, serebii01} Item Icon Sheet 1",
+        "icon_nid": "{EldritchA, Indogutsu Tenbuki} Tactics Ogre All Icons",
         "icon_index": [
-            3,
-            3
+            5,
+            1
         ],
         "components": []
     },
@@ -2761,10 +2761,10 @@
         "nid": "LightningBlade1",
         "name": "Lightning Blade",
         "desc": "Eff vs Queiza.",
-        "icon_nid": "{Beansy} {Swords} All Icons",
+        "icon_nid": "{EldritchA, Indogutsu Tenbuki} Tactics Ogre All Icons",
         "icon_index": [
-            3,
-            4
+            5,
+            1
         ],
         "components": [
             [
@@ -2863,10 +2863,10 @@
         "nid": "SteelRapier",
         "name": "Steel Rapier",
         "desc": "Damage = 1/2 Str+Int. Targets Avg Def/Res.\nIgnores Damage reduction of Dragons.",
-        "icon_nid": "{Zelix} FE11&13-style weapons",
+        "icon_nid": "{EldritchA, Indogutsu Tenbuki} Tactics Ogre All Icons",
         "icon_index": [
-            8,
-            0
+            10,
+            1
         ],
         "components": [
             [
@@ -2933,7 +2933,7 @@
         "nid": "MythrilRapier",
         "name": "Mythril Rapier",
         "desc": "Damage = 1/2 Str+Int. Targets Avg Def/Res.\nIgnores Damage reduction of Dragons.",
-        "icon_nid": "{Zane} All Icons",
+        "icon_nid": "{EldritchA, Indogutsu Tenbuki} Tactics Ogre All Icons",
         "icon_index": [
             11,
             1
@@ -2977,7 +2977,7 @@
             ],
             [
                 "battle_cast_anim",
-                "Fireball"
+                "Luna_proc"
             ],
             [
                 "wexp",
@@ -3003,10 +3003,10 @@
         "nid": "AdamantRapier",
         "name": "Adamant Rapier",
         "desc": "Damage = 1/2 Str+Int. Targets Avg Def/Res.\nIgnores Damage reduction of Dragons.",
-        "icon_nid": "{Zarg} All Icons",
+        "icon_nid": "{EldritchA, Indogutsu Tenbuki} Tactics Ogre All Icons",
         "icon_index": [
-            3,
-            0
+            14,
+            1
         ],
         "components": [
             [
@@ -3073,9 +3073,9 @@
         "nid": "Estoc",
         "name": "Sabre",
         "desc": "A lightweight soldier's sidearm.\nIgnores damage reduction from Armor and Dragons.",
-        "icon_nid": "{Peerless} FE9 Weapon Icons (Custom Palette)",
+        "icon_nid": "{EldritchA, Indogutsu Tenbuki} Tactics Ogre All Icons",
         "icon_index": [
-            2,
+            8,
             0
         ],
         "components": [
@@ -3156,10 +3156,10 @@
         "nid": "Cortaine",
         "name": "Cortaine",
         "desc": "Damage = 1/2 Str+Int. Targets Avg Def/Res.\nEff vs Lykons. Ignores Damage reduction of Dragons.",
-        "icon_nid": "{Peerless} FE9 Weapon Icons (Custom Palette)",
+        "icon_nid": "{EldritchA, Indogutsu Tenbuki} Tactics Ogre All Icons",
         "icon_index": [
-            3,
-            2
+            12,
+            0
         ],
         "components": [
             [
@@ -3196,312 +3196,13 @@
         ]
     },
     {
-        "nid": "Almace",
-        "name": "Almace",
-        "desc": "Adds Mag to Atk. Eff vs Lykons.\nIgnores Damage reduction of Dragons.",
-        "icon_nid": "{EldritchA, Indogutsu Tenbuki} Tactics Ogre All Icons",
-        "icon_index": [
-            12,
-            1
-        ],
-        "components": [
-            [
-                "prf_unit",
-                [
-                    "Svetlanya",
-                    "Serena"
-                ]
-            ],
-            [
-                "multi_item",
-                [
-                    "Almace1",
-                    "Fireball0"
-                ]
-            ],
-            [
-                "uses",
-                60
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
-                "status_on_hold",
-                "Ignis"
-            ]
-        ]
-    },
-    {
-        "nid": "Almace1",
-        "name": "Almace1",
-        "desc": "Adds Mag to Atk. Eff vs Lykons.\nIgnores Damage reduction of Dragons.",
-        "icon_nid": "[WEP] Pack 5 {Lisandra Brave}",
-        "icon_index": [
-            4,
-            1
-        ],
-        "components": [
-            [
-                "weapon",
-                null
-            ],
-            [
-                "target_enemy",
-                null
-            ],
-            [
-                "min_range",
-                1
-            ],
-            [
-                "max_range",
-                2
-            ],
-            [
-                "damage",
-                7
-            ],
-            [
-                "hit",
-                95
-            ],
-            [
-                "crit",
-                10
-            ],
-            [
-                "weight",
-                5
-            ],
-            [
-                "level_exp",
-                null
-            ],
-            [
-                "weapon_type",
-                "Sword"
-            ],
-            [
-                "effective_damage",
-                {
-                    "effective_tags": [
-                        "Lykon",
-                        "Gjin",
-                        "Wolf",
-                        "Dragon"
-                    ],
-                    "effective_multiplier": 1.0,
-                    "effective_bonus_damage": 14,
-                    "show_effectiveness_flash": true,
-                    "weapon_effectiveness_multiplied": true
-                }
-            ],
-            [
-                "battle_cast_anim",
-                "Fireball"
-            ],
-            [
-                "wexp",
-                2
-            ],
-            [
-                "alternate_damage_formula",
-                "MIXED_DAMAGE"
-            ],
-            [
-                "alternate_resist_formula",
-                "AVG_DEFENSE"
-            ]
-        ]
-    },
-    {
-        "nid": "Almacia",
-        "name": "Almacia",
-        "desc": "Royal blade of Omyrus. +5 Str/Int.\nEffective vs Lykons, Dragons.",
-        "icon_nid": "{Zelix} [WEP] FE13-FE14 Pack",
-        "icon_index": [
-            10,
-            0
-        ],
-        "components": [
-            [
-                "weapon",
-                null
-            ],
-            [
-                "target_enemy",
-                null
-            ],
-            [
-                "min_range",
-                1
-            ],
-            [
-                "max_range",
-                2
-            ],
-            [
-                "damage",
-                15
-            ],
-            [
-                "hit",
-                100
-            ],
-            [
-                "crit",
-                15
-            ],
-            [
-                "weight",
-                10
-            ],
-            [
-                "level_exp",
-                null
-            ],
-            [
-                "weapon_type",
-                "Sword"
-            ],
-            [
-                "effective_damage",
-                {
-                    "effective_tags": [
-                        "Lykon",
-                        "Gjin",
-                        "Wolf",
-                        "Dragon"
-                    ],
-                    "effective_multiplier": 1.0,
-                    "effective_bonus_damage": 14,
-                    "show_effectiveness_flash": true,
-                    "weapon_effectiveness_multiplied": true
-                }
-            ],
-            [
-                "locked",
-                null
-            ],
-            [
-                "battle_cast_anim",
-                "Flareblade"
-            ],
-            [
-                "prf_unit",
-                [
-                    "Svetlanya",
-                    "Serena",
-                    "Troia"
-                ]
-            ]
-        ]
-    },
-    {
-        "nid": "Galatine",
-        "name": "Galatine",
-        "desc": "Kitezh sacred treasure. Int+10.\nLake Lady only. Eff vs Dragons, Horses.",
-        "icon_nid": "{EldritchA, Indogutsu Tenbuki} Tactics Ogre All Icons",
-        "icon_index": [
-            15,
-            1
-        ],
-        "components": [
-            [
-                "weapon",
-                null
-            ],
-            [
-                "target_enemy",
-                null
-            ],
-            [
-                "level_exp",
-                null
-            ],
-            [
-                "damage",
-                16
-            ],
-            [
-                "hit",
-                90
-            ],
-            [
-                "weapon_type",
-                "Sword"
-            ],
-            [
-                "uses",
-                30
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
-                "weight",
-                9
-            ],
-            [
-                "status_on_equip",
-                "Resistance_Plus5"
-            ],
-            [
-                "crit",
-                0
-            ],
-            [
-                "min_range",
-                1
-            ],
-            [
-                "max_range",
-                1
-            ],
-            [
-                "effective_damage",
-                {
-                    "effective_tags": [
-                        "Dragon",
-                        "Horse"
-                    ],
-                    "effective_multiplier": 1.0,
-                    "effective_bonus_damage": 32,
-                    "show_effectiveness_flash": true,
-                    "weapon_effectiveness_multiplied": true
-                }
-            ],
-            [
-                "prf_class",
-                [
-                    "LakeLady"
-                ]
-            ],
-            [
-                "multi_item",
-                [
-                    "Deluge"
-                ]
-            ]
-        ]
-    },
-    {
         "nid": "Joyeuse",
         "name": "Joyeuse",
         "desc": "A prized weapon of House Lyudam. Amaya only.\nContains Light Magic. Eff vs armor and dragons.",
-        "icon_nid": "{Zelix} [WEP] FE13-FE14 Pack",
+        "icon_nid": "{EldritchA, Indogutsu Tenbuki} Tactics Ogre All Icons",
         "icon_index": [
-            14,
-            1
+            15,
+            0
         ],
         "components": [
             [
@@ -3583,13 +3284,312 @@
         ]
     },
     {
+        "nid": "Almace",
+        "name": "Almace",
+        "desc": "Adds Mag to Atk. Eff vs Lykons.\nIgnores Damage reduction of Dragons.",
+        "icon_nid": "{EldritchA, Indogutsu Tenbuki} Tactics Ogre All Icons",
+        "icon_index": [
+            10,
+            0
+        ],
+        "components": [
+            [
+                "prf_unit",
+                [
+                    "Svetlanya",
+                    "Serena"
+                ]
+            ],
+            [
+                "multi_item",
+                [
+                    "Almace1",
+                    "Fireball0"
+                ]
+            ],
+            [
+                "uses",
+                60
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "status_on_hold",
+                "Ignis"
+            ]
+        ]
+    },
+    {
+        "nid": "Almace1",
+        "name": "Almace1",
+        "desc": "Adds Mag to Atk. Eff vs Lykons.\nIgnores Damage reduction of Dragons.",
+        "icon_nid": "{EldritchA, Indogutsu Tenbuki} Tactics Ogre All Icons",
+        "icon_index": [
+            10,
+            0
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "damage",
+                7
+            ],
+            [
+                "hit",
+                95
+            ],
+            [
+                "crit",
+                10
+            ],
+            [
+                "weight",
+                5
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Sword"
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "Lykon",
+                        "Gjin",
+                        "Wolf",
+                        "Dragon"
+                    ],
+                    "effective_multiplier": 1.0,
+                    "effective_bonus_damage": 14,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
+            ],
+            [
+                "battle_cast_anim",
+                "Fireball"
+            ],
+            [
+                "wexp",
+                2
+            ],
+            [
+                "alternate_damage_formula",
+                "MIXED_DAMAGE"
+            ],
+            [
+                "alternate_resist_formula",
+                "AVG_DEFENSE"
+            ]
+        ]
+    },
+    {
+        "nid": "Almacia",
+        "name": "Almacia",
+        "desc": "Royal blade of Omyrus. +5 Str/Int.\nEffective vs Lykons, Dragons.",
+        "icon_nid": "{EldritchA, Indogutsu Tenbuki} Tactics Ogre All Icons",
+        "icon_index": [
+            10,
+            0
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "damage",
+                15
+            ],
+            [
+                "hit",
+                100
+            ],
+            [
+                "crit",
+                15
+            ],
+            [
+                "weight",
+                10
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Sword"
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "Lykon",
+                        "Gjin",
+                        "Wolf",
+                        "Dragon"
+                    ],
+                    "effective_multiplier": 1.0,
+                    "effective_bonus_damage": 14,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
+            ],
+            [
+                "locked",
+                null
+            ],
+            [
+                "battle_cast_anim",
+                "Flareblade"
+            ],
+            [
+                "prf_unit",
+                [
+                    "Svetlanya",
+                    "Serena",
+                    "Troia"
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Galatine",
+        "name": "Galatine",
+        "desc": "Kitezh sacred treasure. Int+10.\nLanquiz only. Eff vs Dragons, Horses.",
+        "icon_nid": "{EldritchA, Indogutsu Tenbuki} Tactics Ogre All Icons",
+        "icon_index": [
+            15,
+            1
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "damage",
+                16
+            ],
+            [
+                "hit",
+                90
+            ],
+            [
+                "weapon_type",
+                "Sword"
+            ],
+            [
+                "uses",
+                30
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "weight",
+                9
+            ],
+            [
+                "status_on_equip",
+                "Magic_Plus5"
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "Dragon",
+                        "Horse"
+                    ],
+                    "effective_multiplier": 1.0,
+                    "effective_bonus_damage": 32,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
+            ],
+            [
+                "prf_class",
+                [
+                    "LakeLady"
+                ]
+            ],
+            [
+                "multi_item",
+                [
+                    "Deluge"
+                ]
+            ]
+        ]
+    },
+    {
         "nid": "Bronze_Lance",
         "name": "Bronze Lance",
         "desc": "A simple lance made of bronze. Not particularly strong but doesn't break easily.",
-        "icon_nid": "{Zane} All Icons",
+        "icon_nid": "{Beansy} {Lances} All Icons",
         "icon_index": [
-            13,
-            2
+            2,
+            1
         ],
         "components": [
             [
@@ -3598,7 +3598,7 @@
             ],
             [
                 "value",
-                420
+                300
             ],
             [
                 "target_enemy",
@@ -3618,15 +3618,11 @@
             ],
             [
                 "hit",
-                85
-            ],
-            [
-                "crit",
-                5
+                90
             ],
             [
                 "weight",
-                4
+                10
             ],
             [
                 "level_exp",
@@ -3642,7 +3638,7 @@
             ],
             [
                 "uses",
-                30
+                60
             ],
             [
                 "uses_options",
@@ -3662,11 +3658,11 @@
     {
         "nid": "Iron_Lance",
         "name": "Iron Lance",
-        "desc": "",
-        "icon_nid": "Lance",
+        "desc": "An average lance made of iron.",
+        "icon_nid": "{Beansy} {Lances} All Icons",
         "icon_index": [
-            0,
-            0
+            3,
+            1
         ],
         "components": [
             [
@@ -3719,7 +3715,7 @@
             ],
             [
                 "uses",
-                45
+                50
             ],
             [
                 "uses_options",
@@ -3739,11 +3735,11 @@
     {
         "nid": "Steel_Lance",
         "name": "Steel Lance",
-        "desc": "",
-        "icon_nid": "Lance",
+        "desc": "A strong lance made of steel.",
+        "icon_nid": "{Beansy} {Lances} All Icons",
         "icon_index": [
-            0,
-            2
+            3,
+            3
         ],
         "components": [
             [
@@ -3760,7 +3756,7 @@
             ],
             [
                 "damage",
-                10
+                12
             ],
             [
                 "hit",
@@ -3772,11 +3768,11 @@
             ],
             [
                 "weapon_rank",
-                "S"
+                "D"
             ],
             [
                 "uses",
-                30
+                40
             ],
             [
                 "uses_options",
@@ -3787,7 +3783,7 @@
             ],
             [
                 "weight",
-                13
+                12
             ],
             [
                 "wexp",
@@ -3820,10 +3816,10 @@
     {
         "nid": "Mythril_Lance",
         "name": "Mythril Lance",
-        "desc": "",
-        "icon_nid": "Lance",
+        "desc": "A powerful and sturdy lance made of mythril.",
+        "icon_nid": "{Beansy} {Lances} All Icons",
         "icon_index": [
-            0,
+            1,
             3
         ],
         "components": [
@@ -3877,7 +3873,7 @@
             ],
             [
                 "uses",
-                20
+                30
             ],
             [
                 "uses_options",
@@ -3895,10 +3891,87 @@
         ]
     },
     {
-        "nid": "Toxin_Lance",
-        "name": "Toxin Lance",
-        "desc": "Poisons on contact",
-        "icon_nid": "Lance",
+        "nid": "Adamant_Lance",
+        "name": "Adamant Lance",
+        "desc": "A mighty indestructable lance made of adamantium.",
+        "icon_nid": "{Beansy} {Lances} All Icons",
+        "icon_index": [
+            3,
+            0
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "value",
+                1200
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "damage",
+                14
+            ],
+            [
+                "hit",
+                75
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "weight",
+                10
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Lance"
+            ],
+            [
+                "weapon_rank",
+                "A"
+            ],
+            [
+                "uses",
+                30
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "item_tags",
+                [
+                    "Mythril"
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Cursed_Lance",
+        "name": "Cursed Lance",
+        "desc": "Inflicts a curse to damage both health and mana.",
+        "icon_nid": "{Beansy} {Lances} All Icons",
         "icon_index": [
             0,
             4
@@ -3972,13 +4045,13 @@
         ]
     },
     {
-        "nid": "Killer_Lance",
-        "name": "Killer Lance",
-        "desc": "",
-        "icon_nid": "Lance",
+        "nid": "Glaive",
+        "name": "Glaive",
+        "desc": "High chance to deal fatal blows.",
+        "icon_nid": "{Zelix} [WEP] FE13-FE14 Pack",
         "icon_index": [
-            0,
-            6
+            10,
+            2
         ],
         "components": [
             [
@@ -4015,7 +4088,7 @@
             ],
             [
                 "weight",
-                9
+                11
             ],
             [
                 "level_exp",
@@ -4047,396 +4120,13 @@
         ]
     },
     {
-        "nid": "Corseque",
-        "name": "Corseque",
-        "desc": "A lightweight lance preferred by Avyons.",
-        "icon_nid": "Lance",
+        "nid": "Partisan",
+        "name": "Partisan",
+        "desc": "Eff vs cavalry.",
+        "icon_nid": "{Zane} All Icons",
         "icon_index": [
-            0,
-            1
-        ],
-        "components": [
-            [
-                "weapon",
-                null
-            ],
-            [
-                "value",
-                420
-            ],
-            [
-                "target_enemy",
-                null
-            ],
-            [
-                "min_range",
-                1
-            ],
-            [
-                "max_range",
-                1
-            ],
-            [
-                "damage",
-                4
-            ],
-            [
-                "hit",
-                85
-            ],
-            [
-                "crit",
-                5
-            ],
-            [
-                "weight",
-                4
-            ],
-            [
-                "level_exp",
-                null
-            ],
-            [
-                "weapon_type",
-                "Lance"
-            ],
-            [
-                "weapon_rank",
-                "E"
-            ],
-            [
-                "uses",
-                30
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
-                "item_tags",
-                [
-                    "Steel"
-                ]
-            ]
-        ]
-    },
-    {
-        "nid": "Javelin",
-        "name": "Javelin",
-        "desc": "",
-        "icon_nid": "Lance",
-        "icon_index": [
-            0,
-            8
-        ],
-        "components": [
-            [
-                "weapon",
-                null
-            ],
-            [
-                "value",
-                400
-            ],
-            [
-                "target_enemy",
-                null
-            ],
-            [
-                "min_range",
-                1
-            ],
-            [
-                "max_range",
-                2
-            ],
-            [
-                "damage",
-                6
-            ],
-            [
-                "hit",
-                65
-            ],
-            [
-                "crit",
-                0
-            ],
-            [
-                "weight",
-                11
-            ],
-            [
-                "level_exp",
-                null
-            ],
-            [
-                "weapon_type",
-                "Lance"
-            ],
-            [
-                "weapon_rank",
-                "E"
-            ],
-            [
-                "uses",
-                20
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
-                "item_tags",
-                [
-                    "Iron"
-                ]
-            ]
-        ]
-    },
-    {
-        "nid": "Short_Spear",
-        "name": "Short Spear",
-        "desc": "",
-        "icon_nid": "Lance",
-        "icon_index": [
-            0,
-            16
-        ],
-        "components": [
-            [
-                "weapon",
-                null
-            ],
-            [
-                "target_enemy",
-                null
-            ],
-            [
-                "level_exp",
-                null
-            ],
-            [
-                "damage",
-                9
-            ],
-            [
-                "hit",
-                60
-            ],
-            [
-                "weapon_type",
-                "Lance"
-            ],
-            [
-                "weapon_rank",
-                "C"
-            ],
-            [
-                "uses",
-                18
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
-                "weight",
-                12
-            ],
-            [
-                "crit",
-                0
-            ],
-            [
-                "value",
-                900
-            ],
-            [
-                "min_range",
-                1
-            ],
-            [
-                "max_range",
-                2
-            ],
-            [
-                "item_tags",
-                [
-                    "Steel"
-                ]
-            ]
-        ]
-    },
-    {
-        "nid": "Spear",
-        "name": "Spear",
-        "desc": "",
-        "icon_nid": "Lance",
-        "icon_index": [
-            0,
-            9
-        ],
-        "components": [
-            [
-                "weapon",
-                null
-            ],
-            [
-                "value",
-                9000
-            ],
-            [
-                "target_enemy",
-                null
-            ],
-            [
-                "min_range",
-                1
-            ],
-            [
-                "max_range",
-                2
-            ],
-            [
-                "damage",
-                12
-            ],
-            [
-                "hit",
-                70
-            ],
-            [
-                "crit",
-                5
-            ],
-            [
-                "weight",
-                10
-            ],
-            [
-                "level_exp",
-                null
-            ],
-            [
-                "weapon_type",
-                "Lance"
-            ],
-            [
-                "weapon_rank",
-                "B"
-            ],
-            [
-                "uses",
-                15
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
-                "item_tags",
-                [
-                    "Mythril"
-                ]
-            ]
-        ]
-    },
-    {
-        "nid": "Brave_Lance",
-        "name": "Brave Lance",
-        "desc": "Allows two consecutive hits.",
-        "icon_nid": "Lance",
-        "icon_index": [
-            0,
-            5
-        ],
-        "components": [
-            [
-                "weapon",
-                null
-            ],
-            [
-                "target_enemy",
-                null
-            ],
-            [
-                "level_exp",
-                null
-            ],
-            [
-                "damage",
-                10
-            ],
-            [
-                "hit",
-                70
-            ],
-            [
-                "weapon_type",
-                "Lance"
-            ],
-            [
-                "weapon_rank",
-                "B"
-            ],
-            [
-                "uses",
-                30
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
-                "brave",
-                null
-            ],
-            [
-                "weight",
-                14
-            ],
-            [
-                "crit",
-                0
-            ],
-            [
-                "value",
-                7500
-            ],
-            [
-                "min_range",
-                1
-            ],
-            [
-                "max_range",
-                1
-            ]
-        ]
-    },
-    {
-        "nid": "Horseslayer",
-        "name": "Horseslayer",
-        "desc": "Effective against horseback units",
-        "icon_nid": "Lance",
-        "icon_index": [
-            0,
-            7
+            12,
+            3
         ],
         "components": [
             [
@@ -4513,9 +4203,9 @@
         ]
     },
     {
-        "nid": "Heavy_Spear",
-        "name": "Heavy Spear",
-        "desc": "Effective against armored units",
+        "nid": "Voulge",
+        "name": "Voulge",
+        "desc": "Eff vs armor.",
         "icon_nid": "Lance",
         "icon_index": [
             0,
@@ -4536,7 +4226,7 @@
             ],
             [
                 "damage",
-                9
+                10
             ],
             [
                 "hit",
@@ -4548,11 +4238,11 @@
             ],
             [
                 "weapon_rank",
-                "D"
+                "C"
             ],
             [
                 "uses",
-                16
+                20
             ],
             [
                 "uses_options",
@@ -4598,7 +4288,7 @@
     {
         "nid": "Dragonspear",
         "name": "Dragonspear",
-        "desc": "Effective against dragon units",
+        "desc": "A strong lance designed to cleave\nthrough dragon scales.",
         "icon_nid": "Lance",
         "icon_index": [
             0,
@@ -4685,9 +4375,161 @@
         ]
     },
     {
+        "nid": "Naginata",
+        "name": "Naginata",
+        "desc": "A lightweight lance preferred by Avyons.",
+        "icon_nid": "{Zelix} [WEP] FE13-FE14 Pack",
+        "icon_index": [
+            10,
+            2
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "value",
+                1200
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "damage",
+                10
+            ],
+            [
+                "hit",
+                70
+            ],
+            [
+                "crit",
+                5
+            ],
+            [
+                "weight",
+                11
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Lance"
+            ],
+            [
+                "weapon_rank",
+                "C"
+            ],
+            [
+                "uses",
+                20
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "warning",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Corseque",
+        "name": "Corseque",
+        "desc": "A lightweight lance preferred by Avyons.",
+        "icon_nid": "{Celice} All Icons - FE9 Weapons",
+        "icon_index": [
+            6,
+            2
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "value",
+                400
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "damage",
+                6
+            ],
+            [
+                "hit",
+                85
+            ],
+            [
+                "crit",
+                5
+            ],
+            [
+                "weight",
+                4
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Lance"
+            ],
+            [
+                "weapon_rank",
+                "E"
+            ],
+            [
+                "uses",
+                30
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "item_tags",
+                [
+                    "Steel"
+                ]
+            ]
+        ]
+    },
+    {
         "nid": "Axereaver",
         "name": "Axereaver",
-        "desc": "Reverses the weapon triangle.",
+        "desc": "Strong against axes.",
         "icon_nid": "Lance",
         "icon_index": [
             0,
@@ -4760,6 +4602,731 @@
             [
                 "max_range",
                 1
+            ]
+        ]
+    },
+    {
+        "nid": "Brave_Lance",
+        "name": "Brave Lance",
+        "desc": "Allows two consecutive hits.",
+        "icon_nid": "Lance",
+        "icon_index": [
+            0,
+            5
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "damage",
+                10
+            ],
+            [
+                "hit",
+                70
+            ],
+            [
+                "weapon_type",
+                "Lance"
+            ],
+            [
+                "weapon_rank",
+                "B"
+            ],
+            [
+                "uses",
+                30
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "brave",
+                null
+            ],
+            [
+                "weight",
+                14
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "value",
+                7500
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ]
+        ]
+    },
+    {
+        "nid": "Ranseur",
+        "name": "Ranseur",
+        "desc": "Eff vs armor and cavalry.",
+        "icon_nid": "{AtelierLabs} All Icons",
+        "icon_index": [
+            1,
+            3
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "damage",
+                10
+            ],
+            [
+                "hit",
+                70
+            ],
+            [
+                "weapon_type",
+                "Lance"
+            ],
+            [
+                "weapon_rank",
+                "C"
+            ],
+            [
+                "uses",
+                20
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "weight",
+                14
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "value",
+                1200
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "Armor"
+                    ],
+                    "effective_multiplier": 1.0,
+                    "effective_bonus_damage": 18,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
+            ]
+        ]
+    },
+    {
+        "nid": "Javelin",
+        "name": "Javelin",
+        "desc": "Can be thrown to attack at range. Cannot double.",
+        "icon_nid": "Lance",
+        "icon_index": [
+            0,
+            8
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "value",
+                400
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "damage",
+                6
+            ],
+            [
+                "hit",
+                65
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "weight",
+                11
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Lance"
+            ],
+            [
+                "weapon_rank",
+                "E"
+            ],
+            [
+                "uses",
+                20
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "item_tags",
+                [
+                    "Iron"
+                ]
+            ],
+            [
+                "no_double",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Shockstick",
+        "name": "Shockstick",
+        "desc": "Lightning magic. Eff vs quieiza, armor.",
+        "icon_nid": "{Zelix} [WEP] FE13-FE14 Pack",
+        "icon_index": [
+            1,
+            3
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "value",
+                400
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "damage",
+                6
+            ],
+            [
+                "hit",
+                65
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "weight",
+                11
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Lance"
+            ],
+            [
+                "weapon_rank",
+                "E"
+            ],
+            [
+                "uses",
+                20
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "item_tags",
+                [
+                    "Iron"
+                ]
+            ],
+            [
+                "no_double",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Trident",
+        "name": "Trident",
+        "desc": "Water magic. Eff vs Chiylo, Horses",
+        "icon_nid": "{CamTech075} Pack 2 ",
+        "icon_index": [
+            3,
+            0
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "value",
+                400
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "damage",
+                6
+            ],
+            [
+                "hit",
+                65
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "weight",
+                11
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Lance"
+            ],
+            [
+                "weapon_rank",
+                "E"
+            ],
+            [
+                "uses",
+                20
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "item_tags",
+                [
+                    "Iron"
+                ]
+            ],
+            [
+                "no_double",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Short_Spear",
+        "name": "Short Spear",
+        "desc": "Can be thrown to attack at range. Cannot double.",
+        "icon_nid": "Lance",
+        "icon_index": [
+            0,
+            16
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "damage",
+                9
+            ],
+            [
+                "hit",
+                60
+            ],
+            [
+                "weapon_type",
+                "Lance"
+            ],
+            [
+                "weapon_rank",
+                "C"
+            ],
+            [
+                "uses",
+                18
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "weight",
+                15
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "value",
+                900
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "item_tags",
+                [
+                    "Steel"
+                ]
+            ],
+            [
+                "no_double",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Spear",
+        "name": "Spear",
+        "desc": "Can be thrown to attack at range. Cannot double.",
+        "icon_nid": "Lance",
+        "icon_index": [
+            0,
+            9
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "value",
+                1200
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "damage",
+                15
+            ],
+            [
+                "hit",
+                80
+            ],
+            [
+                "crit",
+                5
+            ],
+            [
+                "weight",
+                18
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Lance"
+            ],
+            [
+                "weapon_rank",
+                "B"
+            ],
+            [
+                "uses",
+                15
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "item_tags",
+                [
+                    "Mythril"
+                ]
+            ],
+            [
+                "no_double",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "MythrilSpear",
+        "name": "Mythril Spear",
+        "desc": "Can be thrown to attack at range. Cannot double.",
+        "icon_nid": "Lance",
+        "icon_index": [
+            0,
+            9
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "value",
+                9000
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "damage",
+                12
+            ],
+            [
+                "hit",
+                70
+            ],
+            [
+                "crit",
+                5
+            ],
+            [
+                "weight",
+                10
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Lance"
+            ],
+            [
+                "weapon_rank",
+                "B"
+            ],
+            [
+                "uses",
+                15
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "item_tags",
+                [
+                    "Mythril"
+                ]
+            ],
+            [
+                "no_double",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Ballam",
+        "name": "Ballam",
+        "desc": "Can be thrown to attack at range. Cannot double.\nEff vs armor and cavalry.",
+        "icon_nid": "Lance",
+        "icon_index": [
+            0,
+            9
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "value",
+                9000
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "damage",
+                12
+            ],
+            [
+                "hit",
+                70
+            ],
+            [
+                "crit",
+                5
+            ],
+            [
+                "weight",
+                20
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Lance"
+            ],
+            [
+                "weapon_rank",
+                "B"
+            ],
+            [
+                "uses",
+                15
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "item_tags",
+                [
+                    "Mythril"
+                ]
+            ],
+            [
+                "no_double",
+                null
             ]
         ]
     },
@@ -4854,9 +5421,9 @@
         ]
     },
     {
-        "nid": "Vidofnir",
-        "name": "Vidofnir",
-        "desc": "Defence +5. Effective against monsters",
+        "nid": "Rongomiant",
+        "name": "Rongomiant",
+        "desc": "Sacred lance of Avalon. Dex+10",
         "icon_nid": "Lance",
         "icon_index": [
             0,
@@ -4877,11 +5444,11 @@
             ],
             [
                 "damage",
-                15
+                11
             ],
             [
                 "hit",
-                85
+                80
             ],
             [
                 "weapon_type",
@@ -4904,11 +5471,11 @@
             ],
             [
                 "weight",
-                11
+                16
             ],
             [
                 "status_on_equip",
-                "Defense_Plus5"
+                "Skill_Plus5"
             ],
             [
                 "crit",
@@ -5063,6 +5630,12 @@
             [
                 "min_range",
                 1
+            ],
+            [
+                "prf_tags",
+                [
+                    "Holy"
+                ]
             ]
         ]
     },

@@ -152,18 +152,23 @@ Muramasa (Dark Knife by 2WB, Hanakko)
 ##### Lances
 
 ###### Lances
-Bronze Lance (Bronze Lance by Beansy)
-Iron Lance (Iron Lance by Beansy)
-Steel Lance (Steel Lance by Beansy)
-Mythril Lance (Vidofnir by Beansy)
-Dual Lances (Meisterlanze by Batima)
+Bronze Lance ( Lance by Beansy)
+Iron Lance ( Lance by Beansy)
+Steel Lance ( Lance by Beansy)
+Mythril Lance ( by Beansy)
+Adamant Lance ( by Beansy)
 Voulge (Lance 2 by MeatOfJustice)
 Glaive (Killing Lance by Zelix)
 Partisan (icon 212 by Zane)
-Corseque (Wing Spear by Batima)
-Ranseur (spear 3 by AteliaLabs)
 Axereaver (Icon Blitz 1 Axereaver by 2WB)
+Rhongomiant (Lance 10 - Celice)
+
+###### Polearms
+Shockstick (Shockstick - Batima)
 Naginata (icon 198 - Zelix)
+Corseque (Wing Spear by Batima)
+
+Brave Lance??? (Meisterlanze by Batima) (maybe remove this)
 
 ###### Javelins / Spears
 Javelin (lance 15 - Ereshkigal)
@@ -172,12 +177,13 @@ Spear (lance 17 - Ereshkigal)
 Ballam (lance 15 - Ereshkigal)
 
 ###### Tridents
+Ranseur (spear 3 by AteliaLabs)
 Trident (lance 17 - Celice)
-Rhongomiant (Lance 10 - Celice)
-Criorend (Icon Blitz 3 Lance - Gabriel Knight)
 
 ###### Rods / Staves
-Shockstick (Shockstick - Batima)
+Heal
+Mend
+Recover
 Thyrceus (Staff 4 by AtelierLabs)
 Miwata's Blessing ()
 
@@ -200,6 +206,9 @@ Hammer (Icon 063 by Zelix)
 Mallet (Hammer 2 by Ereshkigal )
 Warhammer (Hammer 12 by Ereshkigal)
 Skeggox (Axe 42 by Zane)
+Vidyudabhi (Axe 13 - Jubby)
+Myollnir (Mjollnir - Furious Haunter)
+Daikokuten (Golden Hammer - Mike)
 
 ###### Throwing Axes
 Hatchet (Throwing Axe - Zarg)
@@ -207,10 +216,10 @@ Hand Axe (Icon 078 - Zarg)
 Short Axe (Short Axe - Zarg)
 Tomahawk (Tomahawk - Zarg)
 
+# Scythes
+Criorend (Icon Blitz 3 Lance - Gabriel Knight)
+
 ###### Maces
-Vidyudabhi (Axe 13 - Jubby)
-Myollnir (Mjollnir - Furious Haunter)
-Daikokuten (Golden Hammer - Mike)
 
 
 ##### Bows
