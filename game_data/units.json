@@ -6,12 +6,7 @@
         "variant": "",
         "level": 1,
         "klass": "Lady",
-        "tags": [
-            "Lord",
-            "Dragon",
-            "Queiza",
-            "Gjin"
-        ],
+        "tags": [],
         "bases": {
             "LCK": 0,
             "CON": 0,
@@ -8074,7 +8069,7 @@
         "nid": "Shyara",
         "name": "Shyara",
         "desc": "Leader of a group of desert dwelling barbarian lykons. Admires her elder sister Fayza deeply.",
-        "variant": "",
+        "variant": "Female",
         "level": 4,
         "klass": "Myrmidon",
         "tags": [
@@ -8121,7 +8116,7 @@
         },
         "starting_items": [
             [
-                "Iron_Axe",
+                "Shamshir",
                 false
             ]
         ],
@@ -8130,7 +8125,7 @@
         "wexp_gain": {
             "Sword": [
                 false,
-                0,
+                71,
                 251
             ],
             "Lance": [
@@ -8140,7 +8135,7 @@
             ],
             "Axe": [
                 true,
-                31,
+                0,
                 251
             ],
             "Bow": [

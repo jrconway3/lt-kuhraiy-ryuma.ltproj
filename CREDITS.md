@@ -152,11 +152,11 @@ Muramasa (Dark Knife by 2WB, Hanakko)
 ##### Lances
 
 ###### Lances
-Bronze Lance ( Lance by Beansy)
-Iron Lance ( Lance by Beansy)
-Steel Lance ( Lance by Beansy)
-Mythril Lance ( by Beansy)
-Adamant Lance ( by Beansy)
+Bronze Lance (Bronze Lance Zelix)
+Iron Lance (Iron Lance by Zelix)
+Steel Lance (Steel Lance by Zelix)
+Mythril Lance (Mythril by Zelix)
+Adamant Lance (Adamant by Zelix)
 Voulge (Lance 2 by MeatOfJustice)
 Glaive (Killing Lance by Zelix)
 Partisan (icon 212 by Zane)
@@ -190,14 +190,14 @@ Miwata's Blessing ()
 ##### Axes
 
 ###### Simple Axes
-Bronze Axe (Icon Blitz 1 Axe 11 by George Reds)
-Iron Axe (Icon Blitz 1 Axe 12 by George Reds)
-Steel Axe (Icon Blitz 1 Axe 13 by George Reds)
-Mythril Axe (Icon Blitz 1 Axe 14 by George Reds)
-Dual Axes (Axe 3 by Meat of Justice)
+Bronze Axe (Bronze Axe by Zelix)
+Iron Axe (Iron Axe by Zelix)
+Steel Axe (Steel Axe by Zelix)
+Mythril Axe (Silver Axe by Zelix)
+Adamant Axe (Brave Axe by Zelix)
 Bardiche (Axe 5 by LordGlenn)
 Halberd (Halberd by Beansy)
-Swordreaver (Icon Blitz 1 Axe 15 by George Reds)
+Swordreaver (Swordreaver by Beansy)
 Frozen Axe (Icon Blitz 3 Axe - GabrielKnight)
 Stonecrusher (Tactics Ogre Axe 6 - EldritchAbomination, Indogutsu Tenbuki)
 

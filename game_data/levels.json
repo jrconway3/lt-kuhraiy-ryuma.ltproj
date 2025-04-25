@@ -30,7 +30,10 @@
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": null,
+                "starting_position": [
+                    32,
+                    26
+                ],
                 "starting_traveler": null,
                 "generic": false
             },
@@ -40,7 +43,10 @@
                 "ai": "None",
                 "roam_ai": "FollowSvetlanya",
                 "ai_group": "",
-                "starting_position": null,
+                "starting_position": [
+                    40,
+                    26
+                ],
                 "starting_traveler": null,
                 "generic": false
             },
@@ -50,7 +56,10 @@
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": null,
+                "starting_position": [
+                    41,
+                    26
+                ],
                 "starting_traveler": null,
                 "generic": false
             },
@@ -639,8 +648,8 @@
                 "sub_nid": "",
                 "condition": "",
                 "time_left": null,
-                "only_once": true,
-                "interrupt_move": true
+                "only_once": false,
+                "interrupt_move": false
             },
             {
                 "nid": "CathedralN",
@@ -887,10 +896,6 @@
                         38,
                         9
                     ],
-                    "lykon_g2": [
-                        22,
-                        12
-                    ],
                     "lykon_m1": [
                         9,
                         10
@@ -982,6 +987,10 @@
                     "zabos_g1": [
                         25,
                         2
+                    ],
+                    "lykon_g2": [
+                        22,
+                        12
                     ]
                 }
             },
@@ -1028,28 +1037,6 @@
                     "Cleric1": [
                         12,
                         3
-                    ]
-                }
-            },
-            {
-                "nid": "Party",
-                "units": [
-                    "Svetlanya",
-                    "Serena",
-                    "Thanya"
-                ],
-                "positions": {
-                    "Svetlanya": [
-                        32,
-                        26
-                    ],
-                    "Serena": [
-                        40,
-                        26
-                    ],
-                    "Thanya": [
-                        41,
-                        26
                     ]
                 }
             }
@@ -5264,7 +5251,7 @@
                 "team": "enemy",
                 "ai": "None",
                 "roam_ai": null,
-                "ai_group": null,
+                "ai_group": "",
                 "starting_position": [
                     2,
                     5
@@ -5277,10 +5264,10 @@
                 "team": "player",
                 "ai": "None",
                 "roam_ai": null,
-                "ai_group": null,
+                "ai_group": "",
                 "starting_position": [
-                    2,
-                    6
+                    5,
+                    4
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -5309,9 +5296,9 @@
                 "team": "enemy",
                 "ai": "None",
                 "roam_ai": null,
-                "ai_group": null,
+                "ai_group": "",
                 "starting_position": [
-                    4,
+                    5,
                     9
                 ],
                 "starting_traveler": null,
@@ -5322,10 +5309,10 @@
                 "team": "player",
                 "ai": "None",
                 "roam_ai": null,
-                "ai_group": null,
+                "ai_group": "",
                 "starting_position": [
-                    5,
-                    4
+                    2,
+                    6
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -5379,10 +5366,36 @@
                 "ai_group": null,
                 "starting_position": [
                     4,
-                    6
+                    3
                 ],
                 "starting_traveler": null,
                 "generic": true
+            },
+            {
+                "nid": "Leiland",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    2,
+                    3
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Serena",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    4,
+                    5
+                ],
+                "starting_traveler": null,
+                "generic": false
             }
         ],
         "regions": [
@@ -5400,7 +5413,7 @@
                 "sub_nid": "Armory",
                 "condition": "True",
                 "time_left": null,
-                "only_once": false,
+                "only_once": true,
                 "interrupt_move": false
             },
             {
@@ -5419,9 +5432,1075 @@
                 "time_left": null,
                 "only_once": true,
                 "interrupt_move": false
+            },
+            {
+                "nid": "Door2",
+                "region_type": "event",
+                "position": [
+                    7,
+                    2
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Door",
+                "condition": "True",
+                "time_left": null,
+                "only_once": true,
+                "interrupt_move": false
             }
         ],
         "unit_groups": [],
         "ai_groups": []
+    },
+    {
+        "nid": "DEBUG2",
+        "name": "DEBUG_ROAM",
+        "tilemap": "Trade City Oestridel",
+        "bg_tilemap": null,
+        "party": "Svetlanya",
+        "music": {
+            "player_phase": "Town - Metropolis (Bumming Around in PixelTown by Eric Mattyas www.soundimage.org)",
+            "enemy_phase": "Battle - Enemy (Suikoden, Army Advance by Pandan)",
+            "npc_phase": "(Act Raiser, Fillmore by Alusq)",
+            "player_battle": "Battle - Attack (Triangle Strategy, Combat - Destiny by Kaidras)",
+            "enemy_battle": "Battle - Defense (Triangle Strategy, Combat - Adversity by Kaidras)",
+            "boss_battle": "Boss - Minor (Riviera, Fierce Clash by ShinKuma)"
+        },
+        "objective": {
+            "simple": "Go Shopping!",
+            "win": "",
+            "loss": ""
+        },
+        "roam": true,
+        "roam_unit": "Svetlanya",
+        "go_to_overworld": false,
+        "should_record": false,
+        "tags": [],
+        "units": [
+            {
+                "nid": "Svetlanya",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    32,
+                    26
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Serena",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": "FollowSvetlanya",
+                "ai_group": "",
+                "starting_position": [
+                    40,
+                    26
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Thanya",
+                "team": "npc",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    41,
+                    26
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Leiland",
+                "team": "other",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Isabella",
+                "team": "other",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Amaya",
+                "team": "other",
+                "ai": "None",
+                "roam_ai": "None",
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Magne",
+                "team": "npc2",
+                "ai": "Guard",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "chiylo_merc1",
+                "variant": null,
+                "level": 1,
+                "klass": "Mercenary",
+                "faction": "Siegwang",
+                "starting_items": [
+                    [
+                        "Epee",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "npc2",
+                "ai": "AttackNoNPC",
+                "roam_ai": "None",
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "chiylo_sold1",
+                "variant": "Female",
+                "level": 1,
+                "klass": "Soldier",
+                "faction": "Siegwang",
+                "starting_items": [
+                    [
+                        "Iron_Lance",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "npc2",
+                "ai": "AttackNoNPC",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "chiylo_cav1",
+                "variant": "Female",
+                "level": 3,
+                "klass": "Cavalry",
+                "faction": "Siegwang",
+                "starting_items": [
+                    [
+                        "Javelin",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "npc2",
+                "ai": "AttackNoNPC",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "lykon_fight1",
+                "variant": null,
+                "level": 1,
+                "klass": "Fighter",
+                "faction": "Masa",
+                "starting_items": [
+                    [
+                        "Steel_Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "npc",
+                "ai": "AttackNoNPC",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "lykon_hunt1",
+                "variant": "Female",
+                "level": 1,
+                "klass": "Hunter",
+                "faction": "Masa",
+                "starting_items": [
+                    [
+                        "Steel_Bow",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "npc",
+                "ai": "AttackNoNPC",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "lykon_barb1",
+                "variant": null,
+                "level": 1,
+                "klass": "Barbarian",
+                "faction": "Masa",
+                "starting_items": [
+                    [
+                        "Iron_Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "npc",
+                "ai": "AttackNoNPC",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Urso",
+                "team": "npc",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Kasuto",
+                "team": "other",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Event1",
+                "variant": null,
+                "level": 1,
+                "klass": "Event",
+                "faction": "Wall",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Cleric1",
+                "team": "other",
+                "ai": "None",
+                "roam_ai": "None",
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Clergy2",
+                "variant": "Female",
+                "level": 1,
+                "klass": "Clergy",
+                "faction": "Masa",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Clergy3",
+                "variant": "Female",
+                "level": 1,
+                "klass": "Clergy",
+                "faction": "Masa",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Clergy4",
+                "variant": "Female",
+                "level": 1,
+                "klass": "Clergy",
+                "faction": "Masa",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Clergy5",
+                "variant": "",
+                "level": 1,
+                "klass": "Clergy",
+                "faction": "Masa",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "lykon_m1",
+                "variant": null,
+                "level": 1,
+                "klass": "Lykon",
+                "faction": "Masa",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "npc",
+                "ai": "None",
+                "roam_ai": "Wander",
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "lykon_m2",
+                "variant": null,
+                "level": 1,
+                "klass": "Lykon",
+                "faction": "Masa",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "npc",
+                "ai": "None",
+                "roam_ai": "None",
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "lykon_f1",
+                "variant": "Woman",
+                "level": 1,
+                "klass": "Lykon",
+                "faction": "Masa",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "npc",
+                "ai": "None",
+                "roam_ai": "Wander",
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "lykon_f2",
+                "variant": "Woman",
+                "level": 1,
+                "klass": "Lykon",
+                "faction": "Masa",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "npc",
+                "ai": "None",
+                "roam_ai": "None",
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "lykon_f3",
+                "variant": "Woman",
+                "level": 1,
+                "klass": "Lykon",
+                "faction": "Masa",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "npc",
+                "ai": "None",
+                "roam_ai": "None",
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "lykon_b1",
+                "variant": "Boy",
+                "level": 1,
+                "klass": "Lykon",
+                "faction": "Masa",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "npc",
+                "ai": "None",
+                "roam_ai": "None",
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "lykon_b2",
+                "variant": "Boy",
+                "level": 1,
+                "klass": "Lykon",
+                "faction": "Masa",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "npc",
+                "ai": "None",
+                "roam_ai": "Wander",
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "lykon_b3",
+                "variant": "Boy",
+                "level": 1,
+                "klass": "Lykon",
+                "faction": "Masa",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "npc",
+                "ai": "None",
+                "roam_ai": "Wander",
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "lykon_g1",
+                "variant": "Girl",
+                "level": 1,
+                "klass": "Lykon",
+                "faction": "Masa",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "npc",
+                "ai": "None",
+                "roam_ai": "Wander",
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "lykon_g2",
+                "variant": "Girl",
+                "level": 1,
+                "klass": "Lykon",
+                "faction": "Masa",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "npc",
+                "ai": "None",
+                "roam_ai": "Wander",
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Yarda",
+                "team": "npc",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "chiylo_brave",
+                "variant": null,
+                "level": 16,
+                "klass": "Brave",
+                "faction": "Siegwang",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "npc2",
+                "ai": "None",
+                "roam_ai": "None",
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Dehren",
+                "team": "npc",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "lykon_sargeant",
+                "variant": null,
+                "level": 16,
+                "klass": "Sergeant",
+                "faction": "Masa",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "npc",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "lykon_prior1",
+                "variant": "Staff",
+                "level": 1,
+                "klass": "Prior",
+                "faction": "Masa",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "npc",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "lykon_guard1",
+                "variant": "Staff",
+                "level": 1,
+                "klass": "Guard",
+                "faction": "Masa",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "npc",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "lykon_guard2",
+                "variant": "Staff",
+                "level": 1,
+                "klass": "Guard",
+                "faction": "Masa",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "npc",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "zabos_g1",
+                "variant": "Girl",
+                "level": 1,
+                "klass": "Lykon",
+                "faction": "Masa",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "npc",
+                "ai": "None",
+                "roam_ai": "Wander",
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            }
+        ],
+        "regions": [
+            {
+                "nid": "Fountain",
+                "region_type": "event",
+                "position": [
+                    39,
+                    12
+                ],
+                "size": [
+                    3,
+                    3
+                ],
+                "sub_nid": "",
+                "condition": "False",
+                "time_left": null,
+                "only_once": true,
+                "interrupt_move": true
+            },
+            {
+                "nid": "HouseSerena",
+                "region_type": "event",
+                "position": [
+                    46,
+                    25
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "House",
+                "condition": "",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "CathedralN",
+                "region_type": "event",
+                "position": [
+                    22,
+                    13
+                ],
+                "size": [
+                    4,
+                    1
+                ],
+                "sub_nid": "Cathedral",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "CathedralSE",
+                "region_type": "event",
+                "position": [
+                    32,
+                    25
+                ],
+                "size": [
+                    1,
+                    2
+                ],
+                "sub_nid": "Cathedral",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "CathedralSW1",
+                "region_type": "event",
+                "position": [
+                    18,
+                    24
+                ],
+                "size": [
+                    3,
+                    1
+                ],
+                "sub_nid": "Cathedral",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "CathedralSW2",
+                "region_type": "event",
+                "position": [
+                    21,
+                    26
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Cathedral",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "GateW",
+                "region_type": "event",
+                "position": [
+                    0,
+                    10
+                ],
+                "size": [
+                    1,
+                    3
+                ],
+                "sub_nid": "Gate",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "GateNW",
+                "region_type": "event",
+                "position": [
+                    12,
+                    0
+                ],
+                "size": [
+                    3,
+                    1
+                ],
+                "sub_nid": "Gate",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "GateNE",
+                "region_type": "event",
+                "position": [
+                    39,
+                    0
+                ],
+                "size": [
+                    3,
+                    1
+                ],
+                "sub_nid": "Gate",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "GateSE",
+                "region_type": "event",
+                "position": [
+                    39,
+                    29
+                ],
+                "size": [
+                    3,
+                    1
+                ],
+                "sub_nid": "Gate",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "GateSW",
+                "region_type": "event",
+                "position": [
+                    12,
+                    29
+                ],
+                "size": [
+                    3,
+                    1
+                ],
+                "sub_nid": "Gate",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "TownSquareS",
+                "region_type": "event",
+                "position": [
+                    39,
+                    19
+                ],
+                "size": [
+                    4,
+                    1
+                ],
+                "sub_nid": "",
+                "condition": "False",
+                "time_left": null,
+                "only_once": true,
+                "interrupt_move": true
+            }
+        ],
+        "unit_groups": [
+            {
+                "nid": "Turn2",
+                "units": [
+                    "Leiland",
+                    "Isabella",
+                    "Amaya"
+                ],
+                "positions": {
+                    "Leiland": [
+                        49,
+                        7
+                    ],
+                    "Amaya": [
+                        45,
+                        8
+                    ],
+                    "Isabella": [
+                        47,
+                        9
+                    ]
+                }
+            },
+            {
+                "nid": "FreeRoam",
+                "units": [
+                    "Magne",
+                    "chiylo_merc1",
+                    "chiylo_sold1",
+                    "chiylo_cav1",
+                    "lykon_fight1",
+                    "lykon_hunt1",
+                    "lykon_barb1",
+                    "Urso",
+                    "lykon_g2",
+                    "lykon_g1",
+                    "lykon_b3",
+                    "lykon_b2",
+                    "lykon_b1",
+                    "lykon_f3",
+                    "lykon_f2",
+                    "lykon_f1",
+                    "lykon_m2",
+                    "lykon_m1",
+                    "Cleric1",
+                    "lykon_sargeant",
+                    "Dehren",
+                    "chiylo_brave",
+                    "lykon_prior1",
+                    "lykon_guard1",
+                    "lykon_guard2",
+                    "zabos_g1"
+                ],
+                "positions": {
+                    "Svetlanya": [
+                        32,
+                        26
+                    ],
+                    "Serena": [
+                        40,
+                        26
+                    ],
+                    "Thanya": [
+                        41,
+                        26
+                    ],
+                    "Urso": [
+                        37,
+                        10
+                    ],
+                    "Magne": [
+                        38,
+                        9
+                    ],
+                    "lykon_m1": [
+                        9,
+                        10
+                    ],
+                    "lykon_m2": [
+                        43,
+                        10
+                    ],
+                    "lykon_f3": [
+                        45,
+                        10
+                    ],
+                    "lykon_b1": [
+                        36,
+                        17
+                    ],
+                    "lykon_b2": [
+                        7,
+                        26
+                    ],
+                    "lykon_b3": [
+                        15,
+                        4
+                    ],
+                    "Cleric1": [
+                        25,
+                        13
+                    ],
+                    "lykon_f1": [
+                        14,
+                        20
+                    ],
+                    "lykon_f2": [
+                        35,
+                        17
+                    ],
+                    "chiylo_merc1": [
+                        40,
+                        7
+                    ],
+                    "chiylo_sold1": [
+                        39,
+                        8
+                    ],
+                    "chiylo_cav1": [
+                        39,
+                        5
+                    ],
+                    "lykon_fight1": [
+                        36,
+                        13
+                    ],
+                    "lykon_hunt1": [
+                        34,
+                        12
+                    ],
+                    "lykon_barb1": [
+                        35,
+                        10
+                    ],
+                    "chiylo_brave": [
+                        43,
+                        6
+                    ],
+                    "Dehren": [
+                        24,
+                        8
+                    ],
+                    "lykon_sargeant": [
+                        13,
+                        29
+                    ],
+                    "lykon_prior1": [
+                        20,
+                        24
+                    ],
+                    "lykon_guard1": [
+                        40,
+                        29
+                    ],
+                    "lykon_guard2": [
+                        0,
+                        11
+                    ],
+                    "lykon_g1": [
+                        12,
+                        14
+                    ],
+                    "zabos_g1": [
+                        25,
+                        2
+                    ],
+                    "lykon_g2": [
+                        22,
+                        12
+                    ]
+                }
+            },
+            {
+                "nid": "Intro",
+                "units": [
+                    "Kasuto",
+                    "Event1",
+                    "Clergy2",
+                    "Clergy3",
+                    "Clergy4",
+                    "Clergy5",
+                    "Cleric1"
+                ],
+                "positions": {
+                    "Svetlanya": [
+                        4,
+                        3
+                    ],
+                    "Event1": [
+                        8,
+                        8
+                    ],
+                    "Kasuto": [
+                        4,
+                        12
+                    ],
+                    "Clergy2": [
+                        17,
+                        7
+                    ],
+                    "Clergy3": [
+                        1,
+                        11
+                    ],
+                    "Clergy5": [
+                        9,
+                        16
+                    ],
+                    "Clergy4": [
+                        19,
+                        15
+                    ],
+                    "Cleric1": [
+                        12,
+                        3
+                    ]
+                }
+            }
+        ],
+        "ai_groups": [
+            {
+                "nid": "",
+                "trigger_threshold": 1
+            }
+        ]
     }
 ]

@@ -241,7 +241,7 @@
         "name": "Alf",
         "desc": "An average civilian suffering from degradation.",
         "tier": 0,
-        "movement_group": "Lykon",
+        "movement_group": "Light Foot",
         "promotes_from": null,
         "turns_into": [],
         "tags": [],
@@ -617,15 +617,15 @@
                 0,
                 null
             ],
-            "Claw": [
-                false,
-                0,
-                null
-            ],
-            "Staff": [
+            "Runic": [
                 false,
                 0,
                 251
+            ],
+            "Shield": [
+                false,
+                0,
+                null
             ],
             "Armor": [
                 false,
@@ -641,6 +641,16 @@
                 false,
                 0,
                 null
+            ],
+            "Claw": [
+                false,
+                0,
+                null
+            ],
+            "Staff": [
+                false,
+                0,
+                251
             ],
             "Light": [
                 false,
@@ -691,11 +701,6 @@
                 false,
                 0,
                 251
-            ],
-            "Runic": [
-                false,
-                0,
-                251
             ]
         },
         "icon_nid": "Generic_Portrait_Citizen",
@@ -712,7 +717,7 @@
         "name": "Queiza",
         "desc": "An average queizan civilian.",
         "tier": 0,
-        "movement_group": "Lykon",
+        "movement_group": "Queiza",
         "promotes_from": null,
         "turns_into": [],
         "tags": [
@@ -851,15 +856,15 @@
                 0,
                 null
             ],
-            "Claw": [
-                false,
-                0,
-                null
-            ],
-            "Staff": [
+            "Runic": [
                 false,
                 0,
                 251
+            ],
+            "Shield": [
+                false,
+                0,
+                null
             ],
             "Armor": [
                 false,
@@ -875,6 +880,16 @@
                 false,
                 0,
                 null
+            ],
+            "Claw": [
+                false,
+                0,
+                null
+            ],
+            "Staff": [
+                false,
+                0,
+                251
             ],
             "Light": [
                 false,
@@ -925,11 +940,6 @@
                 false,
                 0,
                 251
-            ],
-            "Runic": [
-                false,
-                0,
-                251
             ]
         },
         "icon_nid": "Generic_Portrait_Citizen",
@@ -946,7 +956,7 @@
         "name": "Chiylo",
         "desc": "An average chiylo civilian.",
         "tier": 0,
-        "movement_group": "Lykon",
+        "movement_group": "Regular",
         "promotes_from": null,
         "turns_into": [],
         "tags": [
@@ -1085,15 +1095,15 @@
                 0,
                 null
             ],
-            "Claw": [
-                false,
-                0,
-                null
-            ],
-            "Staff": [
+            "Runic": [
                 false,
                 0,
                 251
+            ],
+            "Shield": [
+                false,
+                0,
+                null
             ],
             "Armor": [
                 false,
@@ -1109,6 +1119,16 @@
                 false,
                 0,
                 null
+            ],
+            "Claw": [
+                false,
+                0,
+                null
+            ],
+            "Staff": [
+                false,
+                0,
+                251
             ],
             "Light": [
                 false,
@@ -1156,11 +1176,6 @@
                 null
             ],
             "Magic": [
-                false,
-                0,
-                251
-            ],
-            "Runic": [
                 false,
                 0,
                 251
@@ -2442,7 +2457,7 @@
         "name": "Wolf Prince",
         "desc": "A distant heir to the Kingdom of Masa trained to ride upon a great wolf.\nRace: Lykon, Mount: Wolf",
         "tier": 2,
-        "movement_group": "Light Cav",
+        "movement_group": "Lykon",
         "promotes_from": null,
         "turns_into": [],
         "tags": [
@@ -2888,7 +2903,7 @@
         "nid": "Seiryuchi",
         "name": "Seiryuchi",
         "desc": "One who has inherited the power\nof a dragon of life.\nRace: Nordak",
-        "tier": 3,
+        "tier": 2,
         "movement_group": "Nordak",
         "promotes_from": "Tsuiho",
         "turns_into": [],
@@ -3353,7 +3368,7 @@
         "nid": "PirateLord",
         "name": "Pirate Lord",
         "desc": "Ruler of a gang of pirates.\nWields incredible power.\nRace: Queiza",
-        "tier": 3,
+        "tier": 2,
         "movement_group": "Heavy Cav",
         "promotes_from": "WaterLord",
         "turns_into": [],
@@ -3820,7 +3835,7 @@
         "nid": "Commander",
         "name": "Commander",
         "desc": "A lord and high ranked Commander of the Knights of Masa.\nRace: Alf, Mount: Horse",
-        "tier": 3,
+        "tier": 2,
         "movement_group": "Heavy Cav",
         "promotes_from": "KnightLord",
         "turns_into": [],
@@ -4403,15 +4418,15 @@
                 0,
                 null
             ],
-            "Claw": [
-                false,
-                0,
-                null
-            ],
-            "Staff": [
+            "Runic": [
                 true,
                 1,
                 251
+            ],
+            "Shield": [
+                false,
+                0,
+                null
             ],
             "Armor": [
                 false,
@@ -4427,6 +4442,16 @@
                 false,
                 0,
                 null
+            ],
+            "Claw": [
+                false,
+                0,
+                null
+            ],
+            "Staff": [
+                true,
+                1,
+                251
             ],
             "Light": [
                 true,
@@ -4449,11 +4474,6 @@
                 251
             ],
             "Magic": [
-                true,
-                1,
-                251
-            ],
-            "Runic": [
                 true,
                 1,
                 251
@@ -4610,15 +4630,15 @@
                 0,
                 null
             ],
-            "Claw": [
-                false,
-                0,
-                null
-            ],
-            "Staff": [
+            "Runic": [
                 true,
                 1,
                 251
+            ],
+            "Shield": [
+                false,
+                0,
+                null
             ],
             "Armor": [
                 false,
@@ -4634,6 +4654,16 @@
                 false,
                 0,
                 null
+            ],
+            "Claw": [
+                false,
+                0,
+                null
+            ],
+            "Staff": [
+                true,
+                1,
+                251
             ],
             "Light": [
                 true,
@@ -4659,11 +4689,6 @@
                 true,
                 1,
                 251
-            ],
-            "Runic": [
-                true,
-                1,
-                251
             ]
         },
         "icon_nid": "Generic_Portrait_Bishop",
@@ -4673,242 +4698,6 @@
         ],
         "map_sprite_nid": "Priestess",
         "combat_anim_nid": "Bishop",
-        "fields": []
-    },
-    {
-        "nid": "Dancer",
-        "name": "Dancer",
-        "desc": "Dancers whose powers revitalize\ntheir allies. Can fight, but not strong.\nRace: Zabos",
-        "tier": 3,
-        "movement_group": "Zabos",
-        "promotes_from": null,
-        "turns_into": [
-            "BladeDancer"
-        ],
-        "tags": [
-            "Zabos"
-        ],
-        "max_level": 40,
-        "bases": {
-            "LCK": 0,
-            "RES": 1,
-            "CON": 4,
-            "MOV": 5,
-            "STR": 1,
-            "HP": 14,
-            "MAG": 1,
-            "SKL": 2,
-            "SPD": 7,
-            "DEF": 0,
-            "MP": 0
-        },
-        "growths": {
-            "LCK": 70,
-            "RES": 13,
-            "CON": 0,
-            "MOV": 0,
-            "STR": 45,
-            "HP": 45,
-            "MAG": 45,
-            "SKL": 30,
-            "SPD": 60,
-            "DEF": 0,
-            "MP": 0
-        },
-        "growth_bonus": {
-            "LCK": 0,
-            "RES": 0,
-            "CON": 0,
-            "MOV": 0,
-            "STR": 0,
-            "HP": 0,
-            "MAG": 0,
-            "SKL": 0,
-            "SPD": 0,
-            "DEF": 0,
-            "MP": 0
-        },
-        "promotion": {
-            "LCK": 0,
-            "RES": 0,
-            "CON": 0,
-            "MOV": 0,
-            "STR": 0,
-            "HP": 0,
-            "MAG": 0,
-            "SKL": 0,
-            "SPD": 0,
-            "DEF": 0,
-            "MP": 0
-        },
-        "max_stats": {
-            "LCK": 30,
-            "RES": 20,
-            "CON": 20,
-            "MOV": 15,
-            "STR": 20,
-            "HP": 60,
-            "MAG": 20,
-            "SKL": 20,
-            "SPD": 20,
-            "DEF": 20,
-            "MP": 30
-        },
-        "learned_skills": [],
-        "wexp_gain": {
-            "Sword": [
-                true,
-                0,
-                251
-            ],
-            "Dagger": [
-                false,
-                0,
-                null
-            ],
-            "Lance": [
-                false,
-                0,
-                251
-            ],
-            "Axe": [
-                false,
-                0,
-                251
-            ],
-            "Bow": [
-                false,
-                0,
-                251
-            ],
-            "Solus": [
-                false,
-                0,
-                251
-            ],
-            "Lunis": [
-                true,
-                0,
-                251
-            ],
-            "Ignis": [
-                true,
-                0,
-                null
-            ],
-            "Ventus": [
-                false,
-                0,
-                null
-            ],
-            "Fulgus": [
-                false,
-                0,
-                null
-            ],
-            "Tellus": [
-                false,
-                0,
-                251
-            ],
-            "Glacies": [
-                false,
-                0,
-                null
-            ],
-            "Aquis": [
-                false,
-                0,
-                null
-            ],
-            "Claw": [
-                false,
-                0,
-                null
-            ],
-            "Staff": [
-                false,
-                0,
-                251
-            ],
-            "Armor": [
-                false,
-                0,
-                null
-            ],
-            "Default": [
-                false,
-                0,
-                251
-            ],
-            "Valuables": [
-                false,
-                0,
-                null
-            ],
-            "Light": [
-                false,
-                0,
-                251
-            ],
-            "Dark": [
-                false,
-                0,
-                251
-            ],
-            "Earth": [
-                false,
-                0,
-                251
-            ],
-            "Water": [
-                false,
-                0,
-                null
-            ],
-            "New_Weapon_Type_2": [
-                false,
-                0,
-                null
-            ],
-            "New Weapon Type_3": [
-                false,
-                0,
-                null
-            ],
-            "Anima": [
-                false,
-                0,
-                251
-            ],
-            "Ice": [
-                false,
-                0,
-                null
-            ],
-            "New_Weapon_Type_3": [
-                false,
-                0,
-                null
-            ],
-            "Magic": [
-                false,
-                0,
-                251
-            ],
-            "Runic": [
-                false,
-                0,
-                251
-            ]
-        },
-        "icon_nid": "Generic_Portrait_Citizen",
-        "icon_index": [
-            0,
-            0
-        ],
-        "map_sprite_nid": "Dancer",
-        "combat_anim_nid": null,
         "fields": []
     },
     {
@@ -5061,15 +4850,15 @@
                 0,
                 null
             ],
-            "Claw": [
-                false,
-                0,
-                null
-            ],
-            "Staff": [
+            "Runic": [
                 false,
                 0,
                 251
+            ],
+            "Shield": [
+                false,
+                0,
+                null
             ],
             "Armor": [
                 false,
@@ -5085,6 +4874,16 @@
                 false,
                 0,
                 null
+            ],
+            "Claw": [
+                false,
+                0,
+                null
+            ],
+            "Staff": [
+                false,
+                0,
+                251
             ],
             "Light": [
                 false,
@@ -5132,11 +4931,6 @@
                 null
             ],
             "Magic": [
-                false,
-                0,
-                251
-            ],
-            "Runic": [
                 false,
                 0,
                 251
@@ -5645,14 +5439,14 @@
             "LCK": 0,
             "CON": 8,
             "MOV": 5,
-            "RES": 1,
+            "RES": 4,
             "STR": 4,
             "HP": 16,
             "MAG": 2,
             "SKL": 9,
             "SPD": 10,
             "DEF": 2,
-            "MP": 0
+            "MP": 6
         },
         "growths": {
             "LCK": 30,
@@ -5665,7 +5459,7 @@
             "SKL": 40,
             "SPD": 40,
             "DEF": 15,
-            "MP": 0
+            "MP": 50
         },
         "growth_bonus": {
             "LCK": 0,
@@ -5754,8 +5548,8 @@
                 null
             ],
             "Fulgus": [
-                false,
-                0,
+                true,
+                1,
                 null
             ],
             "Tellus": [
@@ -5773,15 +5567,15 @@
                 0,
                 null
             ],
-            "Claw": [
-                false,
-                0,
-                null
-            ],
-            "Staff": [
+            "Runic": [
                 false,
                 0,
                 251
+            ],
+            "Shield": [
+                false,
+                0,
+                null
             ],
             "Armor": [
                 false,
@@ -5797,6 +5591,16 @@
                 false,
                 0,
                 null
+            ],
+            "Claw": [
+                false,
+                0,
+                null
+            ],
+            "Staff": [
+                false,
+                0,
+                251
             ],
             "Light": [
                 false,
@@ -5844,11 +5648,6 @@
                 null
             ],
             "Magic": [
-                false,
-                0,
-                251
-            ],
-            "Runic": [
                 false,
                 0,
                 251
@@ -11829,7 +11628,7 @@
             ],
             "Ventus": [
                 true,
-                0,
+                1,
                 null
             ],
             "Fulgus": [
@@ -11920,6 +11719,247 @@
         ],
         "map_sprite_nid": "Shaman",
         "combat_anim_nid": "Shaman",
+        "fields": []
+    },
+    {
+        "nid": "Dancer",
+        "name": "Dancer",
+        "desc": "Dancers whose powers revitalize\ntheir allies. Can fight, but not strong.\nRace: Zabos",
+        "tier": 1,
+        "movement_group": "Zabos",
+        "promotes_from": null,
+        "turns_into": [
+            "BladeDancer"
+        ],
+        "tags": [
+            "Zabos"
+        ],
+        "max_level": 20,
+        "bases": {
+            "LCK": 0,
+            "RES": 4,
+            "CON": 7,
+            "MOV": 5,
+            "STR": 3,
+            "HP": 14,
+            "MAG": 8,
+            "SKL": 2,
+            "SPD": 8,
+            "DEF": 2,
+            "MP": 12
+        },
+        "growths": {
+            "LCK": 65,
+            "RES": 13,
+            "CON": 0,
+            "MOV": 0,
+            "STR": 45,
+            "HP": 45,
+            "MAG": 70,
+            "SKL": 30,
+            "SPD": 75,
+            "DEF": 20,
+            "MP": 80
+        },
+        "growth_bonus": {
+            "LCK": 0,
+            "RES": 0,
+            "CON": 0,
+            "MOV": 0,
+            "STR": 0,
+            "HP": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
+            "MP": 0
+        },
+        "promotion": {
+            "LCK": 0,
+            "RES": 0,
+            "CON": 0,
+            "MOV": 0,
+            "STR": 0,
+            "HP": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
+            "MP": 0
+        },
+        "max_stats": {
+            "LCK": 30,
+            "RES": 20,
+            "CON": 20,
+            "MOV": 15,
+            "STR": 20,
+            "HP": 60,
+            "MAG": 20,
+            "SKL": 20,
+            "SPD": 20,
+            "DEF": 20,
+            "MP": 30
+        },
+        "learned_skills": [],
+        "wexp_gain": {
+            "Sword": [
+                true,
+                0,
+                251
+            ],
+            "Dagger": [
+                false,
+                0,
+                null
+            ],
+            "Lance": [
+                false,
+                0,
+                251
+            ],
+            "Axe": [
+                false,
+                0,
+                251
+            ],
+            "Bow": [
+                false,
+                0,
+                251
+            ],
+            "Solus": [
+                false,
+                0,
+                251
+            ],
+            "Lunis": [
+                false,
+                0,
+                251
+            ],
+            "Ignis": [
+                true,
+                31,
+                null
+            ],
+            "Ventus": [
+                true,
+                1,
+                null
+            ],
+            "Fulgus": [
+                true,
+                0,
+                null
+            ],
+            "Tellus": [
+                false,
+                0,
+                251
+            ],
+            "Glacies": [
+                false,
+                0,
+                null
+            ],
+            "Aquis": [
+                false,
+                0,
+                null
+            ],
+            "Runic": [
+                false,
+                0,
+                251
+            ],
+            "Shield": [
+                false,
+                0,
+                null
+            ],
+            "Armor": [
+                false,
+                0,
+                null
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ],
+            "Valuables": [
+                false,
+                0,
+                null
+            ],
+            "Claw": [
+                false,
+                0,
+                null
+            ],
+            "Staff": [
+                false,
+                0,
+                251
+            ],
+            "Light": [
+                false,
+                0,
+                251
+            ],
+            "Dark": [
+                false,
+                0,
+                251
+            ],
+            "Earth": [
+                false,
+                0,
+                251
+            ],
+            "Water": [
+                false,
+                0,
+                null
+            ],
+            "New_Weapon_Type_2": [
+                false,
+                0,
+                null
+            ],
+            "New Weapon Type_3": [
+                false,
+                0,
+                null
+            ],
+            "Anima": [
+                false,
+                0,
+                251
+            ],
+            "Ice": [
+                false,
+                0,
+                null
+            ],
+            "New_Weapon_Type_3": [
+                false,
+                0,
+                null
+            ],
+            "Magic": [
+                false,
+                0,
+                251
+            ]
+        },
+        "icon_nid": "Generic_Portrait_Citizen",
+        "icon_index": [
+            0,
+            0
+        ],
+        "map_sprite_nid": "Dancer",
+        "combat_anim_nid": null,
         "fields": []
     },
     {

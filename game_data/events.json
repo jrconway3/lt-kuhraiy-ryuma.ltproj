@@ -1707,10 +1707,17 @@
             "#level_var;_fog_of_war;1",
             "#level_var;_fog_of_war_radius;3",
             "#level_var;_ai_fog_of_war_radius;5",
-            "add_lore;Eirika",
+            "add_lore;Svetlanya",
             "add_base_convo;Dreams of Home",
             "add_weather;rain",
+            "set_wexp;Svetlanya;Aquis;30",
+            "give_skill;Svetlanya;Lanquiz;no_banner",
             "game_var;_supports;True",
+            "add_talk;Svetlanya;Amaya",
+            "add_talk;Svetlanya;Serena",
+            "add_talk;Svetlanya;Leiland",
+            "add_talk;Svetlanya;Shyara",
+            "hide_talk;Svetlanya;Shyara",
             "#trigger_script;Trigger",
             "base;Clearing",
             "#music;Attack;2000",
@@ -1832,18 +1839,22 @@
         "nid": "SS2 DestroyVillage3"
     },
     {
-        "name": "Turn2",
-        "trigger": "turn_change",
+        "name": "TalkShyara",
+        "trigger": "on_talk",
         "level_nid": "DEBUG",
-        "condition": "game.turncount == 2",
+        "condition": "unit1.nid == 'Svetlanya' and unit2.nid == 'Shyara'",
         "commands": [],
-        "only_once": false,
+        "only_once": true,
         "priority": 20,
         "_source": [
-            "change_team;Bone;player",
-            "game_var;EirikaSupport;True"
+            "multi_add_portrait;Svetlanya;Left;Shyara;Right",
+            "speak;Svetlanya;Please join us!",
+            "speak;Shyara;Very well...",
+            "change_team;Shyara;player",
+            "game_var;SvetlanyaSupport;True",
+            "remove_talk;Svetlanya;Shyara"
         ],
-        "nid": "DEBUG Turn2"
+        "nid": "DEBUG TalkShyara"
     },
     {
         "name": "Armory",
@@ -1855,7 +1866,7 @@
         "priority": 20,
         "_source": [
             "transition;Close",
-            "shop;{unit};Iron Sword,Slim Sword,Iron Lance,Slim Lance,Iron Axe;armory",
+            "shop;{unit};IronSword,Foil,BronzeLance,IronLance,IronAxe;armory",
             "transition;Open"
         ],
         "nid": "DEBUG Armory"
@@ -1887,7 +1898,7 @@
         "nid": "SS4 Rout"
     },
     {
-        "name": "Rout (1)",
+        "name": "Rout",
         "trigger": "combat_end",
         "level_nid": "DEBUG",
         "condition": "len(game.get_enemy_units()) == 0",
@@ -1897,7 +1908,7 @@
         "_source": [
             "win_game"
         ],
-        "nid": "DEBUG Rout (1)"
+        "nid": "DEBUG Rout"
     },
     {
         "name": "Door1",
@@ -1909,7 +1920,7 @@
         "priority": 20,
         "_source": [
             "unlock;{unit}",
-            "give_item;{unit};Iron Sword"
+            "give_item;{unit};IronSword"
         ],
         "nid": "DEBUG Door1"
     },
@@ -3004,9 +3015,9 @@
         "only_once": false,
         "priority": 20,
         "_source": [
-            "multi_add_portrait;Eirika;Left;Seth;Right",
+            "multi_add_portrait;Svetlanya;Left;Leiland;Right",
             "speak;Eirika;I miss home",
-            "multi_remove_portrait;Eirika;Seth"
+            "multi_remove_portrait;Svetlanya;Leiland"
         ],
         "nid": "DEBUG Dreams of Home"
     },
@@ -3038,9 +3049,9 @@
         "only_once": false,
         "priority": 20,
         "_source": [
-            "add_portrait;Eirika;Left",
+            "add_portrait;Svetlanya;Left",
             "speak;Eirika;This is a test",
-            "remove_portrait;Eirika"
+            "remove_portrait;Svetlanya"
         ],
         "nid": "DEBUG Trigger"
     },
@@ -3550,14 +3561,14 @@
         "level_nid": "0",
         "condition": "True",
         "commands": [],
-        "only_once": false,
+        "only_once": true,
         "priority": 50,
         "_source": [
             "music;Town - Metropolis (Bumming Around in PixelTown by Eric Mattyas www.soundimage.org)",
             "change_tilemap;Trade City Oestridel;0,0;Trade City Oestridel;reload",
-            "add_group;Party;Party;immediate",
+            "remove_group;Intro;immediate",
             "add_group;FreeRoam;FreeRoam;immediate",
-            "center_cursor;Svetlanya",
+            "center_cursor;Svetlanya;immediate",
             "wait;500",
             "show_layer;ch0;immediate",
             "show_layer;dr4_nadira;immediate",
@@ -3606,7 +3617,7 @@
         "level_nid": "0",
         "condition": "region.nid == 'Fountain'",
         "commands": [],
-        "only_once": false,
+        "only_once": true,
         "priority": 20,
         "_source": [
             "add_unit_map_anim;MapSurprise;Serena",
@@ -3619,7 +3630,7 @@
             "move_unit;Svetlanya;38,16",
             "move_unit;Serena;38,17",
             "show_layer;fountain_off",
-            "game_var;ch0_fountain;1"
+            "game_var;Ch0Fountain;1"
         ],
         "nid": "0 RoamFountain"
     },
@@ -3627,13 +3638,13 @@
         "name": "TalkUrso",
         "trigger": "on_talk",
         "level_nid": "0",
-        "condition": "unit.nid == 'Svetlanya' and unit2.nid == 'Urso'",
+        "condition": "unit2.nid == 'Urso'",
         "commands": [],
-        "only_once": false,
+        "only_once": true,
         "priority": 20,
         "_source": [
-            "multi_add_portrait;Svetlanya;CenterLeft;Serena;FarLeft;Urso;Right",
-            "mirror_portrait;Urso",
+            "multi_add_portrait;Svetlanya;CenterLeft;Serena;FarLeft",
+            "add_portrait;Urso;Right;mirror",
             "speak;Urso;Come now, I will not allow such unruly rabble within this city!",
             "speak;Svetlanya;Sir Urso, what rubbish has become of our marketplace?|Out with it at once, I demand you!",
             "mirror;Urso",
@@ -3648,8 +3659,9 @@
             "move_cursor;24,7;200",
             "flicker_cursor;24,7",
             "move_cursor;Svetlanya;200",
-            "",
-            "set_wexp;Svetlanya;Aquis;181"
+            "wait;100",
+            "remove_talk;Svetlanya;Urso",
+            "inc_game_var;Ch0Progress"
         ],
         "nid": "0 TalkUrso"
     },
@@ -3662,7 +3674,8 @@
         "only_once": true,
         "priority": 20,
         "_source": [
-            "multi_add_portrait;Svetlanya;Middle;Serena;Left",
+            "add_portrait;Svetlanya;MidLeft;normal;NoSmile;immediate",
+            "add_portrait;Serena;FarLeft;normal;Smile;immediate",
             "speak;Svetlanya;What meaning is this?|Why yet have these deliveries not been finished?",
             "speak;Serena;Seems there may be some kind of dispute.|Worry not, the knights shall deal with it.",
             "speak;Svetlanya;How utterly insolent!|Dreadfully it must seem but my favorite shop is blocked by this cargo.",
@@ -3682,14 +3695,15 @@
         "level_nid": "0",
         "condition": "True",
         "commands": [],
-        "only_once": false,
+        "only_once": true,
         "priority": 20,
         "_source": [
             "# Setup Talk Events",
             "add_talk;Svetlanya;Urso",
             "add_talk;Svetlanya;Magne",
             "add_talk;Svetlanya;Dehren",
-            "add_talk;Svetlanya;Dehren",
+            "add_talk;Svetlanya;lykon_g2",
+            "hide_talk;Svetlanya;lykon_g2",
             "",
             "# Setup Lore",
             "add_lore;Svetlanya",
@@ -3707,7 +3721,7 @@
         "name": "Nadirahs",
         "trigger": "roam_press_aux",
         "level_nid": "0",
-        "condition": "unit.nid == 'Svetlanya' and unit2.nid == 'Dehren'",
+        "condition": "unit2.nid == 'Dehren'",
         "commands": [],
         "only_once": false,
         "priority": 20,
@@ -3731,16 +3745,16 @@
     },
     {
         "name": "RoamMenu",
-        "trigger": "roam_press_start",
-        "level_nid": null,
+        "trigger": "roam_press_info",
+        "level_nid": "DEBUG2",
         "condition": "True",
         "commands": [],
         "only_once": false,
         "priority": 20,
         "_source": [
-            "main_menu;no_warn"
+            "base;default_background;show_map"
         ],
-        "nid": "Global RoamMenu"
+        "nid": "DEBUG2 RoamMenu"
     },
     {
         "name": "RoamCathedral",
@@ -3753,7 +3767,33 @@
         "_source": [
             "#pyev1",
             "",
-            ""
+            "if region.nid == 'CathedralN':",
+            "    $add_portrait unit1 \"Left\"",
+            "    $add_portrait \"Cleric1\" \"Right\"",
+            "    $s \"Cleric1\" \"Lady Svetlanya, a cleansing is currently in session. Please come again some other time.\"",
+            "    $s \"Svetlanya\" \"I was simply passing by.\"",
+            "    $move_unit unit1 \"24,12\"",
+            "elif region.nid == 'CathedralSE':",
+            "    $add_portrait unit1 \"Left\"",
+            "    $s \"Svetlanyna\" \"Rather not would I desire to return this time...|Mayhaps another day.\"",
+            "    $move_unit unit1 \"33,26\"",
+            "elif region.nid == 'CathedralSW1' or region.nid == 'CathedralSW2':",
+            "    $add_portrait \"Svetlanya\" \"Left\"",
+            "    if region.nid == 'CathedralSW1':",
+            "        $add_portrait \"XVI_Kieth\" \"Right\"",
+            "        $s \"XVI_Kieth\" \"Ah, if it isn't Lady Svetlanya. We are currently in the middle of a ritual cleansing now. Might you return another time?\"",
+            "        $s \"Svetlanya\" \"Father, I am seeking my dear handmaiden.|Where is the High Priestess?\"",
+            "        $s \"XVI_Kieth\" \"Oh, indeed. Sister Kasuto was tending to other business. I shall ask her.\"",
+            "        $move_unit \"lykon_prior1\" \"21,26\"",
+            "        $sound \"Unlock\"",
+            "        $remove_unit \"lykon_prior1\", fade",
+            "        $wait 200",
+            "    elif region.nid == 'CathedralSW2':",
+            "        $s unit1 \"'Tis locked, but such is not unusual.\"",
+            "        $move_unit \"lykon_prior1\" \"20,25\"",
+            "        $add_portrait \"XVI_Kieth\" \"Right\"",
+            "        $s \"XVI_Kieth\" \"High Priestess Kasuto is in a meeting right now.|Did you wish to set an appointment?\"",
+            "        "
         ],
         "nid": "0 RoamCathedral"
     },
@@ -3782,16 +3822,236 @@
         "nid": "Global SpellbookLearnBak"
     },
     {
-        "name": "New Event",
-        "trigger": "on_region_interact",
+        "name": "TalkNPC",
+        "trigger": "roam_press_select",
         "level_nid": "0",
+        "condition": "unit2 != None and unit2.nid != 'Serena'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "#pyev1",
+            "",
+            "if unit2.nid == 'Urso':",
+            "    $add_portrait \"Urso\" \"Right\"",
+            "    $speak \"Urso\" \"Apologies milady. I assure you, the Knights of Oestridel shall deal with this promptly.\"",
+            "elif unit2.nid == 'Magne':",
+            "    $add_portrait \"Magne\" \"Right\"",
+            "    $speak \"Magne\" \"Lady Svetlanya,  please deal with your rubbish so we may get on with this!\"",
+            "elif unit2.nid == 'Dehren':",
+            "    $add_portrait \"Dehren\" \"Right\"",
+            "    if game.level_vars['Ch0Progress'] < 3:",
+            "        $speak \"Dehren\" \"Sister Kasuto should know where Yarda went.\"",
+            "    else:",
+            "        $speak \"Dehren\" \"Please be safe, Yarda...\"",
+            "elif unit2.nid == 'Kasuto':",
+            "    $add_portrait \"Kasuto\" \"Right\"",
+            "    ",
+            "elif unit2.nid == 'lykon_barb1':",
+            "    $add_portrait \"Bandit1\" \"Right\"",
+            "    $speak \"Bandit1\" \"Damned goblins... never signed up for dealing with this!\"",
+            "elif unit2.nid == 'lykon_hunt1':",
+            "    $speak \"Huntress\" \"Heard much have I bout the big city...|Much preferred the forests are to me.|C'mon already, let's just get this over with!|I've got pups back at home to feed...\""
+        ],
+        "nid": "0 TalkNPC"
+    },
+    {
+        "name": "TalkMagne",
+        "trigger": "on_talk",
+        "level_nid": "0",
+        "condition": "unit2.nid == 'Magne'",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Magne;Right",
+            "speak;Magne;Damned sister! Why must I deal with such barbaric beasts!",
+            "add_portrait;Svetlanya;Left",
+            "speak;Svetlanya;Dare you say that again, young Lord Magne!|These are my people you speak so ill of!",
+            "speak;Magne;Lady Svetlanya, beast sympathizer... or perhaps you are but beast in fair form.",
+            "speak;Svetlanya;Wonder not why they call you Goblins!|Disgust me you do, indeed.|Perhaps I shall inform Lady Isabella about your foul verbiage?",
+            "speak;Magne;Enough! You win, Lana.|But do you well to end this mess as soon as possible.|These foreign barbarians are holding up our morning trade in the market.",
+            "speak;Svetlanya;Mayhaps you insulted them so they refuse to work with you longer still!|Very thee well, I shall speak to Sir Urso about this.",
+            "remove_portrait;Svetlanya",
+            "speak;Magne;Why did I have to be stuck working with such rabble? Bah!",
+            "wait;100",
+            "remove_talk;Svetlanya;Magne"
+        ],
+        "nid": "0 TalkMagne"
+    },
+    {
+        "name": "TalkDehren2",
+        "trigger": "on_talk",
+        "level_nid": "0",
+        "condition": "unit2.nid == 'Dehren'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "",
+            "s;Dehren;Please be safe, Yarda...",
+            "remove_talk;Svetlanya;Dehren"
+        ],
+        "nid": "0 TalkDehren2"
+    },
+    {
+        "name": "TalkLykonGirl",
+        "trigger": "on_talk",
+        "level_nid": "0",
+        "condition": "unit2.nid == 'lykon_g2'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "speak;Little Girl;I've seen a little girl by the magic shop!|I tried to speak with her, but momma says I can't play with mongrels...|But, like, what's a \"mongrel\"",
+            "add_lore;Mongrel"
+        ],
+        "nid": "0 TalkLykonGirl"
+    },
+    {
+        "name": "Door2",
+        "trigger": "Door",
+        "level_nid": "DEBUG",
+        "condition": "region.nid == 'Door2'",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "unlock;{unit}",
+            "give_item;{unit};AquisTome",
+            "set_wexp;Svetlanya;Aquis;70"
+        ],
+        "nid": "DEBUG Door2"
+    },
+    {
+        "name": "TalkLeiland",
+        "trigger": "on_talk",
+        "level_nid": "DEBUG",
+        "condition": "unit1.nid == 'Svetlanya' and unit2.nid == 'Leiland'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "multi_add_portrait;Svetlanya;Left;Leiland;Right",
+            "speak;Svetlanya;How fares thee, dearest brother?",
+            "speak;Leiland;Well enough indeed, sister.",
+            "hide_talk;Svetlanya;Leiland"
+        ],
+        "nid": "DEBUG TalkLeiland"
+    },
+    {
+        "name": "TalkAmaya",
+        "trigger": "on_talk",
+        "level_nid": "DEBUG",
+        "condition": "unit1.nid == 'Svetlanya' and unit2.nid == 'Amaya'",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "multi_add_portrait;Svetlanya;Left;Amaya;Right",
+            "speak;Amaya;Have you been training your magicks? Here, mother aspired me to give this to you.",
+            "give_item;Svetlanya;AquisTome",
+            "set_wexp;Svetlanya;Aquis;70",
+            "speak;Svetlanya;Yes, truly do I understand now!",
+            "remove_talk;Svetlanya;Amaya"
+        ],
+        "nid": "DEBUG TalkAmaya"
+    },
+    {
+        "name": "TalkSerena",
+        "trigger": "on_talk",
+        "level_nid": "DEBUG",
+        "condition": "unit1.nid == 'Svetlanya' and unit2.nid == 'Serena'",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "multi_add_portrait;Svetlanya;Left;Serena;Right",
+            "speak;Serena;You should wield this blade, not I.",
+            "give_item;Svetlanya;Almace",
+            "speak;Svetlanya;Thank you, dear Serena.",
+            "remove_talk;Svetlanya;Serena"
+        ],
+        "nid": "DEBUG TalkSerena"
+    },
+    {
+        "name": "Init",
+        "trigger": "level_start",
+        "level_nid": "DEBUG2",
         "condition": "True",
         "commands": [],
         "only_once": false,
         "priority": 20,
         "_source": [
-            "alert;Does this work?"
+            "add_group;FreeRoam;FreeRoam;immediate",
+            "center_cursor;Svetlanya;immediate",
+            "change_party;Serena;Shayala",
+            "show_layer;ch0;immediate",
+            "show_layer;dr4_nadira;immediate",
+            "",
+            "# Setup Talk Events",
+            "add_talk;Svetlanya;Thanya",
+            "hide_talk;Svetlanya;Thanya",
+            "add_talk;Svetlanya;Urso",
+            "add_talk;Svetlanya;Magne",
+            "add_talk;Svetlanya;Dehren",
+            "add_talk;Svetlanya;lykon_fight1",
+            "add_talk;Svetlanya;lykon_g2",
+            "hide_talk;Svetlanya;lykon_g2",
+            "",
+            "# Setup Lore",
+            "add_lore;Svetlanya",
+            "add_lore;Kasuto",
+            "add_lore;Gaeya",
+            "add_lore;Queiza",
+            "add_lore;Serena",
+            "add_lore;Thanya",
+            "add_lore;Queiza",
+            "alert;Svetlanya's Diary is now available!"
         ],
-        "nid": "0 New Event"
+        "nid": "DEBUG2 Init"
+    },
+    {
+        "name": "StartBattle",
+        "trigger": "on_talk",
+        "level_nid": "DEBUG2",
+        "condition": "unit2.nid == 'lykon_fight1'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Bandit1;Left",
+            "speak;Bandit1;Damned goblin! Away with you!",
+            "change_team;Urso;other",
+            "change_team;lykon_fight1;enemy",
+            "change_team;lykon_hunt1;enemy",
+            "change_team;lykon_barb1;enemy",
+            "change_team;chiylo_merc1;enemy2",
+            "change_team;chiylo_sold1;enemy2",
+            "change_team;chiylo_cav1;enemy2",
+            "change_team;Magne;enemy2",
+            "change_roaming;false",
+            "remove_unit;chiylo_brave"
+        ],
+        "nid": "DEBUG2 StartBattle"
+    },
+    {
+        "name": "TalkThanya",
+        "trigger": "on_talk",
+        "level_nid": "DEBUG2",
+        "condition": "unit2.nid == 'Thanya'",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "multi_add_portrait;Svetlanya;Left;Thanya;Right",
+            "speak;Svetlanya;Come along now, dear Thanya!",
+            "speak;Thanya;Very well, Lady Lana.",
+            "change_party;Thanya;Svetlanya",
+            "change_team;Thanya;player",
+            "change_roam_ai;Thanya;FollowSvetlanya",
+            "remove_talk;Svetlanya;Thanya"
+        ],
+        "nid": "DEBUG2 TalkThanya"
     }
 ]

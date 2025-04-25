@@ -530,6 +530,35 @@
         ]
     },
     {
+        "nid": "Lanquiz",
+        "name": "Lanquiz",
+        "desc": "Hidden. Changes move type to Lanquiz.",
+        "icon_nid": "{ZessDynamite, Rainlash, LordGlenn, Suneohair, JaidynReiman} Complete Skill Icon Sheet",
+        "icon_index": [
+            10,
+            42
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "movement_type",
+                "Queiza"
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "MOV",
+                        99
+                    ]
+                ]
+            ]
+        ]
+    },
+    {
         "nid": "Armor",
         "name": "Armor",
         "desc": "Negates effective damage except armor, mounts.\nDamage taken reduced by 25%.",

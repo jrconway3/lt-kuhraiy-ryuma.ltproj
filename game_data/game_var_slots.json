@@ -72,7 +72,7 @@
         "desc": "Holds the most recent choice made by the player using choice event."
     },
     {
-        "nid": "ch0_fountain",
-        "desc": "Prologue - Svetlanya entered the fountain. Changes dialogue later if she did."
+        "nid": "Ch0Progress",
+        "desc": "Progress of Main Story in Prologue. 3 Units must be talked to before the battle begins."
     }
 ]
