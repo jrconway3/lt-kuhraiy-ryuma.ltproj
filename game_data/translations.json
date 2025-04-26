@@ -386,5 +386,17 @@
     {
         "nid": "MANA_desc",
         "text": "Current Mana points. Compare this to your Max MP on the left."
+    },
+    {
+        "nid": "Codex",
+        "text": "Codex"
+    },
+    {
+        "nid": "Library",
+        "text": "Diary"
+    },
+    {
+        "nid": "Guide",
+        "text": "Credits"
     }
 ]

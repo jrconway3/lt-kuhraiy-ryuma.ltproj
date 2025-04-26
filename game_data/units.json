@@ -2360,7 +2360,7 @@
         "desc": "A young man who abandoned home and country. Wields a terrible power in his hands.",
         "variant": "",
         "level": 5,
-        "klass": "Myrmidon",
+        "klass": "Nomad",
         "tags": [],
         "bases": {
             "LCK": 0,
@@ -2638,7 +2638,7 @@
         "desc": "Admiral Alder's widow, she has gone mad from the grief of the loss of her family. Lady Jezolda's twin sister.",
         "variant": "Female",
         "level": 11,
-        "klass": "WaterLady",
+        "klass": "LakeLady",
         "tags": [],
         "bases": {
             "LCK": 0,
@@ -8071,7 +8071,7 @@
         "desc": "Leader of a group of desert dwelling barbarian lykons. Admires her elder sister Fayza deeply.",
         "variant": "Female",
         "level": 4,
-        "klass": "Myrmidon",
+        "klass": "Nomad",
         "tags": [
             "Boss"
         ],

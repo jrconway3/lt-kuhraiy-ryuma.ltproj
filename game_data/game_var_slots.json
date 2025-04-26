@@ -72,7 +72,15 @@
         "desc": "Holds the most recent choice made by the player using choice event."
     },
     {
-        "nid": "Ch0Progress",
-        "desc": "Progress of Main Story in Prologue. 3 Units must be talked to before the battle begins."
+        "nid": "_base_additional_options",
+        "desc": "Additional options to be added into the \"base\" menu."
+    },
+    {
+        "nid": "_base_options_disabled",
+        "desc": null
+    },
+    {
+        "nid": "_base_options_events",
+        "desc": null
     }
 ]

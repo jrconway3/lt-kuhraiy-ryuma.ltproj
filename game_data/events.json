@@ -3425,8 +3425,21 @@
         "only_once": true,
         "priority": 98,
         "_source": [
-            "add_lore;Music;no_warn",
-            "add_lore;MapSprites;no_warn"
+            "add_lore;Author",
+            "add_lore;Engine",
+            "add_lore;Music",
+            "add_lore;MapSprites",
+            "add_lore;BattleAnim",
+            "add_lore;MagicAnim",
+            "add_lore;Icons",
+            "add_lore;Portraits",
+            "add_lore;Tilesets",
+            "add_lore;Autotiles",
+            "add_lore;WorldMap",
+            "add_lore;Maps",
+            "add_lore;Backgrounds",
+            "add_lore;Platforms",
+            "add_lore;UI"
         ],
         "nid": "Global Credits"
     },
@@ -3746,15 +3759,16 @@
     {
         "name": "RoamMenu",
         "trigger": "roam_press_info",
-        "level_nid": "DEBUG2",
+        "level_nid": null,
         "condition": "True",
         "commands": [],
         "only_once": false,
         "priority": 20,
         "_source": [
-            "base;default_background;show_map"
+            "#base;default_background;;Credits;;GlobalCredits;show_map",
+            "base;default_background;;;;;show_map"
         ],
-        "nid": "DEBUG2 RoamMenu"
+        "nid": "Global RoamMenu"
     },
     {
         "name": "RoamCathedral",
@@ -3992,6 +4006,7 @@
             "# Setup Talk Events",
             "add_talk;Svetlanya;Thanya",
             "hide_talk;Svetlanya;Thanya",
+            "add_talk;Svetlanya;Kasuto",
             "add_talk;Svetlanya;Urso",
             "add_talk;Svetlanya;Magne",
             "add_talk;Svetlanya;Dehren",
@@ -4006,8 +4021,7 @@
             "add_lore;Queiza",
             "add_lore;Serena",
             "add_lore;Thanya",
-            "add_lore;Queiza",
-            "alert;Svetlanya's Diary is now available!"
+            "add_lore;Queiza"
         ],
         "nid": "DEBUG2 Init"
     },
@@ -4053,5 +4067,69 @@
             "remove_talk;Svetlanya;Thanya"
         ],
         "nid": "DEBUG2 TalkThanya"
+    },
+    {
+        "name": "TalkKasuto",
+        "trigger": "on_talk",
+        "level_nid": "DEBUG2",
+        "condition": "unit2.nid == 'Kasuto'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "multi_add_portrait;Svetlanya;Left;Kasuto;Right",
+            "speak;Kasuto;You have proven your worth, child.",
+            "autolevel_to;Svetlanya;10",
+            "give_item;Svetlanya;Master_Seal"
+        ],
+        "nid": "DEBUG2 TalkKasuto"
+    },
+    {
+        "name": "GlobalCredits",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "#TO DO: Maybe there's a way to separate this off from lore as its own category? I'd have to do some finagling in the code.",
+            "",
+            "t;close",
+            "change_background;BlackBackground",
+            "t;open",
+            "credits;Lex Talionis Engine LT Maker;rainlash",
+            "credits;Additional Programming;LT Discord Server,mag,KD,Sigmaraven, TheeBill,Lord Tweed,ZessDynamite,Nemid,Kyogokudo,beccarte,Meinerieve,Greentwip,Klokinator,Sealvester,Joytis,aorlnn",
+            "credits;Narrow Fonts Drop Item Icon;Scraiza",
+            "wait;500",
+            "credits;FE Fangame Essentials;Klokinator,Jey the Count,Jj",
+            "wait;100",
+            "credits;BattleAnimations;----------;center;no_split",
+            "credits;Svetlanya Lady;Magus Eirika,Eirika Repal,by Teraspark",
+            "credits;Svetlanya Lake Lady;Mage Lord by TytheBub",
+            "credits;Amaya;Beta Eirika Fixed by Jono the Red",
+            "credits;Dahlten;Mage Lord by TytheBub",
+            "credits;Hunter;Leo_Link,Spuid,MeatOfJustice,Kemomini by VelvetKitsune",
+            "credits;Female Fencer;Eirika by IS,Repal by Teraspark,Magic Alt by FaerieFruit",
+            "credits;Male Fencer;Eliwood by IS,Repal by Teraspark,Magic Alt by FaerieFruit",
+            "credits;Bushi;Laijutsu Samurai,GabrielKnight and BigMood",
+            "credits;Samurai;Dread Fighter by Nuramon",
+            "credits;Kasuto;Fir Swordmaster by Redbean,Scripting by JJ,Lance by VelvetKitsune and Spud",
+            "credits;Soldier;Lightweight Lancer,Sword by JeytheCount,Female by Maiser6",
+            "credits;Guard;Knight by SALVAGED,Helmetless by BoneManSeth",
+            "credits;Bulwark;Baron Cape No Clicks,Leo_Link,Nuramon,Iscaneus,Revamped Handaxe by Sax Marine,Magic by DerTheVaporean",
+            "credits;Wolf Nomad;Wolf Knight by VelvetKitsune",
+            "credits;Wolf Knight;Wolf by VelvetKitsune,Reskin by DatonDemand",
+            "credits;Wolf Prince;Wolf by VelvetKitsune,Reskin by DatonDemand",
+            "credits;Wolf;VelvetKitsune",
+            "credits;Dire Wolf;VelvetKitsune",
+            "wait;500",
+            "credits;Fire Emblem Games & Assets;Intelligent Systems,Nintendo;center;wait;center",
+            "wait;500",
+            "t;close",
+            "change_background",
+            "t;open"
+        ],
+        "nid": "Global GlobalCredits"
     }
 ]

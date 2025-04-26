@@ -5486,7 +5486,7 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    32,
+                    39,
                     26
                 ],
                 "starting_traveler": null,
@@ -5512,8 +5512,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    41,
-                    26
+                    46,
+                    25
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -5700,7 +5700,10 @@
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": null,
+                "starting_position": [
+                    32,
+                    26
+                ],
                 "starting_traveler": null,
                 "generic": false
             },
@@ -6496,11 +6499,6 @@
                 }
             }
         ],
-        "ai_groups": [
-            {
-                "nid": "",
-                "trigger_threshold": 1
-            }
-        ]
+        "ai_groups": []
     }
 ]

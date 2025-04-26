@@ -1,13 +1,18 @@
 [
     {
         "nid": "Svetlanya",
-        "name": "Svetlanya's Squadron",
+        "name": "Svetlanya's Retainers",
         "leader": "Svetlanya"
     },
     {
         "nid": "Shayala",
         "name": "Royal Army",
-        "leader": "Svetlanya"
+        "leader": "Shayala"
+    },
+    {
+        "nid": "Renald",
+        "name": "Knights of Renald",
+        "leader": "Yorwath"
     },
     {
         "nid": "Dalton",

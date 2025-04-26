@@ -1194,11 +1194,11 @@
         "nid": "Lady",
         "name": "Lady",
         "desc": "Adopted heir to a ruling house.\nHarbors untapped potential.",
-        "tier": 0,
+        "tier": 1,
         "movement_group": "Queiza",
         "promotes_from": null,
         "turns_into": [
-            "WaterLady"
+            "LakeLady"
         ],
         "tags": [
             "Lord",
@@ -1455,268 +1455,12 @@
         ]
     },
     {
-        "nid": "WaterLady",
-        "name": "Water Lady",
-        "desc": "Noble heir of a ruling house of\nOmyrus. Wields incredible power.\nRace: Queiza",
-        "tier": 1,
-        "movement_group": "Queiza",
-        "promotes_from": "Lady",
-        "turns_into": [
-            "LakeLady"
-        ],
-        "tags": [
-            "Lord",
-            "Lanquiz",
-            "Queiza",
-            "Gjin",
-            "Sword",
-            "Rapier"
-        ],
-        "max_level": 40,
-        "bases": {
-            "LCK": 6,
-            "RES": 6,
-            "CON": 9,
-            "MOV": 7,
-            "STR": 2,
-            "HP": 15,
-            "MAG": 7,
-            "SKL": 6,
-            "SPD": 5,
-            "DEF": 9,
-            "MP": 12
-        },
-        "growths": {
-            "LCK": 40,
-            "RES": 65,
-            "CON": 0,
-            "MOV": 0,
-            "STR": 30,
-            "HP": 60,
-            "MAG": 60,
-            "SKL": 40,
-            "SPD": 30,
-            "DEF": 70,
-            "MP": 90
-        },
-        "growth_bonus": {
-            "LCK": 0,
-            "RES": 0,
-            "CON": 0,
-            "MOV": 0,
-            "STR": 0,
-            "HP": 0,
-            "MAG": 0,
-            "SKL": 0,
-            "SPD": 0,
-            "DEF": 0,
-            "MP": 0
-        },
-        "promotion": {
-            "LCK": 0,
-            "RES": 0,
-            "CON": 2,
-            "MOV": 0,
-            "STR": 0,
-            "HP": 0,
-            "MAG": 0,
-            "SKL": 0,
-            "SPD": 0,
-            "DEF": 0,
-            "MP": 0
-        },
-        "max_stats": {
-            "LCK": 30,
-            "RES": 25,
-            "CON": 25,
-            "MOV": 15,
-            "STR": 24,
-            "HP": 60,
-            "MAG": 20,
-            "SKL": 29,
-            "SPD": 30,
-            "DEF": 22,
-            "MP": 30
-        },
-        "learned_skills": [
-            [
-                1,
-                "Seascale"
-            ]
-        ],
-        "wexp_gain": {
-            "Sword": [
-                true,
-                70,
-                251
-            ],
-            "Dagger": [
-                false,
-                0,
-                null
-            ],
-            "Lance": [
-                false,
-                0,
-                251
-            ],
-            "Axe": [
-                false,
-                0,
-                251
-            ],
-            "Bow": [
-                false,
-                0,
-                251
-            ],
-            "Solus": [
-                false,
-                0,
-                251
-            ],
-            "Lunis": [
-                false,
-                0,
-                251
-            ],
-            "Ignis": [
-                false,
-                0,
-                null
-            ],
-            "Ventus": [
-                true,
-                0,
-                null
-            ],
-            "Fulgus": [
-                true,
-                0,
-                null
-            ],
-            "Tellus": [
-                false,
-                0,
-                251
-            ],
-            "Glacies": [
-                false,
-                0,
-                null
-            ],
-            "Aquis": [
-                true,
-                0,
-                null
-            ],
-            "Runic": [
-                true,
-                0,
-                251
-            ],
-            "Shield": [
-                false,
-                0,
-                null
-            ],
-            "Armor": [
-                false,
-                0,
-                null
-            ],
-            "Default": [
-                false,
-                0,
-                251
-            ],
-            "Valuables": [
-                false,
-                0,
-                null
-            ],
-            "Claw": [
-                false,
-                0,
-                null
-            ],
-            "Staff": [
-                true,
-                0,
-                251
-            ],
-            "Light": [
-                false,
-                0,
-                251
-            ],
-            "Dark": [
-                false,
-                0,
-                251
-            ],
-            "Earth": [
-                false,
-                0,
-                251
-            ],
-            "Water": [
-                false,
-                0,
-                null
-            ],
-            "New_Weapon_Type_2": [
-                false,
-                0,
-                null
-            ],
-            "New Weapon Type_3": [
-                false,
-                0,
-                null
-            ],
-            "Anima": [
-                false,
-                0,
-                251
-            ],
-            "Ice": [
-                false,
-                0,
-                null
-            ],
-            "New_Weapon_Type_3": [
-                false,
-                0,
-                null
-            ],
-            "Magic": [
-                true,
-                0,
-                251
-            ]
-        },
-        "icon_nid": "Generic_Portrait_Citizen",
-        "icon_index": [
-            0,
-            0
-        ],
-        "map_sprite_nid": "Lady",
-        "combat_anim_nid": null,
-        "fields": [
-            [
-                "Race",
-                "Queiza"
-            ]
-        ]
-    },
-    {
         "nid": "LakeLady",
         "name": "Lady Lady",
         "desc": "Successor to the Lady of the Lake, blessed with granting the power of Excalibur.\nRace: Queiza",
         "tier": 2,
         "movement_group": "Queiza",
-        "promotes_from": "WaterLady",
+        "promotes_from": "LakeLady",
         "turns_into": [],
         "tags": [
             "Lord",
@@ -1956,7 +1700,7 @@
             0
         ],
         "map_sprite_nid": "Lady",
-        "combat_anim_nid": null,
+        "combat_anim_nid": "Lady",
         "fields": []
     },
     {
@@ -5092,15 +4836,15 @@
                 0,
                 null
             ],
-            "Claw": [
-                false,
-                0,
-                null
-            ],
-            "Staff": [
+            "Runic": [
                 false,
                 0,
                 251
+            ],
+            "Shield": [
+                false,
+                0,
+                null
             ],
             "Armor": [
                 false,
@@ -5116,6 +4860,16 @@
                 false,
                 0,
                 null
+            ],
+            "Claw": [
+                false,
+                0,
+                null
+            ],
+            "Staff": [
+                false,
+                0,
+                251
             ],
             "Light": [
                 false,
@@ -5163,11 +4917,6 @@
                 null
             ],
             "Magic": [
-                false,
-                0,
-                251
-            ],
-            "Runic": [
                 false,
                 0,
                 251
@@ -5329,15 +5078,15 @@
                 0,
                 null
             ],
-            "Claw": [
-                false,
-                0,
-                null
-            ],
-            "Staff": [
+            "Runic": [
                 false,
                 0,
                 251
+            ],
+            "Shield": [
+                false,
+                0,
+                null
             ],
             "Armor": [
                 false,
@@ -5353,6 +5102,16 @@
                 false,
                 0,
                 null
+            ],
+            "Claw": [
+                false,
+                0,
+                null
+            ],
+            "Staff": [
+                false,
+                0,
+                251
             ],
             "Light": [
                 false,
@@ -5403,11 +5162,6 @@
                 false,
                 0,
                 251
-            ],
-            "Runic": [
-                false,
-                0,
-                251
             ]
         },
         "icon_nid": "Generic_Portrait_Vanguard",
@@ -5420,8 +5174,8 @@
         "fields": []
     },
     {
-        "nid": "Myrmidon",
-        "name": "Myrmidon",
+        "nid": "Nomad",
+        "name": "Nomad",
         "desc": "Wanderers who roam the wild\nproving their skill with the blade.\nRace: Lykon",
         "tier": 1,
         "movement_group": "Light Foot",
@@ -5659,7 +5413,7 @@
             0
         ],
         "map_sprite_nid": "Myrmidon",
-        "combat_anim_nid": "Myrmidon",
+        "combat_anim_nid": "Scout",
         "fields": []
     },
     {
@@ -5668,7 +5422,7 @@
         "desc": "Lightning-fast wielder of the blade,\npossesses peerless and lethal skill.\nRace: Lykon",
         "tier": 2,
         "movement_group": "Light Foot",
-        "promotes_from": "Myrmidon",
+        "promotes_from": "Nomad",
         "turns_into": [],
         "tags": [
             "Lanquiz",
@@ -5812,15 +5566,15 @@
                 0,
                 null
             ],
-            "Claw": [
-                false,
-                0,
-                null
-            ],
-            "Staff": [
+            "Runic": [
                 false,
                 0,
                 251
+            ],
+            "Shield": [
+                false,
+                0,
+                null
             ],
             "Armor": [
                 false,
@@ -5836,6 +5590,16 @@
                 false,
                 0,
                 null
+            ],
+            "Claw": [
+                false,
+                0,
+                null
+            ],
+            "Staff": [
+                false,
+                0,
+                251
             ],
             "Light": [
                 false,
@@ -5883,11 +5647,6 @@
                 null
             ],
             "Magic": [
-                false,
-                0,
-                251
-            ],
-            "Runic": [
                 false,
                 0,
                 251
@@ -6055,15 +5814,15 @@
                 0,
                 null
             ],
-            "Claw": [
-                false,
-                0,
-                null
-            ],
-            "Staff": [
+            "Runic": [
                 false,
                 0,
                 251
+            ],
+            "Shield": [
+                false,
+                0,
+                null
             ],
             "Armor": [
                 false,
@@ -6079,6 +5838,16 @@
                 false,
                 0,
                 null
+            ],
+            "Claw": [
+                false,
+                0,
+                null
+            ],
+            "Staff": [
+                false,
+                0,
+                251
             ],
             "Light": [
                 false,
@@ -6101,11 +5870,6 @@
                 251
             ],
             "Magic": [
-                false,
-                0,
-                251
-            ],
-            "Runic": [
                 false,
                 0,
                 251
@@ -6264,15 +6028,15 @@
                 0,
                 null
             ],
-            "Claw": [
-                false,
-                0,
-                null
-            ],
-            "Staff": [
+            "Runic": [
                 false,
                 0,
                 251
+            ],
+            "Shield": [
+                false,
+                0,
+                null
             ],
             "Armor": [
                 false,
@@ -6288,6 +6052,16 @@
                 false,
                 0,
                 null
+            ],
+            "Claw": [
+                false,
+                0,
+                null
+            ],
+            "Staff": [
+                false,
+                0,
+                251
             ],
             "Light": [
                 false,
@@ -6310,11 +6084,6 @@
                 251
             ],
             "Magic": [
-                false,
-                0,
-                251
-            ],
-            "Runic": [
                 false,
                 0,
                 251
@@ -6473,15 +6242,15 @@
                 0,
                 null
             ],
-            "Claw": [
-                false,
-                0,
-                null
-            ],
-            "Staff": [
+            "Runic": [
                 false,
                 0,
                 251
+            ],
+            "Shield": [
+                false,
+                0,
+                null
             ],
             "Armor": [
                 false,
@@ -6497,6 +6266,16 @@
                 false,
                 0,
                 null
+            ],
+            "Claw": [
+                false,
+                0,
+                null
+            ],
+            "Staff": [
+                false,
+                0,
+                251
             ],
             "Light": [
                 false,
@@ -6522,11 +6301,6 @@
                 false,
                 0,
                 251
-            ],
-            "Runic": [
-                false,
-                0,
-                251
             ]
         },
         "icon_nid": "Generic_Portrait_Assassin",
@@ -6541,27 +6315,30 @@
     {
         "nid": "Soldier",
         "name": "Soldier",
-        "desc": "Foot soldiers who prefer thrusting\nattacks and swift movement.\nRace: Queiza",
+        "desc": "Foot soldiers who prefer thrusting\nattacks and swift movement.\nRace: Chiylo",
         "tier": 1,
-        "movement_group": "Pirates",
+        "movement_group": "Light Foot",
         "promotes_from": null,
         "turns_into": [
             "Captain"
         ],
-        "tags": [],
+        "tags": [
+            "LightArmor",
+            "Chiylo"
+        ],
         "max_level": 20,
         "bases": {
             "LCK": 0,
-            "RES": 0,
-            "CON": 6,
+            "RES": 3,
+            "CON": 11,
             "MOV": 5,
-            "STR": 3,
+            "STR": 7,
             "HP": 20,
-            "MAG": 2,
+            "MAG": 1,
             "SKL": 0,
-            "SPD": 1,
-            "DEF": 0,
-            "MP": 9
+            "SPD": 6,
+            "DEF": 7,
+            "MP": 7
         },
         "growths": {
             "LCK": 25,
@@ -6570,10 +6347,10 @@
             "MOV": 0,
             "STR": 50,
             "HP": 80,
-            "MAG": 0,
+            "MAG": 25,
             "SKL": 30,
-            "SPD": 20,
-            "DEF": 12,
+            "SPD": 50,
+            "DEF": 65,
             "MP": 40
         },
         "growth_bonus": {
@@ -6768,7 +6545,7 @@
         "bases": {
             "LCK": 7,
             "RES": 5,
-            "CON": 10,
+            "CON": 13,
             "MOV": 6,
             "STR": 10,
             "HP": 27,
@@ -7013,9 +6790,9 @@
             "CON": 9,
             "MOV": 5,
             "RES": 8,
-            "STR": 7,
+            "STR": 5,
             "HP": 21,
-            "MAG": 5,
+            "MAG": 3,
             "SKL": 4,
             "SPD": 6,
             "DEF": 6,
@@ -7501,29 +7278,29 @@
         "max_level": 20,
         "bases": {
             "LCK": 0,
-            "CON": 11,
+            "CON": 12,
             "MOV": 5,
-            "RES": 3,
+            "RES": 2,
             "STR": 7,
             "HP": 20,
             "MAG": 1,
             "SKL": 4,
             "SPD": 6,
-            "DEF": 2,
-            "MP": 0
+            "DEF": 4,
+            "MP": 2
         },
         "growths": {
             "LCK": 20,
             "CON": 0,
             "MOV": 0,
-            "RES": 35,
+            "RES": 30,
             "STR": 80,
             "HP": 85,
-            "MAG": 35,
+            "MAG": 30,
             "SKL": 40,
-            "SPD": 45,
-            "DEF": 25,
-            "MP": 0
+            "SPD": 50,
+            "DEF": 40,
+            "MP": 40
         },
         "growth_bonus": {
             "LCK": 0,
@@ -7540,13 +7317,13 @@
         },
         "promotion": {
             "LCK": 0,
-            "CON": 3,
-            "MOV": -99,
-            "RES": 1,
-            "STR": 2,
-            "HP": 2,
+            "CON": 0,
+            "MOV": 0,
+            "RES": 0,
+            "STR": 0,
+            "HP": 0,
             "MAG": 0,
-            "SKL": 1,
+            "SKL": 0,
             "SPD": 0,
             "DEF": 0,
             "MP": 0
@@ -7927,29 +7704,29 @@
         "max_level": 20,
         "bases": {
             "LCK": 0,
-            "RES": 0,
-            "CON": 12,
+            "RES": 1,
+            "CON": 13,
             "MOV": 5,
-            "STR": 5,
-            "HP": 20,
-            "MAG": 0,
+            "STR": 8,
+            "HP": 22,
+            "MAG": 5,
             "SKL": 1,
-            "SPD": 5,
-            "DEF": 3,
-            "MP": 0
+            "SPD": 6,
+            "DEF": 2,
+            "MP": 5
         },
         "growths": {
             "LCK": 15,
-            "RES": 13,
+            "RES": 15,
             "CON": 0,
             "MOV": 0,
             "STR": 50,
-            "HP": 82,
-            "MAG": 0,
+            "HP": 90,
+            "MAG": 40,
             "SKL": 30,
-            "SPD": 20,
+            "SPD": 55,
             "DEF": 10,
-            "MP": 0
+            "MP": 55
         },
         "growth_bonus": {
             "LCK": 0,
@@ -7993,7 +7770,7 @@
         "learned_skills": [],
         "wexp_gain": {
             "Sword": [
-                true,
+                false,
                 0,
                 251
             ],
@@ -8057,15 +7834,15 @@
                 0,
                 null
             ],
-            "Claw": [
-                false,
-                0,
-                null
-            ],
-            "Staff": [
+            "Runic": [
                 false,
                 0,
                 251
+            ],
+            "Shield": [
+                false,
+                0,
+                null
             ],
             "Armor": [
                 false,
@@ -8081,6 +7858,16 @@
                 false,
                 0,
                 null
+            ],
+            "Claw": [
+                false,
+                0,
+                null
+            ],
+            "Staff": [
+                false,
+                0,
+                251
             ],
             "Light": [
                 false,
@@ -8103,11 +7890,6 @@
                 251
             ],
             "Magic": [
-                false,
-                0,
-                251
-            ],
-            "Runic": [
                 false,
                 0,
                 251
@@ -8135,7 +7917,7 @@
         "bases": {
             "LCK": 0,
             "RES": 0,
-            "CON": 13,
+            "CON": 15,
             "MOV": 6,
             "STR": 7,
             "HP": 24,
@@ -8269,15 +8051,15 @@
                 0,
                 null
             ],
-            "Claw": [
-                false,
-                0,
-                null
-            ],
-            "Staff": [
+            "Runic": [
                 false,
                 0,
                 251
+            ],
+            "Shield": [
+                false,
+                0,
+                null
             ],
             "Armor": [
                 false,
@@ -8293,6 +8075,16 @@
                 false,
                 0,
                 null
+            ],
+            "Claw": [
+                false,
+                0,
+                null
+            ],
+            "Staff": [
+                false,
+                0,
+                251
             ],
             "Light": [
                 false,
@@ -8318,11 +8110,6 @@
                 false,
                 0,
                 251
-            ],
-            "Runic": [
-                false,
-                0,
-                251
             ]
         },
         "icon_nid": "Berserker",
@@ -8337,40 +8124,43 @@
     {
         "nid": "Pirate",
         "name": "Pirate",
-        "desc": "Free spirited brawlers who call the seas their home.\nRace: Queiza",
+        "desc": "Free spirited brawlers who call the seas their home.\nRace: Chiylo",
         "tier": 1,
-        "movement_group": "Queiza",
+        "movement_group": "Pirates",
         "promotes_from": null,
         "turns_into": [
             "Privateer"
         ],
-        "tags": [],
+        "tags": [
+            "Pirate",
+            "Chiylo"
+        ],
         "max_level": 20,
         "bases": {
             "LCK": 0,
-            "RES": 0,
-            "CON": 10,
+            "RES": 4,
+            "CON": 12,
             "MOV": 5,
             "STR": 4,
-            "HP": 19,
-            "MAG": 0,
+            "HP": 18,
+            "MAG": 5,
             "SKL": 2,
-            "SPD": 6,
+            "SPD": 7,
             "DEF": 3,
-            "MP": 0
+            "MP": 7
         },
         "growths": {
             "LCK": 15,
-            "RES": 13,
+            "RES": 30,
             "CON": 0,
             "MOV": 0,
             "STR": 50,
-            "HP": 75,
-            "MAG": 0,
+            "HP": 70,
+            "MAG": 55,
             "SKL": 35,
-            "SPD": 25,
-            "DEF": 10,
-            "MP": 0
+            "SPD": 60,
+            "DEF": 20,
+            "MP": 65
         },
         "growth_bonus": {
             "LCK": 0,
@@ -8388,14 +8178,14 @@
         "promotion": {
             "LCK": 0,
             "RES": 0,
-            "CON": 2,
-            "MOV": -99,
-            "STR": 2,
-            "HP": 2,
+            "CON": 0,
+            "MOV": 0,
+            "STR": 0,
+            "HP": 0,
             "MAG": 0,
             "SKL": 0,
-            "SPD": 1,
-            "DEF": 1,
+            "SPD": 0,
+            "DEF": 0,
             "MP": 0
         },
         "max_stats": {
@@ -8478,15 +8268,15 @@
                 0,
                 null
             ],
-            "Claw": [
-                false,
-                0,
-                null
-            ],
-            "Staff": [
+            "Runic": [
                 false,
                 0,
                 251
+            ],
+            "Shield": [
+                false,
+                0,
+                null
             ],
             "Armor": [
                 false,
@@ -8502,6 +8292,16 @@
                 false,
                 0,
                 null
+            ],
+            "Claw": [
+                false,
+                0,
+                null
+            ],
+            "Staff": [
+                false,
+                0,
+                251
             ],
             "Light": [
                 false,
@@ -8527,11 +8327,6 @@
                 false,
                 0,
                 251
-            ],
-            "Runic": [
-                false,
-                0,
-                251
             ]
         },
         "icon_nid": "Generic_Portrait_Pirate",
@@ -8546,12 +8341,15 @@
     {
         "nid": "Privateer",
         "name": "Privateer",
-        "desc": "Elite brawlers who sail the seas\nand fighting for whoever pays.\nRace: Queiza",
+        "desc": "Elite brawlers who sail the seas\nand fighting for whoever pays.\nRace: Chiylo",
         "tier": 2,
         "movement_group": "Pirates",
         "promotes_from": "Pirate",
         "turns_into": [],
-        "tags": [],
+        "tags": [
+            "Pirate",
+            "Chiylo"
+        ],
         "max_level": 20,
         "bases": {
             "LCK": 0,
@@ -8690,15 +8488,15 @@
                 0,
                 null
             ],
-            "Claw": [
-                false,
-                0,
-                null
-            ],
-            "Staff": [
+            "Runic": [
                 false,
                 0,
                 251
+            ],
+            "Shield": [
+                false,
+                0,
+                null
             ],
             "Armor": [
                 false,
@@ -8714,6 +8512,16 @@
                 false,
                 0,
                 null
+            ],
+            "Claw": [
+                false,
+                0,
+                null
+            ],
+            "Staff": [
+                false,
+                0,
+                251
             ],
             "Light": [
                 false,
@@ -8736,11 +8544,6 @@
                 251
             ],
             "Magic": [
-                false,
-                0,
-                251
-            ],
-            "Runic": [
                 false,
                 0,
                 251
@@ -8763,38 +8566,37 @@
         "movement_group": "Light Foot",
         "promotes_from": null,
         "turns_into": [
-            "WolfNomad",
-            "Ranger"
+            "WolfNomad"
         ],
         "tags": [
             "Lykon"
         ],
         "max_level": 20,
         "bases": {
-            "LCK": 0,
-            "RES": 0,
-            "CON": 7,
+            "LCK": 2,
+            "RES": 4,
+            "CON": 8,
             "MOV": 5,
-            "STR": 4,
+            "STR": 8,
             "HP": 18,
-            "MAG": 0,
-            "SKL": 3,
-            "SPD": 4,
-            "DEF": 3,
-            "MP": 0
+            "MAG": 2,
+            "SKL": 8,
+            "SPD": 5,
+            "DEF": 1,
+            "MP": 6
         },
         "growths": {
             "LCK": 35,
-            "RES": 20,
+            "RES": 30,
             "CON": 0,
             "MOV": 0,
-            "STR": 35,
+            "STR": 60,
             "HP": 70,
-            "MAG": 0,
-            "SKL": 40,
-            "SPD": 32,
+            "MAG": 35,
+            "SKL": 70,
+            "SPD": 50,
             "DEF": 15,
-            "MP": 0
+            "MP": 40
         },
         "growth_bonus": {
             "LCK": 0,
@@ -8843,8 +8645,8 @@
                 251
             ],
             "Dagger": [
-                false,
-                0,
+                true,
+                1,
                 null
             ],
             "Lance": [
@@ -8902,15 +8704,15 @@
                 0,
                 null
             ],
-            "Claw": [
-                false,
-                0,
-                null
-            ],
-            "Staff": [
+            "Runic": [
                 false,
                 0,
                 251
+            ],
+            "Shield": [
+                false,
+                0,
+                null
             ],
             "Armor": [
                 false,
@@ -8926,6 +8728,16 @@
                 false,
                 0,
                 null
+            ],
+            "Claw": [
+                false,
+                0,
+                null
+            ],
+            "Staff": [
+                false,
+                0,
+                251
             ],
             "Light": [
                 false,
@@ -8951,11 +8763,6 @@
                 false,
                 0,
                 251
-            ],
-            "Runic": [
-                false,
-                0,
-                251
             ]
         },
         "icon_nid": "Generic_Portrait_Archer",
@@ -8963,8 +8770,8 @@
             0,
             0
         ],
-        "map_sprite_nid": "Archer",
-        "combat_anim_nid": "Archer",
+        "map_sprite_nid": "Hunter",
+        "combat_anim_nid": "Hunter",
         "fields": []
     },
     {
@@ -9109,15 +8916,15 @@
                 0,
                 null
             ],
-            "Claw": [
-                false,
-                0,
-                null
-            ],
-            "Staff": [
+            "Runic": [
                 false,
                 0,
                 251
+            ],
+            "Shield": [
+                false,
+                0,
+                null
             ],
             "Armor": [
                 false,
@@ -9133,6 +8940,16 @@
                 false,
                 0,
                 null
+            ],
+            "Claw": [
+                false,
+                0,
+                null
+            ],
+            "Staff": [
+                false,
+                0,
+                251
             ],
             "Light": [
                 false,
@@ -9155,11 +8972,6 @@
                 251
             ],
             "Magic": [
-                false,
-                0,
-                251
-            ],
-            "Runic": [
                 false,
                 0,
                 251
@@ -9186,7 +8998,8 @@
             "Vanguard"
         ],
         "tags": [
-            "Armor"
+            "Armor",
+            "Lykon"
         ],
         "max_level": 20,
         "bases": {
@@ -9197,10 +9010,10 @@
             "STR": 5,
             "HP": 17,
             "MAG": 0,
-            "SKL": 3,
-            "SPD": 1,
+            "SKL": 4,
+            "SPD": 2,
             "DEF": 9,
-            "MP": 0
+            "MP": 5
         },
         "growths": {
             "LCK": 25,
@@ -9209,11 +9022,11 @@
             "RES": 20,
             "STR": 40,
             "HP": 80,
-            "MAG": 0,
+            "MAG": 15,
             "SKL": 30,
-            "SPD": 15,
-            "DEF": 28,
-            "MP": 0
+            "SPD": 35,
+            "DEF": 70,
+            "MP": 40
         },
         "growth_bonus": {
             "LCK": 0,
@@ -9321,15 +9134,15 @@
                 0,
                 null
             ],
-            "Claw": [
-                false,
-                0,
-                null
-            ],
-            "Staff": [
+            "Runic": [
                 false,
                 0,
                 251
+            ],
+            "Shield": [
+                false,
+                0,
+                null
             ],
             "Armor": [
                 false,
@@ -9345,6 +9158,16 @@
                 false,
                 0,
                 null
+            ],
+            "Claw": [
+                false,
+                0,
+                null
+            ],
+            "Staff": [
+                false,
+                0,
+                251
             ],
             "Light": [
                 false,
@@ -9370,11 +9193,6 @@
                 false,
                 0,
                 251
-            ],
-            "Runic": [
-                false,
-                0,
-                251
             ]
         },
         "icon_nid": "Generic_Portrait_Knight",
@@ -9382,8 +9200,8 @@
             0,
             0
         ],
-        "map_sprite_nid": "Knight",
-        "combat_anim_nid": "Knight",
+        "map_sprite_nid": "Guard",
+        "combat_anim_nid": "Guard",
         "fields": []
     },
     {
@@ -9530,15 +9348,15 @@
                 0,
                 null
             ],
-            "Claw": [
-                false,
-                0,
-                null
-            ],
-            "Staff": [
+            "Runic": [
                 false,
                 0,
                 251
+            ],
+            "Shield": [
+                false,
+                0,
+                null
             ],
             "Armor": [
                 false,
@@ -9554,6 +9372,16 @@
                 false,
                 0,
                 null
+            ],
+            "Claw": [
+                false,
+                0,
+                null
+            ],
+            "Staff": [
+                false,
+                0,
+                251
             ],
             "Light": [
                 false,
@@ -9576,11 +9404,6 @@
                 251
             ],
             "Magic": [
-                false,
-                0,
-                251
-            ],
-            "Runic": [
                 false,
                 0,
                 251
@@ -9746,15 +9569,15 @@
                 0,
                 null
             ],
-            "Claw": [
-                false,
-                0,
-                null
-            ],
-            "Staff": [
+            "Runic": [
                 false,
                 0,
                 251
+            ],
+            "Shield": [
+                false,
+                0,
+                null
             ],
             "Armor": [
                 false,
@@ -9770,6 +9593,16 @@
                 false,
                 0,
                 null
+            ],
+            "Claw": [
+                false,
+                0,
+                null
+            ],
+            "Staff": [
+                false,
+                0,
+                251
             ],
             "Light": [
                 false,
@@ -9792,11 +9625,6 @@
                 251
             ],
             "Magic": [
-                false,
-                0,
-                251
-            ],
-            "Runic": [
                 false,
                 0,
                 251
@@ -13398,15 +13226,15 @@
                 0,
                 null
             ],
-            "Claw": [
-                false,
-                0,
-                null
-            ],
-            "Staff": [
+            "Runic": [
                 false,
                 0,
                 251
+            ],
+            "Shield": [
+                false,
+                0,
+                null
             ],
             "Armor": [
                 false,
@@ -13422,6 +13250,16 @@
                 false,
                 0,
                 null
+            ],
+            "Claw": [
+                false,
+                0,
+                null
+            ],
+            "Staff": [
+                false,
+                0,
+                251
             ],
             "Light": [
                 false,
@@ -13444,11 +13282,6 @@
                 251
             ],
             "Magic": [
-                false,
-                0,
-                251
-            ],
-            "Runic": [
                 false,
                 0,
                 251

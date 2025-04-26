@@ -4,6 +4,14 @@
         "Anima"
     ],
     [
+        "Aircalibur1",
+        "Anima"
+    ],
+    [
+        "Aircalibur2",
+        "Anima"
+    ],
+    [
         "FireBall",
         "Anima"
     ],
@@ -49,6 +57,14 @@
     ],
     [
         "Thunder",
+        "Anima"
+    ],
+    [
+        "Thunder1",
+        "Anima"
+    ],
+    [
+        "Thunder2",
         "Anima"
     ],
     [
@@ -300,6 +316,14 @@
         "Monster"
     ],
     [
+        "Ravager",
+        "Monster"
+    ],
+    [
+        "Nightmare",
+        "Monster"
+    ],
+    [
         "DemonSurge",
         "Monster"
     ],
@@ -352,31 +376,11 @@
         "Staff"
     ],
     [
-        "Barrier",
-        "Staff"
-    ],
-    [
-        "Berserk",
-        "Staff"
-    ],
-    [
-        "Fortify",
-        "Staff"
-    ],
-    [
-        "Hammerne",
-        "Staff"
-    ],
-    [
-        "Heal1",
-        "Staff"
-    ],
-    [
-        "Heal2",
-        "Staff"
-    ],
-    [
         "HealInit",
+        "Staff"
+    ],
+    [
+        "Heal",
         "Staff"
     ],
     [
@@ -388,7 +392,23 @@
         "Staff"
     ],
     [
+        "Fortify",
+        "Staff"
+    ],
+    [
+        "FortifyMap",
+        "Staff"
+    ],
+    [
+        "Barrier",
+        "Staff"
+    ],
+    [
         "Restore",
+        "Staff"
+    ],
+    [
+        "Hammerne",
         "Staff"
     ],
     [
@@ -409,6 +429,10 @@
     ],
     [
         "Sleep2",
+        "Staff"
+    ],
+    [
+        "Berserk",
         "Staff"
     ],
     [
@@ -501,10 +525,6 @@
     ],
     [
         "CritInit",
-        null
-    ],
-    [
-        "CyclopsCrit",
         null
     ],
     [
@@ -892,6 +912,10 @@
         null
     ],
     [
+        "CyclopsCrit",
+        null
+    ],
+    [
         "CyclopsBattleCry",
         null
     ],
@@ -909,6 +933,10 @@
     ],
     [
         "DracozombieEntrance",
+        null
+    ],
+    [
+        "DragonBreath",
         null
     ],
     [
@@ -1038,5 +1066,153 @@
     [
         "XXX_3X9_egg_grow",
         "Monster"
+    ],
+    [
+        "ArchsageCrit",
+        null
+    ],
+    [
+        "ArchsageRune",
+        null
+    ],
+    [
+        "DarkDruidCrit",
+        null
+    ],
+    [
+        "DarkDruidRune",
+        null
+    ],
+    [
+        "FireTrap",
+        null
+    ],
+    [
+        "HeavyDrop",
+        null
+    ],
+    [
+        "LightArrow",
+        null
+    ],
+    [
+        "LightRune",
+        null
+    ],
+    [
+        "MagicShine1",
+        null
+    ],
+    [
+        "MagicShine2",
+        null
+    ],
+    [
+        "MagicShine3",
+        null
+    ],
+    [
+        "MagicShine4",
+        null
+    ],
+    [
+        "MagicShine5",
+        null
+    ],
+    [
+        "Mine",
+        null
+    ],
+    [
+        "PoisonTrap",
+        null
+    ],
+    [
+        "Surprise",
+        null
+    ],
+    [
+        "WaterTileDown",
+        null
+    ],
+    [
+        "WaterTileUp",
+        null
+    ],
+    [
+        "WitchCrit",
+        null
+    ],
+    [
+        "WitchWhoosh",
+        null
+    ],
+    [
+        "AnimeExplosion",
+        null
+    ],
+    [
+        "AuraDS1",
+        null
+    ],
+    [
+        "AuraDS2",
+        null
+    ],
+    [
+        "Blizzard1",
+        null
+    ],
+    [
+        "Blizzard2",
+        null
+    ],
+    [
+        "Bolganone1",
+        null
+    ],
+    [
+        "Bolganone2",
+        null
+    ],
+    [
+        "FireDS1",
+        null
+    ],
+    [
+        "FireDS2",
+        null
+    ],
+    [
+        "MyrrhTransform1",
+        null
+    ],
+    [
+        "MyrrhTransform2",
+        null
+    ],
+    [
+        "Tempest",
+        null
+    ],
+    [
+        "Thoron1",
+        null
+    ],
+    [
+        "Thoron2",
+        null
+    ],
+    [
+        "ThunderDS",
+        null
+    ],
+    [
+        "WaterBlast",
+        null
+    ],
+    [
+        "WindDS",
+        null
     ]
 ]

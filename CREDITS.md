@@ -1,6 +1,21 @@
 # Kuhraiy Chronicles: Ryuma Credits
 
-Comprehensive credits list of all assets currently imported into the project. This is not necessarily stuff I will use in the end, but it is stuff I have imported and exists in this repository. Eventually I will clear out the contents of stuff I end up not using.
+Worldbuilding, Scenario Writing, Dialogue, and Characters by JaidynReiman
+
+Map Designs, Event Coding, Game Mechanics by JaidynReiman
+
+
+## Game Engine
+
+Lex Talionis Engine and LT-Maker Editor created by rainlash
+
+With additional programming and help from the Lex Talionis Discord server, including mag, KD, Sigmaraven, TheeBill, Lord Tweed, ZessDynamite, Nemid, Kyogokudo, beccarte, Meinerieve, Greentwip, Klokinator, Sealvester, Joytis, and aorlnn.
+
+Narrow fonts and droppable item icon originally created by Scraiza.
+
+Lex Talionis is a non-profit engine, released for free, and developed using Python, Pygame, and PyQt5. Some default assets are copyrighted or trademarked by their respective owners.
+
+Licensed under the MIT License.
 
 
 ## Assets
@@ -13,6 +28,11 @@ Special Thanks to Klokinator for gathering all these resources.
 The grand majority were from the repo, but I did make some modifications. I will be listing off all assets here, but if I forgot any, please let me know! I'm trying to make sure I have _everything_ before I release anything, but if I did miss something, let me know right away.
 
 Many assets used at this time (ESPECIALLY portraits) are merely placeholders. Eventually I would like more original assets for portraits and for specific characters, but it takes time to make customizations.
+
+
+This is a comprehensive credits list of all assets currently imported into the project. This is not necessarily stuff I will use in the end, but it is stuff I have imported and exists in this repository. Eventually I will clear out the contents of stuff I end up not using.
+
+Only stuff actively being used in the game will be added to the in-game credits.
 
 
 ### Icons
@@ -396,11 +416,11 @@ Regrowth (Dark 4 by Zarg)???
 #### Battle Animations
 
 ##### Lords
-Lord/Dalton (Mage Lord; customizations needed: Mage Lord needs a sword animation and longer hair)
-Lady/Miriam (Eirika; customizations needed: create a reskin to include)
-Pirate Lord/Dalton (Mage Lord; customization needed: Mage Lord needs a sword animation, ideally have longer hair)
-Lake Lady/Miriam (Priestess Celica V2-Style by EA; ideally would like a repalette, not required)
-Lieutenant/Amaya (Beta Eirika; Fixed version by Jojo; Amaya Reskin by JaidynReiman)
+Lady/Svetlanya (Eirika Repal + Magus by Teraspark; customizations needed: create a reskin to include)
+Lake Lady/Svetlanya (create a reskin/custom)
+Lieutenant/Amaya (Beta Eirika Fixed by Jojo; Amaya Reskin by JaidynReiman)
+Lord/Dahlten (Mage Lord by TytheBub; customizations needed: Mage Lord needs a sword animation and longer hair)
+Pirate Lord/Dahlten (Mage Lord by TytheBub; customization needed: Mage Lord needs a sword animation, ideally have longer hair)
 Tsuiho/Relm (Thief; customizations needed: add a magic animation, really long hair, need a head covering to cover up her horns and long sleeves over the arms)
 
 
@@ -418,7 +438,7 @@ Pioneer-M (FE9 Fighter-M by MK404, Repalette by Glenwing)
 Pioneer-F (origby MK404, F Base Stills by Pikmin1211 and Maiser6, Animations by Maiser6, Palettes by Pikmin1211)
 
 ##### Archers, Hunters
-Hunter (Hunter by Leo_link, Spud, MeatOfJustice)
+Hunter (Hunter by Leo_link, Spud, MeatOfJustice, Kemomimi version by VelvetKitsune)
 
 ##### Mercenaries / Heroes
 Villager (Villager-Custom by Nuramon, Still by ErrantShepherd/Nuramon, Blade Beam by SageHapuiaJDJ)
@@ -426,7 +446,6 @@ Villager (Villager-Custom by Nuramon, Still by ErrantShepherd/Nuramon, Blade Bea
 ##### Myrmidons / Swordmasters
 Fencer-F (Eirika T1 by IS, T1 Repalette by Teraspark, T1 Lance by Flasuban, T1 Magic Alt by FaerieFruit)
 Fencer-M (Eliwood T1 by IS, Repalette by Teraspark, Lance by Flasuban, Magic Alt by FaerieFruit)
-Fencer-F/Amaya (Fencer Karina from The Last Promise by DH_Ninja)
 Mercenary (FE15 Myrmidon by Nuramon)
 Dismounted Nomad (Vanilla Myrmidon sword/unarmed by IS, Myrmidon Bow by N426)
 Blade Dancer (Vanilla Swordmaster by IS)
@@ -438,11 +457,14 @@ Kunaito (Marisa Swordmaster Made by Red Bean, Scripted by Sable Mage)
 ##### Soldiers / Halberdiers
 Militia-M (Militia by Alusq)
 Militia-F (Original Militia by Alusq, edit by Knabepicer)
-Captain-M (Sergeant by Spud, Leolink, Iscaneous, Nuramon)
-Captain-F (Female Sargeant Version By ドラドラゴ, aka Dora Drago).
+Soldier-M (Lightweight Lancer by Alusq, Sword Animation by JeyTheCount)
+Soldier-F (Lightweight Lancer Female by Maiser6, Sword Adapted to Female by JaidynReiman)
+Sargeant-M (Sergeant by Spud, Leolink, Iscaneous, Nuramon)
+Sargeant-F (Female Sargeant Version By ドラドラゴ, aka Dora Drago).
 Admiral (Heavy Infantry Ephraim by Nuramon)
 
 ##### Armours
+Guard (Knight-Variant Helmetless by SALVAGED, BoneManSeth)
 Bulwark (Baron Cape, No Clicks by Leo_link, Nuramon, Iscaneus, Revamped Handaxe by Sax Marine, Magic by DerTheVaporean)
 
 ##### Mounted, Cavaliers
@@ -526,8 +548,7 @@ Pioneer-M (FE9 Fighter-M by L95)
 Pioneer-F (FE9 Fighter-F by Pikmin1211)
 
 ##### Archers / Hunters
-Hunter-M (MeatOfJustice-style Hunter by knabepicer)
-Hunter-F (Hunter by MeatOfJustice)
+Hunter (Hunter by MeatOfJustice)
 
 ##### Mercenaries / Heroes
 Mercenary (Mercenary Sword Improved by Flasuban)
@@ -550,11 +571,10 @@ Militia (Militia by Alusq, Female edit by Knabepicer)
 Soldier (FE10 Style Soldier by Flasuban)
 Sergeant-M (Sergeant M by Spud)
 Sergeant-F (Sargeant F By ドラドラゴ, aka Dora Drago)
-Captain-M (Halberdier-M 1.0 by Unknown)
-Captain-F (Great Lord Ephraim-Infantry Lance by VelvetKitsune, Snewping, HGS)
+Captain (Great Lord Ephraim-Infantry Lance by VelvetKitsune, Snewping, HGS)
 
 ##### Armours
-
+Guard (Knight-U Helmetless by SALVAGED, BoneManSeth)
 
 ##### Nature Mages
 Street Rat-F (Mage-F Thief by FEGirls)
@@ -573,7 +593,7 @@ War Cleric (War Cleric, Staff F by SkidMarc25)
 
 ##### Dark Mages
 Shaman (Mage-F Gaiden-Style by TAS20XX)
-Shaman (Diviner-F Orochi by Sphealnuke)
+Scholar
 Druid-M (Unhooded Druid by IS, Stormblight)
 Druid-F (Druid Female by IS)
 
@@ -732,16 +752,11 @@ I tried to generate regional overlays, but ultimately scrapped that idea as my r
 
 Map Icons (Vanilla Sacred Stones - IS)
 Road Designs (Vanilla Sacred Stones - IS)
-Importing Map Assets (FE Builder - 7743)
 
 
 ### Maps
 
 #### Tilesets
-
-##### Guides That Helped Me Import Custom Tilesets
-DerTheVaporeon for his excellent guide (https://feuniverse.us/t/fe8-tileset-insertion-editing-tutorial-derthevaporeon-2018/4102)
-XPGamesNL for his video guide (https://www.youtube.com/watch?v=6el531ZXMl4)
 
 ##### Tilesets I Used
 Village - Vanilla FE8 (I replaced these with Village - Remake, but the early new map designs used this map)
@@ -763,16 +778,13 @@ Aura Wolf's FE8 Overworld 28
 Aura Wolf's Town A and Town 3E
 Aura Wolf's Ship 1E/Ship 2
 
-Prologue (Aura Wolf's FE8 Overworld 28 used as initial inspiration, final map completely designed by me, JaidynReiman)
-Prologue-Scene / Dorma Village (map designed as extension of Prologue map to the north)
-Chapter 1 (inspired by "field view" of Prologue maps)
-Chapter 2 (Aura Wolf's ?? used as inspiration; final map completely designed by me, JaidynReiman)
-Chapter 3 (Aura Wolf's Town A and Town 3E used as inspiration; final map completely designed by me, JaidynReiman)
-Chapter 4 (Aura Wolf's Ship 1E/Ship 2 used as inspiration; final map completely designed by me, JaidynReiman)
-Chapter
+Chapter 7 (Aura Wolf's FE8 Overworld 28 used as initial inspiration, final map completely designed by me, JaidynReiman)
+Chapter 8 (inspired by "field view" of Prologue maps)
+Chapter 9 (Aura Wolf's ?? used as inspiration; final map completely designed by me, JaidynReiman)
+Chapter 10 (Aura Wolf's Town A and Town 3E used as inspiration; final map completely designed by me, JaidynReiman)
+Chapter 11 (Aura Wolf's Ship 1E/Ship 2 used as inspiration; final map completely designed by me, JaidynReiman)
 
-Chapter 14 Haunted by Tragedy (the original Prologue map; base design is Aura Wolf's Ship 2 but it was updated by me, JaidynReiman, with tile changes, but still is heavily inspired by it)
-Chapter 14-Scene / Miriam's Room in Oestridel Manor ()
+Chapter XX Haunted by Tragedy (inspired by Aura Wolf's Ship 2)
 
 
 ### Backgrounds
@@ -807,13 +819,13 @@ Event - Humor (Naruto, Fooling Mode - FEGBA by A Reliable Chair)
 Event - Legacy (Symphonia, Shihna - FEGBA by A Reliable Chair)
 Event - Legacy 2 (Suikoden 2, Reminiscence by Tak)
 Event - Betrayal (Act Raiser 2, Deception - FEGBA by Alusq)
-Event - Indignation (DamnAgain - by Nyawenyye)
+Event - Indignation (DamnAgain by Nyawenyye)
 Event - Debate (Majora's Mask, Mayor's Theme - FEGBA by Pandan)
 Event - Raid (Monster Hunter, Black Fatalis - FEGBA by Mychahel)
 Event - Pirates (Roller Coaster Tycoon 2, Pirate Theme - FEGBA by Dolkar)
 
 #### Character Themes
-Character - Dalton (Pirates of the Carribbean, He's a Pirate - FEGBA by RandomWizard)
+
 
 
 #### Other Themes

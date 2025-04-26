@@ -4,14 +4,14 @@
         "name": "Svetlanya",
         "title": "Svetlanya Pearl Renald",
         "category": "Character",
-        "text": "It is my most esteemed pleasure to be able to write about all my findings. Alas, even I know not much about myself... mother still refuses to answer my questions.\nWhere did I come from? How did I come to arrive in a Lykon house? What will happen if mother... were to...\nNo, I mustn\u2019t think it. I will prove myself. I won\u2019t be forgotten."
+        "text": "It is my most esteemed pleasure to be able to write about all my findings. Alas, even I know not much about myself... mother still refuses to answer my questions.\nWhere did I come from? How did I come to arrive in a Lykon house? What will happen if mother... were to...\nNay, I mustn't think it. Prove myself, I will. I shan't be forgotten."
     },
     {
         "nid": "Svetlanya2",
         "name": "Svetlanya (2)",
         "title": "Svetlanya Henrykka Aldhar",
         "category": "Character",
-        "text": "Svetlanya Henrykka Aldhar... that is my true name. Why did mo--no, Lady Ambryl... change my name? Why didn\u2019t she tell me anything about my past?\nMy poor mother, sweet, dear mother, Mariya... I will find some way to save you, I swear it!"
+        "text": "Svetlanya Henrykka Aldhar... that is my true name. Why did mo--no, Lady Ambryl... change my name? Why didn't she tell me anything about my past?\nMy poor mother, sweet, dear mother, Mariya... I will find some way to save you, I swear it!"
     },
     {
         "nid": "Svetlanya3",
@@ -287,24 +287,101 @@
         "text": "Tis been long, yet finally have I chanced to speak with Kasuto. The Kuhraiy are the remnants of the ancient Nordak people... dragons. In truth, the Kuhraiy were merely their spy network. However, when the ancient Nordak were wiped out, all that remained were the spy network.\n\nNo one in the world accepted them, so they became but a shadow. In turn, becoming as a shadow, most of them degraded. Kasuto and Relm were the first true Nordak born to them in a milennia.\n\nThey used the name Kuhraiy to spread fear of their influence on purpose, but with their many branches, were able to limit the amount of knowledge of them. However, not entirely without fault.\n\nThey settled in these mountains of Masa before even the Kingdom itself did. The scattered tribes lived around the mountains, but not within them, until they were driven to the mountains and eventually, pushed the Kuhraiy out.\n\n'tis a tragic tale, one that shan't end here, either. After all, I too shall suffer from the same fate."
     },
     {
+        "nid": "Author",
+        "name": "Author",
+        "title": "Credits: Author",
+        "category": "Guide",
+        "text": "Worldbuilding, Scenario Writing, Dialogue, and Characters by JaidynReiman{br}Map Designs, Event Coding, Game Mechanics by JaidynReiman"
+    },
+    {
+        "nid": "Engine",
+        "name": "Engine",
+        "title": "Credits: Engine",
+        "category": "Guide",
+        "text": "Lex Talionis Engine and LT-Maker Editor created by rainlash{br}With additional programming and help from the Lex Talionis Discord server.\nLT Discord server:{br}mag, KD, Sigmaraven, TheeBill, Lord Tweed, ZessDynamite, Nemid, Kyogokudo, beccarte, Meinerieve, Greentwip, Klokinator, Sealvester, Joytis, aorlnn.\nNarrow fonts and droppable item icon originally created by Scraiza.\nLex Talionis is a non-profit engine, released for free, and developed using Python, Pygame, and PyQt5. Some default assets are copyrighted or trademarked by their respective owners.\nLicensed under the MIT License."
+    },
+    {
         "nid": "Music",
         "name": "Music",
         "title": "Credits: Music",
         "category": "Guide",
-        "text": "\"Bumming Around in Pixel Town\" by Eric Matyas www.soundimage.org"
-    },
-    {
-        "nid": "MapSprites",
-        "name": "Map Sprites",
-        "title": "Credits: Map Sprites",
-        "category": "Guide",
-        "text": "Sergeant (M) by Spud, Sergeant (F) by Spud, Dora Drago"
+        "text": "Eric Mattyas{br}www.soundimage.org{br}\"Bumming Around in Pixel Town\"\nMushra Games{br}www.patreon.com/MushraGames{br}\nAlusq{br}\"Act Raiser 2, Deception\"{br}\"Act Raiser, Cassandra\"{br}\"FE3 Off To War Remix\"\nA Reliable Chair{br}\"Symphonia, Shihna\"{br}\"Mint's Theme\"{br}\"Lunar, Toward the Horizon\"{br}\"\"\nDolkar{br}\"Roller Coaster Tycoon 2, Pirate Theme\"{br}{br}Feier{br}\"Act Raiser, Northwall\"\nKaidras{br}Triangle Strategy:{br}\"Elegy of Battle\"{br}\"Combat: Destiny\"{br}\"Combat: Adversity\"{br}Unicorn Overlord:{br}\"Farde Mal Diavolo\"\nPandan{br}Majora's Mask:{br}\"Mayor's Theme\"{br}\"Suikoden, Army Advance\"{br}\"Suikoden 2, Gothic Neclord\"\nPikmin1211{br}Riviera:{br}\"Heaven's Gate\"{br}\"Battle Against Demons\"\nNyawenyye{br}\"Damn Again\"{br}{br}Mychahel{br}\"Monster Hunter, Black Fatalis\"\nRSFlame{br}\"RPG Maker PS1, Castle 2\"{br}\"RPG Maker PS1, Battle 3\"\nRandomWizard{br}\"Frog's Theme\"{br}\"Sword of Mana, Courage and Pride From the Heart\"{br}\"Langrisser, Shop\"\nRandomWizard{br}\"GS2, Walking Forward With Determination\"{br}\"Cry-A-Live\"{br}\"The Demon King Odio\"\nSaXor the Nobody{br}\"Feldschlact III\"{br}\"Tense Atmosphere\"{br}\"Lufia 2 Battle\"\nShinKuma{br}Riviera{br}\"Showdown With Hector\"{br}\"Fierce Clash\"\nSme{br}\"Something Custom\"{br}\"Secret of the Stars Battle 1\"{br}\"Sinistral Battle\"\nTak{br}\"Suikoden 2, Reminiscence\"\nUnitedStars111{br}\"Albert Odyssey 2, Land of Frozen Forest\""
     },
     {
         "nid": "BattleAnim",
         "name": "Battle Anim",
         "title": "Credits: Battle Animations",
         "category": "Guide",
+        "text": "Svetlanya (Eirika Repal + Magus by Teraspark){br}Amaya (Beta Eirika by Jojo, Reskin by JaidynReiman){br}Dahlten (Mage Lord by TytheBub)\nHunter (Hunter by Leo_link, Spud, MeatOfJustice, Kemomimi version by VelvetKitsune)\nFencer (T1 Eirika Repal by Teraspark, Magic Alt by FaerieFruit){br}Bushi (Laijutsu Samurai by GabrielKnight, BigMood)\nSoldier (Lightweight Lancer by Alusq, Sword Animation by JeyTheCount, Female by Maiser6, Female Sword by JaidynReiman){br}Sargeant (Sergeant by Spud, Leo_link, Iscaneous, Nuramon, Female by Dora Drago).\nGuard - Knight by SALVAGED, Helmetless by BoneManSeth{br}Bulwark - Baron Cape (No Clicks) by Leo_link, Nuramon, Iscaneus, Revamped Handaxe by Sax Marine, Magic by DerTheVaporean\nWolf Knight (VelvetKitsune, Long Hair by JaidynReiman)"
+    },
+    {
+        "nid": "MapSprites",
+        "name": "Map Sprites",
+        "title": "Credits: Map Sprites",
+        "category": "Guide",
+        "text": "Prince, Princess (EldritchAbomination)\nLord, Lady (Mage Lord by TyTheBub, Elf by JaidynReiman){br}Lieutenant (JaidynReiman){br}Heiress (Priestess Sword by blood\nPioneer (FE9 Fighter by L95, Female by Pikmin1211)\nHunter (MeatOfJustice)\nFencer-M (FE3 Marth by ThyAnarchists){br}Fencer-F (Eirika-Elf by JaidynReiman)\nSoldier (FE10 Soldier by Flasuban{br}Sergeant by Spud, Female by Dora Drago{br}Captain (Great Lord Ephraim by VelvetKitsune, Snewping, HGS)\nGuard (Knight Helmetless by SALVAGED, BoneManSeth)\nApprentice (FE4 Thunder Mage by Ash3wl, L95, Dominus_Vobiscum){br}Sage (Battle Sage by L95, Female by Leif)\nShaman (Mage by Teraspark)\nTactician (Thaumaturge by Pikmin1211, DerTheVaporean)\nWolf Knight (JaidynReiman; splices by VelvetKitsune, Leif)\nBear (AVerySheepGamer){br}Bunny (Madzz){br}Horse (L95){br}White Horse (N426){br}Pegasus (N426)\nBox (Pikmin1211 4){br}Crate (Topazlight){br}Crates (PrimeFusion){br}Obstacle (Alice)"
+    },
+    {
+        "nid": "Icons",
+        "name": "Icons",
+        "title": "Credits: Icons",
+        "category": "Guide",
         "text": ""
+    },
+    {
+        "nid": "MagicAnim",
+        "name": "Magic Anim",
+        "title": "Credits: Magic Animations",
+        "category": "Guide",
+        "text": ""
+    },
+    {
+        "nid": "Tilesets",
+        "name": "Tilesets",
+        "title": "Credits: Tilesets",
+        "category": "Guide",
+        "text": "Village - Remake + Coconut Tree + Ship Extras:{br}flasuban, N426, ZoramineFae, Venno{br}{br}Metropolis (0.83 and 0.90){br}Cynon\nFE8 - Fields - Remaster - Super Fields{br}Wave, RandomWizard, Beast{br}Aquamarine Roofs + Gray Mountains by Dark, inspired by LeifOClaude"
+    },
+    {
+        "nid": "Autotiles",
+        "name": "Autotiles",
+        "title": "Credits: Autotiles",
+        "category": "Guide",
+        "text": "Cynon's Metropolis Autotiles{br}JaidynReiman (edited from Cynon's GBA Map Animations)"
+    },
+    {
+        "nid": "Maps",
+        "name": "Maps",
+        "title": "Credits: Maps",
+        "category": "Guide",
+        "text": "AuraWolf's Snap a Crap Pack V3.1 maps in general have been very useful starting points to get the feel of how maps should look, and how certain tile placements should work. The ship tiles especially are quite complicated."
+    },
+    {
+        "nid": "WorldMap",
+        "name": "World Map",
+        "title": "Credits: World Map",
+        "category": "Guide",
+        "text": "Original Concept by JaidynReiman{br}Generated Using Donjon Fantasy World Generator{br}Map Outlined In AutoREALM{br}Redrawn From AutoREALM Using Inkarnate"
+    },
+    {
+        "nid": "Backgrounds",
+        "name": "Backgrounds",
+        "title": "Credits: Backgrounds",
+        "category": "Guide",
+        "text": "Lunar PSP Backgrounds by Fenreir"
+    },
+    {
+        "nid": "Platforms",
+        "name": "Platforms",
+        "title": "Credits: Platforms",
+        "category": "Guide",
+        "text": "Cynon:{br}Metropolis Platforms (Dark Cobblestone){br}Floor and Rug Platforms (Marble Floor)"
+    },
+    {
+        "nid": "UI",
+        "name": "UI",
+        "title": "Credits: UI",
+        "category": "Guide",
+        "text": "Stat Screen BG by feels"
     }
 ]
