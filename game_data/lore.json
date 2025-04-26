@@ -301,11 +301,25 @@
         "text": "Lex Talionis Engine and LT-Maker Editor created by rainlash{br}With additional programming and help from the Lex Talionis Discord server.\nLT Discord server:{br}mag, KD, Sigmaraven, TheeBill, Lord Tweed, ZessDynamite, Nemid, Kyogokudo, beccarte, Meinerieve, Greentwip, Klokinator, Sealvester, Joytis, aorlnn.\nNarrow fonts and droppable item icon originally created by Scraiza.\nLex Talionis is a non-profit engine, released for free, and developed using Python, Pygame, and PyQt5. Some default assets are copyrighted or trademarked by their respective owners.\nLicensed under the MIT License."
     },
     {
-        "nid": "Music",
-        "name": "Music",
-        "title": "Credits: Music",
+        "nid": "Music1",
+        "name": "Open Music",
+        "title": "Credits: Open Music",
         "category": "Guide",
-        "text": "Eric Mattyas{br}www.soundimage.org{br}\"Bumming Around in Pixel Town\"\nMushra Games{br}www.patreon.com/MushraGames{br}\nAlusq{br}\"Act Raiser 2, Deception\"{br}\"Act Raiser, Cassandra\"{br}\"FE3 Off To War Remix\"\nA Reliable Chair{br}\"Symphonia, Shihna\"{br}\"Mint's Theme\"{br}\"Lunar, Toward the Horizon\"{br}\"\"\nDolkar{br}\"Roller Coaster Tycoon 2, Pirate Theme\"{br}{br}Feier{br}\"Act Raiser, Northwall\"\nKaidras{br}Triangle Strategy:{br}\"Elegy of Battle\"{br}\"Combat: Destiny\"{br}\"Combat: Adversity\"{br}Unicorn Overlord:{br}\"Farde Mal Diavolo\"\nPandan{br}Majora's Mask:{br}\"Mayor's Theme\"{br}\"Suikoden, Army Advance\"{br}\"Suikoden 2, Gothic Neclord\"\nPikmin1211{br}Riviera:{br}\"Heaven's Gate\"{br}\"Battle Against Demons\"\nNyawenyye{br}\"Damn Again\"{br}{br}Mychahel{br}\"Monster Hunter, Black Fatalis\"\nRSFlame{br}\"RPG Maker PS1, Castle 2\"{br}\"RPG Maker PS1, Battle 3\"\nRandomWizard{br}\"Frog's Theme\"{br}\"Sword of Mana, Courage and Pride From the Heart\"{br}\"Langrisser, Shop\"\nRandomWizard{br}\"GS2, Walking Forward With Determination\"{br}\"Cry-A-Live\"{br}\"The Demon King Odio\"\nSaXor the Nobody{br}\"Feldschlact III\"{br}\"Tense Atmosphere\"{br}\"Lufia 2 Battle\"\nShinKuma{br}Riviera{br}\"Showdown With Hector\"{br}\"Fierce Clash\"\nSme{br}\"Something Custom\"{br}\"Secret of the Stars Battle 1\"{br}\"Sinistral Battle\"\nTak{br}\"Suikoden 2, Reminiscence\"\nUnitedStars111{br}\"Albert Odyssey 2, Land of Frozen Forest\""
+        "text": "Eric Mattyas{br}www.soundimage.org{br}\"Bumming Around in Pixel Town\"\nMushra Games{br}www.patreon.com/MushraGames{br}"
+    },
+    {
+        "nid": "Music2",
+        "name": "FE Music A-N",
+        "title": "Credits: FE Music A-P",
+        "category": "Guide",
+        "text": "Alusq{br}\"Act Raiser 2, Deception\"{br}\"Act Raiser, Cassandra\"{br}\"FE3 Off To War Remix\"\nA Reliable Chair{br}\"Symphonia, Shihna\"{br}\"Mint's Theme\"{br}\"Lunar, Toward the Horizon\"\nDolkar{br}\"Roller Coaster Tycoon 2, Pirate Theme\"{br}{br}Feier{br}\"Act Raiser, Northwall\"\nKaidras{br}Triangle Strategy:{br}\"Elegy of Battle\"{br}\"Combat: Destiny\"{br}\"Combat: Adversity\"{br}Unicorn Overlord:{br}\"Farde Mal Diavolo\"\nMychahel{br}\"Monster Hunter, Black Fatalis\"{br}{br}Nyawenyye{br}\"Damn Again\"\nPandan{br}Majora's Mask:{br}\"Mayor's Theme\"{br}\"Suikoden, Army Advance\"{br}\"Suikoden 2, Gothic Neclord\"\nPikmin1211{br}Riviera:{br}\"Heaven's Gate\"{br}\"Battle Against Demons\""
+    },
+    {
+        "nid": "Music3",
+        "name": "FE Music P-U",
+        "title": "Credits: FE Music R-U",
+        "category": "Guide",
+        "text": "RSFlame{br}\"RPG Maker PS1, Castle 2\"{br}\"RPG Maker PS1, Battle 3\"\nRandomWizard{br}\"Frog's Theme\"{br}\"Sword of Mana, Courage and Pride From the Heart\"{br}\"Langrisser, Shop\"\nRandomWizard{br}\"GS2, Walking Forward With Determination\"{br}\"Cry-A-Live\"{br}\"The Demon King Odio\"\nSaXor the Nobody{br}\"Feldschlact III\"{br}\"Tense Atmosphere\"{br}\"Lufia 2 Battle\"\nShinKuma{br}Riviera{br}\"Showdown With Hector\"{br}\"Fierce Clash\"\nSme{br}\"Something Custom\"{br}\"Secret of the Stars Battle 1\"{br}\"Sinistral Battle\"\nTak{br}\"Suikoden 2, Reminiscence\"\nUnitedStars111{br}\"Albert Odyssey 2, Land of Frozen Forest\""
     },
     {
         "nid": "BattleAnim",
@@ -322,11 +336,32 @@
         "text": "Prince, Princess (EldritchAbomination)\nLord, Lady (Mage Lord by TyTheBub, Elf by JaidynReiman){br}Lieutenant (JaidynReiman){br}Heiress (Priestess Sword by blood\nPioneer (FE9 Fighter by L95, Female by Pikmin1211)\nHunter (MeatOfJustice)\nFencer-M (FE3 Marth by ThyAnarchists){br}Fencer-F (Eirika-Elf by JaidynReiman)\nSoldier (FE10 Soldier by Flasuban{br}Sergeant by Spud, Female by Dora Drago{br}Captain (Great Lord Ephraim by VelvetKitsune, Snewping, HGS)\nGuard (Knight Helmetless by SALVAGED, BoneManSeth)\nApprentice (FE4 Thunder Mage by Ash3wl, L95, Dominus_Vobiscum){br}Sage (Battle Sage by L95, Female by Leif)\nShaman (Mage by Teraspark)\nTactician (Thaumaturge by Pikmin1211, DerTheVaporean)\nWolf Knight (JaidynReiman; splices by VelvetKitsune, Leif)\nBear (AVerySheepGamer){br}Bunny (Madzz){br}Horse (L95){br}White Horse (N426){br}Pegasus (N426)\nBox (Pikmin1211 4){br}Crate (Topazlight){br}Crates (PrimeFusion){br}Obstacle (Alice)"
     },
     {
-        "nid": "Icons",
-        "name": "Icons",
-        "title": "Credits: Icons",
+        "nid": "Icons1",
+        "name": "Icon Sheets",
+        "title": "Credits: Icon Sheets",
         "category": "Guide",
-        "text": ""
+        "text": "Most icon sheets were compiled or cleaned up by JaidynReiman from existing icons in the Repo. Most existing full sheets in the repo were not designed for LT and had to be cleaned up.\nSkill Icon Sheet was compiled by ZessDynamite, Rainlash, LordGlenn, and Suneohair, along with a few others including JaidynReiman. Original sheet was posted in the LT Discord.\nAffinities:{br}IS, Topazlight, Artist Unknown{br}{br}Weapon Types:{br}Alice, RLC, VelvetKistune, Stephano, JaidynReiman"
+    },
+    {
+        "nid": "Icons2",
+        "name": "Weapon Icons",
+        "title": "Credits: Weapon Icons",
+        "category": "Guide",
+        "text": "Swords: Zelix, Beansy, EldritchAbomination, Indogutsu Tenbuki{br}{br}Great Swords: VelvetKitsune, Beansy, Ereshkigal, 2Wb, Batima, Zarg\nKatanas: Zarg, Batima, MeatOfJustice, Topazlight, Zelix, Ereshkigal, Beansy, VelvetKitsune, EldritchA, Indogutsu Tenbuki{br}Lightblades and Rapiers: EldritchA, Indogutsu Tenbuki\nKnives: Ereshkigal{br}{br}Daggers: Sacred Stones, Batima, Ysor, 2WB, Hanakko\nLances: Zelix, MeatOfJustice, Zane, 2WB, Celice{br}Poles: Batima, Zelix{br}Javelins: Ereshkigal\nTridents: AtelierLabs, Celice{br}Staves: IS, AtelierLabs\nAxes: Zelix, LordGlenn, Beansy, GabrielKnight, EldritchAbomination, Indogutsu Tenbuki{br}Throwing Axes: Zarg\nHammers: Zelix, Ereshkigal, Zane, Jubby, Furious Haunter, Mike{br}\nScythes: GabrielKnight{br}Maces: TBD\nBows: Beansy, MeatOfJustice, Zelix, Zarg, Seal{br}Longbows: Batima, George Reds\nCrossbows: Beansy, Batima{br}Ballistas: Beansy, Batima, Seal, Purple"
+    },
+    {
+        "nid": "Icons3",
+        "name": "Magic Icons",
+        "title": "Credits: Magic Icons",
+        "category": "Guide",
+        "text": "Spellbook:{br}Anima Tome 3 by Cardcafe{br}{br}Solus: Batima, 2WB, Beansy, Ereshkigal, Zarg{br}Aquis: Batima, FuriousHaunter, AtelierLabs, Zarg, Beansy, Ereshkigal\nIgnis: Batima, Zarg, 2WB, Ereshkigal, Valak{br}Fulgus: Ereshkigal, Valak, Beansy, Batima{br}Glacies: Ereshkigal, VelvetKitsune, Zarg, FuriousHaunter, Beansy\nVentus: Valak, Ereshkigal, Batima{br}Tellus: Zarg, Valak, Ereshkigal, Beansy, Batima, FuriousHaunter{br}Lunis: Batima, 2WB, Zane, CamTech075, Zarg"
+    },
+    {
+        "nid": "Icons4",
+        "name": "Item Icons",
+        "title": "Credits: Item Icons",
+        "category": "Guide",
+        "text": "Gems: Maxim, Zelix{br}{br}Stat Ups: Beansy, CardCafe, EldritchAbomination, Indogetsu Tenbuki, Zarg, Zelix\nPromotion Icons: Zarg, Beansy, Seal\n"
     },
     {
         "nid": "MagicAnim",
