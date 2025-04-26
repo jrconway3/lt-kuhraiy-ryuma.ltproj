@@ -3418,7 +3418,7 @@
     },
     {
         "name": "GlobalCredits0",
-        "trigger": "level_start",
+        "trigger": "on_startup",
         "level_nid": null,
         "condition": "True",
         "commands": [],
@@ -3437,7 +3437,6 @@
             "add_lore;Icons2",
             "add_lore;Icons3",
             "add_lore;Icons4",
-            "add_lore;Icons5",
             "add_lore;Portraits",
             "add_lore;Tilesets",
             "add_lore;Autotiles",
@@ -4137,5 +4136,18 @@
             "t;open"
         ],
         "nid": "Global GlobalCredits"
+    },
+    {
+        "name": "Credits",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "open_guide;immediate"
+        ],
+        "nid": "Global Credits"
     }
 ]
