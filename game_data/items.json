@@ -4368,83 +4368,6 @@
         ]
     },
     {
-        "nid": "Cursed_Lance",
-        "name": "Cursed Lance",
-        "desc": "Inflicts a curse to damage both health and mana.",
-        "icon_nid": "{Beansy} {Lances} All Icons",
-        "icon_index": [
-            0,
-            4
-        ],
-        "components": [
-            [
-                "weapon",
-                null
-            ],
-            [
-                "target_enemy",
-                null
-            ],
-            [
-                "level_exp",
-                null
-            ],
-            [
-                "damage",
-                4
-            ],
-            [
-                "hit",
-                65
-            ],
-            [
-                "weapon_type",
-                "Lance"
-            ],
-            [
-                "weapon_rank",
-                "E"
-            ],
-            [
-                "uses",
-                40
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
-                "weight",
-                8
-            ],
-            [
-                "crit",
-                0
-            ],
-            [
-                "status_on_hit",
-                "Curse"
-            ],
-            [
-                "min_range",
-                1
-            ],
-            [
-                "max_range",
-                1
-            ],
-            [
-                "item_tags",
-                [
-                    "Damazos"
-                ]
-            ]
-        ]
-    },
-    {
         "nid": "Glaive",
         "name": "Glaive",
         "desc": "High chance to deal fatal blows.",
@@ -5177,6 +5100,83 @@
                     "show_effectiveness_flash": true,
                     "weapon_effectiveness_multiplied": true
                 }
+            ]
+        ]
+    },
+    {
+        "nid": "Cursed_Lance",
+        "name": "Cursed Lance",
+        "desc": "Inflicts a curse to damage both health and mana.",
+        "icon_nid": "{Beansy} {Lances} All Icons",
+        "icon_index": [
+            0,
+            4
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "damage",
+                4
+            ],
+            [
+                "hit",
+                65
+            ],
+            [
+                "weapon_type",
+                "Lance"
+            ],
+            [
+                "weapon_rank",
+                "E"
+            ],
+            [
+                "uses",
+                40
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "weight",
+                8
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "status_on_hit",
+                "Curse"
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "item_tags",
+                [
+                    "Damazos"
+                ]
             ]
         ]
     },
@@ -6663,10 +6663,10 @@
         "nid": "Bardiche",
         "name": "Bardiche",
         "desc": "High chance to deal fatal blows.",
-        "icon_nid": "{Beansy} {Axes} All Icons",
+        "icon_nid": "{Zane} All Icons",
         "icon_index": [
-            1,
-            5
+            3,
+            9
         ],
         "components": [
             [
@@ -6821,10 +6821,10 @@
         "nid": "Skeggox",
         "name": "Skeggox",
         "desc": "Preferred by pirates.",
-        "icon_nid": "{Beansy} {Axes} All Icons",
+        "icon_nid": "{Zane} All Icons",
         "icon_index": [
-            1,
-            1
+            0,
+            10
         ],
         "components": [
             [
@@ -6904,10 +6904,10 @@
         "nid": "Cursed_Axe",
         "name": "Cursed Axe",
         "desc": "Poisons on contact",
-        "icon_nid": "Axe",
+        "icon_nid": "{Beansy} {Axes} All Icons",
         "icon_index": [
-            0,
-            3
+            3,
+            1
         ],
         "components": [
             [
@@ -7146,13 +7146,187 @@
         ]
     },
     {
-        "nid": "Hatchet",
-        "name": "Hatchet",
-        "desc": "Can be thrown to attack at range. Cannot double.",
+        "nid": "Daikokuten",
+        "name": "Daikokuten",
+        "desc": "Mallet which brings good fortune. Luk+20",
         "icon_nid": "Axe",
         "icon_index": [
             0,
-            13
+            7
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "damage",
+                10
+            ],
+            [
+                "hit",
+                55
+            ],
+            [
+                "weapon_type",
+                "Axe"
+            ],
+            [
+                "weapon_rank",
+                "C"
+            ],
+            [
+                "uses",
+                20
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "weight",
+                15
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "wexp",
+                2
+            ],
+            [
+                "value",
+                800
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "Armor"
+                    ],
+                    "effective_multiplier": 1.0,
+                    "effective_bonus_damage": 20,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
+            ]
+        ]
+    },
+    {
+        "nid": "Myollnir",
+        "name": "Myollnir",
+        "desc": "Mythical hammer left by a God. Spd+10",
+        "icon_nid": "Axe",
+        "icon_index": [
+            0,
+            7
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "damage",
+                10
+            ],
+            [
+                "hit",
+                55
+            ],
+            [
+                "weapon_type",
+                "Axe"
+            ],
+            [
+                "weapon_rank",
+                "S"
+            ],
+            [
+                "uses",
+                20
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "weight",
+                15
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "wexp",
+                2
+            ],
+            [
+                "value",
+                800
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "Armor"
+                    ],
+                    "effective_multiplier": 1.0,
+                    "effective_bonus_damage": 20,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
+            ]
+        ]
+    },
+    {
+        "nid": "Hatchet",
+        "name": "Hatchet",
+        "desc": "Can be thrown to attack at range. Cannot double.",
+        "icon_nid": "{Zarg} All Icons",
+        "icon_index": [
+            9,
+            7
         ],
         "components": [
             [
@@ -7220,10 +7394,10 @@
         "nid": "Hand_Axe",
         "name": "Hand Axe",
         "desc": "Can be thrown to attack at range. Cannot double.",
-        "icon_nid": "Axe",
+        "icon_nid": "{Zelix} [WEP] FE13-FE14 Pack",
         "icon_index": [
-            0,
-            9
+            13,
+            4
         ],
         "components": [
             [
@@ -7291,10 +7465,10 @@
         "nid": "ShortAxe",
         "name": "Short Axe",
         "desc": "Can be thrown to attack at range. Cannot double.",
-        "icon_nid": "Axe",
+        "icon_nid": "{Zelix} FE11&13-style weapons",
         "icon_index": [
-            0,
-            9
+            14,
+            6
         ],
         "components": [
             [
@@ -7362,10 +7536,10 @@
         "nid": "Tomahawk",
         "name": "Tomahawk",
         "desc": "Can be thrown to attack at range. Cannot double.",
-        "icon_nid": "Axe",
+        "icon_nid": "{Zelix} [WEP] FE13-FE14 Pack",
         "icon_index": [
-            0,
-            10
+            14,
+            3
         ],
         "components": [
             [
@@ -7433,10 +7607,10 @@
         "nid": "Dragon_Axe",
         "name": "Dragon Axe",
         "desc": "Effective against dragon units",
-        "icon_nid": "Axe",
+        "icon_nid": "{Beansy} {Axes} All Icons",
         "icon_index": [
-            0,
-            14
+            1,
+            0
         ],
         "components": [
             [
@@ -7465,7 +7639,7 @@
             ],
             [
                 "weapon_rank",
-                "C"
+                "A"
             ],
             [
                 "uses",
@@ -7738,6 +7912,148 @@
         ]
     },
     {
+        "nid": "Stonecrusher",
+        "name": "Stonecrusher",
+        "desc": "Battle Axe imbued with Tellus. Eff vs Nordak, Chiylo.",
+        "icon_nid": "{EldritchA, Indogutsu Tenbuki} Tactics Ogre All Icons",
+        "icon_index": [
+            5,
+            2
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "damage",
+                13
+            ],
+            [
+                "hit",
+                60
+            ],
+            [
+                "weapon_type",
+                "Axe"
+            ],
+            [
+                "weapon_rank",
+                "B"
+            ],
+            [
+                "weight",
+                15
+            ],
+            [
+                "uses",
+                20
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "crit",
+                5
+            ],
+            [
+                "value",
+                1000
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ]
+        ]
+    },
+    {
+        "nid": "FrozenAxe",
+        "name": "Frozen Axe",
+        "desc": "Battle Axe imbued with Glacies. Eff vs Zabos, Avyons.",
+        "icon_nid": "{EldritchA, Indogutsu Tenbuki} Tactics Ogre All Icons",
+        "icon_index": [
+            3,
+            2
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "damage",
+                13
+            ],
+            [
+                "hit",
+                60
+            ],
+            [
+                "weapon_type",
+                "Axe"
+            ],
+            [
+                "weapon_rank",
+                "B"
+            ],
+            [
+                "weight",
+                15
+            ],
+            [
+                "uses",
+                20
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "crit",
+                5
+            ],
+            [
+                "value",
+                1000
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ]
+        ]
+    },
+    {
         "nid": "Garm",
         "name": "Garm",
         "desc": "Speed +5. Effective against monsters",
@@ -7814,6 +8130,180 @@
                     ],
                     "effective_multiplier": 1.0,
                     "effective_bonus_damage": 40,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
+            ]
+        ]
+    },
+    {
+        "nid": "Vidyudabhi",
+        "name": "Vidyudabhi",
+        "desc": "Sacred Axe of Baedrol.",
+        "icon_nid": "{Zarg} All Icons",
+        "icon_index": [
+            3,
+            7
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "damage",
+                10
+            ],
+            [
+                "hit",
+                55
+            ],
+            [
+                "weapon_type",
+                "Axe"
+            ],
+            [
+                "weapon_rank",
+                "S"
+            ],
+            [
+                "uses",
+                20
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "weight",
+                15
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "wexp",
+                2
+            ],
+            [
+                "value",
+                800
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "Armor"
+                    ],
+                    "effective_multiplier": 1.0,
+                    "effective_bonus_damage": 20,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
+            ]
+        ]
+    },
+    {
+        "nid": "Criorend",
+        "name": "Criorend",
+        "desc": "Sacred scythe of Aslark. Res+10",
+        "icon_nid": "{Zarg} All Icons",
+        "icon_index": [
+            6,
+            9
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "damage",
+                10
+            ],
+            [
+                "hit",
+                55
+            ],
+            [
+                "weapon_type",
+                "Axe"
+            ],
+            [
+                "weapon_rank",
+                "S"
+            ],
+            [
+                "uses",
+                20
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "weight",
+                15
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "wexp",
+                2
+            ],
+            [
+                "value",
+                800
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "Armor"
+                    ],
+                    "effective_multiplier": 1.0,
+                    "effective_bonus_damage": 20,
                     "show_effectiveness_flash": true,
                     "weapon_effectiveness_multiplied": true
                 }
@@ -19443,7 +19933,7 @@
     {
         "nid": "Master_Seal",
         "name": "Master Seal",
-        "desc": "Promotes all normal classes",
+        "desc": "Promotes all normal classes. Dummy item, will not be used.",
         "icon_nid": "Boosters",
         "icon_index": [
             0,
@@ -19488,13 +19978,85 @@
         ]
     },
     {
-        "nid": "Red_Gem",
-        "name": "Red Gem",
-        "desc": "An expensive gem worth 2500 gold.",
-        "icon_nid": "Valuable",
+        "nid": "OmyrusSeal",
+        "name": "Omyrus Seal",
+        "desc": "For Queiza Lv 20.",
+        "icon_nid": "Boosters",
         "icon_index": [
             0,
-            0
+            14
+        ],
+        "components": [
+            [
+                "usable",
+                null
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "uses",
+                1
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "usable_in_base",
+                null
+            ],
+            [
+                "value",
+                10000
+            ],
+            [
+                "promote",
+                null
+            ],
+            [
+                "eval_target_restrict_2",
+                "unit.level >= 20"
+            ],
+            [
+                "prf_class",
+                [
+                    "Fencer",
+                    "Nurse",
+                    "StreetRat",
+                    "Apprentice"
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Opal",
+        "name": "Opal",
+        "desc": "An uncommon gemstone worth 1,000 talur.",
+        "icon_nid": "{EldritchA, Indogutsu Tenbuki} Tactics Ogre All Icons",
+        "icon_index": [
+            7,
+            15
+        ],
+        "components": [
+            [
+                "value",
+                2000
+            ]
+        ]
+    },
+    {
+        "nid": "Garnet",
+        "name": "Garnet",
+        "desc": "An uncommon gemstone worth 2,500 talur.",
+        "icon_nid": "{EldritchA, Indogutsu Tenbuki} Tactics Ogre All Icons",
+        "icon_index": [
+            2,
+            15
         ],
         "components": [
             [
@@ -19504,13 +20066,13 @@
         ]
     },
     {
-        "nid": "Blue_Gem",
-        "name": "Blue Gem",
-        "desc": "An expensive gem worth 5000 gold.",
-        "icon_nid": "Valuable",
+        "nid": "Ruby",
+        "name": "Ruby",
+        "desc": "A valuable gemstone worth 5,000 talur.",
+        "icon_nid": "{EldritchA, Indogutsu Tenbuki} Tactics Ogre All Icons",
         "icon_index": [
-            0,
-            1
+            3,
+            15
         ],
         "components": [
             [
@@ -19520,18 +20082,50 @@
         ]
     },
     {
-        "nid": "White_Gem",
-        "name": "White Gem",
-        "desc": "An expensive gem worth 10000 gold.",
-        "icon_nid": "Valuable",
+        "nid": "Sapphire",
+        "name": "Sapphire",
+        "desc": "A valuable gemstone worth 15,000 talur.",
+        "icon_nid": "{EldritchA, Indogutsu Tenbuki} Tactics Ogre All Icons",
         "icon_index": [
-            0,
-            2
+            5,
+            15
         ],
         "components": [
             [
                 "value",
                 20000
+            ]
+        ]
+    },
+    {
+        "nid": "Emerald",
+        "name": "Emerald",
+        "desc": "A valuable gemstone worth 15,000 talur.",
+        "icon_nid": "{EldritchA, Indogutsu Tenbuki} Tactics Ogre All Icons",
+        "icon_index": [
+            4,
+            15
+        ],
+        "components": [
+            [
+                "value",
+                30000
+            ]
+        ]
+    },
+    {
+        "nid": "Diamond",
+        "name": "Diamond",
+        "desc": "A valuable gemstone worth 20,000 talur.",
+        "icon_nid": "{EldritchA, Indogutsu Tenbuki} Tactics Ogre All Icons",
+        "icon_index": [
+            6,
+            15
+        ],
+        "components": [
+            [
+                "value",
+                40000
             ]
         ]
     },

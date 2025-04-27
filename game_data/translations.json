@@ -305,7 +305,7 @@
     },
     {
         "nid": "shop_no_money",
-        "text": "Sorry. You don't have enough money."
+        "text": "Sorry. You don't have enough talur."
     },
     {
         "nid": "shop_check",
@@ -398,5 +398,9 @@
     {
         "nid": "Guide",
         "text": "Credits"
+    },
+    {
+        "nid": "gold",
+        "text": "talur"
     }
 ]

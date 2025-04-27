@@ -113,14 +113,6 @@
         "subicon_dict": {}
     },
     {
-        "nid": "[All Icons] - Rally Manuals {unuesu, Pikmin1211}",
-        "subicon_dict": {}
-    },
-    {
-        "nid": "[Gabrielknight} Crossbows",
-        "subicon_dict": {}
-    },
-    {
         "nid": "[WEP] Pack 5 {Lisandra Brave}",
         "subicon_dict": {
             "[WEP] Pack 5 {Lisandra Brave} 4, 1": [
@@ -171,11 +163,7 @@
         }
     },
     {
-        "nid": "{Beansy} AnimaSheet",
-        "subicon_dict": {}
-    },
-    {
-        "nid": "{Beansy} DarkSheet",
+        "nid": "{Cardcafe} {Mixed 1} All Icons",
         "subicon_dict": {}
     },
     {
@@ -183,23 +171,7 @@
         "subicon_dict": {}
     },
     {
-        "nid": "{GabrielKnight} {2} All Icons",
-        "subicon_dict": {}
-    },
-    {
-        "nid": "{GabrielKnight} {3} All Icons",
-        "subicon_dict": {}
-    },
-    {
-        "nid": "{Leif} {Magical Tomes} All Icons",
-        "subicon_dict": {}
-    },
-    {
         "nid": "{Peerless} FE9 Weapon Icons (Custom Palette)",
-        "subicon_dict": {}
-    },
-    {
-        "nid": "Affinities {Shuusuke, Obsidian Daddy}",
         "subicon_dict": {}
     },
     {
@@ -214,19 +186,6 @@
     {
         "nid": "{Zelix} FE11&13-style weapons",
         "subicon_dict": {}
-    },
-    {
-        "nid": "{J-Treecko} {Lex Talionis} All Icons",
-        "subicon_dict": {
-            "{J-Treecko} {Lex Talionis} All Icons 1, 16": [
-                1,
-                16
-            ],
-            "{J-Treecko} {Lex Talionis} All Icons 4, 6": [
-                4,
-                6
-            ]
-        }
     },
     {
         "nid": "{CamTech075} Pack 2 ",
@@ -244,18 +203,6 @@
                 1
             ]
         }
-    },
-    {
-        "nid": "{Cardcafe} {Mixed 1} All Icons",
-        "subicon_dict": {}
-    },
-    {
-        "nid": "{Cardcafe} {Skill Icons} All Icons",
-        "subicon_dict": {}
-    },
-    {
-        "nid": "{Cardcafe} Affinity All Icons",
-        "subicon_dict": {}
     },
     {
         "nid": "{Celice} All Icons - FE8 Weapons",
@@ -355,23 +302,6 @@
             "{Beansy} All Tomes 0, 5": [
                 0,
                 5
-            ]
-        }
-    },
-    {
-        "nid": "wexp_expanded",
-        "subicon_dict": {
-            "wexp_expanded 0, 1": [
-                0,
-                1
-            ],
-            "wexp_expanded 1, 4": [
-                1,
-                4
-            ],
-            "wexp_expanded 1, 2": [
-                1,
-                2
             ]
         }
     },

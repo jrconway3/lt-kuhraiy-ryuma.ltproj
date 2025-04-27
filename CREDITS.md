@@ -61,7 +61,7 @@ Queiza Fin / Mag+ New Item (FE15 Item 14 by Cardcafe)
 ##### Promotion Icons
 Masan Seal / Replaces Master Seal ()
 Pirate's Proof / Replaces Ocean Seal (Item 35 by Zarg) NOTE: this has been cut
-Kitezh Crest / Replaces Lunar Brace (Sylvain Scale by Beanzy) NOTE: this has been cut
+Kitezh Crest / Replaces Lunar Brace (Sylvain Scale by Beansy) NOTE: this has been cut
 Nordak Crest / Replaces Solar Brace (SacredWar Item 33 by Seal) NOTE: this has been cut
 
 
@@ -210,37 +210,44 @@ Miwata's Blessing ()
 ##### Axes
 
 ###### Simple Axes
-Bronze Axe (Bronze Axe by Zelix)
-Iron Axe (Iron Axe by Zelix)
-Steel Axe (Steel Axe by Zelix)
-Mythril Axe (Silver Axe by Zelix)
-Adamant Axe (Brave Axe by Zelix)
-Bardiche (Axe 5 by LordGlenn)
+Bronze Axe (Axe Icon 055 by Zelix)
+Iron Axe (Axe Icon 056 by Zelix)
+Steel Axe (Icon 057 by Zelix)
+Mythril Axe (Icon 058 by Zelix)
+Adamant Axe (Icon 059 by Zelix)
+Bardiche (Axe 30 by Zane)
 Halberd (Halberd by Beansy)
 Swordreaver (Swordreaver by Beansy)
-Frozen Axe (Icon Blitz 3 Axe - GabrielKnight)
-Stonecrusher (Tactics Ogre Axe 6 - EldritchAbomination, Indogutsu Tenbuki)
+Skeggox (Axe 42 by Zane)
+Cursed Axe (Mage Killer by Beansy)
 
 ###### Hammers
 Hammer (Icon 063 by Zelix)
-Mallet (Hammer 2 by Ereshkigal )
+Mallet (Hammer 2 by Ereshkigal)
 Warhammer (Hammer 12 by Ereshkigal)
-Skeggox (Axe 42 by Zane)
-Vidyudabhi (Axe 13 - Jubby)
 Myollnir (Mjollnir - Furious Haunter)
 Daikokuten (Golden Hammer - Mike)
 
+###### Battle Axe
+Dragon Axe (Garm by Beansy)
+Frozen Axe (Icon Blitz 3 Axe - GabrielKnight; OLD!!)
+Frozen Axe (Tactics Ogre Axe 4 - EldritchAbomination, Indogutsu Tenbuki)
+Stonecrusher (Tactics Ogre Axe 6 - EldritchAbomination, Indogutsu Tenbuki)
+Vidyudabhi (Axe 13 - Jubby; OLD!!)
+Vidyudabhi (Axe 4 by Zarg)
+
 ###### Throwing Axes
-Hatchet (Throwing Axe - Zarg)
-Hand Axe (Icon 078 - Zarg)
-Short Axe (Short Axe - Zarg)
-Tomahawk (Tomahawk - Zarg)
+Hatchet (Axe 10 - Zarg)
+Hand Axe (Icon 077 - Zelix)
+Short Axe (Short Axe - Zelix)
+Tomahawk (Tomahawk - Zelix)
 
 # Scythes
 Criorend (Icon Blitz 3 Lance - Gabriel Knight)
+Criorend (Axe 27 by Zarg; TEMPORARY! I prefer Gabriel Knight's but the sheet isn't ready)
 
 ###### Maces
-
+TBD
 
 ##### Bows
 
@@ -256,8 +263,8 @@ Recurve Bow (KillingBow by Zenix)
 
 ###### Longbows
 Oak Longbow (Bronze Longbow by Batima)
-Maple Longbow ()
 Elm Longbow (Steel Longbow by Batima)
+Maple Longbow ()
 Yew Longbow (Double Bow by Batima)
 Sylvan Longbow (Silver Longbow by Batima)
 Failnaught (Failnaught by Batima)
@@ -623,6 +630,8 @@ Obstacle (Obstacle FE14 by Alice)
 
 #### Magic Animations
 
+Huge shout out to BBHood for ripping GBA spell animations and converting them to LT. Also including many custom animations from the FE-Repo.
+
 ##### Staves
 Vanilla - IS
 
@@ -725,6 +734,169 @@ Ballista Arrow by Seal (SacredWar)
 
 
 ### Portraits
+
+#### Characters
+
+##### Main
+Svetlanya (JaidynReiman)
+Amaya (JaidynReiman)
+Lukas (Pent Noble by Plant_Academy)
+
+##### Core
+Leiland (Stefan by NickT, Stitch)
+Dehren (OC 7 by Levin64)
+Relm (OC 1 by Zwelix)
+Kasuto (Older Natasha by MegaCowsamMan)
+Isabella (Eda by Atey)
+Baschtian (ZoramineFae 6)
+Melodia (Young Ilyana by NickT, Stitch)
+
+##### Secondary
+Yarda (OC1 by VelvetKitsune)
+Thanya (Marisa Black by JeyTheCount)
+Levyas (18 by RandomWizard)
+Nala (Flayn Emotion 4 by Redbean)
+Florina (21 by ??)
+Granye (OC Witch Lord V1 by monk-han)
+
+##### Optional
+Urso (OC 18 by MeatOfJustice)
+Magne (Midir by Zoisite)
+Gwynn (Arthur New Version by Melia)
+Joan (Larcei New Version by Melia)
+Michelle (Larcei by Redbean)
+Liena (Archer Thea by Freefall)
+Adrian (Caligula by ??)
+Jan (OC Hanum V2 by Holy Mushrooms)
+Tatsuru (Erk Ponytail by monk-han)
+Geval (Izarck by Yang Kai)
+Galahn (OC 4 by MeatOfJustice)
+Myleih (OC 23 by CanDy)
+
+##### Guest
+Serena (Nephenee by NickT, Stitch)
+Sherafima (Adult Serra by Spoon_Rhythm, Teelvade)
+
+##### Major Bosses
+Drace (TBD)
+Grisha (Healthy Vigarde)
+Razulis (Giffca by NickT, Stitch)
+Katharina (OC 10 by SaintRubenia)
+Daniya (OC 2 by Zeldacrafter)
+Vyriel (OC 31 by Levin64)
+Mephisto (Medeus by Frigid)
+Azira (Kurth White Hair by Sterling Glovner)
+
+##### Minor Bosses
+Rajyhna (Adult Nino by Spoon_Rhythm, Magelord Max)
+Hanallel (Witch Sonya by Wasdye)
+Stubs (Vaike by Garytop)
+Yeuxi (Joshua Black Skin by JeyTheCount)
+Shyara (Female Rutger by Fenriel)
+Fayza (Altena by Melia)
+Troia (Brigid by Redbean)
+Zajesh (Yrene by TrezVG)
+Liberius (Julian by Glaceo)
+
+##### Major NPC
+Yorwath (Travant by Atey)
+Morgaine (Eve by XVI)
+Shayala (JaidynReiman)
+Mariya (Sonya FE8 colours by JeyTheCount)
+Jezolda (Sonya V2 by Redbean)
+Jethro (TBD)
+Mikhail (OC 3 by LaurentLacroix)
+Henryk (Lorenz by Blueyguy)
+Kuentin (Fado; 100% TEMP, Fado doesn't look anywhere close to Kuentin)
+Gaeya (Mila by Kanna)
+
+##### Minor NPC
+Treiy (Navarre Version 1 by BuskHusker)
+Nadirah (Aimee by NickT, Stitch)
+Katoshi (OC 2 by amema003)
+Maieki (OC Nomad Lord V3 by monk-han)
+Ioshua (TBD)
+Josif (TBD)
+Anna (Anna Fates Custom by Melia)
+
+##### Generics
+Cleric (OC 8 by Kanna)
+Cleric (OC 27 by CapibarInSpace)
+Prior (Kieth by XVI)
+Woman (OC 2 V1 by DATonDemand)
+Girl (F2E 1 by Wasspix2)
+Queizan Girl (ZoramineFae 1)
+Bandit (ZoramineFae 2)
+Bandit (ZoramineFae 5)
+Knight (ZoramineFae 4)
+Knight (ZoramineFae 3)
+Pirate (Drunken Sailor 1 by XVI)
+
+##### Unused
+I imported these but currently have not found a use for them yet. Unfortunately, not all portraits have the credits in filenames, so I will include ?? until I look up the original artists. I won't use them unless I can find the artists.
+
+VERY LIKELY to use:
+OC 5 by GabrielKnight
+OC 48 by Kanna
+
+Unsure:
+GAMERS OC by amema003, ZeldaCrafter, JiroPaiPai, Nickt
+Older Fae by Alice
+Celica by Atey
+Dean by Atey
+Female Rutger by CanDy
+Male Pegasus Knight by Citrus
+Mauve by Citrus
+OC 2 V2 by DATonDemand
+Shanna Archer Version by Freefall
+Zeke by GaryTop
+Aias Black Skin V1 by JeyTheCount
+Aias Black Skin V2 by JeyTheCount
+Black Skin Caellach by JeyTheCount
+Gerik Black Skin by JeyTheCount
+Tethys Black Skin by JeyTheCount
+Green Elf Girl by Kanna, bwan
+Blonde Elf Girl by Kanna, bwan
+OC 29 by LaurentLacroix
+Warrior Lady by Laurent, Raymond, CapibraininSpace, Splinterrocke
+Elf Ears Echidna by Lenh
+Cav Joshua by LonkfromCalifornia
+Creidne by Melia
+Dalvan by Melia
+Eyvel by Melia
+OC Composed Shaman V4 by monk-han
+OC Nomad Lord V1 by monk-han
+OC Nomad Lord V2 by monk-han
+OC1 V1 by Mrkisuke
+OC1 V2 by Mrkisuke
+1 by Mycahel
+OC 5 by PKLucky
+Female Joshua by Plant_Academy
+Female Rutger by Rainlash
+F2E 6 by RandomWizard
+F2E 15 by RandomWizard
+Fir by Redbean
+Angry Hellene by redlightning
+Happy Hellene V2 by redlightning
+Lionel by Roxannity
+OC 10 by SirNicee
+Princess Avarice by TrezVG
+Karel Assassin by Wasdye
+Karel Hooded Assassin by Wasdye
+Nino Thief by Wasdye
+Androgynous Waifi by XVI
+Arthur2 by Yang Kai
+Nils Gets Swifty by ZessDynamite, SageHapuiaJDJ
+Genisis by Zoisite
+OC1 by ??
+OC 2 by ??
+Ex TOTF Portraits 1 by ??
+Ex TOTF Portraits 3 by ??
+Unnamed Generic M by ??
+Unnamed Generic F by ??
+
+
+
 
 #### Class Cards
 

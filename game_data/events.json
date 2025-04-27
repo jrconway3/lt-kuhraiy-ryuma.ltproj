@@ -3417,7 +3417,7 @@
         "nid": "Global SpellbookInit"
     },
     {
-        "name": "GlobalCredits0",
+        "name": "CreditsInit",
         "trigger": "on_startup",
         "level_nid": null,
         "condition": "True",
@@ -3437,7 +3437,9 @@
             "add_lore;Icons2",
             "add_lore;Icons3",
             "add_lore;Icons4",
-            "add_lore;Portraits",
+            "add_lore;Portraits1",
+            "add_lore;Portraits2",
+            "add_lore;Portraits3",
             "add_lore;Tilesets",
             "add_lore;Autotiles",
             "add_lore;WorldMap",
@@ -3446,7 +3448,7 @@
             "add_lore;Platforms",
             "add_lore;UI"
         ],
-        "nid": "Global GlobalCredits0"
+        "nid": "Global CreditsInit"
     },
     {
         "name": "Turn2",
@@ -4088,54 +4090,6 @@
             "give_item;Svetlanya;Master_Seal"
         ],
         "nid": "DEBUG2 TalkKasuto"
-    },
-    {
-        "name": "GlobalCredits",
-        "trigger": null,
-        "level_nid": null,
-        "condition": "True",
-        "commands": [],
-        "only_once": false,
-        "priority": 20,
-        "_source": [
-            "#TO DO: Maybe there's a way to separate this off from lore as its own category? I'd have to do some finagling in the code.",
-            "",
-            "t;close",
-            "change_background;BlackBackground",
-            "t;open",
-            "credits;Lex Talionis Engine LT Maker;rainlash",
-            "credits;Additional Programming;LT Discord Server,mag,KD,Sigmaraven, TheeBill,Lord Tweed,ZessDynamite,Nemid,Kyogokudo,beccarte,Meinerieve,Greentwip,Klokinator,Sealvester,Joytis,aorlnn",
-            "credits;Narrow Fonts Drop Item Icon;Scraiza",
-            "wait;500",
-            "credits;FE Fangame Essentials;Klokinator,Jey the Count,Jj",
-            "wait;100",
-            "credits;BattleAnimations;----------;center;no_split",
-            "credits;Svetlanya Lady;Magus Eirika,Eirika Repal,by Teraspark",
-            "credits;Svetlanya Lake Lady;Mage Lord by TytheBub",
-            "credits;Amaya;Beta Eirika Fixed by Jono the Red",
-            "credits;Dahlten;Mage Lord by TytheBub",
-            "credits;Hunter;Leo_Link,Spuid,MeatOfJustice,Kemomini by VelvetKitsune",
-            "credits;Female Fencer;Eirika by IS,Repal by Teraspark,Magic Alt by FaerieFruit",
-            "credits;Male Fencer;Eliwood by IS,Repal by Teraspark,Magic Alt by FaerieFruit",
-            "credits;Bushi;Laijutsu Samurai,GabrielKnight and BigMood",
-            "credits;Samurai;Dread Fighter by Nuramon",
-            "credits;Kasuto;Fir Swordmaster by Redbean,Scripting by JJ,Lance by VelvetKitsune and Spud",
-            "credits;Soldier;Lightweight Lancer,Sword by JeytheCount,Female by Maiser6",
-            "credits;Guard;Knight by SALVAGED,Helmetless by BoneManSeth",
-            "credits;Bulwark;Baron Cape No Clicks,Leo_Link,Nuramon,Iscaneus,Revamped Handaxe by Sax Marine,Magic by DerTheVaporean",
-            "credits;Wolf Nomad;Wolf Knight by VelvetKitsune",
-            "credits;Wolf Knight;Wolf by VelvetKitsune,Reskin by DatonDemand",
-            "credits;Wolf Prince;Wolf by VelvetKitsune,Reskin by DatonDemand",
-            "credits;Wolf;VelvetKitsune",
-            "credits;Dire Wolf;VelvetKitsune",
-            "wait;500",
-            "credits;Fire Emblem Games & Assets;Intelligent Systems,Nintendo;center;wait;center",
-            "wait;500",
-            "t;close",
-            "change_background",
-            "t;open"
-        ],
-        "nid": "Global GlobalCredits"
     },
     {
         "name": "Credits",

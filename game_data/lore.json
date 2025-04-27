@@ -322,6 +322,27 @@
         "text": "RSFlame{br}\"RPG Maker PS1, Castle 2\"{br}\"RPG Maker PS1, Battle 3\"\nRandomWizard{br}\"Frog's Theme\"{br}\"Sword of Mana, Courage and Pride From the Heart\"{br}\"Langrisser, Shop\"\nRandomWizard{br}\"GS2, Walking Forward With Determination\"{br}\"Cry-A-Live\"{br}\"The Demon King Odio\"\nSaXor the Nobody{br}\"Feldschlact III\"{br}\"Tense Atmosphere\"{br}\"Lufia 2 Battle\"\nShinKuma{br}Riviera{br}\"Showdown With Hector\"{br}\"Fierce Clash\"\nSme{br}\"Something Custom\"{br}\"Secret of the Stars Battle 1\"{br}\"Sinistral Battle\"\nTak{br}\"Suikoden 2, Reminiscence\"\nUnitedStars111{br}\"Albert Odyssey 2, Land of Frozen Forest\""
     },
     {
+        "nid": "Portraits1",
+        "name": "Portraits",
+        "title": "Portraits (Players)",
+        "category": "Guide",
+        "text": "All portraits are either from the FE Art Community in the FE Repo or are vanilla IS. All of them are only placeholders; I intend on making new portraits to replace them.\nThe portraits made by me were generated using AI portrait generators to be as close to my characters as possible. I then recreated the designs in sprite form and cleaned them up.\nPortraits by JaidynReiman (F2E):{br}Svetlanya Renald{br}Amaya Lyudam{br}Shayala Massione{br}Lukas (Pent; Plant_Academy)\nLeiland (Stefan; NickT, Stitch){br}Dehren (OC 7; Levin64){br}Kasuto (Older Natasha; MegaCowsamMan){br}Bella (Eda; Atey){br}Baschtian (ZoramineFae){br}Mel (Young; NickT, Stitch)\nYarda (OC1; VelvetKitsune){br}Thanya (Marisa; JeyTheCount){br}Levyas (RandomWizard){br}Nala (Flayn; Redbean){br}Florina (21, ??){br}Granye (Witch Lord; monk-han)\nUrso (MeatOfJustice){br}Magne (Midir, Zoisite){br}Gwynn (Arthur; Melia){br}Joan (Larvei; Melia){br}Michelle (Larcei; Redbean){br}Liena (Thea; Freefall)\nAdrian (Caligula){br}Jan (Hanum V2; Holy Mushrooms){br}Tatsuru (Erk; Monk-Han){br}Geval (Izarck; Yang Kai){br}Galahn (MeatOfJustice){br}Myleih (CanDy)\nSerena (Nephenee; NickT, Stitch){br}Sherafima (Adult Serra; Spoon_Rhythm, Teelvade)"
+    },
+    {
+        "nid": "Portraits2",
+        "name": "Portraits",
+        "title": "Portraits (Enemy)",
+        "category": "Guide",
+        "text": "All portraits are either from the FE Art Community in the FE Repo or are vanilla IS. All of them are only placeholders; I intend on making new portraits to replace them.\nDrace (TBD){br}Grisha (Healthy Vigarde){br}Razulis (Giffca; NickT, Stitch){br}Katharina (SaintRubenia)\nDaniya (Zeldacrafter){br}Vyriel (Levin64){br}Mephisto (Medeus; Frigid){br}Azira (Kurth; Sterling Glovner)\nRajyhna (Adult Nino; Spoon_Rhythm, Magelord Max){br}Hanallel (Witch Sonya; Wasdye){br}Stubs (Vaike; Garytop){br}Yeuxi (Blk Joshua; JeyTheCount){br}Shyara (Fem Rutger; Fenriel)\nFayza (Altena; Melia){br}Troia (Brigid; Redbean){br}Zajesh (Yrene; TrezVG){br}Liberius (Julian; Glaceo)"
+    },
+    {
+        "nid": "Portraits3",
+        "name": "Portraits",
+        "title": "Portraits (NPC)",
+        "category": "Guide",
+        "text": "All portraits are either from the FE Art Community in the FE Repo or are vanilla IS. All of them are only placeholders; I intend on making new portraits to replace them.\nYorwath (Travant; Atey){br}Morgaine (Eve; XVI){br}Mariya (Sonya; JeyTheCount){br}Jezolda (Sonya V2; Redbean)\nMikhail (LaurentLacroix){br}Henryk (Lorenz; Blueyguy){br}Gaeya (Mila; Kanna)\nCleric (OC 8; Kanna){br}Cleric (OC 27; CapibarInSpace){br}Prior (Kieth; XVI){br}Woman (OC 2 V1; DATonDemand){br}Girl (F2E 1; Wasspix2)\nQueizan Girl (ZoramineFae 1){br}Bandit (ZoramineFae 2){br}Bandit (ZoramineFae 5){br}Knight (ZoramineFae 4){br}Knight (ZoramineFae 3){br}Pirate (Drunken Sailor 1; XVI)"
+    },
+    {
         "nid": "BattleAnim",
         "name": "Battle Anim",
         "title": "Battle Animations",
@@ -368,7 +389,7 @@
         "name": "Magic Anim",
         "title": "Magic Animations",
         "category": "Guide",
-        "text": ""
+        "text": "Huge shout out to BBHood for ripping GBA spell animations and converting them to LT. Also including many custom animations from the FE-Repo.\nIgnis:{br}Fireball (Fire by IS){br}Flare Burst (Binding Blade Fire by SHYUTERz, IS){br}Flame Wall (Flame Sweep by Scraiza){br}Explosion (Bakuretsu Remake /Thunderfire Blast by Shyuterz){br}Eruption (DS Bolganone by Mikey_Seregon)\nFulgus:{br}Static (Vertical Light Blast by Scraiza){br}Shockwave (Archthunder by BwdYeti){br}High Voltage (Lazm Thunder by Windsweep){br}Thunderstorm (Super Thunderstorm by SHYUTERz){br}Lightning Bolt (Dire Thunder by Orihara_Saki)\nUltima (Ragnarok by Arch)"
     },
     {
         "nid": "Tilesets",

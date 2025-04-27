@@ -900,18 +900,6 @@
         "info_offset": 0
     },
     {
-        "nid": "Sprite15",
-        "blinking_offset": [
-            24,
-            24
-        ],
-        "smiling_offset": [
-            24,
-            40
-        ],
-        "info_offset": 0
-    },
-    {
         "nid": "Caligula",
         "blinking_offset": [
             24,
@@ -1069,18 +1057,6 @@
     },
     {
         "nid": "Aias (Black skin, version 2) {JeyTheCount} [F2E]",
-        "blinking_offset": [
-            24,
-            24
-        ],
-        "smiling_offset": [
-            16,
-            40
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Caellach (Black skin)  {JeyTheCount} [F2E]",
         "blinking_offset": [
             24,
             24
@@ -1944,18 +1920,6 @@
         "info_offset": 0
     },
     {
-        "nid": "Caellach (Black skin) {JeyTheCount} [F2E]_1",
-        "blinking_offset": [
-            24,
-            24
-        ],
-        "smiling_offset": [
-            16,
-            40
-        ],
-        "info_offset": 0
-    },
-    {
         "nid": "Laurent, Raymond, CapibarainSpace, Splinterocke - Warrior Lady[F2E]",
         "blinking_offset": [
             24,
@@ -2028,18 +1992,6 @@
         "info_offset": 0
     },
     {
-        "nid": "{LaurentLacroix} OC 3_1",
-        "blinking_offset": [
-            32,
-            24
-        ],
-        "smiling_offset": [
-            32,
-            40
-        ],
-        "info_offset": 0
-    },
-    {
         "nid": "{LaurentLacroix} OC 29",
         "blinking_offset": [
             24,
@@ -2096,18 +2048,6 @@
         "smiling_offset": [
             24,
             40
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "{SirNicee} F2E OC 10_1",
-        "blinking_offset": [
-            24,
-            32
-        ],
-        "smiling_offset": [
-            24,
-            48
         ],
         "info_offset": 0
     },
@@ -2228,18 +2168,6 @@
         "smiling_offset": [
             24,
             40
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "OC [AI]",
-        "blinking_offset": [
-            24,
-            32
-        ],
-        "smiling_offset": [
-            24,
-            48
         ],
         "info_offset": 0
     },
