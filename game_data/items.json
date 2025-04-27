@@ -19423,9 +19423,9 @@
         ]
     },
     {
-        "nid": "Angelic_Robe",
-        "name": "Angelic Robe",
-        "desc": "Permanently raises maximum HP by 7 points.",
+        "nid": "SylvanLeaf",
+        "name": "Sylvan Leaf",
+        "desc": "Permanently increases MaxHP+8.",
         "icon_nid": "Boosters",
         "icon_index": [
             0,
@@ -19455,8 +19455,8 @@
                 "permanent_stat_change",
                 [
                     [
-                        "HP",
-                        7
+                        "MP",
+                        8
                     ]
                 ]
             ],
@@ -19471,9 +19471,57 @@
         ]
     },
     {
-        "nid": "Energy_Ring",
-        "name": "Energy Ring",
-        "desc": "Permanently raises Strength/Magic by 2 points.",
+        "nid": "SiylpheWing",
+        "name": "Siylphe Wing",
+        "desc": "Permanently increases MaxMP+4.",
+        "icon_nid": "Boosters",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "usable",
+                null
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "uses",
+                1
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "permanent_stat_change",
+                [
+                    [
+                        "MP",
+                        4
+                    ]
+                ]
+            ],
+            [
+                "usable_in_base",
+                null
+            ],
+            [
+                "value",
+                8000
+            ]
+        ]
+    },
+    {
+        "nid": "LykonClaw",
+        "name": "Lykon Claw",
+        "desc": "Permanently increases Str+2.",
         "icon_nid": "Boosters",
         "icon_index": [
             0,
@@ -19523,9 +19571,61 @@
         ]
     },
     {
-        "nid": "Secret_Book",
-        "name": "Secret Book",
-        "desc": "Permanently raises Skill by 2 points.",
+        "nid": "SiuleHorn",
+        "name": "Siule Horn",
+        "desc": "Permanently increases Int+2.",
+        "icon_nid": "Boosters",
+        "icon_index": [
+            0,
+            1
+        ],
+        "components": [
+            [
+                "usable",
+                null
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "uses",
+                1
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "permanent_stat_change",
+                [
+                    [
+                        "STR",
+                        2
+                    ],
+                    [
+                        "MAG",
+                        2
+                    ]
+                ]
+            ],
+            [
+                "usable_in_base",
+                null
+            ],
+            [
+                "value",
+                8000
+            ]
+        ]
+    },
+    {
+        "nid": "ChiyloTail",
+        "name": "Chiylo Tail",
+        "desc": "Permanently increases Dex+2.",
         "icon_nid": "Boosters",
         "icon_index": [
             0,
@@ -19571,9 +19671,9 @@
         ]
     },
     {
-        "nid": "Speedwing",
-        "name": "Speedwing",
-        "desc": "Permanently raises Speed by 2 points.",
+        "nid": "AvyonFeather",
+        "name": "Avyon Feather",
+        "desc": "Permanently increases Agi+2.",
         "icon_nid": "Boosters",
         "icon_index": [
             0,
@@ -19619,9 +19719,9 @@
         ]
     },
     {
-        "nid": "Goddess_Icon",
-        "name": "Goddess Icon",
-        "desc": "Permanently raises Luck by 2 points.",
+        "nid": "ZabosHair",
+        "name": "Zabos Hair",
+        "desc": "Permanently increases Luck+4.",
         "icon_nid": "Boosters",
         "icon_index": [
             0,
@@ -19652,7 +19752,7 @@
                 [
                     [
                         "LCK",
-                        2
+                        4
                     ]
                 ]
             ],
@@ -19667,9 +19767,9 @@
         ]
     },
     {
-        "nid": "Dragonshield",
-        "name": "Dragonshield",
-        "desc": "Permanently raises Defense by 2 points.",
+        "nid": "DragonScale",
+        "name": "Dragon Scale",
+        "desc": "Permanently increases Def+2",
         "icon_nid": "Boosters",
         "icon_index": [
             0,
@@ -19715,9 +19815,9 @@
         ]
     },
     {
-        "nid": "Talisman",
-        "name": "Talisman",
-        "desc": "Permanently raises Resistance by 2 points.",
+        "nid": "QueizaFin",
+        "name": "QueizaFin",
+        "desc": "Permanently increases Res+2.",
         "icon_nid": "Boosters",
         "icon_index": [
             0,
@@ -19763,9 +19863,9 @@
         ]
     },
     {
-        "nid": "Swiftsole",
-        "name": "Swiftsole",
-        "desc": "Permanently raises Movement by 2 points.",
+        "nid": "NordakTalon",
+        "name": "Nordak Talon",
+        "desc": "Permanently increases Mov+2.",
         "icon_nid": "Boosters",
         "icon_index": [
             0,
@@ -19859,9 +19959,9 @@
         ]
     },
     {
-        "nid": "Metis_s_Tome",
-        "name": "Metis's Tome",
-        "desc": "Permanently raises all of the user's growth rates by 5.",
+        "nid": "SylvanBranch",
+        "name": "Sylvan Branch",
+        "desc": "Receive the blessing of the Sylvan Tree. User's growth rates increase by 5%.",
         "icon_nid": "Boosters",
         "icon_index": [
             0,
@@ -19978,8 +20078,110 @@
         ]
     },
     {
-        "nid": "OmyrusSeal",
-        "name": "Omyrus Seal",
+        "nid": "MasanLicense",
+        "name": "Masan License",
+        "desc": "For Lykons Lv 20.",
+        "icon_nid": "Boosters",
+        "icon_index": [
+            0,
+            14
+        ],
+        "components": [
+            [
+                "usable",
+                null
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "uses",
+                1
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "usable_in_base",
+                null
+            ],
+            [
+                "value",
+                10000
+            ],
+            [
+                "promote",
+                null
+            ],
+            [
+                "eval_target_restrict_2",
+                "unit.level >= 20"
+            ],
+            [
+                "prf_class",
+                []
+            ]
+        ]
+    },
+    {
+        "nid": "SiegwangLicense",
+        "name": "Siegwang License",
+        "desc": "For Chiylo Lv 20.",
+        "icon_nid": "Boosters",
+        "icon_index": [
+            0,
+            14
+        ],
+        "components": [
+            [
+                "usable",
+                null
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "uses",
+                1
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "usable_in_base",
+                null
+            ],
+            [
+                "value",
+                10000
+            ],
+            [
+                "promote",
+                null
+            ],
+            [
+                "eval_target_restrict_2",
+                "unit.level >= 20"
+            ],
+            [
+                "prf_class",
+                []
+            ]
+        ]
+    },
+    {
+        "nid": "OmyrusLicense",
+        "name": "Omyrus License",
         "desc": "For Queiza Lv 20.",
         "icon_nid": "Boosters",
         "icon_index": [
@@ -20030,6 +20232,112 @@
                     "StreetRat",
                     "Apprentice"
                 ]
+            ]
+        ]
+    },
+    {
+        "nid": "ValynLicense",
+        "name": "Valyn License",
+        "desc": "For Avyons Lv 20.",
+        "icon_nid": "Boosters",
+        "icon_index": [
+            0,
+            14
+        ],
+        "components": [
+            [
+                "usable",
+                null
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "uses",
+                1
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "usable_in_base",
+                null
+            ],
+            [
+                "value",
+                10000
+            ],
+            [
+                "promote",
+                null
+            ],
+            [
+                "eval_target_restrict_2",
+                "unit.level >= 20"
+            ],
+            [
+                "prf_class",
+                [
+                    "Scholar",
+                    "WindRider",
+                    "Wyvern Rider"
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "BaedrolLicense",
+        "name": "Baedrol License",
+        "desc": "For Baedrol Lv 20.",
+        "icon_nid": "Boosters",
+        "icon_index": [
+            0,
+            14
+        ],
+        "components": [
+            [
+                "usable",
+                null
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "uses",
+                1
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "usable_in_base",
+                null
+            ],
+            [
+                "value",
+                10000
+            ],
+            [
+                "promote",
+                null
+            ],
+            [
+                "eval_target_restrict_2",
+                "unit.level >= 20"
+            ],
+            [
+                "prf_class",
+                []
             ]
         ]
     },

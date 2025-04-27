@@ -58,8 +58,10 @@ Siule Horn / Replaces Talisman (FE15 Item 53 by Cardcafe)
 Nordak Talon / Replaces Boots (icon 116 by Zelix)
 Queiza Fin / Mag+ New Item (FE15 Item 14 by Cardcafe)
 
-##### Promotion Icons
-Masan Seal / Replaces Master Seal ()
+##### Promotion (License) Icons
+All licenses currently use GBA Master Seal until further notice.
+
+These are possibilities I considered but ultimately cut, but could be considered later:
 Pirate's Proof / Replaces Ocean Seal (Item 35 by Zarg) NOTE: this has been cut
 Kitezh Crest / Replaces Lunar Brace (Sylvain Scale by Beansy) NOTE: this has been cut
 Nordak Crest / Replaces Solar Brace (SacredWar Item 33 by Seal) NOTE: this has been cut
@@ -982,6 +984,8 @@ For the original creators of the song in question, check the credits of that gam
 
 In-game I attempted to use the actual full song name (franchise name, song name, and credits) but it doesn't fit in the game, so I have simply included the original song name and the credits to make things easier.
 
+Most music is from the FE Music Repo. However, because LT supports OGG and other formats, I will also be mixing in some open game music as well. This can include music from www.opengameart.org or www.soundimage.org.
+
 
 #### Event Themes
 Event - World Map (Something Custom by Sme)
@@ -1006,9 +1010,10 @@ Player Death (Triangle Strategy, Elegy of Battle by Kaidras)
 Victory Near (Lunar, Toward the Horizon - FEGBA by A Reliable Chair)
 Victory (Sword of Mana, Courage and Pride From the Heart - FEGBA by RandomWizard)
 
-#### Map Themes
-Village (Actraiser, Northwall - FEGBA by Feier)
-Village - Peaceful (Act Raiser, Cassandra - FEGBA by Alusq)
+#### Roam Themes
+Metropolis (Bumming Around in Pixel Town, Eric Mattyas www.soundimage.org)
+Town - Village (Actraiser, Northwall - FEGBA by Feier)
+Town - Peaceful Village (Act Raiser, Cassandra - FEGBA by Alusq)
 Castle - Major (RPG Maker PS1, Castle 2 - FEGBA RSFlame)
 Shop (Langrisser, Shop - RandomWizard)
 
