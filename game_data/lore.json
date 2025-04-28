@@ -323,21 +323,21 @@
     },
     {
         "nid": "Portraits1",
-        "name": "Portraits",
+        "name": "Hero Portrait",
         "title": "Portraits (Players)",
         "category": "Guide",
         "text": "All portraits are either from the FE Art Community in the FE Repo or are vanilla IS. All of them are only placeholders; I intend on making new portraits to replace them.\nThe portraits made by me were generated using AI portrait generators to be as close to my characters as possible. I then recreated the designs in sprite form and cleaned them up.\nPortraits by JaidynReiman (F2E):{br}Svetlanya Renald{br}Amaya Lyudam{br}Shayala Massione{br}Lukas (Pent; Plant_Academy)\nLeiland (Stefan; NickT, Stitch){br}Dehren (OC 7; Levin64){br}Kasuto (Older Natasha; MegaCowsamMan){br}Bella (Eda; Atey){br}Baschtian (ZoramineFae){br}Mel (Young; NickT, Stitch)\nYarda (OC1; VelvetKitsune){br}Thanya (Marisa; JeyTheCount){br}Levyas (RandomWizard){br}Nala (Flayn; Redbean){br}Florina (21, ??){br}Granye (Witch Lord; monk-han)\nUrso (MeatOfJustice){br}Magne (Midir, Zoisite){br}Gwynn (Arthur; Melia){br}Joan (Larvei; Melia){br}Michelle (Larcei; Redbean){br}Liena (Thea; Freefall)\nAdrian (Caligula){br}Jan (Hanum V2; Holy Mushrooms){br}Tatsuru (Erk; Monk-Han){br}Geval (Izarck; Yang Kai){br}Galahn (MeatOfJustice){br}Myleih (CanDy)\nSerena (Nephenee; NickT, Stitch){br}Sherafima (Adult Serra; Spoon_Rhythm, Teelvade)"
     },
     {
         "nid": "Portraits2",
-        "name": "Portraits",
+        "name": "Boss Portrait",
         "title": "Portraits (Enemy)",
         "category": "Guide",
         "text": "All portraits are either from the FE Art Community in the FE Repo or are vanilla IS. All of them are only placeholders; I intend on making new portraits to replace them.\nDrace (TBD){br}Grisha (Healthy Vigarde){br}Razulis (Giffca; NickT, Stitch){br}Katharina (SaintRubenia)\nDaniya (Zeldacrafter){br}Vyriel (Levin64){br}Mephisto (Medeus; Frigid){br}Azira (Kurth; Sterling Glovner)\nRajyhna (Adult Nino; Spoon_Rhythm, Magelord Max){br}Hanallel (Witch Sonya; Wasdye){br}Stubs (Vaike; Garytop){br}Yeuxi (Blk Joshua; JeyTheCount){br}Shyara (Fem Rutger; Fenriel)\nFayza (Altena; Melia){br}Troia (Brigid; Redbean){br}Zajesh (Yrene; TrezVG){br}Liberius (Julian; Glaceo)"
     },
     {
         "nid": "Portraits3",
-        "name": "Portraits",
+        "name": "NPC Portrait",
         "title": "Portraits (NPC)",
         "category": "Guide",
         "text": "All portraits are either from the FE Art Community in the FE Repo or are vanilla IS. All of them are only placeholders; I intend on making new portraits to replace them.\nYorwath (Travant; Atey){br}Morgaine (Eve; XVI){br}Mariya (Sonya; JeyTheCount){br}Jezolda (Sonya V2; Redbean)\nMikhail (LaurentLacroix){br}Henryk (Lorenz; Blueyguy){br}Gaeya (Mila; Kanna)\nCleric (OC 8; Kanna){br}Cleric (OC 27; CapibarInSpace){br}Prior (Kieth; XVI){br}Woman (OC 2 V1; DATonDemand){br}Girl (F2E 1; Wasspix2)\nQueizan Girl (ZoramineFae 1){br}Bandit (ZoramineFae 2){br}Bandit (ZoramineFae 5){br}Knight (ZoramineFae 4){br}Knight (ZoramineFae 3){br}Pirate (Drunken Sailor 1; XVI)"
@@ -347,56 +347,77 @@
         "name": "Battle Anim",
         "title": "Battle Animations",
         "category": "Guide",
-        "text": "Svetlanya (Eirika Repal + Magus by Teraspark){br}Amaya (Beta Eirika by Jojo, Reskin by JaidynReiman){br}Dahlten (Mage Lord by TytheBub)\nHunter (Hunter by Leo_link, Spud, MeatOfJustice, Kemomimi version by VelvetKitsune)\nFencer (T1 Eirika Repal by Teraspark, Magic Alt by FaerieFruit){br}Bushi (Laijutsu Samurai by GabrielKnight, BigMood)\nSoldier (Lightweight Lancer by Alusq, Sword Animation by JeyTheCount, Female by Maiser6, Female Sword by JaidynReiman){br}Sargeant (Sergeant by Spud, Leo_link, Iscaneous, Nuramon, Female by Dora Drago).\nGuard - Knight by SALVAGED, Helmetless by BoneManSeth{br}Bulwark - Baron Cape (No Clicks) by Leo_link, Nuramon, Iscaneus, Revamped Handaxe by Sax Marine, Magic by DerTheVaporean\nWolf Knight (VelvetKitsune, Long Hair by JaidynReiman)"
+        "text": "Svetlanya (Eirika Repal + Magus by Teraspark){br}Amaya (Beta Eirika by Jojo, Reskin by JaidynReiman){br}Dahlten (Mage Lord by TytheBub)\nHunter (Hunter by Leo_link, Spud, MeatOfJustice, Kemomimi version by VelvetKitsune)\nFencer (T1 Eirika Repal by Teraspark, Magic Alt by FaerieFruit){br}Myrmidon (FEA Myrm by Leo_Link, Stormblight){br}Bushi (Laijutsu Samurai by GabrielKnight, BigMood)\nSoldier (Lightweight Lancer by Alusq, Sword Animation by JeyTheCount, Female by Maiser6, Female Sword by JaidynReiman){br}Sargeant (Sergeant by Spud, Leo_link, Iscaneous, Nuramon, Female by Dora Drago).\nGuard - Knight by SALVAGED, Helmetless by BoneManSeth{br}Bulwark - Baron Cape (No Clicks) by Leo_link, Nuramon, Iscaneus, Revamped Handaxe by Sax Marine, Magic by DerTheVaporean\nWolf Knight (VelvetKitsune, Long Hair by JaidynReiman)"
     },
     {
         "nid": "MapSprites",
         "name": "Map Sprites",
         "title": "Map Sprites",
         "category": "Guide",
-        "text": "Prince, Princess (EldritchAbomination)\nLord, Lady (Mage Lord by TyTheBub, Elf by JaidynReiman){br}Lieutenant (JaidynReiman){br}Heiress (Priestess Sword by blood\nPioneer (FE9 Fighter by L95, Female by Pikmin1211)\nHunter (MeatOfJustice)\nFencer-M (FE3 Marth by ThyAnarchists){br}Fencer-F (Eirika-Elf by JaidynReiman)\nSoldier (FE10 Soldier by Flasuban{br}Sergeant by Spud, Female by Dora Drago{br}Captain (Great Lord Ephraim by VelvetKitsune, Snewping, HGS)\nGuard (Knight Helmetless by SALVAGED, BoneManSeth)\nApprentice (FE4 Thunder Mage by Ash3wl, L95, Dominus_Vobiscum){br}Sage (Battle Sage by L95, Female by Leif)\nShaman (Mage by Teraspark)\nTactician (Thaumaturge by Pikmin1211, DerTheVaporean)\nWolf Knight (JaidynReiman; splices by VelvetKitsune, Leif)\nBear (AVerySheepGamer){br}Bunny (Madzz){br}Horse (L95){br}White Horse (N426){br}Pegasus (N426)\nBox (Pikmin1211 4){br}Crate (Topazlight){br}Crates (PrimeFusion){br}Obstacle (Alice)"
+        "text": "Prince, Princess (EldritchAbomination)\nLord, Lady (Mage Lord by TyTheBub, Elf by JaidynReiman){br}Lieutenant (JaidynReiman){br}Heiress (Priestess Sword by blood\nPioneer (FE9 Fighter by L95, Female by Pikmin1211)\nHunter (MeatOfJustice)\nFencer-M (FE3 Marth by ThyAnarchists){br}Fencer-F (Eirika-Elf by JaidynReiman){br}Myrmidon (FEA Myrm by Iscaneous, Leo_Link)\nSoldier (FE10 Soldier by Flasuban{br}Sergeant by Spud, Female by Dora Drago{br}Captain (Great Lord Ephraim by VelvetKitsune, Snewping, HGS)\nGuard (Knight Helmetless by SALVAGED, BoneManSeth)\nApprentice (FE4 Thunder Mage by Ash3wl, L95, Dominus_Vobiscum){br}Sage (Battle Sage by L95, Female by Leif)\nShaman (Mage by Teraspark)\nTactician (Thaumaturge by Pikmin1211, DerTheVaporean)\nWolf Knight (JaidynReiman; splices by VelvetKitsune, Leif)\nBear (AVerySheepGamer){br}Bunny (Madzz){br}Horse (L95){br}White Horse (N426){br}Pegasus (N426)\nBox (Pikmin1211 4){br}Crate (Topazlight){br}Crates (PrimeFusion){br}Obstacle (Alice)"
     },
     {
         "nid": "Icons1",
-        "name": "Icon Sheets",
-        "title": "Icon Sheets",
+        "name": "Icons: Sheets",
+        "title": "Icons: Sheets",
         "category": "Guide",
         "text": "Most icon sheets were compiled or cleaned up by JaidynReiman from existing icons in the Repo. Most existing full sheets in the repo were not designed for LT and had to be cleaned up.\nSkill Icon Sheet was compiled by ZessDynamite, Rainlash, LordGlenn, and Suneohair, along with a few others including JaidynReiman. Original sheet was posted in the LT Discord.\nAffinities:{br}IS, Topazlight, Artist Unknown{br}{br}Weapon Types:{br}Alice, RLC, VelvetKistune, Stephano, JaidynReiman"
     },
     {
         "nid": "Icons2",
-        "name": "Weapon Icons",
-        "title": "Weapon Icons",
+        "name": "Icons: Blades",
+        "title": "Icons: Swords, Daggers",
         "category": "Guide",
-        "text": "Swords: Zelix, Beansy, EldritchAbomination, Indogutsu Tenbuki{br}{br}Great Swords: VelvetKitsune, Beansy, Ereshkigal, 2Wb, Batima, Zarg\nKatanas: Zarg, Batima, MeatOfJustice, Topazlight, Zelix, Ereshkigal, Beansy, VelvetKitsune, EldritchA, Indogutsu Tenbuki{br}Lightblades and Rapiers: EldritchA, Indogutsu Tenbuki\nKnives: Ereshkigal{br}{br}Daggers: Sacred Stones, Batima, Ysor, 2WB, Hanakko\nLances: Zelix, MeatOfJustice, Zane, 2WB, Celice{br}Poles: Batima, Zelix{br}Javelins: Ereshkigal\nTridents: AtelierLabs, Celice{br}Staves: IS, AtelierLabs\nAxes: Zelix, LordGlenn, Beansy, GabrielKnight, EldritchAbomination, Indogutsu Tenbuki{br}Throwing Axes: Zarg\nHammers: Zelix, Ereshkigal, Zane, Jubby, Furious Haunter, Mike{br}\nScythes: GabrielKnight{br}Maces: TBD\nBows: Beansy, MeatOfJustice, Zelix, Zarg, Seal{br}Longbows: Batima, George Reds\nCrossbows: Beansy, Batima{br}Ballistas: Beansy, Batima, Seal, Purple"
+        "text": "Swords: Zelix, Beansy, EldritchAbomination, Indogutsu Tenbuki{br}{br}Great Swords: VelvetKitsune, Beansy, Ereshkigal, 2Wb, Batima, Zarg\nKatanas: Zarg, Batima, MeatOfJustice, Topazlight, Zelix, Ereshkigal, Beansy, VelvetKitsune, EldritchA, Indogutsu Tenbuki\nLightblades: EldritchA, Indogutsu Tenbuki{br}{br}Rapiers: Lisandra Brave, Zelix, Peerless, EldritchA, Indogutsu Tenbuki\nKnives: Ereshkigal{br}{br}Daggers: Sacred Stones, Batima, Ysor, 2WB, Hanakko"
     },
     {
         "nid": "Icons3",
-        "name": "Magic Icons",
-        "title": "Magic Icons",
+        "name": "Icons: Melee",
+        "title": "Icons: Lances, Axes",
         "category": "Guide",
-        "text": "Spellbook:{br}Anima Tome 3 by Cardcafe{br}{br}Solus: Batima, 2WB, Beansy, Ereshkigal, Zarg{br}Aquis: Batima, FuriousHaunter, AtelierLabs, Zarg, Beansy, Ereshkigal\nIgnis: Batima, Zarg, 2WB, Ereshkigal, Valak{br}Fulgus: Ereshkigal, Valak, Beansy, Batima{br}Glacies: Ereshkigal, VelvetKitsune, Zarg, FuriousHaunter, Beansy\nVentus: Valak, Ereshkigal, Batima{br}Tellus: Zarg, Valak, Ereshkigal, Beansy, Batima, FuriousHaunter{br}Lunis: Batima, 2WB, Zane, CamTech075, Zarg"
+        "text": "Lances: Zelix, MeatOfJustice, Zane, 2WB, Celice{br}Poles: Batima, Zelix{br}Javelins: Ereshkigal\nTridents: AtelierLabs, Celice{br}Staves: IS, AtelierLabs\nAxes: Zelix, LordGlenn, Beansy, GabrielKnight, EldritchAbomination, Indogutsu Tenbuki{br}Throwing Axes: Zarg\nHammers: Zelix, Ereshkigal, Zane, Jubby, Furious Haunter, Mike{br}\nScythes: GabrielKnight{br}Maces: TBD"
     },
     {
         "nid": "Icons4",
-        "name": "Item Icons",
-        "title": "Item Icons",
+        "name": "Icons: Ranged",
+        "title": "Icons: Ranged",
+        "category": "Guide",
+        "text": "Bows: Beansy, MeatOfJustice, Zelix, Zarg, Seal{br}Longbows: Batima, George Reds{br}Crossbows: Beansy, Batima{br}Ballistas: Beansy, Batima, Seal, Purple\nSpellbook:{br}Anima Tome 3 by Cardcafe{br}{br}Solus: Batima, 2WB, Beansy, Ereshkigal, Zarg{br}Aquis: Batima, FuriousHaunter, AtelierLabs, Zarg, Beansy, Ereshkigal\nIgnis: Batima, Zarg, 2WB, Ereshkigal, Valak{br}Fulgus: Ereshkigal, Valak, Beansy, Batima{br}Glacies: Ereshkigal, VelvetKitsune, Zarg, FuriousHaunter, Beansy\nVentus: Valak, Ereshkigal, Batima{br}Tellus: Zarg, Valak, Ereshkigal, Beansy, Batima, FuriousHaunter{br}Lunis: Batima, 2WB, Zane, CamTech075, Zarg"
+    },
+    {
+        "nid": "Icons5",
+        "name": "Icons: Items",
+        "title": "Icons: Items",
         "category": "Guide",
         "text": "Gems: Maxim, Zelix{br}{br}Stat Ups: Beansy, CardCafe, EldritchAbomination, Indogetsu Tenbuki, Zarg, Zelix\nPromotion Icons: Zarg, Beansy, Seal\n"
     },
     {
-        "nid": "MagicAnim",
-        "name": "Magic Anim",
-        "title": "Magic Animations",
+        "nid": "MagicAnim1",
+        "name": "Anima Magic",
+        "title": "Magic Animations: Anima",
         "category": "Guide",
-        "text": "Huge shout out to BBHood for ripping GBA spell animations and converting them to LT. Also including many custom animations from the FE-Repo.\nIgnis:{br}Fireball (GBA Fire){br}Flare Burst (Binding Blade; SHYUTERz){br}Flame Wall (Flame Sweep; Scraiza){br}Explosion (Thunderfire Blast; Shyuterz){br}Eruption (DS Bolganone; Mikey_Seregon)\nFulgus:{br}Static (Vertical Light Blast; Scraiza){br}Shockwave (Archthunder; BwdYeti){br}High Voltage (Lazm Thunder; Windsweep){br}Thunderstorm (SHYUTERz){br}Lightning Bolt (Dire Thunder; Orihara_Saki)\nUltima (Ragnarok; Arch)"
+        "text": "Huge shout out to BBHood for ripping GBA spell animations and converting them to LT. Also including many custom animations from the FE-Repo.\nIgnis E-C:{br}Fireball (GBA Fire){br}Flare Burst (Binding Blade; SHYUTERz){br}Flame Wall (Flame Sweep; Scraiza)\nIgnis B-S:{br}Explosion (Thunderfire Blast; Shyuterz){br}Eruption (DS Bolganone; Mikey_Seregon){br}Ragnarok (Gigafire; SHYUTERz)\nFulgus E-C:{br}Static (Vertical Light Blast; Scraiza){br}Shockwave (Archthunder; BwdYeti){br}High Voltage (Lazm Thunder; Windsweep)\nFulgus B-S:{br}Thunderstorm (SHYUTERz){br}Lightning Bolt (Dire Thunder; Orihara_Saki){br}Arrow of Alternia (Dimensional Light; PMD, redblueyellow, Jj09)\nGlacies E-C:{br}Icicle (Ice Shard; Sme, Compile){br}Frostbite (Supercool; Mikey_Seregon){br}Hail (Ice Horn; Mikey_Seregon)\nGlacies B-S:{br}Glacier (Hail by Mikey_Seregon){br}Fimbulver (IS)\nVentus E-C:{br}Gust (Shaver; Blazer, BwdYeti){br}Air Current (Aircalibur; Mikey_Seregon){br}Wind Cutter (DS Excalibur; Mikey_Seregon)\nVentus B-S:{br}Tornado (GS Tempest; Mikey_Seregon){br}Hurricane (Super Excalibur; SHYUTERz){br}Ultima (Ragnarok; Arch)"
+    },
+    {
+        "nid": "MagicAnim2",
+        "name": "Holy Magic",
+        "title": "Magic Animations: Holy/Dark",
+        "category": "Guide",
+        "text": "Huge shout out to BBHood for ripping GBA spell animations and converting them to LT. Also including many custom animations from the FE-Repo.\nAquis E-C:{br}Aqua Edge (Aqua Edge; Bonzai, Blazer){br}Splash (Aqua; Alusq){br}Deluge (Donbettyr; Alusq)\nAquis B-S:{br}Water Blast (BlueExplosion; Scraiza){br}Leviathan (Frostbite; Struedelmuffin, Alusq)\nSolus E-C:{br}Glimmer (Lightning; IS){br}Shine (Shine; IS){br}Ray (Javelin Rain; Scraiza)\nSolus B-S:{br}Starlight (Starlight; Blazer, Jubby){br}Solar Flare (Exordium; Arch){br}Excalibur (Thani / DS Aura; Mikey_Seregon)\nTellus E-C:{br}Stone (Stone; Norikins){br}Boulder (Elstone; Norikins){br}Rend Terra (Atlas; Norikins)\nTellus B-S:{br}Quake (Ground Dasher; Bonzai, Blazer){br}Meteor (Meteor; Blazer, Jubby){br}Jormungandr (Demonic Tome; Norikins)\nLunis E-C:{br}Tendril (Flux){br}Leech (Resire Fast; MisakoMikoto, 7743){br}Bleed (Purple Blast; Scraiza)\nLunis B-S:{br}Eclipse (Crimson Eye FE7; Mikey_Seregon{br}Hellfire (Gespenst; SHYUTERz){br}Gaeya's Wrath (Mad Growth; Mikey_Seregon)"
+    },
+    {
+        "nid": "MagicAnim3",
+        "name": "Throwing Anim",
+        "title": "Magic Animations: Other",
+        "category": "Guide",
+        "text": "Huge shout out to BBHood for ripping GBA spell animations and converting them to LT. Also including many custom animations from the FE-Repo.\nKnife Throw{br}Shockwave\nFlame Sabre (Fire; MisakaMikoto){br}Frost Sword (Ice Shard; Sme, Compile){br}Lightning Blade (Thunder){br}Flamberge (Inferno; Terraspark)\nDardevaja (Hellfire; Seal){br}Shockstick (Static; Arch){br}Myollnir (Static Thoron; Mikey_Seregon){br}Light Arrow (Sagittae){br}Fire Arrow (Parthia; 7743)"
     },
     {
         "nid": "Tilesets",
         "name": "Tilesets",
         "title": "Tilesets",
         "category": "Guide",
-        "text": "Village - Remake + Coconut Tree + Ship Extras:{br}flasuban, N426, ZoramineFae, Venno{br}Metropolis by Cynon{br}Desert Bastion Village{br}Gamma, ZoramineFae, Venno, N426\nFE8 - Fields - Remaster - Super Fields{br}Wave, RandomWizard, Beast{br}Aquamarine Roofs + Gray Mountains by Dark, inspired by LeifOClaude\nFE8 Castle + Customs - Tileset Improved by N426{br}"
+        "text": "Village - Remake + Coconut Tree + Ship Extras by:{br}flasuban, N426, ZoramineFae, Venno{br}{br}Metropolis by Cynon\nFE8 - Fields - Remaster - Super Fields by:{br}Wave, RandomWizard, Beast{br}{br}Aquamarine Roofs & Gray Mountains by:{br}Dark, inspired by LeifOClaude\nFE8 Castle + Customs - Tileset Improved by N426{br}{br}Desert Bastion Village by:{br}Gamma, ZoramineFae, Venno, N426"
     },
     {
         "nid": "Autotiles",

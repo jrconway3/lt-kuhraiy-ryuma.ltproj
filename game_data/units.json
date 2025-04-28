@@ -630,7 +630,7 @@
                 false
             ],
             [
-                "Steel_Bow",
+                "Maple_Bow",
                 false
             ],
             [
@@ -1095,7 +1095,7 @@
         "desc": "Heir of House Toirahm of Siegwang.",
         "variant": "Female",
         "level": 10,
-        "klass": "Shinobi",
+        "klass": "Myrmidon",
         "tags": [
             "Katana"
         ],
@@ -2843,7 +2843,7 @@
         },
         "starting_items": [
             [
-                "Iron_Bow",
+                "Elm_Bow",
                 false
             ],
             [
@@ -4729,7 +4729,7 @@
         },
         "starting_items": [
             [
-                "Iron_Bow",
+                "Elm_Bow",
                 false
             ],
             [
@@ -6605,7 +6605,7 @@
         },
         "starting_items": [
             [
-                "Mythril_Bow",
+                "Yew_Bow",
                 false
             ],
             [
@@ -7316,7 +7316,7 @@
         },
         "starting_items": [
             [
-                "Mythril_Bow",
+                "Yew_Bow",
                 false
             ],
             [

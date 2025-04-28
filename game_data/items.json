@@ -3153,27 +3153,102 @@
         ]
     },
     {
+        "nid": "Cutlass",
+        "name": "Sabre",
+        "desc": "Preferred by pirates.",
+        "icon_nid": "{EldritchA, Indogutsu Tenbuki} Tactics Ogre All Icons",
+        "icon_index": [
+            6,
+            0
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "value",
+                1000
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "damage",
+                12
+            ],
+            [
+                "hit",
+                75
+            ],
+            [
+                "crit",
+                20
+            ],
+            [
+                "weight",
+                8
+            ],
+            [
+                "uses",
+                40
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Sword"
+            ],
+            [
+                "weapon_rank",
+                "D"
+            ],
+            [
+                "item_tags",
+                [
+                    "Mythril"
+                ]
+            ],
+            [
+                "prf_tags",
+                [
+                    "Pirate"
+                ]
+            ]
+        ]
+    },
+    {
         "nid": "Cortaine",
         "name": "Cortaine",
         "desc": "Damage = 1/2 Str+Int. Targets Avg Def/Res.\nEff vs Lykons. Ignores Damage reduction of Dragons.",
-        "icon_nid": "{EldritchA, Indogutsu Tenbuki} Tactics Ogre All Icons",
+        "icon_nid": "{Peerless} FE9 Weapon Icons (Custom Palette)",
         "icon_index": [
-            12,
-            0
+            3,
+            2
         ],
         "components": [
             [
                 "prf_unit",
                 [
-                    "Svetlanya",
-                    "Serena"
-                ]
-            ],
-            [
-                "multi_item",
-                [
-                    "Almace1",
-                    "Fireball"
+                    "Lukas"
                 ]
             ],
             [
@@ -3186,12 +3261,6 @@
                     "lose_uses_on_miss": false,
                     "one_loss_per_combat": false
                 }
-            ],
-            [
-                "prf_tags",
-                [
-                    "Rapier"
-                ]
             ]
         ]
     },
@@ -3199,10 +3268,10 @@
         "nid": "Joyeuse",
         "name": "Joyeuse",
         "desc": "A prized weapon of House Lyudam. Amaya only.\nContains Light Magic. Eff vs armor and dragons.",
-        "icon_nid": "{EldritchA, Indogutsu Tenbuki} Tactics Ogre All Icons",
+        "icon_nid": "{Zelix} [WEP] FE13-FE14 Pack",
         "icon_index": [
-            15,
-            0
+            14,
+            1
         ],
         "components": [
             [
@@ -3287,10 +3356,10 @@
         "nid": "Almace",
         "name": "Almace",
         "desc": "Adds Mag to Atk. Eff vs Lykons.\nIgnores Damage reduction of Dragons.",
-        "icon_nid": "{EldritchA, Indogutsu Tenbuki} Tactics Ogre All Icons",
+        "icon_nid": "[WEP] Pack 5 {Lisandra Brave}",
         "icon_index": [
-            10,
-            0
+            4,
+            1
         ],
         "components": [
             [
@@ -3328,10 +3397,10 @@
         "nid": "Almace1",
         "name": "Almace",
         "desc": "Adds Mag to Atk. Eff vs Lykons.\nIgnores Damage reduction of Dragons.",
-        "icon_nid": "{EldritchA, Indogutsu Tenbuki} Tactics Ogre All Icons",
+        "icon_nid": "[WEP] Pack 5 {Lisandra Brave}",
         "icon_index": [
-            10,
-            0
+            4,
+            1
         ],
         "components": [
             [
@@ -3411,7 +3480,7 @@
         "nid": "Almacia",
         "name": "Almacia",
         "desc": "Royal blade of Omyrus. +5 Str/Int.\nEffective vs Lykons, Dragons.",
-        "icon_nid": "{EldritchA, Indogutsu Tenbuki} Tactics Ogre All Icons",
+        "icon_nid": "{Zelix} [WEP] FE13-FE14 Pack",
         "icon_index": [
             10,
             0
@@ -3578,6 +3647,915 @@
                 "multi_item",
                 [
                     "Deluge"
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "BronzeKnife",
+        "name": "Bronze Knife",
+        "desc": "Preferred by thieves. Can be thrown to attack at range.",
+        "icon_nid": "{Zelix} FE11&13-style weapons",
+        "icon_index": [
+            0,
+            4
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "value",
+                200
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "damage",
+                3
+            ],
+            [
+                "hit",
+                120
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "weight",
+                1
+            ],
+            [
+                "uses",
+                60
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Dagger"
+            ],
+            [
+                "weapon_rank",
+                "E"
+            ],
+            [
+                "item_tags",
+                [
+                    "Bronze"
+                ]
+            ],
+            [
+                "prf_tags",
+                [
+                    "Sword"
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "IronKnife",
+        "name": "Iron Knife",
+        "desc": "Preferred by thieves. Can be thrown to attack at range.",
+        "icon_nid": "{Zelix} FE11&13-style weapons",
+        "icon_index": [
+            0,
+            4
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "value",
+                400
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "damage",
+                4
+            ],
+            [
+                "hit",
+                110
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "weight",
+                1
+            ],
+            [
+                "uses",
+                50
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Dagger"
+            ],
+            [
+                "weapon_rank",
+                "D"
+            ],
+            [
+                "item_tags",
+                [
+                    "Iron"
+                ]
+            ],
+            [
+                "prf_tags",
+                [
+                    "Sword"
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "SteelKnife",
+        "name": "Steel Knife",
+        "desc": "Preferred by thieves. Can be thrown to attack at range.",
+        "icon_nid": "{Zelix} FE11&13-style weapons",
+        "icon_index": [
+            0,
+            4
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "value",
+                700
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "damage",
+                5
+            ],
+            [
+                "hit",
+                100
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "weight",
+                2
+            ],
+            [
+                "uses",
+                40
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Dagger"
+            ],
+            [
+                "weapon_rank",
+                "C"
+            ],
+            [
+                "item_tags",
+                [
+                    "Steel"
+                ]
+            ],
+            [
+                "prf_tags",
+                [
+                    "Sword"
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "MythrilKnife",
+        "name": "Mythril Knife",
+        "desc": "Preferred by thieves. Can be thrown to attack at range.",
+        "icon_nid": "{Zelix} FE11&13-style weapons",
+        "icon_index": [
+            0,
+            4
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "value",
+                1000
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "damage",
+                6
+            ],
+            [
+                "hit",
+                90
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "weight",
+                3
+            ],
+            [
+                "uses",
+                30
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Dagger"
+            ],
+            [
+                "weapon_rank",
+                "B"
+            ],
+            [
+                "item_tags",
+                [
+                    "Mythril"
+                ]
+            ],
+            [
+                "prf_tags",
+                [
+                    "Sword"
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "AdamantKnife",
+        "name": "Adamant Knife",
+        "desc": "Preferred by thieves. Can be thrown to attack at range.",
+        "icon_nid": "{Zelix} FE11&13-style weapons",
+        "icon_index": [
+            0,
+            4
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "value",
+                1500
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "damage",
+                8
+            ],
+            [
+                "hit",
+                80
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "weight",
+                4
+            ],
+            [
+                "uses",
+                20
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Dagger"
+            ],
+            [
+                "weapon_rank",
+                "A"
+            ],
+            [
+                "item_tags",
+                [
+                    "Adamantium"
+                ]
+            ],
+            [
+                "prf_tags",
+                [
+                    "Sword"
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Kunai",
+        "name": "Kunai",
+        "desc": "Preferred by thieves. Can be thrown to attack at range. High chance to deal fatal blows.",
+        "icon_nid": "{Zelix} FE11&13-style weapons",
+        "icon_index": [
+            0,
+            4
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "value",
+                750
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "damage",
+                4
+            ],
+            [
+                "hit",
+                80
+            ],
+            [
+                "crit",
+                10
+            ],
+            [
+                "weight",
+                8
+            ],
+            [
+                "uses",
+                30
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Dagger"
+            ],
+            [
+                "weapon_rank",
+                "C"
+            ],
+            [
+                "item_tags",
+                [
+                    "Damazos"
+                ]
+            ],
+            [
+                "prf_tags",
+                [
+                    "Sword"
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Kard",
+        "name": "Kard",
+        "desc": "Preferred by thieves. High chance to deal fatal blows.",
+        "icon_nid": "{Zelix} FE11&13-style weapons",
+        "icon_index": [
+            0,
+            4
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "value",
+                200
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "damage",
+                7
+            ],
+            [
+                "hit",
+                90
+            ],
+            [
+                "crit",
+                30
+            ],
+            [
+                "weight",
+                4
+            ],
+            [
+                "uses",
+                20
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Dagger"
+            ],
+            [
+                "weapon_rank",
+                "C"
+            ],
+            [
+                "item_tags",
+                [
+                    "Damazos"
+                ]
+            ],
+            [
+                "prf_tags",
+                [
+                    "Sword"
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Stiletto",
+        "name": "Stiletto",
+        "desc": "Preferred by thieves. Inflicts bleed. Eff vs Scales.",
+        "icon_nid": "{Zelix} FE11&13-style weapons",
+        "icon_index": [
+            0,
+            4
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "value",
+                200
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "damage",
+                11
+            ],
+            [
+                "hit",
+                80
+            ],
+            [
+                "crit",
+                10
+            ],
+            [
+                "weight",
+                4
+            ],
+            [
+                "uses",
+                20
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Dagger"
+            ],
+            [
+                "weapon_rank",
+                "B"
+            ],
+            [
+                "item_tags",
+                [
+                    "Damazos"
+                ]
+            ],
+            [
+                "prf_tags",
+                [
+                    "Sword"
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Baselard",
+        "name": "Baselard",
+        "desc": "Preferred by thieves.",
+        "icon_nid": "{Zelix} FE11&13-style weapons",
+        "icon_index": [
+            0,
+            4
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "value",
+                200
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "damage",
+                15
+            ],
+            [
+                "hit",
+                80
+            ],
+            [
+                "crit",
+                10
+            ],
+            [
+                "weight",
+                4
+            ],
+            [
+                "uses",
+                20
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Dagger"
+            ],
+            [
+                "weapon_rank",
+                "A"
+            ],
+            [
+                "item_tags",
+                [
+                    "Damazos"
+                ]
+            ],
+            [
+                "prf_tags",
+                [
+                    "Sword"
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Murasame",
+        "name": "Murasame",
+        "desc": "Contains Aquis Anima.",
+        "icon_nid": "{Zelix} FE11&13-style weapons",
+        "icon_index": [
+            0,
+            4
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "value",
+                200
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "damage",
+                8
+            ],
+            [
+                "hit",
+                75
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "weight",
+                3
+            ],
+            [
+                "uses",
+                20
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Dagger"
+            ],
+            [
+                "item_tags",
+                [
+                    "Damazos"
+                ]
+            ],
+            [
+                "prf_tags",
+                [
+                    "Sword"
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Muramasa",
+        "name": "Muramasa",
+        "desc": "Contains Lunis anima. Drains HP.",
+        "icon_nid": "{Zelix} FE11&13-style weapons",
+        "icon_index": [
+            0,
+            4
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "value",
+                200
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "damage",
+                12
+            ],
+            [
+                "hit",
+                65
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "weight",
+                5
+            ],
+            [
+                "uses",
+                20
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Dagger"
+            ],
+            [
+                "weapon_rank",
+                "S"
+            ],
+            [
+                "item_tags",
+                [
+                    "Damazos"
+                ]
+            ],
+            [
+                "prf_tags",
+                [
+                    "Sword"
                 ]
             ]
         ]
@@ -8311,10 +9289,10 @@
         ]
     },
     {
-        "nid": "Bronze_Bow",
-        "name": "Bronze Bow",
-        "desc": "",
-        "icon_nid": "Bow",
+        "nid": "Oak_Bow",
+        "name": "Oak Bow",
+        "desc": "Eff vs avyons.",
+        "icon_nid": "{Beansy} {Bows} All Icons",
         "icon_index": [
             0,
             0
@@ -8326,7 +9304,7 @@
             ],
             [
                 "value",
-                540
+                500
             ],
             [
                 "target_enemy",
@@ -8342,23 +9320,19 @@
             ],
             [
                 "damage",
-                6
+                4
             ],
             [
                 "hit",
-                85
-            ],
-            [
-                "crit",
-                0
+                100
             ],
             [
                 "weight",
-                5
+                3
             ],
             [
                 "uses",
-                45
+                60
             ],
             [
                 "uses_options",
@@ -8394,93 +9368,10 @@
         ]
     },
     {
-        "nid": "Iron_Bow",
-        "name": "Iron Bow",
-        "desc": "",
-        "icon_nid": "Bow",
-        "icon_index": [
-            0,
-            0
-        ],
-        "components": [
-            [
-                "weapon",
-                null
-            ],
-            [
-                "value",
-                540
-            ],
-            [
-                "target_enemy",
-                null
-            ],
-            [
-                "min_range",
-                2
-            ],
-            [
-                "max_range",
-                2
-            ],
-            [
-                "damage",
-                6
-            ],
-            [
-                "hit",
-                85
-            ],
-            [
-                "crit",
-                0
-            ],
-            [
-                "weight",
-                5
-            ],
-            [
-                "uses",
-                45
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
-                "level_exp",
-                null
-            ],
-            [
-                "weapon_type",
-                "Bow"
-            ],
-            [
-                "weapon_rank",
-                "E"
-            ],
-            [
-                "effective_damage",
-                {
-                    "effective_tags": [
-                        "Flying"
-                    ],
-                    "effective_multiplier": 1.0,
-                    "effective_bonus_damage": 12,
-                    "show_effectiveness_flash": true,
-                    "weapon_effectiveness_multiplied": true
-                }
-            ]
-        ]
-    },
-    {
-        "nid": "Steel_Bow",
-        "name": "Steel Bow",
-        "desc": "",
-        "icon_nid": "Bow",
+        "nid": "Elm_Bow",
+        "name": "Elm Bow",
+        "desc": "Eff vs avyons.",
+        "icon_nid": "{Beansy} {Bows} All Icons",
         "icon_index": [
             0,
             1
@@ -8491,6 +9382,89 @@
                 null
             ],
             [
+                "value",
+                700
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                2
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "damage",
+                6
+            ],
+            [
+                "hit",
+                90
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "weight",
+                5
+            ],
+            [
+                "uses",
+                50
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Bow"
+            ],
+            [
+                "weapon_rank",
+                "D"
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "Flying"
+                    ],
+                    "effective_multiplier": 1.0,
+                    "effective_bonus_damage": 12,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
+            ]
+        ]
+    },
+    {
+        "nid": "Short_Bow",
+        "name": "Short Bow",
+        "desc": "Can fire at short range. Eff vs avyons.",
+        "icon_nid": "{Beansy} {Bows} All Icons",
+        "icon_index": [
+            2,
+            2
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
                 "target_enemy",
                 null
             ],
@@ -8500,11 +9474,11 @@
             ],
             [
                 "damage",
-                9
+                4
             ],
             [
                 "hit",
-                70
+                85
             ],
             [
                 "weapon_type",
@@ -8527,7 +9501,94 @@
             ],
             [
                 "weight",
+                2
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "wexp",
+                2
+            ],
+            [
+                "value",
+                800
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "Flying"
+                    ],
+                    "effective_multiplier": 1.0,
+                    "effective_bonus_damage": 10,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
+            ]
+        ]
+    },
+    {
+        "nid": "Maple_Bow",
+        "name": "Maple Bow",
+        "desc": "Eff vs avyons.",
+        "icon_nid": "{Beansy} {Bows} All Icons",
+        "icon_index": [
+            0,
+            3
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "damage",
                 9
+            ],
+            [
+                "hit",
+                80
+            ],
+            [
+                "weapon_type",
+                "Bow"
+            ],
+            [
+                "weapon_rank",
+                "C"
+            ],
+            [
+                "uses",
+                30
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "weight",
+                7
             ],
             [
                 "crit",
@@ -8535,7 +9596,7 @@
             ],
             [
                 "value",
-                720
+                1000
             ],
             [
                 "min_range",
@@ -8560,13 +9621,13 @@
         ]
     },
     {
-        "nid": "Mythril_Bow",
-        "name": "Mythril Bow",
-        "desc": "",
-        "icon_nid": "Bow",
+        "nid": "Yew_Bow",
+        "name": "Yew Bow",
+        "desc": "Eff vs avyons.",
+        "icon_nid": "{Beansy} {Bows} All Icons",
         "icon_index": [
-            0,
-            2
+            3,
+            0
         ],
         "components": [
             [
@@ -8583,11 +9644,95 @@
             ],
             [
                 "damage",
-                13
+                12
             ],
             [
                 "hit",
-                75
+                70
+            ],
+            [
+                "weapon_type",
+                "Bow"
+            ],
+            [
+                "weapon_rank",
+                "B"
+            ],
+            [
+                "uses",
+                20
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "weight",
+                9
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "value",
+                1500
+            ],
+            [
+                "min_range",
+                2
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "Wolf",
+                        "Lykon"
+                    ],
+                    "effective_multiplier": 1.0,
+                    "effective_bonus_damage": 26,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
+            ]
+        ]
+    },
+    {
+        "nid": "Sylvan_Bow",
+        "name": "Sylvan Bow",
+        "desc": "Eff vs avyons.",
+        "icon_nid": "{Beansy} {Bows} All Icons",
+        "icon_index": [
+            3,
+            1
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "damage",
+                16
+            ],
+            [
+                "hit",
+                80
             ],
             [
                 "weapon_type",
@@ -8610,7 +9755,7 @@
             ],
             [
                 "weight",
-                6
+                10
             ],
             [
                 "crit",
@@ -8618,7 +9763,7 @@
             ],
             [
                 "value",
-                1600
+                4000
             ],
             [
                 "min_range",
@@ -8632,7 +9777,8 @@
                 "effective_damage",
                 {
                     "effective_tags": [
-                        "Flying"
+                        "Wolf",
+                        "Lykon"
                     ],
                     "effective_multiplier": 1.0,
                     "effective_bonus_damage": 26,
@@ -8643,13 +9789,13 @@
         ]
     },
     {
-        "nid": "Poison_Bow",
-        "name": "Poison Bow",
-        "desc": "Poisons on contact.",
-        "icon_nid": "Bow",
+        "nid": "Cursed_Bow",
+        "name": "Cursed Bow",
+        "desc": "Poisons on contact. Eff vs avyons.",
+        "icon_nid": "{Zane} All Icons",
         "icon_index": [
-            0,
-            3
+            7,
+            11
         ],
         "components": [
             [
@@ -8726,9 +9872,9 @@
         ]
     },
     {
-        "nid": "Killer_Bow",
-        "name": "Killer Bow",
-        "desc": "",
+        "nid": "Recurve_Bow",
+        "name": "Recurve Bow",
+        "desc": "High chance to deal fatal blows. Eff vs avyons.",
         "icon_nid": "Bow",
         "icon_index": [
             0,
@@ -8813,9 +9959,96 @@
         ]
     },
     {
-        "nid": "Brave_Bow",
-        "name": "Brave Bow",
-        "desc": "Allows two consecutive hits.",
+        "nid": "Composite_Bow",
+        "name": "Composite Bow",
+        "desc": "Eff vs avyons.",
+        "icon_nid": "{Beansy} {Bows} All Icons",
+        "icon_index": [
+            1,
+            0
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "damage",
+                10
+            ],
+            [
+                "hit",
+                90
+            ],
+            [
+                "weapon_type",
+                "Bow"
+            ],
+            [
+                "weapon_rank",
+                "B"
+            ],
+            [
+                "uses",
+                30
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "weight",
+                12
+            ],
+            [
+                "crit",
+                30
+            ],
+            [
+                "warning",
+                null
+            ],
+            [
+                "value",
+                2400
+            ],
+            [
+                "min_range",
+                2
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "Flying"
+                    ],
+                    "effective_multiplier": 1.0,
+                    "effective_bonus_damage": 18,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
+            ]
+        ]
+    },
+    {
+        "nid": "Rapidfire_Bow",
+        "name": "Rapidfire Bow",
+        "desc": "Strike consecutively. Eff vs avyons.",
         "icon_nid": "Bow",
         "icon_index": [
             0,
@@ -8900,13 +10133,80 @@
         ]
     },
     {
-        "nid": "Short_Bow",
-        "name": "Short Bow",
-        "desc": "",
-        "icon_nid": "Bow",
+        "nid": "Heal_Arrow",
+        "name": "Heal Arrow",
+        "desc": "Water magic. Restores some HP. Cannot deal damage.",
+        "icon_nid": "{Beansy} {Bows} All Icons",
         "icon_index": [
-            0,
-            6
+            3,
+            1
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "hit",
+                80
+            ],
+            [
+                "equation_heal",
+                "HEAL"
+            ],
+            [
+                "weapon_type",
+                "Bow"
+            ],
+            [
+                "weapon_rank",
+                "E"
+            ],
+            [
+                "uses",
+                20
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "value",
+                2000
+            ],
+            [
+                "min_range",
+                2
+            ],
+            [
+                "max_range",
+                3
+            ],
+            [
+                "no_double",
+                null
+            ],
+            [
+                "target_unit",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Fire_Arrow",
+        "name": "Fire Arrow",
+        "desc": "Fire magic. Eff vs lykons, wolves.",
+        "icon_nid": "{Beansy} {Bows} All Icons",
+        "icon_index": [
+            3,
+            1
         ],
         "components": [
             [
@@ -8923,11 +10223,11 @@
             ],
             [
                 "damage",
-                5
+                4
             ],
             [
                 "hit",
-                85
+                95
             ],
             [
                 "weapon_type",
@@ -8939,7 +10239,7 @@
             ],
             [
                 "uses",
-                22
+                35
             ],
             [
                 "uses_options",
@@ -8954,15 +10254,11 @@
             ],
             [
                 "crit",
-                10
-            ],
-            [
-                "wexp",
-                2
+                0
             ],
             [
                 "value",
-                1760
+                1200
             ],
             [
                 "min_range",
@@ -8976,10 +10272,11 @@
                 "effective_damage",
                 {
                     "effective_tags": [
-                        "Flying"
+                        "Wolf",
+                        "Lykon"
                     ],
                     "effective_multiplier": 1.0,
-                    "effective_bonus_damage": 10,
+                    "effective_bonus_damage": 26,
                     "show_effectiveness_flash": true,
                     "weapon_effectiveness_multiplied": true
                 }
@@ -8987,9 +10284,261 @@
         ]
     },
     {
-        "nid": "Longbow",
-        "name": "Longbow",
-        "desc": "",
+        "nid": "Thunderbolt",
+        "name": "Thunderbolt",
+        "desc": "Lightning magic. Eff vs quieiza, armor.",
+        "icon_nid": "{Beansy} {Bows} All Icons",
+        "icon_index": [
+            3,
+            1
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "damage",
+                8
+            ],
+            [
+                "hit",
+                85
+            ],
+            [
+                "weapon_type",
+                "Bow"
+            ],
+            [
+                "weapon_rank",
+                "C"
+            ],
+            [
+                "uses",
+                25
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "weight",
+                7
+            ],
+            [
+                "crit",
+                10
+            ],
+            [
+                "value",
+                1800
+            ],
+            [
+                "min_range",
+                2
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "Wolf",
+                        "Lykon"
+                    ],
+                    "effective_multiplier": 1.0,
+                    "effective_bonus_damage": 26,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
+            ]
+        ]
+    },
+    {
+        "nid": "Light_Arrow",
+        "name": "Light Arrow",
+        "desc": "Holy magic. Eff vs daemons.",
+        "icon_nid": "{Beansy} {Bows} All Icons",
+        "icon_index": [
+            3,
+            1
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "damage",
+                9
+            ],
+            [
+                "hit",
+                90
+            ],
+            [
+                "weapon_type",
+                "Bow"
+            ],
+            [
+                "weapon_rank",
+                "B"
+            ],
+            [
+                "uses",
+                20
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "weight",
+                9
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "value",
+                2500
+            ],
+            [
+                "min_range",
+                2
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "Wolf",
+                        "Lykon"
+                    ],
+                    "effective_multiplier": 1.0,
+                    "effective_bonus_damage": 26,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
+            ]
+        ]
+    },
+    {
+        "nid": "Gandiva",
+        "name": "Gandiva",
+        "desc": "Sacred Bow of Valynmur.",
+        "icon_nid": "{Beansy} {Bows} All Icons",
+        "icon_index": [
+            3,
+            1
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "damage",
+                12
+            ],
+            [
+                "hit",
+                90
+            ],
+            [
+                "weapon_type",
+                "Bow"
+            ],
+            [
+                "weapon_rank",
+                "S"
+            ],
+            [
+                "uses",
+                20
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "weight",
+                5
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "value",
+                4000
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "Wolf",
+                        "Lykon"
+                    ],
+                    "effective_multiplier": 1.0,
+                    "effective_bonus_damage": 26,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
+            ]
+        ]
+    },
+    {
+        "nid": "Oak_Longbow",
+        "name": "Oak Longbow",
+        "desc": "Can attack at a distance. Eff vs avyons.",
         "icon_nid": "Bow",
         "icon_index": [
             0,
@@ -9010,11 +10559,11 @@
             ],
             [
                 "damage",
-                5
+                6
             ],
             [
                 "hit",
-                65
+                80
             ],
             [
                 "weapon_type",
@@ -9026,7 +10575,7 @@
             ],
             [
                 "uses",
-                20
+                40
             ],
             [
                 "uses_options",
@@ -9045,7 +10594,7 @@
             ],
             [
                 "value",
-                2000
+                1000
             ],
             [
                 "min_range",
@@ -9070,9 +10619,341 @@
         ]
     },
     {
-        "nid": "Nidhogg",
-        "name": "Nidhogg",
-        "desc": "Luck +5. Effective against monsters",
+        "nid": "Elm_Longbow",
+        "name": "Elm Longbow",
+        "desc": "Can attack at a distance. Eff vs avyons.",
+        "icon_nid": "Bow",
+        "icon_index": [
+            0,
+            7
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "damage",
+                8
+            ],
+            [
+                "hit",
+                75
+            ],
+            [
+                "weapon_type",
+                "Bow"
+            ],
+            [
+                "weapon_rank",
+                "D"
+            ],
+            [
+                "uses",
+                35
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "weight",
+                12
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "value",
+                1000
+            ],
+            [
+                "min_range",
+                2
+            ],
+            [
+                "max_range",
+                3
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "Flying"
+                    ],
+                    "effective_multiplier": 1.0,
+                    "effective_bonus_damage": 10,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
+            ]
+        ]
+    },
+    {
+        "nid": "Maple_Longbow",
+        "name": "Maple Longbow",
+        "desc": "Can attack at a distance. Eff vs avyons.",
+        "icon_nid": "Bow",
+        "icon_index": [
+            0,
+            7
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "damage",
+                10
+            ],
+            [
+                "hit",
+                70
+            ],
+            [
+                "weapon_type",
+                "Bow"
+            ],
+            [
+                "weapon_rank",
+                "C"
+            ],
+            [
+                "uses",
+                25
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "weight",
+                14
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "value",
+                1000
+            ],
+            [
+                "min_range",
+                2
+            ],
+            [
+                "max_range",
+                3
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "Flying"
+                    ],
+                    "effective_multiplier": 1.0,
+                    "effective_bonus_damage": 10,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
+            ]
+        ]
+    },
+    {
+        "nid": "Yew_Longbow",
+        "name": "Yew Longbow",
+        "desc": "Can attack at a distance. Eff vs avyons.",
+        "icon_nid": "Bow",
+        "icon_index": [
+            0,
+            7
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "damage",
+                12
+            ],
+            [
+                "hit",
+                55
+            ],
+            [
+                "weapon_type",
+                "Bow"
+            ],
+            [
+                "weapon_rank",
+                "B"
+            ],
+            [
+                "uses",
+                15
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "weight",
+                16
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "value",
+                1000
+            ],
+            [
+                "min_range",
+                2
+            ],
+            [
+                "max_range",
+                3
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "Flying"
+                    ],
+                    "effective_multiplier": 1.0,
+                    "effective_bonus_damage": 10,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
+            ]
+        ]
+    },
+    {
+        "nid": "Sylvan_Longbow",
+        "name": "Sylvan Longbow",
+        "desc": "Can attack at a distance. Eff vs avyons.",
+        "icon_nid": "Bow",
+        "icon_index": [
+            0,
+            7
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "damage",
+                14
+            ],
+            [
+                "hit",
+                60
+            ],
+            [
+                "weapon_type",
+                "Bow"
+            ],
+            [
+                "weapon_rank",
+                "A"
+            ],
+            [
+                "uses",
+                20
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "weight",
+                15
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "value",
+                1000
+            ],
+            [
+                "min_range",
+                2
+            ],
+            [
+                "max_range",
+                3
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "Flying"
+                    ],
+                    "effective_multiplier": 1.0,
+                    "effective_bonus_damage": 10,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
+            ]
+        ]
+    },
+    {
+        "nid": "Failnaught",
+        "name": "Failnaught",
+        "desc": "Eff vs avyons.",
         "icon_nid": "Bow",
         "icon_index": [
             0,
@@ -9097,7 +10978,7 @@
             ],
             [
                 "hit",
-                80
+                70
             ],
             [
                 "weapon_type",
@@ -9109,7 +10990,7 @@
             ],
             [
                 "uses",
-                30
+                20
             ],
             [
                 "uses_options",
@@ -9120,11 +11001,7 @@
             ],
             [
                 "weight",
-                7
-            ],
-            [
-                "status_on_equip",
-                "Luck_Plus5"
+                20
             ],
             [
                 "crit",
@@ -9136,7 +11013,7 @@
             ],
             [
                 "max_range",
-                2
+                3
             ],
             [
                 "effective_damage",
@@ -9150,6 +11027,583 @@
                     "show_effectiveness_flash": true,
                     "weapon_effectiveness_multiplied": true
                 }
+            ]
+        ]
+    },
+    {
+        "nid": "Bronze_Crossbow",
+        "name": "Bronze Crossbow",
+        "desc": "Queiza, Chiylo only. Eff vs cales.",
+        "icon_nid": "{Beansy} {Bows} All Icons",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "value",
+                800
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "damage",
+                4
+            ],
+            [
+                "hit",
+                80
+            ],
+            [
+                "weight",
+                5
+            ],
+            [
+                "uses",
+                40
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Bow"
+            ],
+            [
+                "weapon_rank",
+                "E"
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "Flying"
+                    ],
+                    "effective_multiplier": 1.0,
+                    "effective_bonus_damage": 12,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
+            ]
+        ]
+    },
+    {
+        "nid": "Iron_Crossbow",
+        "name": "Iron Crossbow",
+        "desc": "Queiza, Chiylo only. Eff vs scales.",
+        "icon_nid": "{Beansy} {Bows} All Icons",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "value",
+                800
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "damage",
+                6
+            ],
+            [
+                "hit",
+                75
+            ],
+            [
+                "weight",
+                7
+            ],
+            [
+                "uses",
+                35
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Bow"
+            ],
+            [
+                "weapon_rank",
+                "D"
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "Flying"
+                    ],
+                    "effective_multiplier": 1.0,
+                    "effective_bonus_damage": 12,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
+            ],
+            [
+                "crit",
+                0
+            ]
+        ]
+    },
+    {
+        "nid": "Steel_Crossbow",
+        "name": "Steel Crossbow",
+        "desc": "Queiza, Chiylo only. Eff vs scales.",
+        "icon_nid": "{Beansy} {Bows} All Icons",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "value",
+                1200
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "damage",
+                6
+            ],
+            [
+                "hit",
+                65
+            ],
+            [
+                "weight",
+                9
+            ],
+            [
+                "uses",
+                35
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Bow"
+            ],
+            [
+                "weapon_rank",
+                "C"
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "Flying"
+                    ],
+                    "effective_multiplier": 1.0,
+                    "effective_bonus_damage": 12,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
+            ],
+            [
+                "crit",
+                0
+            ]
+        ]
+    },
+    {
+        "nid": "Mythril_Crossbow",
+        "name": "Mythril Crossbow",
+        "desc": "Queiza, Chiylo only. Eff vs scales.",
+        "icon_nid": "{Beansy} {Bows} All Icons",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "value",
+                1800
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "damage",
+                8
+            ],
+            [
+                "hit",
+                70
+            ],
+            [
+                "weight",
+                10
+            ],
+            [
+                "uses",
+                35
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Bow"
+            ],
+            [
+                "weapon_rank",
+                "B"
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "Flying"
+                    ],
+                    "effective_multiplier": 1.0,
+                    "effective_bonus_damage": 12,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
+            ],
+            [
+                "crit",
+                0
+            ]
+        ]
+    },
+    {
+        "nid": "Adamant_Crossbow",
+        "name": "Adamant Crossbow",
+        "desc": "Queiza, Chiylo only. Eff vs scales.",
+        "icon_nid": "{Beansy} {Bows} All Icons",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "value",
+                5000
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "damage",
+                13
+            ],
+            [
+                "hit",
+                60
+            ],
+            [
+                "weight",
+                14
+            ],
+            [
+                "uses",
+                35
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Bow"
+            ],
+            [
+                "weapon_rank",
+                "A"
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "Flying"
+                    ],
+                    "effective_multiplier": 1.0,
+                    "effective_bonus_damage": 12,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
+            ],
+            [
+                "crit",
+                0
+            ]
+        ]
+    },
+    {
+        "nid": "Arbalest",
+        "name": "Adamant Crossbow",
+        "desc": "Chiylo only. Eff vs fliers.",
+        "icon_nid": "{Beansy} {Bows} All Icons",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "damage",
+                18
+            ],
+            [
+                "hit",
+                70
+            ],
+            [
+                "weight",
+                14
+            ],
+            [
+                "uses",
+                25
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Bow"
+            ],
+            [
+                "weapon_rank",
+                "S"
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "Flying"
+                    ],
+                    "effective_multiplier": 1.0,
+                    "effective_bonus_damage": 12,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
+            ],
+            [
+                "crit",
+                15
+            ]
+        ]
+    },
+    {
+        "nid": "Gastraphates",
+        "name": "Gastraphates",
+        "desc": "Handheld ballista. Eff vs fliers.",
+        "icon_nid": "{Beansy} {Bows} All Icons",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "damage",
+                14
+            ],
+            [
+                "hit",
+                70
+            ],
+            [
+                "weight",
+                20
+            ],
+            [
+                "uses",
+                10
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Bow"
+            ],
+            [
+                "weapon_rank",
+                "A"
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "Flying"
+                    ],
+                    "effective_multiplier": 1.0,
+                    "effective_bonus_damage": 12,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
+            ],
+            [
+                "siege_weapon",
+                null
+            ],
+            [
+                "crit",
+                5
+            ],
+            [
+                "value",
+                8000
             ]
         ]
     },
@@ -9244,9 +11698,99 @@
         ]
     },
     {
-        "nid": "Long_Ballista",
-        "name": "Long Ballista",
-        "desc": "",
+        "nid": "Scorpio",
+        "name": "Scorpio",
+        "desc": "Long-range weapon. Eff vs fliers.",
+        "icon_nid": "Bow",
+        "icon_index": [
+            0,
+            10
+        ],
+        "components": [
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "damage",
+                12
+            ],
+            [
+                "hit",
+                65
+            ],
+            [
+                "weapon_type",
+                "Bow"
+            ],
+            [
+                "uses",
+                5
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "weight",
+                20
+            ],
+            [
+                "crit",
+                15
+            ],
+            [
+                "wexp",
+                4
+            ],
+            [
+                "min_range",
+                3
+            ],
+            [
+                "max_range",
+                10
+            ],
+            [
+                "weapon_rank",
+                "E"
+            ],
+            [
+                "siege_weapon",
+                null
+            ],
+            [
+                "prf_class",
+                [
+                    "Scout",
+                    "Marksman"
+                ]
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "Flying"
+                    ],
+                    "effective_multiplier": 1.0,
+                    "effective_bonus_damage": 24,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
+            ]
+        ]
+    },
+    {
+        "nid": "Harpax",
+        "name": "Harpax",
+        "desc": "Super long-range weapon. Eff vs fliers.",
         "icon_nid": "Bow",
         "icon_index": [
             0,
@@ -9334,13 +11878,13 @@
         ]
     },
     {
-        "nid": "Killer_Ballista",
-        "name": "Killer Ballis",
-        "desc": "",
+        "nid": "Catapult",
+        "name": "Catapult",
+        "desc": "Long-range weapon. AOE on impact. Deals earth damage. Eff vs armor.",
         "icon_nid": "Bow",
         "icon_index": [
             0,
-            10
+            9
         ],
         "components": [
             [
@@ -9353,11 +11897,11 @@
             ],
             [
                 "damage",
-                12
+                7
             ],
             [
                 "hit",
-                65
+                60
             ],
             [
                 "weapon_type",
@@ -9365,7 +11909,7 @@
             ],
             [
                 "uses",
-                5
+                15
             ],
             [
                 "uses_options",
@@ -9380,7 +11924,7 @@
             ],
             [
                 "crit",
-                10
+                0
             ],
             [
                 "wexp",
@@ -9392,7 +11936,7 @@
             ],
             [
                 "max_range",
-                10
+                8
             ],
             [
                 "weapon_rank",
@@ -9416,7 +11960,277 @@
                         "Flying"
                     ],
                     "effective_multiplier": 1.0,
-                    "effective_bonus_damage": 24,
+                    "effective_bonus_damage": 26,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
+            ]
+        ]
+    },
+    {
+        "nid": "Shock_Launcher",
+        "name": "Shock Launcher",
+        "desc": "Long-range Fulgus. Eff vs quieiza, armor.",
+        "icon_nid": "Bow",
+        "icon_index": [
+            0,
+            9
+        ],
+        "components": [
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "damage",
+                0
+            ],
+            [
+                "hit",
+                70
+            ],
+            [
+                "weapon_type",
+                "Bow"
+            ],
+            [
+                "uses",
+                15
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "weight",
+                20
+            ],
+            [
+                "crit",
+                -1
+            ],
+            [
+                "wexp",
+                4
+            ],
+            [
+                "min_range",
+                3
+            ],
+            [
+                "max_range",
+                15
+            ],
+            [
+                "weapon_rank",
+                "E"
+            ],
+            [
+                "siege_weapon",
+                null
+            ],
+            [
+                "prf_class",
+                [
+                    "Scout",
+                    "Marksman"
+                ]
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "Flying"
+                    ],
+                    "effective_multiplier": 1.0,
+                    "effective_bonus_damage": 26,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
+            ]
+        ]
+    },
+    {
+        "nid": "Frost_Launcher",
+        "name": "Frost Launcher",
+        "desc": "Long-range Glacies. Eff vs zabos, avyons.",
+        "icon_nid": "Bow",
+        "icon_index": [
+            0,
+            9
+        ],
+        "components": [
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "damage",
+                0
+            ],
+            [
+                "hit",
+                70
+            ],
+            [
+                "weapon_type",
+                "Bow"
+            ],
+            [
+                "uses",
+                15
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "weight",
+                20
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "wexp",
+                4
+            ],
+            [
+                "min_range",
+                3
+            ],
+            [
+                "max_range",
+                15
+            ],
+            [
+                "weapon_rank",
+                "E"
+            ],
+            [
+                "siege_weapon",
+                null
+            ],
+            [
+                "prf_class",
+                [
+                    "Scout",
+                    "Marksman"
+                ]
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "Flying"
+                    ],
+                    "effective_multiplier": 1.0,
+                    "effective_bonus_damage": 26,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
+            ]
+        ]
+    },
+    {
+        "nid": "Flare_Launcher",
+        "name": "Flare Launcher",
+        "desc": "Long-range Ignis. Eff vs lykons, wolves.",
+        "icon_nid": "Bow",
+        "icon_index": [
+            0,
+            9
+        ],
+        "components": [
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "damage",
+                0
+            ],
+            [
+                "hit",
+                70
+            ],
+            [
+                "weapon_type",
+                "Bow"
+            ],
+            [
+                "uses",
+                15
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "weight",
+                20
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "wexp",
+                4
+            ],
+            [
+                "min_range",
+                3
+            ],
+            [
+                "max_range",
+                15
+            ],
+            [
+                "weapon_rank",
+                "E"
+            ],
+            [
+                "siege_weapon",
+                null
+            ],
+            [
+                "prf_class",
+                [
+                    "Scout",
+                    "Marksman"
+                ]
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "Flying"
+                    ],
+                    "effective_multiplier": 1.0,
+                    "effective_bonus_damage": 26,
                     "show_effectiveness_flash": true,
                     "weapon_effectiveness_multiplied": true
                 }

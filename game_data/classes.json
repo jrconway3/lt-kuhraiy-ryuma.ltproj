@@ -4464,16 +4464,16 @@
         "max_level": 20,
         "bases": {
             "LCK": 0,
-            "RES": 0,
-            "CON": 9,
+            "RES": 2,
+            "CON": 11,
             "MOV": 5,
-            "STR": 4,
+            "STR": 8,
             "HP": 18,
             "MAG": 2,
-            "SKL": 8,
-            "SPD": 8,
-            "DEF": 4,
-            "MP": 0
+            "SKL": 4,
+            "SPD": 6,
+            "DEF": 8,
+            "MP": 5
         },
         "growths": {
             "LCK": 30,
@@ -4485,7 +4485,7 @@
             "MAG": 20,
             "SKL": 40,
             "SPD": 40,
-            "DEF": 40,
+            "DEF": 50,
             "MP": 25
         },
         "growth_bonus": {
@@ -4687,6 +4687,245 @@
         ],
         "map_sprite_nid": "Mercenary",
         "combat_anim_nid": "Mercenary",
+        "fields": []
+    },
+    {
+        "nid": "Myrmidon",
+        "name": "Nomad",
+        "desc": "Soldier for hire skilled with swift movements with the blade.\nRace: Chiylo",
+        "tier": 1,
+        "movement_group": "Light Foot",
+        "promotes_from": null,
+        "turns_into": [],
+        "tags": [
+            "Chiylo"
+        ],
+        "max_level": 20,
+        "bases": {
+            "LCK": 0,
+            "CON": 11,
+            "MOV": 5,
+            "RES": 3,
+            "STR": 6,
+            "HP": 13,
+            "MAG": 3,
+            "SKL": 7,
+            "SPD": 10,
+            "DEF": 5,
+            "MP": 6
+        },
+        "growths": {
+            "LCK": 40,
+            "CON": 0,
+            "MOV": 0,
+            "RES": 35,
+            "STR": 35,
+            "HP": 60,
+            "MAG": 17,
+            "SKL": 40,
+            "SPD": 60,
+            "DEF": 45,
+            "MP": 45
+        },
+        "growth_bonus": {
+            "LCK": 0,
+            "CON": 0,
+            "MOV": 0,
+            "RES": 0,
+            "STR": 0,
+            "HP": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
+            "MP": 0
+        },
+        "promotion": {
+            "LCK": 0,
+            "CON": 0,
+            "MOV": 0,
+            "RES": 0,
+            "STR": 0,
+            "HP": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
+            "MP": 0
+        },
+        "max_stats": {
+            "LCK": 30,
+            "CON": 20,
+            "MOV": 15,
+            "RES": 20,
+            "STR": 20,
+            "HP": 60,
+            "MAG": 20,
+            "SKL": 20,
+            "SPD": 20,
+            "DEF": 20,
+            "MP": 30
+        },
+        "learned_skills": [],
+        "wexp_gain": {
+            "Sword": [
+                true,
+                31,
+                251
+            ],
+            "Dagger": [
+                false,
+                0,
+                null
+            ],
+            "Lance": [
+                false,
+                0,
+                251
+            ],
+            "Axe": [
+                false,
+                0,
+                251
+            ],
+            "Bow": [
+                false,
+                0,
+                251
+            ],
+            "Solus": [
+                false,
+                0,
+                251
+            ],
+            "Lunis": [
+                false,
+                0,
+                251
+            ],
+            "Ignis": [
+                false,
+                0,
+                null
+            ],
+            "Ventus": [
+                false,
+                0,
+                null
+            ],
+            "Fulgus": [
+                false,
+                1,
+                null
+            ],
+            "Tellus": [
+                true,
+                0,
+                251
+            ],
+            "Glacies": [
+                false,
+                0,
+                null
+            ],
+            "Aquis": [
+                false,
+                0,
+                null
+            ],
+            "Runic": [
+                false,
+                0,
+                251
+            ],
+            "Shield": [
+                false,
+                0,
+                null
+            ],
+            "Armor": [
+                false,
+                0,
+                null
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ],
+            "Valuables": [
+                false,
+                0,
+                null
+            ],
+            "Claw": [
+                false,
+                0,
+                null
+            ],
+            "Staff": [
+                false,
+                0,
+                251
+            ],
+            "Light": [
+                false,
+                0,
+                251
+            ],
+            "Dark": [
+                false,
+                0,
+                251
+            ],
+            "Earth": [
+                false,
+                0,
+                251
+            ],
+            "Water": [
+                false,
+                0,
+                null
+            ],
+            "New_Weapon_Type_2": [
+                false,
+                0,
+                null
+            ],
+            "New Weapon Type_3": [
+                false,
+                0,
+                null
+            ],
+            "Anima": [
+                false,
+                0,
+                251
+            ],
+            "Ice": [
+                false,
+                0,
+                null
+            ],
+            "New_Weapon_Type_3": [
+                false,
+                0,
+                null
+            ],
+            "Magic": [
+                false,
+                0,
+                251
+            ]
+        },
+        "icon_nid": "Myrmidon (F) Sword {L95}",
+        "icon_index": [
+            0,
+            0
+        ],
+        "map_sprite_nid": "Myrmidon",
+        "combat_anim_nid": "Myrmidon",
         "fields": []
     },
     {
@@ -5192,10 +5431,10 @@
         "bases": {
             "LCK": 0,
             "CON": 8,
-            "MOV": 5,
-            "RES": 4,
+            "MOV": 6,
+            "RES": 6,
             "STR": 4,
-            "HP": 16,
+            "HP": 15,
             "MAG": 2,
             "SKL": 9,
             "SPD": 10,
@@ -5203,15 +5442,15 @@
             "MP": 6
         },
         "growths": {
-            "LCK": 30,
+            "LCK": 45,
             "CON": 0,
             "MOV": 0,
-            "RES": 20,
+            "RES": 50,
             "STR": 35,
             "HP": 70,
             "MAG": 17,
             "SKL": 40,
-            "SPD": 40,
+            "SPD": 75,
             "DEF": 15,
             "MP": 50
         },
@@ -5412,7 +5651,7 @@
             0,
             0
         ],
-        "map_sprite_nid": "Myrmidon",
+        "map_sprite_nid": "Nomad",
         "combat_anim_nid": "Scout",
         "fields": []
     },
@@ -13292,7 +13531,7 @@
             0,
             0
         ],
-        "map_sprite_nid": "Nomad",
+        "map_sprite_nid": "Scout",
         "combat_anim_nid": "Archer",
         "fields": []
     },

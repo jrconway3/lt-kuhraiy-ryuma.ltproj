@@ -195,7 +195,7 @@
                 "faction": "Masa",
                 "starting_items": [
                     [
-                        "Steel_Bow",
+                        "Maple_Bow",
                         false
                     ]
                 ],
@@ -2365,7 +2365,7 @@
                 "faction": "Rogue",
                 "starting_items": [
                     [
-                        "Iron_Bow",
+                        "Elm_Bow",
                         false
                     ]
                 ],
@@ -2977,7 +2977,7 @@
                 "faction": "Rogue",
                 "starting_items": [
                     [
-                        "Iron_Bow",
+                        "Elm_Bow",
                         false
                     ]
                 ],
@@ -4377,7 +4377,7 @@
                 "faction": "Siegwang",
                 "starting_items": [
                     [
-                        "Iron_Bow",
+                        "Elm_Bow",
                         false
                     ]
                 ],
@@ -4473,7 +4473,7 @@
                 "faction": "Siegwang",
                 "starting_items": [
                     [
-                        "Iron_Bow",
+                        "Elm_Bow",
                         false
                     ]
                 ],
@@ -4665,7 +4665,7 @@
                 "faction": "Siegwang",
                 "starting_items": [
                     [
-                        "Iron_Bow",
+                        "Elm_Bow",
                         false
                     ]
                 ],
@@ -5650,7 +5650,7 @@
                 "faction": "Masa",
                 "starting_items": [
                     [
-                        "Steel_Bow",
+                        "Maple_Bow",
                         false
                     ]
                 ],

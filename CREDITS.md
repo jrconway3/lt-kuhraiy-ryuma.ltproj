@@ -118,6 +118,11 @@ Caliburnus (FE Ragnell by Batima)
 Durandel (Sword 20 by Zarg)
 
 ###### Katanas
+Masamune (Thunderbrand by Beansy)
+Dardevaja (Obsidian Blade [Tactics Ogre] by VelvetKitsune, EldritchA, Indogutsu Tenbuki)
+All OTHER Katanas currently using {Tactics Ogre LUCT, EldritchAbo, serebii01} Item Icon Sheet 1
+
+Here's the old ones, maybe will bring these back if I create sheets for them:
 Bronze Katana (sword 10 by Zarg)
 Iron Katana (iron katana by batima)
 Steel Katana (steel katana by batima)
@@ -132,7 +137,20 @@ Kusanagi (Raijinto w/Bolts by Batima)
 Masamune (Thunderbrand by Beansy)
 Dardevaja (Obsidian Blade [Tactics Ogre] by VelvetKitsune, EldritchA, Indogutsu Tenbuki)
 
+possible katanas:
+Killing Edge by Batima
+Scarlet Sword by Batima
+Rainbow by Batima
+Raijinto by Batima
+Mani Katti FEA by Batima
+Sol Katti FEA by Batima
+Katanas by Batima
+
+
 ###### Lightblade
+All Lightblades currently using {EldritchA, Indogutsu Tenbuki} Tactics Ogre All Icons
+
+These are the old icons, I may bring them back if I create sheets for them:
 Foil
 Wingclipper (Wing Clipper FE4 by Topazlight)
 Estoc (Estoc by Orihara Saki)
@@ -140,19 +158,23 @@ Lightning Blade (Levin Sword - Zarg)
 Shamshir (Icon 018 by Zelix)
 
 ###### Rapiers
-Steel Rapier
-Mythril Rapier
-Adamant Rapier
-Espada Ropera
-Cutlass (Icon 025 by Peerless)
-Flame Sabre (Sword 8 by Jubby)
-Lady Rapier (Ladyblade by Topazlight)??
+Espada Ropera (??)
 Almace (WEP Pack 5 by Lisanda Brave)
 Almacia (icon 010 by Zelix)
-Joyeuse (Eirika's Blade by Batima)
-Cortaine (Florest Old by Batima)
-Cortaine (Peerless)
+Joyeuse (Icon 030 by Zelix)
+Cortaine (FE9 Weapon Icons by Peerless)
 Galatine (Tactics Ogre Sword 32 by EldritchAbomination, Indogutsu Tenbuki)
+
+All other rapiers currently using {EldritchA, Indogutsu Tenbuki} Tactics Ogre All Icons
+
+These are the old icons, I may bring them back if I create sheets for them:
+Cutlass (Icon 025 by Peerless)
+Cortaine (Florest Old by Batima)
+
+possible Rapier icons:
+Roy's Blade by Batima
+Noble Rapier by Batima
+Mercurius by Batima
 
 
 ##### Daggers / Claws
@@ -162,6 +184,8 @@ Bronze Knife (dagger 1 by Ereshkigal)
 Iron Knife (dagger 2 by Ereshkigal)
 Steel Knife (dagger 3 by Ereshkigal)
 Mythril Knife (dagger 4 by Ereshkigal)
+Adamant Knife ()
+Kunai ()
 
 ###### Daggers
 Kard (FEH Jaffar's Dagger / Deadly Dagger by Sacred Stones)
@@ -185,12 +209,12 @@ Partisan (icon 212 by Zane)
 Axereaver (Icon Blitz 1 Axereaver by 2WB)
 Rhongomiant (Lance 10 - Celice)
 
+Brave Lance??? (Meisterlanze by Batima) (maybe remove this)
+
 ###### Polearms
 Shockstick (Shockstick - Batima)
 Naginata (icon 198 - Zelix)
 Corseque (Wing Spear by Batima)
-
-Brave Lance??? (Meisterlanze by Batima) (maybe remove this)
 
 ###### Javelins / Spears
 Javelin (lance 15 - Ereshkigal)
@@ -254,14 +278,16 @@ TBD
 ##### Bows
 
 ###### Simple Bows
-Oak Bow (Bronze Bow by Beansy)
+Oak Bow (Beacon Bow by Beansy)
 Elm Bow (Iron Bow by Beansy)
-Maple Bow ()
-Yew Bow (Arectaris by Beansy)
-Sylvan Bow (Crystal Longbow by Beansy)
+Maple Bow (Steel Bow by Beansy)
+Yew Bow (Devil Bow by Beansy)
+Sylvan Bow (Magic Bow by Beansy)
+Short Bow (Shortbow by Beansy)
 Rapidfire Bow (Bow 2 by Meat Of Justice)
+Cursed Bow (Icon 186 by Zane)
 Composite Bow (Brave Bow by Beansy)
-Recurve Bow (KillingBow by Zenix)
+Recurve Bow (KillingBow by Zelix)
 
 ###### Longbows
 Oak Longbow (Bronze Longbow by Batima)
@@ -458,6 +484,9 @@ Fencer-M (Eliwood T1 by IS, Repalette by Teraspark, Lance by Flasuban, Magic Alt
 Mercenary (FE15 Myrmidon by Nuramon)
 Dismounted Nomad (Vanilla Myrmidon sword/unarmed by IS, Myrmidon Bow by N426)
 Blade Dancer (Vanilla Swordmaster by IS)
+Myrmidon-M (Awakening-Style Myrmidon sprite by Iscaneus, animated by Leo_Link)
+Myrmidon-M Long Hair (Blader Myrmidon Long Hair by Leo_link. Scripted and Unarmed by UltraFenix)
+Myrmidon-F (Awakening-Style Myrmidon sprite by Iscaneus, animated by Leo_Link, Headband Edit by 7743)
 Bushi (Rogue-Variant Laijutsu Samurai M/F by GabrielKnight, BigMood)
 Samurai (Dread Fighter by Nuramon)
 Kasuto (Fir Swordmaster Animation by RedBean, Scripting by Jj09, Lance animation by VelvetKitsune, Spud)
@@ -566,6 +595,8 @@ Mercenary (Mercenary Sword Improved by Flasuban)
 Mercenary (FE15 Myrmidon by Nuramon)
 Fencer M (Lord-M FE3 Marth by ThyAnarchists)
 Fencer F (Lord-F Eirika-Elf by JaidynReiman)
+Myrmidon-M (Awakening-Style Myrmidon by Leo_Link)
+Myrmidon-F (Awakening-Style Myrmidon by Leo_Link, Female Version by Stormblight)
 Captain M (Great Lord-M Ephraim-Infantry Lance by Snewping)
 Captain F (Great Lord-M Ephraim-Infantry Lance by VelvetKistune, HGS, Snewping)
 Villager (Villager v2 Sword by HyperGammaSpaces)
@@ -643,6 +674,7 @@ Flare Burst (Binding Blade Fire by SHYUTERz, IS)
 Flame Wall (Flame Sweep by Scraiza)
 Explosion (Bakuretsu Remake /Thunderfire Blast by Shyuterz)
 Eruption (DS Bolganone by Mikey_Seregon)
+Ragnarok (Gigafire by SHYUTERz)
 
 ###### Electric Spells
 Static (Vertical Light Blast by Scraiza)
@@ -650,7 +682,7 @@ Shockwave (Archthunder by BwdYeti)
 High Voltage (Lazm Thunder by Windsweep)
 Thunderstorm (Super Thunderstorm by SHYUTERz)
 Lightning Bolt (Dire Thunder by Orihara_Saki)
-Ultima (Ragnarok by Arch)
+Arrow of Alternia (Dimensional Light by PMD, redblueyellow, Jj09)
 
 ###### Ice Spells
 Icicle (Ice Shard by Sme, Compile)
@@ -665,7 +697,7 @@ Air Current (Aircalibur by Mikey_Seregon)
 Wind Cutter (DS Excalibur by Mikey_Seregon)
 Tornado (GS Tempest by Mikey_Seregon)
 Hurricane (Super Excalibur by SHYUTERz)
-Ragnarok (Gigafire by SHYUTERz)
+Ultima (Ragnarok by Arch)
 
 ###### Water Spells
 Healing Water (Heal by IS)
@@ -684,16 +716,14 @@ Ray (Javelin Rain by Scraiza)
 Starlight (Starlight by Blazer, Jubby)
 Solar Flare (Exordium by Arch)
 Excalibur (Thani / DS Aura by Mikey_Seregon)
-Arrow of Alternia (Dimensional Light by PMD, redblueyellow, Jj09)
 
 ###### Earth Spells
 Stone (FEH Stone by Norikins)
 Boulder (FEH Elstone by Norikins)
 Rend Terra (FEH Atlas by Norikins)
 Quake (Ground Dasher by Bonzai, Blazer)
-Gaeya's Wrath (GS Mad Growth by Mikey_Seregon)
-Jormungandr (Demonic Tome by Norikins)
 Meteor (Meteor by Blazer, Jubby)
+Jormungandr (Demonic Tome by Norikins)
 
 ###### Dark Spells
 Tendril (Vanilla Flux by IS)
@@ -701,8 +731,8 @@ Leech (Resire Fast by MisakoMikoto, 7743)
 Bleed (Purple Blast by Scraiza)
 Eclipse (Crimson Eye FE7 by Mikey_Seregon)
 Hellfire (Gespenst by SHYUTERz)
+Gaeya's Wrath (GS Mad Growth by Mikey_Seregon)
 Transfusion ()
-Jormun (FE7If Ereshkigal by SHYUTERz)
 
 ###### Ranged Weapon Animations
 Bronze Knife (Arrow - IS)
@@ -717,7 +747,7 @@ Mythril Zweihander (Ragnell Wave by lovemachine, Mikey Seregon, The_Big_Dededest
 Kusanagi (Gugurant Wave by lovemachine, Mikey Seregon)
 
 ###### Magic Weapon Animations
-Fire Sabre (Fire by MisakaMikoto)
+Flame Sabre (Fire by MisakaMikoto)
 Frost Sword (Ice Shard by Sme, Compile)
 Lightning Blade (Vanilla Lightning)
 Flamberge (Inferno by Terraspark)
