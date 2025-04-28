@@ -933,10 +933,11 @@ Road Designs (Vanilla Sacred Stones - IS)
 #### Tilesets
 
 ##### Tilesets I Used
-Village - Vanilla FE8 (I replaced these with Village - Remake, but the early new map designs used this map)
 Village - Remake + Coconut Tree + Ship Extras (by flasuban, N426, ZoramineFae, Venno)
 FE8 - Fields - Remaster - Super Fields (by WAve, RandomWizard, Beast; Aquamarine Roofs + Gray Mountains by Dark, inspired by LeifOClaude; Autumn/Marsh/Verdant by Zarg)
 Cynon's Metropolis by Cynon
+FE8 Castle + Customs - Tileset Improved by N426
+Desert Bastion Village by Gamma, ZoramineFae, Venno, N426
 
 ##### Autotiles
 Custom tilesets cannot easily be imported into LT in all cases. Many custom tilesets change up the animations, and as such, need new autotiles to generate new animations for tilemaps.

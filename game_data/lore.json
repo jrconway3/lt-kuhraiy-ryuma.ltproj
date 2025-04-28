@@ -270,21 +270,21 @@
         "name": "Kuhraiy",
         "title": "Kuhraiy",
         "category": "Organization",
-        "text": "I have heard word of something strange... Kuhraiy, I am told. This name has cropped up in my research, yet I still know not what it is. Its like a shadow... even still that is what these notes have said. I barely paid in any mind, until I heard that name spoken of again.\n\nPeople truly believe it exists... Yet none know what it is. Yet father is unable to keep these secrets from me. They believe the Kuhraiy are here, somewhere. Why naught can I find more about them? Either they really are that elusive, or someone is covering up all traces."
+        "text": "I have heard word of something strange... Kuhraiy, I am told. This name has cropped up in my research, yet I still know not what it is. Its like a shadow... even still that is what these notes have said. I barely paid in any mind, until I heard that name spoken of again.\nPeople truly believe it exists... Yet none know what it is. Yet father is unable to keep these secrets from me. They believe the Kuhraiy are here, somewhere. Why naught can I find more about them? Either they really are that elusive, or someone is covering up all traces."
     },
     {
         "nid": "Kuhraiy2",
         "name": "Kuhraiy",
         "title": "Kuhraiy: Addendum",
         "category": "Organization",
-        "text": "So, these are the Kuhraiy... a massive network of spies spread out around the world. They deal primarily in information, for a price. That is how they make their way in this world.\n\nSister Kasuto... how could you? You were... a spy... all along?! Your entire family are of these... Kuhraiy... including that of dear Relm?\n\nI see... so that's what Nordak are. Now it makes sense. Nordak must be... the ancient form of the Kuhraiy! Most of them seem to be degraded now. Might Kasuto also be..."
+        "text": "So, these are the Kuhraiy... a massive network of spies spread out around the world. They deal primarily in information, for a price. That is how they make their way in this world.\nSister Kasuto... how could you? You were... a spy... all along?! Your entire family are of these... Kuhraiy... including that of dear Relm?\nI see... so that's what Nordak are. Now it makes sense. Nordak must be... the ancient form of the Kuhraiy! Most of them seem to be degraded now. Might Kasuto also be..."
     },
     {
         "nid": "Kuhraiy3",
         "name": "Kuhraiy",
         "title": "Kuhraiy: Addendum 2",
         "category": "Organization",
-        "text": "Tis been long, yet finally have I chanced to speak with Kasuto. The Kuhraiy are the remnants of the ancient Nordak people... dragons. In truth, the Kuhraiy were merely their spy network. However, when the ancient Nordak were wiped out, all that remained were the spy network.\n\nNo one in the world accepted them, so they became but a shadow. In turn, becoming as a shadow, most of them degraded. Kasuto and Relm were the first true Nordak born to them in a milennia.\n\nThey used the name Kuhraiy to spread fear of their influence on purpose, but with their many branches, were able to limit the amount of knowledge of them. However, not entirely without fault.\n\nThey settled in these mountains of Masa before even the Kingdom itself did. The scattered tribes lived around the mountains, but not within them, until they were driven to the mountains and eventually, pushed the Kuhraiy out.\n\n'tis a tragic tale, one that shan't end here, either. After all, I too shall suffer from the same fate."
+        "text": "Tis been long, yet finally have I chanced to speak with Kasuto. The Kuhraiy are the remnants of the ancient Nordak people... dragons. In truth, the Kuhraiy were merely their spy network. However, when the ancient Nordak were wiped out, all that remained were the spy network.\nNo one in the world accepted them, so they became but a shadow. In turn, becoming as a shadow, most of them degraded. Kasuto and Relm were the first true Nordak born to them in a milennia.\nThey used the name Kuhraiy to spread fear of their influence on purpose, but with their many branches, were able to limit the amount of knowledge of them. However, not entirely without fault.\nThey settled in these mountains of Masa before even the Kingdom itself did. The scattered tribes lived around the mountains, but not within them, until they were driven to the mountains and eventually, pushed the Kuhraiy out.\n'tis a tragic tale, one that shan't end here, either. After all, I too shall suffer from the same fate."
     },
     {
         "nid": "Author",
@@ -389,14 +389,14 @@
         "name": "Magic Anim",
         "title": "Magic Animations",
         "category": "Guide",
-        "text": "Huge shout out to BBHood for ripping GBA spell animations and converting them to LT. Also including many custom animations from the FE-Repo.\nIgnis:{br}Fireball (Fire by IS){br}Flare Burst (Binding Blade Fire by SHYUTERz, IS){br}Flame Wall (Flame Sweep by Scraiza){br}Explosion (Bakuretsu Remake /Thunderfire Blast by Shyuterz){br}Eruption (DS Bolganone by Mikey_Seregon)\nFulgus:{br}Static (Vertical Light Blast by Scraiza){br}Shockwave (Archthunder by BwdYeti){br}High Voltage (Lazm Thunder by Windsweep){br}Thunderstorm (Super Thunderstorm by SHYUTERz){br}Lightning Bolt (Dire Thunder by Orihara_Saki)\nUltima (Ragnarok by Arch)"
+        "text": "Huge shout out to BBHood for ripping GBA spell animations and converting them to LT. Also including many custom animations from the FE-Repo.\nIgnis:{br}Fireball (GBA Fire){br}Flare Burst (Binding Blade; SHYUTERz){br}Flame Wall (Flame Sweep; Scraiza){br}Explosion (Thunderfire Blast; Shyuterz){br}Eruption (DS Bolganone; Mikey_Seregon)\nFulgus:{br}Static (Vertical Light Blast; Scraiza){br}Shockwave (Archthunder; BwdYeti){br}High Voltage (Lazm Thunder; Windsweep){br}Thunderstorm (SHYUTERz){br}Lightning Bolt (Dire Thunder; Orihara_Saki)\nUltima (Ragnarok; Arch)"
     },
     {
         "nid": "Tilesets",
         "name": "Tilesets",
         "title": "Tilesets",
         "category": "Guide",
-        "text": "Village - Remake + Coconut Tree + Ship Extras:{br}flasuban, N426, ZoramineFae, Venno{br}{br}Metropolis (0.83 and 0.90){br}Cynon\nFE8 - Fields - Remaster - Super Fields{br}Wave, RandomWizard, Beast{br}Aquamarine Roofs + Gray Mountains by Dark, inspired by LeifOClaude"
+        "text": "Village - Remake + Coconut Tree + Ship Extras:{br}flasuban, N426, ZoramineFae, Venno{br}Metropolis by Cynon{br}Desert Bastion Village{br}Gamma, ZoramineFae, Venno, N426\nFE8 - Fields - Remaster - Super Fields{br}Wave, RandomWizard, Beast{br}Aquamarine Roofs + Gray Mountains by Dark, inspired by LeifOClaude\nFE8 Castle + Customs - Tileset Improved by N426{br}"
     },
     {
         "nid": "Autotiles",
