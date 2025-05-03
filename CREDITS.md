@@ -23,7 +23,7 @@ Licensed under the MIT License.
 All assets used were either modifications by me or imported from the FE Graphics and Music Repositories:
 https://github.com/Klokinator/FE-Repo
 
-Special Thanks to Klokinator for gathering all these resources.
+Special Thanks to Klokinator (as well as Jj09 and Jey the Count) for gathering all these resources.
 
 The grand majority were from the repo, but I did make some modifications. I will be listing off all assets here, but if I forgot any, please let me know! I'm trying to make sure I have _everything_ before I release anything, but if I did miss something, let me know right away.
 
@@ -37,7 +37,7 @@ Only stuff actively being used in the game will be added to the in-game credits.
 
 ### Icons
 
-Since switching to Lex Talionis, I have no yet fully imported all icons. LT icons are in sheets and I'm trying to set up solid configuration for these sheets. I am attempting to use pre-configured sheets where possible, otherwise I'm compiling full sheets for different artists so I can easily credit just one artist for all their assets. However, I'm also trying to keep my icons relatively similar.
+Since switching to Lex Talionis, I have not yet fully imported all icons. LT icons are in sheets and I'm trying to set up solid configuration for these sheets. I am attempting to use pre-configured sheets where possible, otherwise I'm compiling full sheets for different artists so I can easily credit just one artist for all their assets. However, I'm also trying to keep my icons relatively similar.
 
 #### Item Icons
 Diamond (Gem 6 - Maxim)
@@ -507,6 +507,7 @@ Bulwark (Baron Cape, No Clicks by Leo_link, Nuramon, Iscaneus, Revamped Handaxe 
 
 ##### Mounted, Cavaliers
 Mounted Nomad (Vanilla by IS)
+Cavalry (Cavalier V2 by SALVAGED, Female by CelestiaHeart)
 
 
 ##### Nature Mages
@@ -588,13 +589,13 @@ Pioneer-F (FE9 Fighter-F by Pikmin1211)
 ##### Archers / Hunters
 Hunter (Hunter by MeatOfJustice)
 
+##### Snipers / Ballista
+
+
 ##### Mercenaries / Heroes
 Mercenary (Mercenary Sword Improved by Flasuban)
 
 ##### Myrmidons / Swordmasters
-Mercenary (FE15 Myrmidon by Nuramon)
-Fencer M (Lord-M FE3 Marth by ThyAnarchists)
-Fencer F (Lord-F Eirika-Elf by JaidynReiman)
 Myrmidon-M (Awakening-Style Myrmidon by Leo_Link)
 Myrmidon-F (Awakening-Style Myrmidon by Leo_Link, Female Version by Stormblight)
 Captain M (Great Lord-M Ephraim-Infantry Lance by Snewping)
@@ -607,6 +608,7 @@ Scout-M (Archer-M FE14 Style Thief Bow by Rasdel)
 Scout-F (Thief-F Bow by Alice)
 
 ##### Soldiers / Halberdiers
+Fencer (Ephraim Magic by Cynon)
 Militia (Militia by Alusq, Female edit by Knabepicer)
 Soldier (FE10 Style Soldier by Flasuban)
 Sergeant-M (Sergeant M by Spud)
@@ -624,7 +626,7 @@ Sage-F (Battle Sage F Sword by Leif, L95)
 ???? (Battle Sage F Sword by Topazlight)
 
 ##### Holy Mages
-High Priestess (Monk-F Veil by Tatuta_Chang); TEMPORARY!!! (this will get a brand new icon when I make it)
+High Priestess (Blade Lord/Exalt Magic by FE7if, Jiege)
 Clergy-F (Monk-F by Teraspark)
 War Monk (War Monk, Axe M by DerTheVaporean)
 War Nun (War Cleric, Axe F by DerTheVaporean)

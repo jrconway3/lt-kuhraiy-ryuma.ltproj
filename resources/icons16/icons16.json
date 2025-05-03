@@ -127,7 +127,12 @@
     },
     {
         "nid": "{Beansy} {Bows} All Icons",
-        "subicon_dict": {}
+        "subicon_dict": {
+            "{Beansy} {Bows} All Icons 1, 0": [
+                1,
+                0
+            ]
+        }
     },
     {
         "nid": "{Beansy} {Lances} All Icons",
@@ -180,12 +185,25 @@
             "{Zelix} [WEP] FE13-FE14 Pack 4, 0": [
                 4,
                 0
+            ],
+            "{Zelix} [WEP] FE13-FE14 Pack 0, 0": [
+                0,
+                0
             ]
         }
     },
     {
         "nid": "{Zelix} FE11&13-style weapons",
-        "subicon_dict": {}
+        "subicon_dict": {
+            "{Zelix} FE11&13-style weapons 0, 0": [
+                0,
+                0
+            ],
+            "{Zelix} FE11&13-style weapons 10, 2": [
+                10,
+                2
+            ]
+        }
     },
     {
         "nid": "{CamTech075} Pack 2 ",
@@ -348,6 +366,10 @@
             "{ZessDynamite, Rainlash, LordGlenn, Suneohair, JaidynReiman} Complete Skill Icon Sheet 11, 20": [
                 11,
                 20
+            ],
+            "{ZessDynamite, Rainlash, LordGlenn, Suneohair, JaidynReiman} Complete Skill Icon Sheet 0, 0": [
+                0,
+                0
             ]
         }
     },

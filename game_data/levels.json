@@ -6072,6 +6072,27 @@
                 "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
+            },
+            {
+                "nid": "101",
+                "variant": null,
+                "level": 1,
+                "klass": "Thief2",
+                "faction": "Masa",
+                "starting_items": [
+                    [
+                        "Bronze_Sword",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Thief",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
             }
         ],
         "regions": [
@@ -6499,6 +6520,28 @@
                 }
             }
         ],
+        "ai_groups": []
+    },
+    {
+        "nid": "DEBUG_AUTOTILES",
+        "name": "AutotilesTest",
+        "tilemap": "SnowyFieldsTest",
+        "bg_tilemap": null,
+        "party": "Svetlanya",
+        "music": {},
+        "objective": {
+            "simple": "",
+            "win": "",
+            "loss": ""
+        },
+        "roam": false,
+        "roam_unit": null,
+        "go_to_overworld": false,
+        "should_record": true,
+        "tags": [],
+        "units": [],
+        "regions": [],
+        "unit_groups": [],
         "ai_groups": []
     }
 ]

@@ -1570,19 +1570,19 @@
         "desc": "A beautiful woman of Avyon descent. She's seeking something very dear to her and won't rest until it is returned.",
         "variant": "",
         "level": 4,
-        "klass": "WindRider",
+        "klass": "Heretic",
         "tags": [],
         "bases": {
-            "LCK": 8,
-            "RES": 7,
+            "LCK": 0,
+            "RES": 0,
             "CON": 5,
-            "MOV": 7,
-            "STR": 7,
-            "HP": 20,
-            "MAG": 4,
-            "SKL": 9,
-            "SPD": 13,
-            "DEF": 6,
+            "MOV": 6,
+            "STR": 0,
+            "HP": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
             "MP": 0
         },
         "growths": {
@@ -1680,7 +1680,7 @@
             ],
             "Solus": [
                 false,
-                0,
+                31,
                 251
             ],
             "Lunis": [
@@ -1702,6 +1702,16 @@
                 false,
                 0,
                 251
+            ],
+            "Ventus": [
+                false,
+                121,
+                null
+            ],
+            "Dagger": [
+                false,
+                1,
+                null
             ]
         },
         "alternate_classes": [],
@@ -2187,7 +2197,7 @@
         "desc": "A young girl living on the streets, despite being a noble's daughter...",
         "variant": null,
         "level": 1,
-        "klass": "Shinobi",
+        "klass": "Thief2",
         "tags": [],
         "bases": {
             "LCK": 5,

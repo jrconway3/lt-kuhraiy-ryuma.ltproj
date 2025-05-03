@@ -3775,8 +3775,8 @@
         "only_once": false,
         "priority": 20,
         "_source": [
-            "#base;default_background;;Credits;;GlobalCredits;show_map",
-            "base;default_background;;;;;show_map"
+            "base;default_background;;Credits;;RoamCredits;show_map",
+            "#base;default_background;;;;;show_map"
         ],
         "nid": "Global RoamMenu"
     },
@@ -3822,32 +3822,8 @@
         "nid": "0 RoamCathedral"
     },
     {
-        "name": "SpellbookLearnBak",
-        "trigger": null,
-        "level_nid": null,
-        "condition": "True",
-        "commands": [],
-        "only_once": false,
-        "priority": 20,
-        "_source": [
-            "#pyev1",
-            "",
-            "spells = \"Spellbook\"",
-            "",
-            "# get raw data",
-            "list = unit.nid + \"SpellbookList\"",
-            "if game.get_data(list):",
-            "    for spell in game.get_data(list):",
-            "        if not get_subitem(unit, spells, spell.Item) and int(spell.Wexp) <= unit.wexp[spell.Type]:",
-            "            $add_item_to_multiitem unit.nid spells spell.Item,no_duplicate no_warn",
-            "            $sound \"Item\"",
-            "            $alert (unit.nid + \" has learned \" + spell.Item + \"!\") Item=spell.Item"
-        ],
-        "nid": "Global SpellbookLearnBak"
-    },
-    {
         "name": "TalkNPC",
-        "trigger": "roam_press_select",
+        "trigger": "on_roam_interact",
         "level_nid": "0",
         "condition": "unit2 != None and unit2.nid != 'Serena'",
         "commands": [],
@@ -3959,6 +3935,9 @@
             "multi_add_portrait;Svetlanya;Left;Leiland;Right",
             "speak;Svetlanya;How fares thee, dearest brother?",
             "speak;Leiland;Well enough indeed, sister.",
+            "give_item;Svetlanya;Master_Seal",
+            "autolevel_to;Svetlanya;10",
+            "speak;Leiland;Take this, it shall help you on your journey.",
             "hide_talk;Svetlanya;Leiland"
         ],
         "nid": "DEBUG TalkLeiland"
@@ -4095,7 +4074,7 @@
         "nid": "DEBUG2 TalkKasuto"
     },
     {
-        "name": "Credits",
+        "name": "Credits2",
         "trigger": null,
         "level_nid": null,
         "condition": "True",
@@ -4105,6 +4084,19 @@
         "_source": [
             "open_guide;immediate"
         ],
-        "nid": "Global Credits"
+        "nid": "Global Credits2"
+    },
+    {
+        "name": "RoamCredits",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "open_credits;show_map"
+        ],
+        "nid": "Global RoamCredits"
     }
 ]

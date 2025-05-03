@@ -1,0 +1,790 @@
+[
+    {
+        "nid": "Author",
+        "sub_nid": "Author",
+        "type": "Text",
+        "category": "Game",
+        "icon_index": [],
+        "contrib": [
+            [
+                null,
+                "Worldbuilding, Scenario Writing, Dialogue, and Characters by JaidynReiman\n\nMap Designs, Event Coding, Game Mechanics by JaidynReiman"
+            ]
+        ]
+    },
+    {
+        "nid": "Engine",
+        "sub_nid": "Engine",
+        "type": "Text",
+        "category": "Game",
+        "icon_index": [],
+        "contrib": [
+            [
+                null,
+                "Lex Talionis Engine and LT-Maker Editor created by rainlash\n\nLex Talionis is a non-profit engine, released for free, and developed using Python, Pygame, and PyQt5. Some default assets are copyrighted or trademarked by their respective owners.\n\nLicensed under the MIT License."
+            ]
+        ]
+    },
+    {
+        "nid": "EngineHelp",
+        "sub_nid": "Engine Help",
+        "type": "Text",
+        "category": "Game",
+        "icon_index": [],
+        "contrib": [
+            [
+                null,
+                "With additional programming and help from the Lex Talionis Discord server, including mag, KD, Sigmaraven, TheeBill, Lord Tweed, ZessDynamite, Nemid, Kyogokudo, beccarte, Meinerieve, Greentwip, Klokinator, Sealvester, Joytis, and aorlnn.\n\nNarrow fonts and droppable item icon originally created by Scraiza."
+            ]
+        ]
+    },
+    {
+        "nid": "GraphicsRepo",
+        "sub_nid": "FE Graphics Repo",
+        "type": "Text",
+        "category": "Game",
+        "icon_index": [],
+        "contrib": [
+            [
+                null,
+                "All assets used were either modifications by me or imported from the FE Graphics and Music Repositories:\nhttps://github.com/Klokinator/FE-Repo\n\nSpecial Thanks to Klokinator, Jj09 and Jey the Count for gathering all these resources."
+            ]
+        ]
+    },
+    {
+        "nid": "BeansySwordsAllIcons",
+        "sub_nid": "{Beansy} {Swords} All Icons",
+        "type": "16x16_Icons",
+        "category": "Graphics",
+        "icon_index": [
+            2,
+            1
+        ],
+        "contrib": [
+            [
+                "Beansy",
+                "{Beansy} {Swords} All Icons"
+            ]
+        ]
+    },
+    {
+        "nid": "BeansyLancesAllIcons",
+        "sub_nid": "{Beansy} {Lances} All Icons",
+        "type": "16x16_Icons",
+        "category": "Graphics",
+        "icon_index": [
+            1,
+            1
+        ],
+        "contrib": [
+            [
+                "Beansy",
+                "{Lances} All Icons"
+            ]
+        ]
+    },
+    {
+        "nid": "BeansyAxesAllIcons",
+        "sub_nid": "{Beansy} {Axes} All Icons",
+        "type": "16x16_Icons",
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            4
+        ],
+        "contrib": [
+            [
+                "Beansy",
+                "{Axes} All Icons"
+            ]
+        ]
+    },
+    {
+        "nid": "BeansyBowsAllIcons",
+        "sub_nid": "{Beansy} {Bows} All Icons",
+        "type": "16x16_Icons",
+        "category": "Graphics",
+        "icon_index": [
+            1,
+            0
+        ],
+        "contrib": [
+            [
+                "Beansy",
+                "{Bows} All Icons"
+            ]
+        ]
+    },
+    {
+        "nid": "LisandraBraveWEPPack5",
+        "sub_nid": "[WEP] Pack 5 {Lisandra Brave}",
+        "type": "16x16_Icons",
+        "category": "Graphics",
+        "icon_index": [
+            4,
+            0
+        ],
+        "contrib": [
+            [
+                "Lisandra Brave",
+                "WEP Pack 5"
+            ]
+        ]
+    },
+    {
+        "nid": "PeerlessFE9Weapons",
+        "sub_nid": "{Peerless} FE9 Weapon Icons (Custom Palette)",
+        "type": "16x16_Icons",
+        "category": "Graphics",
+        "icon_index": [
+            6,
+            1
+        ],
+        "contrib": [
+            [
+                "Peerless",
+                "FE9 Weapon Icons (Custom Palette)"
+            ]
+        ]
+    },
+    {
+        "nid": "VelvetKitsuneAllIcons",
+        "sub_nid": "{VelvetKitsune} All Icons",
+        "type": "16x16_Icons",
+        "category": "Graphics",
+        "icon_index": [
+            3,
+            0
+        ],
+        "contrib": [
+            [
+                "VelvetKitsune",
+                "{VelvetKitsune} All Icons"
+            ]
+        ]
+    },
+    {
+        "nid": "2WBAllTomes",
+        "sub_nid": "{2WB} All Tomes",
+        "type": "16x16_Icons",
+        "category": "Graphics",
+        "icon_index": [
+            6,
+            3
+        ],
+        "contrib": [
+            [
+                "2WB",
+                "All Tomes"
+            ]
+        ]
+    },
+    {
+        "nid": "AtelierLabs",
+        "sub_nid": "{AtelierLabs} All Icons",
+        "type": "16x16_Icons",
+        "category": "Graphics",
+        "icon_index": [
+            4,
+            3
+        ],
+        "contrib": [
+            [
+                "AtelierLabs",
+                "All Icons"
+            ]
+        ]
+    },
+    {
+        "nid": "BatimaAllTomes",
+        "sub_nid": "{Batima} All Tomes",
+        "type": "16x16_Icons",
+        "category": "Graphics",
+        "icon_index": [
+            6,
+            1
+        ],
+        "contrib": [
+            [
+                "Batima",
+                "All Tomes"
+            ]
+        ]
+    },
+    {
+        "nid": "BeansyAllTomes",
+        "sub_nid": "{Beansy} All Tomes",
+        "type": "16x16_Icons",
+        "category": "Graphics",
+        "icon_index": [
+            1,
+            5
+        ],
+        "contrib": [
+            [
+                "Beansy",
+                "All Tomes"
+            ]
+        ]
+    },
+    {
+        "nid": "EreshkigalAllTomes",
+        "sub_nid": "{Ereshkigal} All Tomes",
+        "type": "16x16_Icons",
+        "category": "Graphics",
+        "icon_index": [
+            9,
+            3
+        ],
+        "contrib": [
+            [
+                "Ereshkigal",
+                "All Tomes"
+            ]
+        ]
+    },
+    {
+        "nid": "FuriousHaunterAllIcons",
+        "sub_nid": "{FuriousHaunter} All Icons",
+        "type": "16x16_Icons",
+        "category": "Graphics",
+        "icon_index": [
+            4,
+            0
+        ],
+        "contrib": [
+            [
+                "FuriousHaunter",
+                "All Icons"
+            ]
+        ]
+    },
+    {
+        "nid": "ValakAllTomes",
+        "sub_nid": "{Valak} All Tomes",
+        "type": "16x16_Icons",
+        "category": "Graphics",
+        "icon_index": [
+            4,
+            1
+        ],
+        "contrib": [
+            [
+                "Valak",
+                "All Tomes"
+            ]
+        ]
+    },
+    {
+        "nid": "ZaneAllIcons",
+        "sub_nid": "{Zane} All Icons",
+        "type": "16x16_Icons",
+        "category": "Graphics",
+        "icon_index": [
+            9,
+            2
+        ],
+        "contrib": [
+            [
+                "Zane",
+                "All Icons"
+            ]
+        ]
+    },
+    {
+        "nid": "ZargAllIcons",
+        "sub_nid": "{Zarg} All Icons",
+        "type": "16x16_Icons",
+        "category": "Graphics",
+        "icon_index": [
+            7,
+            0
+        ],
+        "contrib": [
+            [
+                "Zarg",
+                "All Icons"
+            ]
+        ]
+    },
+    {
+        "nid": "ZelixFE13n14Weapons",
+        "sub_nid": "{Zelix} [WEP] FE13-FE14 Pack",
+        "type": "16x16_Icons",
+        "category": "Graphics",
+        "icon_index": [
+            4,
+            0
+        ],
+        "contrib": [
+            [
+                "Zelix",
+                "FE13-FE14 Weapon Pack"
+            ]
+        ]
+    },
+    {
+        "nid": "ZelixFE11n13Weapons",
+        "sub_nid": "{Zelix} FE11&13-style weapons",
+        "type": "16x16_Icons",
+        "category": "Graphics",
+        "icon_index": [
+            10,
+            2
+        ],
+        "contrib": [
+            [
+                "Zelix",
+                "FE11&13-style Weapons"
+            ]
+        ]
+    },
+    {
+        "nid": "TacticsOgreLUCTIconSheet1",
+        "sub_nid": "{Tactics Ogre LUCT, EldritchAbo, serebii01} Item Icon Sheet 1",
+        "type": "16x16_Icons",
+        "category": "Graphics",
+        "icon_index": [
+            14,
+            15
+        ],
+        "contrib": [
+            [
+                "EldritchAbo, serebii01",
+                "Tactics Ogre LUCT Item Icon Sheet 1"
+            ]
+        ]
+    },
+    {
+        "nid": "TacticsOgreAllIcons",
+        "sub_nid": "{EldritchA, Indogutsu Tenbuki} Tactics Ogre All Icons",
+        "type": "16x16_Icons",
+        "category": "Graphics",
+        "icon_index": [
+            15,
+            1
+        ],
+        "contrib": [
+            [
+                "EldritchA, Indogutsu Tenbuki",
+                "Tactics Ogre All Icons"
+            ]
+        ]
+    },
+    {
+        "nid": "Complete_SkillIcon_Sheet",
+        "sub_nid": "{ZessDynamite, Rainlash, LordGlenn, Suneohair, JaidynReiman} Complete Skill Icon Sheet",
+        "type": "16x16_Icons",
+        "category": "Graphics",
+        "icon_index": [
+            10,
+            42
+        ],
+        "contrib": [
+            [
+                "ZessDynamite, Rainlash, LordGlenn, Suneohair, JaidynReiman",
+                "Complete Skill Icon Sheet"
+            ]
+        ]
+    },
+    {
+        "nid": "LadyMapSprite",
+        "sub_nid": "Lady",
+        "type": "Map_Sprites",
+        "category": "Graphics",
+        "icon_index": [],
+        "contrib": [
+            [
+                "TyTheBub, JaidynReiman",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "WaterLordMapSprite",
+        "sub_nid": "Lord",
+        "type": "Map_Sprites",
+        "category": "Graphics",
+        "icon_index": [],
+        "contrib": [
+            [
+                "TyTheBub, JaidynReiman",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "LieutenantMapSprite",
+        "sub_nid": "Lieutenant",
+        "type": "Map_Sprites",
+        "category": "Graphics",
+        "icon_index": [],
+        "contrib": [
+            [
+                "JaidynReiman",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "HeiressMapSprite",
+        "sub_nid": "Heiress",
+        "type": "Map_Sprites",
+        "category": "Graphics",
+        "icon_index": [],
+        "contrib": [
+            [
+                "blood",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "HighPriestessMapSprite",
+        "sub_nid": "HighPriestess",
+        "type": "Map_Sprites",
+        "category": "Graphics",
+        "icon_index": [],
+        "contrib": [
+            [
+                "FE7If, Jiege",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "HighPriestessSwordMapSprite",
+        "sub_nid": "HighPriestessSword",
+        "type": "Map_Sprites",
+        "category": "Graphics",
+        "icon_index": [],
+        "contrib": [
+            [
+                "FE7If",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "MyrmidonMapSprite",
+        "sub_nid": "Myrmidon",
+        "type": "Map_Sprites",
+        "category": "Graphics",
+        "icon_index": [],
+        "contrib": [
+            [
+                "Leo_Link",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "MyrmidonFMapSprite",
+        "sub_nid": "MyrmidonFemale",
+        "type": "Map_Sprites",
+        "category": "Graphics",
+        "icon_index": [],
+        "contrib": [
+            [
+                "Leo_Link, Stormblight",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "FencerMapSprite",
+        "sub_nid": "Fencer",
+        "type": "Map_Sprites",
+        "category": "Graphics",
+        "icon_index": [],
+        "contrib": [
+            [
+                "Cynon",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "CaptainMapSprite",
+        "sub_nid": "Captain",
+        "type": "Map_Sprites",
+        "category": "Graphics",
+        "icon_index": [],
+        "contrib": [
+            [
+                "Snewping",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "CaptainFMapSprite",
+        "sub_nid": "CaptainFemale",
+        "type": "Map_Sprites",
+        "category": "Graphics",
+        "icon_index": [],
+        "contrib": [
+            [
+                "VelvetKistune, Snewping, HGS",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "SoldierMapSprite",
+        "sub_nid": "SoldierFemale",
+        "type": "Map_Sprites",
+        "category": "Graphics",
+        "icon_index": [],
+        "contrib": [
+            [
+                "Flasuban",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "SargeantMapSprite",
+        "sub_nid": "Sergeant",
+        "type": "Map_Sprites",
+        "category": "Graphics",
+        "icon_index": [],
+        "contrib": [
+            [
+                "Spud",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "SargeantFMapSprite",
+        "sub_nid": "SergeantFemale",
+        "type": "Map_Sprites",
+        "category": "Graphics",
+        "icon_index": [],
+        "contrib": [
+            [
+                "Dora_Drago",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "HunterMapSprite",
+        "sub_nid": "Hunter",
+        "type": "Map_Sprites",
+        "category": "Graphics",
+        "icon_index": [],
+        "contrib": [
+            [
+                "MeatOfJustice",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "GuardMapSprite",
+        "sub_nid": "Guard",
+        "type": "Map_Sprites",
+        "category": "Graphics",
+        "icon_index": [],
+        "contrib": [
+            [
+                "SALVAGED, BoneManSeth",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "BarbarianMapSprites",
+        "sub_nid": "Barbarian",
+        "type": "Map_Sprites",
+        "category": "Graphics",
+        "icon_index": [],
+        "contrib": [
+            [
+                "ZoramineFae",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "MarauderMapSprite",
+        "sub_nid": "Marauder",
+        "type": "Map_Sprites",
+        "category": "Graphics",
+        "icon_index": [],
+        "contrib": [
+            [
+                "ZoramineFae",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "SvetlanyaPortrait",
+        "sub_nid": "Svetlanya",
+        "type": "Portraits",
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "JaidynReiman",
+                "Svetlanya"
+            ]
+        ]
+    },
+    {
+        "nid": "AmayaPortrait",
+        "sub_nid": "Amaya",
+        "type": "Portraits",
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "JaidynReiman",
+                "Amaya"
+            ]
+        ]
+    },
+    {
+        "nid": "ShayalaPortrait",
+        "sub_nid": "Shayala",
+        "type": "Portraits",
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "JaidynReiman",
+                "Shayala"
+            ]
+        ]
+    },
+    {
+        "nid": "ShayalaPortrait2",
+        "sub_nid": "Shayala (Forward)",
+        "type": "Portraits",
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "JaidynReiman",
+                "Shayala (Forward)"
+            ]
+        ]
+    },
+    {
+        "nid": "LeilandPortrait_Stefan",
+        "sub_nid": "Stefan {NickT, Stitch}",
+        "type": "Portraits",
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "NickT, Stitch",
+                "Stefan"
+            ]
+        ]
+    },
+    {
+        "nid": "WolfKnightMapSprite",
+        "sub_nid": "WolfKnight",
+        "type": "Map_Sprites",
+        "category": "Graphics",
+        "icon_index": [],
+        "contrib": [
+            [
+                "JaidynReiman, VelvetKitsune, Leif",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "PriorMapSprite",
+        "sub_nid": "Prior",
+        "type": "Map_Sprites",
+        "category": "Graphics",
+        "icon_index": [],
+        "contrib": [
+            [
+                "DerTheVaporean",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "BGLunar",
+        "sub_nid": "lunar_bg06_cathedral",
+        "type": "Panoramas",
+        "category": "Graphics",
+        "icon_index": [],
+        "contrib": [
+            [
+                "Fenreir",
+                "Lunar PSP Backgrounds"
+            ]
+        ]
+    },
+    {
+        "nid": "Tilesets",
+        "sub_nid": "Tilesets",
+        "type": "List",
+        "category": "Maps",
+        "icon_index": [],
+        "contrib": [
+            [
+                "Cynon",
+                "Metropolis (0.83 and 0.94)"
+            ]
+        ]
+    },
+    {
+        "nid": "Autotiles",
+        "sub_nid": "Tileset Autotiles",
+        "type": "List",
+        "category": "Maps",
+        "icon_index": [],
+        "contrib": [
+            [
+                "JaidynReiman",
+                "Metropolis"
+            ],
+            [
+                "Silvio, JaidynReiman",
+                "FE6 Fields - Snowy Remake"
+            ]
+        ]
+    },
+    {
+        "nid": "Platforms",
+        "sub_nid": "Platforms",
+        "type": "List",
+        "category": "Maps",
+        "icon_index": [],
+        "contrib": [
+            [
+                "Cynon",
+                "Metropolis"
+            ],
+            [
+                "Cynon",
+                "Marble Floor"
+            ]
+        ]
+    }
+]

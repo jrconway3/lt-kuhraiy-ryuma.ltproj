@@ -597,8 +597,8 @@
                 "action": "Attack",
                 "target": "Enemy",
                 "target_spec": [
-                    "ID",
-                    "Kasuto"
+                    "Class",
+                    "Thief2"
                 ],
                 "view_range": -2,
                 "invert_targeting": true,

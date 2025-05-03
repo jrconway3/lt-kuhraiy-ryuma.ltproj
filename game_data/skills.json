@@ -711,26 +711,6 @@
         ]
     },
     {
-        "nid": "Ignis",
-        "name": "Corrosion",
-        "desc": "Temporarily grant ability to use Ignis.",
-        "icon_nid": "wexp_expanded",
-        "icon_index": [
-            1,
-            4
-        ],
-        "components": [
-            [
-                "wexp_usable_skill",
-                "Ignis"
-            ],
-            [
-                "hidden",
-                null
-            ]
-        ]
-    },
-    {
         "nid": "Corrosion",
         "name": "Corrosion",
         "desc": "+1 Weapon Weight, +1 Durability Use Per Hit.",
@@ -790,6 +770,46 @@
             [
                 "condition",
                 "unit.get_weapon() and item_system.weapon_type(unit, unit.get_weapon()) == 'Sword'"
+            ]
+        ]
+    },
+    {
+        "nid": "NinjutsuFinesse",
+        "name": "Ninjutsu Finesse",
+        "desc": "Refined art of combat and anima meld blade and arm into one. Effective weapon weight of Katanas reduced by 50%.",
+        "icon_nid": "{ZessDynamite, Rainlash, LordGlenn, Suneohair, JaidynReiman} Complete Skill Icon Sheet",
+        "icon_index": [
+            6,
+            29
+        ],
+        "components": [
+            [
+                "condition",
+                "'Katana' in unit.get_weapon().tags"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Ignis",
+        "name": "Corrosion",
+        "desc": "Grant the ability to use Ignis as long as the skill is assigned.",
+        "icon_nid": "{Alice, RLC, VelvetKitsune, JaidynReiman, Stephano} Expanded Weapon Icons",
+        "icon_index": [
+            1,
+            4
+        ],
+        "components": [
+            [
+                "wexp_usable_skill",
+                "Ignis"
+            ],
+            [
+                "hidden",
+                null
             ]
         ]
     },
