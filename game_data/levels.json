@@ -1421,7 +1421,7 @@
     {
         "nid": "7",
         "name": "Chapter 7",
-        "tilemap": "Chapter 6",
+        "tilemap": "Ch5",
         "bg_tilemap": null,
         "party": "Svetlanya",
         "music": {},
@@ -1443,7 +1443,7 @@
     {
         "nid": "9",
         "name": "Chapter 9",
-        "tilemap": "Chapter 5_1",
+        "tilemap": "Chapter 7",
         "bg_tilemap": null,
         "party": "Svetlanya",
         "music": {},
@@ -6525,7 +6525,7 @@
     {
         "nid": "DEBUG_AUTOTILES",
         "name": "AutotilesTest",
-        "tilemap": "SnowyFieldsTest",
+        "tilemap": "Cynon0.94P Test",
         "bg_tilemap": null,
         "party": "Svetlanya",
         "music": {},

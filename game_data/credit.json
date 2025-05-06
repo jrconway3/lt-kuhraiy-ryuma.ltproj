@@ -2,59 +2,59 @@
     {
         "nid": "Author",
         "sub_nid": "Author",
-        "type": "Text",
+        "credit_type": "Text",
         "category": "Game",
         "icon_index": [],
         "contrib": [
             [
                 null,
-                "Worldbuilding, Scenario Writing, Dialogue, and Characters by JaidynReiman\n\nMap Designs, Event Coding, Game Mechanics by JaidynReiman"
+                "Worldbuilding, Scenario Writing, Dialogue, and Characters by JaidynReiman{br}{br}Map Designs, Event Coding, Game Mechanics by JaidynReiman"
             ]
         ]
     },
     {
         "nid": "Engine",
         "sub_nid": "Engine",
-        "type": "Text",
+        "credit_type": "Text",
         "category": "Game",
         "icon_index": [],
         "contrib": [
             [
                 null,
-                "Lex Talionis Engine and LT-Maker Editor created by rainlash\n\nLex Talionis is a non-profit engine, released for free, and developed using Python, Pygame, and PyQt5. Some default assets are copyrighted or trademarked by their respective owners.\n\nLicensed under the MIT License."
-            ]
-        ]
-    },
-    {
-        "nid": "EngineHelp",
-        "sub_nid": "Engine Help",
-        "type": "Text",
-        "category": "Game",
-        "icon_index": [],
-        "contrib": [
-            [
-                null,
-                "With additional programming and help from the Lex Talionis Discord server, including mag, KD, Sigmaraven, TheeBill, Lord Tweed, ZessDynamite, Nemid, Kyogokudo, beccarte, Meinerieve, Greentwip, Klokinator, Sealvester, Joytis, and aorlnn.\n\nNarrow fonts and droppable item icon originally created by Scraiza."
+                "Lex Talionis Engine and LT-Maker Editor created by rainlash{br}{br}Lex Talionis is a non-profit engine, released for free, and developed using Python, Pygame, and PyQt5. Some default assets are copyrighted or trademarked by their respective owners.{br}{br}Licensed under the MIT License.\nWith additional programming and help from the Lex Talionis Discord server, including mag, KD, Sigmaraven, TheeBill, Lord Tweed, ZessDynamite, Nemid, Kyogokudo, beccarte, Meinerieve, Greentwip, Klokinator, Sealvester, Joytis, and aorlnn.{br}{br}Narrow fonts and droppable item icon originally created by Scraiza."
             ]
         ]
     },
     {
         "nid": "GraphicsRepo",
         "sub_nid": "FE Graphics Repo",
-        "type": "Text",
+        "credit_type": "Text",
         "category": "Game",
         "icon_index": [],
         "contrib": [
             [
                 null,
-                "All assets used were either modifications by me or imported from the FE Graphics and Music Repositories:\nhttps://github.com/Klokinator/FE-Repo\n\nSpecial Thanks to Klokinator, Jj09 and Jey the Count for gathering all these resources."
+                "All assets used were either modifications by me or imported from the FE Graphics and Music Repositories:\nhttps://github.com/Klokinator/FE-Repo{br}{br}Special Thanks to Klokinator, Jj09 and Jey the Count for gathering all these resources."
+            ]
+        ]
+    },
+    {
+        "nid": "IconSheets",
+        "sub_nid": "Icon Sheets",
+        "credit_type": "Text",
+        "category": "Graphics",
+        "icon_index": [],
+        "contrib": [
+            [
+                null,
+                "Most icon sheets were compiled or cleaned up by JaidynReiman from existing icons in the Repo. Even the existing full sheets in the repo were not designed for LT and had to be cleaned up."
             ]
         ]
     },
     {
         "nid": "BeansySwordsAllIcons",
         "sub_nid": "{Beansy} {Swords} All Icons",
-        "type": "16x16_Icons",
+        "credit_type": 1,
         "category": "Graphics",
         "icon_index": [
             2,
@@ -63,14 +63,14 @@
         "contrib": [
             [
                 "Beansy",
-                "{Beansy} {Swords} All Icons"
+                "{Swords} All Icons"
             ]
         ]
     },
     {
         "nid": "BeansyLancesAllIcons",
         "sub_nid": "{Beansy} {Lances} All Icons",
-        "type": "16x16_Icons",
+        "credit_type": 1,
         "category": "Graphics",
         "icon_index": [
             1,
@@ -86,7 +86,7 @@
     {
         "nid": "BeansyAxesAllIcons",
         "sub_nid": "{Beansy} {Axes} All Icons",
-        "type": "16x16_Icons",
+        "credit_type": 1,
         "category": "Graphics",
         "icon_index": [
             0,
@@ -102,7 +102,7 @@
     {
         "nid": "BeansyBowsAllIcons",
         "sub_nid": "{Beansy} {Bows} All Icons",
-        "type": "16x16_Icons",
+        "credit_type": 1,
         "category": "Graphics",
         "icon_index": [
             1,
@@ -118,7 +118,7 @@
     {
         "nid": "LisandraBraveWEPPack5",
         "sub_nid": "[WEP] Pack 5 {Lisandra Brave}",
-        "type": "16x16_Icons",
+        "credit_type": 1,
         "category": "Graphics",
         "icon_index": [
             4,
@@ -132,41 +132,25 @@
         ]
     },
     {
-        "nid": "PeerlessFE9Weapons",
-        "sub_nid": "{Peerless} FE9 Weapon Icons (Custom Palette)",
-        "type": "16x16_Icons",
+        "nid": "CamTech075Pack2",
+        "sub_nid": "{CamTech075} Pack 2 ",
+        "credit_type": 1,
         "category": "Graphics",
         "icon_index": [
-            6,
-            1
+            5,
+            3
         ],
         "contrib": [
             [
-                "Peerless",
-                "FE9 Weapon Icons (Custom Palette)"
-            ]
-        ]
-    },
-    {
-        "nid": "VelvetKitsuneAllIcons",
-        "sub_nid": "{VelvetKitsune} All Icons",
-        "type": "16x16_Icons",
-        "category": "Graphics",
-        "icon_index": [
-            3,
-            0
-        ],
-        "contrib": [
-            [
-                "VelvetKitsune",
-                "{VelvetKitsune} All Icons"
+                "CamTech075",
+                "Pack 2 "
             ]
         ]
     },
     {
         "nid": "2WBAllTomes",
         "sub_nid": "{2WB} All Tomes",
-        "type": "16x16_Icons",
+        "credit_type": 1,
         "category": "Graphics",
         "icon_index": [
             6,
@@ -180,25 +164,9 @@
         ]
     },
     {
-        "nid": "AtelierLabs",
-        "sub_nid": "{AtelierLabs} All Icons",
-        "type": "16x16_Icons",
-        "category": "Graphics",
-        "icon_index": [
-            4,
-            3
-        ],
-        "contrib": [
-            [
-                "AtelierLabs",
-                "All Icons"
-            ]
-        ]
-    },
-    {
         "nid": "BatimaAllTomes",
         "sub_nid": "{Batima} All Tomes",
-        "type": "16x16_Icons",
+        "credit_type": 1,
         "category": "Graphics",
         "icon_index": [
             6,
@@ -214,7 +182,7 @@
     {
         "nid": "BeansyAllTomes",
         "sub_nid": "{Beansy} All Tomes",
-        "type": "16x16_Icons",
+        "credit_type": 1,
         "category": "Graphics",
         "icon_index": [
             1,
@@ -230,7 +198,7 @@
     {
         "nid": "EreshkigalAllTomes",
         "sub_nid": "{Ereshkigal} All Tomes",
-        "type": "16x16_Icons",
+        "credit_type": 1,
         "category": "Graphics",
         "icon_index": [
             9,
@@ -244,25 +212,9 @@
         ]
     },
     {
-        "nid": "FuriousHaunterAllIcons",
-        "sub_nid": "{FuriousHaunter} All Icons",
-        "type": "16x16_Icons",
-        "category": "Graphics",
-        "icon_index": [
-            4,
-            0
-        ],
-        "contrib": [
-            [
-                "FuriousHaunter",
-                "All Icons"
-            ]
-        ]
-    },
-    {
         "nid": "ValakAllTomes",
         "sub_nid": "{Valak} All Tomes",
-        "type": "16x16_Icons",
+        "credit_type": 1,
         "category": "Graphics",
         "icon_index": [
             4,
@@ -276,13 +228,173 @@
         ]
     },
     {
-        "nid": "ZaneAllIcons",
-        "sub_nid": "{Zane} All Icons",
-        "type": "16x16_Icons",
+        "nid": "VelvetKitsuneAllIcons",
+        "sub_nid": "{VelvetKitsune} All Icons",
+        "credit_type": 1,
         "category": "Graphics",
         "icon_index": [
-            9,
-            2
+            3,
+            0
+        ],
+        "contrib": [
+            [
+                "VelvetKistune",
+                "All Icons"
+            ]
+        ]
+    },
+    {
+        "nid": "VelvetKitsuneAllIcons2",
+        "sub_nid": "{VelvetKitsune} All Icons",
+        "credit_type": 1,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            3
+        ],
+        "contrib": [
+            [
+                "VelvetKistune",
+                "All Icons"
+            ]
+        ]
+    },
+    {
+        "nid": "VelvetKitsuneAllIcons3",
+        "sub_nid": "{VelvetKitsune} All Icons",
+        "credit_type": 1,
+        "category": "Graphics",
+        "icon_index": [
+            1,
+            3
+        ],
+        "contrib": [
+            [
+                "VelvetKistune",
+                "All Icons"
+            ]
+        ]
+    },
+    {
+        "nid": "AtelierLabsAllIcons",
+        "sub_nid": "{AtelierLabs} All Icons",
+        "credit_type": 1,
+        "category": "Graphics",
+        "icon_index": [
+            4,
+            3
+        ],
+        "contrib": [
+            [
+                "AtelierLabs",
+                "All Icons"
+            ]
+        ]
+    },
+    {
+        "nid": "AtelierLabsAllIcons2",
+        "sub_nid": "{AtelierLabs} All Icons",
+        "credit_type": 1,
+        "category": "Graphics",
+        "icon_index": [
+            1,
+            3
+        ],
+        "contrib": [
+            [
+                "AtelierLabs",
+                "All Icons"
+            ]
+        ]
+    },
+    {
+        "nid": "AtelierLabsAllIcons3",
+        "sub_nid": "{AtelierLabs} All Icons",
+        "credit_type": 1,
+        "category": "Graphics",
+        "icon_index": [
+            3,
+            5
+        ],
+        "contrib": [
+            [
+                "AtelierLabs",
+                "All Icons"
+            ]
+        ]
+    },
+    {
+        "nid": "CeliceAllFE8Weapons",
+        "sub_nid": "{Celice} All Icons - FE8 Weapons",
+        "credit_type": 1,
+        "category": "Graphics",
+        "icon_index": [
+            1,
+            9
+        ],
+        "contrib": [
+            [
+                "Celice",
+                "All Icons - FE8 Weapons"
+            ]
+        ]
+    },
+    {
+        "nid": "CeliceAllFE9Weapons",
+        "sub_nid": "{Celice} All Icons - FE9 Weapons",
+        "credit_type": 1,
+        "category": "Graphics",
+        "icon_index": [
+            2,
+            8
+        ],
+        "contrib": [
+            [
+                "Celice",
+                "All Icons - FE9 Weapons"
+            ]
+        ]
+    },
+    {
+        "nid": "FuriousHaunterAllIcons",
+        "sub_nid": "{FuriousHaunter} All Icons",
+        "credit_type": 1,
+        "category": "Graphics",
+        "icon_index": [
+            4,
+            0
+        ],
+        "contrib": [
+            [
+                "FuriousHaunter",
+                "All Icons"
+            ]
+        ]
+    },
+    {
+        "nid": "ZaneAllIcons",
+        "sub_nid": "{Zane} All Icons",
+        "credit_type": 1,
+        "category": "Graphics",
+        "icon_index": [
+            8,
+            7
+        ],
+        "contrib": [
+            [
+                "Zane",
+                "All Icons"
+            ]
+        ]
+    },
+    {
+        "nid": "ZaneAllIcons2",
+        "sub_nid": "{Zane} All Icons",
+        "credit_type": 1,
+        "category": "Graphics",
+        "icon_index": [
+            4,
+            14
         ],
         "contrib": [
             [
@@ -294,10 +406,10 @@
     {
         "nid": "ZargAllIcons",
         "sub_nid": "{Zarg} All Icons",
-        "type": "16x16_Icons",
+        "credit_type": 1,
         "category": "Graphics",
         "icon_index": [
-            7,
+            3,
             0
         ],
         "contrib": [
@@ -308,9 +420,25 @@
         ]
     },
     {
-        "nid": "ZelixFE13n14Weapons",
+        "nid": "PeerlessFE9Weapons",
+        "sub_nid": "{Peerless} FE9 Weapon Icons (Custom Palette)",
+        "credit_type": 1,
+        "category": "Graphics",
+        "icon_index": [
+            6,
+            1
+        ],
+        "contrib": [
+            [
+                "Peerless",
+                "FE9 Weapon Icons (Custom Palette)"
+            ]
+        ]
+    },
+    {
+        "nid": "ZelixFE13n14Weapon1",
         "sub_nid": "{Zelix} [WEP] FE13-FE14 Pack",
-        "type": "16x16_Icons",
+        "credit_type": 1,
         "category": "Graphics",
         "icon_index": [
             4,
@@ -324,9 +452,25 @@
         ]
     },
     {
+        "nid": "ZelixFE13n14Weapon2",
+        "sub_nid": "{Zelix} [WEP] FE13-FE14 Pack",
+        "credit_type": 1,
+        "category": "Graphics",
+        "icon_index": [
+            14,
+            1
+        ],
+        "contrib": [
+            [
+                "Zelix",
+                "FE13-FE14 Weapon Pack"
+            ]
+        ]
+    },
+    {
         "nid": "ZelixFE11n13Weapons",
         "sub_nid": "{Zelix} FE11&13-style weapons",
-        "type": "16x16_Icons",
+        "credit_type": 1,
         "category": "Graphics",
         "icon_index": [
             10,
@@ -342,7 +486,7 @@
     {
         "nid": "TacticsOgreLUCTIconSheet1",
         "sub_nid": "{Tactics Ogre LUCT, EldritchAbo, serebii01} Item Icon Sheet 1",
-        "type": "16x16_Icons",
+        "credit_type": 1,
         "category": "Graphics",
         "icon_index": [
             14,
@@ -358,7 +502,7 @@
     {
         "nid": "TacticsOgreAllIcons",
         "sub_nid": "{EldritchA, Indogutsu Tenbuki} Tactics Ogre All Icons",
-        "type": "16x16_Icons",
+        "credit_type": 1,
         "category": "Graphics",
         "icon_index": [
             15,
@@ -372,9 +516,41 @@
         ]
     },
     {
-        "nid": "Complete_SkillIcon_Sheet",
+        "nid": "Complete_SkillIcon_Sheet1",
         "sub_nid": "{ZessDynamite, Rainlash, LordGlenn, Suneohair, JaidynReiman} Complete Skill Icon Sheet",
-        "type": "16x16_Icons",
+        "credit_type": 1,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            31
+        ],
+        "contrib": [
+            [
+                "ZessDynamite, Rainlash, LordGlenn, Suneohair",
+                "Complete Skill Icon Sheet"
+            ]
+        ]
+    },
+    {
+        "nid": "Complete_SkillIcon_Sheet2",
+        "sub_nid": "{ZessDynamite, Rainlash, LordGlenn, Suneohair, JaidynReiman} Complete Skill Icon Sheet",
+        "credit_type": 1,
+        "category": "Graphics",
+        "icon_index": [
+            3,
+            33
+        ],
+        "contrib": [
+            [
+                "ZessDynamite, Rainlash, LordGlenn, Suneohair",
+                "Complete Skill Icon Sheet"
+            ]
+        ]
+    },
+    {
+        "nid": "Complete_SkillIcon_Sheet5",
+        "sub_nid": "{ZessDynamite, Rainlash, LordGlenn, Suneohair, JaidynReiman} Complete Skill Icon Sheet",
+        "credit_type": 1,
         "category": "Graphics",
         "icon_index": [
             10,
@@ -382,7 +558,23 @@
         ],
         "contrib": [
             [
-                "ZessDynamite, Rainlash, LordGlenn, Suneohair, JaidynReiman",
+                "ZessDynamite, Rainlash, LordGlenn, Suneohair",
+                "Complete Skill Icon Sheet"
+            ]
+        ]
+    },
+    {
+        "nid": "Complete_SkillIcon_Sheet6",
+        "sub_nid": "{ZessDynamite, Rainlash, LordGlenn, Suneohair, JaidynReiman} Complete Skill Icon Sheet",
+        "credit_type": 1,
+        "category": "Graphics",
+        "icon_index": [
+            6,
+            1
+        ],
+        "contrib": [
+            [
+                "JaidynReiman",
                 "Complete Skill Icon Sheet"
             ]
         ]
@@ -390,7 +582,7 @@
     {
         "nid": "LadyMapSprite",
         "sub_nid": "Lady",
-        "type": "Map_Sprites",
+        "credit_type": 8,
         "category": "Graphics",
         "icon_index": [],
         "contrib": [
@@ -403,7 +595,7 @@
     {
         "nid": "WaterLordMapSprite",
         "sub_nid": "Lord",
-        "type": "Map_Sprites",
+        "credit_type": 8,
         "category": "Graphics",
         "icon_index": [],
         "contrib": [
@@ -416,7 +608,7 @@
     {
         "nid": "LieutenantMapSprite",
         "sub_nid": "Lieutenant",
-        "type": "Map_Sprites",
+        "credit_type": 8,
         "category": "Graphics",
         "icon_index": [],
         "contrib": [
@@ -429,7 +621,7 @@
     {
         "nid": "HeiressMapSprite",
         "sub_nid": "Heiress",
-        "type": "Map_Sprites",
+        "credit_type": 8,
         "category": "Graphics",
         "icon_index": [],
         "contrib": [
@@ -442,33 +634,33 @@
     {
         "nid": "HighPriestessMapSprite",
         "sub_nid": "HighPriestess",
-        "type": "Map_Sprites",
+        "credit_type": 8,
         "category": "Graphics",
         "icon_index": [],
         "contrib": [
             [
-                "FE7If, Jiege",
-                null
+                null,
+                ""
             ]
         ]
     },
     {
         "nid": "HighPriestessSwordMapSprite",
         "sub_nid": "HighPriestessSword",
-        "type": "Map_Sprites",
+        "credit_type": 8,
         "category": "Graphics",
         "icon_index": [],
         "contrib": [
             [
-                "FE7If",
-                null
+                null,
+                ""
             ]
         ]
     },
     {
         "nid": "MyrmidonMapSprite",
         "sub_nid": "Myrmidon",
-        "type": "Map_Sprites",
+        "credit_type": 8,
         "category": "Graphics",
         "icon_index": [],
         "contrib": [
@@ -481,12 +673,12 @@
     {
         "nid": "MyrmidonFMapSprite",
         "sub_nid": "MyrmidonFemale",
-        "type": "Map_Sprites",
+        "credit_type": 8,
         "category": "Graphics",
         "icon_index": [],
         "contrib": [
             [
-                "Leo_Link, Stormblight",
+                "Iscaneous, Leo_Link",
                 null
             ]
         ]
@@ -494,12 +686,12 @@
     {
         "nid": "FencerMapSprite",
         "sub_nid": "Fencer",
-        "type": "Map_Sprites",
+        "credit_type": 8,
         "category": "Graphics",
         "icon_index": [],
         "contrib": [
             [
-                "Cynon",
+                "",
                 null
             ]
         ]
@@ -507,12 +699,12 @@
     {
         "nid": "CaptainMapSprite",
         "sub_nid": "Captain",
-        "type": "Map_Sprites",
+        "credit_type": 8,
         "category": "Graphics",
         "icon_index": [],
         "contrib": [
             [
-                "Snewping",
+                "",
                 null
             ]
         ]
@@ -520,12 +712,12 @@
     {
         "nid": "CaptainFMapSprite",
         "sub_nid": "CaptainFemale",
-        "type": "Map_Sprites",
+        "credit_type": 8,
         "category": "Graphics",
         "icon_index": [],
         "contrib": [
             [
-                "VelvetKistune, Snewping, HGS",
+                "",
                 null
             ]
         ]
@@ -533,7 +725,7 @@
     {
         "nid": "SoldierMapSprite",
         "sub_nid": "SoldierFemale",
-        "type": "Map_Sprites",
+        "credit_type": 8,
         "category": "Graphics",
         "icon_index": [],
         "contrib": [
@@ -546,7 +738,7 @@
     {
         "nid": "SargeantMapSprite",
         "sub_nid": "Sergeant",
-        "type": "Map_Sprites",
+        "credit_type": 8,
         "category": "Graphics",
         "icon_index": [],
         "contrib": [
@@ -559,7 +751,7 @@
     {
         "nid": "SargeantFMapSprite",
         "sub_nid": "SergeantFemale",
-        "type": "Map_Sprites",
+        "credit_type": 8,
         "category": "Graphics",
         "icon_index": [],
         "contrib": [
@@ -570,9 +762,35 @@
         ]
     },
     {
+        "nid": "PioneerMapSprite",
+        "sub_nid": "Pioneer",
+        "credit_type": 8,
+        "category": "Graphics",
+        "icon_index": [],
+        "contrib": [
+            [
+                "L95",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "new",
+        "sub_nid": "PioneerFemale",
+        "credit_type": 8,
+        "category": "Graphics",
+        "icon_index": [],
+        "contrib": [
+            [
+                "",
+                null
+            ]
+        ]
+    },
+    {
         "nid": "HunterMapSprite",
         "sub_nid": "Hunter",
-        "type": "Map_Sprites",
+        "credit_type": 8,
         "category": "Graphics",
         "icon_index": [],
         "contrib": [
@@ -585,7 +803,7 @@
     {
         "nid": "GuardMapSprite",
         "sub_nid": "Guard",
-        "type": "Map_Sprites",
+        "credit_type": 8,
         "category": "Graphics",
         "icon_index": [],
         "contrib": [
@@ -596,9 +814,74 @@
         ]
     },
     {
+        "nid": "Bulwark",
+        "sub_nid": "General",
+        "credit_type": 8,
+        "category": "Graphics",
+        "icon_index": [],
+        "contrib": [
+            [
+                "",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "ApprenticeMapSprite",
+        "sub_nid": "Apprentice",
+        "credit_type": 8,
+        "category": "Graphics",
+        "icon_index": [],
+        "contrib": [
+            [
+                "Ash3wl, L95, Dominus_Vobiscum",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "SageMapSprite",
+        "sub_nid": "SageSword",
+        "credit_type": 8,
+        "category": "Graphics",
+        "icon_index": [],
+        "contrib": [
+            [
+                "L95",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "ShamanMapSprite",
+        "sub_nid": "Shaman",
+        "credit_type": 8,
+        "category": "Graphics",
+        "icon_index": [],
+        "contrib": [
+            [
+                "Teraspark",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "PriorMapSprite",
+        "sub_nid": "Prior",
+        "credit_type": 8,
+        "category": "Graphics",
+        "icon_index": [],
+        "contrib": [
+            [
+                "",
+                null
+            ]
+        ]
+    },
+    {
         "nid": "BarbarianMapSprites",
         "sub_nid": "Barbarian",
-        "type": "Map_Sprites",
+        "credit_type": 8,
         "category": "Graphics",
         "icon_index": [],
         "contrib": [
@@ -611,7 +894,7 @@
     {
         "nid": "MarauderMapSprite",
         "sub_nid": "Marauder",
-        "type": "Map_Sprites",
+        "credit_type": 8,
         "category": "Graphics",
         "icon_index": [],
         "contrib": [
@@ -622,9 +905,35 @@
         ]
     },
     {
+        "nid": "WolfKnightMapSprite",
+        "sub_nid": "WolfKnight",
+        "credit_type": 8,
+        "category": "Graphics",
+        "icon_index": [],
+        "contrib": [
+            [
+                "JaidynReiman, VelvetKitsune, Leif",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Placeholders",
+        "sub_nid": "Placeholders",
+        "credit_type": "Text",
+        "category": "Graphics",
+        "icon_index": [],
+        "contrib": [
+            [
+                null,
+                "All portraits are either from the FE Art Community in the FE Repo or are vanilla IS. All of them are only placeholders; I intend on making new portraits to replace them.\nThe portraits made by me were generated using AI portrait generators to be as close to my characters as possible. I then recreated the designs in sprite form and cleaned them up.\nThe Bust Style Portraits (Shayala) initially started as an AI generation, but after making the sprite I liked the style enough to try using this for all portraits. While the initial portrait was AI, almost all revisions and new characters were mostly custom and extended off this original design."
+            ]
+        ]
+    },
+    {
         "nid": "SvetlanyaPortrait",
         "sub_nid": "Svetlanya",
-        "type": "Portraits",
+        "credit_type": 4,
         "category": "Graphics",
         "icon_index": [
             0,
@@ -640,7 +949,7 @@
     {
         "nid": "AmayaPortrait",
         "sub_nid": "Amaya",
-        "type": "Portraits",
+        "credit_type": 4,
         "category": "Graphics",
         "icon_index": [
             0,
@@ -654,9 +963,425 @@
         ]
     },
     {
+        "nid": "LukasPortrait",
+        "sub_nid": "Pent (Noble) {Plant_Academy} [F2E]",
+        "credit_type": 4,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "Plant Academy",
+                "Pent (Noble)"
+            ]
+        ]
+    },
+    {
+        "nid": "LeilandPortrait_Stefan",
+        "sub_nid": "Stefan {NickT, Stitch}",
+        "credit_type": 4,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "NickT, Stitch",
+                "Stefan"
+            ]
+        ]
+    },
+    {
+        "nid": "DehrenPortrait",
+        "sub_nid": "{Levin64} [F2E] OC 7",
+        "credit_type": 4,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "Levin64",
+                "OC 7"
+            ]
+        ]
+    },
+    {
+        "nid": "RelmPortrait",
+        "sub_nid": "Zwelix OC 1",
+        "credit_type": 4,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "Zwelix",
+                "OC 1"
+            ]
+        ]
+    },
+    {
+        "nid": "KasutoPortrait",
+        "sub_nid": "Natasha (Older) {MegaCowsamMan}",
+        "credit_type": 4,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "MegaCowsamMan",
+                "Natasha (Older)"
+            ]
+        ]
+    },
+    {
+        "nid": "IsabellaPortrait",
+        "sub_nid": "Eda {Atey}",
+        "credit_type": 4,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "Atey",
+                "Eda"
+            ]
+        ]
+    },
+    {
+        "nid": "FlorinaPortrait",
+        "sub_nid": "21",
+        "credit_type": 4,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "??",
+                "21"
+            ]
+        ]
+    },
+    {
+        "nid": "NalaPortrait",
+        "sub_nid": "Flayn (Emotion 4) {Redbean} [F2E]",
+        "credit_type": 4,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "Redbean",
+                "Flayn (Emotion 4)"
+            ]
+        ]
+    },
+    {
+        "nid": "YardaPortrait",
+        "sub_nid": "{VelvetKitsune} F2E OC 1 [AI]",
+        "credit_type": 4,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "VelvetKitsune",
+                "F2E OC 1 [AI]"
+            ]
+        ]
+    },
+    {
+        "nid": "ThanyaPortrait",
+        "sub_nid": "Marisa (Black skin) {JeyTheCount} [F2E]",
+        "credit_type": 4,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "JeyTheCount",
+                "Marisa (Black Skin)"
+            ]
+        ]
+    },
+    {
+        "nid": "LevyasPortrait",
+        "sub_nid": "RandomWizard F2E 18",
+        "credit_type": 4,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "RandomWizard",
+                "F2E 18"
+            ]
+        ]
+    },
+    {
+        "nid": "BaschtianPortrait",
+        "sub_nid": "ZoramineFae_6",
+        "credit_type": 4,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "ZoramineFae",
+                "6"
+            ]
+        ]
+    },
+    {
+        "nid": "MelodiaPortrait",
+        "sub_nid": "Ilyana (Younger) {NickT, Stitch}",
+        "credit_type": 4,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "NickT, Stitch",
+                "Ilyana (Younger)"
+            ]
+        ]
+    },
+    {
+        "nid": "GranyePortrait",
+        "sub_nid": "{monk-han} [F2E] OC Witch Lord (Version 1) ",
+        "credit_type": 4,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "Monk-Han",
+                "OC Witch Lord (V1) "
+            ]
+        ]
+    },
+    {
+        "nid": "UrsoPortrait",
+        "sub_nid": "{MeatofJustice} F2E OC 18",
+        "credit_type": 4,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "MeatofJustice",
+                "F2E OC 18"
+            ]
+        ]
+    },
+    {
+        "nid": "MagnePortrait",
+        "sub_nid": "Zoisite_Midir",
+        "credit_type": 4,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "Zoisite",
+                "Midir"
+            ]
+        ]
+    },
+    {
+        "nid": "GwynnPortrait",
+        "sub_nid": "Arthur (New version) {Melia}",
+        "credit_type": 4,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "Melia",
+                "Arthur (New version)"
+            ]
+        ]
+    },
+    {
+        "nid": "MichellePortrait",
+        "sub_nid": "Larcei {Redbean} [F2E]",
+        "credit_type": 4,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "Redbean",
+                "Larcei"
+            ]
+        ]
+    },
+    {
+        "nid": "LienaPortrait",
+        "sub_nid": "Thea (Archer) {Freefall} [F2E]",
+        "credit_type": 4,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "Freefall",
+                "Thea (Archer)"
+            ]
+        ]
+    },
+    {
+        "nid": "AdrianPortrait",
+        "sub_nid": "Caligula",
+        "credit_type": 4,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "Caligula??",
+                "Caligula"
+            ]
+        ]
+    },
+    {
+        "nid": "JanPortrait",
+        "sub_nid": "{h0lyMushrooms} [F2E] OC Hanum (Version 1)",
+        "credit_type": 4,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "h0lyMushrooms",
+                "OC Hanum (V1)"
+            ]
+        ]
+    },
+    {
+        "nid": "TatsuruPortrait",
+        "sub_nid": "Erk (Ponytail) {monk-han}",
+        "credit_type": 4,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "monk-han",
+                "Erk (Ponytail)"
+            ]
+        ]
+    },
+    {
+        "nid": "GevalPortrait",
+        "sub_nid": "Yang Kai - Izarck",
+        "credit_type": 4,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "Yang Kai",
+                "Izarck"
+            ]
+        ]
+    },
+    {
+        "nid": "GalahnPortrait",
+        "sub_nid": "{MeatofJustice} F2E OC 4",
+        "credit_type": 4,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "MeatofJustice",
+                "F2E OC 4"
+            ]
+        ]
+    },
+    {
+        "nid": "MyleihPortrait",
+        "sub_nid": "{CanDy} [F2E] OC 23",
+        "credit_type": 4,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "CanDy",
+                "OC 23"
+            ]
+        ]
+    },
+    {
+        "nid": "SerenaPortrait",
+        "sub_nid": "Nephenee {NickT, Stitch}",
+        "credit_type": 4,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "NickT, Stitch",
+                "Nephenee"
+            ]
+        ]
+    },
+    {
         "nid": "ShayalaPortrait",
         "sub_nid": "Shayala",
-        "type": "Portraits",
+        "credit_type": 4,
         "category": "Graphics",
         "icon_index": [
             0,
@@ -672,7 +1397,7 @@
     {
         "nid": "ShayalaPortrait2",
         "sub_nid": "Shayala (Forward)",
-        "type": "Portraits",
+        "credit_type": 4,
         "category": "Graphics",
         "icon_index": [
             0,
@@ -686,9 +1411,57 @@
         ]
     },
     {
-        "nid": "LeilandPortrait_Stefan",
-        "sub_nid": "Stefan {NickT, Stitch}",
-        "type": "Portraits",
+        "nid": "JezoldaPortrait",
+        "sub_nid": "Sonya (version 2) {Redbean} [F2E]",
+        "credit_type": 4,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "Redbean",
+                "Sonya V2"
+            ]
+        ]
+    },
+    {
+        "nid": "SherafimaPortrait",
+        "sub_nid": "Serra (Adult) {Spoon_Rhythm, Teelvade}",
+        "credit_type": 4,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "Spoon Rhythm, Teelvade",
+                "Serra (Adult)"
+            ]
+        ]
+    },
+    {
+        "nid": "KatharinaPortrait",
+        "sub_nid": "{SaintRubenio} [F2E] OC 10",
+        "credit_type": 4,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "SaintRubenio",
+                "OC 10"
+            ]
+        ]
+    },
+    {
+        "nid": "RazulisPortrait",
+        "sub_nid": "Giffca {NickT, Stitch}",
+        "credit_type": 4,
         "category": "Graphics",
         "icon_index": [
             0,
@@ -697,40 +1470,571 @@
         "contrib": [
             [
                 "NickT, Stitch",
-                "Stefan"
+                "Giffca"
             ]
         ]
     },
     {
-        "nid": "WolfKnightMapSprite",
-        "sub_nid": "WolfKnight",
-        "type": "Map_Sprites",
+        "nid": "GrishaPortrait",
+        "sub_nid": "VigardeHealthy",
+        "credit_type": 4,
         "category": "Graphics",
-        "icon_index": [],
+        "icon_index": [
+            0,
+            0
+        ],
         "contrib": [
             [
-                "JaidynReiman, VelvetKitsune, Leif",
-                null
+                "",
+                "VigardeHealthy"
             ]
         ]
     },
     {
-        "nid": "PriorMapSprite",
-        "sub_nid": "Prior",
-        "type": "Map_Sprites",
+        "nid": "DracePortrait",
+        "sub_nid": "{Zeldacrafter} OC 2",
+        "credit_type": 4,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "Zeldacrafter",
+                "OC 2"
+            ]
+        ]
+    },
+    {
+        "nid": "MephistoPortrait",
+        "sub_nid": "Medeus {Frigid}",
+        "credit_type": 4,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "Frigid",
+                "Medeus"
+            ]
+        ]
+    },
+    {
+        "nid": "AziraPortrait",
+        "sub_nid": "Kurth (White Hair) {Sterling Glovner}",
+        "credit_type": 4,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "Sterling Glovner",
+                "Kurth (White Hair)"
+            ]
+        ]
+    },
+    {
+        "nid": "RajyhnaPortrait",
+        "sub_nid": "Nino (Adult, FE7 colours) {Spoon_Rhythm, Magelord Max}",
+        "credit_type": 4,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "Spoon Rhythm, Magelord Max",
+                "Nino (Adult, FE7 colours)"
+            ]
+        ]
+    },
+    {
+        "nid": "HanaPortrait",
+        "sub_nid": "Sonya (Witch)  {Wasdye}",
+        "credit_type": 4,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "Wasdye",
+                "Sonya (Witch)"
+            ]
+        ]
+    },
+    {
+        "nid": "StubsPortrait",
+        "sub_nid": "Vaike {Garytop} [F2E]",
+        "credit_type": 4,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "Garytop",
+                "Vaike"
+            ]
+        ]
+    },
+    {
+        "nid": "YeuxiPortrait",
+        "sub_nid": "Joshua (Black skin) {JeyTheCount} [F2E]",
+        "credit_type": 4,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "JeyTheCount",
+                "Joshua (Black skin)"
+            ]
+        ]
+    },
+    {
+        "nid": "ShyaraPortrait",
+        "sub_nid": "Rutger (Female) {Fenriel}",
+        "credit_type": 4,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "Fenriel",
+                "Rutger (Female)"
+            ]
+        ]
+    },
+    {
+        "nid": "FayzaPortrait",
+        "sub_nid": "Altena {Melia}",
+        "credit_type": 4,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "Melia",
+                "Altena"
+            ]
+        ]
+    },
+    {
+        "nid": "TroiaPortrait",
+        "sub_nid": "Brigid {Redbean} [F2E]",
+        "credit_type": 4,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "Redbean",
+                "Brigid"
+            ]
+        ]
+    },
+    {
+        "nid": "ZajeshPortrait",
+        "sub_nid": "{TrezVG} Yrene",
+        "credit_type": 4,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "TrezVG",
+                "Yrene"
+            ]
+        ]
+    },
+    {
+        "nid": "LiberiusPortrait",
+        "sub_nid": "Julian {Glaceo}",
+        "credit_type": 4,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "Glaceo",
+                "Julian"
+            ]
+        ]
+    },
+    {
+        "nid": "YorwathPortrait",
+        "sub_nid": "Travant {Atey}",
+        "credit_type": 4,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "Atey",
+                "Travant"
+            ]
+        ]
+    },
+    {
+        "nid": "MorgainePortrait",
+        "sub_nid": "XVI_Eve",
+        "credit_type": 4,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "XVI",
+                "Eve"
+            ]
+        ]
+    },
+    {
+        "nid": "MariyaPortrait",
+        "sub_nid": "Sonya (FE8 colours) {JeyTheCount} [F2E]",
+        "credit_type": 4,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "JeyTheCount",
+                "Sonya (FE8 colours)"
+            ]
+        ]
+    },
+    {
+        "nid": "MikhailPortrait",
+        "sub_nid": "{LaurentLacroix} OC 3",
+        "credit_type": 4,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "LaurentLacroix",
+                "OC 3"
+            ]
+        ]
+    },
+    {
+        "nid": "GaeyaPortrait",
+        "sub_nid": "Mila {Kanna}",
+        "credit_type": 4,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "Kanna",
+                "Mila"
+            ]
+        ]
+    },
+    {
+        "nid": "HenrykPortrait",
+        "sub_nid": "Lorenz {Blueyguy}",
+        "credit_type": 4,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "Blueyguy",
+                "Lorenz"
+            ]
+        ]
+    },
+    {
+        "nid": "TreiyPortrait",
+        "sub_nid": "Navarre (version 1) {BuskHusker}",
+        "credit_type": 4,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "BuskHusker",
+                "Navarre (V1)"
+            ]
+        ]
+    },
+    {
+        "nid": "NadirahPortrait",
+        "sub_nid": "Aimee {NickT, Stitch}",
+        "credit_type": 4,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "NickT, Stitch",
+                "Aimee"
+            ]
+        ]
+    },
+    {
+        "nid": "KatoshiPortrait",
+        "sub_nid": "{amema003} F2E OC 2",
+        "credit_type": 4,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "amema003",
+                "OC 2"
+            ]
+        ]
+    },
+    {
+        "nid": "MaiekiPortrait",
+        "sub_nid": "{monk-han} [F2E] OC Nomad Lord (Version 3) ",
+        "credit_type": 4,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "monk-han",
+                "OC Nomad Lord (V3) "
+            ]
+        ]
+    },
+    {
+        "nid": "Cleric1Portrait",
+        "sub_nid": "{CapibaraInSpace} [F2U] OC 27",
+        "credit_type": 4,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "CapibaraInSpace",
+                "OC 27"
+            ]
+        ]
+    },
+    {
+        "nid": "Cleric2Portrait",
+        "sub_nid": "{Kanna} [F2E] OC 8",
+        "credit_type": 4,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "Kanna",
+                "OC 8"
+            ]
+        ]
+    },
+    {
+        "nid": "PriorPortrait",
+        "sub_nid": "XVI_Kieth",
+        "credit_type": 4,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "XVI",
+                "Kieth"
+            ]
+        ]
+    },
+    {
+        "nid": "Girl1Portrait",
+        "sub_nid": "{DATonDemand} OC 2 (Version 1) [F2E]",
+        "credit_type": 4,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "DATonDemand",
+                "OC 2 V1"
+            ]
+        ]
+    },
+    {
+        "nid": "GirlPortrait",
+        "sub_nid": "Wasspix2 F2E 1",
+        "credit_type": 4,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "Wasspix2",
+                "F2E 1"
+            ]
+        ]
+    },
+    {
+        "nid": "QueizanGirlPortrait",
+        "sub_nid": "ZoramineFae_1",
+        "credit_type": 4,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "ZoramineFae",
+                "1"
+            ]
+        ]
+    },
+    {
+        "nid": "Bandit1Portrait",
+        "sub_nid": "ZoramineFae_2",
+        "credit_type": 4,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "ZoramineFae",
+                "2"
+            ]
+        ]
+    },
+    {
+        "nid": "Bandit2Portrait",
+        "sub_nid": "ZoramineFae_5",
+        "credit_type": 4,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "ZoramineFae",
+                "5"
+            ]
+        ]
+    },
+    {
+        "nid": "Knight1Portrait",
+        "sub_nid": "ZoramineFae_3",
+        "credit_type": 4,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "ZoramineFae",
+                "3"
+            ]
+        ]
+    },
+    {
+        "nid": "Knight2Portrait",
+        "sub_nid": "ZoramineFae_4",
+        "credit_type": 4,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "ZoramineFae",
+                "4"
+            ]
+        ]
+    },
+    {
+        "nid": "PiratePortrait",
+        "sub_nid": "XVI - Drunken Sailor 1[F2E]",
+        "credit_type": 4,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "XVI",
+                "Drunken Sailor 1"
+            ]
+        ]
+    },
+    {
+        "nid": "StatScreenBlitzMenuBG",
+        "sub_nid": "menu_bg_stat_screen_blitz_by_feels",
+        "credit_type": 6,
         "category": "Graphics",
         "icon_index": [],
         "contrib": [
             [
-                "DerTheVaporean",
-                null
+                "Feels",
+                "Stat Screen Blitz Menu BG"
             ]
         ]
     },
     {
         "nid": "BGLunar",
         "sub_nid": "lunar_bg06_cathedral",
-        "type": "Panoramas",
+        "credit_type": 6,
         "category": "Graphics",
         "icon_index": [],
         "contrib": [
@@ -741,49 +2045,692 @@
         ]
     },
     {
+        "nid": "Platforms",
+        "sub_nid": "Platforms",
+        "credit_type": "List",
+        "category": "Maps",
+        "icon_index": [],
+        "contrib": [
+            [
+                "Cynon",
+                "Dark Cobblestone"
+            ],
+            [
+                "Cynon",
+                "Marble Floor"
+            ]
+        ]
+    },
+    {
+        "nid": "Conversions",
+        "sub_nid": "- Conversions",
+        "credit_type": "Text",
+        "category": "Magic",
+        "icon_index": [],
+        "contrib": [
+            [
+                null,
+                "Huge shout out to BBHood for ripping GBA spell animations and converting them to LT. Also for including many custom animations from the FE-Repo."
+            ]
+        ]
+    },
+    {
+        "nid": "IgnisMagic",
+        "sub_nid": "Ignis Magic",
+        "credit_type": "List",
+        "category": "Magic",
+        "icon_index": [],
+        "contrib": [
+            [
+                "IS (GBA)",
+                "E: Fireball (GBA Fire)"
+            ],
+            [
+                "SHYUTERz",
+                "D: Flare Burst (Binding Blade)"
+            ],
+            [
+                "Scraiza",
+                "C: Flame Wall (Flame Sweep)"
+            ],
+            [
+                "SHYUTERz",
+                "B: Explosion (Thunderfire Blast)"
+            ],
+            [
+                "Eruption",
+                "A: Eruption (DS Bolganone)"
+            ],
+            [
+                "SHYUTERz",
+                "S: Ragnarok (Gigafire)"
+            ]
+        ]
+    },
+    {
+        "nid": "FulgusMagic",
+        "sub_nid": "FulgusMagic",
+        "credit_type": "List",
+        "category": "Magic",
+        "icon_index": [],
+        "contrib": [
+            [
+                "Scraiza",
+                "E: Static (Vertical Light Blast)"
+            ],
+            [
+                "BwdYeti",
+                "D: Shockwave (Arcthunder)"
+            ],
+            [
+                "Windsweep",
+                "C: High Voltage (Lazm Thunder)"
+            ],
+            [
+                "SHYUTERz",
+                "B: Thunderstorm"
+            ],
+            [
+                "Orihara_Saki",
+                "A: Lightning Bolt (Fire Thunder)"
+            ],
+            [
+                "PMD, redblueyellow, Jj09",
+                "S: Arrow of Alternia (Dimensional Light)"
+            ]
+        ]
+    },
+    {
+        "nid": "GlaciesMagic",
+        "sub_nid": "Glacies Magic",
+        "credit_type": "List",
+        "category": "Magic",
+        "icon_index": [],
+        "contrib": [
+            [
+                "Sme, Compile",
+                "E: Icicle (Ice Shard)"
+            ],
+            [
+                "Mikey_Seregon",
+                "D: Frostbite (Supercool)"
+            ],
+            [
+                "Mikey_Seregon",
+                "C: Hail (Ice Horn)"
+            ],
+            [
+                "Mikey_Seregon",
+                "B: Glacier (Hail)"
+            ],
+            [
+                "GBA (IS)",
+                "S: Fimbulvetr"
+            ]
+        ]
+    },
+    {
+        "nid": "VentusMagic",
+        "sub_nid": "Ventus Magic",
+        "credit_type": "List",
+        "category": "Magic",
+        "icon_index": [],
+        "contrib": [
+            [
+                "Blazer, BwdYeti",
+                "E: Gust (Shaver)"
+            ],
+            [
+                "Mikey_Seregon",
+                "D: Air Current (Aircalibur)"
+            ],
+            [
+                "Mikey_Seregon",
+                "C: Wind Cutter (DS Excalibur)"
+            ],
+            [
+                "Mikey_Seregon, Golden Sun",
+                "B: Tornado (GS Tempest)"
+            ],
+            [
+                "SHYUTERz",
+                "A: Hurricane (Super Excalibur)"
+            ],
+            [
+                "Arch",
+                "S: Ultima (Ragnarok)"
+            ]
+        ]
+    },
+    {
+        "nid": "AquisMagic",
+        "sub_nid": "Aquis Magic",
+        "credit_type": "List",
+        "category": "Magic",
+        "icon_index": [],
+        "contrib": [
+            [
+                "Bonzai, Blazer",
+                "E: Aqua Edge"
+            ],
+            [
+                "Alusq",
+                "D: Splash (Aqua)"
+            ],
+            [
+                "Alusq",
+                "C: Deluge (Donbettyr)"
+            ],
+            [
+                "Scraiza",
+                "B: Water Blast (Blue Explosion)"
+            ],
+            [
+                "StruedelMuffin, Alusq",
+                "A: Drown (Frostbite)"
+            ],
+            [
+                "??",
+                "S: Leviathan (??)"
+            ]
+        ]
+    },
+    {
+        "nid": "TellusMagic",
+        "sub_nid": "Tellus Magic",
+        "credit_type": "List",
+        "category": "Magic",
+        "icon_index": [],
+        "contrib": [
+            [
+                "Norikins",
+                "E: Stone"
+            ],
+            [
+                "Norikins",
+                "D: Boulder (Elstone)"
+            ],
+            [
+                "Bonzai, Blazer",
+                "C: Quake (Ground Dasher)"
+            ],
+            [
+                "Blazer, Jubby",
+                "B: Meteor"
+            ],
+            [
+                "Norikins",
+                "A: Rend Terra (Atlas)"
+            ],
+            [
+                "Norikins",
+                "S: Jormungandr (Demonic Tome)"
+            ]
+        ]
+    },
+    {
+        "nid": "SolusMagic",
+        "sub_nid": "Solus Magic",
+        "credit_type": "List",
+        "category": "Magic",
+        "icon_index": [],
+        "contrib": [
+            [
+                "IS (GBA)",
+                "Glimmer (Lightning)"
+            ],
+            [
+                "IS (GBA)",
+                "Shine"
+            ],
+            [
+                "Scraiza",
+                "Ray (Javelin Ray)"
+            ],
+            [
+                "Blazer, Jubby",
+                "Starlight"
+            ],
+            [
+                "Arch",
+                "Solar Flare (Exordium)"
+            ],
+            [
+                "Mikey_Seregon",
+                "Excalibur (Thani / DS Aura)"
+            ]
+        ]
+    },
+    {
+        "nid": "LunisMagic",
+        "sub_nid": "Lunis Magic",
+        "credit_type": "List",
+        "category": "Magic",
+        "icon_index": [],
+        "contrib": [
+            [
+                "IS (GBA)",
+                "E: Tendril (Flux)"
+            ],
+            [
+                "MisakoMikoto, 7743",
+                "D: Leech (Resire Fast)"
+            ],
+            [
+                "Scraiza",
+                "C: Bleed (Purple Blast)"
+            ],
+            [
+                "Mikey_Seregon",
+                "B: Eclipse (Crimson Eye FE7)"
+            ],
+            [
+                "Mikey_Seregon, Golden Sun",
+                "A: Gaeya's Wrath (GS Mad Growth)"
+            ],
+            [
+                "SHYUTERz",
+                "S: Hellfire (Gespenst)"
+            ]
+        ]
+    },
+    {
+        "nid": "MagicWeapon",
+        "sub_nid": "Magic Weapon",
+        "credit_type": "List",
+        "category": "Magic",
+        "icon_index": [],
+        "contrib": [
+            [
+                "MisakaMikoto",
+                "Fire Sabre (Fire)"
+            ],
+            [
+                "Sme, Compile",
+                "Frost Sword (Ice Shard)"
+            ],
+            [
+                "IS (GBA)",
+                "Lightning Blade"
+            ],
+            [
+                "Terraspark",
+                "Flamberge (Inferno)"
+            ],
+            [
+                "Seal",
+                "Dardevaja (Hellfire)"
+            ],
+            [
+                "Arch",
+                "Shockstick (Static)"
+            ],
+            [
+                "Mikey_Seregon",
+                "Myollnir (Static Thoron)"
+            ]
+        ]
+    },
+    {
+        "nid": "RangedWeapon",
+        "sub_nid": "Ranged Wep",
+        "credit_type": "List",
+        "category": "Magic",
+        "icon_index": [],
+        "contrib": [
+            [
+                "??",
+                "Knife Throw"
+            ],
+            [
+                "??",
+                "Shockwave"
+            ],
+            [
+                "??",
+                "Light Arrow (Sagittae)"
+            ],
+            [
+                "7743",
+                "Fire Arrow (Parthia)"
+            ],
+            [
+                "New Key",
+                "New Value"
+            ]
+        ]
+    },
+    {
+        "nid": "OpenMusic",
+        "sub_nid": "Open Source",
+        "credit_type": "List",
+        "category": "Sounds",
+        "icon_index": [],
+        "contrib": [
+            [
+                "Eric Mattyas (www.soundimage.org)",
+                "Bumming Around in Pixel Town"
+            ]
+        ]
+    },
+    {
+        "nid": "FEMusicPorts",
+        "sub_nid": "FE Music Ports",
+        "credit_type": "List",
+        "category": "Sounds",
+        "icon_index": [],
+        "contrib": [
+            [
+                "FE Music Repo",
+                "FEGBA Sound Font Ports From Other FE Games"
+            ],
+            [
+                "Alusq",
+                "Off to War Remix (FE3)"
+            ]
+        ]
+    },
+    {
+        "nid": "FEMusicMajorRPGs",
+        "sub_nid": "Major RPGs",
+        "credit_type": "List",
+        "category": "Sounds",
+        "icon_index": [],
+        "contrib": [
+            [
+                "FE Music Repo",
+                "FEGBA Soundfont Ports From Other RPG's"
+            ],
+            [
+                "A Reliable Chair",
+                "Mint's Theme (Tales of Phantasia)"
+            ],
+            [
+                "A Reliable Chair",
+                "Shihna (Tales of Symphonia)"
+            ],
+            [
+                "Kaidras",
+                "Elegy of Battle (Triangle Strategy)"
+            ],
+            [
+                "Kaidras",
+                "Combat: Destiny (Triangle Strategy)"
+            ],
+            [
+                "Kaidras",
+                "Combat: Adversity (Triangle Strategy)"
+            ],
+            [
+                "Kaidras",
+                "Farde Mal Diavolo / Begone, Foul Demon! (Unicorn Overlord)"
+            ],
+            [
+                "Mychahel",
+                "Black Fatalis (Monster Hunter)"
+            ],
+            [
+                "RandomWizard",
+                "Frog's Theme (Chrono Trigger)"
+            ],
+            [
+                "RandomWizard",
+                "Courage and Pride From the Heart (Sword of Mana)"
+            ],
+            [
+                "RandomWizard",
+                "Walking Forward With Determination (Golden Sun: The Lost Age)"
+            ],
+            [
+                "SaXor the Nobody",
+                "Feldschlact III (Saga Frontier II)"
+            ],
+            [
+                "SaXor the Nobody",
+                "Tense Atmosphere (Star Ocean)"
+            ]
+        ]
+    },
+    {
+        "nid": "FEMusicMinorRPGs",
+        "sub_nid": "Obscure RPGs",
+        "credit_type": "List",
+        "category": "Sounds",
+        "icon_index": [],
+        "contrib": [
+            [
+                "A Reliable Chair",
+                "Toward the Horizon (Lunar)"
+            ],
+            [
+                "Pandan",
+                "Army Advance (Suikoden)"
+            ],
+            [
+                "Pandan",
+                "Gothic Neclord (Suikoden 2)"
+            ],
+            [
+                "Pikmin1211",
+                "Heaven's Gate (Riviera)"
+            ],
+            [
+                "Pikmin1211",
+                "Battle Against Demons (Riviera)"
+            ],
+            [
+                "RSFlame",
+                "Castle 2 (RPG Maker PS1)"
+            ],
+            [
+                "RSFlame",
+                "Battle 3 (RPG Maker PS1)"
+            ],
+            [
+                "RandomWizard",
+                "Shop (Langrisser)"
+            ],
+            [
+                "RandomWizard",
+                "Cry-A-Live (Live a Live)"
+            ],
+            [
+                "RandomWizard",
+                "The Demon King Odio (Live a Live)"
+            ],
+            [
+                "SaXor the Nobody",
+                "Battle (Lufia 2)"
+            ],
+            [
+                "ShinKuma",
+                "Showdown With Hector (Riviera)"
+            ],
+            [
+                "ShinKuma",
+                "Fierce Clash (Riviera)"
+            ],
+            [
+                "Sme",
+                "Battle 1 (Secret of the Stars)"
+            ],
+            [
+                "Sme",
+                "Sinistral Battle (Lufia 2)"
+            ],
+            [
+                "Tak",
+                "Reminiscience (Suikoden 2)"
+            ],
+            [
+                "UnitedStars111",
+                "Land of Frozen Forest (Albert Odyssey 2)"
+            ]
+        ]
+    },
+    {
+        "nid": "FEMusicOther",
+        "sub_nid": "Other Music",
+        "credit_type": "List",
+        "category": "Sounds",
+        "icon_index": [],
+        "contrib": [
+            [
+                "FE Music Repo",
+                "FEGBA Soundfont Ports Other Games"
+            ],
+            [
+                "Alusq",
+                "Deception (Act Raiser 2)"
+            ],
+            [
+                "Alusq",
+                "Cassandra (Act Raiser)"
+            ],
+            [
+                "Dolkar",
+                "Pirate's Theme (Roller Coaster Tycoon 2)"
+            ],
+            [
+                "Feier",
+                "Northwall (Act Raiser 2)"
+            ],
+            [
+                "Pandan",
+                "Mayor's Theme (Majora's Mask)"
+            ],
+            [
+                "Nyawenyye",
+                "Damn Again"
+            ],
+            [
+                "Sme",
+                "Something custom"
+            ]
+        ]
+    },
+    {
+        "nid": "SoundFX",
+        "sub_nid": "SFX",
+        "credit_type": "List",
+        "category": "Sounds",
+        "icon_index": [],
+        "contrib": [
+            [
+                "Superflame (Sound Resource)",
+                "Missing FE6 SFX"
+            ],
+            [
+                "JaidynReiman",
+                "Converted to OGG"
+            ],
+            [
+                "BBHood",
+                "Myrrh Transform"
+            ],
+            [
+                "JaidynReiman",
+                "Gorgon Egg Grow (Recorded, Converted to OGG)"
+            ]
+        ]
+    },
+    {
+        "nid": "MapHelp",
+        "sub_nid": "Design",
+        "credit_type": "Text",
+        "category": "Maps",
+        "icon_index": [],
+        "contrib": [
+            [
+                null,
+                "AuraWolf for the Snap a Crap Pack V3.1 maps. These have been useful to learn how to properly design maps aesthetically using FEGBA style tilesets.{br}{br}I took a lot of inspiration for certain tile placements. The ship tiles especially are quite complicated."
+            ]
+        ]
+    },
+    {
         "nid": "Tilesets",
         "sub_nid": "Tilesets",
-        "type": "List",
+        "credit_type": "List",
         "category": "Maps",
         "icon_index": [],
         "contrib": [
             [
                 "Cynon",
                 "Metropolis (0.83 and 0.94)"
+            ],
+            [
+                "flasuban, N426, ZoramineFae, Venno",
+                "Village Remake - Coconut Tree, Ship Extras"
+            ],
+            [
+                "Wave, RandomWizard, Beast",
+                "FE8 Fields Remaster - Super Fields"
+            ],
+            [
+                "Dark, inspired by LeifOClaude",
+                "FE8 Fields Aquamarine Roofs & Gray Mountains"
+            ],
+            [
+                "N426",
+                "FE6 Fields Snowy Remake"
+            ],
+            [
+                "N426",
+                "FE8 Castle - Customs, Improved"
+            ],
+            [
+                "Gamma, ZoramineFae, Venno, N426",
+                "Desert Bastion Village"
             ]
         ]
     },
     {
         "nid": "Autotiles",
-        "sub_nid": "Tileset Autotiles",
-        "type": "List",
+        "sub_nid": "LT Autotiles",
+        "credit_type": "List",
         "category": "Maps",
         "icon_index": [],
         "contrib": [
             [
                 "JaidynReiman",
-                "Metropolis"
+                "Metropolis Autotiles"
             ],
             [
-                "Silvio, JaidynReiman",
-                "FE6 Fields - Snowy Remake"
+                "JaidynReiman",
+                "Remastered Sea/River Autotiles"
+            ],
+            [
+                "JaidynReiman",
+                "FE6 Fields SnowyRemake Autotiles"
+            ],
+            [
+                "JaidynReiman",
+                "Village Remake Autotiles"
             ]
         ]
     },
     {
-        "nid": "Platforms",
-        "sub_nid": "Platforms",
-        "type": "List",
+        "nid": "WorldMap",
+        "sub_nid": "World Map",
+        "credit_type": "List",
         "category": "Maps",
         "icon_index": [],
         "contrib": [
             [
-                "Cynon",
-                "Metropolis"
+                "JaidynReiman",
+                "Rough Original Concept"
             ],
             [
-                "Cynon",
-                "Marble Floor"
+                "Donjon Fantasy World Generator",
+                "Initial Generated Map"
+            ],
+            [
+                "AutoREALM",
+                "Map Outlined"
+            ],
+            [
+                "Inkarnate",
+                "Redesign From AutoREALM"
             ]
         ]
     }
