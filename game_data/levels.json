@@ -6525,7 +6525,7 @@
     {
         "nid": "DEBUG_AUTOTILES",
         "name": "AutotilesTest",
-        "tilemap": "Cynon0.94P Test",
+        "tilemap": "SnowCastleTest",
         "bg_tilemap": null,
         "party": "Svetlanya",
         "music": {},
