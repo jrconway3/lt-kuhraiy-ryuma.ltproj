@@ -535,23 +535,10 @@ Dire Wolf (Dire Wolf by Velvet Kitsune)
 Base Map Sprites From GBA Fire Emblem Games by Intelligent Systems
 
 ##### Civilians
-I designed variant civilian assets for my major races, but these are just modified from the base civilian assets by IS.
-"Eofol" is the term used for the closest equivalent I have to humans, but they're not very common.
-"Alf" for all intents and purposes look like ordinary elves. There's technically a difference but its easier to just label them as "elf" in the asset name.
-"Lykon" are Alphar who have wolf-like attributes. Their ears are curved a bit, long, and furry, intended to be somewhat like canines.
-"Zabos" are Alphar who have cat-like attributes. Their ears are closer to elves, but triangular shape and furred.
-"Queiza" are Alphar who are aquatic-based. My versions of mermaids, but they have both legs and fin tails.
-"Chiylo" effectively look just like humans with short pointed ears and horns. Could be argued to be sort of goblin-like. They have tails, but they usually only bring out their tails when needed, so they don't have them in most frames.
-
 Eofol (Civilian Man, Woman, Child, Girl by IS)
-Alf (Elven Man, Woman, Child, Girl by JaidynReiman)
-Lykon (Lykon Man, Woman, Child, Girl by JaidynReiman)
-Lykon (Lykon Man, Woman, Child, Girl by JaidynReiman)
-Queiza (Queizan Man, Woman, Child, Girl by JaidynReiman)
-Chiylo (Chiylo Man, Woman, Child, Girl by JaidynReiman)
 
 ##### Nobles
-Eventually I may add custom noble variants for my races. For now these are placeholders, but I won't ever have "nobles" that are Eofol.
+Eventually I may add custom noble variants for my races. For now these are placeholders.
 
 Noble Young Prince (Prince Zephiel by IS)
 Noble Prince (Prince by EldritchAbomination)
@@ -593,14 +580,22 @@ Hunter (Hunter by MeatOfJustice)
 
 
 ##### Mercenaries / Heroes
+Villager (Villager v2 Sword by HyperGammaSpaces)
 Mercenary (Mercenary Sword Improved by Flasuban)
+Mercenary-M Axe {Mercenary-M Axe by Flasuban, ArcherBias}
+Mercenary-F Axe (Mercenary-f Axe by Pushwall, Argo, Flasuban, ArcherBias)
+Brave-M (Hero-M Brown Shield by Pikmin)
+Brave-F (Hero-F Brown Shield by Pikmin, Pushwall)
+Brave Axe (Hero Brown Shield Axe by ZoramineFae)
 
 ##### Myrmidons / Swordmasters
 Myrmidon-M (Awakening-Style Myrmidon by Leo_Link)
 Myrmidon-F (Awakening-Style Myrmidon by Leo_Link, Female Version by Stormblight)
-Captain M (Great Lord-M Ephraim-Infantry Lance by Snewping)
-Captain F (Great Lord-M Ephraim-Infantry Lance by VelvetKistune, HGS, Snewping)
-Villager (Villager v2 Sword by HyperGammaSpaces)
+Blade Dancer (Swordmaster by IS)
+Unknown (Swordmaster FE10 by L95)
+Unknown (Swordmaster-F Alt FE7if)
+Samurai (Dread Fighter by Nuramon)
+Master of Arms (Archerbias)
 
 ##### Thieves
 Streetrat M (Thief (M) Unhooded Sword by Rasdel)
@@ -609,11 +604,12 @@ Scout-F (Thief-F Bow by Alice)
 
 ##### Soldiers / Halberdiers
 Fencer (Ephraim Magic by Cynon)
+Captain M (Great Lord-M Ephraim-Infantry Lance by Snewping)
+Captain F (Great Lord-M Ephraim-Infantry Lance by VelvetKistune, HGS, Snewping)
 Militia (Militia by Alusq, Female edit by Knabepicer)
 Soldier (FE10 Style Soldier by Flasuban)
 Sergeant-M (Sergeant M by Spud)
 Sergeant-F (Sargeant F By ドラドラゴ, aka Dora Drago)
-Captain (Great Lord Ephraim-Infantry Lance by VelvetKitsune, Snewping, HGS)
 
 ##### Armours
 Guard (Knight-U Helmetless by SALVAGED, BoneManSeth)
@@ -951,9 +947,6 @@ Initial map generated using Donjon Fantasy World Generator (http://donjon.bin.sh
 Final Map Outline Created By Me Using AutoREALM (https://sourceforge.net/projects/autorealm/)
 Map Redrawn From the AutoREALM Map Using Inkarnate (https://inkarnate.com/)
 Inkarnate Filters Used to Create the "Parchment" Design (to simplify colors)
-Map converted to 15 colors and resized in GIMP (https://www.gimp.org/)
-
-I tried to generate regional overlays, but ultimately scrapped that idea as my regions were to large. To keep the map clean, I cropped it down as much as possible so it only focuses on the area explorable in the game. This allows the map to have better spaced nodes. Thankfully, Inkarnate can easily cut out a region of the map and enlarge that portion, though it also results in some of the "fine details" becoming more noticeable, so I ironed out as many flaws as I could. That said, the final map design still isn't perfect, but its decent enough.
 
 
 Map Icons (Vanilla Sacred Stones - IS)
@@ -974,8 +967,16 @@ Desert Bastion Village by Gamma, ZoramineFae, Venno, N426
 ##### Autotiles
 Custom tilesets cannot easily be imported into LT in all cases. Many custom tilesets change up the animations, and as such, need new autotiles to generate new animations for tilemaps.
 
-Cynon's Metropolis Autotiles by JaidynReiman (edited from Cynon's GBA Map Animations)
-
+- Cynon's Metropolis
+    - Autotiles by JaidynReiman
+    - Edited from Cynon's GBA Map Animations
+- FE6 Fields - SnowyRemake Autotiles
+    - Autotiles by JaidynReiman
+    - Requested by Silvio
+    - Edited from SnowyRemake's GBA Map Animations by N426
+- Village Remake + Coconut Tree + Ship Extras
+    - Autotiles by JaidynReiman
+    - Edited from Village Remake's GBA Map Animations by flasuban, N426, ZoramineFae, Venno
 
 #### Map Design
 

@@ -6076,7 +6076,7 @@
             0,
             0
         ],
-        "map_sprite_nid": "Hero",
+        "map_sprite_nid": "Brave",
         "combat_anim_nid": "Brave",
         "fields": []
     },
@@ -6318,7 +6318,7 @@
             0,
             0
         ],
-        "map_sprite_nid": "Hero",
+        "map_sprite_nid": "BraveAxe",
         "combat_anim_nid": "Brave",
         "fields": []
     },
@@ -6806,7 +6806,7 @@
             0,
             0
         ],
-        "map_sprite_nid": "Swordmaster",
+        "map_sprite_nid": "Bladedancer",
         "combat_anim_nid": "Blademaster",
         "fields": []
     },
