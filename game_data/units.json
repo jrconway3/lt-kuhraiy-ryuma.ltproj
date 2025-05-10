@@ -2197,7 +2197,7 @@
         "desc": "A young girl living on the streets, despite being a noble's daughter...",
         "variant": null,
         "level": 1,
-        "klass": "Thief2",
+        "klass": "StreetRat",
         "tags": [],
         "bases": {
             "LCK": 5,
@@ -4060,7 +4060,7 @@
         "desc": "",
         "variant": "",
         "level": 1,
-        "klass": "Fighter",
+        "klass": "Pioneer",
         "tags": [],
         "bases": {
             "LCK": 4,
@@ -6572,7 +6572,7 @@
         "desc": "Joan's silent partner in the Dorma Village Militia. He goes along with whatever she says without question.",
         "variant": "Female",
         "level": 1,
-        "klass": "Marksman",
+        "klass": "Sniper",
         "tags": [],
         "bases": {
             "LCK": 14,

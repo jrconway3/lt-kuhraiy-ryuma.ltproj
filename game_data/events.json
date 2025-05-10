@@ -3741,17 +3741,19 @@
         "nid": "0 RoamSetup"
     },
     {
-        "name": "Nadirahs",
-        "trigger": "roam_press_aux",
-        "level_nid": "0",
-        "condition": "unit2.nid == 'Dehren'",
+        "name": "GateSE",
+        "trigger": "on_region_interact",
+        "level_nid": "DEBUG2",
+        "condition": "region.nid == 'GateSE'",
         "commands": [],
         "only_once": false,
         "priority": 20,
         "_source": [
-            ""
+            "add_portrait;Svetlanya;Left",
+            "speak;Svetlanya;I shan't have need to go this way now...",
+            "move_unit;Svetlanya;40,28"
         ],
-        "nid": "0 Nadirahs"
+        "nid": "DEBUG2 GateSE"
     },
     {
         "name": "CathedralSW",
@@ -4067,9 +4069,14 @@
         "priority": 20,
         "_source": [
             "multi_add_portrait;Svetlanya;Left;Kasuto;Right",
-            "speak;Kasuto;You have proven your worth, child.",
-            "autolevel_to;Svetlanya;10",
-            "give_item;Svetlanya;Master_Seal"
+            "if;'{v:kasuto_spoke}' == '1'",
+            "    speak;Kasuto;Go forth, my child.",
+            "else",
+            "    speak;Kasuto;You have proven your worth, child.",
+            "    autolevel_to;Svetlanya;10",
+            "    give_item;Svetlanya;Master_Seal",
+            "end",
+            "level_var;kasuto_spoke;1"
         ],
         "nid": "DEBUG2 TalkKasuto"
     },
@@ -4098,5 +4105,92 @@
             "open_credits;show_map"
         ],
         "nid": "Global RoamCredits"
+    },
+    {
+        "name": "TalkNPC",
+        "trigger": "on_roam_interact",
+        "level_nid": "DEBUG2",
+        "condition": "units != None and len([unit.nid for unit in units if unit.nid not in ['Serena', 'Thanya']]) > 0",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "#pyev1",
+            "",
+            "filtered = [unit for unit in units if  unit.nid != 'Serena' and unit.nid != 'Thanya']",
+            "if filtered == None or len(filtered) < 1:",
+            "    return",
+            "unit2 = filtered[0]",
+            "",
+            "if unit2.nid == 'Urso':",
+            "    $add_portrait \"Urso\" \"Right\"",
+            "    $speak \"Urso\" \"Apologies milady. I assure you, the Knights of Oestridel shall deal with this promptly.\"",
+            "elif unit2.nid == 'Magne':",
+            "    $add_portrait \"Magne\" \"Right\"",
+            "    $speak \"Magne\" \"Lady Svetlanya,  please deal with your rubbish so we may get on with this!\"",
+            "elif unit2.nid == 'Dehren':",
+            "    $add_portrait \"Dehren\" \"Right\"",
+            "    if game.level_vars['Ch0Progress'] < 3:",
+            "        $speak \"Dehren\" \"Sister Kasuto should know where Yarda went.\"",
+            "    else:",
+            "        $speak \"Dehren\" \"Please be safe, Yarda...\"",
+            "elif unit2.nid == 'Kasuto':",
+            "    $add_portrait \"Kasuto\" \"Right\"",
+            "    ",
+            "elif unit2.nid == 'lykon_barb1':",
+            "    $add_portrait \"Bandit1\" \"Right\"",
+            "    $speak \"Bandit1\" \"Damned goblins... never signed up for dealing with this!\"",
+            "elif unit2.nid == 'lykon_hunt1':",
+            "    $speak \"Huntress\" \"Heard much have I bout the big city...|Much preferred the forests are to me.|C'mon already, let's just get this over with!|I've got pups back at home to feed...\"",
+            "else:",
+            "    $speak unit2.nid \"Hello there!\""
+        ],
+        "nid": "DEBUG2 TalkNPC"
+    },
+    {
+        "name": "TalkUrso",
+        "trigger": "on_talk",
+        "level_nid": "DEBUG2",
+        "condition": "unit2.nid == 'Urso'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "multi_add_portrait;Svetlanya;CenterLeft;Serena;FarLeft",
+            "add_portrait;Urso;Right;mirror",
+            "speak;Urso;Come now, I will not allow such unruly rabble within this city!",
+            "speak;Svetlanya;Sir Urso, what rubbish has become of our marketplace?|Out with it at once, I demand you!",
+            "mirror;Urso",
+            "speak;Urso;M-my lady! Truly my deepest apologies, Lady Svetlanya.|The knights are working to resolve this dispute as swiftly as possible.|Need you worry not.",
+            "speak;Svetlanya;How pretentious! Await shall I for a quick resolution.",
+            "speak;Urso;Thank you for your patience, my lady.",
+            "remove_portrait;Urso",
+            "speak;Serena;You need not be so harsh on him.|He's doing his best to resolve this dispute.|Come, let us give him a moment longer.",
+            "speak;Svetlanya;Why must everything go wrong on this day...|Hoped I for a bit time longer together.|Yarda was supposed to meet us here! Where has she gone?",
+            "speak;Serena;Did she return home?|Let's head to the Nadirah's Magicks, then.",
+            "hide_layer;dr4_nadira;immediate",
+            "move_cursor;24,7;200",
+            "flicker_cursor;24,7",
+            "move_cursor;Svetlanya;200",
+            "wait;100",
+            "remove_talk;Svetlanya;Urso",
+            "inc_level_var;Ch0Progress"
+        ],
+        "nid": "DEBUG2 TalkUrso"
+    },
+    {
+        "name": "EnterCathedral",
+        "trigger": "Cathedral",
+        "level_nid": "DEBUG2",
+        "condition": "region.nid == 'CathedralSE'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Svetlanya;Left",
+            "speak;Svetlanya;I shan't have need to go this way now...",
+            "move_unit;Svetlanya;33,26"
+        ],
+        "nid": "DEBUG2 EnterCathedral"
     }
 ]

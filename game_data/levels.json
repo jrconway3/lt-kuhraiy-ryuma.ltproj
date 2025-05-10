@@ -170,7 +170,7 @@
                 "nid": "lykon_fight1",
                 "variant": null,
                 "level": 1,
-                "klass": "Fighter",
+                "klass": "Pioneer",
                 "faction": "Masa",
                 "starting_items": [
                     [
@@ -1542,7 +1542,7 @@
                 "nid": "101",
                 "variant": null,
                 "level": 1,
-                "klass": "Fighter",
+                "klass": "Pioneer",
                 "faction": "Siegwang",
                 "starting_items": [
                     [
@@ -1566,7 +1566,7 @@
                 "nid": "102",
                 "variant": null,
                 "level": 2,
-                "klass": "Fighter",
+                "klass": "Pioneer",
                 "faction": "Siegwang",
                 "starting_items": [
                     [
@@ -1766,7 +1766,7 @@
                 "nid": "103",
                 "variant": null,
                 "level": 2,
-                "klass": "Fighter",
+                "klass": "Pioneer",
                 "faction": "Siegwang",
                 "starting_items": [
                     [
@@ -1790,7 +1790,7 @@
                 "nid": "104",
                 "variant": null,
                 "level": 2,
-                "klass": "Fighter",
+                "klass": "Pioneer",
                 "faction": "Siegwang",
                 "starting_items": [
                     [
@@ -1814,7 +1814,7 @@
                 "nid": "105",
                 "variant": null,
                 "level": 2,
-                "klass": "Fighter",
+                "klass": "Pioneer",
                 "faction": "Siegwang",
                 "starting_items": [
                     [
@@ -1883,7 +1883,7 @@
                 "nid": "108",
                 "variant": null,
                 "level": 1,
-                "klass": "Fighter",
+                "klass": "Pioneer",
                 "faction": "Siegwang",
                 "starting_items": [
                     [
@@ -1904,7 +1904,7 @@
                 "nid": "109",
                 "variant": null,
                 "level": 1,
-                "klass": "Fighter",
+                "klass": "Pioneer",
                 "faction": "Siegwang",
                 "starting_items": [
                     [
@@ -4397,7 +4397,7 @@
                 "nid": "103",
                 "variant": null,
                 "level": 4,
-                "klass": "Fighter",
+                "klass": "Pioneer",
                 "faction": "Siegwang",
                 "starting_items": [
                     [
@@ -4445,7 +4445,7 @@
                 "nid": "105",
                 "variant": null,
                 "level": 5,
-                "klass": "Fighter",
+                "klass": "Pioneer",
                 "faction": "Siegwang",
                 "starting_items": [
                     [
@@ -4565,7 +4565,7 @@
                 "nid": "110",
                 "variant": null,
                 "level": 4,
-                "klass": "Fighter",
+                "klass": "Pioneer",
                 "faction": "Siegwang",
                 "starting_items": [
                     [
@@ -4589,7 +4589,7 @@
                 "nid": "111",
                 "variant": null,
                 "level": 4,
-                "klass": "Fighter",
+                "klass": "Pioneer",
                 "faction": "Siegwang",
                 "starting_items": [
                     [
@@ -4685,7 +4685,7 @@
                 "nid": "115",
                 "variant": null,
                 "level": 4,
-                "klass": "Fighter",
+                "klass": "Pioneer",
                 "faction": "Siegwang",
                 "starting_items": [
                     [
@@ -5625,7 +5625,7 @@
                 "nid": "lykon_fight1",
                 "variant": null,
                 "level": 1,
-                "klass": "Fighter",
+                "klass": "Pioneer",
                 "faction": "Masa",
                 "starting_items": [
                     [
@@ -6068,27 +6068,6 @@
                 "team": "npc",
                 "ai": "None",
                 "roam_ai": "Wander",
-                "ai_group": "",
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "101",
-                "variant": null,
-                "level": 1,
-                "klass": "Thief2",
-                "faction": "Masa",
-                "starting_items": [
-                    [
-                        "Bronze_Sword",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Thief",
-                "roam_ai": null,
                 "ai_group": "",
                 "starting_position": null,
                 "starting_traveler": null,

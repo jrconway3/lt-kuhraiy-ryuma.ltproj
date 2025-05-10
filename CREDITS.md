@@ -515,9 +515,12 @@ Cavalry (Cavalier V2 by SALVAGED, Female by CelestiaHeart)
 ##### Holy Mages
 
 ##### Dark Mages
-Shaman (Diviner Orochi by Sphealnuke)
-Scholar
-
+Shaman (Awakening Dark Mage Still by BatimatheBat, Animation by Leo_Link)
+Scholar-M (Shaman Hoodless +Staff by Temp, Fixed Magic by Shin19)
+Scholar-F (Custom DM Sophia by nenerune, improved version by Red Bean)
+Unknown (Custom Dark Mage still made by Pikmin1211, animation made by Jj09)
+Arcanist-M (Sumonner by IS, Eldritch Abomination)
+Arcanist-F (Summoner-F by Velvet Kitsune, Author_Pendragon)
 
 ##### Monster Mounts
 Mounted Barbarian-M (Brigand Rider by Teelvade, Touch-ups by ZoramineFae, Sword by ZoramineFae, Hellhound Vanilla Repal by Teraspark)
@@ -552,9 +555,9 @@ Dancer Desert (Dancer Tethys by IS)
 Bard (Nils/Elffin by IS)
 Bard Fancy (Bard-M Fancy by MeatOfJustice)
 Bard Alt (Bard-M FE5 by ArcherBias)
-Bard Female (Bard-F Nils by Knabepicer)
-Bard Female Dress (Bard-F Elffin by Knabepicer)
+Bard Female (Bard-F Elffin by Knabepicer)
 Bard Female Fancy (Bard-F Fancy by RandomWizard, MeatOfJustice, Knabepicer)
+Bard Female Flute (Bard-F Nils by Knabepicer)
 Sonneteer (Bard-M Sonneteer Elffin by Marlon&Loius)
 
 
@@ -566,24 +569,39 @@ Heiress (Lord-F Priestess Sword by blood)
 
 
 ##### Pirates, Brigands, Berserkers
-
-
+Brigand-M (IS)
+Brigand-F (Brigand-F No Headband by Skitty, CanDy)
+Pirate-M (Pirate by IS)
+Pirate-Stubs (Pirate DS Style by Der)
+Pirate-F (Pirate by Flasuban, Mikey_Seregon)
+Privateer-M (Dartserker Axe by WarPath)
+Privateer-M-Sword (Dartserker Sword by ZoramineFae)
+Privateer-F (Hawkserker-F Axe by Pikmin and Der)
+Privateer-F Sword (Hawkserker-F Sword by ZoramineFae)
+Privateer-F Lance (Hawkserker-F Lance by ZoramineFae)
+Berserker-M (Berserker Axe by IS)
+Berserker-M Bow (Berserker Bow (M) by ZoramineFae)
+Berserker-F (Berserker Thin Axe (F) by FEGirls)
 
 ##### Fighters, Warriors
+Forester (Journeyman by IS, Alt Stance by Topazlight)
 Pioneer-M (FE9 Fighter-M by L95)
 Pioneer-F (FE9 Fighter-F by Pikmin1211)
 
 ##### Archers / Hunters
+Archer (Archer Improved by Der)
 Hunter (Hunter by MeatOfJustice)
+Artillery TEMP (Hunter FE1-3 by knabepicer, NightBloodKT)
 
 ##### Snipers / Ballista
-
+Sniper (Sniper V2 by ArcherBias)
+Marksman (Marksman Nuramon Style by ArcherBias)
 
 ##### Mercenaries / Heroes
 Villager (Villager v2 Sword by HyperGammaSpaces)
 Mercenary (Mercenary Sword Improved by Flasuban)
 Mercenary-M Axe {Mercenary-M Axe by Flasuban, ArcherBias}
-Mercenary-F Axe (Mercenary-f Axe by Pushwall, Argo, Flasuban, ArcherBias)
+Mercenary-F Axe (Mercenary-F Axe by Pushwall, Argo, Flasuban, ArcherBias)
 Brave-M (Hero-M Brown Shield by Pikmin)
 Brave-F (Hero-F Brown Shield by Pikmin, Pushwall)
 Brave Axe (Hero Brown Shield Axe by ZoramineFae)
@@ -591,6 +609,7 @@ Brave Axe (Hero Brown Shield Axe by ZoramineFae)
 ##### Myrmidons / Swordmasters
 Myrmidon-M (Awakening-Style Myrmidon by Leo_Link)
 Myrmidon-F (Awakening-Style Myrmidon by Leo_Link, Female Version by Stormblight)
+Bushi (Iaijutsu Rogue by GabrielKnight)
 Blade Dancer (Swordmaster by IS)
 Unknown (Swordmaster FE10 by L95)
 Unknown (Swordmaster-F Alt FE7if)
@@ -598,9 +617,17 @@ Samurai (Dread Fighter by Nuramon)
 Master of Arms (Archerbias)
 
 ##### Thieves
-Streetrat M (Thief (M) Unhooded Sword by Rasdel)
-Scout-M (Archer-M FE14 Style Thief Bow by Rasdel)
-Scout-F (Thief-F Bow by Alice)
+Shinobi-M (Thief Unhooded by Rasdel)
+Shinobi-M Bow (Archer FE14-Style Thief Bow by Rasdel)Shinobi-F (Thief-F by IS)
+Shinobi-F Bow (Thief-F Bow by Alice)
+Rogue (Rogue-M by IS)
+Rogue-F (Rogue-F by Unknown)
+Trickster-M (Trickster Redone by StreetHero, blood)
+Trickster-F (Trickster-F by StreetHero, Sable Mage)
+Ninja (Ninja by Der)
+Princess? (Rogue Trickster Valkyrie by Aruka, Kenphu)
+Assassin-M (Assassin Hair Edit by ltranc)
+Assassin-F (Assassin-F by RobertFPY)
 
 ##### Soldiers / Halberdiers
 Fencer (Ephraim Magic by Cynon)
@@ -613,32 +640,79 @@ Sergeant-F (Sargeant F By ドラドラゴ, aka Dora Drago)
 
 ##### Armours
 Guard (Knight-U Helmetless by SALVAGED, BoneManSeth)
-
-##### Nature Mages
-Street Rat-F (Mage-F Thief by FEGirls)
-Apprentice (FE4 Thunder Mage M/F by Ash3wl, L95, Dominus_Vobiscum)
-Sage-M (Battle Sage M Sword by L95)
-Sage-F (Battle Sage F Sword by Leif, L95)
-???? (Battle Sage F Sword by Topazlight)
+Bulwark (Baron Magic by WarPath)
+Bulwark Lance (Baron + Cape and Shield Axe by Nuramon, Jay, Ryn)
+Bulwark Axe (Baron + Cape and Shield Axe by Topazlight, Nuramon, Jay, Ryn)
 
 ##### Holy Mages
 High Priestess (Blade Lord/Exalt Magic by FE7if, Jiege)
-Clergy-F (Monk-F by Teraspark)
-War Monk (War Monk, Axe M by DerTheVaporean)
-War Nun (War Cleric, Axe F by DerTheVaporean)
-War Monk (War Monk, Staff M by Author_Pendragon)
-War Cleric (War Cleric, Staff F by SkidMarc25)
+Clergy-M (Priest Improved by Flasuban)
+Clergy-F (Cleric Improved by Flasuban)
+Nurse-M (Monk-M by IS)
+Nurse-F (Monk-F by Teraspark)
+Prior (War Monk, Axe M by DerTheVaporean)
+Prior (War Cleric, Axe F by DerTheVaporean)
+Doctor-M (Patriarch by Unknown)
+Doctor-F (Matriarch by Unknown)
+Maid (Maid by Batima, NamelessX, Hanakko)
+
+##### Nature Mages
+Street Rat-M (Mage-M Hatless by Pikmin)
+Street Rat-F (Mage-F Thief by FEGirls)
+Apprentice (FE4 Thunder Mage M/F by Ash3wl, L95, Dominus_Vobiscum)
+Queizan Sage-M (Sage-M by IS)
+Queizan Sage-M Sword (Battle Sage M Sword by L95)
+Queizan Sage-F (Sage-F by IS)
+Queizan Sage-F Sword (Battle Sage F Sword by Leif, L95)
+Lykon Sage-M (Battle Sage M by Smug_Mug, Unknown)
+Lykon Sage-M Sword (Battle Sage M Sword by Topazlight, Urk)
+Lykon Sage-F (Battle Sage F by Smug_Mug, Unknown)
+Lykon Sage-F Sword (Battle Sage F Sword by Topazlight)
 
 ##### Dark Mages
 Shaman (Mage-F Gaiden-Style by TAS20XX)
-Scholar
+Scholar-M (Unhooded Shaman by Ash3wl, L95)
+Scholar-F (Shaman by IS)
 Druid-M (Unhooded Druid by IS, Stormblight)
 Druid-F (Druid Female by IS)
 
 
+##### Cavalry
+Cavalry-M (Cavalier Axe, Lance, Sword by SALVAGED)
+Cavalry-M Bow (Bow Knight-M by Flasuban)
+Cavalry-F (Alt Hair Axe, Lance, Sword by SALVAGED, Flasuban)
+Cavalry-F Bow (Bow Knight-F by Flasuban)
+Vanguard (Great Knight Alt Axe by L95, Der)
+Paladin-M (Paladin V2 Lance by Pikmin)
+Paladin-M Axe/Sword (Paladin V2 Axe, Sword by RobertFPY)
+Paladin-M Bow (Paladin-M Bow by Leif)
+Paladin-F (Paladin Revision Lance by Flasuban, Tordo45)
+Paladin-F Sword (Paladin Revision Sword by Permafrost)
+Commander (Grand Paladin Lance by Fates-Blade)
+Scout (Nomad by IS)
+Ranger (Ranger by IS)
 
 ##### Mounted Mages
 Tactician (Thaumaturge M/F by Pikmin1211, DerTheVaporean)
+
+##### Pegasi, Wyverns, Griffons
+Drakoor (Armless Wyvern Axe by Leif, Eden)
+Drakoor Lance (Armless Wyvern Lance by Leif)
+Sky Lord (Wyvern Knight Axe by ArcaneEli)
+Sky Lord Lance (Wyvern Knight by IS)
+Sky Lord Bow (Wyvern Knight Bow by Knabepicer, MeatOfJustice, Eden)
+Sky Lord-F (Wyvern Knight Axe by ArcaneEli, Blood, Max Limit, Yikes!)
+Sky Lord-F Lance (Wyvern Knight Lance by blood)
+Valkyrie (Nephilim by Ayr)
+Heretic (Harrier by Ayr)
+Wind Rider (Bird Rider Lance by N426, Stephano)
+Falcon Knight (Griffon Knight by Blue Druid)
+
+##### Mage Knights
+Thaumaturge (Pikmin, Der)
+Magic Corps (Mage Knight by IS)
+Saint (Valkyrie by IS)
+Saint (Valkyrie Non-Religious by IS)
 
 ##### Monster Mounts
 Barbarian (Brigand Rider M/F, Sword/Axe by ZoramineFae)
@@ -651,6 +725,7 @@ Bunny (Bunny by Madzz)
 Horse (Horse by L95)
 White Horse (White Horse by N426)
 Pegasus (Pegasus White/Brown by N426)
+Griffon (Wild Griffon by Rdrouyn, N426)
 
 ##### Environment
 Box (Box by Pikmin1211 4)
@@ -941,12 +1016,14 @@ Captain (Ephraim Great Lord-M Cape Lance - ZoramineFae)
 
 ### World Map
 
-World Map Image -
-Original rough draft idea by me (JaidynReiman)
-Initial map generated using Donjon Fantasy World Generator (http://donjon.bin.sh/fantasy/world/)
-Final Map Outline Created By Me Using AutoREALM (https://sourceforge.net/projects/autorealm/)
-Map Redrawn From the AutoREALM Map Using Inkarnate (https://inkarnate.com/)
-Inkarnate Filters Used to Create the "Parchment" Design (to simplify colors)
+The World Map was designed by me. I originally had some rough ideas in my head for what I needed in specific locations.
+
+1. I generated a bunch of fantasy world maps using [Donjon Fantasy World Generator](http://donjon.bin.sh/fantasy/world/) and found the one that best fit the idea I had in my head.
+2. From there, I outlined the map's borders using a program I found online called AutoREALM, [available via SourceForge](https://sourceforge.net/projects/autorealm/).
+3. This was my final World Map for years until I discovered [Inkarnate](https://inkarnate.com/).
+4. Using Inkarnate I made the final version of my map, using the original map design to mask out the continents as close as possible to my original design (https://inkarnate.com/m/P7eyDW), however its not fully fleshed out in detail.
+5. Then I (converted it to a Parchment style)[https://inkarnate.com/m/Gzx2dK] to simplify the colors to make it easier to reduce colors and import into a romhack (which I abandoned).
+5. Finally, I used tools to crop out the northern continents and added cities and other notable landmarks. [This is the version of the map I intend on using in the game.](https://inkarnate.com/m/mNbJE8)
 
 
 Map Icons (Vanilla Sacred Stones - IS)
