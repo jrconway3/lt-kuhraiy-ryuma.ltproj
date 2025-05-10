@@ -864,18 +864,6 @@
         "info_offset": 0
     },
     {
-        "nid": "OC 1",
-        "blinking_offset": [
-            32,
-            24
-        ],
-        "smiling_offset": [
-            32,
-            40
-        ],
-        "info_offset": 0
-    },
-    {
         "nid": "Zoisite_Midir",
         "blinking_offset": [
             24,
@@ -896,42 +884,6 @@
         "smiling_offset": [
             16,
             40
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Caligula",
-        "blinking_offset": [
-            24,
-            24
-        ],
-        "smiling_offset": [
-            24,
-            40
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Unnamed Generic F",
-        "blinking_offset": [
-            24,
-            24
-        ],
-        "smiling_offset": [
-            24,
-            40
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Unnamed Generic M",
-        "blinking_offset": [
-            0,
-            0
-        ],
-        "smiling_offset": [
-            0,
-            0
         ],
         "info_offset": 0
     },
@@ -1488,18 +1440,6 @@
         "info_offset": 0
     },
     {
-        "nid": "21",
-        "blinking_offset": [
-            24,
-            24
-        ],
-        "smiling_offset": [
-            24,
-            40
-        ],
-        "info_offset": 0
-    },
-    {
         "nid": "{TrezVG} Yrene",
         "blinking_offset": [
             32,
@@ -1616,18 +1556,6 @@
         "smiling_offset": [
             16,
             40
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Lugh",
-        "blinking_offset": [
-            24,
-            32
-        ],
-        "smiling_offset": [
-            16,
-            48
         ],
         "info_offset": 0
     },
@@ -1824,18 +1752,6 @@
         "info_offset": 0
     },
     {
-        "nid": "Fado",
-        "blinking_offset": [
-            24,
-            24
-        ],
-        "smiling_offset": [
-            16,
-            40
-        ],
-        "info_offset": 0
-    },
-    {
         "nid": "Joshua (Black skin) {JeyTheCount} [F2E]",
         "blinking_offset": [
             24,
@@ -2016,18 +1932,6 @@
         "info_offset": 0
     },
     {
-        "nid": "Pirate",
-        "blinking_offset": [
-            16,
-            24
-        ],
-        "smiling_offset": [
-            24,
-            40
-        ],
-        "info_offset": 0
-    },
-    {
         "nid": "RandomWizard F2E 6",
         "blinking_offset": [
             24,
@@ -2041,18 +1945,6 @@
     },
     {
         "nid": "RandomWizard F2E 15",
-        "blinking_offset": [
-            24,
-            24
-        ],
-        "smiling_offset": [
-            24,
-            40
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "F2E OC 2",
         "blinking_offset": [
             24,
             24
@@ -2155,18 +2047,6 @@
         ],
         "smiling_offset": [
             16,
-            40
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Mycahel_1",
-        "blinking_offset": [
-            24,
-            24
-        ],
-        "smiling_offset": [
-            24,
             40
         ],
         "info_offset": 0

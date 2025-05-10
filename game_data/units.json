@@ -1715,7 +1715,7 @@
             ]
         },
         "alternate_classes": [],
-        "portrait_nid": "21",
+        "portrait_nid": null,
         "affinity": "Wind",
         "fields": []
     },
@@ -3905,7 +3905,7 @@
             ]
         },
         "alternate_classes": [],
-        "portrait_nid": "Caligula",
+        "portrait_nid": null,
         "affinity": "Fire",
         "fields": []
     },
@@ -8266,7 +8266,7 @@
             ]
         },
         "alternate_classes": [],
-        "portrait_nid": "Fado",
+        "portrait_nid": null,
         "affinity": "None",
         "fields": []
     },
@@ -8732,7 +8732,7 @@
             ]
         },
         "alternate_classes": [],
-        "portrait_nid": "Lugh",
+        "portrait_nid": null,
         "affinity": "Light",
         "fields": []
     },
@@ -8873,7 +8873,7 @@
             ]
         },
         "alternate_classes": [],
-        "portrait_nid": "Lugh",
+        "portrait_nid": null,
         "affinity": "Dark",
         "fields": []
     },

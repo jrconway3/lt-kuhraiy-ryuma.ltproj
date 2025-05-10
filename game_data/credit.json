@@ -2335,6 +2335,19 @@
         ]
     },
     {
+        "nid": "EofolWoman",
+        "sub_nid": "EofolWoman",
+        "credit_type": 8,
+        "category": "Graphics",
+        "icon_index": [],
+        "contrib": [
+            [
+                "IS",
+                null
+            ]
+        ]
+    },
+    {
         "nid": "NoblePrince",
         "sub_nid": "NoblePrince",
         "credit_type": 8,
@@ -2744,22 +2757,6 @@
         ]
     },
     {
-        "nid": "FlorinaPortrait",
-        "sub_nid": "21",
-        "credit_type": 4,
-        "category": "Graphics",
-        "icon_index": [
-            0,
-            0
-        ],
-        "contrib": [
-            [
-                "??",
-                "21"
-            ]
-        ]
-    },
-    {
         "nid": "NalaPortrait",
         "sub_nid": "Flayn (Emotion 4) {Redbean} [F2E]",
         "credit_type": 4,
@@ -2948,22 +2945,6 @@
             [
                 "Freefall",
                 "Thea (Archer)"
-            ]
-        ]
-    },
-    {
-        "nid": "AdrianPortrait",
-        "sub_nid": "Caligula",
-        "credit_type": 4,
-        "category": "Graphics",
-        "icon_index": [
-            0,
-            0
-        ],
-        "contrib": [
-            [
-                "Caligula??",
-                "Caligula"
             ]
         ]
     },

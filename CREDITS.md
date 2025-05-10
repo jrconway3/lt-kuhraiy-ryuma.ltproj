@@ -861,7 +861,7 @@ Yarda (OC1 by VelvetKitsune)
 Thanya (Marisa Black by JeyTheCount)
 Levyas (18 by RandomWizard)
 Nala (Flayn Emotion 4 by Redbean)
-Florina (21 by ??)
+Florina (TBD)
 Granye (OC Witch Lord V1 by monk-han)
 
 ##### Optional
@@ -871,7 +871,7 @@ Gwynn (Arthur New Version by Melia)
 Joan (Larcei New Version by Melia)
 Michelle (Larcei by Redbean)
 Liena (Archer Thea by Freefall)
-Adrian (Caligula by ??)
+Adrian (TBD)
 Jan (OC Hanum V2 by Holy Mushrooms)
 Tatsuru (Erk Ponytail by monk-han)
 Geval (Izarck by Yang Kai)
@@ -912,7 +912,7 @@ Mariya (Sonya FE8 colours by JeyTheCount)
 Jethro (TBD)
 Mikhail (OC 3 by LaurentLacroix)
 Henryk (Lorenz by Blueyguy)
-Kuentin (Fado; 100% TEMP, Fado doesn't look anywhere close to Kuentin)
+Kuentin (TBD)
 Gaeya (Mila by Kanna)
 
 ##### Minor NPC
@@ -974,7 +974,6 @@ OC Nomad Lord V1 by monk-han
 OC Nomad Lord V2 by monk-han
 OC1 V1 by Mrkisuke
 OC1 V2 by Mrkisuke
-1 by Mycahel
 OC 5 by PKLucky
 Female Joshua by Plant_Academy
 Female Rutger by Rainlash
@@ -997,8 +996,6 @@ OC1 by ??
 OC 2 by ??
 Ex TOTF Portraits 1 by ??
 Ex TOTF Portraits 3 by ??
-Unnamed Generic M by ??
-Unnamed Generic F by ??
 
 
 
