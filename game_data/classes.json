@@ -3575,7 +3575,7 @@
             0
         ],
         "map_sprite_nid": "WolfKnight",
-        "combat_anim_nid": "WolfKnight",
+        "combat_anim_nid": "WolfNomad",
         "fields": []
     },
     {
@@ -4680,7 +4680,7 @@
             0
         ],
         "map_sprite_nid": "BishopFemale",
-        "combat_anim_nid": "BishopFemale",
+        "combat_anim_nid": "DoctorFemale",
         "fields": []
     },
     {
@@ -6289,7 +6289,7 @@
             0
         ],
         "map_sprite_nid": "Brave",
-        "combat_anim_nid": "Brave",
+        "combat_anim_nid": null,
         "fields": []
     },
     {
@@ -6531,7 +6531,7 @@
             0
         ],
         "map_sprite_nid": "BraveAxe",
-        "combat_anim_nid": "Brave",
+        "combat_anim_nid": null,
         "fields": []
     },
     {
@@ -7019,7 +7019,7 @@
             0
         ],
         "map_sprite_nid": "Bladedancer",
-        "combat_anim_nid": "Blademaster",
+        "combat_anim_nid": null,
         "fields": []
     },
     {
@@ -8829,7 +8829,7 @@
             0
         ],
         "map_sprite_nid": "Captain",
-        "combat_anim_nid": "CaptainFemale",
+        "combat_anim_nid": "CaptainSerena",
         "fields": []
     },
     {
@@ -9044,7 +9044,7 @@
             0
         ],
         "map_sprite_nid": "Forester",
-        "combat_anim_nid": "Logger",
+        "combat_anim_nid": "Forester",
         "fields": []
     },
     {
@@ -9471,7 +9471,7 @@
             0
         ],
         "map_sprite_nid": "Warrior",
-        "combat_anim_nid": "Warrior",
+        "combat_anim_nid": null,
         "fields": []
     },
     {
@@ -13592,7 +13592,7 @@
             0
         ],
         "map_sprite_nid": "WolfKnight",
-        "combat_anim_nid": "WolfKnight",
+        "combat_anim_nid": "WolfNomad",
         "fields": []
     },
     {
@@ -13813,7 +13813,7 @@
             0
         ],
         "map_sprite_nid": "WolfKnight",
-        "combat_anim_nid": "WolfKnight",
+        "combat_anim_nid": "WolfNomad",
         "fields": []
     },
     {
@@ -14689,7 +14689,7 @@
             0
         ],
         "map_sprite_nid": "Monk",
-        "combat_anim_nid": "Cleric",
+        "combat_anim_nid": null,
         "fields": []
     },
     {
@@ -14901,7 +14901,7 @@
             0
         ],
         "map_sprite_nid": "Bishop",
-        "combat_anim_nid": "Bishop",
+        "combat_anim_nid": "Doctor",
         "fields": []
     },
     {
@@ -15116,7 +15116,7 @@
             0
         ],
         "map_sprite_nid": "Cleric",
-        "combat_anim_nid": "Cleric",
+        "combat_anim_nid": null,
         "fields": []
     },
     {
@@ -17337,7 +17337,7 @@
             0
         ],
         "map_sprite_nid": null,
-        "combat_anim_nid": "Harrier",
+        "combat_anim_nid": "Heretic",
         "fields": []
     },
     {

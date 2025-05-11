@@ -3,7 +3,7 @@
         "nid": "Author",
         "sub_nid": "Author",
         "credit_type": "Text",
-        "category": "Game",
+        "category": "Base",
         "icon_index": [],
         "contrib": [
             [
@@ -16,7 +16,7 @@
         "nid": "Engine",
         "sub_nid": "Engine",
         "credit_type": "Text",
-        "category": "Game",
+        "category": "Base",
         "icon_index": [],
         "contrib": [
             [
@@ -29,7 +29,7 @@
         "nid": "GraphicsRepo",
         "sub_nid": "FE Graphics Repo",
         "credit_type": "Text",
-        "category": "Game",
+        "category": "Base",
         "icon_index": [],
         "contrib": [
             [
@@ -3724,6 +3724,791 @@
             [
                 "Cynon",
                 "Marble Floor"
+            ]
+        ]
+    },
+    {
+        "nid": "SpecialAnim",
+        "sub_nid": "Special",
+        "credit_type": "List",
+        "category": "Battle Anim",
+        "icon_index": [],
+        "contrib": [
+            [
+                "Teraspark",
+                "Eirika Repal + Magus T1"
+            ],
+            [
+                "JaidynReiman",
+                "Added Magus Magic + Staff to Eirika Repal"
+            ],
+            [
+                "Jono the Red, JaidynReiman",
+                "Beta Eirika Fixed"
+            ],
+            [
+                "JaidynReiman",
+                "Beta Eirika: Amaya Reskin"
+            ],
+            [
+                "TyTheBub",
+                "Mage Lord"
+            ],
+            [
+                "Alexplode",
+                "Muse / Gypsy Dancer"
+            ]
+        ]
+    },
+    {
+        "nid": "SwordAnim",
+        "sub_nid": "Swords",
+        "credit_type": "List",
+        "category": "Battle Anim",
+        "icon_index": [],
+        "contrib": [
+            [
+                "Nuramon, ErrantShepherd",
+                "Villager V2"
+            ],
+            [
+                "SageHapuiaJDJ",
+                "Villager Blade Beam"
+            ],
+            [
+                "SALVAGED",
+                "Mercenary Variant"
+            ],
+            [
+                "Jey the Count",
+                "Mercenary Female"
+            ],
+            [
+                "Pushwall",
+                "Mercenary-F Minor Fixes and Axe"
+            ],
+            [
+                "Iscaneus, Leo_Link",
+                "Awakening Myrmidon"
+            ],
+            [
+                "Leo_Link, UltraFenix",
+                "Blader Myrmidon Long Hair"
+            ],
+            [
+                "Iscaneus, Leo_Link, 7743",
+                "Awakening Myrmidon Female"
+            ],
+            [
+                "GabrielKnight, BigMood",
+                "Laijutsu Samurai"
+            ],
+            [
+                "Redbean",
+                "Fir Swordmaster"
+            ],
+            [
+                "VelvetKitsune, Spud",
+                "Fir Lance"
+            ]
+        ]
+    },
+    {
+        "nid": "LanceAnim",
+        "sub_nid": "Lances",
+        "credit_type": "List",
+        "category": "Battle Anim",
+        "icon_index": [],
+        "contrib": [
+            [
+                "IS",
+                "Ephraim T1 Base"
+            ],
+            [
+                "DerTheVaporean, Pikmin1211",
+                "Ephraim T1 Additional Weapons"
+            ],
+            [
+                "ZoramineFae",
+                "Ephraim T1 Rapier"
+            ],
+            [
+                "Alusq",
+                "Militia"
+            ],
+            [
+                "Knabepicer",
+                "Militia Female"
+            ],
+            [
+                "Alusq",
+                "Lightweight Lancer"
+            ],
+            [
+                "Maiser6",
+                "Lightweight Lancer Female"
+            ],
+            [
+                "Spud, Leo_Link, Iscaneous, Nuramon",
+                "Sargeant"
+            ],
+            [
+                "Dora Drago",
+                "Sargeant Female"
+            ],
+            [
+                "RedBean, Jeorge_Reds",
+                "Priestess Celica T2"
+            ],
+            [
+                "Marlon0024, Jeorge_Reds, EA, Smash, RedBean",
+                "Priestess Celica Lance"
+            ],
+            [
+                "EA",
+                "Priestess Celica Eirika Variant"
+            ],
+            [
+                "UltraxBlade, 7743",
+                "Priestess Celica Alt Magic"
+            ],
+            [
+                "Sirknite31",
+                "Priestess Celica Javelin"
+            ]
+        ]
+    },
+    {
+        "nid": "AxeAnim",
+        "sub_nid": "Axes",
+        "credit_type": "List",
+        "category": "Battle Anim",
+        "icon_index": [],
+        "contrib": [
+            [
+                "SamirPlayz",
+                "Journeyman Repal"
+            ],
+            [
+                "MK404",
+                "FE9 Fighter"
+            ],
+            [
+                "Glenwing",
+                "FE9 Fighter Repal"
+            ],
+            [
+                "Pikmin1211, Maiser6",
+                "Female FE9 Fighter"
+            ],
+            [
+                "Leo_Link, Nuramon, Spud, Jey the Count",
+                "Tellius Warrior"
+            ],
+            [
+                "Jotari",
+                "Tellius Warrior Crossbow"
+            ],
+            [
+                "FEGirls",
+                "Warrior Female Thin"
+            ],
+            [
+                "IS",
+                "Brigand Base"
+            ],
+            [
+                "Chi-Chi",
+                "Brigand Magic Axe"
+            ],
+            [
+                "Yerek",
+                "Brigand Handaxe Fix"
+            ],
+            [
+                "Vilk",
+                "Brigand White Pixel Fix"
+            ],
+            [
+                "eCut, Skitty",
+                "Brigand Female"
+            ],
+            [
+                "Chi-Chi, Itranc",
+                "Brigand-F Magic Axe"
+            ],
+            [
+                "Nuramon, MarioKirby, Wan",
+                "Pirate Variant"
+            ],
+            [
+                "Itranc",
+                "Pirate Variant Magic Axe"
+            ],
+            [
+                "Wan/Eliwan",
+                "Vanilla Pirate Repal"
+            ],
+            [
+                "Furious Squid, Raulster/Alice",
+                "Pirate Slender"
+            ],
+            [
+                "DerTheVaporean",
+                "Pirate DS"
+            ],
+            [
+                "GreenTea, DerTheVaporean",
+                "Berserker-Reskin Dart"
+            ],
+            [
+                "Spud",
+                "Dart Axe, Handaxe, Unarmed, Sword"
+            ],
+            [
+                "BwdYeti, RAspberry",
+                "Dark Smoothed Axe"
+            ],
+            [
+                "eCut, Skitty, Natsumi/Serif",
+                "Berserker-F Armored v2"
+            ],
+            [
+                "Raulster/Alice",
+                "Berserker-F Armored v2 Magic Axe"
+            ],
+            [
+                "Dora_Drago",
+                "Oni Savage"
+            ]
+        ]
+    },
+    {
+        "nid": "BowAnim",
+        "sub_nid": "Bow",
+        "credit_type": "List",
+        "category": "Battle Anim",
+        "icon_index": [],
+        "contrib": [
+            [
+                "DertheVaporean",
+                "Archer-M w/Headband"
+            ],
+            [
+                "DertheVaporean",
+                "Archer-F w/Long Hair"
+            ],
+            [
+                "Leo_Link, Spud, MeatOfJustice",
+                "Hunter"
+            ],
+            [
+                "VelvetKistune",
+                "Hunter Kemomimi"
+            ],
+            [
+                "DertheVaporean",
+                "Mechanist"
+            ],
+            [
+                "ZessDynamite",
+                "Mechanist Commissioned"
+            ],
+            [
+                "IS",
+                "Sniper Vanilla"
+            ],
+            [
+                "Merpin",
+                "Sniper Magic"
+            ],
+            [
+                "Sphealnuke",
+                "Sniper Crossbow"
+            ],
+            [
+                "Greg",
+                "Sniper Crossbow Commissioned"
+            ],
+            [
+                "Nuramon",
+                "Marksman"
+            ],
+            [
+                "SaintRubenio",
+                "Marksman Magic"
+            ]
+        ]
+    },
+    {
+        "nid": "CavalryAnim",
+        "sub_nid": "Cavalry",
+        "credit_type": "List",
+        "category": "Battle Anim",
+        "icon_index": [],
+        "contrib": [
+            [
+                "IS",
+                "Nomad"
+            ],
+            [
+                "eCut",
+                "Nomad Non-Sacaen"
+            ],
+            [
+                "Pikmin1211, Maiser6",
+                "Nomad Non-Sacaen Repal"
+            ],
+            [
+                "SALVAGED",
+                "Cavalier Variant"
+            ],
+            [
+                "CelestiaHeart",
+                "Cavalier Variant Female"
+            ],
+            [
+                "SALVAGED",
+                "Paladin Variant"
+            ],
+            [
+                "Obsidian Daddy",
+                "Paladin Variant Bow"
+            ],
+            [
+                "ZoramineFae, UltraxBlade",
+                "Paladin Variant Magic"
+            ],
+            [
+                "HGS, Levin64, RJ_Exists, Obsidian Daddy",
+                "Paladin Female"
+            ],
+            [
+                "WhatIsAnAubin",
+                "Paladin Female Magic"
+            ],
+            [
+                "UltraFenix",
+                "Paladin Female Magic Axe"
+            ],
+            [
+                "IS",
+                "Ranger"
+            ],
+            [
+                "Skitty, Feaw",
+                "Ranger Lance"
+            ],
+            [
+                "Jey the Count",
+                "Ranger Smoothed Sword"
+            ],
+            [
+                "SaintRubenio",
+                "Ranger Magic"
+            ],
+            [
+                "Aruka, Kenpuhu",
+                "Grand Paladin"
+            ],
+            [
+                "Nuramon",
+                "Grand Paladin Horse/Armor Repal"
+            ],
+            [
+                "Nuramon",
+                "Grand Paladin Axe, Handaxe, Unarmed"
+            ],
+            [
+                "Spud",
+                "Grand Paladin Magic"
+            ],
+            [
+                "Teelvade",
+                "Brigand Rider"
+            ],
+            [
+                "ZoramineFae",
+                "Brigand Rider Touchups, Sword"
+            ],
+            [
+                "Teraspark",
+                "Brigand Rider Hellhound Repal"
+            ],
+            [
+                "eCut",
+                "Brigand Rider Female Model"
+            ],
+            [
+                "VelvetKitsune",
+                "Wolf Knight"
+            ],
+            [
+                "JaidynReiman",
+                "Wolf Knight Long Hair"
+            ],
+            [
+                "DATonDemand",
+                "Wolf Knight Revamp"
+            ]
+        ]
+    },
+    {
+        "nid": "FlyingAnim",
+        "sub_nid": "Fliers",
+        "credit_type": "List",
+        "category": "Battle Anim",
+        "icon_index": [],
+        "contrib": [
+            [
+                "Unknown",
+                "Nephilim"
+            ],
+            [
+                "Flasuban",
+                "Peg T1 Repal V2"
+            ],
+            [
+                "UltraFenix",
+                "Peg T1 Unarmed Fix + Magic"
+            ],
+            [
+                "Leo_Link, L95",
+                "Peg T1 Original Light Magic"
+            ],
+            [
+                "Ayr",
+                "Harrier"
+            ],
+            [
+                "DATonDemand",
+                "Harrier Daggers"
+            ],
+            [
+                "Faolin",
+                "Harrier Script Fix"
+            ],
+            [
+                "WhatIsAnAubin",
+                "Harrier Lance"
+            ],
+            [
+                "7743",
+                "Harrier Original Tethys Lance"
+            ],
+            [
+                "DATonDemand",
+                "Vidame"
+            ],
+            [
+                "Leo_Link",
+                "Armless Wyvern"
+            ],
+            [
+                "Jj09",
+                "Armless Wyvern Script"
+            ],
+            [
+                "Itranc",
+                "Armless Wyvern Magic Frames"
+            ],
+            [
+                "Leo_Link",
+                "Malig Knight Alt"
+            ],
+            [
+                "Jj09",
+                "Malig Knight Alt Handaxe, Javelin"
+            ],
+            [
+                "UltraxBlade",
+                "Malig Knight Alt More Edits"
+            ],
+            [
+                "DATonDemand",
+                "Malig Queen Reskin"
+            ],
+            [
+                "Sphealnuke's Living Armor",
+                "Malig Queen Original Handaxe Splice"
+            ]
+        ]
+    },
+    {
+        "nid": "ArmorAnim",
+        "sub_nid": "Armor",
+        "credit_type": "List",
+        "category": "Battle Anim",
+        "icon_index": [],
+        "contrib": [
+            [
+                "SALVAGED",
+                "Knight Variant"
+            ],
+            [
+                "BoneManSeth",
+                "Knight Variant Helmetless"
+            ],
+            [
+                "Leo_Link, Nuramon, Iscaneus",
+                "Baron Cape, No Clicks"
+            ],
+            [
+                "Sax Marine",
+                "Baron Revamped Handaxe"
+            ],
+            [
+                "DerTheVaporean",
+                "Baron Magic"
+            ]
+        ]
+    },
+    {
+        "nid": "MageAnimaAnim",
+        "sub_nid": "Mage: Anima",
+        "credit_type": "List",
+        "category": "Battle Anim",
+        "icon_index": [],
+        "contrib": [
+            [
+                "GabrielKnight",
+                "Mage Hatless"
+            ],
+            [
+                "UltraFenix",
+                "Mage Hatless Repal"
+            ],
+            [
+                "IS",
+                "Mage Female Base"
+            ],
+            [
+                "Shin19",
+                "Mage Fixed Magic"
+            ],
+            [
+                "DATonDemand",
+                "Mage Dagger"
+            ],
+            [
+                "Leo_Link, L95",
+                "Light Mage"
+            ],
+            [
+                "Flasuban",
+                "Light Mage Male"
+            ],
+            [
+                "Flasuban",
+                "Light Mage Long Hair"
+            ],
+            [
+                "St Jack, The_Big_Dededester, Dolkar, CranJam",
+                "Battle Sage Repal"
+            ],
+            [
+                "The_Big_Dededestar, Dolkar",
+                "Battle Sage Staff"
+            ],
+            [
+                "Jj09",
+                "Battle Sage Alt"
+            ],
+            [
+                "St Jack",
+                "Battle Sage Female + Sword"
+            ],
+            [
+                "TyTheBub",
+                "Mage Lord"
+            ]
+        ]
+    },
+    {
+        "nid": "MageHolyAnim",
+        "sub_nid": "Mage: Holy",
+        "credit_type": "List",
+        "category": "Battle Anim",
+        "icon_index": [],
+        "contrib": [
+            [
+                "Teraspark",
+                "Monk Repal + Staff"
+            ],
+            [
+                "GabrielKnight",
+                "Custom Oracle"
+            ],
+            [
+                "Seal",
+                "Oracle Repal"
+            ],
+            [
+                "Flasuban",
+                "Oracle Male"
+            ],
+            [
+                "MrNight48",
+                "Patriarch, Matriarch"
+            ],
+            [
+                "DerTheVaporean",
+                "Patriarch, Matriarch Looping Cape / Crit Fixed"
+            ],
+            [
+                "7743",
+                "Matriarch Alt Crit"
+            ],
+            [
+                "DerTheVaporean, Pikmin1211",
+                "War Monk"
+            ],
+            [
+                "Leo_Link, Iscaneus, DerTheVaporean, ",
+                "War Cleric"
+            ],
+            [
+                "TyTheBub, 7743",
+                "War Cleric Dress Edit"
+            ]
+        ]
+    },
+    {
+        "nid": "MageDarkAnim",
+        "sub_nid": "Mage: Dark",
+        "credit_type": "List",
+        "category": "Battle Anim",
+        "icon_index": [],
+        "contrib": [
+            [
+                "BatimatheBat",
+                "Awakening Dark Mage Still"
+            ],
+            [
+                "Leo_Link",
+                "Awakening Dark Mage Animation"
+            ],
+            [
+                "Temp",
+                "Shaman Hoodless"
+            ],
+            [
+                "Shin19",
+                "Shaman Hoodless Fixed Magic"
+            ],
+            [
+                "nenerune",
+                "Custom Sophia"
+            ],
+            [
+                "Red Bean",
+                "Custom Sophia Improved"
+            ],
+            [
+                "Pikmin1211",
+                "Custom Dark Mage Still"
+            ],
+            [
+                "Jey the Count",
+                "Custom Dark Mage Animation"
+            ],
+            [
+                "IS, EldritchAbomination",
+                "Summoner"
+            ],
+            [
+                "VelvetKitsune, Author_Pendragon",
+                "Summoner Female"
+            ]
+        ]
+    },
+    {
+        "nid": "MageCavAnim",
+        "sub_nid": "Mage: Cavalry",
+        "credit_type": "List",
+        "category": "Battle Anim",
+        "icon_index": [],
+        "contrib": [
+            [
+                "Pikmin1211, GabrielKnight, Maiser6",
+                "Deacon V2 Repal"
+            ],
+            [
+                "TBA",
+                "Deacon Sword"
+            ],
+            [
+                "Lisandra_Brave",
+                "Deacon Magic"
+            ],
+            [
+                "Pikmin1211, Maiser6",
+                "Troubadour Ponytail Repal"
+            ],
+            [
+                "TBA",
+                "Troubadour Sword"
+            ],
+            [
+                "Lisandra_Brave",
+                "Troubadour Magic"
+            ],
+            [
+                "IS",
+                "Mage Knight Base"
+            ],
+            [
+                "Aruka, Kenpuhu",
+                "Mage Knight Sword"
+            ],
+            [
+                "Teraspark",
+                "Mage Knight Lance"
+            ],
+            [
+                "Merpin",
+                "Mage Knight Female Lance"
+            ]
+        ]
+    },
+    {
+        "nid": "MonsterAnim",
+        "sub_nid": "Monsters",
+        "credit_type": "List",
+        "category": "Battle Anim",
+        "icon_index": [],
+        "contrib": [
+            [
+                "VelvetKitsune",
+                "Wolf"
+            ],
+            [
+                "Teraspark",
+                "Hellhound Vanilla Repal"
+            ],
+            [
+                "Unknown",
+                "Wild Fellbeast"
+            ],
+            [
+                "SkidMarc25",
+                "Wild Wyvern Knight"
+            ],
+            [
+                "Kemui52",
+                "Wild Wyvern Knight Script"
+            ],
+            [
+                "IS",
+                "Bael"
+            ],
+            [
+                "Sirknite31",
+                "Bael Magic"
+            ],
+            [
+                "Teraspark",
+                "Elder Bael Repal + Magic"
             ]
         ]
     },

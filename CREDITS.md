@@ -453,36 +453,49 @@ Regrowth (Dark 4 by Zarg)???
 ##### Lords
 Lady/Svetlanya (Eirika Repal + Magus by Teraspark; customizations needed: create a reskin to include)
 Lake Lady/Svetlanya (create a reskin/custom)
-Lieutenant/Amaya (Beta Eirika Fixed by Jojo; Amaya Reskin by JaidynReiman)
+Lieutenant/Amaya (Beta Eirika Fixed by Jono the Red; Amaya Reskin by JaidynReiman)
 Lord/Dahlten (Mage Lord by TytheBub; customizations needed: Mage Lord needs a sword animation and longer hair)
 Pirate Lord/Dahlten (Mage Lord by TytheBub; customization needed: Mage Lord needs a sword animation, ideally have longer hair)
-Tsuiho/Relm (Thief; customizations needed: add a magic animation, really long hair, need a head covering to cover up her horns and long sleeves over the arms)
+Tsuiho/Relm (Thief; customizations needed: add a magic animation, really long hair, need a head covering and long sleeves over the arms)
 
 
 ##### Dancers, Bards
-Dancer (Tethys Vanilla by IS, Sword by Circleseverywhere, Refresh (FE7) by Marlon0024, Refresh (Fixed) by Kao, Magic Animation by SaintRubenio)
+Dancer (Gypsy-Muse by Alexsplode)
 
 ##### Pirates, Brigands, Berserkers
-Pirate-M (Vanilla Pirate by IS)
-Pirate-F (Vanilla Repalette by Wan/Eliwan, Slim F Pirate by Furious Squid, Remake + Repalette by Raulster/Alice)
-Privateer M (Berserker-Hawkeye - base by IS; Hawkzerker by TheBlindArcher; Sword/Unarmed by Maiser6; Fixed Handaxe by TBA/Maiser6; Lance/Bow by ZoramineFae)
-Privateer F (Berserker-Hawkeye - design by Pikmin1211; Sword/Axe/Handaxe/Unarmed by Maiser6; Lance/Bow by ZoramineFae; Magic Axe by UltraFenix; Greatsword by NX)
+Brigand-M (Brigand by IS, Magic Axe Chi-Chi, Handaxe by Yerek, Removed White Pixel by Vilk)
+Brigand-F (Barbarian by eCut, Scripted by Skitty, Magic Axe by Chi-Chi, scripted by Itranc)
+Pirate (Pirate Variant by Nuramon, MarioKirby, Wan; Axe (Magic) by Itranc)
+Pirate-F Slender (Vanilla Repalette by Wan/Eliwan, Slim F Pirate by Furious Squid, Remake + Repalette by Raulster/Alice)
+Pirate-Stubs (Custom Pirate DS-Style by DerTheVaporeon)
+Privateer-M (Berserker-Reskin Dart by GreenTea. Axe/Handaxe/Unarmed/Sword added by Spud, Smoothed Axe by BwdYeti, modified by Raspberry, Scripted by DerTheVaporeon and Spud)
+Privateer F (Berserker-F Armored v2 Repal by eCut, Scripted by Skitty, Repal by Natsumi/Serif, Magic Axe by Raulster/Alice)
+Savage (Oni Savage by Dora_Drago)
 
 ##### Fighters, Warriors
-Pioneer-M (FE9 Fighter-M by MK404, Repalette by Glenwing)
-Pioneer-F (origby MK404, F Base Stills by Pikmin1211 and Maiser6, Animations by Maiser6, Palettes by Pikmin1211)
+Forester (Journeyman Repal by SamirPlayz)
+Pioneer-M (FE9 Fighter Repal by MK404, Repalette by Glenwing)
+Pioneer-F (FE9 Variant by Pikmin1211, Animation by Maiser6)
+Gladiator-M (Tellius Base by Leo_Link, Nuramon, Spud, Jey the Count, Crossbow by Jotari)
+Gladiator-F (Warrior-Reskin Thin by FEGirls)
 
 ##### Archers, Hunters
+Archer-M (Archer w/ Headband by DerTheVaporeon)
+Archer-F (Archer w/ Long Hair by DerTheVaporeon)
 Hunter (Hunter by Leo_link, Spud, MeatOfJustice, Kemomimi version by VelvetKitsune)
+Artillery (Mechanist by Sphealnuke, Commissioned by ZessDynamite)
+Sniper (Vanilla Sniper by IS, Magic by Merpin, Crossbow Animation by Sphealnuke, Commissioned by Greg)Sniper-F (Same as Sniper-M, with Edit by ShadowAllyX)
+Marksman (Marksman by Nuramon)
+Marksman (Marksman by Nuramon, Magic by SaintRubenio)
 
 ##### Mercenaries / Heroes
 Villager (Villager-Custom by Nuramon, Still by ErrantShepherd/Nuramon, Blade Beam by SageHapuiaJDJ)
+Mercenary-M (Mercenary by SALVAGED)
+Mercenary-F (Mercenary by SALVAGED, Female by Jey the Count, Minor fixes and Axe by Pushwall)
 
 ##### Myrmidons / Swordmasters
-Fencer-F (Eirika T1 by IS, T1 Repalette by Teraspark, T1 Lance by Flasuban, T1 Magic Alt by FaerieFruit)
-Fencer-M (Eliwood T1 by IS, Repalette by Teraspark, Lance by Flasuban, Magic Alt by FaerieFruit)
-Mercenary (FE15 Myrmidon by Nuramon)
-Dismounted Nomad (Vanilla Myrmidon sword/unarmed by IS, Myrmidon Bow by N426)
+Nomad-M (Vanilla FE6-8 by IS, Tails Seliost1)
+Nomad-F (Vanilla FE6 Ponytail by IS, Bow by N426, Tails by JaidynReiman, Seliost1)
 Blade Dancer (Vanilla Swordmaster by IS)
 Myrmidon-M (Awakening-Style Myrmidon sprite by Iscaneus, animated by Leo_Link)
 Myrmidon-M Long Hair (Blader Myrmidon Long Hair by Leo_link. Scripted and Unarmed by UltraFenix)
@@ -490,29 +503,64 @@ Myrmidon-F (Awakening-Style Myrmidon sprite by Iscaneus, animated by Leo_Link, H
 Bushi (Rogue-Variant Laijutsu Samurai M/F by GabrielKnight, BigMood)
 Samurai (Dread Fighter by Nuramon)
 Kasuto (Fir Swordmaster Animation by RedBean, Scripting by Jj09, Lance animation by VelvetKitsune, Spud)
-Kunaito (Marisa Swordmaster Made by Red Bean, Scripted by Sable Mage)
 
 ##### Soldiers / Halberdiers
+Fencer-M (Ephraim T1 Repack Lance by IS, Additional weapons by DerTheVaporeon, Pikmin1211; Rapier and Staff by ZoramineFae, Fixed Staff by Permafrost)
+Fencer-F (Ephraim T1 Repack Lance by IS, Additional weapons by DerTheVaporeon, Pikmin1211; Rapier and Staff by ZoramineFae, Fixed Staff by Permafrost)
 Militia-M (Militia by Alusq)
 Militia-F (Original Militia by Alusq, edit by Knabepicer)
 Soldier-M (Lightweight Lancer by Alusq, Sword Animation by JeyTheCount)
-Soldier-F (Lightweight Lancer Female by Maiser6, Sword Adapted to Female by JaidynReiman)
+Soldier-F (Lightweight Lancer Female by Maiser6)
 Sargeant-M (Sergeant by Spud, Leolink, Iscaneous, Nuramon)
 Sargeant-F (Female Sargeant Version By ドラドラゴ, aka Dora Drago).
 Admiral (Heavy Infantry Ephraim by Nuramon)
+Captain Serena (Priestess Celica T2 Sword, Magic, Unarmed by Red Bean, Scripted by Jeorge_Reds, Lance by Marlon0024, Jeorge_Reds, EA, Smash, Red Bean, Eirika Variant made by EA, Magic Alt animation by UltraxBlade and scripted by 7743, Javelin animation and script by Sirknite31)
 
 ##### Armours
 Guard (Knight-Variant Helmetless by SALVAGED, BoneManSeth)
 Bulwark (Baron Cape, No Clicks by Leo_link, Nuramon, Iscaneus, Revamped Handaxe by Sax Marine, Magic by DerTheVaporean)
 
 ##### Mounted, Cavaliers
-Mounted Nomad (Vanilla by IS)
+Scout (Non-Sacaen Nomad by eCut, Repalette by Pikmin1211 and Maiser6)
+Scout (Non-Sacaen Repal Long-Hair by eCut, Repalette by Pikmin1211 and Maiser6)
 Cavalry (Cavalier V2 by SALVAGED, Female by CelestiaHeart)
+Paladin-M (Paladin Variant by SALVAGED, Bow by Obsidian Daddy, Magic by Zoramine Fae, Mag Script Fix by UltraxBlade)
+Paladin-F (Paladin Variant Female by SALVAGED, HGS, Levin64, RJ_Exists, Obsidian_Daddy; F Paladin Magic WhatIsAnAubin, Magic Axe by UltraFenix)
+Ranger (Vanilla by IS, Lance by Skitty and Feaw, Smoothed Sword by Jey The Count, Magic by SaintRubenio)
+Commander (Grand Paladin by Aruku and Kenpuhu; Horse/Armor Repal, Axe, Handaxe, Unarmed animation by Nuramon; Magic by Spud)
 
+##### Pegasi, Wyverns, Griffons
+Valkyrie (Custom Peg Nephilim by Unknown)
+Pegasus (Peg T1 Repal v2 Sword/Lance/Axe/Handaxe/Unarmed/Repalette by Flasuban; Unarmed Fix & Magic by UltraFenix; Light Mage by Leo_link and L95)
+Heretic (Peg Custom Harrier by Ayr, Daggers by DATonDemand, Small Script Fix by Faolin, Lance by WhatIsAnAubin based on Tethys Lance by 7743)
+Vidame (Vidame by DATonDemand)
+Drakoor (Armless Wyvern by Leo_Link, Script by Jj09, Magic Frames by Itranc)
+Sky Lord-M (Malig Knight Alt by Leo_Link, Handaxe and Javelin by jj09, Alternate edits by UltraxBlade)
+Sky Lord-F (Based on Malig Knight Alt, Malig Queen Reskin by DATonDemand, Handaxe Spliced from Sphealnuke's Living Armor)
+
+##### Valkyries and Mage Knights
+Tactician-M (Troubadour Deacon v2 Repal by Pikmin1211, GabrielKnight, Maiser6; Sword by TBA; Magic by Lisandra_Brave)
+Tactician-F (Ponytail Troubadour Ponytail Repal by Pikmin1211, Maiser6; Sword by TBA; Magic by Lisandra_Brave)
+Magic Corps-M (MK-Base by IS, Sword Rapidslash-crit by Aruka, Kenpuhu, Lance by Teraspark, Magic FE7 by Unknown)
+Magic Corps-F (MK-Base by IS, Sword Thunder-crit by Aruka, Kenpuhu, Magic Sword by Seal, Lance by Merpin based on Male Mage Knight)
 
 ##### Nature Mages
+Street Rat-M (Mage Hatless by GabrielKnight, Repal by UltraFenix)
+Street Rat-F (Mage FE7-8 by IS, Fixed magic by Shin19, Dagger by DATonDemand)
+Apprentice-M (Light Mage by Leo_Link and L95, Male by Flasuban)
+Apprentice-F (Light Mage by Leo_Link and L95, Long Hair by Flasuban)
+Sage-M (Battle Sage Repal by St jack, CranJam; Staff by The_Big_Dededester, Dolkar, Sword Alt by Jj09)
+Sage-F (Battle Sage +Sword by St Jack)
+Mage Lord (Mage Lord by TyTheBub)
 
 ##### Holy Mages
+Clergy (Monk Repal + Staff by Teraspark)
+Nurse-F (Custom Oracle by GabrielKnight, Repal by Seal)
+Nurse-M (Oracle by GabrielKnight, Male by Flasuban, Jj09)
+Doctor-M (Patriarch by MrNight48, Looping Cape and Crit Fixed by DerTheVaporeon)
+Doctor-F (Matriarch by MrNight48, Looping Cape and Crit Fixed by DerTheVaporeon, Alt Crit by 7743)
+Prior-M (FE13 War Monk by DerTheVaporeon, Pikmin1211)
+Prior-F (FE13 War Cleric by Leo_link, Iscaneus, DerTheVaporeon, Dress edit by TyTheBub, 7743)
 
 ##### Dark Mages
 Shaman (Awakening Dark Mage Still by BatimatheBat, Animation by Leo_Link)
@@ -525,12 +573,16 @@ Arcanist-F (Summoner-F by Velvet Kitsune, Author_Pendragon)
 ##### Monster Mounts
 Mounted Barbarian-M (Brigand Rider by Teelvade, Touch-ups by ZoramineFae, Sword by ZoramineFae, Hellhound Vanilla Repal by Teraspark)
 Mounted Barbarian-F (Brigand Rider by Teelvade, Touch-ups by ZoramineFae, Sword by ZoramineFae, Female Model by eCut, Hellhound Vanilla Repal by Teraspark)
-Wolf Knight (Wolf Knight by VelvetKitsune)
+Wolf Nomad (Wolf Knight by VelvetKitsune)
+Wolf Knight (Wolf Knight Revamp by DATonDemand)
 
 ##### Monsters
 Wolf (Wolf by Velvet Kitsune)
-Dire Wolf (Dire Wolf by Velvet Kitsune)
-
+Dire Wolf (Hellhound Repal by Teraspark)
+Sky Wyrm (Wild Fellbeast by Unknown)
+Wyvern (Wild Wyvern Knight Wyvern by SkidMarc25, Scripted by Kemui52)
+Tarantula (Bael by IS, Magic by Sirknite31)
+Bael (Elder Bael Repal by Teraspark)
 
 
 #### Map Sprite Animations
