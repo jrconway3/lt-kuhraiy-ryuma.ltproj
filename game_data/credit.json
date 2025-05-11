@@ -21,7 +21,7 @@
         "contrib": [
             [
                 null,
-                "Lex Talionis Engine and LT-Maker Editor created by rainlash{br}{br}Lex Talionis is a non-profit engine, released for free, and developed using Python, Pygame, and PyQt5. Some default assets are copyrighted or trademarked by their respective owners.{br}{br}Licensed under the MIT License.\nWith additional programming and help from the Lex Talionis Discord server, including mag, KD, Sigmaraven, TheeBill, Lord Tweed, ZessDynamite, Nemid, Kyogokudo, beccarte, Meinerieve, Greentwip, Klokinator, Sealvester, Joytis, and aorlnn.{br}{br}Narrow fonts and droppable item icon originally created by Scraiza."
+                "Lex Talionis Engine and LT-Maker Editor created by rainlash{br}{br}Lex Talionis is a non-profit engine, released for free, and developed using Python, Pygame, and PyQt5. Some default assets are copyrighted or trademarked by their respective owners.{br}{br}Licensed under the MIT License.\nWith additional programming and help from the Lex Talionis Discord server, including mag, KD, Sigmaraven, TheeBill, Lord Tweed, ZessDynamite, Nemid, Kyogokudo, beccarte, Meinerieve, Greentwip, Klokinator, Sealvester, Joytis, and aorlnn.{br}{br}Narrow fonts and droppable item icon originally created by Scraiza.\nHuge shoutout to Dang (El-Eitchdee) for the Credits Editor!"
             ]
         ]
     },
@@ -34,7 +34,7 @@
         "contrib": [
             [
                 null,
-                "All assets used were either modifications by me or imported from the FE Graphics and Music Repositories:\nhttps://github.com/Klokinator/FE-Repo{br}{br}Special Thanks to Klokinator, Jj09 and Jey the Count for gathering all these resources."
+                "All assets used were either modifications by me or imported from the FE Graphics and Music Repositories:{br}https://github.com/Klokinator/FE-Repo{br}{br}Special Thanks to Klokinator, Jj09 and Jey the Count for gathering all these resources."
             ]
         ]
     },
