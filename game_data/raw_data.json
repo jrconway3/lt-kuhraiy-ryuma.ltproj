@@ -45,6 +45,13 @@
                 "Type": "Aquis",
                 "Wexp": "71",
                 "Rank": "C"
+            },
+            {
+                "nid": "svet5",
+                "Item": "Deluge",
+                "Type": "Aquis",
+                "Wexp": "121",
+                "Rank": "B"
             }
         ]
     },

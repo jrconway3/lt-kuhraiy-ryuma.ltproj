@@ -1710,7 +1710,7 @@
             "add_lore;Svetlanya",
             "add_base_convo;Dreams of Home",
             "add_weather;rain",
-            "set_wexp;Svetlanya;Aquis;30",
+            "set_wexp;Svetlanya;Aquis;121",
             "give_skill;Svetlanya;Lanquiz;no_banner",
             "game_var;_supports;True",
             "add_talk;Svetlanya;Amaya",

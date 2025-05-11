@@ -17,3 +17,23 @@ class DoNothing(SkillComponent):
 
     expose = ComponentType.Int
     value = 1
+
+
+class ReduceWeaponWeight(SkillComponent):
+    nid = 'reduce_weapon_weight'
+    desc = 'Reduce weapon weight '
+    tag = SkillTags.CUSTOM
+
+    expose = ComponentType.Int
+    value = 1
+
+class AdjustWeight(SkillComponent):
+    nid = 'adjust_weight'
+    desc = "Applies +X weight"
+    tag = SkillTags.COMBAT
+
+    expose = ComponentType.Int
+    value = 2
+
+    def modify_resist(self, unit, item):
+        return self.value

@@ -3108,7 +3108,7 @@
             0
         ],
         "map_sprite_nid": "Lord",
-        "combat_anim_nid": null,
+        "combat_anim_nid": "MageLord",
         "fields": []
     },
     {
@@ -3575,7 +3575,7 @@
             0
         ],
         "map_sprite_nid": "WolfKnight",
-        "combat_anim_nid": "WolfNomad",
+        "combat_anim_nid": "WolfKnight",
         "fields": []
     },
     {
@@ -4022,235 +4022,12 @@
         "fields": []
     },
     {
-        "nid": "KnightLord",
-        "name": "Knight Lord",
-        "desc": "Heir to a fallen house devoting his life as a knight for his nation.\nRace: Alf, Mount: Horse",
-        "tier": 2,
-        "movement_group": "Heavy Cav",
-        "promotes_from": "Commander",
-        "turns_into": [],
-        "tags": [
-            "Lord",
-            "Horse",
-            "Mounted",
-            "Sword",
-            "Lightblade"
-        ],
-        "max_level": 40,
-        "bases": {
-            "LCK": 0,
-            "CON": 11,
-            "MOV": 8,
-            "RES": 6,
-            "STR": 7,
-            "HP": 23,
-            "MAG": 3,
-            "SKL": 6,
-            "SPD": 11,
-            "DEF": 8,
-            "MP": 0
-        },
-        "growths": {
-            "LCK": 25,
-            "CON": 0,
-            "MOV": 0,
-            "RES": 25,
-            "STR": 25,
-            "HP": 70,
-            "MAG": 12,
-            "SKL": 35,
-            "SPD": 25,
-            "DEF": 12,
-            "MP": 0
-        },
-        "growth_bonus": {
-            "LCK": 0,
-            "CON": 0,
-            "MOV": 0,
-            "RES": 0,
-            "STR": 0,
-            "HP": 0,
-            "MAG": 0,
-            "SKL": 0,
-            "SPD": 0,
-            "DEF": 0,
-            "MP": 0
-        },
-        "promotion": {
-            "LCK": 0,
-            "CON": 2,
-            "MOV": -99,
-            "RES": 2,
-            "STR": 1,
-            "HP": 2,
-            "MAG": 0,
-            "SKL": 1,
-            "SPD": 2,
-            "DEF": 2,
-            "MP": 0
-        },
-        "max_stats": {
-            "LCK": 30,
-            "CON": 25,
-            "MOV": 15,
-            "RES": 26,
-            "STR": 25,
-            "HP": 60,
-            "MAG": 20,
-            "SKL": 27,
-            "SPD": 25,
-            "DEF": 25,
-            "MP": 30
-        },
-        "learned_skills": [
-            [
-                1,
-                "Canter"
-            ]
-        ],
-        "wexp_gain": {
-            "Sword": [
-                true,
-                30,
-                251
-            ],
-            "Dagger": [
-                false,
-                0,
-                null
-            ],
-            "Lance": [
-                true,
-                30,
-                251
-            ],
-            "Axe": [
-                false,
-                0,
-                251
-            ],
-            "Bow": [
-                false,
-                0,
-                251
-            ],
-            "Solus": [
-                false,
-                0,
-                251
-            ],
-            "Lunis": [
-                false,
-                0,
-                251
-            ],
-            "Ignis": [
-                false,
-                0,
-                null
-            ],
-            "Ventus": [
-                false,
-                0,
-                null
-            ],
-            "Fulgus": [
-                false,
-                0,
-                null
-            ],
-            "Tellus": [
-                false,
-                0,
-                251
-            ],
-            "Glacies": [
-                false,
-                0,
-                null
-            ],
-            "Aquis": [
-                false,
-                0,
-                null
-            ],
-            "Runic": [
-                false,
-                0,
-                251
-            ],
-            "Shield": [
-                false,
-                0,
-                null
-            ],
-            "Armor": [
-                false,
-                0,
-                null
-            ],
-            "Default": [
-                false,
-                0,
-                251
-            ],
-            "Valuables": [
-                false,
-                0,
-                null
-            ],
-            "Claw": [
-                false,
-                0,
-                null
-            ],
-            "Staff": [
-                false,
-                0,
-                251
-            ],
-            "Light": [
-                false,
-                0,
-                251
-            ],
-            "Anima": [
-                false,
-                0,
-                251
-            ],
-            "Dark": [
-                false,
-                0,
-                251
-            ],
-            "Earth": [
-                false,
-                0,
-                251
-            ],
-            "Magic": [
-                false,
-                0,
-                251
-            ]
-        },
-        "icon_nid": "Generic_Portrait_Citizen",
-        "icon_index": [
-            0,
-            0
-        ],
-        "map_sprite_nid": null,
-        "combat_anim_nid": "Paladin",
-        "fields": []
-    },
-    {
         "nid": "Commander",
         "name": "Commander",
         "desc": "A lord and high ranked Commander of the Knights of Masa.\nRace: Alf, Mount: Horse",
         "tier": 2,
         "movement_group": "Heavy Cav",
-        "promotes_from": "KnightLord",
+        "promotes_from": null,
         "turns_into": [],
         "tags": [
             "Lord",
@@ -4463,8 +4240,8 @@
             0,
             0
         ],
-        "map_sprite_nid": null,
-        "combat_anim_nid": "Paladin",
+        "map_sprite_nid": "Commander",
+        "combat_anim_nid": "Commander",
         "fields": []
     },
     {
@@ -5820,7 +5597,9 @@
         "promotes_from": null,
         "turns_into": [],
         "tags": [
-            "Chiylo"
+            "Sword",
+            "Greatsword",
+            "Lightblade"
         ],
         "max_level": 20,
         "bases": {
@@ -6546,8 +6325,9 @@
             "WolfNomad"
         ],
         "tags": [
-            "Lanquiz",
-            "Lykon"
+            "Lykon",
+            "Sword",
+            "Lightblade"
         ],
         "max_level": 20,
         "bases": {
@@ -7027,25 +6807,27 @@
         "name": "Bushi",
         "desc": "Soldier for hire skilled with swift movements with the blade.",
         "tier": 1,
-        "movement_group": "Light Cav",
+        "movement_group": "Light Foot",
         "promotes_from": null,
         "turns_into": [],
         "tags": [
-            "Chiylo"
+            "Sword",
+            "Katana",
+            "Lightblade"
         ],
         "max_level": 20,
         "bases": {
             "LCK": 0,
             "CON": 5,
-            "MOV": 6,
+            "MOV": 5,
             "RES": 3,
-            "STR": 6,
-            "HP": 16,
-            "MAG": 3,
-            "SKL": 7,
-            "SPD": 10,
-            "DEF": 5,
-            "MP": 7
+            "STR": 5,
+            "HP": 19,
+            "MAG": 5,
+            "SKL": 8,
+            "SPD": 11,
+            "DEF": 3,
+            "MP": 8
         },
         "growths": {
             "LCK": 45,
@@ -7053,11 +6835,11 @@
             "MOV": 0,
             "RES": 35,
             "STR": 35,
-            "HP": 45,
-            "MAG": 30,
+            "HP": 60,
+            "MAG": 40,
             "SKL": 75,
             "SPD": 80,
-            "DEF": 50,
+            "DEF": 45,
             "MP": 55
         },
         "growth_bonus": {
@@ -7099,7 +6881,12 @@
             "DEF": 20,
             "MP": 30
         },
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "NinjutsuFinesse"
+            ]
+        ],
         "wexp_gain": {
             "Sword": [
                 true,
@@ -7257,7 +7044,7 @@
             0,
             0
         ],
-        "map_sprite_nid": "Myrmidon",
+        "map_sprite_nid": "Bushi",
         "combat_anim_nid": "Bushi",
         "fields": []
     },
@@ -7695,7 +7482,7 @@
             0,
             0
         ],
-        "map_sprite_nid": null,
+        "map_sprite_nid": "Assassin",
         "combat_anim_nid": "Assassin",
         "fields": []
     },
@@ -9056,7 +8843,7 @@
         "promotes_from": null,
         "turns_into": [
             "Brave",
-            "Warrior"
+            "Gladiator"
         ],
         "tags": [],
         "max_level": 20,
@@ -9263,8 +9050,8 @@
         "fields": []
     },
     {
-        "nid": "Warrior",
-        "name": "Warrior",
+        "nid": "Gladiator",
+        "name": "Gladiator",
         "desc": "Determined fighters who relish battle.",
         "tier": 2,
         "movement_group": "Regular",
@@ -9471,7 +9258,7 @@
             0
         ],
         "map_sprite_nid": "Warrior",
-        "combat_anim_nid": null,
+        "combat_anim_nid": "Gladiator",
         "fields": []
     },
     {
@@ -10119,7 +9906,7 @@
             0
         ],
         "map_sprite_nid": "Pirate",
-        "combat_anim_nid": "Raider",
+        "combat_anim_nid": "Pirate",
         "fields": []
     },
     {
@@ -10338,8 +10125,8 @@
             0,
             0
         ],
-        "map_sprite_nid": "Berserker",
-        "combat_anim_nid": "Berserker",
+        "map_sprite_nid": "Privateer",
+        "combat_anim_nid": "Privateer",
         "fields": []
     },
     {
@@ -12284,7 +12071,7 @@
             0,
             0
         ],
-        "map_sprite_nid": "Cavalier",
+        "map_sprite_nid": "Cavalry",
         "combat_anim_nid": "Cavalry",
         "fields": []
     },
@@ -12504,7 +12291,7 @@
             0,
             0
         ],
-        "map_sprite_nid": null,
+        "map_sprite_nid": "Paladin",
         "combat_anim_nid": "Paladin",
         "fields": []
     },
@@ -12720,7 +12507,7 @@
             0
         ],
         "map_sprite_nid": "Scout",
-        "combat_anim_nid": "Archer",
+        "combat_anim_nid": "Scout",
         "fields": []
     },
     {
@@ -12940,7 +12727,7 @@
             0
         ],
         "map_sprite_nid": "Ranger",
-        "combat_anim_nid": null,
+        "combat_anim_nid": "Ranger",
         "fields": []
     },
     {
@@ -13154,7 +12941,7 @@
             0
         ],
         "map_sprite_nid": "Barbarian",
-        "combat_anim_nid": "Brigand",
+        "combat_anim_nid": "Barbarian",
         "fields": []
     },
     {
@@ -13370,7 +13157,7 @@
             0,
             0
         ],
-        "map_sprite_nid": "MarauderAxe",
+        "map_sprite_nid": "Marauder",
         "combat_anim_nid": "Berserker",
         "fields": []
     },
@@ -13813,7 +13600,7 @@
             0
         ],
         "map_sprite_nid": "WolfKnight",
-        "combat_anim_nid": "WolfNomad",
+        "combat_anim_nid": "WolfKnight",
         "fields": []
     },
     {
@@ -13824,7 +13611,7 @@
         "movement_group": "Heavy Cav",
         "promotes_from": null,
         "turns_into": [
-            "MageCorps",
+            "MagicCorps",
             "Saint"
         ],
         "tags": [
@@ -14036,12 +13823,12 @@
             0
         ],
         "map_sprite_nid": "Tactician",
-        "combat_anim_nid": null,
+        "combat_anim_nid": "Tactician",
         "fields": []
     },
     {
-        "nid": "MageCorps",
-        "name": "Mage Corps",
+        "nid": "MagicCorps",
+        "name": "MagicCorps",
         "desc": "",
         "tier": 2,
         "movement_group": "Light Cav",
@@ -14255,7 +14042,7 @@
             0
         ],
         "map_sprite_nid": "MagicCorps",
-        "combat_anim_nid": "Strategist",
+        "combat_anim_nid": "MagicCorps",
         "fields": []
     },
     {
@@ -14689,7 +14476,7 @@
             0
         ],
         "map_sprite_nid": "Monk",
-        "combat_anim_nid": null,
+        "combat_anim_nid": "Nurse",
         "fields": []
     },
     {
@@ -14900,7 +14687,7 @@
             0,
             0
         ],
-        "map_sprite_nid": "Bishop",
+        "map_sprite_nid": "Doctor",
         "combat_anim_nid": "Doctor",
         "fields": []
     },
@@ -15115,8 +14902,8 @@
             0,
             0
         ],
-        "map_sprite_nid": "Cleric",
-        "combat_anim_nid": null,
+        "map_sprite_nid": "Clergy",
+        "combat_anim_nid": "Clergy",
         "fields": []
     },
     {
@@ -15328,7 +15115,7 @@
             0
         ],
         "map_sprite_nid": "Prior",
-        "combat_anim_nid": null,
+        "combat_anim_nid": "Prior",
         "fields": []
     },
     {
@@ -15812,7 +15599,7 @@
         "movement_group": "Queiza",
         "promotes_from": null,
         "turns_into": [
-            "MageCorps",
+            "MagicCorps",
             "Sage"
         ],
         "tags": [],
@@ -16659,7 +16446,7 @@
             0
         ],
         "map_sprite_nid": "Shaman",
-        "combat_anim_nid": "Shaman",
+        "combat_anim_nid": "ShamanFemale",
         "fields": []
     },
     {
@@ -16671,7 +16458,7 @@
         "promotes_from": null,
         "turns_into": [
             "Falcoknight",
-            "Wyvern Knight"
+            "Dragoon"
         ],
         "tags": [
             "Mounted",
@@ -16885,7 +16672,7 @@
             0,
             0
         ],
-        "map_sprite_nid": null,
+        "map_sprite_nid": "WindRider",
         "combat_anim_nid": null,
         "fields": []
     },
@@ -17122,7 +16909,7 @@
         "promotes_from": null,
         "turns_into": [
             "Falcoknight",
-            "Wyvern Knight"
+            "Dragoon"
         ],
         "tags": [
             "Mounted",
@@ -17336,20 +17123,20 @@
             0,
             0
         ],
-        "map_sprite_nid": null,
+        "map_sprite_nid": "Heretic",
         "combat_anim_nid": "Heretic",
         "fields": []
     },
     {
-        "nid": "Wyvern Rider",
-        "name": "Wyvern Rider",
+        "nid": "Drakoor",
+        "name": "Drakoor",
         "desc": "",
         "tier": 1,
         "movement_group": "Fliers",
         "promotes_from": null,
         "turns_into": [
-            "Wyvern Lord",
-            "Wyvern Knight"
+            "SkyLord",
+            "Dragoon"
         ],
         "tags": [
             "Mounted",
@@ -17564,17 +17351,17 @@
             0,
             0
         ],
-        "map_sprite_nid": null,
+        "map_sprite_nid": "Drakoor",
         "combat_anim_nid": "Drakoor",
         "fields": []
     },
     {
-        "nid": "Wyvern Lord",
-        "name": "Wyvern Lord",
+        "nid": "SkyLord",
+        "name": "SkyLord",
         "desc": "",
         "tier": 2,
         "movement_group": "Fliers",
-        "promotes_from": "Wyvern Rider",
+        "promotes_from": "Drakoor",
         "turns_into": [],
         "tags": [
             "Mounted",
@@ -17789,17 +17576,17 @@
             0,
             0
         ],
-        "map_sprite_nid": null,
+        "map_sprite_nid": "SkyLord",
         "combat_anim_nid": "SkyLord",
         "fields": []
     },
     {
-        "nid": "Wyvern Knight",
-        "name": "Wyvern Knight",
+        "nid": "Dragoon",
+        "name": "Dragoon",
         "desc": "",
         "tier": 2,
         "movement_group": "Fliers",
-        "promotes_from": "Wyvern Rider",
+        "promotes_from": "Drakoor",
         "turns_into": [],
         "tags": [
             "Mounted",

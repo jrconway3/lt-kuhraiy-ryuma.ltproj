@@ -3297,12 +3297,12 @@
         "desc": "A young man who abandoned home and country. Wields a terrible power in his hands.",
         "variant": "",
         "level": 5,
-        "klass": "Mercenary",
+        "klass": "Bushi",
         "tags": [],
         "bases": {
             "LCK": 0,
             "RES": 0,
-            "CON": 0,
+            "CON": 1,
             "MOV": 0,
             "STR": 0,
             "HP": 0,
@@ -3342,6 +3342,10 @@
             [
                 "Serrated_Edge",
                 false
+            ],
+            [
+                "Dardevaja",
+                false
             ]
         ],
         "learned_skills": [],
@@ -3349,7 +3353,7 @@
         "wexp_gain": {
             "Sword": [
                 true,
-                71,
+                121,
                 251
             ],
             "Lance": [
@@ -6288,7 +6292,7 @@
         "desc": "A young Avyon woman of a fallen house,\nthe second of four Nephyliae siblings.\nShe is very loyal to her family.",
         "variant": "",
         "level": 9,
-        "klass": "Wyvern Rider",
+        "klass": "Drakoor",
         "tags": [],
         "bases": {
             "LCK": 4,
@@ -7138,7 +7142,7 @@
         "desc": "A Nephyliae drakoor mercenary, the second youngest of four siblings. Looks up to his big sis, Hanallel.",
         "variant": "",
         "level": 9,
-        "klass": "Wyvern Rider",
+        "klass": "Drakoor",
         "tags": [],
         "bases": {
             "LCK": 4,
@@ -7278,12 +7282,157 @@
         "fields": []
     },
     {
+        "nid": "Lijuona",
+        "name": "Lijuona",
+        "desc": "",
+        "variant": "",
+        "level": 9,
+        "klass": "Bushi",
+        "tags": [],
+        "bases": {
+            "LCK": 4,
+            "RES": 2,
+            "CON": 4,
+            "MOV": 7,
+            "STR": 14,
+            "HP": 30,
+            "MAG": 7,
+            "SKL": 9,
+            "SPD": 10,
+            "DEF": 12,
+            "MP": 0
+        },
+        "growths": {
+            "LCK": 35,
+            "RES": 15,
+            "CON": 0,
+            "MOV": 0,
+            "STR": 55,
+            "HP": 85,
+            "MAG": 25,
+            "SKL": 40,
+            "SPD": 45,
+            "DEF": 25,
+            "MP": 0
+        },
+        "stat_cap_modifiers": {
+            "RES": 0,
+            "LCK": 0,
+            "CON": 0,
+            "MOV": 0,
+            "STR": 0,
+            "HP": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
+            "MP": 0
+        },
+        "starting_items": [
+            [
+                "Steel_Katana",
+                false
+            ],
+            [
+                "Iron_Lance",
+                false
+            ],
+            [
+                "Vulnerary",
+                false
+            ]
+        ],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0,
+                251
+            ],
+            "Lance": [
+                true,
+                71,
+                251
+            ],
+            "Axe": [
+                false,
+                0,
+                251
+            ],
+            "Bow": [
+                false,
+                0,
+                251
+            ],
+            "Staff": [
+                false,
+                0,
+                251
+            ],
+            "Light": [
+                false,
+                0,
+                251
+            ],
+            "Anima": [
+                false,
+                0,
+                251
+            ],
+            "Dark": [
+                false,
+                0,
+                251
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ],
+            "Earth": [
+                false,
+                0,
+                251
+            ],
+            "Solus": [
+                false,
+                0,
+                251
+            ],
+            "Lunis": [
+                false,
+                0,
+                251
+            ],
+            "Tellus": [
+                false,
+                0,
+                251
+            ],
+            "Magic": [
+                false,
+                0,
+                251
+            ],
+            "Runic": [
+                false,
+                0,
+                251
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Citrus - Mauve [F2E]",
+        "affinity": "Fire",
+        "fields": []
+    },
+    {
         "nid": "Liberius",
         "name": "Liberius",
         "desc": "A drakoor mercenary for hire seeking to support his family. Husband of Florina.",
         "variant": "Female",
         "level": 1,
-        "klass": "Wyvern Lord",
+        "klass": "SkyLord",
         "tags": [],
         "bases": {
             "LCK": 14,
@@ -7706,7 +7855,7 @@
         "desc": "Mother of Melodia and former Lady Barrington of Omyrus, now the\nLady of Feirwall. Mariya's twin sister.",
         "variant": "Female",
         "level": 11,
-        "klass": "MageCorps",
+        "klass": "MagicCorps",
         "tags": [],
         "bases": {
             "LCK": 0,
