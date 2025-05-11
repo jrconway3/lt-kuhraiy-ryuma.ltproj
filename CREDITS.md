@@ -13,6 +13,8 @@ With additional programming and help from the Lex Talionis Discord server, inclu
 
 Narrow fonts and droppable item icon originally created by Scraiza.
 
+Huge shoutout to Dang ([El-Eitchdee](https://gitlab.com/El-Eitchdee/lt-maker)) for the Credits Editor!
+
 Lex Talionis is a non-profit engine, released for free, and developed using Python, Pygame, and PyQt5. Some default assets are copyrighted or trademarked by their respective owners.
 
 Licensed under the MIT License.
