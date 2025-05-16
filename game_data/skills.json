@@ -790,6 +790,14 @@
             [
                 "class_skill",
                 null
+            ],
+            [
+                "attack_speed_formula_override",
+                "ATTACK_SPEED"
+            ],
+            [
+                "alternate_defense_speed_formula",
+                "DEFENSE_SPEED"
             ]
         ]
     },

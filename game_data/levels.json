@@ -6,12 +6,14 @@
         "bg_tilemap": null,
         "party": "Svetlanya",
         "music": {
-            "player_phase": "Town - Metropolis (Bumming Around in PixelTown by Eric Mattyas www.soundimage.org)",
+            "player_phase": "Town - Large (Bustling Village by Eric Mattyas, www.soundimage.org)",
             "enemy_phase": "Battle - Enemy (Suikoden, Army Advance by Pandan)",
             "npc_phase": "(Act Raiser, Fillmore by Alusq)",
             "player_battle": "Battle - Attack (Triangle Strategy, Combat - Destiny by Kaidras)",
             "enemy_battle": "Battle - Defense (Triangle Strategy, Combat - Adversity by Kaidras)",
-            "boss_battle": "Boss - Minor (Riviera, Fierce Clash by ShinKuma)"
+            "boss_battle": "Boss - Minor (Riviera, Fierce Clash by ShinKuma)",
+            "enemy2_battle": "Battle - Defense (Triangle Strategy, Combat - Adversity by Kaidras)",
+            "enemy2_phase": "Battle - Enemy (Suikoden, Army Advance by Pandan)"
         },
         "objective": {
             "simple": "Go Shopping!",

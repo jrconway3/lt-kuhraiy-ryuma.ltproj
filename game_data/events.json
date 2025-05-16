@@ -3199,7 +3199,8 @@
         "priority": 70,
         "_source": [
             "t;close",
-            "music;Event - Legacy 2 (Suikoden 2, Reminiscence by Tak);100;no_warn",
+            "#music;Event - Legacy 2 (Suikoden 2, Reminiscence by Tak);100;no_warn",
+            "music;Event - Svetlanya Sad (Awkward Princess's Day Out by Eric Mattyas www.soundimage.org)",
             "add_unit;Kasuto;5,10;immediate",
             "change_tilemap;Oestridel Church;0,0;Oestridel Church;reload",
             "change_background;lunar_bg06_cathedral",
@@ -3587,7 +3588,8 @@
         "only_once": true,
         "priority": 50,
         "_source": [
-            "music;Town - Metropolis (Bumming Around in PixelTown by Eric Mattyas www.soundimage.org)",
+            "#music;Town - Metropolis (Bumming Around in PixelTown by Eric Mattyas www.soundimage.org)",
+            "music;Town - Large (Bustling Village by Eric Mattyas, www.soundimage.org)",
             "change_tilemap;Trade City Oestridel;0,0;Trade City Oestridel;reload",
             "remove_group;Intro;immediate",
             "add_group;FreeRoam;FreeRoam;immediate",

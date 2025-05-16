@@ -267,6 +267,10 @@
             [
                 "Iron_Lance",
                 false
+            ],
+            [
+                "BronzeShield",
+                false
             ]
         ],
         "learned_skills": [],

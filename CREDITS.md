@@ -1167,7 +1167,8 @@ Event - Raid (Monster Hunter, Black Fatalis - FEGBA by Mychahel)
 Event - Pirates (Roller Coaster Tycoon 2, Pirate Theme - FEGBA by Dolkar)
 
 #### Character Themes
-
+Event - Svetlanya (Awkward Princess by Eric Mattyas, www.soundimage.org)
+Event - Svetlanya Sad (Awkward Princess' Day Out by Eric Mattyas, www.soundimage.org)
 
 
 #### Other Themes
@@ -1177,7 +1178,8 @@ Victory Near (Lunar, Toward the Horizon - FEGBA by A Reliable Chair)
 Victory (Sword of Mana, Courage and Pride From the Heart - FEGBA by RandomWizard)
 
 #### Roam Themes
-Metropolis (Bumming Around in Pixel Town, Eric Mattyas www.soundimage.org)
+Town - Metropolis (Bumming Around in Pixel Town by Eric Mattyas www.soundimage.org)
+Town - Large (Bustling Village, Eric Mattyas www.soundimage.org)
 Town - Village (Actraiser, Northwall - FEGBA by Feier)
 Town - Peaceful Village (Act Raiser, Cassandra - FEGBA by Alusq)
 Castle - Major (RPG Maker PS1, Castle 2 - FEGBA RSFlame)

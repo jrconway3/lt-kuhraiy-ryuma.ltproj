@@ -18,22 +18,36 @@ class DoNothing(SkillComponent):
     expose = ComponentType.Int
     value = 1
 
-
-class ReduceWeaponWeight(SkillComponent):
-    nid = 'reduce_weapon_weight'
-    desc = 'Reduce weapon weight '
-    tag = SkillTags.CUSTOM
-
-    expose = ComponentType.Int
-    value = 1
-
-class AdjustWeight(SkillComponent):
-    nid = 'adjust_weight'
-    desc = "Applies +X weight"
+class WeightChange(SkillComponent):
+    nid = 'weight_change'
+    desc = "Raise or lower current weight"
     tag = SkillTags.COMBAT
 
     expose = ComponentType.Int
-    value = 2
+    value = 0
 
-    def modify_resist(self, unit, item):
-        return self.value
+    def modify_attack_speed(self, unit, item):
+        return -1 * max(0, (item.weight.value + self.value) - equations.parser.constitution(unit))
+
+    def modify_defense_speed(self, unit, item):
+        return -1 * max(0, (item.weight.value + self.value) - equations.parser.constitution(unit))
+
+    def modify_avoid(self, unit, item):
+        return -2 * max(0, (item.weight.value + self.value) - equations.parser.constitution(unit))
+
+class WeightMultiplier(SkillComponent):
+    nid = 'weight_multiplier'
+    desc = "Raise or lower current weight"
+    tag = SkillTags.COMBAT
+
+    expose = ComponentType.Int
+    value = 0
+
+    def modify_attack_speed(self, unit, item):
+        return -1 * max(0, (item.weight.value * self.value) - equations.parser.constitution(unit))
+
+    def modify_defense_speed(self, unit, item):
+        return -1 * max(0, (item.weight.value * self.value) - equations.parser.constitution(unit))
+
+    def modify_avoid(self, unit, item):
+        return -2 * max(0, (item.weight.value * self.value) - equations.parser.constitution(unit))
