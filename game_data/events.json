@@ -3257,6 +3257,7 @@
             "move_unit;Kasuto;9,7;no_warn",
             "wait;500",
             "interact_unit;Svetlanya;Event1;hit1;EventSplash;no_warn",
+            "change_unit_state;Svetlanya;",
             "wait;100",
             "sound;Surprise",
             "add_unit_map_anim;MapSurprise;Cleric1",
