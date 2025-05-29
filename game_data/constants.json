@@ -193,11 +193,11 @@
     ],
     [
         "roam_dir_pose",
-        true
+        false
     ],
     [
         "roam_dir_anim",
-        true
+        false
     ],
     [
         "autogenerate_grey_map_sprites",

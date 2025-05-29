@@ -9889,5 +9889,25 @@
         "portrait_nid": "{Kanna} [F2E] OC 8",
         "affinity": "Light",
         "fields": []
+    },
+    {
+        "nid": "new",
+        "name": "new",
+        "desc": "",
+        "variant": null,
+        "level": 1,
+        "klass": "new",
+        "tags": [],
+        "bases": {},
+        "growths": {},
+        "stat_cap_modifiers": {},
+        "starting_items": [],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {},
+        "alternate_classes": [],
+        "portrait_nid": "",
+        "affinity": null,
+        "fields": []
     }
 ]
