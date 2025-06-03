@@ -1098,7 +1098,7 @@
         "name": "Isabella",
         "desc": "Heir of House Toirahm of Siegwang.",
         "variant": "Female",
-        "level": 10,
+        "level": 7,
         "klass": "Myrmidon",
         "tags": [
             "Katana"
@@ -5433,7 +5433,7 @@
             ]
         },
         "alternate_classes": [],
-        "portrait_nid": "VigardeHealthy",
+        "portrait_nid": null,
         "affinity": "None",
         "fields": []
     },

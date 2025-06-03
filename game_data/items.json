@@ -2360,6 +2360,18 @@
             [
                 "battle_animation_music",
                 "Boss - Daemon (Riviera, Battle Against Demons by Pikmin1211)"
+            ],
+            [
+                "status_on_equip",
+                "Dardevaja"
+            ],
+            [
+                "ignore_weapon_advantage",
+                null
+            ],
+            [
+                "show_advantage_arrow",
+                null
             ]
         ]
     },

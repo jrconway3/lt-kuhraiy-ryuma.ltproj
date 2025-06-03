@@ -660,18 +660,6 @@
         "info_offset": 0
     },
     {
-        "nid": "VigardeHealthy",
-        "blinking_offset": [
-            24,
-            24
-        ],
-        "smiling_offset": [
-            16,
-            40
-        ],
-        "info_offset": 0
-    },
-    {
         "nid": "Lyon",
         "blinking_offset": [
             24,
@@ -2000,18 +1988,6 @@
         "smiling_offset": [
             16,
             32
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "{PKLucky} [F2E] OC 5",
-        "blinking_offset": [
-            24,
-            24
-        ],
-        "smiling_offset": [
-            24,
-            40
         ],
         "info_offset": 0
     },

@@ -4,7 +4,7 @@
         "name": "new",
         "desc": "",
         "tier": 1,
-        "movement_group": null,
+        "movement_group": "Light Foot",
         "promotes_from": null,
         "turns_into": [],
         "tags": [],
@@ -284,6 +284,11 @@
                 251
             ],
             "Valuables": [
+                false,
+                0,
+                null
+            ],
+            "Dragon": [
                 false,
                 0,
                 null
@@ -5183,6 +5188,11 @@
                 0,
                 null
             ],
+            "Dragon": [
+                false,
+                0,
+                null
+            ],
             "Claw": [
                 false,
                 0,
@@ -5249,7 +5259,7 @@
             0,
             0
         ],
-        "map_sprite_nid": "Dancer",
+        "map_sprite_nid": "DancerGypsy",
         "combat_anim_nid": "Dancer",
         "fields": []
     },
@@ -5416,6 +5426,11 @@
                 251
             ],
             "Valuables": [
+                false,
+                0,
+                null
+            ],
+            "Dragon": [
                 false,
                 0,
                 null
@@ -5640,6 +5655,11 @@
                 0,
                 null
             ],
+            "Dragon": [
+                false,
+                0,
+                null
+            ],
             "Claw": [
                 false,
                 0,
@@ -5712,7 +5732,7 @@
     },
     {
         "nid": "Myrmidon",
-        "name": "Nomad",
+        "name": "Myrmidon",
         "desc": "Soldier for hire skilled with swift movements with the blade.",
         "tier": 1,
         "movement_group": "Light Foot",
@@ -5728,13 +5748,13 @@
             "LCK": 0,
             "CON": 11,
             "MOV": 5,
-            "RES": 3,
+            "RES": 5,
             "STR": 6,
-            "HP": 13,
+            "HP": 16,
             "MAG": 3,
             "SKL": 7,
             "SPD": 10,
-            "DEF": 5,
+            "DEF": 6,
             "MP": 6
         },
         "growths": {
@@ -5742,12 +5762,12 @@
             "CON": 0,
             "MOV": 0,
             "RES": 35,
-            "STR": 35,
+            "STR": 50,
             "HP": 60,
-            "MAG": 17,
-            "SKL": 40,
-            "SPD": 60,
-            "DEF": 45,
+            "MAG": 35,
+            "SKL": 55,
+            "SPD": 65,
+            "DEF": 55,
             "MP": 45
         },
         "growth_bonus": {
@@ -5837,12 +5857,12 @@
                 null
             ],
             "Fulgus": [
-                false,
+                true,
                 1,
                 null
             ],
             "Tellus": [
-                true,
+                false,
                 0,
                 251
             ],
@@ -5877,6 +5897,11 @@
                 251
             ],
             "Valuables": [
+                false,
+                0,
+                null
+            ],
+            "Dragon": [
                 false,
                 0,
                 null
@@ -6123,6 +6148,11 @@
                 0,
                 null
             ],
+            "Dragon": [
+                false,
+                0,
+                null
+            ],
             "Claw": [
                 false,
                 0,
@@ -6365,6 +6395,11 @@
                 0,
                 null
             ],
+            "Dragon": [
+                false,
+                0,
+                null
+            ],
             "Claw": [
                 false,
                 0,
@@ -6476,7 +6511,7 @@
             "SKL": 40,
             "SPD": 75,
             "DEF": 15,
-            "MP": 50
+            "MP": 65
         },
         "growth_bonus": {
             "LCK": 0,
@@ -6605,6 +6640,11 @@
                 251
             ],
             "Valuables": [
+                false,
+                0,
+                null
+            ],
+            "Dragon": [
                 false,
                 0,
                 null
@@ -6854,6 +6894,11 @@
                 0,
                 null
             ],
+            "Dragon": [
+                false,
+                0,
+                null
+            ],
             "Claw": [
                 false,
                 0,
@@ -6941,14 +6986,14 @@
         "bases": {
             "LCK": 0,
             "CON": 5,
-            "MOV": 5,
-            "RES": 3,
+            "MOV": 6,
+            "RES": 5,
             "STR": 5,
             "HP": 19,
             "MAG": 5,
             "SKL": 8,
-            "SPD": 11,
-            "DEF": 3,
+            "SPD": 13,
+            "DEF": 6,
             "MP": 8
         },
         "growths": {
@@ -7051,7 +7096,7 @@
                 null
             ],
             "Ventus": [
-                false,
+                true,
                 0,
                 null
             ],
@@ -7061,7 +7106,7 @@
                 null
             ],
             "Tellus": [
-                true,
+                false,
                 0,
                 251
             ],
@@ -7096,6 +7141,11 @@
                 251
             ],
             "Valuables": [
+                false,
+                0,
+                null
+            ],
+            "Dragon": [
                 false,
                 0,
                 null
@@ -7847,7 +7897,7 @@
             "MAG": 1,
             "SKL": 0,
             "SPD": 6,
-            "DEF": 7,
+            "DEF": 5,
             "MP": 7
         },
         "growths": {
@@ -7990,6 +8040,11 @@
                 251
             ],
             "Valuables": [
+                false,
+                0,
+                null
+            ],
+            "Dragon": [
                 false,
                 0,
                 null
@@ -8055,15 +8110,15 @@
         "max_level": 20,
         "bases": {
             "LCK": 0,
-            "RES": 3,
+            "RES": 5,
             "CON": 11,
             "MOV": 5,
-            "STR": 7,
+            "STR": 5,
             "HP": 20,
             "MAG": 1,
             "SKL": 0,
             "SPD": 6,
-            "DEF": 7,
+            "DEF": 1,
             "MP": 7
         },
         "growths": {
@@ -8206,6 +8261,11 @@
                 251
             ],
             "Valuables": [
+                false,
+                0,
+                null
+            ],
+            "Dragon": [
                 false,
                 0,
                 null
@@ -16572,6 +16632,238 @@
         "fields": []
     },
     {
+        "nid": "Valkyrie",
+        "name": "Valkyrie",
+        "desc": "Avyon medics who rescue fallen allies from the battlefield.",
+        "tier": 1,
+        "movement_group": "Fliers",
+        "promotes_from": null,
+        "turns_into": [
+            "Falcoknight",
+            "Dragoon"
+        ],
+        "tags": [
+            "Mounted",
+            "Flying"
+        ],
+        "max_level": 20,
+        "bases": {
+            "LCK": 0,
+            "RES": 2,
+            "CON": 5,
+            "MOV": 7,
+            "STR": 4,
+            "HP": 14,
+            "MAG": 2,
+            "SKL": 5,
+            "SPD": 5,
+            "DEF": 3,
+            "MP": 0
+        },
+        "growths": {
+            "LCK": 35,
+            "RES": 35,
+            "CON": 0,
+            "MOV": 0,
+            "STR": 35,
+            "HP": 65,
+            "MAG": 17,
+            "SKL": 40,
+            "SPD": 40,
+            "DEF": 12,
+            "MP": 0
+        },
+        "growth_bonus": {
+            "LCK": 0,
+            "RES": 0,
+            "CON": 0,
+            "MOV": 0,
+            "STR": 0,
+            "HP": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
+            "MP": 0
+        },
+        "promotion": {
+            "LCK": 0,
+            "RES": 0,
+            "CON": 0,
+            "MOV": 0,
+            "STR": 0,
+            "HP": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
+            "MP": 0
+        },
+        "max_stats": {
+            "LCK": 30,
+            "RES": 20,
+            "CON": 25,
+            "MOV": 15,
+            "STR": 20,
+            "HP": 60,
+            "MAG": 20,
+            "SKL": 20,
+            "SPD": 20,
+            "DEF": 20,
+            "MP": 30
+        },
+        "learned_skills": [
+            [
+                1,
+                "Flying"
+            ],
+            [
+                1,
+                "Canter"
+            ]
+        ],
+        "wexp_gain": {
+            "Sword": [
+                true,
+                0,
+                251
+            ],
+            "Dagger": [
+                false,
+                0,
+                null
+            ],
+            "Lance": [
+                false,
+                31,
+                251
+            ],
+            "Axe": [
+                false,
+                0,
+                251
+            ],
+            "Bow": [
+                false,
+                0,
+                251
+            ],
+            "Solus": [
+                true,
+                0,
+                251
+            ],
+            "Lunis": [
+                false,
+                0,
+                251
+            ],
+            "Ignis": [
+                false,
+                0,
+                null
+            ],
+            "Ventus": [
+                true,
+                0,
+                null
+            ],
+            "Fulgus": [
+                false,
+                0,
+                null
+            ],
+            "Tellus": [
+                false,
+                0,
+                251
+            ],
+            "Glacies": [
+                false,
+                0,
+                null
+            ],
+            "Aquis": [
+                false,
+                0,
+                null
+            ],
+            "Runic": [
+                false,
+                0,
+                251
+            ],
+            "Shield": [
+                false,
+                0,
+                null
+            ],
+            "Armor": [
+                false,
+                0,
+                null
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ],
+            "Valuables": [
+                false,
+                0,
+                null
+            ],
+            "Dragon": [
+                false,
+                0,
+                null
+            ],
+            "Claw": [
+                false,
+                0,
+                null
+            ],
+            "Staff": [
+                false,
+                0,
+                251
+            ],
+            "Light": [
+                false,
+                0,
+                251
+            ],
+            "Anima": [
+                false,
+                0,
+                251
+            ],
+            "Dark": [
+                false,
+                0,
+                251
+            ],
+            "Earth": [
+                false,
+                0,
+                251
+            ],
+            "Magic": [
+                false,
+                0,
+                251
+            ]
+        },
+        "icon_nid": "Generic_Portrait_Pegasus_Knight",
+        "icon_index": [
+            0,
+            0
+        ],
+        "map_sprite_nid": "Valkyrie",
+        "combat_anim_nid": null,
+        "fields": []
+    },
+    {
         "nid": "WindRider",
         "name": "WindRider",
         "desc": "Knights who soar through the skies.",
@@ -16749,6 +17041,11 @@
                 251
             ],
             "Valuables": [
+                false,
+                0,
+                null
+            ],
+            "Dragon": [
                 false,
                 0,
                 null
@@ -16977,6 +17274,11 @@
                 0,
                 null
             ],
+            "Dragon": [
+                false,
+                0,
+                null
+            ],
             "Claw": [
                 false,
                 0,
@@ -17200,6 +17502,11 @@
                 251
             ],
             "Valuables": [
+                false,
+                0,
+                null
+            ],
+            "Dragon": [
                 false,
                 0,
                 null
