@@ -48,6 +48,726 @@
         "info_offset": 0
     },
     {
+        "nid": "Pent (Noble) {Plant_Academy} [F2E]",
+        "blinking_offset": [
+            32,
+            24
+        ],
+        "smiling_offset": [
+            24,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Stefan {NickT, Stitch}",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            24,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "{Levin64} [F2E] OC 7",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            16,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Zwelix OC 1",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            24,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "{VelvetKitsune} F2E OC 1 [AI]",
+        "blinking_offset": [
+            32,
+            32
+        ],
+        "smiling_offset": [
+            32,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "ZoramineFae_6",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            24,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Eda {Atey}",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            24,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "{h0lyMushrooms} [F2E] OC Hanum (Version 1)",
+        "blinking_offset": [
+            23,
+            22
+        ],
+        "smiling_offset": [
+            23,
+            38
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Marisa (Black skin) {JeyTheCount} [F2E]",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "RandomWizard F2E 18",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            32,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Natasha (Older) {MegaCowsamMan}",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "{monk-han} [F2E] OC Witch Lord (Version 1) ",
+        "blinking_offset": [
+            24,
+            16
+        ],
+        "smiling_offset": [
+            24,
+            32
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Flayn (Emotion 4) {Redbean} [F2E]",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Ilyana (Younger) {NickT, Stitch}",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            24,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Thea (Archer) {Freefall} [F2E]",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            24,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Zoisite_Midir",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            24,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Larcei {Redbean} [F2E]",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "{MeatofJustice} F2E OC 18",
+        "blinking_offset": [
+            24,
+            16
+        ],
+        "smiling_offset": [
+            16,
+            32
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Yang Kai - Izarck",
+        "blinking_offset": [
+            16,
+            24
+        ],
+        "smiling_offset": [
+            16,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Arthur (New version) {Melia}",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            24,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "{CanDy} [F2E] OC 23",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            24,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Nephenee {NickT, Stitch}",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            24,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "{MeatofJustice} F2E OC 4",
+        "blinking_offset": [
+            16,
+            24
+        ],
+        "smiling_offset": [
+            8,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "{Zeldacrafter} OC 2",
+        "blinking_offset": [
+            32,
+            24
+        ],
+        "smiling_offset": [
+            32,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "{SaintRubenio} [F2E] OC 10",
+        "blinking_offset": [
+            32,
+            32
+        ],
+        "smiling_offset": [
+            32,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Eyvel {Melia}",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            16,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Medeus {Frigid}",
+        "blinking_offset": [
+            32,
+            32
+        ],
+        "smiling_offset": [
+            32,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Giffca {NickT, Stitch}",
+        "blinking_offset": [
+            24,
+            16
+        ],
+        "smiling_offset": [
+            24,
+            32
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Nino (Adult, FE7 colours) {Spoon_Rhythm, Magelord Max}",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            24,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Brigid {Redbean} [F2E]",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            16,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Larcei (New version) {Melia}",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            24,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Sonya (Witch)  {Wasdye}",
+        "blinking_offset": [
+            32,
+            24
+        ],
+        "smiling_offset": [
+            32,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "{TrezVG} Yrene",
+        "blinking_offset": [
+            32,
+            32
+        ],
+        "smiling_offset": [
+            32,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Rutger (Female) {Fenriel}",
+        "blinking_offset": [
+            16,
+            24
+        ],
+        "smiling_offset": [
+            16,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Altena {Melia}",
+        "blinking_offset": [
+            16,
+            24
+        ],
+        "smiling_offset": [
+            16,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Navarre (version 1) {BuskHusker}",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            24,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Julian {Glaceo}",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            24,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Joshua (Black skin) {JeyTheCount} [F2E]",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            16,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "XVI_Eve",
+        "blinking_offset": [
+            32,
+            24
+        ],
+        "smiling_offset": [
+            32,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Travant {Atey}",
+        "blinking_offset": [
+            16,
+            16
+        ],
+        "smiling_offset": [
+            16,
+            32
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Serra (Adult) {Spoon_Rhythm, Teelvade}",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Sonya (version 2) {Redbean} [F2E]",
+        "blinking_offset": [
+            32,
+            24
+        ],
+        "smiling_offset": [
+            24,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Sonya (FE8 colours) {JeyTheCount} [F2E]",
+        "blinking_offset": [
+            32,
+            24
+        ],
+        "smiling_offset": [
+            32,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "{LaurentLacroix} OC 3",
+        "blinking_offset": [
+            32,
+            24
+        ],
+        "smiling_offset": [
+            32,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Mila {Kanna}",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            24,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "{monk-han} [F2E] OC Nomad Lord (Version 3) ",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            24,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Kurth (White Hair) {Sterling Glovner}",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            24,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Lorenz {Blueyguy}",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            24,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Aimee {NickT, Stitch}",
+        "blinking_offset": [
+            32,
+            24
+        ],
+        "smiling_offset": [
+            24,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "{CapibaraInSpace} [F2U] OC 27",
+        "blinking_offset": [
+            25,
+            32
+        ],
+        "smiling_offset": [
+            25,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "XVI_Kieth",
+        "blinking_offset": [
+            32,
+            32
+        ],
+        "smiling_offset": [
+            32,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "ZoramineFae_1",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            24,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "ZoramineFae_2",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            24,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "ZoramineFae_3",
+        "blinking_offset": [
+            24,
+            16
+        ],
+        "smiling_offset": [
+            24,
+            32
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "ZoramineFae_4",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            24,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "ZoramineFae_5",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            24,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "{Kanna} [F2E] OC 8",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            24,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "{monk-han} [F2E] OC Composed Shaman (Version 4) ",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            24,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "{Levin64} OC 31",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            16,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "XVI - Drunken Sailor 1[F2E]",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            24,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
         "nid": "Franz",
         "blinking_offset": [
             24,
@@ -672,150 +1392,6 @@
         "info_offset": 0
     },
     {
-        "nid": "Stefan {NickT, Stitch}",
-        "blinking_offset": [
-            24,
-            24
-        ],
-        "smiling_offset": [
-            24,
-            40
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Pent (Noble) {Plant_Academy} [F2E]",
-        "blinking_offset": [
-            32,
-            24
-        ],
-        "smiling_offset": [
-            24,
-            40
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "{CapibaraInSpace} [F2U] OC 27",
-        "blinking_offset": [
-            25,
-            32
-        ],
-        "smiling_offset": [
-            25,
-            48
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "{Levin64} [F2E] OC 7",
-        "blinking_offset": [
-            24,
-            24
-        ],
-        "smiling_offset": [
-            16,
-            40
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "{LaurentLacroix} OC 3",
-        "blinking_offset": [
-            32,
-            24
-        ],
-        "smiling_offset": [
-            32,
-            40
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "{monk-han} [F2E] OC Nomad Lord (Version 2) ",
-        "blinking_offset": [
-            24,
-            32
-        ],
-        "smiling_offset": [
-            24,
-            48
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "{SaintRubenio} [F2E] OC 10",
-        "blinking_offset": [
-            32,
-            32
-        ],
-        "smiling_offset": [
-            32,
-            48
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "{Zeldacrafter} OC 2",
-        "blinking_offset": [
-            32,
-            24
-        ],
-        "smiling_offset": [
-            32,
-            40
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Zwelix OC 1",
-        "blinking_offset": [
-            24,
-            32
-        ],
-        "smiling_offset": [
-            24,
-            48
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "{VelvetKitsune} F2E OC 1 [AI]",
-        "blinking_offset": [
-            32,
-            32
-        ],
-        "smiling_offset": [
-            32,
-            48
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "XVI_Eve",
-        "blinking_offset": [
-            32,
-            24
-        ],
-        "smiling_offset": [
-            32,
-            40
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "XVI_Kieth",
-        "blinking_offset": [
-            32,
-            32
-        ],
-        "smiling_offset": [
-            32,
-            48
-        ],
-        "info_offset": 0
-    },
-    {
         "nid": "Yang Kai - Arthur2",
         "blinking_offset": [
             24,
@@ -828,31 +1404,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Ex TOTF Portraits 3",
-        "blinking_offset": [
-            24,
-            24
-        ],
-        "smiling_offset": [
-            24,
-            40
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Ex TOTF Portraits 1",
-        "blinking_offset": [
-            16,
-            24
-        ],
-        "smiling_offset": [
-            16,
-            40
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Zoisite_Midir",
+        "nid": "Celica {Atey}",
         "blinking_offset": [
             24,
             32
@@ -864,7 +1416,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Zoisite_Genisis",
+        "nid": "Marla {SaintRubenio}",
         "blinking_offset": [
             16,
             24
@@ -876,43 +1428,31 @@
         "info_offset": 0
     },
     {
-        "nid": "ZoramineFae_1",
+        "nid": "Zeke {Garytop} [F2E]",
         "blinking_offset": [
-            24,
-            32
-        ],
-        "smiling_offset": [
-            24,
-            48
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "ZoramineFae_2",
-        "blinking_offset": [
-            24,
-            24
-        ],
-        "smiling_offset": [
-            24,
-            40
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "ZoramineFae_3",
-        "blinking_offset": [
-            24,
+            16,
             16
         ],
         "smiling_offset": [
-            24,
+            16,
             32
         ],
         "info_offset": 0
     },
     {
-        "nid": "ZoramineFae_4",
+        "nid": "Creidne {Melia}",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            24,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Dalvan {Melia}",
         "blinking_offset": [
             24,
             24
@@ -924,26 +1464,14 @@
         "info_offset": 0
     },
     {
-        "nid": "ZoramineFae_5",
+        "nid": "Dean {Atey}",
         "blinking_offset": [
-            24,
-            24
+            16,
+            16
         ],
         "smiling_offset": [
-            24,
-            40
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "ZoramineFae_6",
-        "blinking_offset": [
-            24,
-            24
-        ],
-        "smiling_offset": [
-            24,
-            40
+            16,
+            32
         ],
         "info_offset": 0
     },
@@ -956,18 +1484,6 @@
         "smiling_offset": [
             16,
             32
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Marisa (Black skin) {JeyTheCount} [F2E]",
-        "blinking_offset": [
-            24,
-            32
-        ],
-        "smiling_offset": [
-            16,
-            48
         ],
         "info_offset": 0
     },
@@ -1128,18 +1644,6 @@
         "info_offset": 0
     },
     {
-        "nid": "Nino (Adult, FE7 colours) {Spoon_Rhythm, Magelord Max}",
-        "blinking_offset": [
-            24,
-            24
-        ],
-        "smiling_offset": [
-            24,
-            40
-        ],
-        "info_offset": 0
-    },
-    {
         "nid": "Priscilla (Adult, FE7 colours, blue hair, skintone variant) {Spoon_Rhythm, Magelord Max}",
         "blinking_offset": [
             24,
@@ -1148,510 +1652,6 @@
         "smiling_offset": [
             24,
             40
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Arthur (New version) {Melia}",
-        "blinking_offset": [
-            24,
-            24
-        ],
-        "smiling_offset": [
-            24,
-            40
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Brigid {Redbean} [F2E]",
-        "blinking_offset": [
-            24,
-            24
-        ],
-        "smiling_offset": [
-            16,
-            40
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Eda {Atey}",
-        "blinking_offset": [
-            24,
-            32
-        ],
-        "smiling_offset": [
-            24,
-            48
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Eyvel {Melia}",
-        "blinking_offset": [
-            24,
-            24
-        ],
-        "smiling_offset": [
-            16,
-            40
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Larcei (New version) {Melia}",
-        "blinking_offset": [
-            24,
-            32
-        ],
-        "smiling_offset": [
-            24,
-            48
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Larcei {Redbean} [F2E]",
-        "blinking_offset": [
-            24,
-            32
-        ],
-        "smiling_offset": [
-            16,
-            48
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Travant {Atey}",
-        "blinking_offset": [
-            16,
-            16
-        ],
-        "smiling_offset": [
-            16,
-            32
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Celica {Atey}",
-        "blinking_offset": [
-            24,
-            32
-        ],
-        "smiling_offset": [
-            24,
-            48
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Marla {SaintRubenio}",
-        "blinking_offset": [
-            16,
-            24
-        ],
-        "smiling_offset": [
-            16,
-            40
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Mila {Kanna}",
-        "blinking_offset": [
-            24,
-            24
-        ],
-        "smiling_offset": [
-            24,
-            40
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Sonya (Witch)  {Wasdye}",
-        "blinking_offset": [
-            32,
-            24
-        ],
-        "smiling_offset": [
-            32,
-            40
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Navarre (version 1) {BuskHusker}",
-        "blinking_offset": [
-            24,
-            24
-        ],
-        "smiling_offset": [
-            24,
-            40
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Anna Fates Custom - Lipstick Facing-Forward {Melia}",
-        "blinking_offset": [
-            24,
-            32
-        ],
-        "smiling_offset": [
-            16,
-            48
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "{CanDy} [F2E] OC 23",
-        "blinking_offset": [
-            24,
-            24
-        ],
-        "smiling_offset": [
-            24,
-            40
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "{h0lyMushrooms} [F2E] OC Hanum (Version 1)",
-        "blinking_offset": [
-            23,
-            22
-        ],
-        "smiling_offset": [
-            23,
-            38
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "{Kanna} [F2E] OC 48",
-        "blinking_offset": [
-            32,
-            24
-        ],
-        "smiling_offset": [
-            32,
-            40
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "{Kanna} [F2E] OC 8",
-        "blinking_offset": [
-            24,
-            32
-        ],
-        "smiling_offset": [
-            24,
-            48
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "{MeatofJustice} F2E OC 18",
-        "blinking_offset": [
-            24,
-            16
-        ],
-        "smiling_offset": [
-            16,
-            32
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "{monk-han} [F2E] OC Composed Shaman (Version 4) ",
-        "blinking_offset": [
-            24,
-            24
-        ],
-        "smiling_offset": [
-            24,
-            40
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "{monk-han} [F2E] OC Nomad Lord (Version 1) ",
-        "blinking_offset": [
-            24,
-            32
-        ],
-        "smiling_offset": [
-            24,
-            48
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "{monk-han} [F2E] OC Nomad Lord (Version 3) ",
-        "blinking_offset": [
-            24,
-            32
-        ],
-        "smiling_offset": [
-            24,
-            48
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "RandomWizard F2E 18",
-        "blinking_offset": [
-            24,
-            32
-        ],
-        "smiling_offset": [
-            32,
-            48
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "{SirNicee} F2E OC 10",
-        "blinking_offset": [
-            24,
-            32
-        ],
-        "smiling_offset": [
-            24,
-            48
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "{TrezVG} Yrene",
-        "blinking_offset": [
-            32,
-            32
-        ],
-        "smiling_offset": [
-            32,
-            48
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "{Mrkisuke} F2U OC 1 (Version 2)",
-        "blinking_offset": [
-            16,
-            16
-        ],
-        "smiling_offset": [
-            16,
-            32
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Nephenee {NickT, Stitch}",
-        "blinking_offset": [
-            24,
-            32
-        ],
-        "smiling_offset": [
-            24,
-            48
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Natasha (Older) {MegaCowsamMan}",
-        "blinking_offset": [
-            24,
-            32
-        ],
-        "smiling_offset": [
-            16,
-            48
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "{Levin64} OC 31",
-        "blinking_offset": [
-            24,
-            24
-        ],
-        "smiling_offset": [
-            16,
-            40
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "{monk-han} [F2E] OC Witch Lord (Version 1) ",
-        "blinking_offset": [
-            24,
-            16
-        ],
-        "smiling_offset": [
-            24,
-            32
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "{TrezVG} Prince(ss) Avarice",
-        "blinking_offset": [
-            32,
-            32
-        ],
-        "smiling_offset": [
-            16,
-            48
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "{amema003} F2E OC 2",
-        "blinking_offset": [
-            24,
-            32
-        ],
-        "smiling_offset": [
-            24,
-            48
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Flayn (Emotion 4) {Redbean} [F2E]",
-        "blinking_offset": [
-            24,
-            32
-        ],
-        "smiling_offset": [
-            16,
-            48
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Yang Kai - Izarck",
-        "blinking_offset": [
-            16,
-            24
-        ],
-        "smiling_offset": [
-            16,
-            40
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Serra (Adult) {Spoon_Rhythm, Teelvade}",
-        "blinking_offset": [
-            24,
-            32
-        ],
-        "smiling_offset": [
-            16,
-            48
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Julian {Glaceo}",
-        "blinking_offset": [
-            24,
-            24
-        ],
-        "smiling_offset": [
-            24,
-            40
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Sonya (version 2) {Redbean} [F2E]",
-        "blinking_offset": [
-            32,
-            24
-        ],
-        "smiling_offset": [
-            24,
-            40
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Sonya (FE8 colours) {JeyTheCount} [F2E]",
-        "blinking_offset": [
-            32,
-            24
-        ],
-        "smiling_offset": [
-            32,
-            40
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Zeke {Garytop} [F2E]",
-        "blinking_offset": [
-            16,
-            16
-        ],
-        "smiling_offset": [
-            16,
-            32
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Creidne {Melia}",
-        "blinking_offset": [
-            24,
-            32
-        ],
-        "smiling_offset": [
-            24,
-            48
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Dalvan {Melia}",
-        "blinking_offset": [
-            24,
-            24
-        ],
-        "smiling_offset": [
-            24,
-            40
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Dean {Atey}",
-        "blinking_offset": [
-            16,
-            16
-        ],
-        "smiling_offset": [
-            16,
-            32
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Medeus {Frigid}",
-        "blinking_offset": [
-            32,
-            32
-        ],
-        "smiling_offset": [
-            32,
-            48
         ],
         "info_offset": 0
     },
@@ -1680,18 +1680,6 @@
         "info_offset": 0
     },
     {
-        "nid": "Rutger (Female) {Fenriel}",
-        "blinking_offset": [
-            16,
-            24
-        ],
-        "smiling_offset": [
-            16,
-            40
-        ],
-        "info_offset": 0
-    },
-    {
         "nid": "Rutger (Female) {rainlash}",
         "blinking_offset": [
             32,
@@ -1716,102 +1704,6 @@
         "info_offset": 0
     },
     {
-        "nid": "Altena {Melia}",
-        "blinking_offset": [
-            16,
-            24
-        ],
-        "smiling_offset": [
-            16,
-            40
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Giffca {NickT, Stitch}",
-        "blinking_offset": [
-            24,
-            16
-        ],
-        "smiling_offset": [
-            24,
-            32
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Joshua (Black skin) {JeyTheCount} [F2E]",
-        "blinking_offset": [
-            24,
-            24
-        ],
-        "smiling_offset": [
-            16,
-            40
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Ilyana (Younger) {NickT, Stitch}",
-        "blinking_offset": [
-            24,
-            32
-        ],
-        "smiling_offset": [
-            24,
-            48
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Thea (Archer) {Freefall} [F2E]",
-        "blinking_offset": [
-            24,
-            24
-        ],
-        "smiling_offset": [
-            24,
-            40
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Lorenz {Blueyguy}",
-        "blinking_offset": [
-            24,
-            24
-        ],
-        "smiling_offset": [
-            24,
-            40
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Kurth (White Hair) {Sterling Glovner}",
-        "blinking_offset": [
-            24,
-            24
-        ],
-        "smiling_offset": [
-            24,
-            40
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Aimee {NickT, Stitch}",
-        "blinking_offset": [
-            32,
-            24
-        ],
-        "smiling_offset": [
-            24,
-            40
-        ],
-        "info_offset": 0
-    },
-    {
         "nid": "Vaike {Garytop} [F2E]",
         "blinking_offset": [
             24,
@@ -1824,7 +1716,31 @@
         "info_offset": 0
     },
     {
-        "nid": "Laurent, Raymond, CapibarainSpace, Splinterocke - Warrior Lady[F2E]",
+        "nid": "Caellach (Black skin)JeyTheCount [F2E]",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            16,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "{monk-han} [F2E] OC Nomad Lord (Version 2) ",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            24,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Ex TOTF Portraits 3",
         "blinking_offset": [
             24,
             24
@@ -1832,6 +1748,102 @@
         "smiling_offset": [
             24,
             40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Ex TOTF Portraits 1",
+        "blinking_offset": [
+            16,
+            24
+        ],
+        "smiling_offset": [
+            16,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Zoisite_Genisis",
+        "blinking_offset": [
+            16,
+            24
+        ],
+        "smiling_offset": [
+            16,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "{Kanna} [F2E] OC 48",
+        "blinking_offset": [
+            32,
+            24
+        ],
+        "smiling_offset": [
+            32,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "{monk-han} [F2E] OC Nomad Lord (Version 1) ",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            24,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "{SirNicee} F2E OC 10",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            24,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "{Mrkisuke} F2U OC 1 (Version 2)",
+        "blinking_offset": [
+            16,
+            16
+        ],
+        "smiling_offset": [
+            16,
+            32
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "{TrezVG} Prince(ss) Avarice",
+        "blinking_offset": [
+            32,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "{amema003} F2E OC 2",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            24,
+            48
         ],
         "info_offset": 0
     },
@@ -1872,18 +1884,6 @@
         "info_offset": 0
     },
     {
-        "nid": "XVI - Drunken Sailor 1[F2E]",
-        "blinking_offset": [
-            24,
-            24
-        ],
-        "smiling_offset": [
-            24,
-            40
-        ],
-        "info_offset": 0
-    },
-    {
         "nid": "ZessDynamite, SageHapuiaJDJ - Nils Gets Swifty[F2E]",
         "blinking_offset": [
             24,
@@ -1896,25 +1896,13 @@
         "info_offset": 0
     },
     {
-        "nid": "{LaurentLacroix} OC 29",
+        "nid": "RandomWizard F2E 15",
         "blinking_offset": [
             24,
             24
         ],
         "smiling_offset": [
             24,
-            40
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "{MeatofJustice} F2E OC 4",
-        "blinking_offset": [
-            16,
-            24
-        ],
-        "smiling_offset": [
-            8,
             40
         ],
         "info_offset": 0
@@ -1932,7 +1920,19 @@
         "info_offset": 0
     },
     {
-        "nid": "RandomWizard F2E 15",
+        "nid": "Laurent, Raymond, CapibarainSpace, Splinterocke - Warrior Lady[F2E]",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            24,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "{LaurentLacroix} OC 29",
         "blinking_offset": [
             24,
             24
@@ -2047,18 +2047,6 @@
         ],
         "smiling_offset": [
             24,
-            40
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Caellach (Black skin)JeyTheCount [F2E]",
-        "blinking_offset": [
-            24,
-            24
-        ],
-        "smiling_offset": [
-            16,
             40
         ],
         "info_offset": 0
