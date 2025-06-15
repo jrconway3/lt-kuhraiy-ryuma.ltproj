@@ -4022,7 +4022,9 @@
             "add_lore;Queiza",
             "add_lore;Serena",
             "add_lore;Thanya",
-            "add_lore;Queiza"
+            "add_lore;Queiza",
+            "",
+            "alert;unit.get_weapon().weapon_rank"
         ],
         "nid": "DEBUG2 Init"
     },
