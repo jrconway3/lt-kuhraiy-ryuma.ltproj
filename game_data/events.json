@@ -1718,8 +1718,10 @@
             "add_talk;Svetlanya;Leiland",
             "add_talk;Svetlanya;Shyara",
             "hide_talk;Svetlanya;Shyara",
+            "give_item;Svetlanya;Herb;no_banner",
             "#trigger_script;Trigger",
-            "base;Clearing",
+            "#base;Clearing;;Camp;True;Open Camp",
+            "prep;False;;Camp;True;Open Camp",
             "#music;Attack;2000",
             "#wait;5000",
             "#music;Armory;2000",
@@ -3002,7 +3004,8 @@
         "_source": [
             "# Give access to the convoy",
             "change_background;BlackBackground",
-            "game_var;_convoy;True"
+            "game_var;_convoy;True",
+            "game_var;current_level;False"
         ],
         "nid": "Global Debug Setup"
     },
@@ -4280,5 +4283,34 @@
             "inc_level_var;did_dance"
         ],
         "nid": "DEBUG2 Map Pose Test - Lykon Girl"
+    },
+    {
+        "name": "Open Camp",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "skip_save;t",
+            "set_next_chapter;r1",
+            "game_var;current_level;{game.level_nid}",
+            "win_game"
+        ],
+        "nid": "Global Open Camp"
+    },
+    {
+        "name": "Chapter End",
+        "trigger": "level_end",
+        "level_nid": "DEBUG",
+        "condition": "v('current_level') != False",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "speak;Svetlanya;\"This should not occur when opening Camp!\""
+        ],
+        "nid": "DEBUG Chapter End"
     }
 ]

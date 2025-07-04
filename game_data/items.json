@@ -2434,7 +2434,7 @@
             ],
             [
                 "weapon_type",
-                "Dragon"
+                "Sword"
             ],
             [
                 "weapon_rank",
@@ -12334,6 +12334,14 @@
             [
                 "status_on_hit",
                 "Fort"
+            ],
+            [
+                "mana_uses",
+                {
+                    "replace_uses_with_mana_cost": false,
+                    "replace_max_uses_with_max_mana": false,
+                    "show_mana_text_in_inventory": false
+                }
             ]
         ]
     },
@@ -12376,17 +12384,6 @@
                 4
             ],
             [
-                "uses",
-                40
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
                 "level_exp",
                 null
             ],
@@ -12417,6 +12414,18 @@
             [
                 "target_ally",
                 null
+            ],
+            [
+                "mana_uses",
+                {
+                    "replace_uses_with_mana_cost": false,
+                    "replace_max_uses_with_max_mana": false,
+                    "show_mana_text_in_inventory": false
+                }
+            ],
+            [
+                "mana_cost",
+                2
             ]
         ]
     },
@@ -12459,17 +12468,6 @@
                 "D"
             ],
             [
-                "uses",
-                20
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
                 "exp",
                 12
             ],
@@ -12488,6 +12486,18 @@
             [
                 "equation_heal",
                 "HEAL"
+            ],
+            [
+                "mana_cost",
+                4
+            ],
+            [
+                "mana_uses",
+                {
+                    "replace_uses_with_mana_cost": false,
+                    "replace_max_uses_with_max_mana": false,
+                    "show_mana_text_in_inventory": false
+                }
             ]
         ]
     },
@@ -12547,6 +12557,10 @@
                     "lose_uses_on_miss": false,
                     "one_loss_per_combat": false
                 }
+            ],
+            [
+                "mana_cost",
+                10
             ]
         ]
     },
@@ -12577,17 +12591,6 @@
                 null
             ],
             [
-                "uses",
-                3
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
                 "wexp",
                 5
             ],
@@ -12614,6 +12617,18 @@
             [
                 "target_enemy",
                 null
+            ],
+            [
+                "mana_cost",
+                3
+            ],
+            [
+                "mana_uses",
+                {
+                    "replace_uses_with_mana_cost": false,
+                    "replace_max_uses_with_max_mana": false,
+                    "show_mana_text_in_inventory": false
+                }
             ]
         ]
     },
@@ -12644,17 +12659,6 @@
                 null
             ],
             [
-                "uses",
-                3
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
                 "wexp",
                 5
             ],
@@ -12681,6 +12685,18 @@
             [
                 "target_enemy",
                 null
+            ],
+            [
+                "mana_uses",
+                {
+                    "replace_uses_with_mana_cost": false,
+                    "replace_max_uses_with_max_mana": false,
+                    "show_mana_text_in_inventory": false
+                }
+            ],
+            [
+                "mana_cost",
+                5
             ]
         ]
     },
@@ -12731,17 +12747,6 @@
                 6
             ],
             [
-                "uses",
-                35
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
                 "level_exp",
                 null
             ],
@@ -12781,6 +12786,18 @@
                     "effective_bonus_damage": 0,
                     "show_effectiveness_flash": true,
                     "weapon_effectiveness_multiplied": true
+                }
+            ],
+            [
+                "mana_cost",
+                1
+            ],
+            [
+                "mana_uses",
+                {
+                    "replace_uses_with_mana_cost": false,
+                    "replace_max_uses_with_max_mana": false,
+                    "show_mana_text_in_inventory": false
                 }
             ]
         ]
@@ -12828,17 +12845,6 @@
                 null
             ],
             [
-                "uses",
-                30
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
                 "weight",
                 8
             ],
@@ -12882,6 +12888,18 @@
                     "effective_bonus_damage": 0,
                     "show_effectiveness_flash": true,
                     "weapon_effectiveness_multiplied": true
+                }
+            ],
+            [
+                "mana_cost",
+                2
+            ],
+            [
+                "mana_uses",
+                {
+                    "replace_uses_with_mana_cost": false,
+                    "replace_max_uses_with_max_mana": false,
+                    "show_mana_text_in_inventory": false
                 }
             ]
         ]
@@ -12929,17 +12947,6 @@
                 null
             ],
             [
-                "uses",
-                25
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
                 "weight",
                 12
             ],
@@ -12979,6 +12986,18 @@
                     "effective_bonus_damage": 0,
                     "show_effectiveness_flash": true,
                     "weapon_effectiveness_multiplied": true
+                }
+            ],
+            [
+                "mana_cost",
+                4
+            ],
+            [
+                "mana_uses",
+                {
+                    "replace_uses_with_mana_cost": false,
+                    "replace_max_uses_with_max_mana": false,
+                    "show_mana_text_in_inventory": false
                 }
             ]
         ]
@@ -13020,17 +13039,6 @@
             [
                 "magic",
                 null
-            ],
-            [
-                "uses",
-                5
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
             ],
             [
                 "weight",
@@ -13080,6 +13088,18 @@
                     "effective_bonus_damage": 0,
                     "show_effectiveness_flash": true,
                     "weapon_effectiveness_multiplied": true
+                }
+            ],
+            [
+                "mana_cost",
+                15
+            ],
+            [
+                "mana_uses",
+                {
+                    "replace_uses_with_mana_cost": false,
+                    "replace_max_uses_with_max_mana": false,
+                    "show_mana_text_in_inventory": false
                 }
             ]
         ]
@@ -13178,6 +13198,18 @@
                     "show_effectiveness_flash": true,
                     "weapon_effectiveness_multiplied": true
                 }
+            ],
+            [
+                "mana_cost",
+                7
+            ],
+            [
+                "mana_uses",
+                {
+                    "replace_uses_with_mana_cost": false,
+                    "replace_max_uses_with_max_mana": false,
+                    "show_mana_text_in_inventory": false
+                }
             ]
         ]
     },
@@ -13224,17 +13256,6 @@
                 null
             ],
             [
-                "uses",
-                30
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
                 "weight",
                 8
             ],
@@ -13279,6 +13300,18 @@
                     "show_effectiveness_flash": true,
                     "weapon_effectiveness_multiplied": true
                 }
+            ],
+            [
+                "mana_cost",
+                10
+            ],
+            [
+                "mana_uses",
+                {
+                    "replace_uses_with_mana_cost": false,
+                    "replace_max_uses_with_max_mana": false,
+                    "show_mana_text_in_inventory": false
+                }
             ]
         ]
     },
@@ -13319,17 +13352,6 @@
             [
                 "magic",
                 null
-            ],
-            [
-                "uses",
-                30
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
             ],
             [
                 "weight",
@@ -13382,6 +13404,18 @@
                 [
                     "Kasuto"
                 ]
+            ],
+            [
+                "mana_cost",
+                5
+            ],
+            [
+                "mana_uses",
+                {
+                    "replace_uses_with_mana_cost": false,
+                    "replace_max_uses_with_max_mana": false,
+                    "show_mana_text_in_inventory": false
+                }
             ]
         ]
     },
@@ -13520,6 +13554,14 @@
             [
                 "status_on_hit",
                 "Fort"
+            ],
+            [
+                "mana_uses",
+                {
+                    "replace_uses_with_mana_cost": false,
+                    "replace_max_uses_with_max_mana": false,
+                    "show_mana_text_in_inventory": false
+                }
             ]
         ]
     },
@@ -13562,17 +13604,6 @@
                 4
             ],
             [
-                "uses",
-                40
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
                 "level_exp",
                 null
             ],
@@ -13603,6 +13634,18 @@
             [
                 "target_ally",
                 null
+            ],
+            [
+                "mana_cost",
+                2
+            ],
+            [
+                "mana_uses",
+                {
+                    "replace_uses_with_mana_cost": false,
+                    "replace_max_uses_with_max_mana": false,
+                    "show_mana_text_in_inventory": false
+                }
             ]
         ]
     },
@@ -13645,17 +13688,6 @@
                 "B"
             ],
             [
-                "uses",
-                3
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
                 "exp",
                 40
             ],
@@ -13674,6 +13706,18 @@
             [
                 "repair",
                 null
+            ],
+            [
+                "mana_cost",
+                5
+            ],
+            [
+                "mana_uses",
+                {
+                    "replace_uses_with_mana_cost": false,
+                    "replace_max_uses_with_max_mana": false,
+                    "show_mana_text_in_inventory": false
+                }
             ]
         ]
     },
@@ -13743,17 +13787,6 @@
                 null
             ],
             [
-                "uses",
-                3
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
                 "wexp",
                 5
             ],
@@ -13780,6 +13813,18 @@
             [
                 "target_ally",
                 null
+            ],
+            [
+                "mana_cost",
+                5
+            ],
+            [
+                "mana_uses",
+                {
+                    "replace_uses_with_mana_cost": false,
+                    "replace_max_uses_with_max_mana": false,
+                    "show_mana_text_in_inventory": false
+                }
             ]
         ]
     },
@@ -13810,17 +13855,6 @@
                 null
             ],
             [
-                "uses",
-                3
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
                 "wexp",
                 5
             ],
@@ -13847,6 +13881,18 @@
             [
                 "target_enemy",
                 null
+            ],
+            [
+                "mana_cost",
+                4
+            ],
+            [
+                "mana_uses",
+                {
+                    "replace_uses_with_mana_cost": false,
+                    "replace_max_uses_with_max_mana": false,
+                    "show_mana_text_in_inventory": false
+                }
             ]
         ]
     },
@@ -13877,17 +13923,6 @@
                 null
             ],
             [
-                "uses",
-                3
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
                 "wexp",
                 5
             ],
@@ -13914,6 +13949,18 @@
             [
                 "target_enemy",
                 null
+            ],
+            [
+                "mana_cost",
+                1
+            ],
+            [
+                "mana_uses",
+                {
+                    "replace_uses_with_mana_cost": false,
+                    "replace_max_uses_with_max_mana": false,
+                    "show_mana_text_in_inventory": false
+                }
             ]
         ]
     },
@@ -13934,6 +13981,14 @@
             [
                 "weapon_rank",
                 "E"
+            ],
+            [
+                "mana_uses",
+                {
+                    "replace_uses_with_mana_cost": false,
+                    "replace_max_uses_with_max_mana": false,
+                    "show_mana_text_in_inventory": false
+                }
             ]
         ]
     },
@@ -14015,7 +14070,7 @@
             ],
             [
                 "mana_cost",
-                2
+                1
             ],
             [
                 "weapon_type",
@@ -14113,7 +14168,15 @@
             ],
             [
                 "mana_cost",
-                5
+                2
+            ],
+            [
+                "mana_uses",
+                {
+                    "replace_uses_with_mana_cost": false,
+                    "replace_max_uses_with_max_mana": false,
+                    "show_mana_text_in_inventory": false
+                }
             ]
         ]
     },
@@ -14188,17 +14251,6 @@
                 3200
             ],
             [
-                "uses",
-                20
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
                 "wexp",
                 2
             ],
@@ -14214,6 +14266,18 @@
                     "effective_bonus_damage": 0,
                     "show_effectiveness_flash": true,
                     "weapon_effectiveness_multiplied": true
+                }
+            ],
+            [
+                "mana_cost",
+                4
+            ],
+            [
+                "mana_uses",
+                {
+                    "replace_uses_with_mana_cost": false,
+                    "replace_max_uses_with_max_mana": false,
+                    "show_mana_text_in_inventory": false
                 }
             ]
         ]
@@ -14254,11 +14318,11 @@
             ],
             [
                 "crit",
-                15
+                13
             ],
             [
                 "weight",
-                13
+                12
             ],
             [
                 "level_exp",
@@ -14289,17 +14353,6 @@
                 5000
             ],
             [
-                "uses",
-                20
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
                 "wexp",
                 2
             ],
@@ -14315,6 +14368,18 @@
                     "effective_bonus_damage": 0,
                     "show_effectiveness_flash": true,
                     "weapon_effectiveness_multiplied": true
+                }
+            ],
+            [
+                "mana_cost",
+                7
+            ],
+            [
+                "mana_uses",
+                {
+                    "replace_uses_with_mana_cost": false,
+                    "replace_max_uses_with_max_mana": false,
+                    "show_mana_text_in_inventory": false
                 }
             ]
         ]
@@ -14390,17 +14455,6 @@
                 6000
             ],
             [
-                "uses",
-                10
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
                 "wexp",
                 2
             ],
@@ -14416,6 +14470,18 @@
                     "effective_bonus_damage": 0,
                     "show_effectiveness_flash": true,
                     "weapon_effectiveness_multiplied": true
+                }
+            ],
+            [
+                "mana_cost",
+                15
+            ],
+            [
+                "mana_uses",
+                {
+                    "replace_uses_with_mana_cost": false,
+                    "replace_max_uses_with_max_mana": false,
+                    "show_mana_text_in_inventory": false
                 }
             ]
         ]
@@ -14491,17 +14557,6 @@
                 6000
             ],
             [
-                "uses",
-                10
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
                 "wexp",
                 2
             ],
@@ -14517,6 +14572,18 @@
                     "effective_bonus_damage": 0,
                     "show_effectiveness_flash": true,
                     "weapon_effectiveness_multiplied": true
+                }
+            ],
+            [
+                "mana_cost",
+                10
+            ],
+            [
+                "mana_uses",
+                {
+                    "replace_uses_with_mana_cost": false,
+                    "replace_max_uses_with_max_mana": false,
+                    "show_mana_text_in_inventory": false
                 }
             ]
         ]
@@ -14685,17 +14752,6 @@
                 null
             ],
             [
-                "uses",
-                15
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
                 "status_on_hit",
                 "RallyRes"
             ],
@@ -14718,6 +14774,18 @@
             [
                 "max_range",
                 1
+            ],
+            [
+                "mana_cost",
+                3
+            ],
+            [
+                "mana_uses",
+                {
+                    "replace_uses_with_mana_cost": false,
+                    "replace_max_uses_with_max_mana": false,
+                    "show_mana_text_in_inventory": false
+                }
             ]
         ]
     },
@@ -14760,17 +14828,6 @@
                 4
             ],
             [
-                "uses",
-                40
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
                 "level_exp",
                 null
             ],
@@ -14801,6 +14858,18 @@
             [
                 "target_ally",
                 null
+            ],
+            [
+                "mana_cost",
+                2
+            ],
+            [
+                "mana_uses",
+                {
+                    "replace_uses_with_mana_cost": false,
+                    "replace_max_uses_with_max_mana": false,
+                    "show_mana_text_in_inventory": false
+                }
             ]
         ]
     },
@@ -14835,17 +14904,6 @@
                 null
             ],
             [
-                "uses",
-                15
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
                 "status_on_hit",
                 "RallyRes"
             ],
@@ -14868,6 +14926,18 @@
             [
                 "max_range",
                 1
+            ],
+            [
+                "mana_cost",
+                6
+            ],
+            [
+                "mana_uses",
+                {
+                    "replace_uses_with_mana_cost": false,
+                    "replace_max_uses_with_max_mana": false,
+                    "show_mana_text_in_inventory": false
+                }
             ]
         ]
     },
@@ -14896,17 +14966,6 @@
             [
                 "magic",
                 null
-            ],
-            [
-                "uses",
-                5
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
             ],
             [
                 "value",
@@ -14942,6 +15001,18 @@
             [
                 "max_range",
                 1
+            ],
+            [
+                "mana_cost",
+                12
+            ],
+            [
+                "mana_uses",
+                {
+                    "replace_uses_with_mana_cost": false,
+                    "replace_max_uses_with_max_mana": false,
+                    "show_mana_text_in_inventory": false
+                }
             ]
         ]
     },
@@ -15056,17 +15127,6 @@
                 4
             ],
             [
-                "uses",
-                40
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
                 "level_exp",
                 null
             ],
@@ -15097,6 +15157,18 @@
             [
                 "target_ally",
                 null
+            ],
+            [
+                "mana_cost",
+                4
+            ],
+            [
+                "mana_uses",
+                {
+                    "replace_uses_with_mana_cost": false,
+                    "replace_max_uses_with_max_mana": false,
+                    "show_mana_text_in_inventory": false
+                }
             ]
         ]
     },
@@ -15171,17 +15243,6 @@
                 700
             ],
             [
-                "uses",
-                35
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
                 "effective_damage",
                 {
                     "effective_tags": [
@@ -15193,6 +15254,18 @@
                     "effective_bonus_damage": 0,
                     "show_effectiveness_flash": true,
                     "weapon_effectiveness_multiplied": true
+                }
+            ],
+            [
+                "mana_cost",
+                2
+            ],
+            [
+                "mana_uses",
+                {
+                    "replace_uses_with_mana_cost": false,
+                    "replace_max_uses_with_max_mana": false,
+                    "show_mana_text_in_inventory": false
                 }
             ]
         ]
@@ -15268,17 +15341,6 @@
                 700
             ],
             [
-                "uses",
-                35
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
                 "effective_damage",
                 {
                     "effective_tags": [
@@ -15290,6 +15352,18 @@
                     "effective_bonus_damage": 0,
                     "show_effectiveness_flash": true,
                     "weapon_effectiveness_multiplied": true
+                }
+            ],
+            [
+                "mana_cost",
+                3
+            ],
+            [
+                "mana_uses",
+                {
+                    "replace_uses_with_mana_cost": false,
+                    "replace_max_uses_with_max_mana": false,
+                    "show_mana_text_in_inventory": false
                 }
             ]
         ]
@@ -15365,17 +15439,6 @@
                 700
             ],
             [
-                "uses",
-                35
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
                 "effective_damage",
                 {
                     "effective_tags": [
@@ -15387,6 +15450,18 @@
                     "effective_bonus_damage": 0,
                     "show_effectiveness_flash": true,
                     "weapon_effectiveness_multiplied": true
+                }
+            ],
+            [
+                "mana_cost",
+                5
+            ],
+            [
+                "mana_uses",
+                {
+                    "replace_uses_with_mana_cost": false,
+                    "replace_max_uses_with_max_mana": false,
+                    "show_mana_text_in_inventory": false
                 }
             ]
         ]
@@ -15462,17 +15537,6 @@
                 700
             ],
             [
-                "uses",
-                35
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
                 "effective_damage",
                 {
                     "effective_tags": [
@@ -15484,6 +15548,18 @@
                     "effective_bonus_damage": 0,
                     "show_effectiveness_flash": true,
                     "weapon_effectiveness_multiplied": true
+                }
+            ],
+            [
+                "mana_cost",
+                7
+            ],
+            [
+                "mana_uses",
+                {
+                    "replace_uses_with_mana_cost": false,
+                    "replace_max_uses_with_max_mana": false,
+                    "show_mana_text_in_inventory": false
                 }
             ]
         ]
@@ -15555,17 +15631,6 @@
                 2500
             ],
             [
-                "uses",
-                5
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
                 "siege_weapon",
                 null
             ],
@@ -15581,6 +15646,18 @@
                     "effective_bonus_damage": 0,
                     "show_effectiveness_flash": true,
                     "weapon_effectiveness_multiplied": true
+                }
+            ],
+            [
+                "mana_cost",
+                17
+            ],
+            [
+                "mana_uses",
+                {
+                    "replace_uses_with_mana_cost": false,
+                    "replace_max_uses_with_max_mana": false,
+                    "show_mana_text_in_inventory": false
                 }
             ]
         ]
@@ -15652,17 +15729,6 @@
                 2500
             ],
             [
-                "uses",
-                5
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
                 "siege_weapon",
                 null
             ],
@@ -15678,6 +15744,18 @@
                     "effective_bonus_damage": 0,
                     "show_effectiveness_flash": true,
                     "weapon_effectiveness_multiplied": true
+                }
+            ],
+            [
+                "mana_cost",
+                13
+            ],
+            [
+                "mana_uses",
+                {
+                    "replace_uses_with_mana_cost": false,
+                    "replace_max_uses_with_max_mana": false,
+                    "show_mana_text_in_inventory": false
                 }
             ]
         ]
@@ -15787,17 +15865,6 @@
                 null
             ],
             [
-                "uses",
-                15
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
                 "status_on_hit",
                 "RallyRes"
             ],
@@ -15820,6 +15887,10 @@
             [
                 "max_range",
                 1
+            ],
+            [
+                "mana_cost",
+                5
             ]
         ]
     },
@@ -15854,17 +15925,6 @@
                 null
             ],
             [
-                "uses",
-                15
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
                 "status_on_hit",
                 "RallyRes"
             ],
@@ -15887,6 +15947,10 @@
             [
                 "max_range",
                 1
+            ],
+            [
+                "mana_cost",
+                2
             ]
         ]
     },
@@ -15993,17 +16057,6 @@
                 null
             ],
             [
-                "uses",
-                10
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
                 "wexp",
                 3
             ],
@@ -16022,6 +16075,10 @@
             [
                 "max_range",
                 1
+            ],
+            [
+                "mana_cost",
+                4
             ]
         ]
     },
@@ -16056,17 +16113,6 @@
                 null
             ],
             [
-                "uses",
-                15
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
                 "wexp",
                 3
             ],
@@ -16101,6 +16147,10 @@
             [
                 "equippable_accessory",
                 null
+            ],
+            [
+                "mana_cost",
+                8
             ]
         ]
     },
@@ -16135,17 +16185,6 @@
                 null
             ],
             [
-                "uses",
-                15
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
                 "wexp",
                 3
             ],
@@ -16180,6 +16219,10 @@
             [
                 "equippable_accessory",
                 null
+            ],
+            [
+                "mana_cost",
+                25
             ]
         ]
     },
@@ -16208,17 +16251,6 @@
             [
                 "magic",
                 null
-            ],
-            [
-                "uses",
-                3
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
             ],
             [
                 "wexp",
@@ -16251,6 +16283,10 @@
             [
                 "eval_target_restrict_2",
                 "target.wexp['Solus'] or target.wexp['Ignis'] or target.wexp['Fulgus'] or target.wexp['Aquis'] or target.wexp['Glacies'] or target.wexp['Ventus'] or target.wexp['Tellus'] or target.wexp['Lunis']"
+            ],
+            [
+                "mana_cost",
+                6
             ]
         ]
     },
@@ -16341,6 +16377,14 @@
                     0,
                     255
                 ]
+            ],
+            [
+                "mana_uses",
+                {
+                    "replace_uses_with_mana_cost": false,
+                    "replace_max_uses_with_max_mana": false,
+                    "show_mana_text_in_inventory": false
+                }
             ]
         ]
     },
@@ -16431,6 +16475,14 @@
             [
                 "mana_cost",
                 5
+            ],
+            [
+                "mana_uses",
+                {
+                    "replace_uses_with_mana_cost": false,
+                    "replace_max_uses_with_max_mana": false,
+                    "show_mana_text_in_inventory": false
+                }
             ]
         ]
     },
@@ -16477,17 +16529,6 @@
                 null
             ],
             [
-                "uses",
-                20
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
                 "weight",
                 6
             ],
@@ -16532,6 +16573,14 @@
             [
                 "mana_cost",
                 9
+            ],
+            [
+                "mana_uses",
+                {
+                    "replace_uses_with_mana_cost": false,
+                    "replace_max_uses_with_max_mana": false,
+                    "show_mana_text_in_inventory": false
+                }
             ]
         ]
     },
@@ -16578,17 +16627,6 @@
                 null
             ],
             [
-                "uses",
-                20
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
                 "weight",
                 12
             ],
@@ -16629,6 +16667,10 @@
                     0,
                     255
                 ]
+            ],
+            [
+                "mana_cost",
+                11
             ]
         ]
     },
@@ -16675,17 +16717,6 @@
                 null
             ],
             [
-                "uses",
-                20
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
                 "weight",
                 12
             ],
@@ -16726,6 +16757,10 @@
                     0,
                     255
                 ]
+            ],
+            [
+                "mana_cost",
+                16
             ]
         ]
     },
@@ -16912,6 +16947,10 @@
             [
                 "max_range",
                 1
+            ],
+            [
+                "mana_cost",
+                4
             ]
         ]
     },
@@ -16948,17 +16987,6 @@
             [
                 "heal",
                 99
-            ],
-            [
-                "uses",
-                15
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
             ],
             [
                 "wexp",
@@ -16999,6 +17027,10 @@
             [
                 "lifelink",
                 -1.0
+            ],
+            [
+                "mana_cost",
+                9
             ]
         ]
     },
@@ -17055,6 +17087,10 @@
             [
                 "max_range",
                 1
+            ],
+            [
+                "mana_cost",
+                10
             ]
         ]
     },
@@ -17085,17 +17121,6 @@
                 null
             ],
             [
-                "uses",
-                3
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
                 "wexp",
                 5
             ],
@@ -17122,6 +17147,10 @@
             [
                 "target_enemy",
                 null
+            ],
+            [
+                "mana_cost",
+                5
             ]
         ]
     },
@@ -17152,17 +17181,6 @@
                 null
             ],
             [
-                "uses",
-                3
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
                 "wexp",
                 5
             ],
@@ -17189,6 +17207,10 @@
             [
                 "target_enemy",
                 null
+            ],
+            [
+                "mana_cost",
+                8
             ]
         ]
     },
@@ -17219,17 +17241,6 @@
                 null
             ],
             [
-                "uses",
-                3
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
                 "wexp",
                 5
             ],
@@ -17256,6 +17267,10 @@
             [
                 "target_enemy",
                 null
+            ],
+            [
+                "mana_cost",
+                13
             ]
         ]
     },
@@ -17302,17 +17317,6 @@
                 null
             ],
             [
-                "uses",
-                20
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
                 "weight",
                 6
             ],
@@ -17322,7 +17326,7 @@
             ],
             [
                 "value",
-                6000
+                600
             ],
             [
                 "min_range",
@@ -17354,6 +17358,10 @@
                     255,
                     255
                 ]
+            ],
+            [
+                "mana_cost",
+                4
             ]
         ]
     },
@@ -17511,11 +17519,11 @@
             ],
             [
                 "min_range",
-                3
+                1
             ],
             [
                 "max_range",
-                10
+                2
             ],
             [
                 "effective_damage",
@@ -17543,6 +17551,10 @@
             [
                 "siege_weapon",
                 null
+            ],
+            [
+                "mana_cost",
+                10
             ]
         ]
     },
@@ -17589,17 +17601,6 @@
                 null
             ],
             [
-                "uses",
-                20
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
                 "weight",
                 12
             ],
@@ -17613,11 +17614,11 @@
             ],
             [
                 "min_range",
-                1
+                3
             ],
             [
                 "max_range",
-                2
+                10
             ],
             [
                 "effective_damage",
@@ -17641,6 +17642,10 @@
                     255,
                     255
                 ]
+            ],
+            [
+                "mana_cost",
+                17
             ]
         ]
     },
@@ -17687,17 +17692,6 @@
                 null
             ],
             [
-                "uses",
-                20
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
                 "weight",
                 12
             ],
@@ -17724,6 +17718,10 @@
                     255,
                     255
                 ]
+            ],
+            [
+                "mana_cost",
+                16
             ]
         ]
     },
@@ -21962,8 +21960,8 @@
         ]
     },
     {
-        "nid": "Vulnerary",
-        "name": "Vulnerary",
+        "nid": "Potion",
+        "name": "Potion",
         "desc": "Restores 10 HP.",
         "icon_nid": "Consumable",
         "icon_index": [
@@ -22009,9 +22007,56 @@
         ]
     },
     {
+        "nid": "Herb",
+        "name": "Herb",
+        "desc": "Restores 5 MP.",
+        "icon_nid": "{EldritchA, Indogutsu Tenbuki} Tactics Ogre All Icons",
+        "icon_index": [
+            6,
+            10
+        ],
+        "components": [
+            [
+                "usable",
+                null
+            ],
+            [
+                "value",
+                300
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "uses",
+                3
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    96,
+                    144,
+                    232
+                ]
+            ],
+            [
+                "mana_heal",
+                5
+            ]
+        ]
+    },
+    {
         "nid": "Elixir",
         "name": "Elixir",
-        "desc": "Fully recovers HP.",
+        "desc": "Fully recovers HP and MP.",
         "icon_nid": "Consumable",
         "icon_index": [
             0,
@@ -22043,6 +22088,10 @@
             ],
             [
                 "heal",
+                99
+            ],
+            [
+                "mana_heal",
                 99
             ],
             [
@@ -22105,7 +22154,7 @@
     {
         "nid": "Antitoxin",
         "name": "Antitoxin",
-        "desc": "Cures poison.",
+        "desc": "Cures minor curses.",
         "icon_nid": "Consumable",
         "icon_index": [
             0,

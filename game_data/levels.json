@@ -1210,7 +1210,10 @@
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": null,
+                "starting_position": [
+                    2,
+                    11
+                ],
                 "starting_traveler": null,
                 "generic": false
             },
@@ -1220,7 +1223,10 @@
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": null,
+                "starting_position": [
+                    1,
+                    11
+                ],
                 "starting_traveler": null,
                 "generic": false
             }
@@ -2367,7 +2373,7 @@
                         false
                     ],
                     [
-                        "Vulnerary",
+                        "Potion",
                         true
                     ]
                 ],
@@ -3647,7 +3653,7 @@
                         false
                     ],
                     [
-                        "Vulnerary",
+                        "Potion",
                         false
                     ]
                 ],
@@ -5356,7 +5362,7 @@
                         false
                     ],
                     [
-                        "Vulnerary",
+                        "Potion",
                         false
                     ]
                 ],

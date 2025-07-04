@@ -379,6 +379,11 @@
     },
     {
         "nid": "{EldritchA, Indogutsu Tenbuki} Tactics Ogre All Icons",
-        "subicon_dict": {}
+        "subicon_dict": {
+            "{EldritchA, Indogutsu Tenbuki} Tactics Ogre All Icons 6, 10": [
+                6,
+                10
+            ]
+        }
     }
 ]
