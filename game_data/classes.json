@@ -16970,7 +16970,7 @@
             0
         ],
         "map_sprite_nid": "WindRider",
-        "combat_anim_nid": null,
+        "combat_anim_nid": "Valkyrie",
         "fields": []
     },
     {

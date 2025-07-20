@@ -2376,6 +2376,83 @@
         ]
     },
     {
+        "nid": "Broken_Blade",
+        "name": "Broken Blade",
+        "desc": "A lightweight sword designed for training purposes only.\nIncreases Sword EXP gain.",
+        "icon_nid": "{EldritchA, Indogutsu Tenbuki} Tactics Ogre All Icons",
+        "icon_index": [
+            9,
+            1
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "value",
+                0
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "damage",
+                2
+            ],
+            [
+                "hit",
+                150
+            ],
+            [
+                "weight",
+                4
+            ],
+            [
+                "uses",
+                10
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Sword"
+            ],
+            [
+                "weapon_rank",
+                "E"
+            ],
+            [
+                "wexp",
+                5
+            ],
+            [
+                "item_tags",
+                [
+                    "Iron"
+                ]
+            ]
+        ]
+    },
+    {
         "nid": "Foil",
         "name": "Foil",
         "desc": "A lightweight sword designed for training purposes only.\nIncreases Sword EXP gain.",
@@ -2442,7 +2519,7 @@
             ],
             [
                 "wexp",
-                2
+                5
             ],
             [
                 "item_tags",
@@ -12334,14 +12411,6 @@
             [
                 "status_on_hit",
                 "Fort"
-            ],
-            [
-                "mana_uses",
-                {
-                    "replace_uses_with_mana_cost": false,
-                    "replace_max_uses_with_max_mana": false,
-                    "show_mana_text_in_inventory": false
-                }
             ]
         ]
     },
@@ -12416,14 +12485,6 @@
                 null
             ],
             [
-                "mana_uses",
-                {
-                    "replace_uses_with_mana_cost": false,
-                    "replace_max_uses_with_max_mana": false,
-                    "show_mana_text_in_inventory": false
-                }
-            ],
-            [
                 "mana_cost",
                 2
             ]
@@ -12490,14 +12551,6 @@
             [
                 "mana_cost",
                 4
-            ],
-            [
-                "mana_uses",
-                {
-                    "replace_uses_with_mana_cost": false,
-                    "replace_max_uses_with_max_mana": false,
-                    "show_mana_text_in_inventory": false
-                }
             ]
         ]
     },
@@ -12621,14 +12674,6 @@
             [
                 "mana_cost",
                 3
-            ],
-            [
-                "mana_uses",
-                {
-                    "replace_uses_with_mana_cost": false,
-                    "replace_max_uses_with_max_mana": false,
-                    "show_mana_text_in_inventory": false
-                }
             ]
         ]
     },
@@ -12685,14 +12730,6 @@
             [
                 "target_enemy",
                 null
-            ],
-            [
-                "mana_uses",
-                {
-                    "replace_uses_with_mana_cost": false,
-                    "replace_max_uses_with_max_mana": false,
-                    "show_mana_text_in_inventory": false
-                }
             ],
             [
                 "mana_cost",
@@ -12791,14 +12828,6 @@
             [
                 "mana_cost",
                 1
-            ],
-            [
-                "mana_uses",
-                {
-                    "replace_uses_with_mana_cost": false,
-                    "replace_max_uses_with_max_mana": false,
-                    "show_mana_text_in_inventory": false
-                }
             ]
         ]
     },
@@ -12893,14 +12922,6 @@
             [
                 "mana_cost",
                 2
-            ],
-            [
-                "mana_uses",
-                {
-                    "replace_uses_with_mana_cost": false,
-                    "replace_max_uses_with_max_mana": false,
-                    "show_mana_text_in_inventory": false
-                }
             ]
         ]
     },
@@ -12991,14 +13012,6 @@
             [
                 "mana_cost",
                 4
-            ],
-            [
-                "mana_uses",
-                {
-                    "replace_uses_with_mana_cost": false,
-                    "replace_max_uses_with_max_mana": false,
-                    "show_mana_text_in_inventory": false
-                }
             ]
         ]
     },
@@ -13093,14 +13106,6 @@
             [
                 "mana_cost",
                 15
-            ],
-            [
-                "mana_uses",
-                {
-                    "replace_uses_with_mana_cost": false,
-                    "replace_max_uses_with_max_mana": false,
-                    "show_mana_text_in_inventory": false
-                }
             ]
         ]
     },
@@ -13202,14 +13207,6 @@
             [
                 "mana_cost",
                 7
-            ],
-            [
-                "mana_uses",
-                {
-                    "replace_uses_with_mana_cost": false,
-                    "replace_max_uses_with_max_mana": false,
-                    "show_mana_text_in_inventory": false
-                }
             ]
         ]
     },
@@ -13304,14 +13301,6 @@
             [
                 "mana_cost",
                 10
-            ],
-            [
-                "mana_uses",
-                {
-                    "replace_uses_with_mana_cost": false,
-                    "replace_max_uses_with_max_mana": false,
-                    "show_mana_text_in_inventory": false
-                }
             ]
         ]
     },
@@ -13408,14 +13397,6 @@
             [
                 "mana_cost",
                 5
-            ],
-            [
-                "mana_uses",
-                {
-                    "replace_uses_with_mana_cost": false,
-                    "replace_max_uses_with_max_mana": false,
-                    "show_mana_text_in_inventory": false
-                }
             ]
         ]
     },
@@ -13554,14 +13535,6 @@
             [
                 "status_on_hit",
                 "Fort"
-            ],
-            [
-                "mana_uses",
-                {
-                    "replace_uses_with_mana_cost": false,
-                    "replace_max_uses_with_max_mana": false,
-                    "show_mana_text_in_inventory": false
-                }
             ]
         ]
     },
@@ -13638,14 +13611,6 @@
             [
                 "mana_cost",
                 2
-            ],
-            [
-                "mana_uses",
-                {
-                    "replace_uses_with_mana_cost": false,
-                    "replace_max_uses_with_max_mana": false,
-                    "show_mana_text_in_inventory": false
-                }
             ]
         ]
     },
@@ -13710,14 +13675,6 @@
             [
                 "mana_cost",
                 5
-            ],
-            [
-                "mana_uses",
-                {
-                    "replace_uses_with_mana_cost": false,
-                    "replace_max_uses_with_max_mana": false,
-                    "show_mana_text_in_inventory": false
-                }
             ]
         ]
     },
@@ -13817,14 +13774,6 @@
             [
                 "mana_cost",
                 5
-            ],
-            [
-                "mana_uses",
-                {
-                    "replace_uses_with_mana_cost": false,
-                    "replace_max_uses_with_max_mana": false,
-                    "show_mana_text_in_inventory": false
-                }
             ]
         ]
     },
@@ -13885,14 +13834,6 @@
             [
                 "mana_cost",
                 4
-            ],
-            [
-                "mana_uses",
-                {
-                    "replace_uses_with_mana_cost": false,
-                    "replace_max_uses_with_max_mana": false,
-                    "show_mana_text_in_inventory": false
-                }
             ]
         ]
     },
@@ -13953,14 +13894,6 @@
             [
                 "mana_cost",
                 1
-            ],
-            [
-                "mana_uses",
-                {
-                    "replace_uses_with_mana_cost": false,
-                    "replace_max_uses_with_max_mana": false,
-                    "show_mana_text_in_inventory": false
-                }
             ]
         ]
     },
@@ -13981,14 +13914,6 @@
             [
                 "weapon_rank",
                 "E"
-            ],
-            [
-                "mana_uses",
-                {
-                    "replace_uses_with_mana_cost": false,
-                    "replace_max_uses_with_max_mana": false,
-                    "show_mana_text_in_inventory": false
-                }
             ]
         ]
     },
@@ -14169,14 +14094,6 @@
             [
                 "mana_cost",
                 2
-            ],
-            [
-                "mana_uses",
-                {
-                    "replace_uses_with_mana_cost": false,
-                    "replace_max_uses_with_max_mana": false,
-                    "show_mana_text_in_inventory": false
-                }
             ]
         ]
     },
@@ -14271,14 +14188,6 @@
             [
                 "mana_cost",
                 4
-            ],
-            [
-                "mana_uses",
-                {
-                    "replace_uses_with_mana_cost": false,
-                    "replace_max_uses_with_max_mana": false,
-                    "show_mana_text_in_inventory": false
-                }
             ]
         ]
     },
@@ -14373,14 +14282,6 @@
             [
                 "mana_cost",
                 7
-            ],
-            [
-                "mana_uses",
-                {
-                    "replace_uses_with_mana_cost": false,
-                    "replace_max_uses_with_max_mana": false,
-                    "show_mana_text_in_inventory": false
-                }
             ]
         ]
     },
@@ -14475,14 +14376,6 @@
             [
                 "mana_cost",
                 15
-            ],
-            [
-                "mana_uses",
-                {
-                    "replace_uses_with_mana_cost": false,
-                    "replace_max_uses_with_max_mana": false,
-                    "show_mana_text_in_inventory": false
-                }
             ]
         ]
     },
@@ -14577,14 +14470,6 @@
             [
                 "mana_cost",
                 10
-            ],
-            [
-                "mana_uses",
-                {
-                    "replace_uses_with_mana_cost": false,
-                    "replace_max_uses_with_max_mana": false,
-                    "show_mana_text_in_inventory": false
-                }
             ]
         ]
     },
@@ -14778,14 +14663,6 @@
             [
                 "mana_cost",
                 3
-            ],
-            [
-                "mana_uses",
-                {
-                    "replace_uses_with_mana_cost": false,
-                    "replace_max_uses_with_max_mana": false,
-                    "show_mana_text_in_inventory": false
-                }
             ]
         ]
     },
@@ -14862,14 +14739,6 @@
             [
                 "mana_cost",
                 2
-            ],
-            [
-                "mana_uses",
-                {
-                    "replace_uses_with_mana_cost": false,
-                    "replace_max_uses_with_max_mana": false,
-                    "show_mana_text_in_inventory": false
-                }
             ]
         ]
     },
@@ -14930,14 +14799,6 @@
             [
                 "mana_cost",
                 6
-            ],
-            [
-                "mana_uses",
-                {
-                    "replace_uses_with_mana_cost": false,
-                    "replace_max_uses_with_max_mana": false,
-                    "show_mana_text_in_inventory": false
-                }
             ]
         ]
     },
@@ -15005,14 +14866,6 @@
             [
                 "mana_cost",
                 12
-            ],
-            [
-                "mana_uses",
-                {
-                    "replace_uses_with_mana_cost": false,
-                    "replace_max_uses_with_max_mana": false,
-                    "show_mana_text_in_inventory": false
-                }
             ]
         ]
     },
@@ -15161,14 +15014,6 @@
             [
                 "mana_cost",
                 4
-            ],
-            [
-                "mana_uses",
-                {
-                    "replace_uses_with_mana_cost": false,
-                    "replace_max_uses_with_max_mana": false,
-                    "show_mana_text_in_inventory": false
-                }
             ]
         ]
     },
@@ -15259,14 +15104,6 @@
             [
                 "mana_cost",
                 2
-            ],
-            [
-                "mana_uses",
-                {
-                    "replace_uses_with_mana_cost": false,
-                    "replace_max_uses_with_max_mana": false,
-                    "show_mana_text_in_inventory": false
-                }
             ]
         ]
     },
@@ -15357,14 +15194,6 @@
             [
                 "mana_cost",
                 3
-            ],
-            [
-                "mana_uses",
-                {
-                    "replace_uses_with_mana_cost": false,
-                    "replace_max_uses_with_max_mana": false,
-                    "show_mana_text_in_inventory": false
-                }
             ]
         ]
     },
@@ -15455,14 +15284,6 @@
             [
                 "mana_cost",
                 5
-            ],
-            [
-                "mana_uses",
-                {
-                    "replace_uses_with_mana_cost": false,
-                    "replace_max_uses_with_max_mana": false,
-                    "show_mana_text_in_inventory": false
-                }
             ]
         ]
     },
@@ -15553,14 +15374,6 @@
             [
                 "mana_cost",
                 7
-            ],
-            [
-                "mana_uses",
-                {
-                    "replace_uses_with_mana_cost": false,
-                    "replace_max_uses_with_max_mana": false,
-                    "show_mana_text_in_inventory": false
-                }
             ]
         ]
     },
@@ -15651,14 +15464,6 @@
             [
                 "mana_cost",
                 17
-            ],
-            [
-                "mana_uses",
-                {
-                    "replace_uses_with_mana_cost": false,
-                    "replace_max_uses_with_max_mana": false,
-                    "show_mana_text_in_inventory": false
-                }
             ]
         ]
     },
@@ -15749,14 +15554,6 @@
             [
                 "mana_cost",
                 13
-            ],
-            [
-                "mana_uses",
-                {
-                    "replace_uses_with_mana_cost": false,
-                    "replace_max_uses_with_max_mana": false,
-                    "show_mana_text_in_inventory": false
-                }
             ]
         ]
     },
@@ -15891,10 +15688,6 @@
             [
                 "mana_cost",
                 5
-            ],
-            [
-                "mana_uses",
-                null
             ]
         ]
     },
@@ -15955,10 +15748,6 @@
             [
                 "mana_cost",
                 2
-            ],
-            [
-                "mana_uses",
-                null
             ]
         ]
     },
@@ -16031,10 +15820,6 @@
             [
                 "equippable_accessory",
                 null
-            ],
-            [
-                "mana_uses",
-                null
             ]
         ]
     },
@@ -16091,10 +15876,6 @@
             [
                 "mana_cost",
                 4
-            ],
-            [
-                "mana_uses",
-                null
             ]
         ]
     },
@@ -16167,10 +15948,6 @@
             [
                 "mana_cost",
                 8
-            ],
-            [
-                "mana_uses",
-                null
             ]
         ]
     },
@@ -16243,10 +16020,6 @@
             [
                 "mana_cost",
                 25
-            ],
-            [
-                "mana_uses",
-                null
             ]
         ]
     },
@@ -16311,10 +16084,6 @@
             [
                 "mana_cost",
                 6
-            ],
-            [
-                "mana_uses",
-                null
             ]
         ]
     },
@@ -16405,14 +16174,6 @@
                     0,
                     255
                 ]
-            ],
-            [
-                "mana_uses",
-                {
-                    "replace_uses_with_mana_cost": false,
-                    "replace_max_uses_with_max_mana": false,
-                    "show_mana_text_in_inventory": false
-                }
             ]
         ]
     },
@@ -16503,14 +16264,6 @@
             [
                 "mana_cost",
                 2
-            ],
-            [
-                "mana_uses",
-                {
-                    "replace_uses_with_mana_cost": false,
-                    "replace_max_uses_with_max_mana": false,
-                    "show_mana_text_in_inventory": false
-                }
             ]
         ]
     },
@@ -16601,14 +16354,6 @@
             [
                 "mana_cost",
                 4
-            ],
-            [
-                "mana_uses",
-                {
-                    "replace_uses_with_mana_cost": false,
-                    "replace_max_uses_with_max_mana": false,
-                    "show_mana_text_in_inventory": false
-                }
             ]
         ]
     },
@@ -16699,10 +16444,6 @@
             [
                 "mana_cost",
                 7
-            ],
-            [
-                "mana_uses",
-                null
             ]
         ]
     },
@@ -16793,10 +16534,6 @@
             [
                 "mana_cost",
                 9
-            ],
-            [
-                "mana_uses",
-                null
             ]
         ]
     },
@@ -16927,10 +16664,6 @@
             [
                 "mana_cost",
                 2
-            ],
-            [
-                "mana_uses",
-                null
             ]
         ]
     },
@@ -16991,10 +16724,6 @@
             [
                 "mana_cost",
                 4
-            ],
-            [
-                "mana_uses",
-                null
             ]
         ]
     },
@@ -17067,10 +16796,6 @@
             [
                 "mana_cost",
                 9
-            ],
-            [
-                "mana_uses",
-                null
             ]
         ]
     },
@@ -17131,10 +16856,6 @@
             [
                 "mana_cost",
                 10
-            ],
-            [
-                "mana_uses",
-                null
             ]
         ]
     },
@@ -17195,10 +16916,6 @@
             [
                 "mana_cost",
                 5
-            ],
-            [
-                "mana_uses",
-                null
             ]
         ]
     },
@@ -17259,10 +16976,6 @@
             [
                 "mana_cost",
                 8
-            ],
-            [
-                "mana_uses",
-                null
             ]
         ]
     },
@@ -17318,10 +17031,6 @@
             ],
             [
                 "target_enemy",
-                null
-            ],
-            [
-                "mana_uses",
                 null
             ],
             [
@@ -17422,10 +17131,6 @@
             [
                 "mana_cost",
                 2
-            ],
-            [
-                "mana_uses",
-                null
             ]
         ]
     },
@@ -17513,10 +17218,6 @@
             [
                 "mana_cost",
                 4
-            ],
-            [
-                "mana_uses",
-                null
             ]
         ]
     },
@@ -17623,10 +17324,6 @@
             [
                 "mana_cost",
                 7
-            ],
-            [
-                "mana_uses",
-                null
             ]
         ]
     },
@@ -17718,10 +17415,6 @@
             [
                 "mana_cost",
                 17
-            ],
-            [
-                "mana_uses",
-                null
             ]
         ]
     },
@@ -17798,10 +17491,6 @@
             [
                 "mana_cost",
                 12
-            ],
-            [
-                "mana_uses",
-                null
             ]
         ]
     },
@@ -17924,10 +17613,6 @@
             [
                 "mana_cost",
                 3
-            ],
-            [
-                "mana_uses",
-                null
             ]
         ]
     },
@@ -17988,10 +17673,6 @@
             [
                 "mana_cost",
                 2
-            ],
-            [
-                "mana_uses",
-                null
             ]
         ]
     },
@@ -18047,10 +17728,6 @@
             ],
             [
                 "no_alert_on_break",
-                null
-            ],
-            [
-                "mana_uses",
                 null
             ],
             [
@@ -18124,10 +17801,6 @@
             [
                 "mana_cost",
                 8
-            ],
-            [
-                "mana_uses",
-                null
             ]
         ]
     },
@@ -18195,10 +17868,6 @@
             [
                 "mana_cost",
                 8
-            ],
-            [
-                "mana_uses",
-                null
             ]
         ]
     },
@@ -18331,10 +18000,6 @@
             [
                 "mana_cost",
                 4
-            ],
-            [
-                "mana_uses",
-                null
             ]
         ]
     },
@@ -18420,10 +18085,6 @@
             [
                 "mana_cost",
                 1
-            ],
-            [
-                "mana_uses",
-                null
             ]
         ]
     },
@@ -18509,10 +18170,6 @@
             [
                 "mana_cost",
                 2
-            ],
-            [
-                "mana_uses",
-                null
             ]
         ]
     },
@@ -18609,10 +18266,6 @@
             [
                 "mana_cost",
                 3
-            ],
-            [
-                "mana_uses",
-                null
             ]
         ]
     },
@@ -18698,10 +18351,6 @@
             [
                 "mana_cost",
                 5
-            ],
-            [
-                "mana_uses",
-                null
             ]
         ]
     },
@@ -18790,10 +18439,6 @@
             [
                 "mana_cost",
                 8
-            ],
-            [
-                "mana_uses",
-                null
             ]
         ]
     },
@@ -18977,10 +18622,6 @@
             [
                 "mana_cost",
                 15
-            ],
-            [
-                "mana_uses",
-                null
             ]
         ]
     },
@@ -22105,10 +21746,6 @@
                     144,
                     232
                 ]
-            ],
-            [
-                "mana_heal",
-                5
             ]
         ]
     },
@@ -22147,10 +21784,6 @@
             ],
             [
                 "heal",
-                99
-            ],
-            [
-                "mana_heal",
                 99
             ],
             [
@@ -23704,42 +23337,6 @@
                         50
                     ]
                 ]
-            ]
-        ]
-    },
-    {
-        "nid": "EventSplash",
-        "name": "Splash",
-        "desc": "",
-        "icon_nid": "{Batima} All Tomes",
-        "icon_index": [
-            0,
-            5
-        ],
-        "components": [
-            [
-                "target_enemy",
-                null
-            ],
-            [
-                "map_hit_sfx",
-                "Fenrir4"
-            ],
-            [
-                "map_cast_pose",
-                null
-            ],
-            [
-                "never_use_battle_animation",
-                null
-            ],
-            [
-                "weapon",
-                null
-            ],
-            [
-                "map_cast_anim",
-                "Swoosh"
             ]
         ]
     }

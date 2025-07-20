@@ -50,6 +50,14 @@
             [
                 "Foil",
                 false
+            ],
+            [
+                "Broken_Blade",
+                false
+            ],
+            [
+                "Almace",
+                false
             ]
         ],
         "learned_skills": [

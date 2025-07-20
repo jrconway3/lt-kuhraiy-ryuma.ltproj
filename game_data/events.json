@@ -4004,7 +4004,6 @@
             "add_group;FreeRoam;FreeRoam;immediate",
             "center_cursor;Svetlanya;immediate",
             "change_party;Serena;Shayala",
-            "show_layer;ch0;immediate",
             "show_layer;dr4_nadira;immediate",
             "",
             "# Setup Talk Events",
@@ -4312,5 +4311,18 @@
             "speak;Svetlanya;\"This should not occur when opening Camp!\""
         ],
         "nid": "DEBUG Chapter End"
+    },
+    {
+        "name": "Smithy",
+        "trigger": "Blacksmith",
+        "level_nid": "DEBUG2",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "shop;{unit};Foil,Epee,Bronze_Sword,BronzeKnife,Bronze_Lance,Bronze_Axe,Oak_Bow,Oak_Longbow,Bronze_Crossbow;armory"
+        ],
+        "nid": "DEBUG2 Smithy"
     }
 ]
