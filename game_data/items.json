@@ -12409,6 +12409,10 @@
                 3
             ],
             [
+                "mana_uses",
+                null
+            ],
+            [
                 "status_on_hit",
                 "Fort"
             ]
@@ -12487,6 +12491,10 @@
             [
                 "mana_cost",
                 2
+            ],
+            [
+                "mana_uses",
+                null
             ]
         ]
     },
@@ -12551,6 +12559,10 @@
             [
                 "mana_cost",
                 4
+            ],
+            [
+                "mana_uses",
+                null
             ]
         ]
     },
@@ -12614,6 +12626,10 @@
             [
                 "mana_cost",
                 10
+            ],
+            [
+                "mana_uses",
+                null
             ]
         ]
     },
@@ -12674,6 +12690,10 @@
             [
                 "mana_cost",
                 3
+            ],
+            [
+                "mana_uses",
+                null
             ]
         ]
     },
@@ -12734,6 +12754,10 @@
             [
                 "mana_cost",
                 5
+            ],
+            [
+                "mana_uses",
+                null
             ]
         ]
     },
@@ -12828,6 +12852,10 @@
             [
                 "mana_cost",
                 1
+            ],
+            [
+                "mana_uses",
+                null
             ]
         ]
     },
@@ -12922,6 +12950,10 @@
             [
                 "mana_cost",
                 2
+            ],
+            [
+                "mana_uses",
+                null
             ]
         ]
     },
@@ -13012,6 +13044,10 @@
             [
                 "mana_cost",
                 4
+            ],
+            [
+                "mana_uses",
+                null
             ]
         ]
     },
@@ -13106,6 +13142,10 @@
             [
                 "mana_cost",
                 15
+            ],
+            [
+                "mana_uses",
+                null
             ]
         ]
     },
@@ -13207,6 +13247,10 @@
             [
                 "mana_cost",
                 7
+            ],
+            [
+                "mana_uses",
+                null
             ]
         ]
     },
@@ -13301,6 +13345,10 @@
             [
                 "mana_cost",
                 10
+            ],
+            [
+                "mana_uses",
+                null
             ]
         ]
     },
@@ -13397,6 +13445,10 @@
             [
                 "mana_cost",
                 5
+            ],
+            [
+                "mana_uses",
+                null
             ]
         ]
     },
@@ -13533,6 +13585,10 @@
                 3
             ],
             [
+                "mana_uses",
+                null
+            ],
+            [
                 "status_on_hit",
                 "Fort"
             ]
@@ -13611,6 +13667,10 @@
             [
                 "mana_cost",
                 2
+            ],
+            [
+                "mana_uses",
+                null
             ]
         ]
     },
@@ -13675,6 +13735,10 @@
             [
                 "mana_cost",
                 5
+            ],
+            [
+                "mana_uses",
+                null
             ]
         ]
     },
@@ -13774,6 +13838,10 @@
             [
                 "mana_cost",
                 5
+            ],
+            [
+                "mana_uses",
+                null
             ]
         ]
     },
@@ -13834,6 +13902,10 @@
             [
                 "mana_cost",
                 4
+            ],
+            [
+                "mana_uses",
+                null
             ]
         ]
     },
@@ -13894,6 +13966,10 @@
             [
                 "mana_cost",
                 1
+            ],
+            [
+                "mana_uses",
+                null
             ]
         ]
     },
@@ -13998,6 +14074,10 @@
                 1
             ],
             [
+                "mana_uses",
+                null
+            ],
+            [
                 "weapon_type",
                 "Ignis"
             ]
@@ -14094,6 +14174,10 @@
             [
                 "mana_cost",
                 2
+            ],
+            [
+                "mana_uses",
+                null
             ]
         ]
     },
@@ -14188,6 +14272,10 @@
             [
                 "mana_cost",
                 4
+            ],
+            [
+                "mana_uses",
+                null
             ]
         ]
     },
@@ -14282,6 +14370,10 @@
             [
                 "mana_cost",
                 7
+            ],
+            [
+                "mana_uses",
+                null
             ]
         ]
     },
@@ -14376,6 +14468,10 @@
             [
                 "mana_cost",
                 15
+            ],
+            [
+                "mana_uses",
+                null
             ]
         ]
     },
@@ -14470,6 +14566,10 @@
             [
                 "mana_cost",
                 10
+            ],
+            [
+                "mana_uses",
+                null
             ]
         ]
     },
@@ -14663,6 +14763,10 @@
             [
                 "mana_cost",
                 3
+            ],
+            [
+                "mana_uses",
+                null
             ]
         ]
     },
@@ -14739,6 +14843,10 @@
             [
                 "mana_cost",
                 2
+            ],
+            [
+                "mana_uses",
+                null
             ]
         ]
     },
@@ -14799,6 +14907,10 @@
             [
                 "mana_cost",
                 6
+            ],
+            [
+                "mana_uses",
+                null
             ]
         ]
     },
@@ -14866,6 +14978,10 @@
             [
                 "mana_cost",
                 12
+            ],
+            [
+                "mana_uses",
+                null
             ]
         ]
     },
@@ -15014,6 +15130,10 @@
             [
                 "mana_cost",
                 4
+            ],
+            [
+                "mana_uses",
+                null
             ]
         ]
     },
@@ -15104,6 +15224,10 @@
             [
                 "mana_cost",
                 2
+            ],
+            [
+                "mana_uses",
+                null
             ]
         ]
     },
@@ -15194,6 +15318,10 @@
             [
                 "mana_cost",
                 3
+            ],
+            [
+                "mana_uses",
+                null
             ]
         ]
     },
@@ -15284,6 +15412,10 @@
             [
                 "mana_cost",
                 5
+            ],
+            [
+                "mana_uses",
+                null
             ]
         ]
     },
@@ -15374,6 +15506,10 @@
             [
                 "mana_cost",
                 7
+            ],
+            [
+                "mana_uses",
+                null
             ]
         ]
     },
@@ -15464,6 +15600,10 @@
             [
                 "mana_cost",
                 17
+            ],
+            [
+                "mana_uses",
+                null
             ]
         ]
     },
@@ -15554,6 +15694,10 @@
             [
                 "mana_cost",
                 13
+            ],
+            [
+                "mana_uses",
+                null
             ]
         ]
     },
@@ -15688,6 +15832,10 @@
             [
                 "mana_cost",
                 5
+            ],
+            [
+                "mana_uses",
+                null
             ]
         ]
     },
@@ -15748,6 +15896,10 @@
             [
                 "mana_cost",
                 2
+            ],
+            [
+                "mana_uses",
+                null
             ]
         ]
     },
@@ -15814,6 +15966,10 @@
                 3
             ],
             [
+                "mana_uses",
+                null
+            ],
+            [
                 "map_cast_anim",
                 "MapSmallHealTrans"
             ],
@@ -15876,6 +16032,10 @@
             [
                 "mana_cost",
                 4
+            ],
+            [
+                "mana_uses",
+                null
             ]
         ]
     },
@@ -15948,6 +16108,10 @@
             [
                 "mana_cost",
                 8
+            ],
+            [
+                "mana_uses",
+                null
             ]
         ]
     },
@@ -16020,6 +16184,10 @@
             [
                 "mana_cost",
                 25
+            ],
+            [
+                "mana_uses",
+                null
             ]
         ]
     },
@@ -16084,6 +16252,10 @@
             [
                 "mana_cost",
                 6
+            ],
+            [
+                "mana_uses",
+                null
             ]
         ]
     },
@@ -16152,6 +16324,10 @@
             [
                 "mana_cost",
                 1
+            ],
+            [
+                "mana_uses",
+                null
             ],
             [
                 "effective_damage",
@@ -16264,6 +16440,10 @@
             [
                 "mana_cost",
                 2
+            ],
+            [
+                "mana_uses",
+                null
             ]
         ]
     },
@@ -16354,6 +16534,10 @@
             [
                 "mana_cost",
                 4
+            ],
+            [
+                "mana_uses",
+                null
             ]
         ]
     },
@@ -16444,6 +16628,10 @@
             [
                 "mana_cost",
                 7
+            ],
+            [
+                "mana_uses",
+                null
             ]
         ]
     },
@@ -16534,6 +16722,10 @@
             [
                 "mana_cost",
                 9
+            ],
+            [
+                "mana_uses",
+                null
             ]
         ]
     },
@@ -16664,6 +16856,10 @@
             [
                 "mana_cost",
                 2
+            ],
+            [
+                "mana_uses",
+                null
             ]
         ]
     },
@@ -16724,6 +16920,10 @@
             [
                 "mana_cost",
                 4
+            ],
+            [
+                "mana_uses",
+                null
             ]
         ]
     },
@@ -16796,6 +16996,10 @@
             [
                 "mana_cost",
                 9
+            ],
+            [
+                "mana_uses",
+                null
             ]
         ]
     },
@@ -16856,6 +17060,10 @@
             [
                 "mana_cost",
                 10
+            ],
+            [
+                "mana_uses",
+                null
             ]
         ]
     },
@@ -16916,6 +17124,10 @@
             [
                 "mana_cost",
                 5
+            ],
+            [
+                "mana_uses",
+                null
             ]
         ]
     },
@@ -16976,6 +17188,10 @@
             [
                 "mana_cost",
                 8
+            ],
+            [
+                "mana_uses",
+                null
             ]
         ]
     },
@@ -17036,6 +17252,10 @@
             [
                 "eval_mana_cost",
                 "unit.get_max_mana()"
+            ],
+            [
+                "mana_uses",
+                null
             ],
             [
                 "target_ally",
@@ -17131,6 +17351,10 @@
             [
                 "mana_cost",
                 2
+            ],
+            [
+                "mana_uses",
+                null
             ]
         ]
     },
@@ -17218,6 +17442,10 @@
             [
                 "mana_cost",
                 4
+            ],
+            [
+                "mana_uses",
+                null
             ]
         ]
     },
@@ -17324,6 +17552,10 @@
             [
                 "mana_cost",
                 7
+            ],
+            [
+                "mana_uses",
+                null
             ]
         ]
     },
@@ -17415,6 +17647,10 @@
             [
                 "mana_cost",
                 17
+            ],
+            [
+                "mana_uses",
+                null
             ]
         ]
     },
@@ -17491,6 +17727,10 @@
             [
                 "mana_cost",
                 12
+            ],
+            [
+                "mana_uses",
+                null
             ]
         ]
     },
@@ -17613,6 +17853,10 @@
             [
                 "mana_cost",
                 3
+            ],
+            [
+                "mana_uses",
+                null
             ]
         ]
     },
@@ -17673,6 +17917,10 @@
             [
                 "mana_cost",
                 2
+            ],
+            [
+                "mana_uses",
+                null
             ]
         ]
     },
@@ -17733,6 +17981,10 @@
             [
                 "mana_cost",
                 10
+            ],
+            [
+                "mana_uses",
+                null
             ]
         ]
     },
@@ -17801,6 +18053,10 @@
             [
                 "mana_cost",
                 8
+            ],
+            [
+                "mana_uses",
+                null
             ]
         ]
     },
@@ -17868,6 +18124,10 @@
             [
                 "mana_cost",
                 8
+            ],
+            [
+                "mana_uses",
+                null
             ]
         ]
     },
@@ -18000,6 +18260,10 @@
             [
                 "mana_cost",
                 4
+            ],
+            [
+                "mana_uses",
+                null
             ]
         ]
     },
@@ -18085,6 +18349,10 @@
             [
                 "mana_cost",
                 1
+            ],
+            [
+                "mana_uses",
+                null
             ]
         ]
     },
@@ -18170,6 +18438,10 @@
             [
                 "mana_cost",
                 2
+            ],
+            [
+                "mana_uses",
+                null
             ]
         ]
     },
@@ -18266,6 +18538,10 @@
             [
                 "mana_cost",
                 3
+            ],
+            [
+                "mana_uses",
+                null
             ]
         ]
     },
@@ -18351,6 +18627,10 @@
             [
                 "mana_cost",
                 5
+            ],
+            [
+                "mana_uses",
+                null
             ]
         ]
     },
@@ -18439,6 +18719,10 @@
             [
                 "mana_cost",
                 8
+            ],
+            [
+                "mana_uses",
+                null
             ]
         ]
     },
@@ -18622,6 +18906,10 @@
             [
                 "mana_cost",
                 15
+            ],
+            [
+                "mana_uses",
+                null
             ]
         ]
     },
@@ -21746,6 +22034,10 @@
                     144,
                     232
                 ]
+            ],
+            [
+                "mana_heal",
+                5
             ]
         ]
     },

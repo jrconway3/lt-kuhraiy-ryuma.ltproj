@@ -67,8 +67,8 @@
         "nid": "MP",
         "name": "MP",
         "maximum": 40,
-        "desc": "Max Mana points. You can no longer cast spells if reaches 0.",
-        "position": "left",
+        "desc": "Max Mana points. You can no longer cast spells if mana is less that cost.",
+        "position": "hidden",
         "growth_colors": true
     },
     {

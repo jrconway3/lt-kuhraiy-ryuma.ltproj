@@ -5561,7 +5561,7 @@
         "nid": "DEBUG2",
         "name": "DEBUG_ROAM",
         "tilemap": "Trade City Oestridel",
-        "bg_tilemap": null,
+        "bg_tilemap": "Ch0_Blank",
         "party": "Svetlanya",
         "music": {
             "player_phase": "Town - Large (Bustling Village by Eric Mattyas, www.soundimage.org)",

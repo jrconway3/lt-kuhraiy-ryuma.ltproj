@@ -1710,7 +1710,7 @@
             "add_lore;Svetlanya",
             "add_base_convo;Dreams of Home",
             "add_weather;rain",
-            "set_wexp;Svetlanya;Aquis;121",
+            "set_wexp;Svetlanya;Aquis;121;no_banner",
             "give_skill;Svetlanya;Lanquiz;no_banner",
             "game_var;_supports;True",
             "add_talk;Svetlanya;Amaya",
@@ -4026,7 +4026,7 @@
             "add_lore;Thanya",
             "add_lore;Queiza",
             "",
-            "alert;unit.get_weapon().weapon_rank"
+            "alert;{unit.get_weapon().weapon_rank}"
         ],
         "nid": "DEBUG2 Init"
     },

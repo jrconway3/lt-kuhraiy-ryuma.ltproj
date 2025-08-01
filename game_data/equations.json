@@ -20,6 +20,10 @@
         "expression": "SKL*2 + LCK//2"
     },
     {
+        "nid": "HIT_HALF",
+        "expression": "(SKL*2 + LCK//2)//2"
+    },
+    {
         "nid": "AVOID",
         "expression": "SPD*2 + LCK"
     },

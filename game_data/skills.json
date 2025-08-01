@@ -1290,6 +1290,30 @@
         ]
     },
     {
+        "nid": "Blind",
+        "name": "Blind",
+        "desc": "Accuracy of physical weapons greatly decreased.",
+        "icon_nid": "{ZessDynamite, Rainlash, LordGlenn, Suneohair, JaidynReiman} Complete Skill Icon Sheet",
+        "icon_index": [
+            6,
+            37
+        ],
+        "components": [
+            [
+                "negative",
+                null
+            ],
+            [
+                "time",
+                5
+            ],
+            [
+                "dynamic_accuracy",
+                "-(base_value // 2)"
+            ]
+        ]
+    },
+    {
         "nid": "RallyStr",
         "name": "Strengthen",
         "desc": "Grants STR+5 for 2 Turns.",
@@ -1636,6 +1660,38 @@
             [
                 "sight_range_bonus",
                 3
+            ]
+        ]
+    },
+    {
+        "nid": "IgnisL",
+        "name": "Ignis",
+        "desc": "",
+        "icon_nid": "{ZessDynamite, Rainlash, LordGlenn, Suneohair, JaidynReiman} Complete Skill Icon Sheet",
+        "icon_index": [
+            10,
+            32
+        ],
+        "components": [
+            [
+                "combat_art",
+                "IgnisA"
+            ]
+        ]
+    },
+    {
+        "nid": "IgnisA",
+        "name": "Ignis",
+        "desc": "",
+        "icon_nid": "{ZessDynamite, Rainlash, LordGlenn, Suneohair, JaidynReiman} Complete Skill Icon Sheet",
+        "icon_index": [
+            10,
+            32
+        ],
+        "components": [
+            [
+                "eval_damage",
+                "unit.get_stat('STR') if item_funcs.is_magic(unit, item) else unit.get_stat('MAG')"
             ]
         ]
     },
