@@ -2312,6 +2312,30 @@
         ]
     },
     {
+        "nid": "Blessing_of_Mana",
+        "name": "Blessing of Mana",
+        "desc": "Unit receives or gives additional 1% max mana, min 1.",
+        "icon_nid": "{ZessDynamite, Rainlash, LordGlenn, Suneohair, JaidynReiman} Complete Skill Icon Sheet",
+        "icon_index": [
+            14,
+            32
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "empower_mana_heal",
+                "max(1, 0.01*target.get_max_mana())"
+            ],
+            [
+                "empower_mana_heal_received",
+                "max(1, 0.01*unit.get_max_mana())"
+            ]
+        ]
+    },
+    {
         "nid": "Void_Curse",
         "name": "Void Curse",
         "desc": "No exp gained for attacking this unit.",

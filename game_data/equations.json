@@ -92,6 +92,10 @@
         "expression": "MAG"
     },
     {
+        "nid": "MANA_HEAL",
+        "expression": "MIN(5, MAG//2)"
+    },
+    {
         "nid": "CONSTITUTION",
         "expression": "CON"
     },

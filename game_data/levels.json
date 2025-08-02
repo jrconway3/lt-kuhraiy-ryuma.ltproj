@@ -5300,11 +5300,11 @@
         "bg_tilemap": null,
         "party": "Svetlanya",
         "music": {
-            "player_phase": "Shadow of the Enemy",
+            "player_phase": "Chapter - Simple (Riviera, Heaven's Gate by Pikmin1211)",
             "enemy_phase": null,
             "other_phase": null,
             "enemy2_phase": null,
-            "player_battle": "Attack",
+            "player_battle": "Battle - Attack (Triangle Strategy, Combat - Destiny by Kaidras)",
             "enemy_battle": null,
             "other_battle": null,
             "enemy2_battle": null

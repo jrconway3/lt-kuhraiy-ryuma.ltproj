@@ -79,12 +79,19 @@
             },
             {
                 "nid": "ser2",
-                "Item": "Frostbite",
+                "Item": "Bless",
                 "Type": "Glacies",
                 "Wexp": "31",
                 "Rank": "D",
                 "Unit": "Svetlanya",
                 "Level": "1"
+            },
+            {
+                "nid": "ser3",
+                "Item": "Frostbite",
+                "Type": "Glacies",
+                "Wexp": "31",
+                "Rank": "D"
             }
         ]
     },
