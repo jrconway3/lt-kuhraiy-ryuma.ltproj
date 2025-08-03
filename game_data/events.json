@@ -1718,7 +1718,7 @@
             "add_talk;Svetlanya;Leiland",
             "add_talk;Svetlanya;Shyara",
             "hide_talk;Svetlanya;Shyara",
-            "give_item;Svetlanya;Herb;no_banner",
+            "give_item;Svetlanya;Almace;no_convoy",
             "#trigger_script;Trigger",
             "#base;Clearing;;Camp;True;Open Camp",
             "prep;False;;Camp;True;Open Camp",

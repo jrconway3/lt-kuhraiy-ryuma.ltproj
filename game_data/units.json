@@ -52,11 +52,15 @@
                 false
             ],
             [
-                "Broken_Blade",
+                "SteelRapier",
                 false
             ],
             [
-                "Almace",
+                "Herb",
+                false
+            ],
+            [
+                "Potion",
                 false
             ]
         ],
