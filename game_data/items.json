@@ -5277,6 +5277,15 @@
                 [
                     "Steel"
                 ]
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "WT",
+                        12
+                    ]
+                ]
             ]
         ]
     },
@@ -23388,7 +23397,7 @@
         "components": [
             [
                 "value",
-                2000
+                500
             ],
             [
                 "equippable_accessory",
@@ -23403,6 +23412,43 @@
                 [
                     [
                         "DEF",
+                        2
+                    ]
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "IronShield",
+        "name": "Iron Shield",
+        "desc": "A simple shield made of Bronze. +1 Weight, +3 Def.",
+        "icon_nid": "{Cardcafe} {FE15} All Icons",
+        "icon_index": [
+            11,
+            2
+        ],
+        "components": [
+            [
+                "value",
+                700
+            ],
+            [
+                "equippable_accessory",
+                null
+            ],
+            [
+                "weight",
+                1
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "DEF",
+                        3
+                    ],
+                    [
+                        "WT",
                         2
                     ]
                 ]

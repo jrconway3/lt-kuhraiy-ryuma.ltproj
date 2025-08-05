@@ -20,7 +20,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growths": {
             "LCK": 0,
@@ -33,7 +34,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growth_bonus": {
             "LCK": 0,
@@ -46,7 +48,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "promotion": {
             "LCK": 0,
@@ -59,7 +62,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "max_stats": {
             "LCK": 30,
@@ -72,7 +76,8 @@
             "SKL": 20,
             "SPD": 20,
             "DEF": 20,
-            "MP": 30
+            "MP": 30,
+            "WT": 30
         },
         "learned_skills": [],
         "wexp_gain": {
@@ -262,7 +267,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growths": {
             "LCK": 0,
@@ -275,7 +281,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growth_bonus": {
             "LCK": 0,
@@ -288,7 +295,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "promotion": {
             "LCK": 0,
@@ -301,7 +309,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "max_stats": {
             "LCK": 30,
@@ -314,7 +323,8 @@
             "SKL": 20,
             "SPD": 20,
             "DEF": 20,
-            "MP": 30
+            "MP": 30,
+            "WT": 30
         },
         "learned_skills": [],
         "wexp_gain": {
@@ -501,7 +511,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growths": {
             "LCK": 0,
@@ -514,7 +525,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growth_bonus": {
             "LCK": 0,
@@ -527,7 +539,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "promotion": {
             "LCK": 0,
@@ -540,7 +553,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "max_stats": {
             "LCK": 30,
@@ -553,7 +567,8 @@
             "SKL": 20,
             "SPD": 20,
             "DEF": 20,
-            "MP": 30
+            "MP": 30,
+            "WT": 30
         },
         "learned_skills": [],
         "wexp_gain": {
@@ -740,7 +755,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growths": {
             "LCK": 0,
@@ -753,7 +769,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growth_bonus": {
             "LCK": 0,
@@ -766,7 +783,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "promotion": {
             "LCK": 0,
@@ -779,7 +797,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "max_stats": {
             "LCK": 30,
@@ -792,7 +811,8 @@
             "SKL": 20,
             "SPD": 20,
             "DEF": 20,
-            "MP": 30
+            "MP": 30,
+            "WT": 30
         },
         "learned_skills": [],
         "wexp_gain": {
@@ -979,7 +999,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growths": {
             "LCK": 0,
@@ -992,7 +1013,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growth_bonus": {
             "LCK": 0,
@@ -1005,7 +1027,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "promotion": {
             "LCK": 0,
@@ -1018,7 +1041,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "max_stats": {
             "LCK": 30,
@@ -1031,7 +1055,8 @@
             "SKL": 20,
             "SPD": 20,
             "DEF": 20,
-            "MP": 30
+            "MP": 30,
+            "WT": 30
         },
         "learned_skills": [],
         "wexp_gain": {
@@ -1218,7 +1243,8 @@
             "SKL": 0,
             "SPD": 100,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growths": {
             "LCK": 0,
@@ -1231,7 +1257,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growth_bonus": {
             "LCK": 0,
@@ -1244,7 +1271,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "promotion": {
             "LCK": 0,
@@ -1257,7 +1285,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "max_stats": {
             "LCK": 30,
@@ -1270,7 +1299,8 @@
             "SKL": 30,
             "SPD": 100,
             "DEF": 30,
-            "MP": 30
+            "MP": 30,
+            "WT": 30
         },
         "learned_skills": [
             [
@@ -1441,7 +1471,8 @@
             "SKL": 0,
             "SPD": 40,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growths": {
             "LCK": 0,
@@ -1454,7 +1485,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growth_bonus": {
             "LCK": 0,
@@ -1467,7 +1499,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "promotion": {
             "LCK": 0,
@@ -1480,7 +1513,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "max_stats": {
             "LCK": 30,
@@ -1493,7 +1527,8 @@
             "SKL": 30,
             "SPD": 40,
             "DEF": 30,
-            "MP": 30
+            "MP": 30,
+            "WT": 30
         },
         "learned_skills": [
             [
@@ -1664,7 +1699,8 @@
             "SKL": 0,
             "SPD": 40,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growths": {
             "LCK": 0,
@@ -1677,7 +1713,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growth_bonus": {
             "LCK": 0,
@@ -1690,7 +1727,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "promotion": {
             "LCK": 0,
@@ -1703,7 +1741,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "max_stats": {
             "LCK": 30,
@@ -1716,7 +1755,8 @@
             "SKL": 30,
             "SPD": 40,
             "DEF": 30,
-            "MP": 30
+            "MP": 30,
+            "WT": 30
         },
         "learned_skills": [
             [
@@ -1894,7 +1934,8 @@
             "SKL": 6,
             "SPD": 5,
             "DEF": 9,
-            "MP": 12
+            "MP": 12,
+            "WT": 0
         },
         "growths": {
             "LCK": 40,
@@ -1907,7 +1948,8 @@
             "SKL": 40,
             "SPD": 30,
             "DEF": 70,
-            "MP": 90
+            "MP": 90,
+            "WT": 0
         },
         "growth_bonus": {
             "LCK": 0,
@@ -1920,7 +1962,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "promotion": {
             "LCK": 0,
@@ -1933,7 +1976,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "max_stats": {
             "LCK": 30,
@@ -1946,7 +1990,8 @@
             "SKL": 20,
             "SPD": 20,
             "DEF": 20,
-            "MP": 30
+            "MP": 30,
+            "WT": 30
         },
         "learned_skills": [
             [
@@ -2156,7 +2201,8 @@
             "SKL": 11,
             "SPD": 9,
             "DEF": 15,
-            "MP": 26
+            "MP": 26,
+            "WT": 0
         },
         "growths": {
             "LCK": 40,
@@ -2169,7 +2215,8 @@
             "SKL": 40,
             "SPD": 30,
             "DEF": 70,
-            "MP": 90
+            "MP": 90,
+            "WT": 0
         },
         "growth_bonus": {
             "LCK": 0,
@@ -2182,7 +2229,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "promotion": {
             "LCK": 3,
@@ -2195,7 +2243,8 @@
             "SKL": 4,
             "SPD": 5,
             "DEF": 2,
-            "MP": 4
+            "MP": 4,
+            "WT": 0
         },
         "max_stats": {
             "LCK": 40,
@@ -2208,7 +2257,8 @@
             "SKL": 29,
             "SPD": 34,
             "DEF": 40,
-            "MP": 40
+            "MP": 40,
+            "WT": 30
         },
         "learned_skills": [
             [
@@ -2405,7 +2455,8 @@
             "SKL": 5,
             "SPD": 9,
             "DEF": 5,
-            "MP": 5
+            "MP": 5,
+            "WT": 0
         },
         "growths": {
             "LCK": 40,
@@ -2418,7 +2469,8 @@
             "SKL": 40,
             "SPD": 60,
             "DEF": 30,
-            "MP": 60
+            "MP": 60,
+            "WT": 0
         },
         "growth_bonus": {
             "LCK": 0,
@@ -2431,7 +2483,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "promotion": {
             "LCK": 0,
@@ -2444,7 +2497,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "max_stats": {
             "LCK": 30,
@@ -2457,7 +2511,8 @@
             "SKL": 20,
             "SPD": 20,
             "DEF": 20,
-            "MP": 30
+            "MP": 30,
+            "WT": 30
         },
         "learned_skills": [],
         "wexp_gain": {
@@ -2649,7 +2704,8 @@
             "SKL": 3,
             "SPD": 4,
             "DEF": 5,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growths": {
             "LCK": 40,
@@ -2662,7 +2718,8 @@
             "SKL": 40,
             "SPD": 45,
             "DEF": 15,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growth_bonus": {
             "LCK": 0,
@@ -2675,7 +2732,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "promotion": {
             "LCK": 0,
@@ -2688,7 +2746,8 @@
             "SKL": 2,
             "SPD": 1,
             "DEF": 3,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "max_stats": {
             "LCK": 30,
@@ -2701,7 +2760,8 @@
             "SKL": 29,
             "SPD": 30,
             "DEF": 22,
-            "MP": 30
+            "MP": 30,
+            "WT": 30
         },
         "learned_skills": [
             [
@@ -2900,7 +2960,8 @@
             "SKL": 6,
             "SPD": 7,
             "DEF": 6,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growths": {
             "LCK": 40,
@@ -2913,7 +2974,8 @@
             "SKL": 40,
             "SPD": 45,
             "DEF": 15,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growth_bonus": {
             "LCK": 0,
@@ -2926,7 +2988,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "promotion": {
             "LCK": 0,
@@ -2939,7 +3002,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "max_stats": {
             "LCK": 30,
@@ -2952,7 +3016,8 @@
             "SKL": 20,
             "SPD": 20,
             "DEF": 20,
-            "MP": 30
+            "MP": 30,
+            "WT": 30
         },
         "learned_skills": [],
         "wexp_gain": {
@@ -3144,7 +3209,8 @@
             "SKL": 3,
             "SPD": 4,
             "DEF": 5,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growths": {
             "LCK": 40,
@@ -3157,7 +3223,8 @@
             "SKL": 40,
             "SPD": 45,
             "DEF": 15,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growth_bonus": {
             "LCK": 0,
@@ -3170,7 +3237,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "promotion": {
             "LCK": 0,
@@ -3183,7 +3251,8 @@
             "SKL": 3,
             "SPD": 2,
             "DEF": 2,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "max_stats": {
             "LCK": 30,
@@ -3196,7 +3265,8 @@
             "SKL": 26,
             "SPD": 27,
             "DEF": 23,
-            "MP": 30
+            "MP": 30,
+            "WT": 30
         },
         "learned_skills": [],
         "wexp_gain": {
@@ -3387,7 +3457,8 @@
             "SKL": 6,
             "SPD": 11,
             "DEF": 8,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growths": {
             "LCK": 25,
@@ -3400,7 +3471,8 @@
             "SKL": 35,
             "SPD": 25,
             "DEF": 12,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growth_bonus": {
             "LCK": 0,
@@ -3413,7 +3485,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "promotion": {
             "LCK": 0,
@@ -3426,7 +3499,8 @@
             "SKL": 1,
             "SPD": 2,
             "DEF": 2,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "max_stats": {
             "LCK": 30,
@@ -3439,7 +3513,8 @@
             "SKL": 27,
             "SPD": 25,
             "DEF": 25,
-            "MP": 30
+            "MP": 30,
+            "WT": 30
         },
         "learned_skills": [
             [
@@ -3611,7 +3686,8 @@
             "SKL": 1,
             "SPD": 9,
             "DEF": 2,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growths": {
             "LCK": 40,
@@ -3624,7 +3700,8 @@
             "SKL": 45,
             "SPD": 40,
             "DEF": 5,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growth_bonus": {
             "LCK": 0,
@@ -3637,7 +3714,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "promotion": {
             "LCK": 0,
@@ -3650,7 +3728,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "max_stats": {
             "LCK": 30,
@@ -3663,7 +3742,8 @@
             "SKL": 20,
             "SPD": 20,
             "DEF": 20,
-            "MP": 30
+            "MP": 30,
+            "WT": 30
         },
         "learned_skills": [
             [
@@ -3835,7 +3915,8 @@
             "SKL": 1,
             "SPD": 9,
             "DEF": 2,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growths": {
             "LCK": 40,
@@ -3848,7 +3929,8 @@
             "SKL": 45,
             "SPD": 40,
             "DEF": 5,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growth_bonus": {
             "LCK": 0,
@@ -3861,7 +3943,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "promotion": {
             "LCK": 0,
@@ -3874,7 +3957,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 2,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "max_stats": {
             "LCK": 30,
@@ -3887,7 +3971,8 @@
             "SKL": 30,
             "SPD": 30,
             "DEF": 20,
-            "MP": 30
+            "MP": 30,
+            "WT": 30
         },
         "learned_skills": [],
         "wexp_gain": {
@@ -4053,7 +4138,8 @@
             "SKL": 6,
             "SPD": 11,
             "DEF": 8,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growths": {
             "LCK": 25,
@@ -4066,7 +4152,8 @@
             "SKL": 35,
             "SPD": 25,
             "DEF": 12,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growth_bonus": {
             "LCK": 0,
@@ -4079,7 +4166,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "promotion": {
             "LCK": 0,
@@ -4092,7 +4180,8 @@
             "SKL": 1,
             "SPD": 2,
             "DEF": 2,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "max_stats": {
             "LCK": 30,
@@ -4105,7 +4194,8 @@
             "SKL": 27,
             "SPD": 25,
             "DEF": 25,
-            "MP": 30
+            "MP": 30,
+            "WT": 30
         },
         "learned_skills": [
             [
@@ -4274,7 +4364,8 @@
             "SKL": 5,
             "SPD": 4,
             "DEF": 3,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growths": {
             "LCK": 40,
@@ -4287,7 +4378,8 @@
             "SKL": 25,
             "SPD": 22,
             "DEF": 8,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growth_bonus": {
             "LCK": 0,
@@ -4300,7 +4392,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "promotion": {
             "LCK": 0,
@@ -4313,7 +4406,8 @@
             "SKL": 2,
             "SPD": 1,
             "DEF": 3,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "max_stats": {
             "LCK": 30,
@@ -4326,7 +4420,8 @@
             "SKL": 26,
             "SPD": 26,
             "DEF": 22,
-            "MP": 30
+            "MP": 30,
+            "WT": 30
         },
         "learned_skills": [],
         "wexp_gain": {
@@ -4492,7 +4587,8 @@
             "SKL": 5,
             "SPD": 4,
             "DEF": 3,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growths": {
             "LCK": 40,
@@ -4505,7 +4601,8 @@
             "SKL": 25,
             "SPD": 22,
             "DEF": 8,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growth_bonus": {
             "LCK": 0,
@@ -4518,7 +4615,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "promotion": {
             "LCK": 0,
@@ -4531,7 +4629,8 @@
             "SKL": 2,
             "SPD": 1,
             "DEF": 3,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "max_stats": {
             "LCK": 30,
@@ -4544,7 +4643,8 @@
             "SKL": 26,
             "SPD": 26,
             "DEF": 22,
-            "MP": 30
+            "MP": 30,
+            "WT": 30
         },
         "learned_skills": [],
         "wexp_gain": {
@@ -4704,7 +4804,8 @@
             "SKL": 5,
             "SPD": 4,
             "DEF": 3,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growths": {
             "LCK": 40,
@@ -4717,7 +4818,8 @@
             "SKL": 45,
             "SPD": 50,
             "DEF": 8,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growth_bonus": {
             "LCK": 0,
@@ -4730,7 +4832,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "promotion": {
             "LCK": 0,
@@ -4743,7 +4846,8 @@
             "SKL": 2,
             "SPD": 1,
             "DEF": 3,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "max_stats": {
             "LCK": 30,
@@ -4756,7 +4860,8 @@
             "SKL": 26,
             "SPD": 26,
             "DEF": 22,
-            "MP": 30
+            "MP": 30,
+            "WT": 30
         },
         "learned_skills": [],
         "wexp_gain": {
@@ -4920,7 +5025,8 @@
             "SKL": 2,
             "SPD": 8,
             "DEF": 2,
-            "MP": 12
+            "MP": 12,
+            "WT": 0
         },
         "growths": {
             "LCK": 65,
@@ -4933,7 +5039,8 @@
             "SKL": 30,
             "SPD": 75,
             "DEF": 20,
-            "MP": 80
+            "MP": 80,
+            "WT": 0
         },
         "growth_bonus": {
             "LCK": 0,
@@ -4946,7 +5053,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "promotion": {
             "LCK": 0,
@@ -4959,7 +5067,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "max_stats": {
             "LCK": 30,
@@ -4972,7 +5081,8 @@
             "SKL": 20,
             "SPD": 20,
             "DEF": 20,
-            "MP": 30
+            "MP": 30,
+            "WT": 30
         },
         "learned_skills": [],
         "wexp_gain": {
@@ -5162,7 +5272,8 @@
             "SKL": 8,
             "SPD": 5,
             "DEF": 4,
-            "MP": 3
+            "MP": 3,
+            "WT": 0
         },
         "growths": {
             "LCK": 25,
@@ -5175,7 +5286,8 @@
             "SKL": 70,
             "SPD": 60,
             "DEF": 30,
-            "MP": 15
+            "MP": 15,
+            "WT": 0
         },
         "growth_bonus": {
             "LCK": 0,
@@ -5188,7 +5300,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "promotion": {
             "LCK": 0,
@@ -5201,7 +5314,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "max_stats": {
             "LCK": 30,
@@ -5214,7 +5328,8 @@
             "SKL": 20,
             "SPD": 20,
             "DEF": 20,
-            "MP": 30
+            "MP": 30,
+            "WT": 30
         },
         "learned_skills": [],
         "wexp_gain": {
@@ -5387,7 +5502,8 @@
             "SKL": 4,
             "SPD": 6,
             "DEF": 8,
-            "MP": 5
+            "MP": 5,
+            "WT": 0
         },
         "growths": {
             "LCK": 30,
@@ -5400,7 +5516,8 @@
             "SKL": 40,
             "SPD": 40,
             "DEF": 50,
-            "MP": 25
+            "MP": 25,
+            "WT": 0
         },
         "growth_bonus": {
             "LCK": 0,
@@ -5413,7 +5530,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "promotion": {
             "LCK": 0,
@@ -5426,7 +5544,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "max_stats": {
             "LCK": 40,
@@ -5439,7 +5558,8 @@
             "SKL": 20,
             "SPD": 20,
             "DEF": 20,
-            "MP": 30
+            "MP": 30,
+            "WT": 30
         },
         "learned_skills": [],
         "wexp_gain": {
@@ -5633,7 +5753,8 @@
             "SKL": 7,
             "SPD": 10,
             "DEF": 6,
-            "MP": 6
+            "MP": 6,
+            "WT": 0
         },
         "growths": {
             "LCK": 40,
@@ -5646,7 +5767,8 @@
             "SKL": 55,
             "SPD": 65,
             "DEF": 55,
-            "MP": 45
+            "MP": 45,
+            "WT": 0
         },
         "growth_bonus": {
             "LCK": 0,
@@ -5659,7 +5781,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "promotion": {
             "LCK": 0,
@@ -5672,7 +5795,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "max_stats": {
             "LCK": 30,
@@ -5685,7 +5809,8 @@
             "SKL": 20,
             "SPD": 20,
             "DEF": 20,
-            "MP": 30
+            "MP": 30,
+            "WT": 30
         },
         "learned_skills": [],
         "wexp_gain": {
@@ -5880,7 +6005,8 @@
             "SKL": 10,
             "SPD": 11,
             "DEF": 8,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growths": {
             "LCK": 25,
@@ -5893,7 +6019,8 @@
             "SKL": 30,
             "SPD": 20,
             "DEF": 20,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growth_bonus": {
             "LCK": 0,
@@ -5906,7 +6033,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "promotion": {
             "LCK": 0,
@@ -5919,7 +6047,8 @@
             "SKL": 2,
             "SPD": 2,
             "DEF": 2,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "max_stats": {
             "LCK": 40,
@@ -5932,7 +6061,8 @@
             "SKL": 30,
             "SPD": 26,
             "DEF": 25,
-            "MP": 30
+            "MP": 30,
+            "WT": 30
         },
         "learned_skills": [],
         "wexp_gain": {
@@ -6127,7 +6257,8 @@
             "SKL": 10,
             "SPD": 11,
             "DEF": 8,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growths": {
             "LCK": 25,
@@ -6140,7 +6271,8 @@
             "SKL": 30,
             "SPD": 20,
             "DEF": 20,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growth_bonus": {
             "LCK": 0,
@@ -6153,7 +6285,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "promotion": {
             "LCK": 0,
@@ -6166,7 +6299,8 @@
             "SKL": 2,
             "SPD": 2,
             "DEF": 2,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "max_stats": {
             "LCK": 40,
@@ -6179,7 +6313,8 @@
             "SKL": 30,
             "SPD": 26,
             "DEF": 25,
-            "MP": 30
+            "MP": 30,
+            "WT": 30
         },
         "learned_skills": [],
         "wexp_gain": {
@@ -6376,7 +6511,8 @@
             "SKL": 9,
             "SPD": 10,
             "DEF": 2,
-            "MP": 6
+            "MP": 6,
+            "WT": 0
         },
         "growths": {
             "LCK": 45,
@@ -6389,7 +6525,8 @@
             "SKL": 40,
             "SPD": 75,
             "DEF": 15,
-            "MP": 65
+            "MP": 65,
+            "WT": 0
         },
         "growth_bonus": {
             "LCK": 0,
@@ -6402,7 +6539,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "promotion": {
             "LCK": 0,
@@ -6415,7 +6553,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "max_stats": {
             "LCK": 30,
@@ -6428,7 +6567,8 @@
             "SKL": 20,
             "SPD": 20,
             "DEF": 20,
-            "MP": 30
+            "MP": 30,
+            "WT": 30
         },
         "learned_skills": [],
         "wexp_gain": {
@@ -6621,7 +6761,8 @@
             "SKL": 11,
             "SPD": 12,
             "DEF": 5,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growths": {
             "LCK": 25,
@@ -6634,7 +6775,8 @@
             "SKL": 30,
             "SPD": 30,
             "DEF": 15,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growth_bonus": {
             "LCK": 0,
@@ -6647,7 +6789,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "promotion": {
             "LCK": 0,
@@ -6660,7 +6803,8 @@
             "SKL": 1,
             "SPD": 0,
             "DEF": 2,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "max_stats": {
             "LCK": 30,
@@ -6673,7 +6817,8 @@
             "SKL": 29,
             "SPD": 30,
             "DEF": 22,
-            "MP": 30
+            "MP": 30,
+            "WT": 30
         },
         "learned_skills": [
             [
@@ -6872,7 +7017,8 @@
             "SKL": 8,
             "SPD": 13,
             "DEF": 6,
-            "MP": 8
+            "MP": 8,
+            "WT": 0
         },
         "growths": {
             "LCK": 45,
@@ -6885,7 +7031,8 @@
             "SKL": 75,
             "SPD": 80,
             "DEF": 45,
-            "MP": 55
+            "MP": 55,
+            "WT": 0
         },
         "growth_bonus": {
             "LCK": 0,
@@ -6898,7 +7045,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "promotion": {
             "LCK": 0,
@@ -6911,7 +7059,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "max_stats": {
             "LCK": 30,
@@ -6924,7 +7073,8 @@
             "SKL": 20,
             "SPD": 20,
             "DEF": 20,
-            "MP": 30
+            "MP": 30,
+            "WT": 30
         },
         "learned_skills": [
             [
@@ -7126,7 +7276,8 @@
             "SKL": 1,
             "SPD": 9,
             "DEF": 2,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growths": {
             "LCK": 40,
@@ -7139,7 +7290,8 @@
             "SKL": 45,
             "SPD": 40,
             "DEF": 5,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growth_bonus": {
             "LCK": 0,
@@ -7152,7 +7304,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "promotion": {
             "LCK": 0,
@@ -7165,7 +7318,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "max_stats": {
             "LCK": 30,
@@ -7178,7 +7332,8 @@
             "SKL": 20,
             "SPD": 20,
             "DEF": 20,
-            "MP": 30
+            "MP": 30,
+            "WT": 30
         },
         "learned_skills": [
             [
@@ -7345,7 +7500,8 @@
             "SKL": 1,
             "SPD": 9,
             "DEF": 2,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growths": {
             "LCK": 40,
@@ -7358,7 +7514,8 @@
             "SKL": 45,
             "SPD": 40,
             "DEF": 5,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growth_bonus": {
             "LCK": 0,
@@ -7371,7 +7528,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "promotion": {
             "LCK": 0,
@@ -7384,7 +7542,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 2,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "max_stats": {
             "LCK": 30,
@@ -7397,7 +7556,8 @@
             "SKL": 30,
             "SPD": 30,
             "DEF": 20,
-            "MP": 30
+            "MP": 30,
+            "WT": 30
         },
         "learned_skills": [],
         "wexp_gain": {
@@ -7559,7 +7719,8 @@
             "SKL": 1,
             "SPD": 9,
             "DEF": 2,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growths": {
             "LCK": 40,
@@ -7572,7 +7733,8 @@
             "SKL": 45,
             "SPD": 35,
             "DEF": 5,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growth_bonus": {
             "LCK": 0,
@@ -7585,7 +7747,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "promotion": {
             "LCK": 0,
@@ -7598,7 +7761,8 @@
             "SKL": 1,
             "SPD": 0,
             "DEF": 2,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "max_stats": {
             "LCK": 30,
@@ -7611,7 +7775,8 @@
             "SKL": 30,
             "SPD": 30,
             "DEF": 20,
-            "MP": 30
+            "MP": 30,
+            "WT": 30
         },
         "learned_skills": [],
         "wexp_gain": {
@@ -7776,7 +7941,8 @@
             "SKL": 0,
             "SPD": 6,
             "DEF": 5,
-            "MP": 7
+            "MP": 7,
+            "WT": 0
         },
         "growths": {
             "LCK": 25,
@@ -7789,7 +7955,8 @@
             "SKL": 30,
             "SPD": 50,
             "DEF": 65,
-            "MP": 40
+            "MP": 40,
+            "WT": 0
         },
         "growth_bonus": {
             "LCK": 0,
@@ -7802,7 +7969,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "promotion": {
             "LCK": 0,
@@ -7815,7 +7983,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "max_stats": {
             "LCK": 20,
@@ -7828,7 +7997,8 @@
             "SKL": 20,
             "SPD": 20,
             "DEF": 20,
-            "MP": 30
+            "MP": 30,
+            "WT": 30
         },
         "learned_skills": [],
         "wexp_gain": {
@@ -7997,7 +8167,8 @@
             "SKL": 0,
             "SPD": 6,
             "DEF": 1,
-            "MP": 7
+            "MP": 7,
+            "WT": 0
         },
         "growths": {
             "LCK": 25,
@@ -8010,7 +8181,8 @@
             "SKL": 30,
             "SPD": 50,
             "DEF": 65,
-            "MP": 40
+            "MP": 40,
+            "WT": 0
         },
         "growth_bonus": {
             "LCK": 0,
@@ -8023,7 +8195,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "promotion": {
             "LCK": 0,
@@ -8036,7 +8209,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "max_stats": {
             "LCK": 20,
@@ -8049,7 +8223,8 @@
             "SKL": 20,
             "SPD": 20,
             "DEF": 20,
-            "MP": 30
+            "MP": 30,
+            "WT": 30
         },
         "learned_skills": [],
         "wexp_gain": {
@@ -8217,7 +8392,8 @@
             "SKL": 8,
             "SPD": 8,
             "DEF": 12,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growths": {
             "LCK": 30,
@@ -8230,7 +8406,8 @@
             "SKL": 40,
             "SPD": 35,
             "DEF": 40,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growth_bonus": {
             "LCK": 0,
@@ -8243,7 +8420,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "promotion": {
             "LCK": 0,
@@ -8256,7 +8434,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "max_stats": {
             "LCK": 40,
@@ -8269,7 +8448,8 @@
             "SKL": 40,
             "SPD": 40,
             "DEF": 40,
-            "MP": 40
+            "MP": 40,
+            "WT": 30
         },
         "learned_skills": [],
         "wexp_gain": {
@@ -8458,7 +8638,8 @@
             "SKL": 4,
             "SPD": 6,
             "DEF": 6,
-            "MP": 11
+            "MP": 11,
+            "WT": 0
         },
         "growths": {
             "LCK": 35,
@@ -8471,7 +8652,8 @@
             "SKL": 40,
             "SPD": 50,
             "DEF": 40,
-            "MP": 40
+            "MP": 40,
+            "WT": 0
         },
         "growth_bonus": {
             "LCK": 0,
@@ -8484,7 +8666,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "promotion": {
             "LCK": 0,
@@ -8497,7 +8680,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "max_stats": {
             "LCK": 40,
@@ -8510,7 +8694,8 @@
             "SKL": 40,
             "SPD": 40,
             "DEF": 40,
-            "MP": 40
+            "MP": 40,
+            "WT": 30
         },
         "learned_skills": [
             [
@@ -8703,7 +8888,8 @@
             "SKL": 0,
             "SPD": 1,
             "DEF": 1,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growths": {
             "LCK": 40,
@@ -8716,7 +8902,8 @@
             "SKL": 40,
             "SPD": 32,
             "DEF": 18,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growth_bonus": {
             "LCK": 0,
@@ -8729,7 +8916,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "promotion": {
             "LCK": 0,
@@ -8742,7 +8930,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "max_stats": {
             "LCK": 30,
@@ -8755,7 +8944,8 @@
             "SKL": 20,
             "SPD": 20,
             "DEF": 20,
-            "MP": 30
+            "MP": 30,
+            "WT": 30
         },
         "learned_skills": [],
         "wexp_gain": {
@@ -8918,7 +9108,8 @@
             "SKL": 4,
             "SPD": 6,
             "DEF": 4,
-            "MP": 2
+            "MP": 2,
+            "WT": 0
         },
         "growths": {
             "LCK": 20,
@@ -8931,7 +9122,8 @@
             "SKL": 40,
             "SPD": 50,
             "DEF": 40,
-            "MP": 40
+            "MP": 40,
+            "WT": 0
         },
         "growth_bonus": {
             "LCK": 0,
@@ -8944,7 +9136,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "promotion": {
             "LCK": 0,
@@ -8957,7 +9150,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "max_stats": {
             "LCK": 30,
@@ -8970,7 +9164,8 @@
             "SKL": 20,
             "SPD": 20,
             "DEF": 20,
-            "MP": 30
+            "MP": 30,
+            "WT": 30
         },
         "learned_skills": [],
         "wexp_gain": {
@@ -9130,7 +9325,8 @@
             "SKL": 5,
             "SPD": 6,
             "DEF": 5,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growths": {
             "LCK": 15,
@@ -9143,7 +9339,8 @@
             "SKL": 25,
             "SPD": 20,
             "DEF": 16,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growth_bonus": {
             "LCK": 0,
@@ -9156,7 +9353,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "promotion": {
             "LCK": 0,
@@ -9169,7 +9367,8 @@
             "SKL": 2,
             "SPD": 0,
             "DEF": 3,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "max_stats": {
             "LCK": 30,
@@ -9182,7 +9381,8 @@
             "SKL": 28,
             "SPD": 26,
             "DEF": 26,
-            "MP": 30
+            "MP": 30,
+            "WT": 30
         },
         "learned_skills": [],
         "wexp_gain": {
@@ -9344,7 +9544,8 @@
             "SKL": 1,
             "SPD": 6,
             "DEF": 2,
-            "MP": 5
+            "MP": 5,
+            "WT": 0
         },
         "growths": {
             "LCK": 15,
@@ -9357,7 +9558,8 @@
             "SKL": 30,
             "SPD": 55,
             "DEF": 10,
-            "MP": 55
+            "MP": 55,
+            "WT": 0
         },
         "growth_bonus": {
             "LCK": 0,
@@ -9370,7 +9572,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "promotion": {
             "LCK": 0,
@@ -9383,7 +9586,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "max_stats": {
             "LCK": 30,
@@ -9396,7 +9600,8 @@
             "SKL": 20,
             "SPD": 20,
             "DEF": 20,
-            "MP": 30
+            "MP": 30,
+            "WT": 30
         },
         "learned_skills": [],
         "wexp_gain": {
@@ -9556,7 +9761,8 @@
             "SKL": 6,
             "SPD": 7,
             "DEF": 6,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growths": {
             "LCK": 15,
@@ -9569,7 +9775,8 @@
             "SKL": 35,
             "SPD": 25,
             "DEF": 10,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growth_bonus": {
             "LCK": 0,
@@ -9582,7 +9789,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "promotion": {
             "LCK": 0,
@@ -9595,7 +9803,8 @@
             "SKL": 1,
             "SPD": 1,
             "DEF": 2,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "max_stats": {
             "LCK": 30,
@@ -9608,7 +9817,8 @@
             "SKL": 29,
             "SPD": 28,
             "DEF": 23,
-            "MP": 30
+            "MP": 30,
+            "WT": 30
         },
         "learned_skills": [
             [
@@ -9778,7 +9988,8 @@
             "SKL": 2,
             "SPD": 7,
             "DEF": 3,
-            "MP": 7
+            "MP": 7,
+            "WT": 0
         },
         "growths": {
             "LCK": 15,
@@ -9791,7 +10002,8 @@
             "SKL": 35,
             "SPD": 60,
             "DEF": 20,
-            "MP": 65
+            "MP": 65,
+            "WT": 0
         },
         "growth_bonus": {
             "LCK": 0,
@@ -9804,7 +10016,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "promotion": {
             "LCK": 0,
@@ -9817,7 +10030,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "max_stats": {
             "LCK": 30,
@@ -9830,7 +10044,8 @@
             "SKL": 20,
             "SPD": 20,
             "DEF": 20,
-            "MP": 30
+            "MP": 30,
+            "WT": 30
         },
         "learned_skills": [],
         "wexp_gain": {
@@ -9993,7 +10208,8 @@
             "SKL": 6,
             "SPD": 7,
             "DEF": 6,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growths": {
             "LCK": 15,
@@ -10006,7 +10222,8 @@
             "SKL": 35,
             "SPD": 25,
             "DEF": 10,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growth_bonus": {
             "LCK": 0,
@@ -10019,7 +10236,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "promotion": {
             "LCK": 0,
@@ -10032,7 +10250,8 @@
             "SKL": 1,
             "SPD": 1,
             "DEF": 2,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "max_stats": {
             "LCK": 30,
@@ -10045,7 +10264,8 @@
             "SKL": 29,
             "SPD": 28,
             "DEF": 23,
-            "MP": 30
+            "MP": 30,
+            "WT": 30
         },
         "learned_skills": [
             [
@@ -10212,7 +10432,8 @@
             "SKL": 8,
             "SPD": 5,
             "DEF": 4,
-            "MP": 3
+            "MP": 3,
+            "WT": 0
         },
         "growths": {
             "LCK": 25,
@@ -10225,7 +10446,8 @@
             "SKL": 70,
             "SPD": 60,
             "DEF": 30,
-            "MP": 15
+            "MP": 15,
+            "WT": 0
         },
         "growth_bonus": {
             "LCK": 0,
@@ -10238,7 +10460,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "promotion": {
             "LCK": 0,
@@ -10251,7 +10474,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "max_stats": {
             "LCK": 30,
@@ -10264,7 +10488,8 @@
             "SKL": 20,
             "SPD": 20,
             "DEF": 20,
-            "MP": 30
+            "MP": 30,
+            "WT": 30
         },
         "learned_skills": [],
         "wexp_gain": {
@@ -10428,7 +10653,8 @@
             "SKL": 8,
             "SPD": 5,
             "DEF": 1,
-            "MP": 6
+            "MP": 6,
+            "WT": 0
         },
         "growths": {
             "LCK": 35,
@@ -10441,7 +10667,8 @@
             "SKL": 70,
             "SPD": 50,
             "DEF": 15,
-            "MP": 40
+            "MP": 40,
+            "WT": 0
         },
         "growth_bonus": {
             "LCK": 0,
@@ -10454,7 +10681,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "promotion": {
             "LCK": 0,
@@ -10467,7 +10695,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "max_stats": {
             "LCK": 30,
@@ -10480,7 +10709,8 @@
             "SKL": 20,
             "SPD": 20,
             "DEF": 20,
-            "MP": 30
+            "MP": 30,
+            "WT": 30
         },
         "learned_skills": [],
         "wexp_gain": {
@@ -10642,7 +10872,8 @@
             "SKL": 8,
             "SPD": 5,
             "DEF": 1,
-            "MP": 6
+            "MP": 6,
+            "WT": 0
         },
         "growths": {
             "LCK": 35,
@@ -10655,7 +10886,8 @@
             "SKL": 70,
             "SPD": 50,
             "DEF": 15,
-            "MP": 40
+            "MP": 40,
+            "WT": 0
         },
         "growth_bonus": {
             "LCK": 0,
@@ -10668,7 +10900,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "promotion": {
             "LCK": 0,
@@ -10681,7 +10914,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "max_stats": {
             "LCK": 30,
@@ -10694,7 +10928,8 @@
             "SKL": 20,
             "SPD": 20,
             "DEF": 20,
-            "MP": 30
+            "MP": 30,
+            "WT": 30
         },
         "learned_skills": [],
         "wexp_gain": {
@@ -10856,7 +11091,8 @@
             "SKL": 6,
             "SPD": 7,
             "DEF": 5,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growths": {
             "LCK": 30,
@@ -10869,7 +11105,8 @@
             "SKL": 30,
             "SPD": 20,
             "DEF": 15,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growth_bonus": {
             "LCK": 0,
@@ -10882,7 +11119,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "promotion": {
             "LCK": 0,
@@ -10895,7 +11133,8 @@
             "SKL": 2,
             "SPD": 2,
             "DEF": 2,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "max_stats": {
             "LCK": 30,
@@ -10908,7 +11147,8 @@
             "SKL": 30,
             "SPD": 29,
             "DEF": 25,
-            "MP": 30
+            "MP": 30,
+            "WT": 30
         },
         "learned_skills": [],
         "wexp_gain": {
@@ -11068,7 +11308,8 @@
             "SKL": 6,
             "SPD": 7,
             "DEF": 5,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growths": {
             "LCK": 30,
@@ -11081,7 +11322,8 @@
             "SKL": 30,
             "SPD": 20,
             "DEF": 15,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growth_bonus": {
             "LCK": 0,
@@ -11094,7 +11336,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "promotion": {
             "LCK": 0,
@@ -11107,7 +11350,8 @@
             "SKL": 2,
             "SPD": 2,
             "DEF": 2,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "max_stats": {
             "LCK": 30,
@@ -11120,7 +11364,8 @@
             "SKL": 30,
             "SPD": 29,
             "DEF": 25,
-            "MP": 30
+            "MP": 30,
+            "WT": 30
         },
         "learned_skills": [],
         "wexp_gain": {
@@ -11286,7 +11531,8 @@
             "SKL": 4,
             "SPD": 2,
             "DEF": 9,
-            "MP": 5
+            "MP": 5,
+            "WT": 0
         },
         "growths": {
             "LCK": 25,
@@ -11299,7 +11545,8 @@
             "SKL": 30,
             "SPD": 35,
             "DEF": 70,
-            "MP": 40
+            "MP": 40,
+            "WT": 0
         },
         "growth_bonus": {
             "LCK": 0,
@@ -11312,7 +11559,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "promotion": {
             "LCK": 0,
@@ -11325,7 +11573,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "max_stats": {
             "LCK": 30,
@@ -11338,7 +11587,8 @@
             "SKL": 20,
             "SPD": 20,
             "DEF": 20,
-            "MP": 30
+            "MP": 30,
+            "WT": 30
         },
         "learned_skills": [],
         "wexp_gain": {
@@ -11500,7 +11750,8 @@
             "SKL": 5,
             "SPD": 5,
             "DEF": 13,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growths": {
             "LCK": 20,
@@ -11513,7 +11764,8 @@
             "SKL": 25,
             "SPD": 10,
             "DEF": 23,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growth_bonus": {
             "LCK": 0,
@@ -11526,7 +11778,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "promotion": {
             "LCK": 0,
@@ -11539,7 +11792,8 @@
             "SKL": 3,
             "SPD": 3,
             "DEF": 3,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "max_stats": {
             "LCK": 30,
@@ -11552,7 +11806,8 @@
             "SKL": 28,
             "SPD": 25,
             "DEF": 30,
-            "MP": 30
+            "MP": 30,
+            "WT": 30
         },
         "learned_skills": [],
         "wexp_gain": {
@@ -11716,7 +11971,8 @@
             "SKL": 6,
             "SPD": 7,
             "DEF": 11,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growths": {
             "LCK": 20,
@@ -11729,7 +11985,8 @@
             "SKL": 25,
             "SPD": 20,
             "DEF": 21,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growth_bonus": {
             "LCK": 0,
@@ -11742,7 +11999,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "promotion": {
             "LCK": 0,
@@ -11755,7 +12013,8 @@
             "SKL": 1,
             "SPD": 2,
             "DEF": 2,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "max_stats": {
             "LCK": 30,
@@ -11768,7 +12027,8 @@
             "SKL": 26,
             "SPD": 25,
             "DEF": 29,
-            "MP": 30
+            "MP": 30,
+            "WT": 30
         },
         "learned_skills": [
             [
@@ -11939,7 +12199,8 @@
             "SKL": 3,
             "SPD": 5,
             "DEF": 6,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growths": {
             "LCK": 30,
@@ -11952,7 +12213,8 @@
             "SKL": 40,
             "SPD": 55,
             "DEF": 35,
-            "MP": 30
+            "MP": 30,
+            "WT": 0
         },
         "growth_bonus": {
             "LCK": 0,
@@ -11965,7 +12227,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "promotion": {
             "LCK": 0,
@@ -11978,7 +12241,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "max_stats": {
             "LCK": 40,
@@ -11991,7 +12255,8 @@
             "SKL": 20,
             "SPD": 20,
             "DEF": 20,
-            "MP": 30
+            "MP": 30,
+            "WT": 30
         },
         "learned_skills": [
             [
@@ -12159,7 +12424,8 @@
             "SKL": 6,
             "SPD": 11,
             "DEF": 8,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growths": {
             "LCK": 30,
@@ -12172,7 +12438,8 @@
             "SKL": 40,
             "SPD": 55,
             "DEF": 35,
-            "MP": 30
+            "MP": 30,
+            "WT": 0
         },
         "growth_bonus": {
             "LCK": 0,
@@ -12185,7 +12452,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "promotion": {
             "LCK": 0,
@@ -12198,7 +12466,8 @@
             "SKL": 1,
             "SPD": 2,
             "DEF": 2,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "max_stats": {
             "LCK": 30,
@@ -12211,7 +12480,8 @@
             "SKL": 27,
             "SPD": 25,
             "DEF": 25,
-            "MP": 30
+            "MP": 30,
+            "WT": 30
         },
         "learned_skills": [
             [
@@ -12379,7 +12649,8 @@
             "SKL": 3,
             "SPD": 4,
             "DEF": 3,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growths": {
             "LCK": 35,
@@ -12392,7 +12663,8 @@
             "SKL": 40,
             "SPD": 32,
             "DEF": 15,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growth_bonus": {
             "LCK": 0,
@@ -12405,7 +12677,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "promotion": {
             "LCK": 0,
@@ -12418,7 +12691,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "max_stats": {
             "LCK": 30,
@@ -12431,7 +12705,8 @@
             "SKL": 20,
             "SPD": 20,
             "DEF": 20,
-            "MP": 30
+            "MP": 30,
+            "WT": 30
         },
         "learned_skills": [],
         "wexp_gain": {
@@ -12594,7 +12869,8 @@
             "SKL": 6,
             "SPD": 7,
             "DEF": 6,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growths": {
             "LCK": 25,
@@ -12607,7 +12883,8 @@
             "SKL": 30,
             "SPD": 35,
             "DEF": 15,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growth_bonus": {
             "LCK": 0,
@@ -12620,7 +12897,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "promotion": {
             "LCK": 0,
@@ -12633,7 +12911,8 @@
             "SKL": 2,
             "SPD": 1,
             "DEF": 3,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "max_stats": {
             "LCK": 30,
@@ -12646,7 +12925,8 @@
             "SKL": 28,
             "SPD": 30,
             "DEF": 24,
-            "MP": 30
+            "MP": 30,
+            "WT": 30
         },
         "learned_skills": [
             [
@@ -12813,7 +13093,8 @@
             "SKL": 1,
             "SPD": 5,
             "DEF": 3,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growths": {
             "LCK": 15,
@@ -12826,7 +13107,8 @@
             "SKL": 30,
             "SPD": 20,
             "DEF": 10,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growth_bonus": {
             "LCK": 0,
@@ -12839,7 +13121,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "promotion": {
             "LCK": 0,
@@ -12852,7 +13135,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "max_stats": {
             "LCK": 30,
@@ -12865,7 +13149,8 @@
             "SKL": 20,
             "SPD": 20,
             "DEF": 20,
-            "MP": 30
+            "MP": 30,
+            "WT": 30
         },
         "learned_skills": [],
         "wexp_gain": {
@@ -13025,7 +13310,8 @@
             "SKL": 6,
             "SPD": 7,
             "DEF": 6,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growths": {
             "LCK": 15,
@@ -13038,7 +13324,8 @@
             "SKL": 35,
             "SPD": 25,
             "DEF": 10,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growth_bonus": {
             "LCK": 0,
@@ -13051,7 +13338,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "promotion": {
             "LCK": 0,
@@ -13064,7 +13352,8 @@
             "SKL": 1,
             "SPD": 1,
             "DEF": 2,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "max_stats": {
             "LCK": 30,
@@ -13077,7 +13366,8 @@
             "SKL": 29,
             "SPD": 28,
             "DEF": 23,
-            "MP": 30
+            "MP": 30,
+            "WT": 30
         },
         "learned_skills": [
             [
@@ -13246,7 +13536,8 @@
             "SKL": 6,
             "SPD": 11,
             "DEF": 8,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growths": {
             "LCK": 25,
@@ -13259,7 +13550,8 @@
             "SKL": 35,
             "SPD": 25,
             "DEF": 12,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growth_bonus": {
             "LCK": 0,
@@ -13272,7 +13564,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "promotion": {
             "LCK": 0,
@@ -13285,7 +13578,8 @@
             "SKL": 1,
             "SPD": 2,
             "DEF": 2,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "max_stats": {
             "LCK": 30,
@@ -13298,7 +13592,8 @@
             "SKL": 27,
             "SPD": 25,
             "DEF": 25,
-            "MP": 30
+            "MP": 30,
+            "WT": 30
         },
         "learned_skills": [
             [
@@ -13467,7 +13762,8 @@
             "SKL": 6,
             "SPD": 11,
             "DEF": 8,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growths": {
             "LCK": 25,
@@ -13480,7 +13776,8 @@
             "SKL": 35,
             "SPD": 25,
             "DEF": 12,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growth_bonus": {
             "LCK": 0,
@@ -13493,7 +13790,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "promotion": {
             "LCK": 0,
@@ -13506,7 +13804,8 @@
             "SKL": 1,
             "SPD": 2,
             "DEF": 2,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "max_stats": {
             "LCK": 30,
@@ -13519,7 +13818,8 @@
             "SKL": 27,
             "SPD": 25,
             "DEF": 25,
-            "MP": 30
+            "MP": 30,
+            "WT": 30
         },
         "learned_skills": [
             [
@@ -13690,7 +13990,8 @@
             "SKL": 1,
             "SPD": 3,
             "DEF": 2,
-            "MP": 13
+            "MP": 13,
+            "WT": 0
         },
         "growths": {
             "LCK": 45,
@@ -13703,7 +14004,8 @@
             "SKL": 35,
             "SPD": 45,
             "DEF": 12,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growth_bonus": {
             "LCK": 0,
@@ -13716,7 +14018,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "promotion": {
             "LCK": 0,
@@ -13729,7 +14032,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "max_stats": {
             "LCK": 30,
@@ -13742,7 +14046,8 @@
             "SKL": 20,
             "SPD": 20,
             "DEF": 20,
-            "MP": 30
+            "MP": 30,
+            "WT": 30
         },
         "learned_skills": [
             [
@@ -13909,7 +14214,8 @@
             "SKL": 5,
             "SPD": 6,
             "DEF": 5,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growths": {
             "LCK": 15,
@@ -13922,7 +14228,8 @@
             "SKL": 30,
             "SPD": 25,
             "DEF": 10,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growth_bonus": {
             "LCK": 0,
@@ -13935,7 +14242,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "promotion": {
             "LCK": 0,
@@ -13948,7 +14256,8 @@
             "SKL": 1,
             "SPD": 0,
             "DEF": 2,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "max_stats": {
             "LCK": 30,
@@ -13961,7 +14270,8 @@
             "SKL": 26,
             "SPD": 25,
             "DEF": 24,
-            "MP": 30
+            "MP": 30,
+            "WT": 30
         },
         "learned_skills": [
             [
@@ -14129,7 +14439,8 @@
             "SKL": 3,
             "SPD": 5,
             "DEF": 4,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growths": {
             "LCK": 40,
@@ -14142,7 +14453,8 @@
             "SKL": 25,
             "SPD": 45,
             "DEF": 10,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growth_bonus": {
             "LCK": 0,
@@ -14155,7 +14467,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "promotion": {
             "LCK": 0,
@@ -14168,7 +14481,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "max_stats": {
             "LCK": 30,
@@ -14181,7 +14495,8 @@
             "SKL": 24,
             "SPD": 25,
             "DEF": 24,
-            "MP": 30
+            "MP": 30,
+            "WT": 30
         },
         "learned_skills": [
             [
@@ -14348,7 +14663,8 @@
             "SKL": 2,
             "SPD": 2,
             "DEF": 1,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growths": {
             "LCK": 45,
@@ -14361,7 +14677,8 @@
             "SKL": 35,
             "SPD": 32,
             "DEF": 8,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growth_bonus": {
             "LCK": 0,
@@ -14374,7 +14691,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "promotion": {
             "LCK": 0,
@@ -14387,7 +14705,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "max_stats": {
             "LCK": 30,
@@ -14400,7 +14719,8 @@
             "SKL": 20,
             "SPD": 20,
             "DEF": 20,
-            "MP": 30
+            "MP": 30,
+            "WT": 30
         },
         "learned_skills": [],
         "wexp_gain": {
@@ -14560,7 +14880,8 @@
             "SKL": 5,
             "SPD": 4,
             "DEF": 3,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growths": {
             "LCK": 40,
@@ -14573,7 +14894,8 @@
             "SKL": 25,
             "SPD": 22,
             "DEF": 8,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growth_bonus": {
             "LCK": 0,
@@ -14586,7 +14908,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "promotion": {
             "LCK": 0,
@@ -14599,7 +14922,8 @@
             "SKL": 2,
             "SPD": 1,
             "DEF": 3,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "max_stats": {
             "LCK": 30,
@@ -14612,7 +14936,8 @@
             "SKL": 26,
             "SPD": 26,
             "DEF": 22,
-            "MP": 30
+            "MP": 30,
+            "WT": 30
         },
         "learned_skills": [],
         "wexp_gain": {
@@ -14775,7 +15100,8 @@
             "SKL": 1,
             "SPD": 2,
             "DEF": 1,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growths": {
             "LCK": 45,
@@ -14788,7 +15114,8 @@
             "SKL": 35,
             "SPD": 32,
             "DEF": 8,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growth_bonus": {
             "LCK": 0,
@@ -14801,7 +15128,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "promotion": {
             "LCK": 0,
@@ -14814,7 +15142,8 @@
             "SKL": 2,
             "SPD": 2,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "max_stats": {
             "LCK": 30,
@@ -14827,7 +15156,8 @@
             "SKL": 20,
             "SPD": 20,
             "DEF": 20,
-            "MP": 30
+            "MP": 30,
+            "WT": 30
         },
         "learned_skills": [],
         "wexp_gain": {
@@ -14987,7 +15317,8 @@
             "SKL": 5,
             "SPD": 4,
             "DEF": 3,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growths": {
             "LCK": 40,
@@ -15000,7 +15331,8 @@
             "SKL": 25,
             "SPD": 22,
             "DEF": 8,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growth_bonus": {
             "LCK": 0,
@@ -15013,7 +15345,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "promotion": {
             "LCK": 0,
@@ -15026,7 +15359,8 @@
             "SKL": 2,
             "SPD": 1,
             "DEF": 3,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "max_stats": {
             "LCK": 30,
@@ -15039,7 +15373,8 @@
             "SKL": 26,
             "SPD": 26,
             "DEF": 22,
-            "MP": 30
+            "MP": 30,
+            "WT": 30
         },
         "learned_skills": [],
         "wexp_gain": {
@@ -15205,7 +15540,8 @@
             "SKL": 4,
             "SPD": 6,
             "DEF": 6,
-            "MP": 11
+            "MP": 11,
+            "WT": 0
         },
         "growths": {
             "LCK": 35,
@@ -15218,7 +15554,8 @@
             "SKL": 40,
             "SPD": 50,
             "DEF": 40,
-            "MP": 40
+            "MP": 40,
+            "WT": 0
         },
         "growth_bonus": {
             "LCK": 0,
@@ -15231,7 +15568,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "promotion": {
             "LCK": 0,
@@ -15244,7 +15582,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "max_stats": {
             "LCK": 30,
@@ -15257,7 +15596,8 @@
             "SKL": 20,
             "SPD": 20,
             "DEF": 20,
-            "MP": 30
+            "MP": 30,
+            "WT": 30
         },
         "learned_skills": [
             [
@@ -15455,7 +15795,8 @@
             "SKL": 3,
             "SPD": 3,
             "DEF": 3,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growths": {
             "LCK": 20,
@@ -15468,7 +15809,8 @@
             "SKL": 40,
             "SPD": 35,
             "DEF": 5,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growth_bonus": {
             "LCK": 0,
@@ -15481,7 +15823,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "promotion": {
             "LCK": 0,
@@ -15494,7 +15837,8 @@
             "SKL": 1,
             "SPD": 2,
             "DEF": 1,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "max_stats": {
             "LCK": 30,
@@ -15507,7 +15851,8 @@
             "SKL": 20,
             "SPD": 20,
             "DEF": 20,
-            "MP": 30
+            "MP": 30,
+            "WT": 30
         },
         "learned_skills": [],
         "wexp_gain": {
@@ -15675,7 +16020,8 @@
             "SKL": 3,
             "SPD": 3,
             "DEF": 3,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growths": {
             "LCK": 20,
@@ -15688,7 +16034,8 @@
             "SKL": 40,
             "SPD": 35,
             "DEF": 5,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growth_bonus": {
             "LCK": 0,
@@ -15701,7 +16048,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "promotion": {
             "LCK": 0,
@@ -15714,7 +16062,8 @@
             "SKL": 1,
             "SPD": 2,
             "DEF": 1,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "max_stats": {
             "LCK": 30,
@@ -15727,7 +16076,8 @@
             "SKL": 20,
             "SPD": 20,
             "DEF": 20,
-            "MP": 30
+            "MP": 30,
+            "WT": 30
         },
         "learned_skills": [],
         "wexp_gain": {
@@ -15892,7 +16242,8 @@
             "SKL": 6,
             "SPD": 5,
             "DEF": 5,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growths": {
             "LCK": 15,
@@ -15905,7 +16256,8 @@
             "SKL": 30,
             "SPD": 25,
             "DEF": 10,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growth_bonus": {
             "LCK": 0,
@@ -15918,7 +16270,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "promotion": {
             "LCK": 0,
@@ -15931,7 +16284,8 @@
             "SKL": 1,
             "SPD": 0,
             "DEF": 3,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "max_stats": {
             "LCK": 30,
@@ -15944,7 +16298,8 @@
             "SKL": 30,
             "SPD": 26,
             "DEF": 21,
-            "MP": 30
+            "MP": 30,
+            "WT": 30
         },
         "learned_skills": [],
         "wexp_gain": {
@@ -16104,7 +16459,8 @@
             "SKL": 1,
             "SPD": 2,
             "DEF": 2,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growths": {
             "LCK": 20,
@@ -16117,7 +16473,8 @@
             "SKL": 32,
             "SPD": 30,
             "DEF": 10,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growth_bonus": {
             "LCK": 0,
@@ -16130,7 +16487,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "promotion": {
             "LCK": 0,
@@ -16143,7 +16501,8 @@
             "SKL": 0,
             "SPD": 1,
             "DEF": 1,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "max_stats": {
             "LCK": 30,
@@ -16156,7 +16515,8 @@
             "SKL": 20,
             "SPD": 20,
             "DEF": 20,
-            "MP": 30
+            "MP": 30,
+            "WT": 30
         },
         "learned_skills": [],
         "wexp_gain": {
@@ -16318,7 +16678,8 @@
             "SKL": 1,
             "SPD": 2,
             "DEF": 2,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growths": {
             "LCK": 20,
@@ -16331,7 +16692,8 @@
             "SKL": 32,
             "SPD": 30,
             "DEF": 10,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growth_bonus": {
             "LCK": 0,
@@ -16344,7 +16706,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "promotion": {
             "LCK": 0,
@@ -16357,7 +16720,8 @@
             "SKL": 0,
             "SPD": 1,
             "DEF": 1,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "max_stats": {
             "LCK": 30,
@@ -16370,7 +16734,8 @@
             "SKL": 20,
             "SPD": 20,
             "DEF": 20,
-            "MP": 30
+            "MP": 30,
+            "WT": 30
         },
         "learned_skills": [],
         "wexp_gain": {
@@ -16536,7 +16901,8 @@
             "SKL": 5,
             "SPD": 5,
             "DEF": 3,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growths": {
             "LCK": 35,
@@ -16549,7 +16915,8 @@
             "SKL": 40,
             "SPD": 40,
             "DEF": 12,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growth_bonus": {
             "LCK": 0,
@@ -16562,7 +16929,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "promotion": {
             "LCK": 0,
@@ -16575,7 +16943,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "max_stats": {
             "LCK": 30,
@@ -16588,7 +16957,8 @@
             "SKL": 20,
             "SPD": 20,
             "DEF": 20,
-            "MP": 30
+            "MP": 30,
+            "WT": 30
         },
         "learned_skills": [
             [
@@ -16768,7 +17138,8 @@
             "SKL": 5,
             "SPD": 5,
             "DEF": 3,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growths": {
             "LCK": 35,
@@ -16781,7 +17152,8 @@
             "SKL": 40,
             "SPD": 40,
             "DEF": 12,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growth_bonus": {
             "LCK": 0,
@@ -16794,7 +17166,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "promotion": {
             "LCK": 0,
@@ -16807,7 +17180,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "max_stats": {
             "LCK": 30,
@@ -16820,7 +17194,8 @@
             "SKL": 20,
             "SPD": 20,
             "DEF": 20,
-            "MP": 30
+            "MP": 30,
+            "WT": 30
         },
         "learned_skills": [
             [
@@ -16997,7 +17372,8 @@
             "SKL": 7,
             "SPD": 7,
             "DEF": 5,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growths": {
             "LCK": 30,
@@ -17010,7 +17386,8 @@
             "SKL": 30,
             "SPD": 30,
             "DEF": 12,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growth_bonus": {
             "LCK": 0,
@@ -17023,7 +17400,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "promotion": {
             "LCK": 0,
@@ -17036,7 +17414,8 @@
             "SKL": 0,
             "SPD": 2,
             "DEF": 2,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "max_stats": {
             "LCK": 30,
@@ -17049,7 +17428,8 @@
             "SKL": 25,
             "SPD": 28,
             "DEF": 23,
-            "MP": 30
+            "MP": 30,
+            "WT": 30
         },
         "learned_skills": [
             [
@@ -17229,7 +17609,8 @@
             "SKL": 5,
             "SPD": 5,
             "DEF": 3,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growths": {
             "LCK": 35,
@@ -17242,7 +17623,8 @@
             "SKL": 40,
             "SPD": 40,
             "DEF": 12,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growth_bonus": {
             "LCK": 0,
@@ -17255,7 +17637,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "promotion": {
             "LCK": 0,
@@ -17268,7 +17651,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "max_stats": {
             "LCK": 30,
@@ -17281,7 +17665,8 @@
             "SKL": 20,
             "SPD": 20,
             "DEF": 20,
-            "MP": 30
+            "MP": 30,
+            "WT": 30
         },
         "learned_skills": [
             [
@@ -17462,7 +17847,8 @@
             "SKL": 5,
             "SPD": 5,
             "DEF": 8,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growths": {
             "LCK": 25,
@@ -17475,7 +17861,8 @@
             "SKL": 35,
             "SPD": 30,
             "DEF": 25,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growth_bonus": {
             "LCK": 0,
@@ -17488,7 +17875,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "promotion": {
             "LCK": 0,
@@ -17501,7 +17889,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "max_stats": {
             "LCK": 30,
@@ -17514,7 +17903,8 @@
             "SKL": 20,
             "SPD": 20,
             "DEF": 20,
-            "MP": 30
+            "MP": 30,
+            "WT": 30
         },
         "learned_skills": [
             [
@@ -17687,7 +18077,8 @@
             "SKL": 7,
             "SPD": 7,
             "DEF": 10,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growths": {
             "LCK": 20,
@@ -17700,7 +18091,8 @@
             "SKL": 30,
             "SPD": 20,
             "DEF": 20,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growth_bonus": {
             "LCK": 0,
@@ -17713,7 +18105,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "promotion": {
             "LCK": 0,
@@ -17726,7 +18119,8 @@
             "SKL": 2,
             "SPD": 0,
             "DEF": 2,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "max_stats": {
             "LCK": 30,
@@ -17739,7 +18133,8 @@
             "SKL": 26,
             "SPD": 24,
             "DEF": 28,
-            "MP": 30
+            "MP": 30,
+            "WT": 30
         },
         "learned_skills": [
             [
@@ -17912,7 +18307,8 @@
             "SKL": 8,
             "SPD": 9,
             "DEF": 7,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growths": {
             "LCK": 25,
@@ -17925,7 +18321,8 @@
             "SKL": 30,
             "SPD": 30,
             "DEF": 15,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growth_bonus": {
             "LCK": 0,
@@ -17938,7 +18335,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "promotion": {
             "LCK": 0,
@@ -17951,7 +18349,8 @@
             "SKL": 2,
             "SPD": 3,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "max_stats": {
             "LCK": 30,
@@ -17964,7 +18363,8 @@
             "SKL": 27,
             "SPD": 29,
             "DEF": 24,
-            "MP": 30
+            "MP": 30,
+            "WT": 30
         },
         "learned_skills": [
             [
@@ -18137,7 +18537,8 @@
             "SKL": 1,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growths": {
             "LCK": 40,
@@ -18150,7 +18551,8 @@
             "SKL": 40,
             "SPD": 40,
             "DEF": 25,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growth_bonus": {
             "LCK": 0,
@@ -18163,7 +18565,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "promotion": {
             "LCK": 0,
@@ -18176,7 +18579,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "max_stats": {
             "LCK": 30,
@@ -18189,7 +18593,8 @@
             "SKL": 20,
             "SPD": 20,
             "DEF": 20,
-            "MP": 30
+            "MP": 30,
+            "WT": 30
         },
         "learned_skills": [],
         "wexp_gain": {
@@ -18353,7 +18758,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growths": {
             "LCK": 10,
@@ -18366,7 +18772,8 @@
             "SKL": 30,
             "SPD": 20,
             "DEF": 10,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growth_bonus": {
             "LCK": 0,
@@ -18379,7 +18786,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "promotion": {
             "LCK": 0,
@@ -18392,7 +18800,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "max_stats": {
             "LCK": 30,
@@ -18405,7 +18814,8 @@
             "SKL": 20,
             "SPD": 20,
             "DEF": 20,
-            "MP": 30
+            "MP": 30,
+            "WT": 30
         },
         "learned_skills": [],
         "wexp_gain": {
@@ -18567,7 +18977,8 @@
             "SKL": 0,
             "SPD": 1,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growths": {
             "LCK": 50,
@@ -18580,7 +18991,8 @@
             "SKL": 25,
             "SPD": 17,
             "DEF": 10,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growth_bonus": {
             "LCK": 0,
@@ -18593,7 +19005,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "promotion": {
             "LCK": 0,
@@ -18606,7 +19019,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "max_stats": {
             "LCK": 30,
@@ -18619,7 +19033,8 @@
             "SKL": 22,
             "SPD": 21,
             "DEF": 24,
-            "MP": 30
+            "MP": 30,
+            "WT": 30
         },
         "learned_skills": [],
         "wexp_gain": {
@@ -18783,7 +19198,8 @@
             "SKL": 2,
             "SPD": 3,
             "DEF": 3,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growths": {
             "LCK": 10,
@@ -18796,7 +19212,8 @@
             "SKL": 30,
             "SPD": 20,
             "DEF": 12,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growth_bonus": {
             "LCK": 0,
@@ -18809,7 +19226,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "promotion": {
             "LCK": 0,
@@ -18822,7 +19240,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "max_stats": {
             "LCK": 30,
@@ -18835,7 +19254,8 @@
             "SKL": 20,
             "SPD": 20,
             "DEF": 20,
-            "MP": 30
+            "MP": 30,
+            "WT": 30
         },
         "learned_skills": [],
         "wexp_gain": {
@@ -18997,7 +19417,8 @@
             "SKL": 5,
             "SPD": 6,
             "DEF": 5,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growths": {
             "LCK": 50,
@@ -19010,7 +19431,8 @@
             "SKL": 25,
             "SPD": 17,
             "DEF": 10,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growth_bonus": {
             "LCK": 0,
@@ -19023,7 +19445,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "promotion": {
             "LCK": 0,
@@ -19036,7 +19459,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "max_stats": {
             "LCK": 30,
@@ -19049,7 +19473,8 @@
             "SKL": 28,
             "SPD": 26,
             "DEF": 22,
-            "MP": 30
+            "MP": 30,
+            "WT": 30
         },
         "learned_skills": [],
         "wexp_gain": {
@@ -19211,7 +19636,8 @@
             "SKL": 6,
             "SPD": 5,
             "DEF": 5,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growths": {
             "LCK": 10,
@@ -19224,7 +19650,8 @@
             "SKL": 30,
             "SPD": 20,
             "DEF": 15,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growth_bonus": {
             "LCK": 0,
@@ -19237,7 +19664,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "promotion": {
             "LCK": 0,
@@ -19250,7 +19678,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "max_stats": {
             "LCK": 30,
@@ -19263,7 +19692,8 @@
             "SKL": 30,
             "SPD": 28,
             "DEF": 25,
-            "MP": 30
+            "MP": 30,
+            "WT": 30
         },
         "learned_skills": [],
         "wexp_gain": {
@@ -19427,7 +19857,8 @@
             "SKL": 3,
             "SPD": 2,
             "DEF": 3,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growths": {
             "LCK": 10,
@@ -19440,7 +19871,8 @@
             "SKL": 40,
             "SPD": 32,
             "DEF": 15,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growth_bonus": {
             "LCK": 0,
@@ -19453,7 +19885,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "promotion": {
             "LCK": 0,
@@ -19466,7 +19899,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "max_stats": {
             "LCK": 30,
@@ -19479,7 +19913,8 @@
             "SKL": 20,
             "SPD": 20,
             "DEF": 20,
-            "MP": 30
+            "MP": 30,
+            "WT": 30
         },
         "learned_skills": [],
         "wexp_gain": {
@@ -19644,7 +20079,8 @@
             "SKL": 1,
             "SPD": 2,
             "DEF": 2,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growths": {
             "LCK": 30,
@@ -19657,7 +20093,8 @@
             "SKL": 32,
             "SPD": 30,
             "DEF": 10,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growth_bonus": {
             "LCK": 0,
@@ -19670,7 +20107,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "promotion": {
             "LCK": 0,
@@ -19683,7 +20121,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "max_stats": {
             "LCK": 30,
@@ -19696,7 +20135,8 @@
             "SKL": 20,
             "SPD": 20,
             "DEF": 20,
-            "MP": 30
+            "MP": 30,
+            "WT": 30
         },
         "learned_skills": [
             [
@@ -19864,7 +20304,8 @@
             "SKL": 3,
             "SPD": 3,
             "DEF": 3,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growths": {
             "LCK": 20,
@@ -19877,7 +20318,8 @@
             "SKL": 30,
             "SPD": 25,
             "DEF": 10,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growth_bonus": {
             "LCK": 0,
@@ -19890,7 +20332,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "promotion": {
             "LCK": 0,
@@ -19903,7 +20346,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "max_stats": {
             "LCK": 30,
@@ -19916,7 +20360,8 @@
             "SKL": 26,
             "SPD": 26,
             "DEF": 20,
-            "MP": 30
+            "MP": 30,
+            "WT": 30
         },
         "learned_skills": [],
         "wexp_gain": {
@@ -20078,7 +20523,8 @@
             "SKL": 0,
             "SPD": 2,
             "DEF": 2,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growths": {
             "LCK": 25,
@@ -20091,7 +20537,8 @@
             "SKL": 30,
             "SPD": 20,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growth_bonus": {
             "LCK": 0,
@@ -20104,7 +20551,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "promotion": {
             "LCK": 0,
@@ -20117,7 +20565,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "max_stats": {
             "LCK": 30,
@@ -20130,7 +20579,8 @@
             "SKL": 20,
             "SPD": 20,
             "DEF": 20,
-            "MP": 30
+            "MP": 30,
+            "WT": 30
         },
         "learned_skills": [],
         "wexp_gain": {
@@ -20295,7 +20745,8 @@
             "SKL": 4,
             "SPD": 5,
             "DEF": 3,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growths": {
             "LCK": 20,
@@ -20308,7 +20759,8 @@
             "SKL": 30,
             "SPD": 25,
             "DEF": 10,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growth_bonus": {
             "LCK": 0,
@@ -20321,7 +20773,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "promotion": {
             "LCK": 0,
@@ -20334,7 +20787,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "max_stats": {
             "LCK": 30,
@@ -20347,7 +20801,8 @@
             "SKL": 25,
             "SPD": 25,
             "DEF": 30,
-            "MP": 30
+            "MP": 30,
+            "WT": 30
         },
         "learned_skills": [],
         "wexp_gain": {

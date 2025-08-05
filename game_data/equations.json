@@ -93,7 +93,7 @@
     },
     {
         "nid": "MANA_HEAL",
-        "expression": "MIN(5, MAG//2)"
+        "expression": "min(5, MAG//2)"
     },
     {
         "nid": "CONSTITUTION",
@@ -130,5 +130,13 @@
     {
         "nid": "AVG_DEFENSE",
         "expression": "(DEF + MAG)/2"
+    },
+    {
+        "nid": "WEIGHT_SPEED_LOSS",
+        "expression": "-1 * max(0, WT - CON)"
+    },
+    {
+        "nid": "WEIGHT_AVOID_LOSS",
+        "expression": "-2 * max(0, WT - CON)"
     }
 ]

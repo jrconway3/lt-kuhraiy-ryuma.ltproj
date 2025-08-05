@@ -18,7 +18,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growths": {
             "LCK": 0,
@@ -31,7 +32,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "stat_cap_modifiers": {
             "RES": 0,
@@ -44,7 +46,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "starting_items": [
             [
@@ -57,10 +60,6 @@
             ],
             [
                 "Herb",
-                false
-            ],
-            [
-                "Potion",
                 false
             ]
         ],
@@ -243,7 +242,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growths": {
             "LCK": 0,
@@ -256,7 +256,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "stat_cap_modifiers": {
             "RES": 0,
@@ -269,7 +270,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "starting_items": [
             [
@@ -436,7 +438,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growths": {
             "LCK": 0,
@@ -449,7 +452,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "stat_cap_modifiers": {
             "RES": 0,
@@ -462,7 +466,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "starting_items": [
             [
@@ -616,7 +621,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growths": {
             "LCK": 0,
@@ -629,7 +635,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "stat_cap_modifiers": {
             "RES": 0,
@@ -642,7 +649,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "starting_items": [
             [
@@ -817,7 +825,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growths": {
             "LCK": 0,
@@ -830,7 +839,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "stat_cap_modifiers": {
             "RES": 0,
@@ -843,7 +853,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "starting_items": [
             [
@@ -991,7 +1002,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growths": {
             "LCK": 0,
@@ -1004,7 +1016,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "stat_cap_modifiers": {
             "RES": 0,
@@ -1017,7 +1030,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "starting_items": [
             [
@@ -1130,7 +1144,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growths": {
             "LCK": 0,
@@ -1143,7 +1158,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "stat_cap_modifiers": {
             "RES": 0,
@@ -1156,7 +1172,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "starting_items": [
             [
@@ -1276,7 +1293,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growths": {
             "LCK": 0,
@@ -1289,7 +1307,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "stat_cap_modifiers": {
             "RES": 0,
@@ -1302,7 +1321,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "starting_items": [],
         "learned_skills": [],
@@ -1433,7 +1453,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growths": {
             "LCK": 0,
@@ -1446,7 +1467,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "stat_cap_modifiers": {
             "RES": 0,
@@ -1459,7 +1481,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "starting_items": [
             [
@@ -1603,7 +1626,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growths": {
             "LCK": 0,
@@ -1616,7 +1640,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "stat_cap_modifiers": {
             "RES": 0,
@@ -1629,7 +1654,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "starting_items": [
             [
@@ -1758,7 +1784,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growths": {
             "LCK": 25,
@@ -1771,7 +1798,8 @@
             "SKL": 45,
             "SPD": 40,
             "DEF": 45,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "stat_cap_modifiers": {
             "RES": 0,
@@ -1784,7 +1812,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "starting_items": [
             [
@@ -1906,7 +1935,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growths": {
             "LCK": 0,
@@ -1919,7 +1949,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "stat_cap_modifiers": {
             "RES": 0,
@@ -1932,7 +1963,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "starting_items": [],
         "learned_skills": [],
@@ -2063,7 +2095,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growths": {
             "LCK": 0,
@@ -2076,7 +2109,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "stat_cap_modifiers": {
             "RES": 0,
@@ -2089,7 +2123,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "starting_items": [
             [
@@ -2230,7 +2265,8 @@
             "SKL": 16,
             "SPD": 17,
             "DEF": 9,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growths": {
             "LCK": 25,
@@ -2243,7 +2279,8 @@
             "SKL": 45,
             "SPD": 60,
             "DEF": 25,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "stat_cap_modifiers": {
             "RES": 0,
@@ -2256,7 +2293,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "starting_items": [
             [
@@ -2371,7 +2409,8 @@
             "SKL": 18,
             "SPD": 14,
             "DEF": 8,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growths": {
             "LCK": 0,
@@ -2384,7 +2423,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "stat_cap_modifiers": {
             "RES": 0,
@@ -2397,7 +2437,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "starting_items": [
             [
@@ -2514,7 +2555,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growths": {
             "LCK": 70,
@@ -2527,7 +2569,8 @@
             "SKL": 30,
             "SPD": 60,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "stat_cap_modifiers": {
             "RES": 0,
@@ -2540,7 +2583,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "starting_items": [
             [
@@ -2669,7 +2713,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growths": {
             "LCK": 0,
@@ -2682,7 +2727,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "stat_cap_modifiers": {
             "RES": 0,
@@ -2695,7 +2741,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "starting_items": [
             [
@@ -2843,7 +2890,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growths": {
             "LCK": 0,
@@ -2856,7 +2904,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "stat_cap_modifiers": {
             "RES": 0,
@@ -2869,7 +2918,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "starting_items": [
             [
@@ -3011,7 +3061,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growths": {
             "LCK": 0,
@@ -3024,7 +3075,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "stat_cap_modifiers": {
             "RES": 0,
@@ -3037,7 +3089,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "starting_items": [],
         "learned_skills": [],
@@ -3173,7 +3226,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growths": {
             "LCK": 0,
@@ -3186,7 +3240,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "stat_cap_modifiers": {
             "RES": 0,
@@ -3199,7 +3254,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "starting_items": [],
         "learned_skills": [],
@@ -3330,7 +3386,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growths": {
             "LCK": 0,
@@ -3343,7 +3400,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "stat_cap_modifiers": {
             "RES": 0,
@@ -3356,7 +3414,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "starting_items": [
             [
@@ -3471,7 +3530,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growths": {
             "LCK": 0,
@@ -3484,7 +3544,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "stat_cap_modifiers": {
             "RES": 0,
@@ -3497,7 +3558,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "starting_items": [
             [
@@ -3637,7 +3699,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growths": {
             "LCK": 0,
@@ -3650,7 +3713,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "stat_cap_modifiers": {
             "RES": 0,
@@ -3663,7 +3727,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "starting_items": [
             [
@@ -3807,7 +3872,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growths": {
             "LCK": 0,
@@ -3820,7 +3886,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "stat_cap_modifiers": {
             "RES": 0,
@@ -3833,7 +3900,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "starting_items": [
             [
@@ -3952,7 +4020,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growths": {
             "LCK": 0,
@@ -3965,7 +4034,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "stat_cap_modifiers": {
             "RES": 0,
@@ -3978,7 +4048,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "starting_items": [
             [
@@ -4097,7 +4168,8 @@
             "SKL": 11,
             "SPD": 9,
             "DEF": 11,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growths": {
             "LCK": 0,
@@ -4110,7 +4182,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "stat_cap_modifiers": {
             "RES": 0,
@@ -4123,7 +4196,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "starting_items": [
             [
@@ -4238,7 +4312,8 @@
             "SKL": 18,
             "SPD": 14,
             "DEF": 8,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growths": {
             "LCK": 0,
@@ -4251,7 +4326,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "stat_cap_modifiers": {
             "RES": 0,
@@ -4264,7 +4340,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "starting_items": [
             [
@@ -4379,7 +4456,8 @@
             "SKL": 5,
             "SPD": 2,
             "DEF": 3,
-            "MP": 7
+            "MP": 7,
+            "WT": 0
         },
         "growths": {
             "LCK": 0,
@@ -4392,7 +4470,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "stat_cap_modifiers": {
             "RES": 0,
@@ -4405,7 +4484,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "starting_items": [
             [
@@ -4414,6 +4494,10 @@
             ],
             [
                 "Steel_Lance",
+                false
+            ],
+            [
+                "IronShield",
                 false
             ]
         ],
@@ -4558,7 +4642,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growths": {
             "LCK": 0,
@@ -4571,7 +4656,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "stat_cap_modifiers": {
             "RES": 0,
@@ -4584,7 +4670,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "starting_items": [
             [
@@ -4733,7 +4820,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growths": {
             "LCK": 0,
@@ -4746,7 +4834,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "stat_cap_modifiers": {
             "RES": 0,
@@ -4759,7 +4848,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "starting_items": [
             [
@@ -4904,7 +4994,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growths": {
             "LCK": 0,
@@ -4917,7 +5008,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "stat_cap_modifiers": {
             "RES": 0,
@@ -4930,7 +5022,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "starting_items": [
             [
@@ -5049,7 +5142,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growths": {
             "LCK": 0,
@@ -5062,7 +5156,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "stat_cap_modifiers": {
             "RES": 0,
@@ -5075,7 +5170,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "starting_items": [
             [
@@ -5194,7 +5290,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growths": {
             "LCK": 0,
@@ -5207,7 +5304,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "stat_cap_modifiers": {
             "RES": 0,
@@ -5220,7 +5318,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "starting_items": [
             [
@@ -5331,7 +5430,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growths": {
             "LCK": 0,
@@ -5344,7 +5444,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "stat_cap_modifiers": {
             "RES": 0,
@@ -5357,7 +5458,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "starting_items": [
             [
@@ -5472,7 +5574,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growths": {
             "LCK": 0,
@@ -5485,7 +5588,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "stat_cap_modifiers": {
             "RES": 0,
@@ -5498,7 +5602,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "starting_items": [
             [
@@ -5617,7 +5722,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growths": {
             "LCK": 0,
@@ -5630,7 +5736,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "stat_cap_modifiers": {
             "RES": 0,
@@ -5643,7 +5750,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "starting_items": [
             [
@@ -5759,7 +5867,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growths": {
             "LCK": 45,
@@ -5772,7 +5881,8 @@
             "SKL": 40,
             "SPD": 65,
             "DEF": 25,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "stat_cap_modifiers": {
             "RES": 0,
@@ -5785,7 +5895,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "starting_items": [
             [
@@ -5904,7 +6015,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growths": {
             "LCK": 0,
@@ -5917,7 +6029,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "stat_cap_modifiers": {
             "RES": 0,
@@ -5930,7 +6043,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "starting_items": [
             [
@@ -6045,7 +6159,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growths": {
             "LCK": 0,
@@ -6058,7 +6173,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "stat_cap_modifiers": {
             "RES": 0,
@@ -6071,7 +6187,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "starting_items": [
             [
@@ -6188,7 +6305,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growths": {
             "LCK": 25,
@@ -6201,7 +6319,8 @@
             "SKL": 30,
             "SPD": 15,
             "DEF": 28,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "stat_cap_modifiers": {
             "RES": 0,
@@ -6214,7 +6333,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "starting_items": [
             [
@@ -6325,7 +6445,8 @@
             "SKL": 9,
             "SPD": 10,
             "DEF": 12,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growths": {
             "LCK": 35,
@@ -6338,7 +6459,8 @@
             "SKL": 40,
             "SPD": 45,
             "DEF": 25,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "stat_cap_modifiers": {
             "RES": 0,
@@ -6351,7 +6473,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "starting_items": [
             [
@@ -6472,7 +6595,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growths": {
             "LCK": 0,
@@ -6485,7 +6609,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "stat_cap_modifiers": {
             "RES": 0,
@@ -6498,7 +6623,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "starting_items": [
             [
@@ -6609,7 +6735,8 @@
             "SKL": 13,
             "SPD": 15,
             "DEF": 10,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growths": {
             "LCK": 45,
@@ -6622,7 +6749,8 @@
             "SKL": 40,
             "SPD": 45,
             "DEF": 20,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "stat_cap_modifiers": {
             "RES": 0,
@@ -6635,7 +6763,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "starting_items": [
             [
@@ -6756,7 +6885,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growths": {
             "LCK": 0,
@@ -6769,7 +6899,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "stat_cap_modifiers": {
             "RES": 0,
@@ -6782,7 +6913,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "starting_items": [
             [
@@ -6895,7 +7027,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growths": {
             "LCK": 0,
@@ -6908,7 +7041,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "stat_cap_modifiers": {
             "RES": 0,
@@ -6921,7 +7055,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "starting_items": [
             [
@@ -7038,7 +7173,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growths": {
             "LCK": 0,
@@ -7051,7 +7187,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "stat_cap_modifiers": {
             "RES": 0,
@@ -7064,7 +7201,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "starting_items": [
             [
@@ -7175,7 +7313,8 @@
             "SKL": 9,
             "SPD": 10,
             "DEF": 12,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growths": {
             "LCK": 35,
@@ -7188,7 +7327,8 @@
             "SKL": 40,
             "SPD": 45,
             "DEF": 25,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "stat_cap_modifiers": {
             "RES": 0,
@@ -7201,7 +7341,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "starting_items": [
             [
@@ -7320,7 +7461,8 @@
             "SKL": 9,
             "SPD": 10,
             "DEF": 12,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growths": {
             "LCK": 35,
@@ -7333,7 +7475,8 @@
             "SKL": 40,
             "SPD": 45,
             "DEF": 25,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "stat_cap_modifiers": {
             "RES": 0,
@@ -7346,7 +7489,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "starting_items": [
             [
@@ -7465,7 +7609,8 @@
             "SKL": 13,
             "SPD": 15,
             "DEF": 10,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growths": {
             "LCK": 45,
@@ -7478,7 +7623,8 @@
             "SKL": 40,
             "SPD": 45,
             "DEF": 20,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "stat_cap_modifiers": {
             "RES": 0,
@@ -7491,7 +7637,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "starting_items": [
             [
@@ -7610,7 +7757,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growths": {
             "LCK": 45,
@@ -7623,7 +7771,8 @@
             "SKL": 30,
             "SPD": 45,
             "DEF": 15,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "stat_cap_modifiers": {
             "RES": 0,
@@ -7636,7 +7785,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "starting_items": [
             [
@@ -7747,7 +7897,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growths": {
             "LCK": 0,
@@ -7760,7 +7911,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "stat_cap_modifiers": {
             "RES": 0,
@@ -7773,7 +7925,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "starting_items": [
             [
@@ -7888,7 +8041,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growths": {
             "LCK": 0,
@@ -7901,7 +8055,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "stat_cap_modifiers": {
             "RES": 0,
@@ -7914,7 +8069,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "starting_items": [
             [
@@ -8029,7 +8185,8 @@
             "SKL": 12,
             "SPD": 12,
             "DEF": 17,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growths": {
             "LCK": 20,
@@ -8042,7 +8199,8 @@
             "SKL": 40,
             "SPD": 30,
             "DEF": 45,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "stat_cap_modifiers": {
             "RES": 0,
@@ -8055,7 +8213,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "starting_items": [
             [
@@ -8174,7 +8333,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growths": {
             "LCK": 0,
@@ -8187,7 +8347,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "stat_cap_modifiers": {
             "RES": 0,
@@ -8200,7 +8361,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "starting_items": [
             [
@@ -8321,7 +8483,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growths": {
             "LCK": 0,
@@ -8334,7 +8497,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "stat_cap_modifiers": {
             "RES": 0,
@@ -8347,7 +8511,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "starting_items": [
             [
@@ -8458,7 +8623,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growths": {
             "LCK": 40,
@@ -8471,7 +8637,8 @@
             "SKL": 40,
             "SPD": 45,
             "DEF": 15,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "stat_cap_modifiers": {
             "RES": 0,
@@ -8484,7 +8651,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "starting_items": [
             [
@@ -8625,7 +8793,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growths": {
             "LCK": 40,
@@ -8638,7 +8807,8 @@
             "SKL": 40,
             "SPD": 45,
             "DEF": 15,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "stat_cap_modifiers": {
             "RES": 0,
@@ -8651,7 +8821,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "starting_items": [
             [
@@ -8792,7 +8963,8 @@
             "SKL": 2,
             "SPD": 5,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growths": {
             "LCK": 0,
@@ -8805,7 +8977,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "stat_cap_modifiers": {
             "RES": 0,
@@ -8818,7 +8991,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "starting_items": [],
         "learned_skills": [],
@@ -8924,7 +9098,8 @@
             "SKL": 16,
             "SPD": 17,
             "DEF": 9,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growths": {
             "LCK": 0,
@@ -8937,7 +9112,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "stat_cap_modifiers": {
             "RES": 0,
@@ -8950,7 +9126,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "starting_items": [
             [
@@ -9067,7 +9244,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growths": {
             "LCK": 0,
@@ -9080,7 +9258,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "stat_cap_modifiers": {
             "RES": 0,
@@ -9093,7 +9272,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "starting_items": [
             [
@@ -9206,7 +9386,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growths": {
             "LCK": 70,
@@ -9219,7 +9400,8 @@
             "SKL": 30,
             "SPD": 60,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "stat_cap_modifiers": {
             "RES": 0,
@@ -9232,7 +9414,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "starting_items": [
             [
@@ -9361,7 +9544,8 @@
             "SKL": 2,
             "SPD": 12,
             "DEF": 5,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growths": {
             "LCK": 80,
@@ -9374,7 +9558,8 @@
             "SKL": 10,
             "SPD": 70,
             "DEF": 30,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "stat_cap_modifiers": {
             "RES": 0,
@@ -9387,7 +9572,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "starting_items": [
             [
@@ -9506,7 +9692,8 @@
             "SKL": 9,
             "SPD": 13,
             "DEF": 6,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growths": {
             "LCK": 60,
@@ -9519,7 +9706,8 @@
             "SKL": 40,
             "SPD": 65,
             "DEF": 20,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "stat_cap_modifiers": {
             "RES": 0,
@@ -9532,7 +9720,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "starting_items": [
             [
@@ -9651,7 +9840,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growths": {
             "LCK": 0,
@@ -9664,7 +9854,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "stat_cap_modifiers": {
             "RES": 0,
@@ -9677,7 +9868,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "starting_items": [
             [
@@ -9788,7 +9980,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "growths": {
             "LCK": 0,
@@ -9801,7 +9994,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "stat_cap_modifiers": {
             "RES": 0,
@@ -9814,7 +10008,8 @@
             "SKL": 0,
             "SPD": 0,
             "DEF": 0,
-            "MP": 0
+            "MP": 0,
+            "WT": 0
         },
         "starting_items": [
             [

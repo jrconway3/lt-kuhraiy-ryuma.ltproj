@@ -81,6 +81,7 @@
     "Sleep": "Statuses/Negative",
     "Speed_Plus2": "Buffs/Stats",
     "Speed_Plus5": "Buffs/Stats",
+    "Spell": "Global",
     "Steal": "Active",
     "Stoneskin": "Statuses",
     "Strength_Plus2": "Buffs/Stats",
@@ -91,5 +92,6 @@
     "Throne": "Terrain",
     "Void_Curse": "Hidden",
     "Water": "Terrain",
+    "Weight": "Global",
     "Wretched_Air": "Buffs/Weapons"
 }
