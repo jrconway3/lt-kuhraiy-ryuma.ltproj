@@ -138,5 +138,9 @@
     {
         "nid": "WEIGHT_AVOID_LOSS",
         "expression": "-2 * max(0, WT - CON)"
+    },
+    {
+        "nid": "AVOID_MAX",
+        "expression": "9999"
     }
 ]
