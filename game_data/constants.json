@@ -244,6 +244,10 @@
         true
     ],
     [
+        "add_mana_bar",
+        true
+    ],
+    [
         "double_splash",
         false
     ],

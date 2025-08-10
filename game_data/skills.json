@@ -2378,11 +2378,11 @@
                 null
             ],
             [
-                "empower_mana_heal",
+                "empower_mana",
                 "max(1, 0.01*target.get_max_mana())"
             ],
             [
-                "empower_mana_heal_received",
+                "empower_mana_received",
                 "max(1, 0.01*unit.get_max_mana())"
             ]
         ]

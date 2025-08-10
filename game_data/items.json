@@ -16883,7 +16883,7 @@
                 "MapSmallHealTrans"
             ],
             [
-                "mana_heal",
+                "mana_restore",
                 5
             ],
             [
@@ -22118,7 +22118,7 @@
                 ]
             ],
             [
-                "mana_heal",
+                "mana_restore",
                 5
             ]
         ]
