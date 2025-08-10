@@ -225,7 +225,7 @@
     ],
     [
         "repair_shop",
-        false
+        true
     ],
     [
         "sound_room_in_codex",
@@ -242,14 +242,6 @@
     [
         "reset_mana",
         true
-    ],
-    [
-        "add_mana_bar",
-        true
-    ],
-    [
-        "mana_uses_shows_cost",
-        false
     ],
     [
         "double_splash",

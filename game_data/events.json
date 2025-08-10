@@ -1718,7 +1718,8 @@
             "add_talk;Svetlanya;Leiland",
             "add_talk;Svetlanya;Shyara",
             "hide_talk;Svetlanya;Shyara",
-            "give_item;Svetlanya;Almace;force_give",
+            "give_item;Svetlanya;Almace;force_give;no_banner",
+            "give_skill;Svetlanya;Blind;no_banner",
             "#trigger_script;Trigger",
             "#base;Clearing;;Camp;True;Open Camp",
             "prep;False;;Camp;True;Open Camp",
@@ -4004,7 +4005,7 @@
             "add_group;FreeRoam;FreeRoam;immediate",
             "center_cursor;Svetlanya;immediate",
             "change_party;Serena;Shayala",
-            "show_layer;dr4_nadira;immediate",
+            "enable_repair_shop;t",
             "",
             "# Setup Talk Events",
             "add_talk;Svetlanya;Thanya",
@@ -4016,6 +4017,8 @@
             "add_talk;Svetlanya;lykon_fight1",
             "add_talk;Svetlanya;lykon_g2",
             "hide_talk;Svetlanya;lykon_g2",
+            "set_current_mana;Svetlanya;2",
+            "set_item_uses;Svetlanya;Foil;5",
             "",
             "# Setup Lore",
             "add_lore;Svetlanya",
@@ -4024,9 +4027,7 @@
             "add_lore;Queiza",
             "add_lore;Serena",
             "add_lore;Thanya",
-            "add_lore;Queiza",
-            "",
-            "alert;{unit.get_weapon().weapon_rank}"
+            "add_lore;Queiza"
         ],
         "nid": "DEBUG2 Init"
     },
@@ -4324,5 +4325,18 @@
             "shop;{unit};Foil,Epee,Bronze_Sword,BronzeKnife,Bronze_Lance,Bronze_Axe,Oak_Bow,Oak_Longbow,Bronze_Crossbow;armory"
         ],
         "nid": "DEBUG2 Smithy"
+    },
+    {
+        "name": "Emporium",
+        "trigger": "Emporium",
+        "level_nid": "DEBUG2",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "shop;{unit};Fireball,Static,Gust,Icicle,AquaEdge,Stone;magic"
+        ],
+        "nid": "DEBUG2 Emporium"
     }
 ]

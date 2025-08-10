@@ -61,6 +61,10 @@
             [
                 "Herb",
                 false
+            ],
+            [
+                "Icicle",
+                false
             ]
         ],
         "learned_skills": [

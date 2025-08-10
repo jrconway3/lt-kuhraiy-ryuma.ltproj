@@ -15237,6 +15237,10 @@
             [
                 "mana_cost_uses",
                 null
+            ],
+            [
+                "mana_uses_remaining",
+                null
             ]
         ]
     },
@@ -17444,6 +17448,10 @@
             [
                 "mana_cost_uses",
                 null
+            ],
+            [
+                "mana_uses_remaining",
+                null
             ]
         ]
     },
@@ -18358,7 +18366,7 @@
     },
     {
         "nid": "Gust",
-        "name": "Excalibur",
+        "name": "Gust",
         "desc": "Eff vs Nordak, Drakes.",
         "icon_nid": "{Batima} All Tomes",
         "icon_index": [
@@ -18380,11 +18388,11 @@
             ],
             [
                 "damage",
-                18
+                3
             ],
             [
                 "hit",
-                90
+                110
             ],
             [
                 "weapon_type",
@@ -18400,11 +18408,11 @@
             ],
             [
                 "weight",
-                13
+                5
             ],
             [
                 "crit",
-                10
+                0
             ],
             [
                 "min_range",
@@ -19569,15 +19577,12 @@
                 900
             ],
             [
-                "uses",
-                45
+                "mana_cost_uses",
+                null
             ],
             [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
+                "mana_cost",
+                3
             ]
         ]
     },
@@ -19652,15 +19657,12 @@
                 900
             ],
             [
-                "uses",
-                45
+                "mana_cost",
+                6
             ],
             [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
+                "mana_cost_uses",
+                null
             ]
         ]
     },
@@ -19735,15 +19737,12 @@
                 900
             ],
             [
-                "uses",
-                45
+                "mana_cost",
+                1
             ],
             [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
+                "mana_cost_uses",
+                null
             ]
         ]
     },
@@ -19818,18 +19817,15 @@
                 900
             ],
             [
-                "uses",
-                10
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
                 "siege_weapon",
+                null
+            ],
+            [
+                "mana_cost",
+                1
+            ],
+            [
+                "mana_cost_uses",
                 null
             ]
         ]
@@ -19905,15 +19901,12 @@
                 900
             ],
             [
-                "uses",
-                45
+                "mana_cost",
+                1
             ],
             [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
+                "mana_cost_uses",
+                null
             ]
         ]
     },
