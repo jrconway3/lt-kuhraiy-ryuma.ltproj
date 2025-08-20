@@ -402,5 +402,9 @@
     {
         "nid": "gold",
         "text": "talur"
+    },
+    {
+        "nid": "MANA",
+        "text": "MP"
     }
 ]
