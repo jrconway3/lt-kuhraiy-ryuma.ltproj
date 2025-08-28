@@ -1990,7 +1990,7 @@
             "SKL": 20,
             "SPD": 20,
             "DEF": 20,
-            "MP": 30,
+            "MP": 40,
             "WT": 30
         },
         "learned_skills": [
@@ -2511,7 +2511,7 @@
             "SKL": 20,
             "SPD": 20,
             "DEF": 20,
-            "MP": 30,
+            "MP": 40,
             "WT": 30
         },
         "learned_skills": [],
@@ -2760,7 +2760,7 @@
             "SKL": 29,
             "SPD": 30,
             "DEF": 22,
-            "MP": 30,
+            "MP": 40,
             "WT": 30
         },
         "learned_skills": [
@@ -3016,7 +3016,7 @@
             "SKL": 20,
             "SPD": 20,
             "DEF": 20,
-            "MP": 30,
+            "MP": 40,
             "WT": 30
         },
         "learned_skills": [],
@@ -3265,7 +3265,7 @@
             "SKL": 26,
             "SPD": 27,
             "DEF": 23,
-            "MP": 30,
+            "MP": 40,
             "WT": 30
         },
         "learned_skills": [],
@@ -5001,9 +5001,9 @@
         "fields": []
     },
     {
-        "nid": "Dancer",
-        "name": "Dancer",
-        "desc": "Dancers whose powers revitalize\ntheir allies. Can fight, but not strong.\nRace: Zabos",
+        "nid": "Handmaid",
+        "name": "Handmaid",
+        "desc": "One who serves a noble house.\nRace: Zabos",
         "tier": 1,
         "movement_group": "Zabos",
         "promotes_from": null,
@@ -5087,17 +5087,17 @@
         "learned_skills": [],
         "wexp_gain": {
             "Sword": [
-                true,
+                false,
                 0,
                 251
             ],
             "Dagger": [
-                false,
+                true,
                 0,
                 null
             ],
             "Lance": [
-                false,
+                true,
                 0,
                 251
             ],
@@ -16450,30 +16450,30 @@
         "max_level": 20,
         "bases": {
             "LCK": 0,
-            "RES": 5,
+            "RES": 8,
             "CON": 7,
-            "MOV": 5,
-            "STR": 0,
+            "MOV": 6,
+            "STR": 3,
             "HP": 16,
             "MAG": 3,
             "SKL": 1,
-            "SPD": 2,
+            "SPD": 7,
             "DEF": 2,
-            "MP": 0,
+            "MP": 12,
             "WT": 0
         },
         "growths": {
-            "LCK": 20,
-            "RES": 40,
+            "LCK": 40,
+            "RES": 60,
             "CON": 0,
             "MOV": 0,
-            "STR": 0,
+            "STR": 20,
             "HP": 50,
             "MAG": 50,
-            "SKL": 32,
-            "SPD": 30,
+            "SKL": 35,
+            "SPD": 50,
             "DEF": 10,
-            "MP": 0,
+            "MP": 65,
             "WT": 0
         },
         "growth_bonus": {
@@ -16515,7 +16515,7 @@
             "SKL": 20,
             "SPD": 20,
             "DEF": 20,
-            "MP": 30,
+            "MP": 40,
             "WT": 30
         },
         "learned_skills": [],
@@ -16673,12 +16673,12 @@
             "CON": 7,
             "MOV": 5,
             "STR": 0,
-            "HP": 16,
-            "MAG": 3,
-            "SKL": 1,
+            "HP": 13,
+            "MAG": 7,
+            "SKL": 4,
             "SPD": 2,
-            "DEF": 2,
-            "MP": 0,
+            "DEF": 4,
+            "MP": 17,
             "WT": 0
         },
         "growths": {
@@ -16686,13 +16686,13 @@
             "RES": 40,
             "CON": 0,
             "MOV": 0,
-            "STR": 0,
-            "HP": 50,
-            "MAG": 50,
-            "SKL": 32,
+            "STR": 15,
+            "HP": 45,
+            "MAG": 70,
+            "SKL": 55,
             "SPD": 30,
-            "DEF": 10,
-            "MP": 0,
+            "DEF": 30,
+            "MP": 80,
             "WT": 0
         },
         "growth_bonus": {
@@ -16750,7 +16750,7 @@
                 null
             ],
             "Lance": [
-                false,
+                true,
                 0,
                 251
             ],
