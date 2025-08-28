@@ -16883,16 +16883,16 @@
                 "MapSmallHealTrans"
             ],
             [
-                "mana_restore",
-                5
-            ],
-            [
                 "map_cast_pose",
                 null
             ],
             [
                 "magic",
                 null
+            ],
+            [
+                "mana_restore",
+                5
             ]
         ]
     },

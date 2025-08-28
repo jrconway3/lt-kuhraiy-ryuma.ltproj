@@ -2452,5 +2452,25 @@
                 -1.0
             ]
         ]
+    },
+    {
+        "nid": "Magic",
+        "name": "Magic",
+        "desc": "Cast a magic spell the unit currently has learned.",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "ability",
+                "Bronze_Sword"
+            ],
+            [
+                "menu_category",
+                null
+            ]
+        ]
     }
 ]
