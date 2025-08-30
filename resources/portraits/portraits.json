@@ -38,6 +38,18 @@
     {
         "nid": "Amaya",
         "blinking_offset": [
+            32,
+            16
+        ],
+        "smiling_offset": [
+            32,
+            32
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "AmayaOld",
+        "blinking_offset": [
             24,
             24
         ],

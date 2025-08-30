@@ -1716,6 +1716,26 @@
         ]
     },
     {
+        "nid": "Shove",
+        "name": "Shove",
+        "desc": "Can Shove allies.",
+        "icon_nid": "{ZessDynamite, Rainlash, LordGlenn, Suneohair, JaidynReiman} Complete Skill Icon Sheet",
+        "icon_index": [
+            15,
+            50
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "ability",
+                "Shove"
+            ]
+        ]
+    },
+    {
         "nid": "IgnisL",
         "name": "Ignis",
         "desc": "",

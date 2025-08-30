@@ -16457,6 +16457,14 @@
             [
                 "mana_cost_uses",
                 null
+            ],
+            [
+                "shove_on_end_combat",
+                1
+            ],
+            [
+                "enemy_blast_aoe",
+                1
             ]
         ]
     },
@@ -23600,6 +23608,42 @@
             [
                 "gba_steal",
                 null
+            ]
+        ]
+    },
+    {
+        "nid": "Shove",
+        "name": "Shove",
+        "desc": "Shove enemy after attack.",
+        "icon_nid": "{ZessDynamite, Rainlash, LordGlenn, Suneohair, JaidynReiman} Complete Skill Icon Sheet",
+        "icon_index": [
+            15,
+            50
+        ],
+        "components": [
+            [
+                "spell",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "shove_on_end_combat",
+                1
+            ],
+            [
+                "enemy_blast_aoe",
+                1
             ]
         ]
     },
