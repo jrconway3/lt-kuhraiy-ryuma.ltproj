@@ -5372,7 +5372,7 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    5,
+                    10,
                     9
                 ],
                 "starting_traveler": null,
@@ -5439,8 +5439,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    7,
-                    9
+                    10,
+                    5
                 ],
                 "starting_traveler": null,
                 "generic": true

@@ -1723,6 +1723,8 @@
             "#trigger_script;Trigger",
             "#base;Clearing;;Camp;True;Open Camp",
             "prep;False;;Camp;True;Open Camp",
+            "enable_fog_of_war;t",
+            "set_fog_of_war;gba;5",
             "#music;Attack;2000",
             "#wait;5000",
             "#music;Armory;2000",

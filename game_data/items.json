@@ -13851,6 +13851,10 @@
             [
                 "mana_cost_uses",
                 null
+            ],
+            [
+                "ignore_fog_of_war",
+                null
             ]
         ]
     },
