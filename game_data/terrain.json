@@ -10,7 +10,7 @@
         "minimap": "Grass",
         "platform": "Plains",
         "background": "combat_plains",
-        "mtype": "Snow",
+        "mtype": "Normal",
         "opaque": false,
         "status": null
     },

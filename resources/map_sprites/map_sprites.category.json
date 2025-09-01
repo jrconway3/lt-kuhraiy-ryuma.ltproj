@@ -109,6 +109,8 @@
     "LancerFemale": "Infantry/Lance",
     "Lieutenant": "Special/Lords",
     "Lord": "Special/Lords",
+    "Mage": "Mages/Anima",
+    "Mage (F) Thunder (Leif)-stand": "Mages/Anima",
     "MagicCorps": "Mages/Cavalry",
     "MagicCorpsFemale": "Mages/Cavalry",
     "Maid": "Mages/Holy",

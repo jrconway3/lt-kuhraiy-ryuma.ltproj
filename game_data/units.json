@@ -1276,10 +1276,8 @@
         "desc": "A skilled mage from a far away land. Having resided in Oestridel for some time, he became a retainer for Lady Svetlanya.",
         "variant": "",
         "level": 4,
-        "klass": "Tactician",
+        "klass": "Vagabond",
         "tags": [
-            "Horse",
-            "Mounted",
             "Zabos"
         ],
         "bases": {

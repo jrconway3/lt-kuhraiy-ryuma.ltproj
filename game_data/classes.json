@@ -16671,7 +16671,7 @@
             "LCK": 0,
             "RES": 5,
             "CON": 7,
-            "MOV": 5,
+            "MOV": 6,
             "STR": 0,
             "HP": 13,
             "MAG": 7,
@@ -16872,6 +16872,225 @@
         ],
         "map_sprite_nid": "Shaman",
         "combat_anim_nid": "ShamanFemale",
+        "fields": []
+    },
+    {
+        "nid": "Vagabond",
+        "name": "Shaman",
+        "desc": "",
+        "tier": 1,
+        "movement_group": "Zabos",
+        "promotes_from": null,
+        "turns_into": [],
+        "tags": [
+            "Zabos"
+        ],
+        "max_level": 20,
+        "bases": {
+            "LCK": 0,
+            "RES": 3,
+            "CON": 8,
+            "MOV": 6,
+            "STR": 3,
+            "HP": 16,
+            "MAG": 5,
+            "SKL": 3,
+            "SPD": 4,
+            "DEF": 4,
+            "MP": 14,
+            "WT": 0
+        },
+        "growths": {
+            "LCK": 35,
+            "RES": 40,
+            "CON": 0,
+            "MOV": 0,
+            "STR": 35,
+            "HP": 60,
+            "MAG": 55,
+            "SKL": 50,
+            "SPD": 55,
+            "DEF": 20,
+            "MP": 50,
+            "WT": 0
+        },
+        "growth_bonus": {
+            "LCK": 0,
+            "RES": 0,
+            "CON": 0,
+            "MOV": 0,
+            "STR": 0,
+            "HP": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
+            "MP": 0,
+            "WT": 0
+        },
+        "promotion": {
+            "LCK": 0,
+            "RES": 2,
+            "CON": 2,
+            "MOV": -99,
+            "STR": 0,
+            "HP": 1,
+            "MAG": 2,
+            "SKL": 0,
+            "SPD": 1,
+            "DEF": 1,
+            "MP": 0,
+            "WT": 0
+        },
+        "max_stats": {
+            "LCK": 30,
+            "RES": 20,
+            "CON": 20,
+            "MOV": 15,
+            "STR": 20,
+            "HP": 60,
+            "MAG": 20,
+            "SKL": 20,
+            "SPD": 20,
+            "DEF": 20,
+            "MP": 30,
+            "WT": 30
+        },
+        "learned_skills": [],
+        "wexp_gain": {
+            "Sword": [
+                true,
+                0,
+                251
+            ],
+            "Dagger": [
+                false,
+                0,
+                null
+            ],
+            "Lance": [
+                false,
+                0,
+                251
+            ],
+            "Axe": [
+                false,
+                0,
+                251
+            ],
+            "Bow": [
+                false,
+                0,
+                251
+            ],
+            "Solus": [
+                false,
+                0,
+                251
+            ],
+            "Lunis": [
+                false,
+                31,
+                251
+            ],
+            "Ignis": [
+                true,
+                0,
+                null
+            ],
+            "Ventus": [
+                false,
+                1,
+                null
+            ],
+            "Fulgus": [
+                true,
+                0,
+                null
+            ],
+            "Tellus": [
+                false,
+                0,
+                251
+            ],
+            "Glacies": [
+                false,
+                0,
+                null
+            ],
+            "Aquis": [
+                false,
+                0,
+                null
+            ],
+            "Runic": [
+                false,
+                0,
+                251
+            ],
+            "Shield": [
+                false,
+                0,
+                null
+            ],
+            "Armor": [
+                false,
+                0,
+                null
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ],
+            "Valuables": [
+                false,
+                0,
+                null
+            ],
+            "Claw": [
+                false,
+                0,
+                null
+            ],
+            "Staff": [
+                false,
+                0,
+                251
+            ],
+            "Light": [
+                false,
+                0,
+                251
+            ],
+            "Anima": [
+                false,
+                0,
+                251
+            ],
+            "Dark": [
+                true,
+                31,
+                251
+            ],
+            "Earth": [
+                false,
+                0,
+                251
+            ],
+            "Magic": [
+                false,
+                0,
+                251
+            ]
+        },
+        "icon_nid": "Myrmidon (F) Sword {L95}",
+        "icon_index": [
+            0,
+            0
+        ],
+        "map_sprite_nid": "Mage",
+        "combat_anim_nid": "ShamanMale",
         "fields": []
     },
     {

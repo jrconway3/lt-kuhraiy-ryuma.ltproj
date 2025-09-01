@@ -141,5 +141,34 @@
                 "Rank": "A"
             }
         ]
+    },
+    {
+        "nid": "DehrenSpellbookList",
+        "dtype": "list",
+        "svalue": "",
+        "kvvalue": [],
+        "oattrs": [
+            "nid",
+            "Item",
+            "Type",
+            "Wexp",
+            "Rank"
+        ],
+        "lovalue": [
+            {
+                "nid": "deh1",
+                "Item": "Fireball",
+                "Type": "Ignis",
+                "Wexp": "1",
+                "Rank": "E"
+            },
+            {
+                "nid": "deh2",
+                "Item": "Torch",
+                "Type": "Ignis",
+                "Wexp": "1",
+                "Rank": "E"
+            }
+        ]
     }
 ]

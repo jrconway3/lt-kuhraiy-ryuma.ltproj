@@ -13841,15 +13841,15 @@
                 "MAGIC_RANGE"
             ],
             [
-                "target_ally",
-                null
-            ],
-            [
                 "mana_cost",
                 5
             ],
             [
                 "mana_cost_uses",
+                null
+            ],
+            [
+                "target_tile",
                 null
             ],
             [
