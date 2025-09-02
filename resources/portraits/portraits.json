@@ -84,6 +84,30 @@
         "info_offset": 0
     },
     {
+        "nid": "Frida",
+        "blinking_offset": [
+            24,
+            16
+        ],
+        "smiling_offset": [
+            24,
+            32
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "FridaNoVeil",
+        "blinking_offset": [
+            24,
+            16
+        ],
+        "smiling_offset": [
+            24,
+            32
+        ],
+        "info_offset": 0
+    },
+    {
         "nid": "Pent (Noble) {Plant_Academy} [F2E]",
         "blinking_offset": [
             32,
