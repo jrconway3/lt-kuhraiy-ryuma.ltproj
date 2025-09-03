@@ -12418,7 +12418,7 @@
                 3
             ],
             [
-                "mana_cost_uses",
+                "mana_cost_as_uses",
                 null
             ],
             [
@@ -12502,7 +12502,7 @@
                 2
             ],
             [
-                "mana_cost_uses",
+                "mana_cost_as_uses",
                 null
             ]
         ]
@@ -12570,7 +12570,7 @@
                 4
             ],
             [
-                "mana_cost_uses",
+                "mana_cost_as_uses",
                 null
             ]
         ]
@@ -12637,7 +12637,7 @@
                 10
             ],
             [
-                "mana_cost_uses",
+                "mana_cost_as_uses",
                 null
             ]
         ]
@@ -12701,7 +12701,7 @@
                 3
             ],
             [
-                "mana_cost_uses",
+                "mana_cost_as_uses",
                 null
             ]
         ]
@@ -12765,7 +12765,7 @@
                 5
             ],
             [
-                "mana_cost_uses",
+                "mana_cost_as_uses",
                 null
             ]
         ]
@@ -12863,7 +12863,7 @@
                 1
             ],
             [
-                "mana_cost_uses",
+                "mana_cost_as_uses",
                 null
             ]
         ]
@@ -12961,7 +12961,7 @@
                 2
             ],
             [
-                "mana_cost_uses",
+                "mana_cost_as_uses",
                 null
             ]
         ]
@@ -13055,7 +13055,7 @@
                 4
             ],
             [
-                "mana_cost_uses",
+                "mana_cost_as_uses",
                 null
             ]
         ]
@@ -13153,7 +13153,7 @@
                 15
             ],
             [
-                "mana_cost_uses",
+                "mana_cost_as_uses",
                 null
             ]
         ]
@@ -13258,7 +13258,7 @@
                 7
             ],
             [
-                "mana_cost_uses",
+                "mana_cost_as_uses",
                 null
             ]
         ]
@@ -13356,7 +13356,7 @@
                 10
             ],
             [
-                "mana_cost_uses",
+                "mana_cost_as_uses",
                 null
             ]
         ]
@@ -13456,7 +13456,7 @@
                 5
             ],
             [
-                "mana_cost_uses",
+                "mana_cost_as_uses",
                 null
             ]
         ]
@@ -13594,7 +13594,7 @@
                 3
             ],
             [
-                "mana_cost_uses",
+                "mana_cost_as_uses",
                 null
             ],
             [
@@ -13678,7 +13678,7 @@
                 2
             ],
             [
-                "mana_cost_uses",
+                "mana_cost_as_uses",
                 null
             ]
         ]
@@ -13746,7 +13746,7 @@
                 5
             ],
             [
-                "mana_cost_uses",
+                "mana_cost_as_uses",
                 null
             ]
         ]
@@ -13845,7 +13845,7 @@
                 5
             ],
             [
-                "mana_cost_uses",
+                "mana_cost_as_uses",
                 null
             ],
             [
@@ -13917,7 +13917,7 @@
                 4
             ],
             [
-                "mana_cost_uses",
+                "mana_cost_as_uses",
                 null
             ]
         ]
@@ -13981,7 +13981,7 @@
                 1
             ],
             [
-                "mana_cost_uses",
+                "mana_cost_as_uses",
                 null
             ]
         ]
@@ -14087,7 +14087,7 @@
                 1
             ],
             [
-                "mana_cost_uses",
+                "mana_cost_as_uses",
                 null
             ],
             [
@@ -14189,7 +14189,7 @@
                 2
             ],
             [
-                "mana_cost_uses",
+                "mana_cost_as_uses",
                 null
             ]
         ]
@@ -14287,7 +14287,7 @@
                 4
             ],
             [
-                "mana_cost_uses",
+                "mana_cost_as_uses",
                 null
             ]
         ]
@@ -14385,7 +14385,7 @@
                 7
             ],
             [
-                "mana_cost_uses",
+                "mana_cost_as_uses",
                 null
             ]
         ]
@@ -14483,7 +14483,7 @@
                 15
             ],
             [
-                "mana_cost_uses",
+                "mana_cost_as_uses",
                 null
             ]
         ]
@@ -14581,7 +14581,7 @@
                 10
             ],
             [
-                "mana_cost_uses",
+                "mana_cost_as_uses",
                 null
             ]
         ]
@@ -14778,7 +14778,7 @@
                 3
             ],
             [
-                "mana_cost_uses",
+                "mana_cost_as_uses",
                 null
             ]
         ]
@@ -14858,7 +14858,7 @@
                 2
             ],
             [
-                "mana_cost_uses",
+                "mana_cost_as_uses",
                 null
             ]
         ]
@@ -14922,7 +14922,7 @@
                 6
             ],
             [
-                "mana_cost_uses",
+                "mana_cost_as_uses",
                 null
             ]
         ]
@@ -14993,7 +14993,7 @@
                 12
             ],
             [
-                "mana_cost_uses",
+                "mana_cost_as_uses",
                 null
             ]
         ]
@@ -15145,7 +15145,7 @@
                 4
             ],
             [
-                "mana_cost_uses",
+                "mana_cost_as_uses",
                 null
             ]
         ]
@@ -15239,7 +15239,7 @@
                 2
             ],
             [
-                "mana_cost_uses",
+                "mana_cost_as_uses",
                 null
             ],
             [
@@ -15337,7 +15337,7 @@
                 3
             ],
             [
-                "mana_cost_uses",
+                "mana_cost_as_uses",
                 null
             ]
         ]
@@ -15431,7 +15431,7 @@
                 5
             ],
             [
-                "mana_cost_uses",
+                "mana_cost_as_uses",
                 null
             ]
         ]
@@ -15525,7 +15525,7 @@
                 7
             ],
             [
-                "mana_cost_uses",
+                "mana_cost_as_uses",
                 null
             ]
         ]
@@ -15619,7 +15619,7 @@
                 17
             ],
             [
-                "mana_cost_uses",
+                "mana_cost_as_uses",
                 null
             ]
         ]
@@ -15713,7 +15713,7 @@
                 13
             ],
             [
-                "mana_cost_uses",
+                "mana_cost_as_uses",
                 null
             ]
         ]
@@ -15851,7 +15851,7 @@
                 5
             ],
             [
-                "mana_cost_uses",
+                "mana_cost_as_uses",
                 null
             ]
         ]
@@ -15915,7 +15915,7 @@
                 2
             ],
             [
-                "mana_cost_uses",
+                "mana_cost_as_uses",
                 null
             ]
         ]
@@ -15983,7 +15983,7 @@
                 3
             ],
             [
-                "mana_cost_uses",
+                "mana_cost_as_uses",
                 null
             ],
             [
@@ -16051,7 +16051,7 @@
                 4
             ],
             [
-                "mana_cost_uses",
+                "mana_cost_as_uses",
                 null
             ]
         ]
@@ -16127,7 +16127,7 @@
                 8
             ],
             [
-                "mana_cost_uses",
+                "mana_cost_as_uses",
                 null
             ]
         ]
@@ -16203,7 +16203,7 @@
                 25
             ],
             [
-                "mana_cost_uses",
+                "mana_cost_as_uses",
                 null
             ]
         ]
@@ -16271,7 +16271,7 @@
                 6
             ],
             [
-                "mana_cost_uses",
+                "mana_cost_as_uses",
                 null
             ]
         ]
@@ -16343,7 +16343,7 @@
                 1
             ],
             [
-                "mana_cost_uses",
+                "mana_cost_as_uses",
                 null
             ],
             [
@@ -16459,7 +16459,7 @@
                 2
             ],
             [
-                "mana_cost_uses",
+                "mana_cost_as_uses",
                 null
             ],
             [
@@ -16561,7 +16561,7 @@
                 4
             ],
             [
-                "mana_cost_uses",
+                "mana_cost_as_uses",
                 null
             ]
         ]
@@ -16655,7 +16655,7 @@
                 7
             ],
             [
-                "mana_cost_uses",
+                "mana_cost_as_uses",
                 null
             ]
         ]
@@ -16749,7 +16749,7 @@
                 9
             ],
             [
-                "mana_cost_uses",
+                "mana_cost_as_uses",
                 null
             ]
         ]
@@ -16887,7 +16887,7 @@
                 5
             ],
             [
-                "mana_cost_uses",
+                "mana_cost_as_uses",
                 null
             ],
             [
@@ -16963,7 +16963,7 @@
                 2
             ],
             [
-                "mana_cost_uses",
+                "mana_cost_as_uses",
                 null
             ]
         ]
@@ -17027,7 +17027,7 @@
                 4
             ],
             [
-                "mana_cost_uses",
+                "mana_cost_as_uses",
                 null
             ]
         ]
@@ -17103,7 +17103,7 @@
                 9
             ],
             [
-                "mana_cost_uses",
+                "mana_cost_as_uses",
                 null
             ]
         ]
@@ -17167,7 +17167,7 @@
                 10
             ],
             [
-                "mana_cost_uses",
+                "mana_cost_as_uses",
                 null
             ]
         ]
@@ -17231,7 +17231,7 @@
                 5
             ],
             [
-                "mana_cost_uses",
+                "mana_cost_as_uses",
                 null
             ]
         ]
@@ -17295,7 +17295,7 @@
                 8
             ],
             [
-                "mana_cost_uses",
+                "mana_cost_as_uses",
                 null
             ]
         ]
@@ -17359,7 +17359,7 @@
                 "unit.get_max_mana()"
             ],
             [
-                "mana_cost_uses",
+                "mana_cost_as_uses",
                 null
             ],
             [
@@ -17458,7 +17458,7 @@
                 2
             ],
             [
-                "mana_cost_uses",
+                "mana_cost_as_uses",
                 null
             ],
             [
@@ -17553,7 +17553,7 @@
                 4
             ],
             [
-                "mana_cost_uses",
+                "mana_cost_as_uses",
                 null
             ]
         ]
@@ -17663,7 +17663,7 @@
                 7
             ],
             [
-                "mana_cost_uses",
+                "mana_cost_as_uses",
                 null
             ]
         ]
@@ -17758,7 +17758,7 @@
                 17
             ],
             [
-                "mana_cost_uses",
+                "mana_cost_as_uses",
                 null
             ]
         ]
@@ -17838,7 +17838,7 @@
                 12
             ],
             [
-                "mana_cost_uses",
+                "mana_cost_as_uses",
                 null
             ]
         ]
@@ -17964,7 +17964,7 @@
                 3
             ],
             [
-                "mana_cost_uses",
+                "mana_cost_as_uses",
                 null
             ]
         ]
@@ -18028,7 +18028,7 @@
                 2
             ],
             [
-                "mana_cost_uses",
+                "mana_cost_as_uses",
                 null
             ]
         ]
@@ -18092,7 +18092,7 @@
                 10
             ],
             [
-                "mana_cost_uses",
+                "mana_cost_as_uses",
                 null
             ]
         ]
@@ -18164,7 +18164,7 @@
                 8
             ],
             [
-                "mana_cost_uses",
+                "mana_cost_as_uses",
                 null
             ]
         ]
@@ -18235,7 +18235,7 @@
                 8
             ],
             [
-                "mana_cost_uses",
+                "mana_cost_as_uses",
                 null
             ]
         ]
@@ -18371,7 +18371,7 @@
                 4
             ],
             [
-                "mana_cost_uses",
+                "mana_cost_as_uses",
                 null
             ]
         ]
@@ -18460,7 +18460,7 @@
                 1
             ],
             [
-                "mana_cost_uses",
+                "mana_cost_as_uses",
                 null
             ]
         ]
@@ -18549,7 +18549,7 @@
                 2
             ],
             [
-                "mana_cost_uses",
+                "mana_cost_as_uses",
                 null
             ]
         ]
@@ -18649,7 +18649,7 @@
                 3
             ],
             [
-                "mana_cost_uses",
+                "mana_cost_as_uses",
                 null
             ]
         ]
@@ -18738,7 +18738,7 @@
                 5
             ],
             [
-                "mana_cost_uses",
+                "mana_cost_as_uses",
                 null
             ]
         ]
@@ -18830,7 +18830,7 @@
                 8
             ],
             [
-                "mana_cost_uses",
+                "mana_cost_as_uses",
                 null
             ]
         ]
@@ -19017,7 +19017,7 @@
                 15
             ],
             [
-                "mana_cost_uses",
+                "mana_cost_as_uses",
                 null
             ]
         ]
@@ -19589,7 +19589,7 @@
                 900
             ],
             [
-                "mana_cost_uses",
+                "mana_cost_as_uses",
                 null
             ],
             [
@@ -19673,7 +19673,7 @@
                 6
             ],
             [
-                "mana_cost_uses",
+                "mana_cost_as_uses",
                 null
             ]
         ]
@@ -19753,7 +19753,7 @@
                 1
             ],
             [
-                "mana_cost_uses",
+                "mana_cost_as_uses",
                 null
             ]
         ]
@@ -19837,7 +19837,7 @@
                 1
             ],
             [
-                "mana_cost_uses",
+                "mana_cost_as_uses",
                 null
             ]
         ]
@@ -19917,7 +19917,7 @@
                 1
             ],
             [
-                "mana_cost_uses",
+                "mana_cost_as_uses",
                 null
             ]
         ]
