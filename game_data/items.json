@@ -16461,14 +16461,6 @@
             [
                 "mana_cost_as_uses",
                 null
-            ],
-            [
-                "shove_on_end_combat",
-                1
-            ],
-            [
-                "enemy_blast_aoe",
-                1
             ]
         ]
     },
