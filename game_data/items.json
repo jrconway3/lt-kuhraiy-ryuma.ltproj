@@ -15243,7 +15243,7 @@
                 null
             ],
             [
-                "mana_uses_remaining",
+                "remaining_mana_uses",
                 null
             ]
         ]
@@ -17462,7 +17462,7 @@
                 null
             ],
             [
-                "mana_uses_remaining",
+                "remaining_mana_uses",
                 null
             ]
         ]
