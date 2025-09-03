@@ -2528,7 +2528,7 @@
             ]
         }
     },
-	{
+    {
         "nid": "rank",
         "fallback_ttf": null,
         "fallback_size": 16,
