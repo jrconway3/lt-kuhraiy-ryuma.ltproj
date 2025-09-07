@@ -16897,6 +16897,10 @@
             [
                 "mana_restore",
                 5
+            ],
+            [
+                "equation_heal",
+                "HEAL"
             ]
         ]
     },
@@ -17448,10 +17452,6 @@
             [
                 "mana_cost",
                 2
-            ],
-            [
-                "mana_cost_as_uses",
-                null
             ],
             [
                 "remaining_mana_uses",

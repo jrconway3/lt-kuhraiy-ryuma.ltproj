@@ -4637,6 +4637,10 @@
             [
                 "IronShield",
                 false
+            ],
+            [
+                "Icicle",
+                false
             ]
         ],
         "learned_skills": [],
