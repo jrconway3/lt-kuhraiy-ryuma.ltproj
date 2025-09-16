@@ -4340,5 +4340,18 @@
             "shop;{unit};Fireball,Static,Gust,Icicle,AquaEdge,Stone;magic"
         ],
         "nid": "DEBUG2 Emporium"
+    },
+    {
+        "name": "IntroDebug",
+        "trigger": "on_title_screen",
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 99,
+        "_source": [
+            "set_next_chapter;DEBUG"
+        ],
+        "nid": "Global IntroDebug"
     }
 ]

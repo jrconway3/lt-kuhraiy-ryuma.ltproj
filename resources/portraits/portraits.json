@@ -72,6 +72,18 @@
         "info_offset": 0
     },
     {
+        "nid": "RelmWave",
+        "blinking_offset": [
+            32,
+            24
+        ],
+        "smiling_offset": [
+            32,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
         "nid": "RelmHood",
         "blinking_offset": [
             32,
@@ -96,6 +108,30 @@
         "info_offset": 0
     },
     {
+        "nid": "Kasuto",
+        "blinking_offset": [
+            32,
+            16
+        ],
+        "smiling_offset": [
+            32,
+            32
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "KasutoHoodless",
+        "blinking_offset": [
+            32,
+            16
+        ],
+        "smiling_offset": [
+            32,
+            32
+        ],
+        "info_offset": 0
+    },
+    {
         "nid": "Shayala",
         "blinking_offset": [
             24,
@@ -109,6 +145,18 @@
     },
     {
         "nid": "Shayala (Forward)",
+        "blinking_offset": [
+            32,
+            16
+        ],
+        "smiling_offset": [
+            32,
+            32
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Yarda",
         "blinking_offset": [
             32,
             16

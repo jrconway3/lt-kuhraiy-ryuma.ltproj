@@ -67,7 +67,7 @@
         "name": "Res",
         "maximum": 40,
         "desc": "Reduces damage from magic.",
-        "position": "left",
+        "position": "hidden",
         "growth_colors": true,
         "hidden_stat": false
     },
