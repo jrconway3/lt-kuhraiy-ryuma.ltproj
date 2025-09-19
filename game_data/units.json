@@ -1759,7 +1759,7 @@
             ]
         },
         "alternate_classes": [],
-        "portrait_nid": null,
+        "portrait_nid": "",
         "affinity": "Wind",
         "fields": []
     },
@@ -4748,7 +4748,7 @@
             ]
         },
         "alternate_classes": [],
-        "portrait_nid": "Nephenee {NickT, Stitch}",
+        "portrait_nid": "Serena",
         "affinity": "Ice",
         "fields": [
             [
