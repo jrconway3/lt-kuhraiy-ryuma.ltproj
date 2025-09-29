@@ -1097,6 +1097,7 @@ Village - Remake + Coconut Tree + Ship Extras (by flasuban, N426, ZoramineFae, V
 FE8 - Fields - Remaster - Super Fields (by WAve, RandomWizard, Beast; Aquamarine Roofs + Gray Mountains by Dark, inspired by LeifOClaude; Autumn/Marsh/Verdant by Zarg)
 Cynon's Metropolis by Cynon
 FE8 Castle + Customs - Tileset Improved by N426
+Final Stronghold by Flasuban, N426, ZoramineFae
 Desert Bastion Village by Gamma, ZoramineFae, Venno, N426
 
 ##### Autotiles
@@ -1112,6 +1113,10 @@ Custom tilesets cannot easily be imported into LT in all cases. Many custom tile
 - Village Remake + Coconut Tree + Ship Extras
     - Autotiles by JaidynReiman
     - Edited from Village Remake's GBA Map Animations by flasuban, N426, ZoramineFae, Venno
+- Final Stronghold
+    - Map Animations Structured Into Sheet by Autumn Goza(Ru)dolf
+    - Flower Map Autotiles by JaidynReiman
+    - Edited from Final Stronghold's GBA Map Animations by flasuban, N426, ZoramineFae
 
 #### Map Design
 

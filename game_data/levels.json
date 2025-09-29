@@ -6772,27 +6772,5 @@
             }
         ],
         "ai_groups": []
-    },
-    {
-        "nid": "DEBUG_AUTOTILES",
-        "name": "AutotilesTest",
-        "tilemap": "VilageRemakeTest",
-        "bg_tilemap": null,
-        "party": "Svetlanya",
-        "music": {},
-        "objective": {
-            "simple": "",
-            "win": "",
-            "loss": ""
-        },
-        "roam": false,
-        "roam_unit": null,
-        "go_to_overworld": false,
-        "should_record": true,
-        "tags": [],
-        "units": [],
-        "regions": [],
-        "unit_groups": [],
-        "ai_groups": []
     }
 ]
