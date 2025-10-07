@@ -220,6 +220,10 @@
         false
     ],
     [
+        "add_mana_bar",
+        true
+    ],
+    [
         "convoy_on_death",
         true
     ],
@@ -241,10 +245,6 @@
     ],
     [
         "reset_mana",
-        true
-    ],
-    [
-        "add_mana_bar",
         true
     ],
     [

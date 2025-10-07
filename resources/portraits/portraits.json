@@ -204,6 +204,30 @@
         "info_offset": 0
     },
     {
+        "nid": "Thanya",
+        "blinking_offset": [
+            32,
+            16
+        ],
+        "smiling_offset": [
+            32,
+            32
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "ThanyaNatural",
+        "blinking_offset": [
+            32,
+            16
+        ],
+        "smiling_offset": [
+            32,
+            32
+        ],
+        "info_offset": 0
+    },
+    {
         "nid": "Frida",
         "blinking_offset": [
             24,
