@@ -603,7 +603,7 @@
         "desc": "Heir to House Renald and adoptive brother of Svetlanya. He dotes on her, but is stern with his duty.",
         "variant": "",
         "level": 12,
-        "klass": "WolfKnight",
+        "klass": "WolfPrince",
         "tags": [
             "Lord",
             "Wolf",
@@ -658,19 +658,7 @@
                 false
             ],
             [
-                "Maple_Bow",
-                false
-            ],
-            [
                 "Steel_Axe",
-                false
-            ],
-            [
-                "Potion",
-                false
-            ],
-            [
-                "LightningBlade1",
                 false
             ]
         ],
@@ -684,17 +672,17 @@
             ],
             "Lance": [
                 true,
-                71,
+                0,
                 251
             ],
             "Axe": [
                 false,
-                0,
+                71,
                 251
             ],
             "Bow": [
                 false,
-                31,
+                0,
                 251
             ],
             "Staff": [
@@ -744,7 +732,7 @@
             ],
             "Dagger": [
                 false,
-                0,
+                31,
                 null
             ],
             "Magic": [
@@ -1764,154 +1752,6 @@
         "fields": []
     },
     {
-        "nid": "Yorwath",
-        "name": "Yorwath",
-        "desc": "Lord of the Renald Demesne and one of three ranking Generals of the Kingdom of Masa.",
-        "variant": "",
-        "level": 3,
-        "klass": "Paladin",
-        "tags": [],
-        "bases": {
-            "LCK": 0,
-            "RES": 0,
-            "CON": 0,
-            "MOV": 0,
-            "STR": 0,
-            "HP": 0,
-            "MAG": 0,
-            "SKL": 0,
-            "SPD": 0,
-            "DEF": 0,
-            "MP": 0,
-            "WT": 0
-        },
-        "growths": {
-            "LCK": 25,
-            "RES": 30,
-            "CON": 0,
-            "MOV": 0,
-            "STR": 55,
-            "HP": 80,
-            "MAG": 30,
-            "SKL": 45,
-            "SPD": 40,
-            "DEF": 45,
-            "MP": 0,
-            "WT": 0
-        },
-        "stat_cap_modifiers": {
-            "RES": 0,
-            "LCK": 0,
-            "CON": 0,
-            "MOV": 0,
-            "STR": 0,
-            "HP": 0,
-            "MAG": 0,
-            "SKL": 0,
-            "SPD": 0,
-            "DEF": 0,
-            "MP": 0,
-            "WT": 0
-        },
-        "starting_items": [
-            [
-                "Mythril_Sword",
-                false
-            ],
-            [
-                "Steel_Lance",
-                false
-            ],
-            [
-                "Potion",
-                false
-            ]
-        ],
-        "learned_skills": [],
-        "unit_notes": [],
-        "wexp_gain": {
-            "Sword": [
-                true,
-                181,
-                251
-            ],
-            "Lance": [
-                true,
-                181,
-                251
-            ],
-            "Axe": [
-                false,
-                0,
-                251
-            ],
-            "Bow": [
-                false,
-                0,
-                251
-            ],
-            "Staff": [
-                false,
-                0,
-                251
-            ],
-            "Light": [
-                false,
-                0,
-                251
-            ],
-            "Anima": [
-                false,
-                0,
-                251
-            ],
-            "Dark": [
-                false,
-                0,
-                251
-            ],
-            "Default": [
-                false,
-                0,
-                251
-            ],
-            "Earth": [
-                false,
-                0,
-                251
-            ],
-            "Solus": [
-                false,
-                0,
-                251
-            ],
-            "Lunis": [
-                false,
-                0,
-                251
-            ],
-            "Tellus": [
-                false,
-                0,
-                251
-            ],
-            "Magic": [
-                false,
-                0,
-                251
-            ],
-            "Runic": [
-                false,
-                0,
-                251
-            ]
-        },
-        "alternate_classes": [],
-        "portrait_nid": "Travant {Atey}",
-        "affinity": "None",
-        "fields": []
-    },
-    {
         "nid": "Thanya",
         "name": "Thanya",
         "desc": "Serena's aloof adopted daughter and close friend of Amaya.",
@@ -2690,6 +2530,154 @@
         "alternate_classes": [],
         "portrait_nid": "Yarda",
         "affinity": "Fire",
+        "fields": []
+    },
+    {
+        "nid": "Yorwath",
+        "name": "Yorwath",
+        "desc": "Lord of the Renald Demesne and one of three ranking Generals of the Kingdom of Masa.",
+        "variant": "",
+        "level": 3,
+        "klass": "Paladin",
+        "tags": [],
+        "bases": {
+            "LCK": 0,
+            "RES": 0,
+            "CON": 0,
+            "MOV": 0,
+            "STR": 0,
+            "HP": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
+            "MP": 0,
+            "WT": 0
+        },
+        "growths": {
+            "LCK": 25,
+            "RES": 30,
+            "CON": 0,
+            "MOV": 0,
+            "STR": 55,
+            "HP": 80,
+            "MAG": 30,
+            "SKL": 45,
+            "SPD": 40,
+            "DEF": 45,
+            "MP": 0,
+            "WT": 0
+        },
+        "stat_cap_modifiers": {
+            "RES": 0,
+            "LCK": 0,
+            "CON": 0,
+            "MOV": 0,
+            "STR": 0,
+            "HP": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
+            "MP": 0,
+            "WT": 0
+        },
+        "starting_items": [
+            [
+                "Mythril_Sword",
+                false
+            ],
+            [
+                "Steel_Lance",
+                false
+            ],
+            [
+                "Potion",
+                false
+            ]
+        ],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                true,
+                181,
+                251
+            ],
+            "Lance": [
+                true,
+                181,
+                251
+            ],
+            "Axe": [
+                false,
+                0,
+                251
+            ],
+            "Bow": [
+                false,
+                0,
+                251
+            ],
+            "Staff": [
+                false,
+                0,
+                251
+            ],
+            "Light": [
+                false,
+                0,
+                251
+            ],
+            "Anima": [
+                false,
+                0,
+                251
+            ],
+            "Dark": [
+                false,
+                0,
+                251
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ],
+            "Earth": [
+                false,
+                0,
+                251
+            ],
+            "Solus": [
+                false,
+                0,
+                251
+            ],
+            "Lunis": [
+                false,
+                0,
+                251
+            ],
+            "Tellus": [
+                false,
+                0,
+                251
+            ],
+            "Magic": [
+                false,
+                0,
+                251
+            ],
+            "Runic": [
+                false,
+                0,
+                251
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Travant {Atey}",
+        "affinity": "None",
         "fields": []
     },
     {
@@ -4135,7 +4123,7 @@
             ]
         },
         "alternate_classes": [],
-        "portrait_nid": null,
+        "portrait_nid": "",
         "affinity": "Fire",
         "fields": []
     },
@@ -5693,7 +5681,7 @@
             ]
         },
         "alternate_classes": [],
-        "portrait_nid": null,
+        "portrait_nid": "",
         "affinity": "None",
         "fields": []
     },

@@ -1717,6 +1717,7 @@
             "add_talk;Svetlanya;Serena",
             "add_talk;Svetlanya;Leiland",
             "add_talk;Svetlanya;Shyara",
+            "add_talk;Leiland;Svetlanya",
             "hide_talk;Svetlanya;Shyara",
             "give_item;Svetlanya;Almace;force_give;no_banner",
             "give_skill;Svetlanya;Blind;no_banner",
@@ -4353,5 +4354,21 @@
             "set_next_chapter;DEBUG"
         ],
         "nid": "Global IntroDebug"
+    },
+    {
+        "name": "Village1",
+        "trigger": "Village",
+        "level_nid": "DEBUG",
+        "condition": "region.nid == 'Village1'",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "speak;{unit};Hmm... what's this?",
+            "give_item;{unit};IronKnife",
+            "show_layer;Village1",
+            "has_attacked;{unit}"
+        ],
+        "nid": "DEBUG Village1"
     }
 ]

@@ -527,7 +527,7 @@
     },
     {
         "nid": "Mythril_Sword",
-        "name": "Mythril Sword",
+        "name": "<blue>Mythril Sword</blue>",
         "desc": "A powerful and sturdy sword made of mythril.",
         "icon_nid": "{Zelix} FE11&13-style weapons",
         "icon_index": [

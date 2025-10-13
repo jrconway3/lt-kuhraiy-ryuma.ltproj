@@ -5531,7 +5531,7 @@
                 "hide_time": false
             },
             {
-                "nid": "Door1",
+                "nid": "Village1",
                 "region_type": "event",
                 "position": [
                     4,
@@ -5541,15 +5541,15 @@
                     1,
                     1
                 ],
-                "sub_nid": "Door",
-                "condition": "unit.can_unlock(region)",
+                "sub_nid": "Village",
+                "condition": "True",
                 "time_left": null,
                 "only_once": true,
                 "interrupt_move": false,
                 "hide_time": false
             },
             {
-                "nid": "Door2",
+                "nid": "Village2",
                 "region_type": "event",
                 "position": [
                     7,
@@ -5559,7 +5559,7 @@
                     1,
                     1
                 ],
-                "sub_nid": "Door",
+                "sub_nid": "Village",
                 "condition": "True",
                 "time_left": null,
                 "only_once": true,

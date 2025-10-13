@@ -3524,8 +3524,8 @@
         ],
         "wexp_gain": {
             "Sword": [
-                false,
-                0,
+                true,
+                30,
                 251
             ],
             "Dagger": [
@@ -3534,8 +3534,8 @@
                 null
             ],
             "Lance": [
-                true,
-                30,
+                false,
+                0,
                 251
             ],
             "Axe": [
