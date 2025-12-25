@@ -141,7 +141,7 @@
     ],
     [
         "auto_promote",
-        false
+        true
     ],
     [
         "promote_skill_inheritance",

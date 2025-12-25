@@ -951,6 +951,10 @@
             [
                 "gba_poison",
                 5
+            ],
+            [
+                "combat_condition",
+                "False"
             ]
         ]
     },
@@ -2388,6 +2392,22 @@
         ]
     },
     {
+        "nid": "Drill_Instructor",
+        "name": "Drill Instructor",
+        "desc": "Grants ",
+        "icon_nid": "{ZessDynamite, Rainlash, LordGlenn, Suneohair, JaidynReiman} Complete Skill Icon Sheet",
+        "icon_index": [
+            7,
+            50
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    },
+    {
         "nid": "Blessing_of_Mana",
         "name": "Blessing of Mana",
         "desc": "Unit receives or gives additional 1% max mana, min 1.",
@@ -2400,14 +2420,56 @@
             [
                 "class_skill",
                 null
+            ]
+        ]
+    },
+    {
+        "nid": "Trainee",
+        "name": "Trainee",
+        "desc": "Gain some EXP when an ally defeats an enemy within 3 spaces.",
+        "icon_nid": "{ZessDynamite, Rainlash, LordGlenn, Suneohair, JaidynReiman} Complete Skill Icon Sheet",
+        "icon_index": [
+            0,
+            52
+        ],
+        "components": [
+            [
+                "aura",
+                "Spell"
             ],
             [
-                "empower_mana",
-                "max(1, 0.01*target.get_max_mana())"
+                "aura_range",
+                3
             ],
             [
-                "empower_mana_received",
-                "max(1, 0.01*unit.get_max_mana())"
+                "aura_target",
+                "enemy"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "TraineeSkillOnEnemy",
+        "name": "TraineeSkillOnEnemy",
+        "desc": "",
+        "icon_nid": "{ZessDynamite, Rainlash, LordGlenn, Suneohair, JaidynReiman} Complete Skill Icon Sheet",
+        "icon_index": [
+            0,
+            52
+        ],
+        "components": [
+            [
+                "has_tags",
+                [
+                    "NearTrainee"
+                ]
+            ],
+            [
+                "hidden",
+                null
             ]
         ]
     },

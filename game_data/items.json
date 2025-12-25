@@ -2495,17 +2495,6 @@
                 4
             ],
             [
-                "uses",
-                10
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
                 "level_exp",
                 null
             ],
@@ -2526,6 +2515,21 @@
                 [
                     "Iron"
                 ]
+            ],
+            [
+                "uses",
+                10
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "no_alert_on_break",
+                null
             ]
         ]
     },
@@ -3479,6 +3483,12 @@
             [
                 "status_on_hold",
                 "Ignis"
+            ],
+            [
+                "multi_desc_skill",
+                [
+                    "IgnisL"
+                ]
             ]
         ]
     },
@@ -12826,7 +12836,7 @@
             ],
             [
                 "weapon_rank",
-                "D"
+                "E"
             ],
             [
                 "map_hit_add_blend",
@@ -16895,12 +16905,12 @@
                 null
             ],
             [
-                "mana_restore",
-                5
-            ],
-            [
                 "equation_heal",
                 "HEAL"
+            ],
+            [
+                "mana_restore",
+                5
             ]
         ]
     },

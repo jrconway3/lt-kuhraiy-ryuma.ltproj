@@ -170,5 +170,48 @@
                 "Rank": "E"
             }
         ]
+    },
+    {
+        "nid": "NalaSpellbookList",
+        "dtype": "list",
+        "svalue": "",
+        "kvvalue": [],
+        "oattrs": [
+            "nid",
+            "Item",
+            "Type",
+            "Wexp",
+            "Rank"
+        ],
+        "lovalue": [
+            {
+                "nid": "nal1",
+                "Item": "Gust",
+                "Type": "Ventus",
+                "Wexp": "1",
+                "Rank": "D"
+            },
+            {
+                "nid": "nal2",
+                "Item": "LifeEnergy",
+                "Type": "Solus",
+                "Wexp": "1",
+                "Rank": "E"
+            },
+            {
+                "nid": "nal3",
+                "Item": "Ray",
+                "Type": "Solus",
+                "Wexp": "71",
+                "Rank": ""
+            },
+            {
+                "nid": "nal5",
+                "Item": "Starlight",
+                "Type": "Solus",
+                "Wexp": "181",
+                "Rank": "A"
+            }
+        ]
     }
 ]

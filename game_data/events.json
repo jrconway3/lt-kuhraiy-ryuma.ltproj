@@ -1726,6 +1726,9 @@
             "prep;False;;Camp;True;Open Camp",
             "enable_fog_of_war;t",
             "set_fog_of_war;gba;5",
+            "autolevel_to;Nala;10;dynamic",
+            "give_exp;Nala;100",
+            "set_item_uses;Svetlanya;Foil;1",
             "#music;Attack;2000",
             "#wait;5000",
             "#music;Armory;2000",
@@ -3428,6 +3431,8 @@
             "    list = unit.nid + \"SpellbookList\"",
             "    if game.get_data(list):",
             "        for spell in game.get_data(list):",
+            "            if spell.Wexp is None or spell.Wexp == '' or spell.Type is None or spell.Type == '' or spell.Item is None or spell.Item == '':",
+            "                continue",
             "            if int(spell.Wexp) <= unit.wexp[spell.Type]:",
             "                $add_item_to_multiitem unit.nid spells spell.Item,no_duplicate no_warn"
         ],
@@ -3588,6 +3593,8 @@
             "list = unit.nid + \"SpellbookList\"",
             "if game.get_data(list):",
             "    for spell in game.get_data(list):",
+            "        if spell.Wexp is None or spell.Wexp == '' or spell.Type is None or spell.Type == '' or spell.Item is None or spell.Item == '':",
+            "            continue",
             "        if not get_subitem(unit, spells, spell.Item) and weapon_type != 'spell.Type' and int(spell.Wexp) <= unit.wexp[weapon_type]:",
             "            $add_item_to_multiitem unit.nid spells spell.Item,no_duplicate no_warn",
             "            $sound \"Item\"",
@@ -4370,5 +4377,20 @@
             "has_attacked;{unit}"
         ],
         "nid": "DEBUG Village1"
+    },
+    {
+        "name": "TraineeExpGain",
+        "trigger": "unit_death",
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "if;'NearTrainee' in unit.tags and unit2.name != 'Nala'",
+            "    give_exp;Nala;20",
+            "end"
+        ],
+        "nid": "Global TraineeExpGain"
     }
 ]

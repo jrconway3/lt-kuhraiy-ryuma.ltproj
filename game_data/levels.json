@@ -557,7 +557,7 @@
                 "nid": "lykon_prior1",
                 "variant": "Staff",
                 "level": 1,
-                "klass": "Prior",
+                "klass": "Bishop",
                 "faction": "Masa",
                 "starting_items": [],
                 "starting_skills": [],
@@ -5347,38 +5347,6 @@
                 "generic": false
             },
             {
-                "nid": "103",
-                "variant": null,
-                "level": 1,
-                "klass": "Soldier",
-                "faction": "Siegwang",
-                "starting_items": [
-                    [
-                        "Iron_Lance",
-                        false
-                    ],
-                    [
-                        "Corseque",
-                        false
-                    ],
-                    [
-                        "Potion",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    8,
-                    9
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
                 "nid": "Amaya",
                 "team": "player",
                 "ai": "None",
@@ -5485,7 +5453,7 @@
                 "generic": false
             },
             {
-                "nid": "Dehren",
+                "nid": "Nala",
                 "team": "player",
                 "ai": "None",
                 "roam_ai": null,
@@ -5509,6 +5477,110 @@
                 ],
                 "starting_traveler": null,
                 "generic": false
+            },
+            {
+                "nid": "103",
+                "variant": "Female",
+                "level": 3,
+                "klass": "Barbarian",
+                "faction": "Siegwang",
+                "starting_items": [
+                    [
+                        "Bronze_Axe",
+                        false
+                    ],
+                    [
+                        "Hand_Axe",
+                        false
+                    ],
+                    [
+                        "Potion",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    8,
+                    9
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "102",
+                "variant": null,
+                "level": 1,
+                "klass": "Nomad",
+                "faction": "Barbarian",
+                "starting_items": [
+                    [
+                        "Iron_Sword",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    7,
+                    4
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "104",
+                "variant": null,
+                "level": 2,
+                "klass": "Brigand",
+                "faction": "Barbarian",
+                "starting_items": [
+                    [
+                        "Iron_Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    5,
+                    10
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "105",
+                "variant": "Female",
+                "level": 2,
+                "klass": "Hunter",
+                "faction": "Barbarian",
+                "starting_items": [
+                    [
+                        "Oak_Bow",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    7,
+                    10
+                ],
+                "starting_traveler": null,
+                "generic": true
             }
         ],
         "regions": [
@@ -6129,7 +6201,7 @@
                 "nid": "lykon_prior1",
                 "variant": "Staff",
                 "level": 1,
-                "klass": "Prior",
+                "klass": "Bishop",
                 "faction": "Masa",
                 "starting_items": [],
                 "starting_skills": [],
