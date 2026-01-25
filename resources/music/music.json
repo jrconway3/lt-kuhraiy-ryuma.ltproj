@@ -2,281 +2,337 @@
     [
         "Chapter Sound",
         false,
-        false
+        false,
+        0
     ],
     [
         "Distant Roads",
         false,
-        false
+        false,
+        0
     ],
     [
         "Quiet Burn",
         false,
-        true
+        true,
+        0
     ],
     [
         "Shadow of the Enemy",
         false,
-        false
+        false,
+        0
     ],
     [
         "Main Theme",
         false,
-        false
+        false,
+        0
     ],
     [
         "Grasp at Victory",
         false,
-        false
+        false,
+        0
     ],
     [
         "Attack",
         false,
-        false
+        false,
+        0
     ],
     [
         "Defense",
         false,
-        false
+        false,
+        0
     ],
     [
         "The Battle Must Be Won",
         false,
-        false
+        false,
+        0
     ],
     [
         "Healing",
         false,
-        false
+        false,
+        0
     ],
     [
         "Combat Preparation",
         false,
-        false
+        false,
+        0
     ],
     [
         "Shops",
         false,
-        false
+        false,
+        0
     ],
     [
         "Armory",
         false,
-        false
+        false,
+        0
     ],
     [
         "Game Over",
         false,
-        false
+        false,
+        0
     ],
     [
         "In Sorrows Shroud",
         false,
-        false
+        false,
+        0
     ],
     [
         "To A Higher Place",
         false,
-        false
+        false,
+        0
     ],
     [
         "Victory (Sword of Mana, Courage and Pride From the Heart by RandomWizard)",
         false,
-        false
+        false,
+        0
     ],
     [
         "Town - Village (Act Raiser, Northwall by Feier)",
         false,
-        false
+        false,
+        0
     ],
     [
         "Event - Betrayal (Act Raiser 2, Deception by Alusq)",
         false,
-        false
+        false,
+        0
     ],
     [
         "Town - Peaceful Village (Act Raiser, Cassandra by Alusq)",
         false,
-        false
+        false,
+        0
     ],
     [
         "(Act Raiser, Fillmore by Alusq)",
         false,
-        false
+        false,
+        0
     ],
     [
         "Event - World (Something Custom by Sme)",
         false,
-        false
+        false,
+        0
     ],
     [
         "Boss - Daemon (Riviera, Battle Against Demons by Pikmin1211)",
         false,
-        false
+        false,
+        0
     ],
     [
         "Boss - Minor (Riviera, Fierce Clash by ShinKuma)",
         false,
-        false
+        false,
+        0
     ],
     [
         "Boss - Minor 2 (Riviera, Showdown with Hector by ShinKuma)",
         false,
-        false
+        false,
+        0
     ],
     [
         "Event - Recruit (Chrono Trigger, Frog's Theme by RandomWizard)",
         false,
-        false
+        false,
+        0
     ],
     [
         "Battle - Attack (Triangle Strategy, Combat - Destiny by Kaidras)",
         false,
-        false
+        false,
+        0
     ],
     [
         "Battle - Defense (Triangle Strategy, Combat - Adversity by Kaidras)",
         false,
-        false
+        false,
+        0
     ],
     [
         "Battle - Enemy (Suikoden, Army Advance by Pandan)",
         false,
-        false
+        false,
+        0
     ],
     [
         "Battle - Enemy 2 (Secret of the Stars, Battle 1 by Sme)",
         false,
-        false
+        false,
+        0
     ],
     [
         "Battle - Enemy 3 (RPG Maker PS1, Battle 3 by RSflame)",
         false,
-        false
+        false,
+        0
     ],
     [
         "Boss - Drace (Suikoden 2, Gothic Neclord by Pandan)",
         false,
-        false
+        false,
+        0
     ],
     [
         "Castle - Major (RPG Maker PS1 - Castle 2, RSflame)",
         false,
-        false
+        false,
+        0
     ],
     [
         "Chapter - Intense (Seiken Densetsu 3, Nuclear Fusion by MrGreen3339)",
         false,
-        false
+        false,
+        0
     ],
     [
         "Chapter - Simple (Riviera, Heaven's Gate by Pikmin1211)",
         false,
-        false
+        false,
+        0
     ],
     [
         "Chapter - Simple 2 (SaGa Frontier II, Feldschlact III by SaXor the Nobody)",
         false,
-        false
+        false,
+        0
     ],
     [
         "Death (Triangle Strategy, Elegy of Battle by Kaidras)",
         false,
-        false
+        false,
+        0
     ],
     [
         "Event - Legacy 2 (Suikoden 2, Reminiscence by Tak)",
         false,
-        false
+        false,
+        0
     ],
     [
         "Event - Pirates (Roller Coaster Tycoon 2, Pirate Theme by Dolkar)",
         false,
-        false
+        false,
+        0
     ],
     [
         "Town - Metropolis (Bumming Around in PixelTown by Eric Mattyas www.soundimage.org)",
         false,
-        false
+        false,
+        0
     ],
     [
         "Event - Sad (Live A Live, Cry-A-Live by RandomWizard)",
         false,
-        false
+        false,
+        0
     ],
     [
         "(Lagoon, Battle with Thimale by RandomWizard)",
         false,
-        false
+        false,
+        0
     ],
     [
         "(Live A Live, Megalomania by RandomWizard)",
         false,
-        false
+        false,
+        0
     ],
     [
         "Boss - Mephisto (Live A Live, The Demon King Odio by RandomWizard)",
         false,
-        false
+        false,
+        0
     ],
     [
         "(Rojenski by DerTheVaporeon)",
         false,
-        false
+        false,
+        0
     ],
     [
         "Event - Pirate (Roller Coaster Tycoon 2, Pirate Theme by Dolkar)",
         false,
-        false
+        false,
+        0
     ],
     [
         "RPG Maker PS1 - Castle 2 {RSflame}",
         false,
-        false
+        false,
+        0
     ],
     [
         "RPG Maker PS1 - Battle 3 {RSflame}",
         false,
-        false
+        false,
+        0
     ],
     [
         "(Rune Factory, Departure! by Sme)",
         false,
-        false
+        false,
+        0
     ],
     [
         "Victory Near (Lunar Silver Star Story, Toward the Horizon by A Reliable Chair)",
         false,
-        false
+        false,
+        0
     ],
     [
         "Chapter - Snow (Albert Odyssey 2, Land-of-Frozen-Forest by UnitedStars111)",
         false,
-        false
+        false,
+        0
     ],
     [
         "(Romance of the Three Kingdoms IV, Field Battle by Sme)",
         false,
-        false
+        false,
+        0
     ],
     [
         "(Unicorn Overlord, Farde Mal Diavolo [Come, Foul Daemon] by Kaidras)",
         false,
-        false
+        false,
+        0
     ],
     [
         "Event - Svetlanya Sad (Awkward Princess's Day Out by Eric Mattyas www.soundimage.org)",
         false,
-        false
+        false,
+        0
     ],
     [
         "Event - Svetlanya (Awkward Princess by Eric Mattyas, www.soundimage.org)",
         false,
-        false
+        false,
+        0
     ],
     [
         "Town - Large (Bustling Village by Eric Mattyas, www.soundimage.org)",
         false,
-        false
+        false,
+        0
     ]
 ]
