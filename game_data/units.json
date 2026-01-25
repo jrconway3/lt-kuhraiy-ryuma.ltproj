@@ -772,7 +772,7 @@
             ]
         },
         "alternate_classes": [],
-        "portrait_nid": "Stefan {NickT, Stitch}",
+        "portrait_nid": "Leiland",
         "affinity": "Stone",
         "fields": [
             [
@@ -1166,6 +1166,10 @@
         "starting_items": [
             [
                 "Steel_Katana",
+                false
+            ],
+            [
+                "LightBrand",
                 false
             ]
         ],
@@ -2094,7 +2098,7 @@
         "desc": "A young girl living on the streets, despite being a noble's daughter...",
         "variant": "",
         "level": 1,
-        "klass": "StreetRat",
+        "klass": "Scavenger",
         "tags": [],
         "bases": {
             "LCK": 5,
@@ -6864,7 +6868,7 @@
         "desc": "Leader of a group of desert dwelling barbarian lykons. Admires her elder sister Fayza deeply.",
         "variant": "Female",
         "level": 4,
-        "klass": "Nomad",
+        "klass": "Vagrant",
         "tags": [
             "Boss"
         ],

@@ -1515,7 +1515,7 @@
     {
         "nid": "SS0",
         "name": "Prologue",
-        "tilemap": "Prologue",
+        "tilemap": "fe8_p",
         "bg_tilemap": null,
         "party": "Svetlanya",
         "music": {
@@ -1653,7 +1653,7 @@
     {
         "nid": "SS1",
         "name": "Ch. 1: Escape!",
-        "tilemap": "Chapter 1",
+        "tilemap": "fe8_1",
         "bg_tilemap": null,
         "party": "Svetlanya",
         "music": {
@@ -2148,7 +2148,7 @@
     {
         "nid": "SS2",
         "name": "Ch. 2: The Protected",
-        "tilemap": "Chapter 2",
+        "tilemap": "fe8_2",
         "bg_tilemap": null,
         "party": "Svetlanya",
         "music": {
@@ -2660,7 +2660,7 @@
     {
         "nid": "SS3",
         "name": "Ch. 3: The Bandits of Borgo",
-        "tilemap": "Chapter 3",
+        "tilemap": "fe8_3",
         "bg_tilemap": null,
         "party": "Svetlanya",
         "music": {
@@ -3298,7 +3298,7 @@
     {
         "nid": "SS4",
         "name": "Ch. 4: Ancient Horrors",
-        "tilemap": "Chapter 4",
+        "tilemap": "fe8_4",
         "bg_tilemap": null,
         "party": "Svetlanya",
         "music": {
@@ -4326,7 +4326,7 @@
     {
         "nid": "SS5",
         "name": "Ch. 5: The Empire's Reach",
-        "tilemap": "Chapter 5",
+        "tilemap": "fe8_5",
         "bg_tilemap": null,
         "party": "Svetlanya",
         "music": {
@@ -5296,7 +5296,7 @@
     {
         "nid": "DEBUG",
         "name": "DEBUG",
-        "tilemap": "Chapter 2",
+        "tilemap": "fe8_2",
         "bg_tilemap": null,
         "party": "Svetlanya",
         "music": {
@@ -5514,7 +5514,7 @@
                 "nid": "102",
                 "variant": null,
                 "level": 1,
-                "klass": "Nomad",
+                "klass": "Vagrant",
                 "faction": "Barbarian",
                 "starting_items": [
                     [
@@ -5588,8 +5588,8 @@
                 "nid": "Armory",
                 "region_type": "event",
                 "position": [
-                    5,
-                    7
+                    12,
+                    3
                 ],
                 "size": [
                     1,
@@ -5635,6 +5635,24 @@
                 "condition": "True",
                 "time_left": null,
                 "only_once": true,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "Arena",
+                "region_type": "event",
+                "position": [
+                    5,
+                    7
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Arena",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
                 "interrupt_move": false,
                 "hide_time": false
             }

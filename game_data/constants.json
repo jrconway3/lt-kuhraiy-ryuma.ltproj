@@ -9,7 +9,7 @@
     ],
     [
         "turnwheel",
-        false
+        true
     ],
     [
         "initiative",
@@ -109,7 +109,7 @@
     ],
     [
         "traveler_time_decrement",
-        false
+        true
     ],
     [
         "line_of_sight",
@@ -220,10 +220,6 @@
         false
     ],
     [
-        "add_mana_bar",
-        true
-    ],
-    [
         "convoy_on_death",
         true
     ],
@@ -257,7 +253,7 @@
     ],
     [
         "sell_modifier",
-        0.5
+        3.0
     ],
     [
         "attack_zero_hit",
@@ -310,6 +306,10 @@
     [
         "restart_battle_music",
         true
+    ],
+    [
+        "locked_soundroom",
+        false
     ],
     [
         "kill_wexp",

@@ -249,6 +249,144 @@
         ]
     },
     {
+        "nid": "LightBrand",
+        "name": "Light Brand",
+        "desc": "A simple sword that strikes down daemons from afar.\nAttack with Light at range. Eff vs Daemons.",
+        "icon_nid": "Sword",
+        "icon_index": [
+            0,
+            14
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "value",
+                700
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "magic_at_range",
+                null
+            ],
+            [
+                "additional_item_command",
+                "LightBrandUse"
+            ],
+            [
+                "damage",
+                6
+            ],
+            [
+                "hit",
+                80
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "weight",
+                9
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Sword"
+            ],
+            [
+                "weapon_rank",
+                "D"
+            ],
+            [
+                "uses",
+                30
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "item_tags",
+                [
+                    "Mythril"
+                ]
+            ],
+            [
+                "prf_tags",
+                [
+                    "Sword"
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "LightBrandUse",
+        "name": "Use",
+        "desc": "Restores 10 HP.",
+        "icon_nid": "Consumable",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "usable",
+                null
+            ],
+            [
+                "value",
+                300
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "uses",
+                3
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "heal",
+                10
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    96,
+                    144,
+                    232
+                ]
+            ]
+        ]
+    },
+    {
         "nid": "FrostBlade",
         "name": "Frost Blade",
         "desc": "A mythril sword imbued with Glacies Anima.\nAttack with Ice at range. Eff vs Avyons.",
@@ -277,6 +415,14 @@
             [
                 "max_range",
                 2
+            ],
+            [
+                "magic_at_range",
+                null
+            ],
+            [
+                "additional_item_command",
+                "Potion"
             ],
             [
                 "damage",
@@ -16907,10 +17053,6 @@
             [
                 "equation_heal",
                 "HEAL"
-            ],
-            [
-                "mana_restore",
-                5
             ]
         ]
     },
@@ -22130,10 +22272,6 @@
                     144,
                     232
                 ]
-            ],
-            [
-                "mana_restore",
-                5
             ]
         ]
     },
@@ -23177,15 +23315,16 @@
             ],
             [
                 "eval_target_restrict_2",
-                "unit.level >= 20"
+                "unit.level >= 15"
             ],
             [
                 "prf_class",
                 [
-                    "Fencer",
+                    "Mariner",
                     "Nurse",
-                    "StreetRat",
-                    "Apprentice"
+                    "Swashbuckler",
+                    "Apprentice",
+                    "Scavenger"
                 ]
             ]
         ]

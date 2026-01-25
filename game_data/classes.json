@@ -2435,7 +2435,7 @@
         "movement_group": "Regular",
         "promotes_from": null,
         "turns_into": [
-            "Heiress"
+            "WaterLady"
         ],
         "tags": [
             "LightArmor",
@@ -2677,8 +2677,8 @@
         "fields": []
     },
     {
-        "nid": "Heiress",
-        "name": "Heiress",
+        "nid": "WaterLady",
+        "name": "Water Lady",
         "desc": "Heir to a fallen house with\nrenewed passion to reclaim it.\nRace: Queiza",
         "tier": 2,
         "movement_group": "Queiza",
@@ -4112,8 +4112,8 @@
         "fields": []
     },
     {
-        "nid": "Commander",
-        "name": "Commander",
+        "nid": "PaladinL",
+        "name": "Paladin",
         "desc": "A lord and high ranked Commander of the Knights of Masa.\nRace: Alf, Mount: Horse",
         "tier": 2,
         "movement_group": "Heavy Cav",
@@ -4340,8 +4340,8 @@
         "fields": []
     },
     {
-        "nid": "HolyPrincess",
-        "name": "Holy Princess",
+        "nid": "SagePrincessD",
+        "name": "Sage Princess",
         "desc": "Crown Princess of the Kingdom of\nMasa, acting as a holy beacon of hope.\nRace: Lykon",
         "tier": 2,
         "movement_group": "Lykon",
@@ -4561,12 +4561,12 @@
         "fields": []
     },
     {
-        "nid": "SagePrincess",
-        "name": "Holy Princess",
+        "nid": "SagePrincessU",
+        "name": "Sage Princess",
         "desc": "Crown Princess of the Kingdom of\nMasa, renowned as a great sage.\nRace: Lykon, Mount: Unicorn",
         "tier": 2,
         "movement_group": "Lykon",
-        "promotes_from": "HolyPrincess",
+        "promotes_from": "SagePrincessD",
         "turns_into": [],
         "tags": [
             "Lord",
@@ -4786,7 +4786,7 @@
     {
         "nid": "HighPriestess",
         "name": "High Priestess",
-        "desc": "Mages gifted with visions of the future.",
+        "desc": "",
         "tier": 2,
         "movement_group": "Regular",
         "promotes_from": "Nurse",
@@ -5249,228 +5249,6 @@
         ],
         "map_sprite_nid": "DancerGypsy",
         "combat_anim_nid": "Dancer",
-        "fields": []
-    },
-    {
-        "nid": "Villager",
-        "name": "Archer",
-        "desc": "A simple villager with little skill with a sword.",
-        "tier": 0,
-        "movement_group": "Light Foot",
-        "promotes_from": null,
-        "turns_into": [],
-        "tags": [],
-        "max_level": 20,
-        "bases": {
-            "LCK": 0,
-            "RES": 2,
-            "CON": 8,
-            "MOV": 5,
-            "STR": 8,
-            "HP": 18,
-            "MAG": 1,
-            "SKL": 8,
-            "SPD": 5,
-            "DEF": 4,
-            "MP": 3,
-            "WT": 0
-        },
-        "growths": {
-            "LCK": 25,
-            "RES": 15,
-            "CON": 0,
-            "MOV": 0,
-            "STR": 70,
-            "HP": 50,
-            "MAG": 5,
-            "SKL": 70,
-            "SPD": 60,
-            "DEF": 30,
-            "MP": 15,
-            "WT": 0
-        },
-        "growth_bonus": {
-            "LCK": 0,
-            "RES": 0,
-            "CON": 0,
-            "MOV": 0,
-            "STR": 0,
-            "HP": 0,
-            "MAG": 0,
-            "SKL": 0,
-            "SPD": 0,
-            "DEF": 0,
-            "MP": 0,
-            "WT": 0
-        },
-        "promotion": {
-            "LCK": 0,
-            "RES": 0,
-            "CON": 0,
-            "MOV": 0,
-            "STR": 0,
-            "HP": 0,
-            "MAG": 0,
-            "SKL": 0,
-            "SPD": 0,
-            "DEF": 0,
-            "MP": 0,
-            "WT": 0
-        },
-        "max_stats": {
-            "LCK": 30,
-            "RES": 20,
-            "CON": 20,
-            "MOV": 15,
-            "STR": 20,
-            "HP": 60,
-            "MAG": 20,
-            "SKL": 20,
-            "SPD": 20,
-            "DEF": 20,
-            "MP": 30,
-            "WT": 30
-        },
-        "learned_skills": [],
-        "wexp_gain": {
-            "Sword": [
-                false,
-                0,
-                251
-            ],
-            "Dagger": [
-                false,
-                1,
-                null
-            ],
-            "Lance": [
-                false,
-                0,
-                251
-            ],
-            "Axe": [
-                false,
-                0,
-                251
-            ],
-            "Bow": [
-                true,
-                31,
-                251
-            ],
-            "Solus": [
-                false,
-                0,
-                251
-            ],
-            "Lunis": [
-                false,
-                0,
-                251
-            ],
-            "Ignis": [
-                false,
-                0,
-                null
-            ],
-            "Ventus": [
-                false,
-                0,
-                null
-            ],
-            "Fulgus": [
-                false,
-                0,
-                null
-            ],
-            "Tellus": [
-                false,
-                0,
-                251
-            ],
-            "Glacies": [
-                false,
-                0,
-                null
-            ],
-            "Aquis": [
-                false,
-                0,
-                null
-            ],
-            "Runic": [
-                false,
-                0,
-                251
-            ],
-            "Shield": [
-                false,
-                0,
-                null
-            ],
-            "Armor": [
-                false,
-                0,
-                null
-            ],
-            "Default": [
-                false,
-                0,
-                251
-            ],
-            "Valuables": [
-                false,
-                0,
-                null
-            ],
-            "Dragon": [
-                false,
-                0,
-                null
-            ],
-            "Claw": [
-                false,
-                0,
-                null
-            ],
-            "Staff": [
-                false,
-                0,
-                251
-            ],
-            "Light": [
-                false,
-                0,
-                251
-            ],
-            "Anima": [
-                false,
-                0,
-                251
-            ],
-            "Dark": [
-                false,
-                0,
-                251
-            ],
-            "Earth": [
-                false,
-                0,
-                251
-            ],
-            "Magic": [
-                false,
-                0,
-                251
-            ]
-        },
-        "icon_nid": "Generic_Portrait_Archer",
-        "icon_index": [
-            0,
-            0
-        ],
-        "map_sprite_nid": "Villager",
-        "combat_anim_nid": "Villager",
         "fields": []
     },
     {
@@ -5971,6 +5749,257 @@
             ]
         },
         "icon_nid": "Myrmidon (F) Sword {L95}",
+        "icon_index": [
+            0,
+            0
+        ],
+        "map_sprite_nid": "Myrmidon",
+        "combat_anim_nid": "Myrmidon",
+        "fields": []
+    },
+    {
+        "nid": "Shieldmaiden",
+        "name": "Shieldmaiden",
+        "desc": "Soldier for hire skilled with swift movements with the blade.",
+        "tier": 1,
+        "movement_group": "Light Foot",
+        "promotes_from": null,
+        "turns_into": [],
+        "tags": [
+            "Chiylo",
+            "Sword",
+            "Katana"
+        ],
+        "max_level": 20,
+        "bases": {
+            "LCK": 0,
+            "CON": 11,
+            "MOV": 5,
+            "RES": 5,
+            "STR": 6,
+            "HP": 16,
+            "MAG": 4,
+            "SKL": 8,
+            "SPD": 10,
+            "DEF": 6,
+            "MP": 8,
+            "WT": 0
+        },
+        "growths": {
+            "LCK": 40,
+            "CON": 0,
+            "MOV": 0,
+            "RES": 35,
+            "STR": 50,
+            "HP": 60,
+            "MAG": 35,
+            "SKL": 55,
+            "SPD": 65,
+            "DEF": 60,
+            "MP": 45,
+            "WT": 0
+        },
+        "growth_bonus": {
+            "LCK": 0,
+            "CON": 0,
+            "MOV": 0,
+            "RES": 0,
+            "STR": 0,
+            "HP": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
+            "MP": 0,
+            "WT": 0
+        },
+        "promotion": {
+            "LCK": 0,
+            "CON": 0,
+            "MOV": 0,
+            "RES": 0,
+            "STR": 0,
+            "HP": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
+            "MP": 0,
+            "WT": 0
+        },
+        "max_stats": {
+            "LCK": 30,
+            "CON": 20,
+            "MOV": 15,
+            "RES": 20,
+            "STR": 20,
+            "HP": 60,
+            "MAG": 20,
+            "SKL": 20,
+            "SPD": 20,
+            "DEF": 20,
+            "MP": 30,
+            "WT": 30
+        },
+        "learned_skills": [],
+        "wexp_gain": {
+            "Sword": [
+                true,
+                31,
+                251
+            ],
+            "Dagger": [
+                false,
+                0,
+                null
+            ],
+            "Lance": [
+                false,
+                0,
+                251
+            ],
+            "Axe": [
+                false,
+                0,
+                251
+            ],
+            "Bow": [
+                false,
+                0,
+                251
+            ],
+            "Solus": [
+                false,
+                0,
+                251
+            ],
+            "Lunis": [
+                false,
+                0,
+                251
+            ],
+            "Ignis": [
+                false,
+                0,
+                null
+            ],
+            "Ventus": [
+                false,
+                0,
+                null
+            ],
+            "Fulgus": [
+                true,
+                1,
+                null
+            ],
+            "Tellus": [
+                false,
+                0,
+                251
+            ],
+            "Glacies": [
+                false,
+                0,
+                null
+            ],
+            "Aquis": [
+                false,
+                0,
+                null
+            ],
+            "Runic": [
+                false,
+                0,
+                251
+            ],
+            "Shield": [
+                false,
+                0,
+                null
+            ],
+            "Armor": [
+                false,
+                0,
+                null
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ],
+            "Valuables": [
+                false,
+                0,
+                null
+            ],
+            "Dragon": [
+                false,
+                0,
+                null
+            ],
+            "Claw": [
+                false,
+                0,
+                null
+            ],
+            "Staff": [
+                false,
+                0,
+                251
+            ],
+            "Light": [
+                false,
+                0,
+                251
+            ],
+            "Dark": [
+                false,
+                0,
+                251
+            ],
+            "Earth": [
+                false,
+                0,
+                251
+            ],
+            "Water": [
+                false,
+                0,
+                null
+            ],
+            "New_Weapon_Type_2": [
+                false,
+                0,
+                null
+            ],
+            "New Weapon Type_3": [
+                false,
+                0,
+                null
+            ],
+            "Anima": [
+                false,
+                0,
+                251
+            ],
+            "Ice": [
+                false,
+                0,
+                null
+            ],
+            "New_Weapon_Type_3": [
+                false,
+                0,
+                null
+            ],
+            "Magic": [
+                false,
+                0,
+                251
+            ]
+        },
+        "icon_nid": "Rogue (F) Trickster-Valkyrie {Yggdra}",
         "icon_index": [
             0,
             0
@@ -6484,8 +6513,8 @@
         "fields": []
     },
     {
-        "nid": "Nomad",
-        "name": "Nomad",
+        "nid": "Vagrant",
+        "name": "Vagrant",
         "desc": "Wanderers who roam the wild\nproving their skill with the blade.",
         "tier": 1,
         "movement_group": "Light Foot",
@@ -6743,7 +6772,7 @@
         "desc": "Lightning-fast wielder of the blade,\npossesses peerless and lethal skill.",
         "tier": 2,
         "movement_group": "Light Foot",
-        "promotes_from": "Nomad",
+        "promotes_from": "Vagrant",
         "turns_into": [],
         "tags": [
             "Lanquiz",
@@ -6991,6 +7020,263 @@
         "map_sprite_nid": "Bladedancer",
         "combat_anim_nid": null,
         "fields": []
+    },
+    {
+        "nid": "Swashbuckler",
+        "name": "Swashbuckler",
+        "desc": "Seafarer skilled at blade and magic.\nRace: Queiza",
+        "tier": 1,
+        "movement_group": "Queiza",
+        "promotes_from": null,
+        "turns_into": [
+            "Captain"
+        ],
+        "tags": [
+            "Queiza",
+            "Rapier"
+        ],
+        "max_level": 20,
+        "bases": {
+            "LCK": 5,
+            "CON": 9,
+            "MOV": 5,
+            "RES": 8,
+            "STR": 5,
+            "HP": 21,
+            "MAG": 3,
+            "SKL": 4,
+            "SPD": 6,
+            "DEF": 6,
+            "MP": 11,
+            "WT": 0
+        },
+        "growths": {
+            "LCK": 35,
+            "CON": 0,
+            "MOV": 0,
+            "RES": 65,
+            "STR": 60,
+            "HP": 70,
+            "MAG": 55,
+            "SKL": 40,
+            "SPD": 50,
+            "DEF": 40,
+            "MP": 40,
+            "WT": 0
+        },
+        "growth_bonus": {
+            "LCK": 0,
+            "CON": 0,
+            "MOV": 0,
+            "RES": 0,
+            "STR": 0,
+            "HP": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
+            "MP": 0,
+            "WT": 0
+        },
+        "promotion": {
+            "LCK": 0,
+            "CON": 0,
+            "MOV": 0,
+            "RES": 0,
+            "STR": 0,
+            "HP": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
+            "MP": 0,
+            "WT": 0
+        },
+        "max_stats": {
+            "LCK": 30,
+            "CON": 20,
+            "MOV": 15,
+            "RES": 20,
+            "STR": 20,
+            "HP": 60,
+            "MAG": 20,
+            "SKL": 20,
+            "SPD": 20,
+            "DEF": 20,
+            "MP": 30,
+            "WT": 30
+        },
+        "learned_skills": [
+            [
+                1,
+                "Lightscale"
+            ]
+        ],
+        "wexp_gain": {
+            "Sword": [
+                true,
+                1,
+                251
+            ],
+            "Dagger": [
+                false,
+                0,
+                null
+            ],
+            "Lance": [
+                false,
+                1,
+                251
+            ],
+            "Axe": [
+                false,
+                0,
+                251
+            ],
+            "Bow": [
+                false,
+                0,
+                251
+            ],
+            "Solus": [
+                false,
+                0,
+                251
+            ],
+            "Lunis": [
+                false,
+                0,
+                251
+            ],
+            "Ignis": [
+                false,
+                0,
+                null
+            ],
+            "Ventus": [
+                false,
+                0,
+                null
+            ],
+            "Fulgus": [
+                false,
+                0,
+                null
+            ],
+            "Tellus": [
+                false,
+                0,
+                251
+            ],
+            "Glacies": [
+                false,
+                0,
+                null
+            ],
+            "Aquis": [
+                true,
+                0,
+                null
+            ],
+            "Runic": [
+                false,
+                0,
+                251
+            ],
+            "Shield": [
+                false,
+                0,
+                null
+            ],
+            "Armor": [
+                false,
+                0,
+                null
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ],
+            "Valuables": [
+                false,
+                0,
+                null
+            ],
+            "Claw": [
+                false,
+                0,
+                null
+            ],
+            "Staff": [
+                false,
+                0,
+                251
+            ],
+            "Light": [
+                false,
+                0,
+                251
+            ],
+            "Dark": [
+                false,
+                0,
+                251
+            ],
+            "Earth": [
+                false,
+                0,
+                251
+            ],
+            "Water": [
+                false,
+                0,
+                null
+            ],
+            "New_Weapon_Type_2": [
+                false,
+                0,
+                null
+            ],
+            "New Weapon Type_3": [
+                false,
+                0,
+                null
+            ],
+            "Anima": [
+                false,
+                0,
+                251
+            ],
+            "Ice": [
+                false,
+                0,
+                null
+            ],
+            "New_Weapon_Type_3": [
+                false,
+                0,
+                null
+            ],
+            "Magic": [
+                false,
+                0,
+                251
+            ]
+        },
+        "icon_nid": "Generic_Portrait_Citizen",
+        "icon_index": [
+            0,
+            0
+        ],
+        "map_sprite_nid": "Swashbuckler",
+        "combat_anim_nid": "Fencer",
+        "fields": [
+            [
+                "Race",
+                "Queiza"
+            ]
+        ]
     },
     {
         "nid": "Bushi",
@@ -7249,6 +7535,235 @@
         "fields": []
     },
     {
+        "nid": "Thief",
+        "name": "Thief",
+        "desc": "Masters of stealth and espionage.",
+        "tier": 1,
+        "movement_group": "Light Foot",
+        "promotes_from": null,
+        "turns_into": [
+            "Assassin",
+            "Rogue",
+            "Scavenger"
+        ],
+        "tags": [
+            "Lanquiz",
+            "Nordak"
+        ],
+        "max_level": 20,
+        "bases": {
+            "LCK": 0,
+            "RES": 0,
+            "CON": 6,
+            "MOV": 6,
+            "STR": 3,
+            "HP": 16,
+            "MAG": 3,
+            "SKL": 1,
+            "SPD": 9,
+            "DEF": 2,
+            "MP": 0,
+            "WT": 0
+        },
+        "growths": {
+            "LCK": 40,
+            "RES": 20,
+            "CON": 0,
+            "MOV": 0,
+            "STR": 5,
+            "HP": 50,
+            "MAG": 5,
+            "SKL": 45,
+            "SPD": 40,
+            "DEF": 5,
+            "MP": 0,
+            "WT": 0
+        },
+        "growth_bonus": {
+            "LCK": 0,
+            "RES": 0,
+            "CON": 0,
+            "MOV": 0,
+            "STR": 0,
+            "HP": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
+            "MP": 0,
+            "WT": 0
+        },
+        "promotion": {
+            "LCK": 0,
+            "RES": 0,
+            "CON": 0,
+            "MOV": 0,
+            "STR": 0,
+            "HP": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
+            "MP": 0,
+            "WT": 0
+        },
+        "max_stats": {
+            "LCK": 30,
+            "RES": 20,
+            "CON": 20,
+            "MOV": 15,
+            "STR": 20,
+            "HP": 60,
+            "MAG": 20,
+            "SKL": 20,
+            "SPD": 20,
+            "DEF": 20,
+            "MP": 30,
+            "WT": 30
+        },
+        "learned_skills": [
+            [
+                1,
+                "Steal"
+            ]
+        ],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0,
+                251
+            ],
+            "Dagger": [
+                true,
+                31,
+                null
+            ],
+            "Lance": [
+                false,
+                0,
+                251
+            ],
+            "Axe": [
+                false,
+                0,
+                251
+            ],
+            "Bow": [
+                false,
+                0,
+                251
+            ],
+            "Solus": [
+                false,
+                0,
+                251
+            ],
+            "Lunis": [
+                true,
+                1,
+                251
+            ],
+            "Ignis": [
+                false,
+                0,
+                null
+            ],
+            "Ventus": [
+                false,
+                0,
+                null
+            ],
+            "Fulgus": [
+                false,
+                0,
+                null
+            ],
+            "Tellus": [
+                false,
+                0,
+                251
+            ],
+            "Glacies": [
+                false,
+                0,
+                null
+            ],
+            "Aquis": [
+                false,
+                0,
+                null
+            ],
+            "Runic": [
+                false,
+                0,
+                251
+            ],
+            "Shield": [
+                false,
+                0,
+                null
+            ],
+            "Armor": [
+                false,
+                0,
+                null
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ],
+            "Valuables": [
+                false,
+                0,
+                null
+            ],
+            "Claw": [
+                false,
+                0,
+                null
+            ],
+            "Staff": [
+                false,
+                0,
+                251
+            ],
+            "Light": [
+                false,
+                0,
+                251
+            ],
+            "Anima": [
+                false,
+                0,
+                251
+            ],
+            "Dark": [
+                false,
+                0,
+                251
+            ],
+            "Earth": [
+                false,
+                0,
+                251
+            ],
+            "Magic": [
+                false,
+                0,
+                251
+            ]
+        },
+        "icon_nid": "Generic_Portrait_Thief",
+        "icon_index": [
+            0,
+            0
+        ],
+        "map_sprite_nid": "Thief",
+        "combat_anim_nid": "Shinobi",
+        "fields": []
+    },
+    {
         "nid": "Shinobi",
         "name": "Shinobi",
         "desc": "Masters of stealth and espionage.",
@@ -7258,7 +7773,7 @@
         "turns_into": [
             "Assassin",
             "Rogue",
-            "StreetRat"
+            "Scavenger"
         ],
         "tags": [
             "Lanquiz",
@@ -7483,7 +7998,7 @@
         "desc": "Shinobi who have become skilled\nfighters as well.",
         "tier": 2,
         "movement_group": "Nordak",
-        "promotes_from": "StreetRat",
+        "promotes_from": "Scavenger",
         "turns_into": [],
         "tags": [
             "Lanquiz"
@@ -8862,7 +9377,12 @@
         ],
         "map_sprite_nid": "Captain",
         "combat_anim_nid": "CaptainSerena",
-        "fields": []
+        "fields": [
+            [
+                "Race",
+                "Queiza"
+            ]
+        ]
     },
     {
         "nid": "Forester",
@@ -10410,6 +10930,228 @@
         "fields": []
     },
     {
+        "nid": "Villager",
+        "name": "Archer",
+        "desc": "A simple villager with little skill with a sword.",
+        "tier": 0,
+        "movement_group": "Light Foot",
+        "promotes_from": null,
+        "turns_into": [],
+        "tags": [],
+        "max_level": 20,
+        "bases": {
+            "LCK": 0,
+            "RES": 2,
+            "CON": 8,
+            "MOV": 5,
+            "STR": 8,
+            "HP": 18,
+            "MAG": 1,
+            "SKL": 8,
+            "SPD": 5,
+            "DEF": 4,
+            "MP": 3,
+            "WT": 0
+        },
+        "growths": {
+            "LCK": 25,
+            "RES": 15,
+            "CON": 0,
+            "MOV": 0,
+            "STR": 70,
+            "HP": 50,
+            "MAG": 5,
+            "SKL": 70,
+            "SPD": 60,
+            "DEF": 30,
+            "MP": 15,
+            "WT": 0
+        },
+        "growth_bonus": {
+            "LCK": 0,
+            "RES": 0,
+            "CON": 0,
+            "MOV": 0,
+            "STR": 0,
+            "HP": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
+            "MP": 0,
+            "WT": 0
+        },
+        "promotion": {
+            "LCK": 0,
+            "RES": 0,
+            "CON": 0,
+            "MOV": 0,
+            "STR": 0,
+            "HP": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
+            "MP": 0,
+            "WT": 0
+        },
+        "max_stats": {
+            "LCK": 30,
+            "RES": 20,
+            "CON": 20,
+            "MOV": 15,
+            "STR": 20,
+            "HP": 60,
+            "MAG": 20,
+            "SKL": 20,
+            "SPD": 20,
+            "DEF": 20,
+            "MP": 30,
+            "WT": 30
+        },
+        "learned_skills": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0,
+                251
+            ],
+            "Dagger": [
+                false,
+                1,
+                null
+            ],
+            "Lance": [
+                false,
+                0,
+                251
+            ],
+            "Axe": [
+                false,
+                0,
+                251
+            ],
+            "Bow": [
+                true,
+                31,
+                251
+            ],
+            "Solus": [
+                false,
+                0,
+                251
+            ],
+            "Lunis": [
+                false,
+                0,
+                251
+            ],
+            "Ignis": [
+                false,
+                0,
+                null
+            ],
+            "Ventus": [
+                false,
+                0,
+                null
+            ],
+            "Fulgus": [
+                false,
+                0,
+                null
+            ],
+            "Tellus": [
+                false,
+                0,
+                251
+            ],
+            "Glacies": [
+                false,
+                0,
+                null
+            ],
+            "Aquis": [
+                false,
+                0,
+                null
+            ],
+            "Runic": [
+                false,
+                0,
+                251
+            ],
+            "Shield": [
+                false,
+                0,
+                null
+            ],
+            "Armor": [
+                false,
+                0,
+                null
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ],
+            "Valuables": [
+                false,
+                0,
+                null
+            ],
+            "Dragon": [
+                false,
+                0,
+                null
+            ],
+            "Claw": [
+                false,
+                0,
+                null
+            ],
+            "Staff": [
+                false,
+                0,
+                251
+            ],
+            "Light": [
+                false,
+                0,
+                251
+            ],
+            "Anima": [
+                false,
+                0,
+                251
+            ],
+            "Dark": [
+                false,
+                0,
+                251
+            ],
+            "Earth": [
+                false,
+                0,
+                251
+            ],
+            "Magic": [
+                false,
+                0,
+                251
+            ]
+        },
+        "icon_nid": "Generic_Portrait_Archer",
+        "icon_index": [
+            0,
+            0
+        ],
+        "map_sprite_nid": "Villager",
+        "combat_anim_nid": "Villager",
+        "fields": []
+    },
+    {
         "nid": "Archer",
         "name": "Archer",
         "desc": "A villager living away from civilization bearing some skill with a bow.",
@@ -10850,225 +11592,6 @@
         "fields": []
     },
     {
-        "nid": "Artillery",
-        "name": "Artillery",
-        "desc": "",
-        "tier": 1,
-        "movement_group": "Light Foot",
-        "promotes_from": null,
-        "turns_into": [],
-        "tags": [
-            "Chiylo"
-        ],
-        "max_level": 20,
-        "bases": {
-            "LCK": 2,
-            "RES": 4,
-            "CON": 8,
-            "MOV": 5,
-            "STR": 8,
-            "HP": 18,
-            "MAG": 2,
-            "SKL": 8,
-            "SPD": 5,
-            "DEF": 1,
-            "MP": 6,
-            "WT": 0
-        },
-        "growths": {
-            "LCK": 35,
-            "RES": 30,
-            "CON": 0,
-            "MOV": 0,
-            "STR": 60,
-            "HP": 70,
-            "MAG": 35,
-            "SKL": 70,
-            "SPD": 50,
-            "DEF": 15,
-            "MP": 40,
-            "WT": 0
-        },
-        "growth_bonus": {
-            "LCK": 0,
-            "RES": 0,
-            "CON": 0,
-            "MOV": 0,
-            "STR": 0,
-            "HP": 0,
-            "MAG": 0,
-            "SKL": 0,
-            "SPD": 0,
-            "DEF": 0,
-            "MP": 0,
-            "WT": 0
-        },
-        "promotion": {
-            "LCK": 0,
-            "RES": 0,
-            "CON": 0,
-            "MOV": 0,
-            "STR": 0,
-            "HP": 0,
-            "MAG": 0,
-            "SKL": 0,
-            "SPD": 0,
-            "DEF": 0,
-            "MP": 0,
-            "WT": 0
-        },
-        "max_stats": {
-            "LCK": 30,
-            "RES": 20,
-            "CON": 20,
-            "MOV": 15,
-            "STR": 20,
-            "HP": 60,
-            "MAG": 20,
-            "SKL": 20,
-            "SPD": 20,
-            "DEF": 20,
-            "MP": 30,
-            "WT": 30
-        },
-        "learned_skills": [],
-        "wexp_gain": {
-            "Sword": [
-                false,
-                0,
-                251
-            ],
-            "Dagger": [
-                false,
-                1,
-                null
-            ],
-            "Lance": [
-                false,
-                0,
-                251
-            ],
-            "Axe": [
-                false,
-                0,
-                251
-            ],
-            "Bow": [
-                true,
-                31,
-                251
-            ],
-            "Solus": [
-                false,
-                0,
-                251
-            ],
-            "Lunis": [
-                false,
-                0,
-                251
-            ],
-            "Ignis": [
-                false,
-                0,
-                null
-            ],
-            "Ventus": [
-                false,
-                0,
-                null
-            ],
-            "Fulgus": [
-                false,
-                0,
-                null
-            ],
-            "Tellus": [
-                false,
-                0,
-                251
-            ],
-            "Glacies": [
-                false,
-                0,
-                null
-            ],
-            "Aquis": [
-                false,
-                0,
-                null
-            ],
-            "Runic": [
-                false,
-                0,
-                251
-            ],
-            "Shield": [
-                false,
-                0,
-                null
-            ],
-            "Armor": [
-                false,
-                0,
-                null
-            ],
-            "Default": [
-                false,
-                0,
-                251
-            ],
-            "Valuables": [
-                false,
-                0,
-                null
-            ],
-            "Claw": [
-                false,
-                0,
-                null
-            ],
-            "Staff": [
-                false,
-                0,
-                251
-            ],
-            "Light": [
-                false,
-                0,
-                251
-            ],
-            "Anima": [
-                false,
-                0,
-                251
-            ],
-            "Dark": [
-                false,
-                0,
-                251
-            ],
-            "Earth": [
-                false,
-                0,
-                251
-            ],
-            "Magic": [
-                false,
-                0,
-                251
-            ]
-        },
-        "icon_nid": "Generic_Portrait_Archer",
-        "icon_index": [
-            0,
-            0
-        ],
-        "map_sprite_nid": "Artillery",
-        "combat_anim_nid": "Artillery",
-        "fields": []
-    },
-    {
         "nid": "Sniper",
         "name": "Sniper",
         "desc": "Devotees of the bow. Possess incredible range.",
@@ -11285,6 +11808,225 @@
         ],
         "map_sprite_nid": "Sniper",
         "combat_anim_nid": "Sniper",
+        "fields": []
+    },
+    {
+        "nid": "Artillery",
+        "name": "Artillery",
+        "desc": "",
+        "tier": 1,
+        "movement_group": "Light Foot",
+        "promotes_from": null,
+        "turns_into": [],
+        "tags": [
+            "Chiylo"
+        ],
+        "max_level": 20,
+        "bases": {
+            "LCK": 2,
+            "RES": 4,
+            "CON": 8,
+            "MOV": 5,
+            "STR": 8,
+            "HP": 18,
+            "MAG": 2,
+            "SKL": 8,
+            "SPD": 5,
+            "DEF": 1,
+            "MP": 6,
+            "WT": 0
+        },
+        "growths": {
+            "LCK": 35,
+            "RES": 30,
+            "CON": 0,
+            "MOV": 0,
+            "STR": 60,
+            "HP": 70,
+            "MAG": 35,
+            "SKL": 70,
+            "SPD": 50,
+            "DEF": 15,
+            "MP": 40,
+            "WT": 0
+        },
+        "growth_bonus": {
+            "LCK": 0,
+            "RES": 0,
+            "CON": 0,
+            "MOV": 0,
+            "STR": 0,
+            "HP": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
+            "MP": 0,
+            "WT": 0
+        },
+        "promotion": {
+            "LCK": 0,
+            "RES": 0,
+            "CON": 0,
+            "MOV": 0,
+            "STR": 0,
+            "HP": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
+            "MP": 0,
+            "WT": 0
+        },
+        "max_stats": {
+            "LCK": 30,
+            "RES": 20,
+            "CON": 20,
+            "MOV": 15,
+            "STR": 20,
+            "HP": 60,
+            "MAG": 20,
+            "SKL": 20,
+            "SPD": 20,
+            "DEF": 20,
+            "MP": 30,
+            "WT": 30
+        },
+        "learned_skills": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0,
+                251
+            ],
+            "Dagger": [
+                false,
+                1,
+                null
+            ],
+            "Lance": [
+                false,
+                0,
+                251
+            ],
+            "Axe": [
+                false,
+                0,
+                251
+            ],
+            "Bow": [
+                true,
+                31,
+                251
+            ],
+            "Solus": [
+                false,
+                0,
+                251
+            ],
+            "Lunis": [
+                false,
+                0,
+                251
+            ],
+            "Ignis": [
+                false,
+                0,
+                null
+            ],
+            "Ventus": [
+                false,
+                0,
+                null
+            ],
+            "Fulgus": [
+                false,
+                0,
+                null
+            ],
+            "Tellus": [
+                false,
+                0,
+                251
+            ],
+            "Glacies": [
+                false,
+                0,
+                null
+            ],
+            "Aquis": [
+                false,
+                0,
+                null
+            ],
+            "Runic": [
+                false,
+                0,
+                251
+            ],
+            "Shield": [
+                false,
+                0,
+                null
+            ],
+            "Armor": [
+                false,
+                0,
+                null
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ],
+            "Valuables": [
+                false,
+                0,
+                null
+            ],
+            "Claw": [
+                false,
+                0,
+                null
+            ],
+            "Staff": [
+                false,
+                0,
+                251
+            ],
+            "Light": [
+                false,
+                0,
+                251
+            ],
+            "Anima": [
+                false,
+                0,
+                251
+            ],
+            "Dark": [
+                false,
+                0,
+                251
+            ],
+            "Earth": [
+                false,
+                0,
+                251
+            ],
+            "Magic": [
+                false,
+                0,
+                251
+            ]
+        },
+        "icon_nid": "Generic_Portrait_Archer",
+        "icon_index": [
+            0,
+            0
+        ],
+        "map_sprite_nid": "Artillery",
+        "combat_anim_nid": "Artillery",
         "fields": []
     },
     {
@@ -12170,6 +12912,229 @@
         ],
         "map_sprite_nid": "Great_Knight",
         "combat_anim_nid": null,
+        "fields": []
+    },
+    {
+        "nid": "Admiral",
+        "name": "Admiral",
+        "desc": "Sea Knight bulked out in heavy armor, the elite defenders of Omyrus.\nRace: Queiza",
+        "tier": 2,
+        "movement_group": "Pirates",
+        "promotes_from": "Mariner",
+        "turns_into": [],
+        "tags": [
+            "Armor",
+            "Rapier",
+            "Greatsword",
+            "Javelin",
+            "Trident"
+        ],
+        "max_level": 20,
+        "bases": {
+            "LCK": 0,
+            "RES": 4,
+            "CON": 11,
+            "MOV": 5,
+            "STR": 8,
+            "HP": 21,
+            "MAG": 0,
+            "SKL": 5,
+            "SPD": 5,
+            "DEF": 13,
+            "MP": 0,
+            "WT": 0
+        },
+        "growths": {
+            "LCK": 20,
+            "RES": 25,
+            "CON": 0,
+            "MOV": 0,
+            "STR": 30,
+            "HP": 75,
+            "MAG": 0,
+            "SKL": 25,
+            "SPD": 10,
+            "DEF": 23,
+            "MP": 0,
+            "WT": 0
+        },
+        "growth_bonus": {
+            "LCK": 0,
+            "RES": 0,
+            "CON": 0,
+            "MOV": 0,
+            "STR": 0,
+            "HP": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
+            "MP": 0,
+            "WT": 0
+        },
+        "promotion": {
+            "LCK": 0,
+            "RES": 3,
+            "CON": 2,
+            "MOV": -99,
+            "STR": 2,
+            "HP": 4,
+            "MAG": 0,
+            "SKL": 3,
+            "SPD": 3,
+            "DEF": 3,
+            "MP": 0,
+            "WT": 0
+        },
+        "max_stats": {
+            "LCK": 30,
+            "RES": 26,
+            "CON": 25,
+            "MOV": 15,
+            "STR": 29,
+            "HP": 60,
+            "MAG": 22,
+            "SKL": 28,
+            "SPD": 25,
+            "DEF": 30,
+            "MP": 30,
+            "WT": 30
+        },
+        "learned_skills": [],
+        "wexp_gain": {
+            "Sword": [
+                true,
+                1,
+                251
+            ],
+            "Dagger": [
+                false,
+                0,
+                null
+            ],
+            "Lance": [
+                2,
+                40,
+                251
+            ],
+            "Axe": [
+                false,
+                1,
+                251
+            ],
+            "Bow": [
+                false,
+                0,
+                251
+            ],
+            "Solus": [
+                false,
+                0,
+                251
+            ],
+            "Lunis": [
+                false,
+                0,
+                251
+            ],
+            "Ignis": [
+                false,
+                0,
+                null
+            ],
+            "Ventus": [
+                true,
+                0,
+                null
+            ],
+            "Fulgus": [
+                false,
+                0,
+                null
+            ],
+            "Tellus": [
+                false,
+                0,
+                251
+            ],
+            "Glacies": [
+                false,
+                0,
+                null
+            ],
+            "Aquis": [
+                true,
+                0,
+                null
+            ],
+            "Runic": [
+                false,
+                0,
+                251
+            ],
+            "Shield": [
+                false,
+                0,
+                null
+            ],
+            "Armor": [
+                false,
+                0,
+                null
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ],
+            "Valuables": [
+                false,
+                0,
+                null
+            ],
+            "Claw": [
+                false,
+                0,
+                null
+            ],
+            "Staff": [
+                false,
+                0,
+                251
+            ],
+            "Light": [
+                false,
+                0,
+                251
+            ],
+            "Anima": [
+                false,
+                0,
+                251
+            ],
+            "Dark": [
+                false,
+                0,
+                251
+            ],
+            "Earth": [
+                false,
+                0,
+                251
+            ],
+            "Magic": [
+                false,
+                0,
+                251
+            ]
+        },
+        "icon_nid": "Generic_Portrait_General",
+        "icon_index": [
+            0,
+            0
+        ],
+        "map_sprite_nid": "General",
+        "combat_anim_nid": "Bulwark",
         "fields": []
     },
     {
@@ -14416,6 +15381,234 @@
         "fields": []
     },
     {
+        "nid": "Deacon",
+        "name": "Deacon",
+        "desc": "",
+        "tier": 1,
+        "movement_group": "Heavy Cav",
+        "promotes_from": null,
+        "turns_into": [
+            "MagicCorps",
+            "Saint"
+        ],
+        "tags": [
+            "Horse",
+            "Mounted"
+        ],
+        "max_level": 20,
+        "bases": {
+            "LCK": 0,
+            "RES": 5,
+            "CON": 5,
+            "MOV": 6,
+            "STR": 2,
+            "HP": 15,
+            "MAG": 5,
+            "SKL": 1,
+            "SPD": 3,
+            "DEF": 2,
+            "MP": 13,
+            "WT": 0
+        },
+        "growths": {
+            "LCK": 45,
+            "RES": 40,
+            "CON": 0,
+            "MOV": 0,
+            "STR": 25,
+            "HP": 60,
+            "MAG": 50,
+            "SKL": 35,
+            "SPD": 45,
+            "DEF": 12,
+            "MP": 0,
+            "WT": 0
+        },
+        "growth_bonus": {
+            "LCK": 0,
+            "RES": 0,
+            "CON": 0,
+            "MOV": 0,
+            "STR": 0,
+            "HP": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
+            "MP": 0,
+            "WT": 0
+        },
+        "promotion": {
+            "LCK": 0,
+            "RES": 0,
+            "CON": 0,
+            "MOV": 0,
+            "STR": 0,
+            "HP": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
+            "MP": 0,
+            "WT": 0
+        },
+        "max_stats": {
+            "LCK": 30,
+            "RES": 20,
+            "CON": 25,
+            "MOV": 15,
+            "STR": 20,
+            "HP": 60,
+            "MAG": 20,
+            "SKL": 20,
+            "SPD": 20,
+            "DEF": 20,
+            "MP": 30,
+            "WT": 30
+        },
+        "learned_skills": [
+            [
+                1,
+                "Canter"
+            ]
+        ],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0,
+                251
+            ],
+            "Dagger": [
+                false,
+                0,
+                null
+            ],
+            "Lance": [
+                false,
+                0,
+                251
+            ],
+            "Axe": [
+                false,
+                0,
+                251
+            ],
+            "Bow": [
+                false,
+                0,
+                251
+            ],
+            "Solus": [
+                false,
+                0,
+                251
+            ],
+            "Lunis": [
+                true,
+                0,
+                251
+            ],
+            "Ignis": [
+                true,
+                0,
+                null
+            ],
+            "Ventus": [
+                false,
+                0,
+                null
+            ],
+            "Fulgus": [
+                false,
+                0,
+                null
+            ],
+            "Tellus": [
+                false,
+                0,
+                251
+            ],
+            "Glacies": [
+                false,
+                0,
+                null
+            ],
+            "Aquis": [
+                false,
+                0,
+                null
+            ],
+            "Runic": [
+                false,
+                31,
+                251
+            ],
+            "Shield": [
+                false,
+                0,
+                null
+            ],
+            "Armor": [
+                false,
+                0,
+                null
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ],
+            "Valuables": [
+                false,
+                0,
+                null
+            ],
+            "Claw": [
+                false,
+                0,
+                null
+            ],
+            "Staff": [
+                false,
+                31,
+                251
+            ],
+            "Light": [
+                false,
+                0,
+                251
+            ],
+            "Anima": [
+                false,
+                0,
+                251
+            ],
+            "Dark": [
+                false,
+                0,
+                251
+            ],
+            "Earth": [
+                false,
+                0,
+                251
+            ],
+            "Magic": [
+                false,
+                31,
+                251
+            ]
+        },
+        "icon_nid": "Thaumaturge [M] Magic {Der}",
+        "icon_index": [
+            0,
+            0
+        ],
+        "map_sprite_nid": "Tactician",
+        "combat_anim_nid": "Tactician",
+        "fields": []
+    },
+    {
         "nid": "Saint",
         "name": "Saint",
         "desc": "Kind-hearted healers.",
@@ -14644,14 +15837,14 @@
         "nid": "Nurse",
         "name": "Nurse",
         "desc": "A healer-in-training skilled in Aquis magic and staves.\nRace: Queiza",
-        "tier": 0,
+        "tier": 1,
         "movement_group": "Lykon",
         "promotes_from": null,
         "turns_into": [
             "Doctor"
         ],
         "tags": [],
-        "max_level": 10,
+        "max_level": 20,
         "bases": {
             "LCK": 0,
             "RES": 6,
@@ -15089,7 +16282,7 @@
         "tags": [
             "Lykon"
         ],
-        "max_level": 10,
+        "max_level": 20,
         "bases": {
             "LCK": 0,
             "RES": 5,
@@ -15515,14 +16708,898 @@
         "fields": []
     },
     {
-        "nid": "Fencer",
-        "name": "Fencer",
+        "nid": "Disciple",
+        "name": "Disciple",
+        "desc": "Holy Shaman of a secret order.",
+        "tier": 1,
+        "movement_group": "Lykon",
+        "promotes_from": null,
+        "turns_into": [
+            "Bishop",
+            "Kannushi"
+        ],
+        "tags": [
+            "Lykon"
+        ],
+        "max_level": 20,
+        "bases": {
+            "LCK": 0,
+            "RES": 5,
+            "CON": 8,
+            "MOV": 5,
+            "STR": 3,
+            "HP": 18,
+            "MAG": 4,
+            "SKL": 3,
+            "SPD": 6,
+            "DEF": 1,
+            "MP": 9,
+            "WT": 0
+        },
+        "growths": {
+            "LCK": 40,
+            "RES": 40,
+            "CON": 0,
+            "MOV": 0,
+            "STR": 50,
+            "HP": 85,
+            "MAG": 60,
+            "SKL": 35,
+            "SPD": 45,
+            "DEF": 20,
+            "MP": 75,
+            "WT": 0
+        },
+        "growth_bonus": {
+            "LCK": 0,
+            "RES": 0,
+            "CON": 0,
+            "MOV": 0,
+            "STR": 0,
+            "HP": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
+            "MP": 0,
+            "WT": 0
+        },
+        "promotion": {
+            "LCK": 0,
+            "RES": 2,
+            "CON": 1,
+            "MOV": -99,
+            "STR": 0,
+            "HP": 1,
+            "MAG": 0,
+            "SKL": 2,
+            "SPD": 2,
+            "DEF": 0,
+            "MP": 0,
+            "WT": 0
+        },
+        "max_stats": {
+            "LCK": 30,
+            "RES": 20,
+            "CON": 20,
+            "MOV": 15,
+            "STR": 20,
+            "HP": 60,
+            "MAG": 20,
+            "SKL": 20,
+            "SPD": 20,
+            "DEF": 20,
+            "MP": 30,
+            "WT": 30
+        },
+        "learned_skills": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0,
+                251
+            ],
+            "Dagger": [
+                false,
+                0,
+                null
+            ],
+            "Lance": [
+                false,
+                0,
+                251
+            ],
+            "Axe": [
+                false,
+                0,
+                251
+            ],
+            "Bow": [
+                false,
+                0,
+                251
+            ],
+            "Solus": [
+                true,
+                1,
+                251
+            ],
+            "Lunis": [
+                false,
+                0,
+                251
+            ],
+            "Ignis": [
+                false,
+                0,
+                null
+            ],
+            "Ventus": [
+                false,
+                0,
+                null
+            ],
+            "Fulgus": [
+                false,
+                0,
+                null
+            ],
+            "Tellus": [
+                false,
+                0,
+                251
+            ],
+            "Glacies": [
+                false,
+                0,
+                null
+            ],
+            "Aquis": [
+                false,
+                0,
+                null
+            ],
+            "Runic": [
+                false,
+                0,
+                251
+            ],
+            "Shield": [
+                false,
+                0,
+                null
+            ],
+            "Armor": [
+                false,
+                0,
+                null
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ],
+            "Valuables": [
+                false,
+                0,
+                null
+            ],
+            "Claw": [
+                false,
+                0,
+                null
+            ],
+            "Staff": [
+                false,
+                0,
+                251
+            ],
+            "Light": [
+                true,
+                1,
+                251
+            ],
+            "Anima": [
+                false,
+                0,
+                251
+            ],
+            "Dark": [
+                false,
+                0,
+                251
+            ],
+            "Earth": [
+                false,
+                0,
+                251
+            ],
+            "Magic": [
+                false,
+                0,
+                251
+            ]
+        },
+        "icon_nid": "Generic_Portrait_Monk",
+        "icon_index": [
+            0,
+            0
+        ],
+        "map_sprite_nid": "Clergy",
+        "combat_anim_nid": "Clergy",
+        "fields": []
+    },
+    {
+        "nid": "Miko",
+        "name": "Miko",
+        "desc": "Holy Shaman of a secret order.",
+        "tier": 1,
+        "movement_group": "Lykon",
+        "promotes_from": null,
+        "turns_into": [
+            "Kannushi",
+            "Oracle"
+        ],
+        "tags": [
+            "Lykon"
+        ],
+        "max_level": 20,
+        "bases": {
+            "LCK": 0,
+            "RES": 5,
+            "CON": 8,
+            "MOV": 5,
+            "STR": 3,
+            "HP": 18,
+            "MAG": 4,
+            "SKL": 3,
+            "SPD": 6,
+            "DEF": 1,
+            "MP": 9,
+            "WT": 0
+        },
+        "growths": {
+            "LCK": 40,
+            "RES": 40,
+            "CON": 0,
+            "MOV": 0,
+            "STR": 50,
+            "HP": 85,
+            "MAG": 60,
+            "SKL": 35,
+            "SPD": 45,
+            "DEF": 20,
+            "MP": 75,
+            "WT": 0
+        },
+        "growth_bonus": {
+            "LCK": 0,
+            "RES": 0,
+            "CON": 0,
+            "MOV": 0,
+            "STR": 0,
+            "HP": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
+            "MP": 0,
+            "WT": 0
+        },
+        "promotion": {
+            "LCK": 0,
+            "RES": 2,
+            "CON": 1,
+            "MOV": -99,
+            "STR": 0,
+            "HP": 1,
+            "MAG": 0,
+            "SKL": 2,
+            "SPD": 2,
+            "DEF": 0,
+            "MP": 0,
+            "WT": 0
+        },
+        "max_stats": {
+            "LCK": 30,
+            "RES": 20,
+            "CON": 20,
+            "MOV": 15,
+            "STR": 20,
+            "HP": 60,
+            "MAG": 20,
+            "SKL": 20,
+            "SPD": 20,
+            "DEF": 20,
+            "MP": 30,
+            "WT": 30
+        },
+        "learned_skills": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0,
+                251
+            ],
+            "Dagger": [
+                false,
+                0,
+                null
+            ],
+            "Lance": [
+                false,
+                0,
+                251
+            ],
+            "Axe": [
+                false,
+                0,
+                251
+            ],
+            "Bow": [
+                false,
+                0,
+                251
+            ],
+            "Solus": [
+                true,
+                1,
+                251
+            ],
+            "Lunis": [
+                false,
+                0,
+                251
+            ],
+            "Ignis": [
+                false,
+                0,
+                null
+            ],
+            "Ventus": [
+                false,
+                0,
+                null
+            ],
+            "Fulgus": [
+                false,
+                0,
+                null
+            ],
+            "Tellus": [
+                false,
+                0,
+                251
+            ],
+            "Glacies": [
+                false,
+                0,
+                null
+            ],
+            "Aquis": [
+                false,
+                0,
+                null
+            ],
+            "Runic": [
+                false,
+                0,
+                251
+            ],
+            "Shield": [
+                false,
+                0,
+                null
+            ],
+            "Armor": [
+                false,
+                0,
+                null
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ],
+            "Valuables": [
+                false,
+                0,
+                null
+            ],
+            "Claw": [
+                false,
+                0,
+                null
+            ],
+            "Staff": [
+                false,
+                0,
+                251
+            ],
+            "Light": [
+                true,
+                1,
+                251
+            ],
+            "Anima": [
+                false,
+                0,
+                251
+            ],
+            "Dark": [
+                false,
+                0,
+                251
+            ],
+            "Earth": [
+                false,
+                0,
+                251
+            ],
+            "Magic": [
+                false,
+                0,
+                251
+            ]
+        },
+        "icon_nid": "Generic_Portrait_Monk",
+        "icon_index": [
+            0,
+            0
+        ],
+        "map_sprite_nid": "Clergy",
+        "combat_anim_nid": "Clergy",
+        "fields": []
+    },
+    {
+        "nid": "Kannushi",
+        "name": "Kannushi",
+        "desc": "Holy Priestess of a secret order.",
+        "tier": 2,
+        "movement_group": "Lykon",
+        "promotes_from": null,
+        "turns_into": [
+            "Bishop"
+        ],
+        "tags": [
+            "Lykon"
+        ],
+        "max_level": 20,
+        "bases": {
+            "LCK": 0,
+            "RES": 5,
+            "CON": 8,
+            "MOV": 5,
+            "STR": 3,
+            "HP": 18,
+            "MAG": 4,
+            "SKL": 3,
+            "SPD": 6,
+            "DEF": 1,
+            "MP": 9,
+            "WT": 0
+        },
+        "growths": {
+            "LCK": 40,
+            "RES": 40,
+            "CON": 0,
+            "MOV": 0,
+            "STR": 50,
+            "HP": 85,
+            "MAG": 60,
+            "SKL": 35,
+            "SPD": 45,
+            "DEF": 20,
+            "MP": 75,
+            "WT": 0
+        },
+        "growth_bonus": {
+            "LCK": 0,
+            "RES": 0,
+            "CON": 0,
+            "MOV": 0,
+            "STR": 0,
+            "HP": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
+            "MP": 0,
+            "WT": 0
+        },
+        "promotion": {
+            "LCK": 0,
+            "RES": 2,
+            "CON": 1,
+            "MOV": -99,
+            "STR": 0,
+            "HP": 1,
+            "MAG": 0,
+            "SKL": 2,
+            "SPD": 2,
+            "DEF": 0,
+            "MP": 0,
+            "WT": 0
+        },
+        "max_stats": {
+            "LCK": 30,
+            "RES": 20,
+            "CON": 20,
+            "MOV": 15,
+            "STR": 20,
+            "HP": 60,
+            "MAG": 20,
+            "SKL": 20,
+            "SPD": 20,
+            "DEF": 20,
+            "MP": 30,
+            "WT": 30
+        },
+        "learned_skills": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0,
+                251
+            ],
+            "Dagger": [
+                false,
+                0,
+                null
+            ],
+            "Lance": [
+                false,
+                0,
+                251
+            ],
+            "Axe": [
+                false,
+                0,
+                251
+            ],
+            "Bow": [
+                false,
+                0,
+                251
+            ],
+            "Solus": [
+                true,
+                1,
+                251
+            ],
+            "Lunis": [
+                false,
+                0,
+                251
+            ],
+            "Ignis": [
+                false,
+                0,
+                null
+            ],
+            "Ventus": [
+                false,
+                0,
+                null
+            ],
+            "Fulgus": [
+                false,
+                0,
+                null
+            ],
+            "Tellus": [
+                false,
+                0,
+                251
+            ],
+            "Glacies": [
+                false,
+                0,
+                null
+            ],
+            "Aquis": [
+                false,
+                0,
+                null
+            ],
+            "Runic": [
+                false,
+                0,
+                251
+            ],
+            "Shield": [
+                false,
+                0,
+                null
+            ],
+            "Armor": [
+                false,
+                0,
+                null
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ],
+            "Valuables": [
+                false,
+                0,
+                null
+            ],
+            "Claw": [
+                false,
+                0,
+                null
+            ],
+            "Staff": [
+                false,
+                0,
+                251
+            ],
+            "Light": [
+                true,
+                1,
+                251
+            ],
+            "Anima": [
+                false,
+                0,
+                251
+            ],
+            "Dark": [
+                false,
+                0,
+                251
+            ],
+            "Earth": [
+                false,
+                0,
+                251
+            ],
+            "Magic": [
+                false,
+                0,
+                251
+            ]
+        },
+        "icon_nid": "Generic_Portrait_Monk",
+        "icon_index": [
+            0,
+            0
+        ],
+        "map_sprite_nid": "Princess",
+        "combat_anim_nid": "Clergy",
+        "fields": []
+    },
+    {
+        "nid": "Oracle",
+        "name": "Oracle",
+        "desc": "Holy Priestess of a secret order.",
+        "tier": 2,
+        "movement_group": "Lykon",
+        "promotes_from": null,
+        "turns_into": [],
+        "tags": [
+            "Lykon"
+        ],
+        "max_level": 20,
+        "bases": {
+            "LCK": 0,
+            "RES": 5,
+            "CON": 8,
+            "MOV": 5,
+            "STR": 3,
+            "HP": 18,
+            "MAG": 4,
+            "SKL": 3,
+            "SPD": 6,
+            "DEF": 1,
+            "MP": 9,
+            "WT": 0
+        },
+        "growths": {
+            "LCK": 40,
+            "RES": 40,
+            "CON": 0,
+            "MOV": 0,
+            "STR": 50,
+            "HP": 85,
+            "MAG": 60,
+            "SKL": 35,
+            "SPD": 45,
+            "DEF": 20,
+            "MP": 75,
+            "WT": 0
+        },
+        "growth_bonus": {
+            "LCK": 0,
+            "RES": 0,
+            "CON": 0,
+            "MOV": 0,
+            "STR": 0,
+            "HP": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
+            "MP": 0,
+            "WT": 0
+        },
+        "promotion": {
+            "LCK": 0,
+            "RES": 2,
+            "CON": 1,
+            "MOV": -99,
+            "STR": 0,
+            "HP": 1,
+            "MAG": 0,
+            "SKL": 2,
+            "SPD": 2,
+            "DEF": 0,
+            "MP": 0,
+            "WT": 0
+        },
+        "max_stats": {
+            "LCK": 30,
+            "RES": 20,
+            "CON": 20,
+            "MOV": 15,
+            "STR": 20,
+            "HP": 60,
+            "MAG": 20,
+            "SKL": 20,
+            "SPD": 20,
+            "DEF": 20,
+            "MP": 30,
+            "WT": 30
+        },
+        "learned_skills": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0,
+                251
+            ],
+            "Dagger": [
+                false,
+                0,
+                null
+            ],
+            "Lance": [
+                false,
+                0,
+                251
+            ],
+            "Axe": [
+                false,
+                0,
+                251
+            ],
+            "Bow": [
+                false,
+                0,
+                251
+            ],
+            "Solus": [
+                true,
+                1,
+                251
+            ],
+            "Lunis": [
+                false,
+                0,
+                251
+            ],
+            "Ignis": [
+                false,
+                0,
+                null
+            ],
+            "Ventus": [
+                false,
+                0,
+                null
+            ],
+            "Fulgus": [
+                false,
+                0,
+                null
+            ],
+            "Tellus": [
+                false,
+                0,
+                251
+            ],
+            "Glacies": [
+                false,
+                0,
+                null
+            ],
+            "Aquis": [
+                false,
+                0,
+                null
+            ],
+            "Runic": [
+                false,
+                0,
+                251
+            ],
+            "Shield": [
+                false,
+                0,
+                null
+            ],
+            "Armor": [
+                false,
+                0,
+                null
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ],
+            "Valuables": [
+                false,
+                0,
+                null
+            ],
+            "Claw": [
+                false,
+                0,
+                null
+            ],
+            "Staff": [
+                false,
+                0,
+                251
+            ],
+            "Light": [
+                true,
+                1,
+                251
+            ],
+            "Anima": [
+                false,
+                0,
+                251
+            ],
+            "Dark": [
+                false,
+                0,
+                251
+            ],
+            "Earth": [
+                false,
+                0,
+                251
+            ],
+            "Magic": [
+                false,
+                0,
+                251
+            ]
+        },
+        "icon_nid": "Generic_Portrait_Monk",
+        "icon_index": [
+            0,
+            0
+        ],
+        "map_sprite_nid": "Princess",
+        "combat_anim_nid": "Clergy",
+        "fields": []
+    },
+    {
+        "nid": "Mariner",
+        "name": "Mariner",
         "desc": "Footsoldier of Omyrus skilled with magic and thrusting attacks.\nRace: Queiza",
         "tier": 1,
         "movement_group": "Pirates",
         "promotes_from": null,
         "turns_into": [
-            "Heiress"
+            "Captain"
         ],
         "tags": [
             "LightArmor",
@@ -15773,8 +17850,8 @@
         ]
     },
     {
-        "nid": "StreetRat",
-        "name": "Street Rat",
+        "nid": "Scavenger",
+        "name": "Scavenger",
         "desc": "One who has been forced to\nlearn to steal to survive.\nRace: Queiza",
         "tier": 1,
         "movement_group": "Queiza",
@@ -16440,6 +18517,225 @@
         "fields": []
     },
     {
+        "nid": "Vagabond",
+        "name": "Vagabond",
+        "desc": "",
+        "tier": 1,
+        "movement_group": "Zabos",
+        "promotes_from": null,
+        "turns_into": [],
+        "tags": [
+            "Zabos"
+        ],
+        "max_level": 20,
+        "bases": {
+            "LCK": 0,
+            "RES": 3,
+            "CON": 8,
+            "MOV": 6,
+            "STR": 3,
+            "HP": 16,
+            "MAG": 5,
+            "SKL": 3,
+            "SPD": 4,
+            "DEF": 4,
+            "MP": 14,
+            "WT": 0
+        },
+        "growths": {
+            "LCK": 35,
+            "RES": 40,
+            "CON": 0,
+            "MOV": 0,
+            "STR": 35,
+            "HP": 60,
+            "MAG": 55,
+            "SKL": 50,
+            "SPD": 55,
+            "DEF": 20,
+            "MP": 50,
+            "WT": 0
+        },
+        "growth_bonus": {
+            "LCK": 0,
+            "RES": 0,
+            "CON": 0,
+            "MOV": 0,
+            "STR": 0,
+            "HP": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
+            "MP": 0,
+            "WT": 0
+        },
+        "promotion": {
+            "LCK": 0,
+            "RES": 2,
+            "CON": 2,
+            "MOV": -99,
+            "STR": 0,
+            "HP": 1,
+            "MAG": 2,
+            "SKL": 0,
+            "SPD": 1,
+            "DEF": 1,
+            "MP": 0,
+            "WT": 0
+        },
+        "max_stats": {
+            "LCK": 30,
+            "RES": 20,
+            "CON": 20,
+            "MOV": 15,
+            "STR": 20,
+            "HP": 60,
+            "MAG": 20,
+            "SKL": 20,
+            "SPD": 20,
+            "DEF": 20,
+            "MP": 30,
+            "WT": 30
+        },
+        "learned_skills": [],
+        "wexp_gain": {
+            "Sword": [
+                true,
+                0,
+                251
+            ],
+            "Dagger": [
+                false,
+                0,
+                null
+            ],
+            "Lance": [
+                false,
+                0,
+                251
+            ],
+            "Axe": [
+                false,
+                0,
+                251
+            ],
+            "Bow": [
+                false,
+                0,
+                251
+            ],
+            "Solus": [
+                false,
+                0,
+                251
+            ],
+            "Lunis": [
+                false,
+                31,
+                251
+            ],
+            "Ignis": [
+                true,
+                0,
+                null
+            ],
+            "Ventus": [
+                false,
+                1,
+                null
+            ],
+            "Fulgus": [
+                true,
+                0,
+                null
+            ],
+            "Tellus": [
+                false,
+                0,
+                251
+            ],
+            "Glacies": [
+                false,
+                0,
+                null
+            ],
+            "Aquis": [
+                false,
+                0,
+                null
+            ],
+            "Runic": [
+                false,
+                0,
+                251
+            ],
+            "Shield": [
+                false,
+                0,
+                null
+            ],
+            "Armor": [
+                false,
+                0,
+                null
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ],
+            "Valuables": [
+                false,
+                0,
+                null
+            ],
+            "Claw": [
+                false,
+                0,
+                null
+            ],
+            "Staff": [
+                false,
+                0,
+                251
+            ],
+            "Light": [
+                false,
+                0,
+                251
+            ],
+            "Anima": [
+                false,
+                0,
+                251
+            ],
+            "Dark": [
+                true,
+                31,
+                251
+            ],
+            "Earth": [
+                false,
+                0,
+                251
+            ],
+            "Magic": [
+                false,
+                0,
+                251
+            ]
+        },
+        "icon_nid": "Myrmidon (F) Sword {L95}",
+        "icon_index": [
+            0,
+            0
+        ],
+        "map_sprite_nid": "Mage",
+        "combat_anim_nid": "ShamanMale",
+        "fields": []
+    },
+    {
         "nid": "Scholar",
         "name": "Scholar",
         "desc": "Wielders of magic who are stronger,\nbut slower, than apprentices.\nRace: Avyon",
@@ -16654,6 +18950,223 @@
         ],
         "map_sprite_nid": "Scholar",
         "combat_anim_nid": "Scholar",
+        "fields": []
+    },
+    {
+        "nid": "Inquisitor",
+        "name": "Inquisitor",
+        "desc": "An experienced wielder of the\nmagical arts on the battlefield.\nRace: Queiza",
+        "tier": 2,
+        "movement_group": "Queiza",
+        "promotes_from": "Apprentice",
+        "turns_into": [],
+        "tags": [],
+        "max_level": 20,
+        "bases": {
+            "LCK": 0,
+            "RES": 6,
+            "CON": 7,
+            "MOV": 6,
+            "STR": 0,
+            "HP": 20,
+            "MAG": 5,
+            "SKL": 6,
+            "SPD": 5,
+            "DEF": 5,
+            "MP": 0,
+            "WT": 0
+        },
+        "growths": {
+            "LCK": 15,
+            "RES": 40,
+            "CON": 0,
+            "MOV": 0,
+            "STR": 0,
+            "HP": 45,
+            "MAG": 45,
+            "SKL": 30,
+            "SPD": 25,
+            "DEF": 10,
+            "MP": 0,
+            "WT": 0
+        },
+        "growth_bonus": {
+            "LCK": 0,
+            "RES": 0,
+            "CON": 0,
+            "MOV": 0,
+            "STR": 0,
+            "HP": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
+            "MP": 0,
+            "WT": 0
+        },
+        "promotion": {
+            "LCK": 0,
+            "RES": 3,
+            "CON": 1,
+            "MOV": -99,
+            "STR": 0,
+            "HP": 4,
+            "MAG": 1,
+            "SKL": 1,
+            "SPD": 0,
+            "DEF": 3,
+            "MP": 0,
+            "WT": 0
+        },
+        "max_stats": {
+            "LCK": 30,
+            "RES": 25,
+            "CON": 20,
+            "MOV": 15,
+            "STR": 20,
+            "HP": 60,
+            "MAG": 30,
+            "SKL": 30,
+            "SPD": 26,
+            "DEF": 21,
+            "MP": 30,
+            "WT": 30
+        },
+        "learned_skills": [],
+        "wexp_gain": {
+            "Sword": [
+                true,
+                0,
+                251
+            ],
+            "Dagger": [
+                false,
+                0,
+                null
+            ],
+            "Lance": [
+                false,
+                0,
+                251
+            ],
+            "Axe": [
+                false,
+                0,
+                251
+            ],
+            "Bow": [
+                false,
+                0,
+                251
+            ],
+            "Solus": [
+                false,
+                31,
+                251
+            ],
+            "Lunis": [
+                false,
+                0,
+                251
+            ],
+            "Ignis": [
+                true,
+                0,
+                null
+            ],
+            "Ventus": [
+                true,
+                0,
+                null
+            ],
+            "Fulgus": [
+                true,
+                0,
+                null
+            ],
+            "Tellus": [
+                true,
+                62,
+                251
+            ],
+            "Glacies": [
+                true,
+                0,
+                null
+            ],
+            "Aquis": [
+                true,
+                0,
+                null
+            ],
+            "Runic": [
+                false,
+                31,
+                251
+            ],
+            "Shield": [
+                false,
+                0,
+                null
+            ],
+            "Armor": [
+                false,
+                0,
+                null
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ],
+            "Valuables": [
+                false,
+                0,
+                null
+            ],
+            "Claw": [
+                false,
+                0,
+                null
+            ],
+            "Staff": [
+                false,
+                31,
+                251
+            ],
+            "Light": [
+                true,
+                31,
+                251
+            ],
+            "Anima": [
+                true,
+                62,
+                251
+            ],
+            "Dark": [
+                false,
+                0,
+                251
+            ],
+            "Earth": [
+                true,
+                62,
+                251
+            ],
+            "Magic": [
+                false,
+                31,
+                251
+            ]
+        },
+        "icon_nid": "Generic_Portrait_Sage",
+        "icon_index": [
+            0,
+            0
+        ],
+        "map_sprite_nid": "Sage",
+        "combat_anim_nid": "Sage",
         "fields": []
     },
     {
@@ -16876,43 +19389,41 @@
         "fields": []
     },
     {
-        "nid": "Vagabond",
-        "name": "Shaman",
-        "desc": "",
-        "tier": 1,
-        "movement_group": "Zabos",
-        "promotes_from": null,
+        "nid": "Mystic",
+        "name": "Mystic",
+        "desc": "An experienced wielder of the\nmagical arts on the battlefield.\nRace: Queiza",
+        "tier": 2,
+        "movement_group": "Queiza",
+        "promotes_from": "Apprentice",
         "turns_into": [],
-        "tags": [
-            "Zabos"
-        ],
+        "tags": [],
         "max_level": 20,
         "bases": {
             "LCK": 0,
-            "RES": 3,
-            "CON": 8,
+            "RES": 6,
+            "CON": 7,
             "MOV": 6,
-            "STR": 3,
-            "HP": 16,
+            "STR": 0,
+            "HP": 20,
             "MAG": 5,
-            "SKL": 3,
-            "SPD": 4,
-            "DEF": 4,
-            "MP": 14,
+            "SKL": 6,
+            "SPD": 5,
+            "DEF": 5,
+            "MP": 0,
             "WT": 0
         },
         "growths": {
-            "LCK": 35,
+            "LCK": 15,
             "RES": 40,
             "CON": 0,
             "MOV": 0,
-            "STR": 35,
-            "HP": 60,
-            "MAG": 55,
-            "SKL": 50,
-            "SPD": 55,
-            "DEF": 20,
-            "MP": 50,
+            "STR": 0,
+            "HP": 45,
+            "MAG": 45,
+            "SKL": 30,
+            "SPD": 25,
+            "DEF": 10,
+            "MP": 0,
             "WT": 0
         },
         "growth_bonus": {
@@ -16931,29 +19442,29 @@
         },
         "promotion": {
             "LCK": 0,
-            "RES": 2,
-            "CON": 2,
+            "RES": 3,
+            "CON": 1,
             "MOV": -99,
             "STR": 0,
-            "HP": 1,
-            "MAG": 2,
-            "SKL": 0,
-            "SPD": 1,
-            "DEF": 1,
+            "HP": 4,
+            "MAG": 1,
+            "SKL": 1,
+            "SPD": 0,
+            "DEF": 3,
             "MP": 0,
             "WT": 0
         },
         "max_stats": {
             "LCK": 30,
-            "RES": 20,
+            "RES": 25,
             "CON": 20,
             "MOV": 15,
             "STR": 20,
             "HP": 60,
-            "MAG": 20,
-            "SKL": 20,
-            "SPD": 20,
-            "DEF": 20,
+            "MAG": 30,
+            "SKL": 30,
+            "SPD": 26,
+            "DEF": 21,
             "MP": 30,
             "WT": 30
         },
@@ -16986,12 +19497,12 @@
             ],
             "Solus": [
                 false,
-                0,
+                31,
                 251
             ],
             "Lunis": [
                 false,
-                31,
+                0,
                 251
             ],
             "Ignis": [
@@ -17000,8 +19511,8 @@
                 null
             ],
             "Ventus": [
-                false,
-                1,
+                true,
+                0,
                 null
             ],
             "Fulgus": [
@@ -17010,23 +19521,23 @@
                 null
             ],
             "Tellus": [
-                false,
-                0,
+                true,
+                62,
                 251
             ],
             "Glacies": [
-                false,
+                true,
                 0,
                 null
             ],
             "Aquis": [
-                false,
+                true,
                 0,
                 null
             ],
             "Runic": [
                 false,
-                0,
+                31,
                 251
             ],
             "Shield": [
@@ -17056,42 +19567,42 @@
             ],
             "Staff": [
                 false,
-                0,
+                31,
                 251
             ],
             "Light": [
-                false,
-                0,
-                251
-            ],
-            "Anima": [
-                false,
-                0,
-                251
-            ],
-            "Dark": [
                 true,
                 31,
                 251
             ],
-            "Earth": [
+            "Anima": [
+                true,
+                62,
+                251
+            ],
+            "Dark": [
                 false,
                 0,
                 251
             ],
+            "Earth": [
+                true,
+                62,
+                251
+            ],
             "Magic": [
                 false,
-                0,
+                31,
                 251
             ]
         },
-        "icon_nid": "Myrmidon (F) Sword {L95}",
+        "icon_nid": "Generic_Portrait_Sage",
         "icon_index": [
             0,
             0
         ],
-        "map_sprite_nid": "Mage",
-        "combat_anim_nid": "ShamanMale",
+        "map_sprite_nid": "Sage",
+        "combat_anim_nid": "Sage",
         "fields": []
     },
     {

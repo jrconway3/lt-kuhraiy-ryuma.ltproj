@@ -1721,14 +1721,10 @@
             "hide_talk;Svetlanya;Shyara",
             "give_item;Svetlanya;Almace;force_give;no_banner",
             "give_skill;Svetlanya;Blind;no_banner",
+            "give_money;10000;no_banner",
             "#trigger_script;Trigger",
             "#base;Clearing;;Camp;True;Open Camp",
             "prep;False;;Camp;True;Open Camp",
-            "enable_fog_of_war;t",
-            "set_fog_of_war;gba;5",
-            "autolevel_to;Nala;10;dynamic",
-            "give_exp;Nala;100",
-            "set_item_uses;Svetlanya;Foil;1",
             "#music;Attack;2000",
             "#wait;5000",
             "#music;Armory;2000",
@@ -4374,7 +4370,7 @@
             "speak;{unit};Hmm... what's this?",
             "give_item;{unit};IronKnife",
             "show_layer;Village1",
-            "has_attacked;{unit}"
+            "has_visited;{unit}"
         ],
         "nid": "DEBUG Village1"
     },
@@ -4392,5 +4388,40 @@
             "end"
         ],
         "nid": "Global TraineeExpGain"
+    },
+    {
+        "name": "Village2",
+        "trigger": "Village",
+        "level_nid": "DEBUG",
+        "condition": "region.nid == 'Village2'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "speak;{unit};Hmm... what's this?",
+            "give_item;{unit};IronKnife",
+            "show_layer;Village2",
+            "has_visited;{unit}"
+        ],
+        "nid": "DEBUG Village2"
+    },
+    {
+        "name": "Arena",
+        "trigger": "Arena",
+        "level_nid": "DEBUG",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "speak;;Welcome to the arena!;top_right;160;noir",
+            "speak;;Good luck. Don't get yourself killed.|Fight 'til defeat or press B to yield.;top_right;160;noir",
+            "wait;200",
+            "speak;;So you won, eh? Here's your prize. {e:2*game.level_vars['ArenaWager']} gold.;top_right;160;noir",
+            "sound;GoldExchange",
+            "wait;200",
+            "has_visited;{unit};attacked"
+        ],
+        "nid": "DEBUG Arena"
     }
 ]
