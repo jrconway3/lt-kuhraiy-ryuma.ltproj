@@ -130,7 +130,7 @@
                 "nid": "chiylo_sold1",
                 "variant": "Female",
                 "level": 1,
-                "klass": "Soldier",
+                "klass": "Fyrd",
                 "faction": "Siegwang",
                 "starting_items": [
                     [
@@ -172,7 +172,7 @@
                 "nid": "lykon_fight1",
                 "variant": null,
                 "level": 1,
-                "klass": "Pioneer",
+                "klass": "Housecarl",
                 "faction": "Masa",
                 "starting_items": [
                     [
@@ -214,7 +214,7 @@
                 "nid": "lykon_barb1",
                 "variant": null,
                 "level": 1,
-                "klass": "Barbarian",
+                "klass": "Eofol",
                 "faction": "Masa",
                 "starting_items": [
                     [
@@ -1570,7 +1570,7 @@
                 "nid": "101",
                 "variant": null,
                 "level": 1,
-                "klass": "Pioneer",
+                "klass": "Housecarl",
                 "faction": "Siegwang",
                 "starting_items": [
                     [
@@ -1594,7 +1594,7 @@
                 "nid": "102",
                 "variant": null,
                 "level": 2,
-                "klass": "Pioneer",
+                "klass": "Housecarl",
                 "faction": "Siegwang",
                 "starting_items": [
                     [
@@ -1746,7 +1746,7 @@
                 "nid": "101",
                 "variant": null,
                 "level": 2,
-                "klass": "Soldier",
+                "klass": "Fyrd",
                 "faction": "Siegwang",
                 "starting_items": [
                     [
@@ -1770,7 +1770,7 @@
                 "nid": "102",
                 "variant": null,
                 "level": 2,
-                "klass": "Soldier",
+                "klass": "Fyrd",
                 "faction": "Siegwang",
                 "starting_items": [
                     [
@@ -1794,7 +1794,7 @@
                 "nid": "103",
                 "variant": null,
                 "level": 2,
-                "klass": "Pioneer",
+                "klass": "Housecarl",
                 "faction": "Siegwang",
                 "starting_items": [
                     [
@@ -1818,7 +1818,7 @@
                 "nid": "104",
                 "variant": null,
                 "level": 2,
-                "klass": "Pioneer",
+                "klass": "Housecarl",
                 "faction": "Siegwang",
                 "starting_items": [
                     [
@@ -1842,7 +1842,7 @@
                 "nid": "105",
                 "variant": null,
                 "level": 2,
-                "klass": "Pioneer",
+                "klass": "Housecarl",
                 "faction": "Siegwang",
                 "starting_items": [
                     [
@@ -1866,7 +1866,7 @@
                 "nid": "106",
                 "variant": null,
                 "level": 3,
-                "klass": "Soldier",
+                "klass": "Fyrd",
                 "faction": "Siegwang",
                 "starting_items": [
                     [
@@ -1890,7 +1890,7 @@
                 "nid": "107",
                 "variant": null,
                 "level": 2,
-                "klass": "Soldier",
+                "klass": "Fyrd",
                 "faction": "Siegwang",
                 "starting_items": [
                     [
@@ -1911,7 +1911,7 @@
                 "nid": "108",
                 "variant": null,
                 "level": 1,
-                "klass": "Pioneer",
+                "klass": "Housecarl",
                 "faction": "Siegwang",
                 "starting_items": [
                     [
@@ -1932,7 +1932,7 @@
                 "nid": "109",
                 "variant": null,
                 "level": 1,
-                "klass": "Pioneer",
+                "klass": "Housecarl",
                 "faction": "Siegwang",
                 "starting_items": [
                     [
@@ -2293,7 +2293,7 @@
                 "nid": "TopBandit",
                 "variant": null,
                 "level": 2,
-                "klass": "Brigand",
+                "klass": "Barbarian",
                 "faction": "Rogue",
                 "starting_items": [
                     [
@@ -2317,7 +2317,7 @@
                 "nid": "BoneBuddy",
                 "variant": null,
                 "level": 3,
-                "klass": "Brigand",
+                "klass": "Barbarian",
                 "faction": "Rogue",
                 "starting_items": [
                     [
@@ -2341,7 +2341,7 @@
                 "nid": "103",
                 "variant": null,
                 "level": 3,
-                "klass": "Brigand",
+                "klass": "Barbarian",
                 "faction": "Rogue",
                 "starting_items": [
                     [
@@ -2365,7 +2365,7 @@
                 "nid": "104",
                 "variant": null,
                 "level": 3,
-                "klass": "Brigand",
+                "klass": "Barbarian",
                 "faction": "Rogue",
                 "starting_items": [
                     [
@@ -2417,7 +2417,7 @@
                 "nid": "106",
                 "variant": null,
                 "level": 2,
-                "klass": "Brigand",
+                "klass": "Barbarian",
                 "faction": "Rogue",
                 "starting_items": [
                     [
@@ -2441,7 +2441,7 @@
                 "nid": "107",
                 "variant": null,
                 "level": 3,
-                "klass": "Brigand",
+                "klass": "Barbarian",
                 "faction": "Rogue",
                 "starting_items": [
                     [
@@ -2828,7 +2828,7 @@
                 "nid": "101",
                 "variant": null,
                 "level": 3,
-                "klass": "Brigand",
+                "klass": "Barbarian",
                 "faction": "Rogue",
                 "starting_items": [
                     [
@@ -2852,7 +2852,7 @@
                 "nid": "102",
                 "variant": null,
                 "level": 3,
-                "klass": "Brigand",
+                "klass": "Barbarian",
                 "faction": "Rogue",
                 "starting_items": [
                     [
@@ -2876,7 +2876,7 @@
                 "nid": "103",
                 "variant": null,
                 "level": 4,
-                "klass": "Brigand",
+                "klass": "Barbarian",
                 "faction": "Rogue",
                 "starting_items": [
                     [
@@ -2900,7 +2900,7 @@
                 "nid": "104",
                 "variant": null,
                 "level": 3,
-                "klass": "Brigand",
+                "klass": "Barbarian",
                 "faction": "Rogue",
                 "starting_items": [
                     [
@@ -2928,7 +2928,7 @@
                 "nid": "105",
                 "variant": null,
                 "level": 3,
-                "klass": "Brigand",
+                "klass": "Barbarian",
                 "faction": "Rogue",
                 "starting_items": [
                     [
@@ -2956,7 +2956,7 @@
                 "nid": "106",
                 "variant": null,
                 "level": 2,
-                "klass": "Brigand",
+                "klass": "Barbarian",
                 "faction": "Rogue",
                 "starting_items": [
                     [
@@ -4406,7 +4406,7 @@
                 "nid": "101",
                 "variant": null,
                 "level": 3,
-                "klass": "Soldier",
+                "klass": "Fyrd",
                 "faction": "Siegwang",
                 "starting_items": [
                     [
@@ -4454,7 +4454,7 @@
                 "nid": "103",
                 "variant": null,
                 "level": 4,
-                "klass": "Pioneer",
+                "klass": "Housecarl",
                 "faction": "Siegwang",
                 "starting_items": [
                     [
@@ -4502,7 +4502,7 @@
                 "nid": "105",
                 "variant": null,
                 "level": 5,
-                "klass": "Pioneer",
+                "klass": "Housecarl",
                 "faction": "Siegwang",
                 "starting_items": [
                     [
@@ -4550,7 +4550,7 @@
                 "nid": "107",
                 "variant": null,
                 "level": 5,
-                "klass": "Soldier",
+                "klass": "Fyrd",
                 "faction": "Siegwang",
                 "starting_items": [
                     [
@@ -4574,7 +4574,7 @@
                 "nid": "108",
                 "variant": null,
                 "level": 6,
-                "klass": "Soldier",
+                "klass": "Fyrd",
                 "faction": "Siegwang",
                 "starting_items": [
                     [
@@ -4598,7 +4598,7 @@
                 "nid": "109",
                 "variant": null,
                 "level": 6,
-                "klass": "Soldier",
+                "klass": "Fyrd",
                 "faction": "Siegwang",
                 "starting_items": [
                     [
@@ -4622,7 +4622,7 @@
                 "nid": "110",
                 "variant": null,
                 "level": 4,
-                "klass": "Pioneer",
+                "klass": "Housecarl",
                 "faction": "Siegwang",
                 "starting_items": [
                     [
@@ -4646,7 +4646,7 @@
                 "nid": "111",
                 "variant": null,
                 "level": 4,
-                "klass": "Pioneer",
+                "klass": "Housecarl",
                 "faction": "Siegwang",
                 "starting_items": [
                     [
@@ -4670,7 +4670,7 @@
                 "nid": "112",
                 "variant": null,
                 "level": 5,
-                "klass": "Soldier",
+                "klass": "Fyrd",
                 "faction": "Siegwang",
                 "starting_items": [
                     [
@@ -4694,7 +4694,7 @@
                 "nid": "113",
                 "variant": null,
                 "level": 5,
-                "klass": "Soldier",
+                "klass": "Fyrd",
                 "faction": "Siegwang",
                 "starting_items": [
                     [
@@ -4742,7 +4742,7 @@
                 "nid": "115",
                 "variant": null,
                 "level": 4,
-                "klass": "Pioneer",
+                "klass": "Housecarl",
                 "faction": "Siegwang",
                 "starting_items": [
                     [
@@ -4766,7 +4766,7 @@
                 "nid": "116",
                 "variant": null,
                 "level": 4,
-                "klass": "Brigand",
+                "klass": "Barbarian",
                 "faction": "Barbarian",
                 "starting_items": [
                     [
@@ -4787,7 +4787,7 @@
                 "nid": "117",
                 "variant": null,
                 "level": 4,
-                "klass": "Brigand",
+                "klass": "Barbarian",
                 "faction": "Barbarian",
                 "starting_items": [
                     [
@@ -4808,7 +4808,7 @@
                 "nid": "118",
                 "variant": null,
                 "level": 5,
-                "klass": "Brigand",
+                "klass": "Barbarian",
                 "faction": "Barbarian",
                 "starting_items": [
                     [
@@ -4829,7 +4829,7 @@
                 "nid": "119",
                 "variant": null,
                 "level": 5,
-                "klass": "Brigand",
+                "klass": "Barbarian",
                 "faction": "Barbarian",
                 "starting_items": [
                     [
@@ -4850,7 +4850,7 @@
                 "nid": "120",
                 "variant": null,
                 "level": 5,
-                "klass": "Brigand",
+                "klass": "Barbarian",
                 "faction": "Barbarian",
                 "starting_items": [
                     [
@@ -4871,7 +4871,7 @@
                 "nid": "121",
                 "variant": null,
                 "level": 5,
-                "klass": "Brigand",
+                "klass": "Barbarian",
                 "faction": "Barbarian",
                 "starting_items": [
                     [
@@ -5321,19 +5321,6 @@
         "tags": [],
         "units": [
             {
-                "nid": "Shyara",
-                "team": "enemy",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    2,
-                    5
-                ],
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
                 "nid": "Svetlanya",
                 "team": "player",
                 "ai": "None",
@@ -5360,60 +5347,6 @@
                 "generic": false
             },
             {
-                "nid": "Thanya",
-                "team": "player",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": null,
-                "starting_position": [
-                    1,
-                    2
-                ],
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
-                "nid": "Yarda",
-                "team": "player",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": null,
-                "starting_position": [
-                    2,
-                    2
-                ],
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
-                "nid": "101",
-                "variant": null,
-                "level": 1,
-                "klass": "Scholar",
-                "faction": "Daemon",
-                "starting_items": [
-                    [
-                        "Tendril",
-                        false
-                    ],
-                    [
-                        "Pierce",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    6,
-                    11
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
                 "nid": "Leiland",
                 "team": "player",
                 "ai": "None",
@@ -5422,19 +5355,6 @@
                 "starting_position": [
                     2,
                     3
-                ],
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
-                "nid": "Serena",
-                "team": "player",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    4,
-                    5
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -5453,20 +5373,35 @@
                 "generic": false
             },
             {
-                "nid": "Nala",
-                "team": "player",
+                "nid": "Shyara",
+                "team": "enemy",
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    3,
-                    8
+                    6,
+                    10
                 ],
                 "starting_traveler": null,
                 "generic": false
             },
             {
-                "nid": "Daniya",
+                "nid": "101",
+                "variant": null,
+                "level": 1,
+                "klass": "Scholar",
+                "faction": "Daemon",
+                "starting_items": [
+                    [
+                        "Tendril",
+                        false
+                    ],
+                    [
+                        "Leech",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
                 "team": "enemy",
                 "ai": "None",
                 "roam_ai": null,
@@ -5476,13 +5411,13 @@
                     12
                 ],
                 "starting_traveler": null,
-                "generic": false
+                "generic": true
             },
             {
                 "nid": "103",
                 "variant": "Female",
                 "level": 3,
-                "klass": "Barbarian",
+                "klass": "Brigand",
                 "faction": "Siegwang",
                 "starting_items": [
                     [
@@ -5514,7 +5449,270 @@
                 "nid": "102",
                 "variant": null,
                 "level": 1,
-                "klass": "Vagrant",
+                "klass": "Nomad",
+                "faction": "Barbarian",
+                "starting_items": [
+                    [
+                        "Iron_Sword",
+                        false
+                    ],
+                    [
+                        "Herb",
+                        true
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    6,
+                    5
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "104",
+                "variant": null,
+                "level": 2,
+                "klass": "Barbarian",
+                "faction": "Barbarian",
+                "starting_items": [
+                    [
+                        "Iron_Axe",
+                        false
+                    ],
+                    [
+                        "Potion",
+                        true
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    5,
+                    13
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "105",
+                "variant": "Female",
+                "level": 2,
+                "klass": "Hunter",
+                "faction": "Barbarian",
+                "starting_items": [
+                    [
+                        "Oak_Bow",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    10,
+                    8
+                ],
+                "starting_traveler": null,
+                "generic": true
+            }
+        ],
+        "regions": [
+            {
+                "nid": "Armory",
+                "region_type": "event",
+                "position": [
+                    12,
+                    3
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Armory",
+                "condition": "True",
+                "time_left": null,
+                "only_once": true,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "Village1",
+                "region_type": "event",
+                "position": [
+                    4,
+                    2
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Village",
+                "condition": "True",
+                "time_left": null,
+                "only_once": true,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "Village2",
+                "region_type": "event",
+                "position": [
+                    7,
+                    2
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Village",
+                "condition": "True",
+                "time_left": null,
+                "only_once": true,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "Arena",
+                "region_type": "event",
+                "position": [
+                    5,
+                    7
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Arena",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            }
+        ],
+        "unit_groups": [],
+        "ai_groups": []
+    },
+    {
+        "nid": "DEBUG3",
+        "name": "DEBUG",
+        "tilemap": "Ch0",
+        "bg_tilemap": null,
+        "party": "Svetlanya",
+        "music": {
+            "player_phase": "Chapter - Simple (Riviera, Heaven's Gate by Pikmin1211)",
+            "enemy_phase": null,
+            "other_phase": null,
+            "enemy2_phase": null,
+            "player_battle": "Battle - Attack (Triangle Strategy, Combat - Destiny by Kaidras)",
+            "enemy_battle": null,
+            "other_battle": null,
+            "enemy2_battle": null
+        },
+        "objective": {
+            "simple": "DEBUG",
+            "win": "Don't Crash",
+            "loss": "Crash"
+        },
+        "roam": false,
+        "roam_unit": null,
+        "go_to_overworld": false,
+        "should_record": true,
+        "tags": [],
+        "units": [
+            {
+                "nid": "Svetlanya",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    9,
+                    17
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Amaya",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    18,
+                    9
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Thanya",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": [
+                    11,
+                    18
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Leiland",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    17,
+                    8
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Isabella",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    19,
+                    7
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Shyara",
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    4,
+                    11
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "102",
+                "variant": null,
+                "level": 1,
+                "klass": "Nomad",
                 "faction": "Barbarian",
                 "starting_items": [
                     [
@@ -5528,31 +5726,7 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    7,
-                    4
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "104",
-                "variant": null,
-                "level": 2,
-                "klass": "Brigand",
-                "faction": "Barbarian",
-                "starting_items": [
-                    [
-                        "Iron_Axe",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Attack",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    5,
+                    2,
                     10
                 ],
                 "starting_traveler": null,
@@ -5576,8 +5750,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    7,
-                    10
+                    6,
+                    8
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -5789,7 +5963,7 @@
                 "nid": "chiylo_sold1",
                 "variant": "Female",
                 "level": 1,
-                "klass": "Soldier",
+                "klass": "Fyrd",
                 "faction": "Siegwang",
                 "starting_items": [
                     [
@@ -5831,7 +6005,7 @@
                 "nid": "lykon_fight1",
                 "variant": null,
                 "level": 1,
-                "klass": "Pioneer",
+                "klass": "Housecarl",
                 "faction": "Masa",
                 "starting_items": [
                     [
@@ -5873,7 +6047,7 @@
                 "nid": "lykon_barb1",
                 "variant": null,
                 "level": 1,
-                "klass": "Barbarian",
+                "klass": "Eofol",
                 "faction": "Masa",
                 "starting_items": [
                     [

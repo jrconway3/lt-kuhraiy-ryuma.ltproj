@@ -55,7 +55,7 @@
                 false
             ],
             [
-                "Herb",
+                "Potion",
                 false
             ]
         ],
@@ -63,14 +63,6 @@
             [
                 1,
                 "Inspiration"
-            ],
-            [
-                1,
-                "Blessing_of_Mana"
-            ],
-            [
-                1,
-                "Shove"
             ]
         ],
         "unit_notes": [],
@@ -602,7 +594,7 @@
         "name": "Leiland",
         "desc": "Heir to House Renald and adoptive brother of Svetlanya. He dotes on her, but is stern with his duty.",
         "variant": "",
-        "level": 12,
+        "level": 8,
         "klass": "WolfPrince",
         "tags": [
             "Lord",
@@ -1116,37 +1108,37 @@
         "name": "Isabella",
         "desc": "Heir of House Toirahm of Siegwang.",
         "variant": "Female",
-        "level": 7,
-        "klass": "Myrmidon",
+        "level": 5,
+        "klass": "Shieldmaiden",
         "tags": [
             "Katana"
         ],
         "bases": {
             "LCK": 0,
-            "RES": 0,
+            "RES": 1,
             "CON": 0,
             "MOV": 0,
-            "STR": 0,
-            "HP": 0,
-            "MAG": 0,
-            "SKL": 0,
-            "SPD": 0,
-            "DEF": 0,
-            "MP": 0,
+            "STR": 2,
+            "HP": 6,
+            "MAG": 2,
+            "SKL": 3,
+            "SPD": 4,
+            "DEF": 3,
+            "MP": 3,
             "WT": 0
         },
         "growths": {
             "LCK": 0,
-            "RES": 0,
+            "RES": 15,
             "CON": 0,
             "MOV": 0,
-            "STR": 0,
+            "STR": 5,
             "HP": 0,
-            "MAG": 0,
+            "MAG": 15,
             "SKL": 0,
-            "SPD": 0,
+            "SPD": 5,
             "DEF": 0,
-            "MP": 0,
+            "MP": 10,
             "WT": 0
         },
         "stat_cap_modifiers": {
@@ -1166,10 +1158,6 @@
         "starting_items": [
             [
                 "Steel_Katana",
-                false
-            ],
-            [
-                "LightBrand",
                 false
             ]
         ],
@@ -1250,6 +1238,11 @@
                 false,
                 0,
                 251
+            ],
+            "Fulgus": [
+                false,
+                1,
+                null
             ]
         },
         "alternate_classes": [],
@@ -1268,7 +1261,7 @@
         "desc": "A skilled mage from a far away land. Having resided in Oestridel for some time, he became a retainer for Lady Svetlanya.",
         "variant": "",
         "level": 4,
-        "klass": "Vagabond",
+        "klass": "Flamebearer",
         "tags": [
             "Zabos"
         ],
@@ -1675,7 +1668,7 @@
             ],
             "Lance": [
                 true,
-                31,
+                0,
                 251
             ],
             "Axe": [
@@ -1750,7 +1743,7 @@
             ],
             "Dagger": [
                 false,
-                1,
+                0,
                 null
             ]
         },
@@ -4289,7 +4282,7 @@
         "desc": "",
         "variant": "",
         "level": 1,
-        "klass": "Pioneer",
+        "klass": "Housecarl",
         "tags": [],
         "bases": {
             "LCK": 4,
@@ -5119,7 +5112,7 @@
         "desc": "A Lykon hailing from the island nation of Avalar. He joined the knights to form stronger bonds between their nations.",
         "variant": "",
         "level": 4,
-        "klass": "Brigand",
+        "klass": "Barbarian",
         "tags": [],
         "bases": {
             "LCK": 0,
@@ -6868,7 +6861,7 @@
         "desc": "Leader of a group of desert dwelling barbarian lykons. Admires her elder sister Fayza deeply.",
         "variant": "Female",
         "level": 4,
-        "klass": "Vagrant",
+        "klass": "Nomad",
         "tags": [
             "Boss"
         ],
@@ -7010,7 +7003,7 @@
         "desc": "Fierce warrior woman from the Valley of Jehara. She values strength above all else and looks down upon the weak.",
         "variant": "",
         "level": 6,
-        "klass": "Brigand",
+        "klass": "Barbarian",
         "tags": [
             "Boss"
         ],

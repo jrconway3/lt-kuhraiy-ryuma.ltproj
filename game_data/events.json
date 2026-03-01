@@ -1707,20 +1707,20 @@
             "#level_var;_fog_of_war;1",
             "#level_var;_fog_of_war_radius;3",
             "#level_var;_ai_fog_of_war_radius;5",
+            "enable_convoy;t",
             "add_lore;Svetlanya",
             "add_base_convo;Dreams of Home",
             "add_weather;rain",
             "set_wexp;Svetlanya;Aquis;121;no_banner",
+            "give_skill;Svetlanya;Blind;no_banner",
             "give_skill;Svetlanya;Lanquiz;no_banner",
             "game_var;_supports;True",
             "add_talk;Svetlanya;Amaya",
-            "add_talk;Svetlanya;Serena",
             "add_talk;Svetlanya;Leiland",
             "add_talk;Svetlanya;Shyara",
             "add_talk;Leiland;Svetlanya",
             "hide_talk;Svetlanya;Shyara",
             "give_item;Svetlanya;Almace;force_give;no_banner",
-            "give_skill;Svetlanya;Blind;no_banner",
             "give_money;10000;no_banner",
             "#trigger_script;Trigger",
             "#base;Clearing;;Camp;True;Open Camp",
@@ -4423,5 +4423,18 @@
             "has_visited;{unit};attacked"
         ],
         "nid": "DEBUG Arena"
+    },
+    {
+        "name": "SupportInit",
+        "trigger": "level_start",
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 98,
+        "_source": [
+            "enable_supports;t"
+        ],
+        "nid": "Global SupportInit"
     }
 ]

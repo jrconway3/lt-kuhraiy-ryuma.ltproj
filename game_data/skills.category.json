@@ -28,6 +28,7 @@
     "Drill_Instructor": "Passive",
     "Eclipse_Helper": "Hidden",
     "Flying": "Movement",
+    "FlyingMelee": "Movement",
     "Forest": "Terrain",
     "Fort": "Terrain",
     "Freeze": "Statuses/Negative",

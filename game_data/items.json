@@ -336,6 +336,14 @@
                 [
                     "Sword"
                 ]
+            ],
+            [
+                "custom_uses_color",
+                {
+                    "color": "yellow",
+                    "override_unavailable": false,
+                    "override_droppable": false
+                }
             ]
         ]
     },
@@ -3635,6 +3643,14 @@
                 [
                     "IgnisL"
                 ]
+            ],
+            [
+                "custom_uses_color",
+                {
+                    "color": "red",
+                    "override_unavailable": false,
+                    "override_droppable": false
+                }
             ]
         ]
     },
@@ -9545,7 +9561,7 @@
     {
         "nid": "Oak_Bow",
         "name": "Oak Bow",
-        "desc": "Eff vs avyons.",
+        "desc": "",
         "icon_nid": "{Beansy} {Bows} All Icons",
         "icon_index": [
             0,
@@ -9586,7 +9602,7 @@
             ],
             [
                 "uses",
-                60
+                20
             ],
             [
                 "uses_options",
@@ -10387,409 +10403,6 @@
         ]
     },
     {
-        "nid": "Heal_Arrow",
-        "name": "Heal Arrow",
-        "desc": "Water magic. Restores some HP. Cannot deal damage.",
-        "icon_nid": "{Beansy} {Bows} All Icons",
-        "icon_index": [
-            3,
-            1
-        ],
-        "components": [
-            [
-                "weapon",
-                null
-            ],
-            [
-                "level_exp",
-                null
-            ],
-            [
-                "hit",
-                80
-            ],
-            [
-                "equation_heal",
-                "HEAL"
-            ],
-            [
-                "weapon_type",
-                "Bow"
-            ],
-            [
-                "weapon_rank",
-                "E"
-            ],
-            [
-                "uses",
-                20
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
-                "value",
-                2000
-            ],
-            [
-                "min_range",
-                2
-            ],
-            [
-                "max_range",
-                3
-            ],
-            [
-                "no_double",
-                null
-            ],
-            [
-                "target_unit",
-                null
-            ]
-        ]
-    },
-    {
-        "nid": "Fire_Arrow",
-        "name": "Fire Arrow",
-        "desc": "Fire magic. Eff vs lykons, wolves.",
-        "icon_nid": "{Beansy} {Bows} All Icons",
-        "icon_index": [
-            3,
-            1
-        ],
-        "components": [
-            [
-                "weapon",
-                null
-            ],
-            [
-                "target_enemy",
-                null
-            ],
-            [
-                "level_exp",
-                null
-            ],
-            [
-                "damage",
-                4
-            ],
-            [
-                "hit",
-                95
-            ],
-            [
-                "weapon_type",
-                "Bow"
-            ],
-            [
-                "weapon_rank",
-                "D"
-            ],
-            [
-                "uses",
-                35
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
-                "weight",
-                3
-            ],
-            [
-                "crit",
-                0
-            ],
-            [
-                "value",
-                1200
-            ],
-            [
-                "min_range",
-                2
-            ],
-            [
-                "max_range",
-                2
-            ],
-            [
-                "effective_damage",
-                {
-                    "effective_tags": [
-                        "Wolf",
-                        "Lykon"
-                    ],
-                    "effective_multiplier": 1.0,
-                    "effective_bonus_damage": 26,
-                    "show_effectiveness_flash": true,
-                    "weapon_effectiveness_multiplied": true
-                }
-            ]
-        ]
-    },
-    {
-        "nid": "Thunderbolt",
-        "name": "Thunderbolt",
-        "desc": "Lightning magic. Eff vs quieiza, armor.",
-        "icon_nid": "{Beansy} {Bows} All Icons",
-        "icon_index": [
-            3,
-            1
-        ],
-        "components": [
-            [
-                "weapon",
-                null
-            ],
-            [
-                "target_enemy",
-                null
-            ],
-            [
-                "level_exp",
-                null
-            ],
-            [
-                "damage",
-                8
-            ],
-            [
-                "hit",
-                85
-            ],
-            [
-                "weapon_type",
-                "Bow"
-            ],
-            [
-                "weapon_rank",
-                "C"
-            ],
-            [
-                "uses",
-                25
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
-                "weight",
-                7
-            ],
-            [
-                "crit",
-                10
-            ],
-            [
-                "value",
-                1800
-            ],
-            [
-                "min_range",
-                2
-            ],
-            [
-                "max_range",
-                2
-            ],
-            [
-                "effective_damage",
-                {
-                    "effective_tags": [
-                        "Wolf",
-                        "Lykon"
-                    ],
-                    "effective_multiplier": 1.0,
-                    "effective_bonus_damage": 26,
-                    "show_effectiveness_flash": true,
-                    "weapon_effectiveness_multiplied": true
-                }
-            ]
-        ]
-    },
-    {
-        "nid": "Light_Arrow",
-        "name": "Light Arrow",
-        "desc": "Holy magic. Eff vs daemons.",
-        "icon_nid": "{Beansy} {Bows} All Icons",
-        "icon_index": [
-            3,
-            1
-        ],
-        "components": [
-            [
-                "weapon",
-                null
-            ],
-            [
-                "target_enemy",
-                null
-            ],
-            [
-                "level_exp",
-                null
-            ],
-            [
-                "damage",
-                9
-            ],
-            [
-                "hit",
-                90
-            ],
-            [
-                "weapon_type",
-                "Bow"
-            ],
-            [
-                "weapon_rank",
-                "B"
-            ],
-            [
-                "uses",
-                20
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
-                "weight",
-                9
-            ],
-            [
-                "crit",
-                0
-            ],
-            [
-                "value",
-                2500
-            ],
-            [
-                "min_range",
-                2
-            ],
-            [
-                "max_range",
-                2
-            ],
-            [
-                "effective_damage",
-                {
-                    "effective_tags": [
-                        "Wolf",
-                        "Lykon"
-                    ],
-                    "effective_multiplier": 1.0,
-                    "effective_bonus_damage": 26,
-                    "show_effectiveness_flash": true,
-                    "weapon_effectiveness_multiplied": true
-                }
-            ]
-        ]
-    },
-    {
-        "nid": "Gandiva",
-        "name": "Gandiva",
-        "desc": "Sacred Bow of Valynmur.",
-        "icon_nid": "{Beansy} {Bows} All Icons",
-        "icon_index": [
-            3,
-            1
-        ],
-        "components": [
-            [
-                "weapon",
-                null
-            ],
-            [
-                "target_enemy",
-                null
-            ],
-            [
-                "level_exp",
-                null
-            ],
-            [
-                "damage",
-                12
-            ],
-            [
-                "hit",
-                90
-            ],
-            [
-                "weapon_type",
-                "Bow"
-            ],
-            [
-                "weapon_rank",
-                "S"
-            ],
-            [
-                "uses",
-                20
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
-                "weight",
-                5
-            ],
-            [
-                "crit",
-                0
-            ],
-            [
-                "value",
-                4000
-            ],
-            [
-                "min_range",
-                1
-            ],
-            [
-                "max_range",
-                2
-            ],
-            [
-                "effective_damage",
-                {
-                    "effective_tags": [
-                        "Wolf",
-                        "Lykon"
-                    ],
-                    "effective_multiplier": 1.0,
-                    "effective_bonus_damage": 26,
-                    "show_effectiveness_flash": true,
-                    "weapon_effectiveness_multiplied": true
-                }
-            ]
-        ]
-    },
-    {
         "nid": "Oak_Longbow",
         "name": "Oak Longbow",
         "desc": "Can attack at a distance. Eff vs avyons.",
@@ -11278,6 +10891,488 @@
                     ],
                     "effective_multiplier": 1.0,
                     "effective_bonus_damage": 36,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
+            ]
+        ]
+    },
+    {
+        "nid": "Bronze_Arrow",
+        "name": "Bronze Arrow",
+        "desc": "Eff vs avyons.",
+        "icon_nid": "{Beansy} {Bows} All Icons",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "value",
+                500
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                2
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "damage",
+                4
+            ],
+            [
+                "hit",
+                100
+            ],
+            [
+                "weight",
+                3
+            ],
+            [
+                "uses",
+                60
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Bow"
+            ],
+            [
+                "weapon_rank",
+                "E"
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "Flying"
+                    ],
+                    "effective_multiplier": 1.0,
+                    "effective_bonus_damage": 12,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
+            ]
+        ]
+    },
+    {
+        "nid": "Heal_Arrow",
+        "name": "Heal Arrow",
+        "desc": "Water magic. Restores some HP. Cannot deal damage.",
+        "icon_nid": "{Beansy} {Bows} All Icons",
+        "icon_index": [
+            3,
+            1
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "hit",
+                80
+            ],
+            [
+                "equation_heal",
+                "HEAL"
+            ],
+            [
+                "weapon_type",
+                "Bow"
+            ],
+            [
+                "weapon_rank",
+                "E"
+            ],
+            [
+                "uses",
+                20
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "value",
+                2000
+            ],
+            [
+                "min_range",
+                2
+            ],
+            [
+                "max_range",
+                3
+            ],
+            [
+                "no_double",
+                null
+            ],
+            [
+                "target_unit",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Fire_Arrow",
+        "name": "Fire Arrow",
+        "desc": "Fire magic. Eff vs lykons, wolves.",
+        "icon_nid": "{Beansy} {Bows} All Icons",
+        "icon_index": [
+            3,
+            1
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "damage",
+                4
+            ],
+            [
+                "hit",
+                95
+            ],
+            [
+                "weapon_type",
+                "Bow"
+            ],
+            [
+                "weapon_rank",
+                "D"
+            ],
+            [
+                "uses",
+                35
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "weight",
+                3
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "value",
+                1200
+            ],
+            [
+                "min_range",
+                2
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "Wolf",
+                        "Lykon"
+                    ],
+                    "effective_multiplier": 1.0,
+                    "effective_bonus_damage": 26,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
+            ]
+        ]
+    },
+    {
+        "nid": "Thunderbolt",
+        "name": "Thunderbolt",
+        "desc": "Lightning magic. Eff vs quieiza, armor.",
+        "icon_nid": "{Beansy} {Bows} All Icons",
+        "icon_index": [
+            3,
+            1
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "damage",
+                8
+            ],
+            [
+                "hit",
+                85
+            ],
+            [
+                "weapon_type",
+                "Bow"
+            ],
+            [
+                "weapon_rank",
+                "C"
+            ],
+            [
+                "uses",
+                25
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "weight",
+                7
+            ],
+            [
+                "crit",
+                10
+            ],
+            [
+                "value",
+                1800
+            ],
+            [
+                "min_range",
+                2
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "Wolf",
+                        "Lykon"
+                    ],
+                    "effective_multiplier": 1.0,
+                    "effective_bonus_damage": 26,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
+            ]
+        ]
+    },
+    {
+        "nid": "Light_Arrow",
+        "name": "Light Arrow",
+        "desc": "Holy magic. Eff vs daemons.",
+        "icon_nid": "{Beansy} {Bows} All Icons",
+        "icon_index": [
+            3,
+            1
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "damage",
+                9
+            ],
+            [
+                "hit",
+                90
+            ],
+            [
+                "weapon_type",
+                "Bow"
+            ],
+            [
+                "weapon_rank",
+                "B"
+            ],
+            [
+                "uses",
+                20
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "weight",
+                9
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "value",
+                2500
+            ],
+            [
+                "min_range",
+                2
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "Wolf",
+                        "Lykon"
+                    ],
+                    "effective_multiplier": 1.0,
+                    "effective_bonus_damage": 26,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
+            ]
+        ]
+    },
+    {
+        "nid": "Gandiva",
+        "name": "Gandiva",
+        "desc": "Sacred Bow of Valynmur.",
+        "icon_nid": "{Beansy} {Bows} All Icons",
+        "icon_index": [
+            3,
+            1
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "damage",
+                12
+            ],
+            [
+                "hit",
+                90
+            ],
+            [
+                "weapon_type",
+                "Bow"
+            ],
+            [
+                "weapon_rank",
+                "S"
+            ],
+            [
+                "uses",
+                20
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "weight",
+                5
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "value",
+                4000
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "Wolf",
+                        "Lykon"
+                    ],
+                    "effective_multiplier": 1.0,
+                    "effective_bonus_damage": 26,
                     "show_effectiveness_flash": true,
                     "weapon_effectiveness_multiplied": true
                 }
@@ -12512,6 +12607,10 @@
             [
                 "locked",
                 null
+            ],
+            [
+                "blank_uses",
+                null
             ]
         ]
     },
@@ -12574,8 +12673,18 @@
                 3
             ],
             [
+                "mana_uses_options",
+                {
+                    "cost_mana_on_miss": false,
+                    "one_mana_cost_per_combat": false
+                }
+            ],
+            [
                 "mana_cost_as_uses",
-                null
+                {
+                    "text": "",
+                    "color": ""
+                }
             ],
             [
                 "status_on_hit",
@@ -12658,8 +12767,18 @@
                 2
             ],
             [
+                "mana_uses_options",
+                {
+                    "cost_mana_on_miss": false,
+                    "one_mana_cost_per_combat": false
+                }
+            ],
+            [
                 "mana_cost_as_uses",
-                null
+                {
+                    "text": "",
+                    "color": ""
+                }
             ]
         ]
     },
@@ -12726,8 +12845,18 @@
                 4
             ],
             [
+                "mana_uses_options",
+                {
+                    "cost_mana_on_miss": false,
+                    "one_mana_cost_per_combat": false
+                }
+            ],
+            [
                 "mana_cost_as_uses",
-                null
+                {
+                    "text": "",
+                    "color": ""
+                }
             ]
         ]
     },
@@ -12793,8 +12922,18 @@
                 10
             ],
             [
+                "mana_uses_options",
+                {
+                    "cost_mana_on_miss": false,
+                    "one_mana_cost_per_combat": false
+                }
+            ],
+            [
                 "mana_cost_as_uses",
-                null
+                {
+                    "text": "",
+                    "color": ""
+                }
             ]
         ]
     },
@@ -12857,8 +12996,18 @@
                 3
             ],
             [
+                "mana_uses_options",
+                {
+                    "cost_mana_on_miss": false,
+                    "one_mana_cost_per_combat": false
+                }
+            ],
+            [
                 "mana_cost_as_uses",
-                null
+                {
+                    "text": "",
+                    "color": ""
+                }
             ]
         ]
     },
@@ -12921,8 +13070,18 @@
                 5
             ],
             [
+                "mana_uses_options",
+                {
+                    "cost_mana_on_miss": false,
+                    "one_mana_cost_per_combat": false
+                }
+            ],
+            [
                 "mana_cost_as_uses",
-                null
+                {
+                    "text": "",
+                    "color": ""
+                }
             ]
         ]
     },
@@ -13019,8 +13178,18 @@
                 1
             ],
             [
+                "mana_uses_options",
+                {
+                    "cost_mana_on_miss": false,
+                    "one_mana_cost_per_combat": false
+                }
+            ],
+            [
                 "mana_cost_as_uses",
-                null
+                {
+                    "text": "",
+                    "color": ""
+                }
             ]
         ]
     },
@@ -13117,8 +13286,18 @@
                 2
             ],
             [
+                "mana_uses_options",
+                {
+                    "cost_mana_on_miss": false,
+                    "one_mana_cost_per_combat": false
+                }
+            ],
+            [
                 "mana_cost_as_uses",
-                null
+                {
+                    "text": "",
+                    "color": ""
+                }
             ]
         ]
     },
@@ -13211,8 +13390,18 @@
                 4
             ],
             [
+                "mana_uses_options",
+                {
+                    "cost_mana_on_miss": false,
+                    "one_mana_cost_per_combat": false
+                }
+            ],
+            [
                 "mana_cost_as_uses",
-                null
+                {
+                    "text": "",
+                    "color": ""
+                }
             ]
         ]
     },
@@ -13309,8 +13498,18 @@
                 15
             ],
             [
+                "mana_uses_options",
+                {
+                    "cost_mana_on_miss": false,
+                    "one_mana_cost_per_combat": false
+                }
+            ],
+            [
                 "mana_cost_as_uses",
-                null
+                {
+                    "text": "",
+                    "color": ""
+                }
             ]
         ]
     },
@@ -13414,8 +13613,18 @@
                 7
             ],
             [
+                "mana_uses_options",
+                {
+                    "cost_mana_on_miss": false,
+                    "one_mana_cost_per_combat": false
+                }
+            ],
+            [
                 "mana_cost_as_uses",
-                null
+                {
+                    "text": "",
+                    "color": ""
+                }
             ]
         ]
     },
@@ -13512,8 +13721,18 @@
                 10
             ],
             [
+                "mana_uses_options",
+                {
+                    "cost_mana_on_miss": false,
+                    "one_mana_cost_per_combat": false
+                }
+            ],
+            [
                 "mana_cost_as_uses",
-                null
+                {
+                    "text": "",
+                    "color": ""
+                }
             ]
         ]
     },
@@ -13612,8 +13831,18 @@
                 5
             ],
             [
+                "mana_uses_options",
+                {
+                    "cost_mana_on_miss": false,
+                    "one_mana_cost_per_combat": false
+                }
+            ],
+            [
                 "mana_cost_as_uses",
-                null
+                {
+                    "text": "",
+                    "color": ""
+                }
             ]
         ]
     },
@@ -13750,8 +13979,18 @@
                 3
             ],
             [
+                "mana_uses_options",
+                {
+                    "cost_mana_on_miss": false,
+                    "one_mana_cost_per_combat": false
+                }
+            ],
+            [
                 "mana_cost_as_uses",
-                null
+                {
+                    "text": "",
+                    "color": ""
+                }
             ],
             [
                 "status_on_hit",
@@ -13834,8 +14073,18 @@
                 2
             ],
             [
+                "mana_uses_options",
+                {
+                    "cost_mana_on_miss": false,
+                    "one_mana_cost_per_combat": false
+                }
+            ],
+            [
                 "mana_cost_as_uses",
-                null
+                {
+                    "text": "",
+                    "color": ""
+                }
             ]
         ]
     },
@@ -13902,8 +14151,18 @@
                 5
             ],
             [
+                "mana_uses_options",
+                {
+                    "cost_mana_on_miss": false,
+                    "one_mana_cost_per_combat": false
+                }
+            ],
+            [
                 "mana_cost_as_uses",
-                null
+                {
+                    "text": "",
+                    "color": ""
+                }
             ]
         ]
     },
@@ -14001,8 +14260,18 @@
                 5
             ],
             [
+                "mana_uses_options",
+                {
+                    "cost_mana_on_miss": false,
+                    "one_mana_cost_per_combat": false
+                }
+            ],
+            [
                 "mana_cost_as_uses",
-                null
+                {
+                    "text": "",
+                    "color": ""
+                }
             ],
             [
                 "target_tile",
@@ -14073,8 +14342,18 @@
                 4
             ],
             [
+                "mana_uses_options",
+                {
+                    "cost_mana_on_miss": false,
+                    "one_mana_cost_per_combat": false
+                }
+            ],
+            [
                 "mana_cost_as_uses",
-                null
+                {
+                    "text": "",
+                    "color": ""
+                }
             ]
         ]
     },
@@ -14137,8 +14416,18 @@
                 1
             ],
             [
+                "mana_uses_options",
+                {
+                    "cost_mana_on_miss": false,
+                    "one_mana_cost_per_combat": false
+                }
+            ],
+            [
                 "mana_cost_as_uses",
-                null
+                {
+                    "text": "",
+                    "color": ""
+                }
             ]
         ]
     },
@@ -14243,8 +14532,18 @@
                 1
             ],
             [
+                "mana_uses_options",
+                {
+                    "cost_mana_on_miss": false,
+                    "one_mana_cost_per_combat": false
+                }
+            ],
+            [
                 "mana_cost_as_uses",
-                null
+                {
+                    "text": "",
+                    "color": ""
+                }
             ],
             [
                 "weapon_type",
@@ -14345,8 +14644,18 @@
                 2
             ],
             [
+                "mana_uses_options",
+                {
+                    "cost_mana_on_miss": false,
+                    "one_mana_cost_per_combat": false
+                }
+            ],
+            [
                 "mana_cost_as_uses",
-                null
+                {
+                    "text": "",
+                    "color": ""
+                }
             ]
         ]
     },
@@ -14443,8 +14752,18 @@
                 4
             ],
             [
+                "mana_uses_options",
+                {
+                    "cost_mana_on_miss": false,
+                    "one_mana_cost_per_combat": false
+                }
+            ],
+            [
                 "mana_cost_as_uses",
-                null
+                {
+                    "text": "",
+                    "color": ""
+                }
             ]
         ]
     },
@@ -14541,8 +14860,18 @@
                 7
             ],
             [
+                "mana_uses_options",
+                {
+                    "cost_mana_on_miss": false,
+                    "one_mana_cost_per_combat": false
+                }
+            ],
+            [
                 "mana_cost_as_uses",
-                null
+                {
+                    "text": "",
+                    "color": ""
+                }
             ]
         ]
     },
@@ -14639,8 +14968,18 @@
                 15
             ],
             [
+                "mana_uses_options",
+                {
+                    "cost_mana_on_miss": false,
+                    "one_mana_cost_per_combat": false
+                }
+            ],
+            [
                 "mana_cost_as_uses",
-                null
+                {
+                    "text": "",
+                    "color": ""
+                }
             ]
         ]
     },
@@ -14737,8 +15076,18 @@
                 10
             ],
             [
+                "mana_uses_options",
+                {
+                    "cost_mana_on_miss": false,
+                    "one_mana_cost_per_combat": false
+                }
+            ],
+            [
                 "mana_cost_as_uses",
-                null
+                {
+                    "text": "",
+                    "color": ""
+                }
             ]
         ]
     },
@@ -14934,8 +15283,18 @@
                 3
             ],
             [
+                "mana_uses_options",
+                {
+                    "cost_mana_on_miss": false,
+                    "one_mana_cost_per_combat": false
+                }
+            ],
+            [
                 "mana_cost_as_uses",
-                null
+                {
+                    "text": "",
+                    "color": ""
+                }
             ]
         ]
     },
@@ -15014,8 +15373,18 @@
                 2
             ],
             [
+                "mana_uses_options",
+                {
+                    "cost_mana_on_miss": false,
+                    "one_mana_cost_per_combat": false
+                }
+            ],
+            [
                 "mana_cost_as_uses",
-                null
+                {
+                    "text": "",
+                    "color": ""
+                }
             ]
         ]
     },
@@ -15078,8 +15447,18 @@
                 6
             ],
             [
+                "mana_uses_options",
+                {
+                    "cost_mana_on_miss": false,
+                    "one_mana_cost_per_combat": false
+                }
+            ],
+            [
                 "mana_cost_as_uses",
-                null
+                {
+                    "text": "",
+                    "color": ""
+                }
             ]
         ]
     },
@@ -15149,8 +15528,18 @@
                 12
             ],
             [
+                "mana_uses_options",
+                {
+                    "cost_mana_on_miss": false,
+                    "one_mana_cost_per_combat": false
+                }
+            ],
+            [
                 "mana_cost_as_uses",
-                null
+                {
+                    "text": "",
+                    "color": ""
+                }
             ]
         ]
     },
@@ -15301,8 +15690,18 @@
                 4
             ],
             [
+                "mana_uses_options",
+                {
+                    "cost_mana_on_miss": false,
+                    "one_mana_cost_per_combat": false
+                }
+            ],
+            [
                 "mana_cost_as_uses",
-                null
+                {
+                    "text": "",
+                    "color": ""
+                }
             ]
         ]
     },
@@ -15391,16 +15790,22 @@
                 }
             ],
             [
-                "mana_cost",
-                2
+                "hp_cost",
+                6
             ],
             [
-                "mana_cost_as_uses",
-                null
+                "hp_uses_options",
+                {
+                    "cost_hp_on_miss": true,
+                    "one_hp_cost_per_combat": false
+                }
             ],
             [
-                "remaining_mana_uses",
-                null
+                "hp_cost_as_uses",
+                {
+                    "text": "",
+                    "color": ""
+                }
             ]
         ]
     },
@@ -15493,8 +15898,18 @@
                 3
             ],
             [
+                "mana_uses_options",
+                {
+                    "cost_mana_on_miss": false,
+                    "one_mana_cost_per_combat": false
+                }
+            ],
+            [
                 "mana_cost_as_uses",
-                null
+                {
+                    "text": "",
+                    "color": ""
+                }
             ]
         ]
     },
@@ -15587,8 +16002,18 @@
                 5
             ],
             [
+                "mana_uses_options",
+                {
+                    "cost_mana_on_miss": false,
+                    "one_mana_cost_per_combat": false
+                }
+            ],
+            [
                 "mana_cost_as_uses",
-                null
+                {
+                    "text": "",
+                    "color": ""
+                }
             ]
         ]
     },
@@ -15681,8 +16106,18 @@
                 7
             ],
             [
+                "mana_uses_options",
+                {
+                    "cost_mana_on_miss": false,
+                    "one_mana_cost_per_combat": false
+                }
+            ],
+            [
                 "mana_cost_as_uses",
-                null
+                {
+                    "text": "",
+                    "color": ""
+                }
             ]
         ]
     },
@@ -15775,8 +16210,18 @@
                 17
             ],
             [
+                "mana_uses_options",
+                {
+                    "cost_mana_on_miss": false,
+                    "one_mana_cost_per_combat": false
+                }
+            ],
+            [
                 "mana_cost_as_uses",
-                null
+                {
+                    "text": "",
+                    "color": ""
+                }
             ]
         ]
     },
@@ -15869,8 +16314,18 @@
                 13
             ],
             [
+                "mana_uses_options",
+                {
+                    "cost_mana_on_miss": false,
+                    "one_mana_cost_per_combat": false
+                }
+            ],
+            [
                 "mana_cost_as_uses",
-                null
+                {
+                    "text": "",
+                    "color": ""
+                }
             ]
         ]
     },
@@ -16007,8 +16462,18 @@
                 5
             ],
             [
+                "mana_uses_options",
+                {
+                    "cost_mana_on_miss": false,
+                    "one_mana_cost_per_combat": false
+                }
+            ],
+            [
                 "mana_cost_as_uses",
-                null
+                {
+                    "text": "",
+                    "color": ""
+                }
             ]
         ]
     },
@@ -16071,8 +16536,18 @@
                 2
             ],
             [
+                "mana_uses_options",
+                {
+                    "cost_mana_on_miss": false,
+                    "one_mana_cost_per_combat": false
+                }
+            ],
+            [
                 "mana_cost_as_uses",
-                null
+                {
+                    "text": "",
+                    "color": ""
+                }
             ]
         ]
     },
@@ -16139,8 +16614,18 @@
                 3
             ],
             [
+                "mana_uses_options",
+                {
+                    "cost_mana_on_miss": false,
+                    "one_mana_cost_per_combat": false
+                }
+            ],
+            [
                 "mana_cost_as_uses",
-                null
+                {
+                    "text": "",
+                    "color": ""
+                }
             ],
             [
                 "map_cast_anim",
@@ -16207,8 +16692,18 @@
                 4
             ],
             [
+                "mana_uses_options",
+                {
+                    "cost_mana_on_miss": false,
+                    "one_mana_cost_per_combat": false
+                }
+            ],
+            [
                 "mana_cost_as_uses",
-                null
+                {
+                    "text": "",
+                    "color": ""
+                }
             ]
         ]
     },
@@ -16283,8 +16778,18 @@
                 8
             ],
             [
+                "mana_uses_options",
+                {
+                    "cost_mana_on_miss": false,
+                    "one_mana_cost_per_combat": false
+                }
+            ],
+            [
                 "mana_cost_as_uses",
-                null
+                {
+                    "text": "",
+                    "color": ""
+                }
             ]
         ]
     },
@@ -16359,8 +16864,18 @@
                 25
             ],
             [
+                "mana_uses_options",
+                {
+                    "cost_mana_on_miss": false,
+                    "one_mana_cost_per_combat": false
+                }
+            ],
+            [
                 "mana_cost_as_uses",
-                null
+                {
+                    "text": "",
+                    "color": ""
+                }
             ]
         ]
     },
@@ -16427,8 +16942,18 @@
                 6
             ],
             [
+                "mana_uses_options",
+                {
+                    "cost_mana_on_miss": false,
+                    "one_mana_cost_per_combat": false
+                }
+            ],
+            [
                 "mana_cost_as_uses",
-                null
+                {
+                    "text": "",
+                    "color": ""
+                }
             ]
         ]
     },
@@ -16499,8 +17024,18 @@
                 1
             ],
             [
+                "mana_uses_options",
+                {
+                    "cost_mana_on_miss": false,
+                    "one_mana_cost_per_combat": false
+                }
+            ],
+            [
                 "mana_cost_as_uses",
-                null
+                {
+                    "text": "",
+                    "color": ""
+                }
             ],
             [
                 "effective_damage",
@@ -16615,8 +17150,18 @@
                 2
             ],
             [
+                "mana_uses_options",
+                {
+                    "cost_mana_on_miss": false,
+                    "one_mana_cost_per_combat": false
+                }
+            ],
+            [
                 "mana_cost_as_uses",
-                null
+                {
+                    "text": "",
+                    "color": ""
+                }
             ]
         ]
     },
@@ -16709,8 +17254,18 @@
                 4
             ],
             [
+                "mana_uses_options",
+                {
+                    "cost_mana_on_miss": false,
+                    "one_mana_cost_per_combat": false
+                }
+            ],
+            [
                 "mana_cost_as_uses",
-                null
+                {
+                    "text": "",
+                    "color": ""
+                }
             ]
         ]
     },
@@ -16803,8 +17358,18 @@
                 7
             ],
             [
+                "mana_uses_options",
+                {
+                    "cost_mana_on_miss": false,
+                    "one_mana_cost_per_combat": false
+                }
+            ],
+            [
                 "mana_cost_as_uses",
-                null
+                {
+                    "text": "",
+                    "color": ""
+                }
             ]
         ]
     },
@@ -16897,8 +17462,18 @@
                 9
             ],
             [
+                "mana_uses_options",
+                {
+                    "cost_mana_on_miss": false,
+                    "one_mana_cost_per_combat": false
+                }
+            ],
+            [
                 "mana_cost_as_uses",
-                null
+                {
+                    "text": "",
+                    "color": ""
+                }
             ]
         ]
     },
@@ -17035,8 +17610,18 @@
                 5
             ],
             [
+                "mana_uses_options",
+                {
+                    "cost_mana_on_miss": false,
+                    "one_mana_cost_per_combat": false
+                }
+            ],
+            [
                 "mana_cost_as_uses",
-                null
+                {
+                    "text": "",
+                    "color": ""
+                }
             ],
             [
                 "map_cast_anim",
@@ -17111,8 +17696,18 @@
                 2
             ],
             [
+                "mana_uses_options",
+                {
+                    "cost_mana_on_miss": false,
+                    "one_mana_cost_per_combat": false
+                }
+            ],
+            [
                 "mana_cost_as_uses",
-                null
+                {
+                    "text": "",
+                    "color": ""
+                }
             ]
         ]
     },
@@ -17175,8 +17770,18 @@
                 4
             ],
             [
+                "mana_uses_options",
+                {
+                    "cost_mana_on_miss": false,
+                    "one_mana_cost_per_combat": false
+                }
+            ],
+            [
                 "mana_cost_as_uses",
-                null
+                {
+                    "text": "",
+                    "color": ""
+                }
             ]
         ]
     },
@@ -17251,8 +17856,18 @@
                 9
             ],
             [
+                "mana_uses_options",
+                {
+                    "cost_mana_on_miss": false,
+                    "one_mana_cost_per_combat": false
+                }
+            ],
+            [
                 "mana_cost_as_uses",
-                null
+                {
+                    "text": "",
+                    "color": ""
+                }
             ]
         ]
     },
@@ -17315,8 +17930,18 @@
                 10
             ],
             [
+                "mana_uses_options",
+                {
+                    "cost_mana_on_miss": false,
+                    "one_mana_cost_per_combat": false
+                }
+            ],
+            [
                 "mana_cost_as_uses",
-                null
+                {
+                    "text": "",
+                    "color": ""
+                }
             ]
         ]
     },
@@ -17379,8 +18004,18 @@
                 5
             ],
             [
+                "mana_uses_options",
+                {
+                    "cost_mana_on_miss": false,
+                    "one_mana_cost_per_combat": false
+                }
+            ],
+            [
                 "mana_cost_as_uses",
-                null
+                {
+                    "text": "",
+                    "color": ""
+                }
             ]
         ]
     },
@@ -17443,8 +18078,18 @@
                 8
             ],
             [
+                "mana_uses_options",
+                {
+                    "cost_mana_on_miss": false,
+                    "one_mana_cost_per_combat": false
+                }
+            ],
+            [
                 "mana_cost_as_uses",
-                null
+                {
+                    "text": "",
+                    "color": ""
+                }
             ]
         ]
     },
@@ -17507,8 +18152,18 @@
                 "unit.get_max_mana()"
             ],
             [
+                "mana_uses_options",
+                {
+                    "cost_mana_on_miss": false,
+                    "one_mana_cost_per_combat": false
+                }
+            ],
+            [
                 "mana_cost_as_uses",
-                null
+                {
+                    "text": "",
+                    "color": ""
+                }
             ],
             [
                 "target_ally",
@@ -17606,8 +18261,18 @@
                 2
             ],
             [
+                "mana_uses_options",
+                {
+                    "cost_mana_on_miss": false,
+                    "one_mana_cost_per_combat": false
+                }
+            ],
+            [
                 "remaining_mana_uses",
-                null
+                {
+                    "text": "",
+                    "color": ""
+                }
             ]
         ]
     },
@@ -17697,8 +18362,18 @@
                 4
             ],
             [
+                "mana_uses_options",
+                {
+                    "cost_mana_on_miss": false,
+                    "one_mana_cost_per_combat": false
+                }
+            ],
+            [
                 "mana_cost_as_uses",
-                null
+                {
+                    "text": "",
+                    "color": ""
+                }
             ]
         ]
     },
@@ -17807,8 +18482,18 @@
                 7
             ],
             [
+                "mana_uses_options",
+                {
+                    "cost_mana_on_miss": false,
+                    "one_mana_cost_per_combat": false
+                }
+            ],
+            [
                 "mana_cost_as_uses",
-                null
+                {
+                    "text": "",
+                    "color": ""
+                }
             ]
         ]
     },
@@ -17902,8 +18587,18 @@
                 17
             ],
             [
+                "mana_uses_options",
+                {
+                    "cost_mana_on_miss": false,
+                    "one_mana_cost_per_combat": false
+                }
+            ],
+            [
                 "mana_cost_as_uses",
-                null
+                {
+                    "text": "",
+                    "color": ""
+                }
             ]
         ]
     },
@@ -17982,8 +18677,18 @@
                 12
             ],
             [
+                "mana_uses_options",
+                {
+                    "cost_mana_on_miss": false,
+                    "one_mana_cost_per_combat": false
+                }
+            ],
+            [
                 "mana_cost_as_uses",
-                null
+                {
+                    "text": "",
+                    "color": ""
+                }
             ]
         ]
     },
@@ -18108,8 +18813,18 @@
                 3
             ],
             [
+                "mana_uses_options",
+                {
+                    "cost_mana_on_miss": false,
+                    "one_mana_cost_per_combat": false
+                }
+            ],
+            [
                 "mana_cost_as_uses",
-                null
+                {
+                    "text": "",
+                    "color": ""
+                }
             ]
         ]
     },
@@ -18172,8 +18887,18 @@
                 2
             ],
             [
+                "mana_uses_options",
+                {
+                    "cost_mana_on_miss": false,
+                    "one_mana_cost_per_combat": false
+                }
+            ],
+            [
                 "mana_cost_as_uses",
-                null
+                {
+                    "text": "",
+                    "color": ""
+                }
             ]
         ]
     },
@@ -18236,8 +18961,18 @@
                 10
             ],
             [
+                "mana_uses_options",
+                {
+                    "cost_mana_on_miss": false,
+                    "one_mana_cost_per_combat": false
+                }
+            ],
+            [
                 "mana_cost_as_uses",
-                null
+                {
+                    "text": "",
+                    "color": ""
+                }
             ]
         ]
     },
@@ -18308,8 +19043,18 @@
                 8
             ],
             [
+                "mana_uses_options",
+                {
+                    "cost_mana_on_miss": false,
+                    "one_mana_cost_per_combat": false
+                }
+            ],
+            [
                 "mana_cost_as_uses",
-                null
+                {
+                    "text": "",
+                    "color": ""
+                }
             ]
         ]
     },
@@ -18379,8 +19124,18 @@
                 8
             ],
             [
+                "mana_uses_options",
+                {
+                    "cost_mana_on_miss": false,
+                    "one_mana_cost_per_combat": false
+                }
+            ],
+            [
                 "mana_cost_as_uses",
-                null
+                {
+                    "text": "",
+                    "color": ""
+                }
             ]
         ]
     },
@@ -18515,8 +19270,18 @@
                 4
             ],
             [
+                "mana_uses_options",
+                {
+                    "cost_mana_on_miss": false,
+                    "one_mana_cost_per_combat": false
+                }
+            ],
+            [
                 "mana_cost_as_uses",
-                null
+                {
+                    "text": "",
+                    "color": ""
+                }
             ]
         ]
     },
@@ -18604,8 +19369,18 @@
                 1
             ],
             [
+                "mana_uses_options",
+                {
+                    "cost_mana_on_miss": false,
+                    "one_mana_cost_per_combat": false
+                }
+            ],
+            [
                 "mana_cost_as_uses",
-                null
+                {
+                    "text": "",
+                    "color": ""
+                }
             ]
         ]
     },
@@ -18693,8 +19468,18 @@
                 2
             ],
             [
+                "mana_uses_options",
+                {
+                    "cost_mana_on_miss": false,
+                    "one_mana_cost_per_combat": false
+                }
+            ],
+            [
                 "mana_cost_as_uses",
-                null
+                {
+                    "text": "",
+                    "color": ""
+                }
             ]
         ]
     },
@@ -18793,8 +19578,18 @@
                 3
             ],
             [
+                "mana_uses_options",
+                {
+                    "cost_mana_on_miss": false,
+                    "one_mana_cost_per_combat": false
+                }
+            ],
+            [
                 "mana_cost_as_uses",
-                null
+                {
+                    "text": "",
+                    "color": ""
+                }
             ]
         ]
     },
@@ -18882,8 +19677,18 @@
                 5
             ],
             [
+                "mana_uses_options",
+                {
+                    "cost_mana_on_miss": false,
+                    "one_mana_cost_per_combat": false
+                }
+            ],
+            [
                 "mana_cost_as_uses",
-                null
+                {
+                    "text": "",
+                    "color": ""
+                }
             ]
         ]
     },
@@ -18974,8 +19779,18 @@
                 8
             ],
             [
+                "mana_uses_options",
+                {
+                    "cost_mana_on_miss": false,
+                    "one_mana_cost_per_combat": false
+                }
+            ],
+            [
                 "mana_cost_as_uses",
-                null
+                {
+                    "text": "",
+                    "color": ""
+                }
             ]
         ]
     },
@@ -19161,8 +19976,18 @@
                 15
             ],
             [
+                "mana_uses_options",
+                {
+                    "cost_mana_on_miss": false,
+                    "one_mana_cost_per_combat": false
+                }
+            ],
+            [
                 "mana_cost_as_uses",
-                null
+                {
+                    "text": "",
+                    "color": ""
+                }
             ]
         ]
     },
@@ -19734,11 +20559,21 @@
             ],
             [
                 "mana_cost_as_uses",
-                null
+                {
+                    "text": "",
+                    "color": ""
+                }
             ],
             [
                 "mana_cost",
                 3
+            ],
+            [
+                "mana_uses_options",
+                {
+                    "cost_mana_on_miss": false,
+                    "one_mana_cost_per_combat": false
+                }
             ]
         ]
     },
@@ -19817,8 +20652,18 @@
                 6
             ],
             [
+                "mana_uses_options",
+                {
+                    "cost_mana_on_miss": false,
+                    "one_mana_cost_per_combat": false
+                }
+            ],
+            [
                 "mana_cost_as_uses",
-                null
+                {
+                    "text": "",
+                    "color": ""
+                }
             ]
         ]
     },
@@ -19897,8 +20742,18 @@
                 1
             ],
             [
+                "mana_uses_options",
+                {
+                    "cost_mana_on_miss": false,
+                    "one_mana_cost_per_combat": false
+                }
+            ],
+            [
                 "mana_cost_as_uses",
-                null
+                {
+                    "text": "",
+                    "color": ""
+                }
             ]
         ]
     },
@@ -19981,8 +20836,18 @@
                 1
             ],
             [
+                "mana_uses_options",
+                {
+                    "cost_mana_on_miss": false,
+                    "one_mana_cost_per_combat": false
+                }
+            ],
+            [
                 "mana_cost_as_uses",
-                null
+                {
+                    "text": "",
+                    "color": ""
+                }
             ]
         ]
     },
@@ -20061,8 +20926,18 @@
                 1
             ],
             [
+                "mana_uses_options",
+                {
+                    "cost_mana_on_miss": false,
+                    "one_mana_cost_per_combat": false
+                }
+            ],
+            [
                 "mana_cost_as_uses",
-                null
+                {
+                    "text": "",
+                    "color": ""
+                }
             ]
         ]
     },
@@ -20781,14 +21656,21 @@
                 900
             ],
             [
-                "uses",
-                45
+                "hp_cost_as_uses",
+                {
+                    "text": "",
+                    "color": ""
+                }
             ],
             [
-                "uses_options",
+                "eval_hp_cost",
+                "((unit.get_stat('HP')-unit.get_stat('MAG'))/2)"
+            ],
+            [
+                "hp_uses_options",
                 {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
+                    "cost_hp_on_miss": false,
+                    "one_hp_cost_per_combat": false
                 }
             ]
         ]
@@ -20864,17 +21746,6 @@
                 3200
             ],
             [
-                "uses",
-                20
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
                 "lifelink",
                 1.0
             ],
@@ -20891,6 +21762,24 @@
                     "show_effectiveness_flash": true,
                     "weapon_effectiveness_multiplied": true
                 }
+            ],
+            [
+                "remaining_hp_uses",
+                {
+                    "text": "",
+                    "color": ""
+                }
+            ],
+            [
+                "hp_uses_options",
+                {
+                    "cost_hp_on_miss": false,
+                    "one_hp_cost_per_combat": false
+                }
+            ],
+            [
+                "eval_hp_cost",
+                "unit.get_stat('HP')-1"
             ]
         ]
     },
@@ -22229,6 +23118,14 @@
                     144,
                     232
                 ]
+            ],
+            [
+                "custom_uses_color",
+                {
+                    "color": "yellow",
+                    "override_unavailable": true,
+                    "override_droppable": true
+                }
             ]
         ]
     },

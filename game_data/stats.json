@@ -1,9 +1,9 @@
 [
     {
         "nid": "HP",
-        "name": "Stm",
+        "name": "Bld",
         "maximum": 120,
-        "desc": "Hit points. The unit is removed from the battle if HP reaches 0.",
+        "desc": "The unit loses consciousness if Blood Level reaches 0.",
         "position": "hidden",
         "growth_colors": true,
         "hidden_stat": false
@@ -12,7 +12,7 @@
         "nid": "STR",
         "name": "Str",
         "maximum": 40,
-        "desc": "Strength. The higher the number, the more damage you inflict.",
+        "desc": "Strength increases physical damage you inflict.",
         "position": "left",
         "growth_colors": true,
         "hidden_stat": false
@@ -21,7 +21,7 @@
         "nid": "MAG",
         "name": "Int",
         "maximum": 40,
-        "desc": "Magical power. Increases spell and staff effectiveness.",
+        "desc": "Intelligence increases spell effectiveness.",
         "position": "left",
         "growth_colors": true,
         "hidden_stat": false
@@ -30,7 +30,7 @@
         "nid": "SKL",
         "name": "Dex",
         "maximum": 40,
-        "desc": "Fighting skill. A higher number improves accuracy.",
+        "desc": "Dexterity improves accuracy.",
         "position": "left",
         "growth_colors": true,
         "hidden_stat": false
@@ -39,7 +39,7 @@
         "nid": "SPD",
         "name": "Agi",
         "maximum": 40,
-        "desc": "This affects both evasion and attack speed.",
+        "desc": "Agility affects both evasion and attack speed.",
         "position": "left",
         "growth_colors": true,
         "hidden_stat": false
@@ -49,25 +49,25 @@
         "name": "Luck",
         "maximum": 40,
         "desc": "Luck affects many things.",
-        "position": "right",
+        "position": "hidden",
         "growth_colors": true,
-        "hidden_stat": false
+        "hidden_stat": true
     },
     {
         "nid": "DEF",
         "name": "Vit",
         "maximum": 40,
-        "desc": "Reduces damage from weapons.",
+        "desc": "Vitality reduces damage from physical attacks.",
         "position": "left",
         "growth_colors": true,
         "hidden_stat": false
     },
     {
         "nid": "RES",
-        "name": "Res",
+        "name": "Ser",
         "maximum": 40,
-        "desc": "Reduces damage from magic.",
-        "position": "hidden",
+        "desc": "Serenity reduces damage from magical and critical attacks.",
+        "position": "left",
         "growth_colors": true,
         "hidden_stat": false
     },
@@ -75,7 +75,7 @@
         "nid": "MP",
         "name": "MP",
         "maximum": 40,
-        "desc": "Max Mana points. You can no longer cast spells if mana is less that cost.",
+        "desc": "You can no longer cast spells if Mana Points are less than cost.",
         "position": "hidden",
         "growth_colors": true,
         "hidden_stat": false
@@ -84,7 +84,7 @@
         "nid": "CON",
         "name": "Con",
         "maximum": 25,
-        "desc": "Constitution. Affects how well the unit can wield heavier weapons.",
+        "desc": "Constitution affects how well the unit can wield heavier weapons.",
         "position": "right",
         "growth_colors": false,
         "hidden_stat": false
@@ -100,9 +100,9 @@
     },
     {
         "nid": "WT",
-        "name": "Weight",
-        "maximum": 30,
-        "desc": "",
+        "name": "Wgt",
+        "maximum": 25,
+        "desc": "If equipment weight is above Con, Attack Speed is reduced.",
         "position": "hidden",
         "growth_colors": false,
         "hidden_stat": true

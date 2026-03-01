@@ -17,7 +17,7 @@
     ],
     [
         "fatigue",
-        false
+        true
     ],
     [
         "reset_fatigue",
@@ -205,7 +205,7 @@
     ],
     [
         "translucent_unit_sprite",
-        false
+        true
     ],
     [
         "talk_display",
@@ -217,7 +217,11 @@
     ],
     [
         "info_menu_blink",
-        false
+        true
+    ],
+    [
+        "add_mana_bar",
+        true
     ],
     [
         "convoy_on_death",

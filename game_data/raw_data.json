@@ -213,5 +213,27 @@
                 "Rank": "A"
             }
         ]
+    },
+    {
+        "nid": "IsabellaSpellbookList",
+        "dtype": "list",
+        "svalue": "",
+        "kvvalue": [],
+        "oattrs": [
+            "nid",
+            "Item",
+            "Type",
+            "Wexp",
+            "Rank"
+        ],
+        "lovalue": [
+            {
+                "nid": "isa1",
+                "Item": "Static",
+                "Type": "Fulgus",
+                "Wexp": "1",
+                "Rank": "E"
+            }
+        ]
     }
 ]

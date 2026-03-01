@@ -17,15 +17,15 @@
     },
     {
         "nid": "HIT",
-        "expression": "SKL*2 + LCK//2"
+        "expression": "SKL*2 + RES//2"
     },
     {
         "nid": "HIT_HALF",
-        "expression": "(SKL*2 + LCK//2)//2"
+        "expression": "(SKL*2 + RES//2)//2"
     },
     {
         "nid": "AVOID",
-        "expression": "SPD*2 + LCK"
+        "expression": "SPD*2 + RES"
     },
     {
         "nid": "CRIT_HIT",
@@ -33,7 +33,7 @@
     },
     {
         "nid": "CRIT_AVOID",
-        "expression": "LCK"
+        "expression": "RES"
     },
     {
         "nid": "DAMAGE",
@@ -57,7 +57,7 @@
     },
     {
         "nid": "CRIT_ADD",
-        "expression": "0"
+        "expression": "SKL//5"
     },
     {
         "nid": "CRIT_MULT",
@@ -69,7 +69,7 @@
     },
     {
         "nid": "RATING",
-        "expression": "(HP - 10)//2 + max(STR, MAG) + SKL + SPD + LCK//2 + DEF + RES"
+        "expression": "(HP - 10)//2 + (MP - 5)//2 + max(STR, MAG) + SKL + SPD + DEF + RES"
     },
     {
         "nid": "RESCUE_AID",
@@ -125,11 +125,11 @@
     },
     {
         "nid": "LOW_DEFENSE",
-        "expression": "min(DEF, MAG)"
+        "expression": "min(DEF, RES)"
     },
     {
         "nid": "AVG_DEFENSE",
-        "expression": "(DEF + MAG)/2"
+        "expression": "(DEF + RES)/2"
     },
     {
         "nid": "WEIGHT_SPEED_LOSS",

@@ -389,7 +389,7 @@
     {
         "nid": "Flying",
         "name": "Flying",
-        "desc": "Can fly.",
+        "desc": "Can fly. +20 Avd, +40 Avd vs melee weapons.",
         "icon_nid": "{ZessDynamite, Rainlash} All Icons",
         "icon_index": [
             4,
@@ -397,12 +397,46 @@
         ],
         "components": [
             [
+                "class_skill",
+                null
+            ],
+            [
+                "condition",
+                "!unit.has_skill('Grounded')"
+            ],
+            [
                 "ignore_terrain",
                 null
             ],
             [
-                "class_skill",
-                null
+                "multi_skill",
+                [
+                    "FlyingMelee"
+                ]
+            ],
+            [
+                "avoid",
+                20
+            ]
+        ]
+    },
+    {
+        "nid": "FlyingMelee",
+        "name": "FlyingMelee",
+        "desc": "+20 Avd vs melee weapons.",
+        "icon_nid": "{ZessDynamite, Rainlash} All Icons",
+        "icon_index": [
+            4,
+            33
+        ],
+        "components": [
+            [
+                "combat_condition",
+                "target.get_weapon().range === 1 && len(get_units_within_distance(unit, target) == 1"
+            ],
+            [
+                "avoid",
+                20
             ]
         ]
     },
@@ -425,7 +459,7 @@
     {
         "nid": "Grounded",
         "name": "Grounded",
-        "desc": "Unit is now affected by terrain, reduced movement.",
+        "desc": "Unit is now affected by terrain, reduced movement, avoid bonuses erased.",
         "icon_nid": "{ZessDynamite, Rainlash} All Icons",
         "icon_index": [
             7,
@@ -844,12 +878,13 @@
                 null
             ],
             [
-                "attack_speed_formula_override",
-                "ATTACK_SPEED"
-            ],
-            [
-                "alternate_defense_speed_formula",
-                "DEFENSE_SPEED"
+                "stat_change_expression",
+                [
+                    [
+                        "WT",
+                        "-(unit.get_weapon().weight * 0.5)"
+                    ]
+                ]
             ]
         ]
     },
