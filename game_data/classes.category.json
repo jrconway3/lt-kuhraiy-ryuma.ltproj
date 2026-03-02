@@ -40,7 +40,7 @@
     "Inquisitor": "Magic/Dark",
     "Kannushi": "Magic/Holy",
     "Lady": "Unique/Lord",
-    "LakeLady": "Unique/Lord",
+    "Lake_Lady": "Unique/Lord",
     "Lancer": "Infantry/Lance",
     "Lieutenant": "Unique/Lord",
     "Lionheart": "Infantry/Axe",
@@ -63,7 +63,7 @@
     "PaladinL": "Unique/Other",
     "Pioneer": "Infantry/Axe",
     "Pirate": "Infantry/Axe",
-    "PirateLord": "Unique/Lord",
+    "Pirate_Lord": "Unique/Lord",
     "Privateer": "Infantry/Axe",
     "Queiza": "Generic/Civilian",
     "Ranger": "Cavalry/Horse",
@@ -96,10 +96,10 @@
     "Viking": "Infantry/Axe",
     "Villager": "Infantry/Bow",
     "Wall25": "Generic/Object",
-    "WaterLady": "Unique/Lord",
-    "WaterLord": "Unique/Lord",
+    "Water_Lady": "Unique/Lord",
+    "Water_Lord": "Unique/Lord",
     "WindRider": "Flying/Eagle",
     "WolfKnight": "Cavalry/Wolf",
     "WolfNomad": "Cavalry/Wolf",
-    "WolfPrince": "Unique/Other"
+    "Wolf_Lord": "Unique/Lord"
 }

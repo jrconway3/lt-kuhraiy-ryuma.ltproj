@@ -1912,7 +1912,7 @@
         "movement_group": "Queiza",
         "promotes_from": null,
         "turns_into": [
-            "LakeLady"
+            "Lake_Lady"
         ],
         "tags": [
             "Lord",
@@ -1925,7 +1925,7 @@
         "max_level": 20,
         "bases": {
             "LCK": 6,
-            "CON": 10,
+            "CON": 11,
             "MOV": 6,
             "RES": 6,
             "STR": 2,
@@ -1943,8 +1943,8 @@
             "MOV": 0,
             "RES": 65,
             "STR": 30,
-            "HP": 60,
-            "MAG": 60,
+            "HP": 55,
+            "MAG": 70,
             "SKL": 40,
             "SPD": 30,
             "DEF": 70,
@@ -2174,12 +2174,12 @@
         ]
     },
     {
-        "nid": "LakeLady",
+        "nid": "Lake_Lady",
         "name": "Lady Lady",
         "desc": "Successor to the Lady of the Lake, blessed with granting the power of Excalibur.\nRace: Queiza",
         "tier": 2,
         "movement_group": "Queiza",
-        "promotes_from": "LakeLady",
+        "promotes_from": "Lake_Lady",
         "turns_into": [],
         "tags": [
             "Lord",
@@ -2193,7 +2193,7 @@
         "bases": {
             "LCK": 11,
             "RES": 13,
-            "CON": 11,
+            "CON": 13,
             "MOV": 7,
             "STR": 8,
             "HP": 24,
@@ -2210,8 +2210,8 @@
             "CON": 0,
             "MOV": 0,
             "STR": 30,
-            "HP": 60,
-            "MAG": 60,
+            "HP": 55,
+            "MAG": 70,
             "SKL": 40,
             "SPD": 30,
             "DEF": 70,
@@ -2435,7 +2435,7 @@
         "movement_group": "Regular",
         "promotes_from": null,
         "turns_into": [
-            "WaterLady"
+            "Water_Lady"
         ],
         "tags": [
             "LightArmor",
@@ -2448,13 +2448,13 @@
             "LCK": 5,
             "CON": 9,
             "MOV": 5,
-            "RES": 7,
-            "STR": 7,
+            "RES": 2,
+            "STR": 9,
             "HP": 21,
             "MAG": 3,
             "SKL": 5,
-            "SPD": 9,
-            "DEF": 5,
+            "SPD": 6,
+            "DEF": 6,
             "MP": 5,
             "WT": 0
         },
@@ -2462,14 +2462,14 @@
             "LCK": 40,
             "CON": 0,
             "MOV": 0,
-            "RES": 45,
-            "STR": 50,
+            "RES": 25,
+            "STR": 65,
             "HP": 90,
-            "MAG": 40,
+            "MAG": 30,
             "SKL": 40,
             "SPD": 60,
             "DEF": 30,
-            "MP": 60,
+            "MP": 35,
             "WT": 0
         },
         "growth_bonus": {
@@ -2677,7 +2677,7 @@
         "fields": []
     },
     {
-        "nid": "WaterLady",
+        "nid": "Water_Lady",
         "name": "Water Lady",
         "desc": "Heir to a fallen house with\nrenewed passion to reclaim it.\nRace: Queiza",
         "tier": 2,
@@ -2695,30 +2695,30 @@
         "max_level": 40,
         "bases": {
             "LCK": 0,
-            "RES": 0,
+            "RES": 8,
             "CON": 12,
             "MOV": 7,
-            "STR": 3,
-            "HP": 18,
-            "MAG": 2,
-            "SKL": 3,
-            "SPD": 4,
-            "DEF": 5,
-            "MP": 0,
+            "STR": 13,
+            "HP": 34,
+            "MAG": 9,
+            "SKL": 9,
+            "SPD": 14,
+            "DEF": 11,
+            "MP": 21,
             "WT": 0
         },
         "growths": {
             "LCK": 40,
-            "RES": 20,
+            "RES": 45,
             "CON": 0,
             "MOV": 0,
-            "STR": 45,
+            "STR": 65,
             "HP": 90,
-            "MAG": 22,
+            "MAG": 60,
             "SKL": 40,
-            "SPD": 45,
-            "DEF": 15,
-            "MP": 0,
+            "SPD": 60,
+            "DEF": 50,
+            "MP": 65,
             "WT": 0
         },
         "growth_bonus": {
@@ -2759,7 +2759,7 @@
             "MAG": 20,
             "SKL": 29,
             "SPD": 30,
-            "DEF": 22,
+            "DEF": 25,
             "MP": 40,
             "WT": 30
         },
@@ -2931,14 +2931,14 @@
         "fields": []
     },
     {
-        "nid": "WaterLord",
+        "nid": "Water_Lord",
         "name": "Water Lord",
         "desc": "Noble heir to a ruling house.\nHarbors untapped potential.\nRace: Queiza",
         "tier": 2,
         "movement_group": "Light Foot",
         "promotes_from": null,
         "turns_into": [
-            "PirateLord"
+            "Pirate_Lord"
         ],
         "tags": [
             "Lord",
@@ -3182,12 +3182,12 @@
         "fields": []
     },
     {
-        "nid": "PirateLord",
+        "nid": "Pirate_Lord",
         "name": "Pirate Lord",
         "desc": "Ruler of a gang of pirates.\nWields incredible power.\nRace: Queiza",
         "tier": 2,
         "movement_group": "Heavy Cav",
-        "promotes_from": "WaterLord",
+        "promotes_from": "Water_Lord",
         "turns_into": [],
         "tags": [
             "Lord",
@@ -3431,9 +3431,9 @@
         "fields": []
     },
     {
-        "nid": "WolfPrince",
-        "name": "Wolf Prince",
-        "desc": "A distant heir to the Kingdom of Masa trained to ride upon a great wolf.\nRace: Lykon, Mount: Wolf",
+        "nid": "Wolf_Lord",
+        "name": "Wolf Lord",
+        "desc": "A distant heir to the Kingdom of Masa trained to ride upon a great wolf.",
         "tier": 2,
         "movement_group": "Lykon",
         "promotes_from": null,
@@ -3448,30 +3448,30 @@
         "max_level": 40,
         "bases": {
             "LCK": 0,
-            "CON": 11,
+            "CON": 13,
             "MOV": 8,
-            "RES": 6,
-            "STR": 7,
-            "HP": 23,
-            "MAG": 3,
-            "SKL": 6,
-            "SPD": 11,
-            "DEF": 8,
-            "MP": 0,
+            "RES": 7,
+            "STR": 9,
+            "HP": 26,
+            "MAG": 5,
+            "SKL": 11,
+            "SPD": 13,
+            "DEF": 3,
+            "MP": 15,
             "WT": 0
         },
         "growths": {
             "LCK": 25,
             "CON": 0,
             "MOV": 0,
-            "RES": 25,
-            "STR": 25,
-            "HP": 70,
-            "MAG": 12,
-            "SKL": 35,
-            "SPD": 25,
-            "DEF": 12,
-            "MP": 0,
+            "RES": 30,
+            "STR": 65,
+            "HP": 75,
+            "MAG": 25,
+            "SKL": 55,
+            "SPD": 60,
+            "DEF": 20,
+            "MP": 30,
             "WT": 0
         },
         "growth_bonus": {
@@ -3490,15 +3490,15 @@
         },
         "promotion": {
             "LCK": 0,
-            "CON": 2,
+            "CON": 0,
             "MOV": -99,
-            "RES": 2,
-            "STR": 1,
-            "HP": 2,
+            "RES": 0,
+            "STR": 0,
+            "HP": 0,
             "MAG": 0,
-            "SKL": 1,
-            "SPD": 2,
-            "DEF": 2,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
             "MP": 0,
             "WT": 0
         },
@@ -3506,14 +3506,14 @@
             "LCK": 30,
             "CON": 25,
             "MOV": 15,
-            "RES": 26,
-            "STR": 25,
+            "RES": 24,
+            "STR": 28,
             "HP": 60,
-            "MAG": 20,
+            "MAG": 24,
             "SKL": 27,
             "SPD": 25,
-            "DEF": 25,
-            "MP": 30,
+            "DEF": 22,
+            "MP": 40,
             "WT": 30
         },
         "learned_skills": [
@@ -3656,7 +3656,16 @@
         ],
         "map_sprite_nid": "WolfKnight",
         "combat_anim_nid": "WolfKnight",
-        "fields": []
+        "fields": [
+            [
+                "Race",
+                "Lykon"
+            ],
+            [
+                "Mount",
+                "Wolf"
+            ]
+        ]
     },
     {
         "nid": "Tsuiho",
@@ -5272,7 +5281,7 @@
         "bases": {
             "LCK": 0,
             "RES": 2,
-            "CON": 11,
+            "CON": 13,
             "MOV": 5,
             "STR": 8,
             "HP": 18,
@@ -5524,7 +5533,7 @@
         "bases": {
             "LCK": 0,
             "RES": 3,
-            "CON": 11,
+            "CON": 15,
             "MOV": 6,
             "STR": 6,
             "HP": 22,
@@ -6024,7 +6033,7 @@
         "max_level": 20,
         "bases": {
             "LCK": 0,
-            "CON": 11,
+            "CON": 12,
             "MOV": 5,
             "RES": 5,
             "STR": 6,
@@ -6787,7 +6796,7 @@
         "max_level": 20,
         "bases": {
             "LCK": 0,
-            "CON": 5,
+            "CON": 4,
             "MOV": 6,
             "RES": 5,
             "STR": 5,
@@ -7047,7 +7056,7 @@
         "bases": {
             "LCK": 0,
             "RES": 0,
-            "CON": 6,
+            "CON": 7,
             "MOV": 6,
             "STR": 3,
             "HP": 16,
@@ -7276,7 +7285,7 @@
         "bases": {
             "LCK": 0,
             "RES": 0,
-            "CON": 6,
+            "CON": 3,
             "MOV": 6,
             "STR": 3,
             "HP": 16,
@@ -7941,7 +7950,7 @@
         "bases": {
             "LCK": 0,
             "RES": 3,
-            "CON": 11,
+            "CON": 14,
             "MOV": 5,
             "STR": 7,
             "HP": 20,
@@ -8392,7 +8401,7 @@
         "bases": {
             "LCK": 7,
             "RES": 5,
-            "CON": 13,
+            "CON": 16,
             "MOV": 6,
             "STR": 10,
             "HP": 27,
@@ -13582,7 +13591,7 @@
         "max_level": 20,
         "bases": {
             "LCK": 0,
-            "CON": 8,
+            "CON": 11,
             "MOV": 7,
             "RES": 6,
             "STR": 4,

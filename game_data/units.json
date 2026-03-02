@@ -57,6 +57,10 @@
             [
                 "Potion",
                 false
+            ],
+            [
+                "Static",
+                false
             ]
         ],
         "learned_skills": [
@@ -216,7 +220,7 @@
     {
         "nid": "Amaya",
         "name": "Amaya",
-        "desc": "Former noblewoman of Omyrus, now a loyal retainer to Lady Miriam of Oestridel. She holds a strong desire to repay her debt to General Jethro.",
+        "desc": "Former noblewoman of Omyrus, now Lady Svetlanya's loyal retainer. Desires strongly to repay her debt to General Jethro.",
         "variant": "",
         "level": 3,
         "klass": "Lieutenant",
@@ -227,12 +231,12 @@
             "LCK": 0,
             "CON": 0,
             "MOV": 0,
-            "RES": 0,
-            "STR": 0,
-            "HP": 0,
-            "MAG": 0,
-            "SKL": 0,
-            "SPD": 0,
+            "RES": 2,
+            "STR": 2,
+            "HP": 4,
+            "MAG": 1,
+            "SKL": 2,
+            "SPD": 1,
             "DEF": 0,
             "MP": 0,
             "WT": 0
@@ -411,7 +415,7 @@
         "desc": "A mysterious nobleman related to Count Grisha Berenak. He seems to have taken a liking to Miriam...",
         "variant": "",
         "level": 15,
-        "klass": "WaterLord",
+        "klass": "Water_Lord",
         "tags": [
             "Lord",
             "Holy",
@@ -595,7 +599,7 @@
         "desc": "Heir to House Renald and adoptive brother of Svetlanya. He dotes on her, but is stern with his duty.",
         "variant": "",
         "level": 8,
-        "klass": "WolfPrince",
+        "klass": "Wolf_Lord",
         "tags": [
             "Lord",
             "Wolf",
@@ -607,13 +611,13 @@
             "CON": 0,
             "MOV": 0,
             "RES": 0,
-            "STR": 0,
-            "HP": 0,
-            "MAG": 0,
-            "SKL": 0,
-            "SPD": 0,
-            "DEF": 0,
-            "MP": 0,
+            "STR": 6,
+            "HP": 7,
+            "MAG": -2,
+            "SKL": 3,
+            "SPD": 3,
+            "DEF": 2,
+            "MP": -3,
             "WT": 0
         },
         "growths": {
@@ -8030,7 +8034,7 @@
         "desc": "Admiral Alder's widow, she has gone mad from the grief of the loss of her family. Lady Jezolda's twin sister.",
         "variant": "Female",
         "level": 11,
-        "klass": "LakeLady",
+        "klass": "Lake_Lady",
         "tags": [],
         "bases": {
             "LCK": 0,

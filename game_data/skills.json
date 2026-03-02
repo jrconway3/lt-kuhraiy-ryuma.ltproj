@@ -632,15 +632,6 @@
             [
                 "movement_type",
                 "Queiza"
-            ],
-            [
-                "stat_change",
-                [
-                    [
-                        "MOV",
-                        99
-                    ]
-                ]
             ]
         ]
     },

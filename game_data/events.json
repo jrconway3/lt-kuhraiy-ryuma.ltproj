@@ -1710,7 +1710,6 @@
             "enable_convoy;t",
             "add_lore;Svetlanya",
             "add_base_convo;Dreams of Home",
-            "add_weather;rain",
             "set_wexp;Svetlanya;Aquis;121;no_banner",
             "give_skill;Svetlanya;Blind;no_banner",
             "give_skill;Svetlanya;Lanquiz;no_banner",
