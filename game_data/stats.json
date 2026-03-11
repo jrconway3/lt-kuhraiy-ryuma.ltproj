@@ -100,9 +100,9 @@
     },
     {
         "nid": "WT",
-        "name": "Wgt",
-        "maximum": 25,
-        "desc": "If equipment weight is above Con, Attack Speed is reduced.",
+        "name": "Weight",
+        "maximum": 30,
+        "desc": "Cumulative weight of equipped items",
         "position": "hidden",
         "growth_colors": false,
         "hidden_stat": true

@@ -212,6 +212,10 @@
         true
     ],
     [
+        "enable_rating",
+        true
+    ],
+    [
         "show_abilities",
         false
     ],
@@ -221,7 +225,7 @@
     ],
     [
         "add_mana_bar",
-        true
+        false
     ],
     [
         "convoy_on_death",

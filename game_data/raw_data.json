@@ -235,5 +235,70 @@
                 "Rank": "E"
             }
         ]
+    },
+    {
+        "nid": "RelmSpellbookList",
+        "dtype": "list",
+        "svalue": "",
+        "kvvalue": [],
+        "oattrs": [
+            "nid",
+            "Item",
+            "Type",
+            "Wexp",
+            "Rank"
+        ],
+        "lovalue": [
+            {
+                "nid": "rel1",
+                "Item": "Transfusion",
+                "Type": "Lunis",
+                "Wexp": "1",
+                "Rank": "E"
+            },
+            {
+                "nid": "rel2",
+                "Item": "Fireball",
+                "Type": "Ignis",
+                "Wexp": "1",
+                "Rank": "E"
+            },
+            {
+                "nid": "rel3",
+                "Item": "Leech",
+                "Type": "Lunis",
+                "Wexp": "31",
+                "Rank": "D"
+            }
+        ]
+    },
+    {
+        "nid": "ThanyaSpellbookList",
+        "dtype": "list",
+        "svalue": "",
+        "kvvalue": [],
+        "oattrs": [
+            "nid",
+            "Item",
+            "Type",
+            "Wexp",
+            "Rank"
+        ],
+        "lovalue": [
+            {
+                "nid": "rel1",
+                "Item": "Tendril",
+                "Type": "Lunis",
+                "Wexp": "1",
+                "Rank": "D"
+            },
+            {
+                "nid": "rel2",
+                "Item": "Tendril",
+                "Type": "Lunis",
+                "Wexp": "1",
+                "Rank": "E"
+            }
+        ]
     }
 ]

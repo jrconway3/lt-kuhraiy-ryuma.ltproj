@@ -1725,10 +1725,10 @@
         "nid": "Steal",
         "name": "Steal",
         "desc": "Can steal items from enemies with lower speed.",
-        "icon_nid": "{ZessDynamite, Rainlash} All Icons",
+        "icon_nid": "{ZessDynamite, Rainlash, LordGlenn, Suneohair, JaidynReiman} Complete Skill Icon Sheet",
         "icon_index": [
-            2,
-            33
+            12,
+            32
         ],
         "components": [
             [
@@ -1746,6 +1746,26 @@
             [
                 "menu_category",
                 null
+            ]
+        ]
+    },
+    {
+        "nid": "Dance",
+        "name": "Dance",
+        "desc": "Allow ally to take another action.",
+        "icon_nid": "{ZessDynamite, Rainlash} All Icons",
+        "icon_index": [
+            1,
+            34
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "ability",
+                "Dance"
             ]
         ]
     },

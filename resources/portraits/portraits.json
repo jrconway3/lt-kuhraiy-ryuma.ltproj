@@ -2078,12 +2078,12 @@
     {
         "nid": "Kanna, bwan - Elf Girl Blonde[F2E]",
         "blinking_offset": [
-            0,
-            0
+            24,
+            25
         ],
         "smiling_offset": [
-            0,
-            0
+            24,
+            40
         ],
         "info_offset": 0
     },
