@@ -3602,61 +3602,6 @@
         ],
         "components": [
             [
-                "prf_unit",
-                [
-                    "Svetlanya",
-                    "Serena"
-                ]
-            ],
-            [
-                "multi_item",
-                [
-                    "Almace1",
-                    "Fireball0"
-                ]
-            ],
-            [
-                "uses",
-                60
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
-                "status_on_hold",
-                "Ignis"
-            ],
-            [
-                "multi_desc_skill",
-                [
-                    "IgnisL"
-                ]
-            ],
-            [
-                "custom_uses_color",
-                {
-                    "color": "blue",
-                    "override_unavailable": false,
-                    "override_droppable": false
-                }
-            ]
-        ]
-    },
-    {
-        "nid": "Almace1",
-        "name": "Almace",
-        "desc": "Adds Mag to Atk. Eff vs Lykons.\nIgnores Damage reduction of Dragons.",
-        "icon_nid": "[WEP] Pack 5 {Lisandra Brave}",
-        "icon_index": [
-            4,
-            1
-        ],
-        "components": [
-            [
                 "weapon",
                 null
             ],
@@ -3726,6 +3671,29 @@
             [
                 "alternate_resist_formula",
                 "AVG_DEFENSE"
+            ],
+            [
+                "uses",
+                60
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "prf_unit",
+                [
+                    "Svetlanya",
+                    "Serena",
+                    "Troia"
+                ]
+            ],
+            [
+                "status_on_hold",
+                "Fireball"
             ]
         ]
     },
