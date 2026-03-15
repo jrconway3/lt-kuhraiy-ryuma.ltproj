@@ -3076,8 +3076,7 @@
             "    make_generic;Phantom;Fighter;{e:unit.level};player;;Monster;;Iron Axe",
             "end",
             "add_unit;phantom;{eval:target_pos};warp",
-            "wait;200",
-            ""
+            "wait;200"
         ],
         "nid": "Global Summon Phantom"
     },
@@ -3417,9 +3416,9 @@
             "#pyev1",
             "",
             "for unit in game.get_all_units(False):",
-            "    spells = \"Spellbook\"",
-            "    if unit.persistent and not has_item(spells, nid=unit.nid):",
-            "        $give_item unit.nid spells, no_banner no_warn",
+            "    #spells = \"Spellbook\"",
+            "    #if unit.persistent and not has_item(spells, nid=unit.nid):",
+            "        #$give_item unit.nid spells, no_banner no_warn",
             "",
             "    # get raw data",
             "    list = unit.nid + \"SpellbookList\"",
@@ -3428,7 +3427,8 @@
             "            if spell.Wexp is None or spell.Wexp == '' or spell.Type is None or spell.Type == '' or spell.Item is None or spell.Item == '':",
             "                continue",
             "            if int(spell.Wexp) <= unit.wexp[spell.Type]:",
-            "                $add_item_to_multiitem unit.nid spells spell.Item,no_duplicate no_warn"
+            "                #$add_item_to_multiitem unit.nid spells spell.Item,no_duplicate no_warn",
+            "                $give_skill unit.nid spell.Item, no_banner"
         ],
         "nid": "Global SpellbookInit"
     },
@@ -3581,7 +3581,7 @@
         "_source": [
             "#pyev1",
             "",
-            "spells = \"Spellbook\"",
+            "#spells = \"Spellbook\"",
             "",
             "# get raw data",
             "list = unit.nid + \"SpellbookList\"",
@@ -3589,10 +3589,11 @@
             "    for spell in game.get_data(list):",
             "        if spell.Wexp is None or spell.Wexp == '' or spell.Type is None or spell.Type == '' or spell.Item is None or spell.Item == '':",
             "            continue",
-            "        if not get_subitem(unit, spells, spell.Item) and weapon_type != 'spell.Type' and int(spell.Wexp) <= unit.wexp[weapon_type]:",
-            "            $add_item_to_multiitem unit.nid spells spell.Item,no_duplicate no_warn",
-            "            $sound \"Item\"",
-            "            $alert (unit.nid + \" has learned \" + spell.Item + \"!\") Item=spell.Item"
+            "        #if not get_subitem(unit, spells, spell.Item) and weapon_type != 'spell.Type' and int(spell.Wexp) <= unit.wexp[weapon_type]:",
+            "            #$add_item_to_multiitem unit.nid spells spell.Item,no_duplicate no_warn",
+            "        $sound \"Item\"",
+            "        $give_skill unit.nid spell.Item, no_banner",
+            "        $alert (unit.nid + \" has learned \" + spell.Item + \"!\") Item=spell.Item"
         ],
         "nid": "Global SpellbookLearn"
     },
