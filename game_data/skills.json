@@ -636,6 +636,230 @@
         ]
     },
     {
+        "nid": "Glimmer",
+        "name": "Glimmer",
+        "desc": "",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "ability",
+                "Glimmer"
+            ],
+            [
+                "menu_category",
+                "Magic"
+            ],
+            [
+                "wexp_usable_skill",
+                "Solus"
+            ]
+        ]
+    },
+    {
+        "nid": "Fireball",
+        "name": "Fireball",
+        "desc": "",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "wexp_usable_skill",
+                "Ignis"
+            ],
+            [
+                "ability",
+                "Fireball"
+            ],
+            [
+                "menu_category",
+                "Magic"
+            ]
+        ]
+    },
+    {
+        "nid": "Static",
+        "name": "Static",
+        "desc": "",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "ability",
+                "Static"
+            ],
+            [
+                "menu_category",
+                "Magic"
+            ],
+            [
+                "wexp_usable_skill",
+                "Fulgus"
+            ]
+        ]
+    },
+    {
+        "nid": "Gust",
+        "name": "Gust",
+        "desc": "",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "ability",
+                "Gust"
+            ],
+            [
+                "menu_category",
+                "Magic"
+            ],
+            [
+                "wexp_usable_skill",
+                "Ventus"
+            ]
+        ]
+    },
+    {
+        "nid": "Icicle",
+        "name": "Icicle",
+        "desc": "",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "ability",
+                "Icicle"
+            ],
+            [
+                "menu_category",
+                "Magic"
+            ],
+            [
+                "wexp_usable_skill",
+                "Glacies"
+            ]
+        ]
+    },
+    {
+        "nid": "HealingWater",
+        "name": "HealingWater",
+        "desc": "",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "ability",
+                "HealingWater"
+            ],
+            [
+                "menu_category",
+                "Magic"
+            ],
+            [
+                "wexp_usable_skill",
+                "Aquis"
+            ]
+        ]
+    },
+    {
+        "nid": "Stone",
+        "name": "Stone",
+        "desc": "",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "ability",
+                "Stone"
+            ],
+            [
+                "menu_category",
+                "Magic"
+            ],
+            [
+                "wexp_usable_skill",
+                "Tellus"
+            ]
+        ]
+    },
+    {
+        "nid": "Tendril",
+        "name": "Tendril",
+        "desc": "",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "ability",
+                "Tendril"
+            ],
+            [
+                "menu_category",
+                "Magic"
+            ],
+            [
+                "wexp_usable_skill",
+                "Lunis"
+            ]
+        ]
+    },
+    {
         "nid": "Armor",
         "name": "Armor",
         "desc": "Negates effective damage except armor, mounts.\nDamage taken reduced by 25%.",

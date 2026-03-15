@@ -631,6 +631,7 @@
                     3
                 ],
                 "sub_nid": "",
+                "highlight": null,
                 "condition": "True",
                 "time_left": null,
                 "only_once": true,
@@ -649,6 +650,7 @@
                     1
                 ],
                 "sub_nid": "",
+                "highlight": null,
                 "condition": "",
                 "time_left": null,
                 "only_once": false,
@@ -667,6 +669,7 @@
                     1
                 ],
                 "sub_nid": "",
+                "highlight": null,
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
@@ -685,6 +688,7 @@
                     2
                 ],
                 "sub_nid": "",
+                "highlight": null,
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
@@ -703,6 +707,7 @@
                     1
                 ],
                 "sub_nid": "",
+                "highlight": null,
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
@@ -721,6 +726,7 @@
                     1
                 ],
                 "sub_nid": "",
+                "highlight": null,
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
@@ -739,6 +745,7 @@
                     3
                 ],
                 "sub_nid": "",
+                "highlight": null,
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
@@ -757,6 +764,7 @@
                     1
                 ],
                 "sub_nid": "",
+                "highlight": null,
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
@@ -775,6 +783,7 @@
                     1
                 ],
                 "sub_nid": "",
+                "highlight": null,
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
@@ -793,6 +802,7 @@
                     1
                 ],
                 "sub_nid": "",
+                "highlight": null,
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
@@ -811,6 +821,7 @@
                     1
                 ],
                 "sub_nid": "",
+                "highlight": null,
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
@@ -829,6 +840,7 @@
                     1
                 ],
                 "sub_nid": "",
+                "highlight": null,
                 "condition": "True",
                 "time_left": null,
                 "only_once": true,
@@ -1244,6 +1256,7 @@
                     1
                 ],
                 "sub_nid": "enter_church_sw",
+                "highlight": null,
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
@@ -1262,6 +1275,7 @@
                     1
                 ],
                 "sub_nid": "enter_church_n",
+                "highlight": null,
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
@@ -1280,6 +1294,7 @@
                     2
                 ],
                 "sub_nid": "enter_church_e",
+                "highlight": null,
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
@@ -1298,6 +1313,7 @@
                     3
                 ],
                 "sub_nid": "leave_w",
+                "highlight": null,
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
@@ -1316,6 +1332,7 @@
                     1
                 ],
                 "sub_nid": "leave_nw",
+                "highlight": null,
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
@@ -1334,6 +1351,7 @@
                     1
                 ],
                 "sub_nid": "leave_ne",
+                "highlight": null,
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
@@ -1349,6 +1367,7 @@
                     1
                 ],
                 "sub_nid": "leave_sw",
+                "highlight": null,
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
@@ -1364,6 +1383,7 @@
                     1
                 ],
                 "sub_nid": "leave_se",
+                "highlight": null,
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
@@ -2000,6 +2020,7 @@
                     1
                 ],
                 "sub_nid": "Visit",
+                "highlight": null,
                 "condition": "True",
                 "time_left": null,
                 "only_once": true,
@@ -2018,6 +2039,7 @@
                     1
                 ],
                 "sub_nid": "Visit",
+                "highlight": null,
                 "condition": "True",
                 "time_left": null,
                 "only_once": true,
@@ -2036,6 +2058,7 @@
                     1
                 ],
                 "sub_nid": "Seize",
+                "highlight": null,
                 "condition": "unit.nid == 'Eirika'",
                 "time_left": null,
                 "only_once": false,
@@ -2054,6 +2077,7 @@
                     10
                 ],
                 "sub_nid": "",
+                "highlight": null,
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
@@ -2475,6 +2499,7 @@
                     1
                 ],
                 "sub_nid": "Visit",
+                "highlight": null,
                 "condition": "True",
                 "time_left": null,
                 "only_once": true,
@@ -2493,6 +2518,7 @@
                     1
                 ],
                 "sub_nid": "Visit",
+                "highlight": null,
                 "condition": "True",
                 "time_left": null,
                 "only_once": true,
@@ -2511,6 +2537,7 @@
                     1
                 ],
                 "sub_nid": "Visit",
+                "highlight": null,
                 "condition": "True",
                 "time_left": null,
                 "only_once": true,
@@ -2529,6 +2556,7 @@
                     1
                 ],
                 "sub_nid": "Armory",
+                "highlight": null,
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
@@ -2547,6 +2575,7 @@
                     1
                 ],
                 "sub_nid": "Destructible",
+                "highlight": null,
                 "condition": "unit.team == 'enemy'",
                 "time_left": null,
                 "only_once": true,
@@ -2565,6 +2594,7 @@
                     1
                 ],
                 "sub_nid": "Destructible",
+                "highlight": null,
                 "condition": "unit.team == 'enemy'",
                 "time_left": null,
                 "only_once": true,
@@ -2583,6 +2613,7 @@
                     1
                 ],
                 "sub_nid": "Destructible",
+                "highlight": null,
                 "condition": "unit.team == 'enemy'",
                 "time_left": null,
                 "only_once": true,
@@ -3143,6 +3174,7 @@
                     1
                 ],
                 "sub_nid": "Chest",
+                "highlight": null,
                 "condition": "unit.can_unlock(region)",
                 "time_left": null,
                 "only_once": true,
@@ -3161,6 +3193,7 @@
                     1
                 ],
                 "sub_nid": "Chest",
+                "highlight": null,
                 "condition": "unit.can_unlock(region)",
                 "time_left": null,
                 "only_once": true,
@@ -3179,6 +3212,7 @@
                     1
                 ],
                 "sub_nid": "Chest",
+                "highlight": null,
                 "condition": "unit.can_unlock(region)",
                 "time_left": null,
                 "only_once": true,
@@ -3197,6 +3231,7 @@
                     1
                 ],
                 "sub_nid": "Chest",
+                "highlight": null,
                 "condition": "unit.can_unlock(region)",
                 "time_left": null,
                 "only_once": true,
@@ -3215,6 +3250,7 @@
                     3
                 ],
                 "sub_nid": "Door",
+                "highlight": null,
                 "condition": "unit.can_unlock(region)",
                 "time_left": null,
                 "only_once": true,
@@ -3233,6 +3269,7 @@
                     3
                 ],
                 "sub_nid": "Door",
+                "highlight": null,
                 "condition": "unit.can_unlock(region)",
                 "time_left": null,
                 "only_once": true,
@@ -3251,6 +3288,7 @@
                     3
                 ],
                 "sub_nid": "Door",
+                "highlight": null,
                 "condition": "unit.can_unlock(region)",
                 "time_left": null,
                 "only_once": true,
@@ -3269,6 +3307,7 @@
                     1
                 ],
                 "sub_nid": "Seize",
+                "highlight": null,
                 "condition": "'Lord' in unit.tags",
                 "time_left": null,
                 "only_once": true,
@@ -4056,6 +4095,7 @@
                     1
                 ],
                 "sub_nid": "Visit",
+                "highlight": null,
                 "condition": "True",
                 "time_left": null,
                 "only_once": true,
@@ -4074,6 +4114,7 @@
                     1
                 ],
                 "sub_nid": "Visit",
+                "highlight": null,
                 "condition": "True",
                 "time_left": null,
                 "only_once": true,
@@ -4092,6 +4133,7 @@
                     1
                 ],
                 "sub_nid": "",
+                "highlight": null,
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
@@ -4110,6 +4152,7 @@
                     1
                 ],
                 "sub_nid": "",
+                "highlight": null,
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
@@ -4128,6 +4171,7 @@
                     1
                 ],
                 "sub_nid": "",
+                "highlight": null,
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
@@ -4146,6 +4190,7 @@
                     1
                 ],
                 "sub_nid": "",
+                "highlight": null,
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
@@ -4164,6 +4209,7 @@
                     1
                 ],
                 "sub_nid": "",
+                "highlight": null,
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
@@ -4182,6 +4228,7 @@
                     1
                 ],
                 "sub_nid": "",
+                "highlight": null,
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
@@ -4200,6 +4247,7 @@
                     1
                 ],
                 "sub_nid": "",
+                "highlight": null,
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
@@ -4218,6 +4266,7 @@
                     6
                 ],
                 "sub_nid": null,
+                "highlight": null,
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
@@ -4902,6 +4951,7 @@
                     1
                 ],
                 "sub_nid": "",
+                "highlight": null,
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
@@ -4920,6 +4970,7 @@
                     1
                 ],
                 "sub_nid": "",
+                "highlight": null,
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
@@ -4938,6 +4989,7 @@
                     1
                 ],
                 "sub_nid": "",
+                "highlight": null,
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
@@ -4956,6 +5008,7 @@
                     1
                 ],
                 "sub_nid": "",
+                "highlight": null,
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
@@ -4974,6 +5027,7 @@
                     1
                 ],
                 "sub_nid": "",
+                "highlight": null,
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
@@ -4992,6 +5046,7 @@
                     1
                 ],
                 "sub_nid": "",
+                "highlight": null,
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
@@ -5010,6 +5065,7 @@
                     1
                 ],
                 "sub_nid": "",
+                "highlight": null,
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
@@ -5028,6 +5084,7 @@
                     1
                 ],
                 "sub_nid": "Visit",
+                "highlight": null,
                 "condition": "True",
                 "time_left": null,
                 "only_once": true,
@@ -5046,6 +5103,7 @@
                     1
                 ],
                 "sub_nid": "Destructible",
+                "highlight": null,
                 "condition": "unit.team == 'enemy'",
                 "time_left": null,
                 "only_once": true,
@@ -5064,6 +5122,7 @@
                     1
                 ],
                 "sub_nid": "Visit",
+                "highlight": null,
                 "condition": "True",
                 "time_left": null,
                 "only_once": true,
@@ -5082,6 +5141,7 @@
                     1
                 ],
                 "sub_nid": "Destructible",
+                "highlight": null,
                 "condition": "unit.team == 'enemy'",
                 "time_left": null,
                 "only_once": true,
@@ -5100,6 +5160,7 @@
                     1
                 ],
                 "sub_nid": "Visit",
+                "highlight": null,
                 "condition": "True",
                 "time_left": null,
                 "only_once": true,
@@ -5118,6 +5179,7 @@
                     1
                 ],
                 "sub_nid": "Destructible",
+                "highlight": null,
                 "condition": "unit.team == 'enemy'",
                 "time_left": null,
                 "only_once": true,
@@ -5136,6 +5198,7 @@
                     1
                 ],
                 "sub_nid": "Visit",
+                "highlight": null,
                 "condition": "True",
                 "time_left": null,
                 "only_once": true,
@@ -5154,6 +5217,7 @@
                     1
                 ],
                 "sub_nid": "Destructible",
+                "highlight": null,
                 "condition": "unit.team == 'enemy'",
                 "time_left": null,
                 "only_once": true,
@@ -5172,6 +5236,7 @@
                     1
                 ],
                 "sub_nid": "Vendor",
+                "highlight": null,
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
@@ -5190,6 +5255,7 @@
                     1
                 ],
                 "sub_nid": "Armory",
+                "highlight": null,
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
@@ -5565,6 +5631,7 @@
                     1
                 ],
                 "sub_nid": "Armory",
+                "highlight": null,
                 "condition": "True",
                 "time_left": null,
                 "only_once": true,
@@ -5583,6 +5650,7 @@
                     1
                 ],
                 "sub_nid": "Village",
+                "highlight": null,
                 "condition": "True",
                 "time_left": null,
                 "only_once": true,
@@ -5601,6 +5669,7 @@
                     1
                 ],
                 "sub_nid": "Village",
+                "highlight": null,
                 "condition": "True",
                 "time_left": null,
                 "only_once": true,
@@ -5619,6 +5688,7 @@
                     1
                 ],
                 "sub_nid": "Arena",
+                "highlight": null,
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
@@ -5796,6 +5866,7 @@
                     1
                 ],
                 "sub_nid": "Armory",
+                "highlight": null,
                 "condition": "True",
                 "time_left": null,
                 "only_once": true,
@@ -5814,6 +5885,7 @@
                     1
                 ],
                 "sub_nid": "Village",
+                "highlight": null,
                 "condition": "True",
                 "time_left": null,
                 "only_once": true,
@@ -5832,6 +5904,7 @@
                     1
                 ],
                 "sub_nid": "Village",
+                "highlight": null,
                 "condition": "True",
                 "time_left": null,
                 "only_once": true,
@@ -5850,6 +5923,7 @@
                     1
                 ],
                 "sub_nid": "Arena",
+                "highlight": null,
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
@@ -6493,6 +6567,7 @@
                     3
                 ],
                 "sub_nid": "",
+                "highlight": null,
                 "condition": "False",
                 "time_left": null,
                 "only_once": true,
@@ -6511,6 +6586,7 @@
                     1
                 ],
                 "sub_nid": "House",
+                "highlight": null,
                 "condition": "",
                 "time_left": null,
                 "only_once": false,
@@ -6529,6 +6605,7 @@
                     1
                 ],
                 "sub_nid": "Cathedral",
+                "highlight": null,
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
@@ -6547,6 +6624,7 @@
                     2
                 ],
                 "sub_nid": "Cathedral",
+                "highlight": null,
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
@@ -6565,6 +6643,7 @@
                     1
                 ],
                 "sub_nid": "Cathedral",
+                "highlight": null,
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
@@ -6583,6 +6662,7 @@
                     1
                 ],
                 "sub_nid": "Cathedral",
+                "highlight": null,
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
@@ -6601,6 +6681,7 @@
                     3
                 ],
                 "sub_nid": "Gate",
+                "highlight": null,
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
@@ -6619,6 +6700,7 @@
                     1
                 ],
                 "sub_nid": "Gate",
+                "highlight": null,
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
@@ -6637,6 +6719,7 @@
                     1
                 ],
                 "sub_nid": "Gate",
+                "highlight": null,
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
@@ -6655,6 +6738,7 @@
                     1
                 ],
                 "sub_nid": "Gate",
+                "highlight": null,
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
@@ -6673,6 +6757,7 @@
                     1
                 ],
                 "sub_nid": "Gate",
+                "highlight": null,
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
@@ -6691,6 +6776,7 @@
                     1
                 ],
                 "sub_nid": "",
+                "highlight": null,
                 "condition": "False",
                 "time_left": null,
                 "only_once": true,
@@ -6709,6 +6795,7 @@
                     1
                 ],
                 "sub_nid": "Armory",
+                "highlight": null,
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
@@ -6727,6 +6814,7 @@
                     1
                 ],
                 "sub_nid": "Blacksmith",
+                "highlight": null,
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
@@ -6745,6 +6833,7 @@
                     1
                 ],
                 "sub_nid": "Cafe",
+                "highlight": null,
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
@@ -6763,6 +6852,7 @@
                     1
                 ],
                 "sub_nid": "Inn",
+                "highlight": null,
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
@@ -6781,6 +6871,7 @@
                     1
                 ],
                 "sub_nid": "House",
+                "highlight": null,
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
@@ -6799,6 +6890,7 @@
                     1
                 ],
                 "sub_nid": "House",
+                "highlight": null,
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
@@ -6817,6 +6909,7 @@
                     1
                 ],
                 "sub_nid": "House",
+                "highlight": null,
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
@@ -6835,6 +6928,7 @@
                     1
                 ],
                 "sub_nid": "Emporium",
+                "highlight": null,
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
