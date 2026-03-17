@@ -464,6 +464,10 @@ Lord/Dahlten (Mage Lord by TytheBub; customizations needed: Mage Lord needs a sw
 Pirate Lord/Dahlten (Mage Lord by TytheBub; customization needed: Mage Lord needs a sword animation, ideally have longer hair)
 Tsuiho/Relm (Thief; customizations needed: add a magic animation, really long hair, need a head covering and long sleeves over the arms)
 
+Lord (FE6 Roy Redesign Reskin by GabrielKnight, Script by flasuban)
+Saviour (FE6 Roy-Reskin Master Lord by UltraFenix, Still by Jeorge_Reds, Sword and Unarmed by DerTheVaporeon and Pikmin1211 Ephraim, Magic inspired by Pikmin1211)
+Mage (FE6 Roy-Variant Court Mage Hair Bun by Cynon)
+Gallant (Cavalier-Variant Leo's Axe Cavalier Noble by Leo_Link, Script by Pushwall)
 
 ##### Dancers, Bards
 Dancer (Gypsy-Muse by Alexsplode)
