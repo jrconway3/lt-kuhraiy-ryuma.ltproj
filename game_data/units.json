@@ -11032,12 +11032,17 @@
         "desc": "",
         "variant": "",
         "level": 5,
-        "klass": "Mercenary",
+        "klass": "Lord",
         "tags": [],
         "bases": {},
         "growths": {},
         "stat_cap_modifiers": {},
-        "starting_items": [],
+        "starting_items": [
+            [
+                "Caliburnus",
+                false
+            ]
+        ],
         "learned_skills": [],
         "unit_notes": [],
         "wexp_gain": {
@@ -11058,7 +11063,64 @@
         "desc": "Artor's mother, the surviving queen. She will do anything to protect her son.",
         "variant": "Female",
         "level": 2,
-        "klass": "Clergy",
+        "klass": "Mother",
+        "tags": [],
+        "bases": {},
+        "growths": {},
+        "stat_cap_modifiers": {},
+        "starting_items": [],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Runic": [
+                false,
+                71,
+                null
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Natasha (Older) {MegaCowsamMan}",
+        "affinity": null,
+        "fields": []
+    },
+    {
+        "nid": "Trystram",
+        "name": "Trystram",
+        "desc": "A close friend of Artor of Kernaw. He is on a mission to deliver the Lady Iseulte to his uncle.",
+        "variant": "",
+        "level": 5,
+        "klass": "Jouster",
+        "tags": [],
+        "bases": {},
+        "growths": {},
+        "stat_cap_modifiers": {},
+        "starting_items": [],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0,
+                null
+            ],
+            "Lance": [
+                false,
+                121,
+                null
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Zoisite_Genisis",
+        "affinity": null,
+        "fields": []
+    },
+    {
+        "nid": "Iseulte",
+        "name": "Iseulte",
+        "desc": "Artor's mother, the surviving queen. She will do anything to protect her son.",
+        "variant": "Female",
+        "level": 2,
+        "klass": "Princess",
         "tags": [],
         "bases": {},
         "growths": {},
@@ -11104,7 +11166,7 @@
         "desc": "The strongest knight in the realm, he's a long time friend and rival to Artor. After the death of his family he was taken in by Viviana for a time.",
         "variant": "",
         "level": 5,
-        "klass": "Cavalry",
+        "klass": "Gallant",
         "tags": [],
         "bases": {},
         "growths": {},
@@ -11166,7 +11228,7 @@
         "desc": "The Lady of the Lake and Lanze's adoptive mother. She goes by Miriam to hide her identity.",
         "variant": "",
         "level": 10,
-        "klass": "Lake_Lady",
+        "klass": "OracleF",
         "tags": [],
         "bases": {},
         "growths": {},
@@ -11232,9 +11294,9 @@
         "fields": []
     },
     {
-        "nid": "Parzivia",
-        "name": "Parzivia",
-        "desc": "Daughter of the Fisher King of the western isles who has come seeking the legend of the Holy Grail.",
+        "nid": "Palzivia",
+        "name": "Palzivia",
+        "desc": "Daughter of King Pelnoires who has come seeking the legend of the Holy Grail.",
         "variant": "",
         "level": 1,
         "klass": "Mariner",

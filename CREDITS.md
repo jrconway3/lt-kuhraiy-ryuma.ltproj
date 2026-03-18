@@ -463,11 +463,9 @@ Lieutenant/Amaya (Beta Eirika Fixed by Jono the Red; Amaya Reskin by JaidynReima
 Lord/Dahlten (Mage Lord by TytheBub; customizations needed: Mage Lord needs a sword animation and longer hair)
 Pirate Lord/Dahlten (Mage Lord by TytheBub; customization needed: Mage Lord needs a sword animation, ideally have longer hair)
 Tsuiho/Relm (Thief; customizations needed: add a magic animation, really long hair, need a head covering and long sleeves over the arms)
-
-Lord (FE6 Roy Redesign Reskin by GabrielKnight, Script by flasuban)
+Lord (FE6 Roy Redesign Reskin by Blaze)
 Saviour (FE6 Roy-Reskin Master Lord by UltraFenix, Still by Jeorge_Reds, Sword and Unarmed by DerTheVaporeon and Pikmin1211 Ephraim, Magic inspired by Pikmin1211)
-Mage (FE6 Roy-Variant Court Mage Hair Bun by Cynon)
-Gallant (Cavalier-Variant Leo's Axe Cavalier Noble by Leo_Link, Script by Pushwall)
+Oracle ()
 
 ##### Dancers, Bards
 Dancer (Gypsy-Muse by Alexsplode)
@@ -538,6 +536,8 @@ Paladin-M (Paladin Variant by SALVAGED, Bow by Obsidian Daddy, Magic by Zoramine
 Paladin-F (Paladin Variant Female by SALVAGED, HGS, Levin64, RJ_Exists, Obsidian_Daddy; F Paladin Magic WhatIsAnAubin, Magic Axe by UltraFenix)
 Ranger (Vanilla by IS, Lance by Skitty and Feaw, Smoothed Sword by Jey The Count, Magic by SaintRubenio)
 Commander (Grand Paladin by Aruku and Kenpuhu; Horse/Armor Repal, Axe, Handaxe, Unarmed animation by Nuramon; Magic by Spud)
+Jouster (Cavalier V2 by SALVAGED, Female by CelestiaHeart, Long Hair Male by JaidynReiman)
+Gallant (Cavalier-Variant Leo's Axe Cavalier Noble by Leo_Link, Script by Pushwall)
 
 ##### Pegasi, Wyverns, Griffons
 Valkyrie (Custom Peg Nephilim by Unknown)
@@ -553,6 +553,7 @@ Tactician-M (Troubadour Deacon v2 Repal by Pikmin1211, GabrielKnight, Maiser6; S
 Tactician-F (Ponytail Troubadour Ponytail Repal by Pikmin1211, Maiser6; Sword by TBA; Magic by Lisandra_Brave)
 Magic Corps-M (MK-Base by IS, Sword Rapidslash-crit by Aruka, Kenpuhu, Lance by Teraspark, Magic FE7 by Unknown)
 Magic Corps-F (MK-Base by IS, Sword Thunder-crit by Aruka, Kenpuhu, Magic Sword by Seal, Lance by Merpin based on Male Mage Knight)
+Princess (Ponytail Troubadour Ponytail Repal by Pikmin1211, Maiser6; Sword by TBA; Magic by Lisandra_Brave)
 
 ##### Nature Mages
 Street Rat-M (Mage Hatless by GabrielKnight, Repal by UltraFenix)
@@ -562,6 +563,8 @@ Apprentice-F (Light Mage by Leo_Link and L95, Long Hair by Flasuban)
 Sage-M (Battle Sage Repal by St jack, CranJam; Staff by The_Big_Dededester, Dolkar, Sword Alt by Jj09)
 Sage-F (Battle Sage +Sword by St Jack)
 Mage Lord (Mage Lord by TyTheBub)
+Mage-M (FE6 Roy-Variant Court Mage by Cynon)
+Mage-F (FE6 Roy-Variant Court Mage Hair Bun by Cynon)
 
 ##### Holy Mages
 Clergy (Monk Repal + Staff by Teraspark)
@@ -571,6 +574,7 @@ Doctor-M (Patriarch by MrNight48, Looping Cape and Crit Fixed by DerTheVaporeon)
 Doctor-F (Matriarch by MrNight48, Looping Cape and Crit Fixed by DerTheVaporeon, Alt Crit by 7743)
 Prior-M (FE13 War Monk by DerTheVaporeon, Pikmin1211)
 Prior-F (FE13 War Cleric by Leo_link, Iscaneus, DerTheVaporeon, Dress edit by TyTheBub, 7743)
+Penitent (T2 Bishop-Reskin Elen by HeroDW)
 
 ##### Dark Mages
 Shaman (Awakening Dark Mage Still by BatimatheBat, Animation by Leo_Link)
@@ -628,9 +632,12 @@ Sonneteer (Bard-M Sonneteer Elffin by Marlon&Loius)
 
 ##### Lords
 Lord (Mage Lord-M by TyTheBulb, Elven Ears by JaidynReiman)
-Lady (Mage Lord-F by TyTheBulb, Elven Ears by JaidynReiman)
+Lady (JaidynReiman)
 Lieutenant (Lord-F Elf by JaidynReiman)
 Heiress (Lord-F Priestess Sword by blood)
+Lord (Noble Launch T1 by VelvetKitsune)
+Malakhim (Successor Launch T2 by VelvetKitsune)
+Oracle (Mage Lord-F by TyTheBulb, Elven Ears by JaidynReiman)
 
 
 ##### Pirates, Brigands, Berserkers
@@ -680,6 +687,8 @@ Unknown (Swordmaster FE10 by L95)
 Unknown (Swordmaster-F Alt FE7if)
 Samurai (Dread Fighter by Nuramon)
 Master of Arms (Archerbias)
+Fencer (Sword Custom Katarina Fencer Long Hair by GabrielKnight, Karina edit by 7743)
+Fencer V2? (Trickster V.2 Ponytail by Leo_Link, script by Epicer & Kanto Emblem, Color fix by UltraFenix, Hat edit & Unarmed by CrimsonFox, Ponytail edit by Sable Mage)
 
 ##### Thieves
 Shinobi-M (Thief Unhooded by Rasdel)
@@ -720,6 +729,7 @@ Prior (War Cleric, Axe F by DerTheVaporean)
 Doctor-M (Patriarch by Unknown)
 Doctor-F (Matriarch by Unknown)
 Maid (Maid by Batima, NamelessX, Hanakko)
+Mother (Cleric Improved by Flasuban)
 
 ##### Nature Mages
 Street Rat-M (Mage-M Hatless by Pikmin)
@@ -756,9 +766,12 @@ Paladin-F Sword (Paladin Revision Sword by Permafrost)
 Commander (Grand Paladin Lance by Fates-Blade)
 Scout (Nomad by IS)
 Ranger (Ranger by IS)
+Jouster (Cavalier Alt Hair Lance F by SALVAGED and flasuban)
+Gallant (Axe Cavalier by Leo_Link)
 
 ##### Mounted Mages
 Tactician (Thaumaturge M/F by Pikmin1211, DerTheVaporean)
+Princess (Troubadour Rework UltraFenix)
 
 ##### Pegasi, Wyverns, Griffons
 Drakoor (Armless Wyvern Axe by Leif, Eden)

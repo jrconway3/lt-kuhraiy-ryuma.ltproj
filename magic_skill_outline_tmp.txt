@@ -1,0 +1,123 @@
+MAGIC ITEM COUNT: 112
+ITEMS
+AquaEdge|Aqua Edge|Aquis|{Beansy} All Tomes|0,3|
+Deluge|Deluge|Aquis|{Ereshkigal} All Tomes|9,3|
+Enflow|Enflow|Aquis|{FuriousHaunter} All Icons|4,2|Ally deals water elemental damage for 2 turns.
+HealingRain|HealingRain|Aquis|{Beansy} All Tomes|2,3|Restores an ally's HP from afar.
+HealingWater|Healing Water|Aquis|{AtelierLabs} All Icons|4,3|Restores (User's MAG + 10) HP.
+Intellectual|Intellectual|Aquis|{Batima} All Tomes|2,5|Raises ally's intellect by 5 for 2 turns.
+Leviathan|Leviathan|Aquis|{Beansy} All Tomes|3,5|
+MiwataBlessing|Blessing of Miwata|Aquis|{Batima} All Tomes|3,5|Fully heal all nearby allies in a 5-square radius and grants Autolife.
+Purify|Purify|Aquis|{Zarg} All Icons|9,13|Cleanses physical statuses Bleed, Curse,\\nSilence, Paralyze, Sleep, and Burn.
+PurifyingBreath|Purifying Breath|Aquis|Neutral|0,1|Breath magic. Heals allies and restores condition. Dragons only.
+Splash|Splash|Aquis|{Batima} All Tomes|0,5|
+WaterBlast|Water Blast|Aquis|{Beansy} All Tomes|4,3|
+AlterniaArrow|Arrow of Alternia|Fulgus|{Batima} All Tomes|7,2|
+HighVoltage|High Voltage|Fulgus|{Ereshkigal} All Tomes|6,1|
+Illusion|Illusion|Fulgus|{Valak} All Tomes|3,1|Guarantees dodging the next two attacks.
+LightningBolt|Lightning Bolt|Fulgus|{Ereshkigal} All Tomes|12,1|
+Shockwave|Shockwave|Fulgus|{Ereshkigal} All Tomes|11,1|
+Static|Static|Fulgus|{Batima} All Tomes|2,2|
+Swiftness|Swiftness|Fulgus|{Ereshkigal} All Tomes|10,1|Raises ally's dexterity by 5 for 2 turns.
+Thunderstorm|Thunderstorm|Fulgus|{Batima} All Tomes|4,2|
+Warp|Warp|Fulgus|{Batima} All Tomes|5,2|Move an ally to another square.
+Barrier|Barrier|Glacies|{Ereshkigal} All Tomes|10,3|Raises ally's resistance by 5 for 2 turns.
+Bless|Bless|Glacies|{Valak} All Tomes|1,4|Transfers 5 MP to an ally.
+Blizzard|Blizzard|Glacies|{Ereshkigal} All Tomes|11,3|Eff vs Zabos, Avyons, Eagles.
+Enfrost|Enfrost|Glacies|{VelvetKitsune} All Icons|3,2|Ally deals ice elemental damage for 2 turns.
+Fimbulvetr|Fimbulvetr|Glacies|{Beansy} All Tomes|5,3|
+Freeze|Freeze|Glacies|{FuriousHaunter} All Icons|2,0|Enemy cannot move or attack for 2 turns. Frozen enemies receive critical damage if struck.
+Frostbite|Frostbite|Glacies|{Ereshkigal} All Tomes|6,3|Eff vs Zabos, Avyons, Eagles.
+Hailstorm|Hailstorm|Glacies|{Ereshkigal} All Tomes|12,3|Eff vs Zabos, Avyons, Eagles.
+Icicle|Icicle|Glacies|{Ereshkigal} All Tomes|3,3|Eff vs Zabos, Avyons, Eagles.
+Kronos|Kronos|Glacies|{Zarg} All Icons|6,13|Exhaust all MP to freeze all other units in place for one turn.\\nCertain units may be immune.
+MindRead|Mind Read|Glacies|{Zarg} All Icons|4,13|Read foe's actions in next attack. All unit's attacks will\\nhit before foe can take action.
+Slow|Slow|Glacies|{Zarg} All Icons|5,13|Slow all units across a wide area, reducing movement by 2.
+Blessing|Blessing|Ignis|{Batima} All Tomes|8,9|Holy blessing restores 2 MP every turn for 5 turns.
+Burn|Burn|Ignis|{2WB} All Tomes|2,0|Burn a foe to deal damage over time and\\nreduce wooden weapon durability.
+Enflame|Enflame|Ignis|{Zarg} All Icons|8,13|Ally deals fire elemental damage for 2 turns.
+Enlighten|Enlighten|Ignis|{2WB} All Tomes|1,5|Ally deals holy elemental damage for 2 turns.
+Enshock|Enshock|Ignis|{Beansy} All Tomes|4,2|Ally deals electric elemental damage for 2 turns.
+Eruption|Eruption|Ignis|{Ereshkigal} All Tomes|9,0|
+Explosion|Explosion|Ignis|{Ereshkigal} All Tomes|6,0|
+Fireball0|Fireball|Ignis|{2WB} All Tomes|0,0|Weakest fire magic. Eff vs lykons, wolves.\\nIneffective vs Zabos.
+FireBreath|Fire Breath|Ignis|Neutral|0,1|Breath magic. Ignore's enemy defence. Dragons only.
+FlameWall|Flame Wall|Ignis|{2WB} All Tomes|3,0|
+FlareBurst|Flare Burst|Ignis|{Ereshkigal} All Tomes|1,0|Moderate fire magic. Eff vs lykons, wolves.
+Immolate|Immolate|Ignis|{Ereshkigal} All Tomes|13,0|????
+Paralyze|Paralyze|Ignis|{Ereshkigal} All Tomes|7,1|Paralyze a foe, preventing them moving.
+Ragnarok|Ragnarok|Ignis|{Valak} All Tomes|3,0|
+Reforge|Reforge|Ignis|{Batima} All Tomes|6,1|Fully repair a single metal weapon or armor\\nin target's inventory to full use.
+Sear|Sear|Ignis|Anima|0,2|Attack up to three units.
+Strengthen|Strengthen|Ignis|{Batima} All Tomes|2,0|Ally Str+5 for 2 turns.
+Torch|Torch|Ignis|{Batima} All Tomes|7,0|Increases target's sight range in fog of war.
+Cauterize|Cauterize|Lunis|{Ereshkigal} All Tomes|2,3|Cures Curse, Bleed, and Deep Wounds,\\nas well as protecting against these status ailments for 3 turns.
+Cleanse|Cleanse|Lunis|{Batima} All Tomes|0,7|Removes all negative status effects.
+CorrosiveBreath|Corrosive Breath|Lunis|Neutral|0,1|Breath magic. Ignore's enemy defence. Dragons only.
+Crimson_Eye|Crimson Eye|Lunis|Neutral|0,15|
+DaemonicBreath|DaemonicBreath|Lunis|Neutral|0,1|Breath magic. Ignore's enemy defence. Dragons only.
+Demon_Surge|Demon Surge|Lunis|Neutral|0,5|
+Eclipse|Eclipse|Lunis|{2WB} All Tomes|3,3|
+EclipseOld|EclipseOld|Lunis|Dark|0,3|Halve's the enemy's current HP
+Enshade|Enshade|Lunis|{2WB} All Tomes|0,3|Ally deals shadow elemental damage for 2 turns.
+Evil_Eye|Evil Eye|Lunis|Neutral|0,14|
+FrostBreath|Frost Breath|Lunis|Neutral|0,1|Breath magic. Ignore's enemy defence. Dragons only.
+Hellfire|Hellfire|Lunis|{CamTech075} Pack 2 |5,4|
+Leech|Leech|Lunis|{Zane} All Icons|4,14|Dark magic. Eff vs Benoa, Holy.\\nUser recovers HP equal to damage dealt.
+LightningBreath|Lightning Breath|Lunis|Neutral|0,1|Breath magic. Ignore's enemy defences. Dragons only.\\nPiercing lightning strikes across the battlefield in a straight line.
+MephistoVengeance|Vengeance of Mephisto|Lunis|{Ereshkigal} All Tomes|5,8|
+Pierce|Pierce|Lunis|{2WB} All Tomes|5,3|Ignore's enemy resistance
+Regenerate|Regenerate|Lunis|{Batima} All Tomes|6,7|Amplifies bodily self-regeneration to\\nrestore 5 HP every turn for 5 turns.
+Shadowshot|Shadowshot|Lunis|Neutral|0,6|
+Teleport|Teleport|Lunis|{2WB} All Tomes|7,3|Teleports self to a distant location.
+TempestBreath|Tempest Breath|Lunis|Neutral|0,1|Breath magic. Ignore's enemy defence. Dragons only.
+Tendril|Tendril|Lunis|{2WB} All Tomes|6,3|
+Thief|Thief|Lunis|{2WB} All Tomes|2,3|Steal items from enemies.
+Transfusion|Transfusion|Lunis|{Batima} All Tomes|7,6|Restores an ally's HP from user's own HP, max: user's HP - 1.
+Airyukin|Airyukin|Solus|{Batima} All Tomes|7,10|Summons a light dragon. Eff vs daemons.
+Blind|Blind|Solus|{Ereshkigal} All Tomes|10,5|Shining light blinds foe, greatly decreasing accuracy for 2 turns.
+Excalibur|Excalibur|Solus|{FuriousHaunter} All Icons|2,2|Defense +5. Eff vs daemons.
+Fury|Fury|Solus|{Beansy} All Tomes|5,4|Amplifies one foe's anger, causing\\nenemy to go berserk.
+Glimmer|Glimmer|Solus|{Batima} All Tomes|0,9|Weakest holy magic. Eff vs daemons.
+HolyBreath|Holy Breath|Solus|Neutral|0,1|Breath magic. Ignore's enemy defence. Dragons only.
+LifeEnergy|LifeEnergy|Solus|{Beansy} All Tomes|1,5|Restores (User's MAG + 20) HP.
+Ray|Ray|Solus|{2WB} All Tomes|5,4|Strong holy magic. Eff vs daemons.
+Shine|Shine|Solus|{Batima} All Tomes|3,9|Moderate holy magic. Eff vs daemons.
+SolarFlare|Solar Flare|Solus|{Zarg} All Icons|1,14|Strong long-range holy magic. Eff vs daemons.
+Starlight|Starlight|Solus|{Batima} All Tomes|1,11|Powerful holy magic. Eff vs daemons.
+SylvansLight|Light of Sylvan|Solus|{Batima} All Tomes|0,11|Call upon the light of Sylvan. Heals all allies on map once per chapter.
+Boulder|Boulder|Tellus|{Beansy} All Tomes|5,7|
+Cloak|Cloak|Tellus|{Zane} All Icons|6,14|Fully restores uses of all target's held\\nnon-metal weapons and armor.
+Enearth|Enearth|Tellus|{Valak} All Tomes|0,3|Ally deals earth elemental damage for 2 turns.
+Fortitude|Fortitude|Tellus|{Zarg} All Icons|4,15|Raises ally's vitality by 5 for 2 turns.
+GaeyaWrath|Wrath of Gaeya|Tellus|{Zarg} All Icons|3,16|
+Gravity|Gravity|Tellus|{Beansy} All Tomes|3,6|Fully restores uses of all target's held\\nnon-metal weapons and armor.
+Jormungandr|Jormungandr|Tellus|{Batima} All Tomes|8,7|Sacred tome of Daemonia.
+Meteor|Meteor|Tellus|{FuriousHaunter} All Icons|4,0|
+Petrify|Petrify|Tellus|{Batima} All Tomes|6,8|Encases target in stone for 2 turns. All Avd reduced to 0,\\nbut damage reduced by 80%. Can be broken with a hammer,\\ndealing critical damage and removing petrify.
+Quake|Quake|Tellus|{Zarg} All Icons|2,16|
+Regrowth|Regrowth|Tellus|{Zarg} All Icons|3,15|Fully restores uses of all target's held\\nnon-metal weapons and armor.
+Reinforce|Reinforce|Tellus|{Ereshkigal} All Tomes|10,7|Restores ally's equipped weapon's uses by 50%.
+RendTerra|Rend Terra|Tellus|{Batima} All Tomes|2,8|
+Stone|Stone|Tellus|{Zarg} All Icons|0,15|
+Stoneskin|Stoneskin|Tellus|{Zarg} All Icons|5,15|All damage to target cut in half, but -2 Spd for 2 Turns.
+AirCurrent|Air Current|Ventus|{Batima} All Tomes|6,4|Eff vs Nordak, Drakes.
+Enwisp|Enwisp|Ventus|{VelvetKitsune} All Icons|3,2|Ally deals wind elemental damage for 2 turns.
+Gust|Gust|Ventus|{Batima} All Tomes|5,3|Eff vs Nordak, Drakes.
+Hasten|Hasten|Ventus|{Ereshkigal} All Tomes|9,2|Raises ally's agility by 5 for 2 turns.
+Hurricane|Hurricane|Ventus|{Batima} All Tomes|3,4|Speed +5. Effective against monsters
+Rescue|Rescue|Ventus|{Ereshkigal} All Tomes|7,2|Bring an ally to a space adjacent to the user
+ThorreTempest|Thorre's Tempest|Ventus|{Zarg} All Icons|7,13|
+Tornado|Wind Cutter|Ventus|{Batima} All Tomes|8,4|Eff vs Nordak, Drakes.
+Trade|Telekinesis|Ventus|{Ereshkigal} All Tomes|6,2|Trade with a far away ally.
+Ultima|Ultima|Ventus|{Ereshkigal} All Tomes|13,4|Technique perfected by Dalton. Combines Ventus,\\nFulgus, and Aquis to form a massive tempest.
+WindCutter|Wind Cutter|Ventus|{Batima} All Tomes|4,3|Eff vs Nordak, Drakes.
+EXISTING_TARGET_SKILLS
+Fireball|name=Fireball|ability=Fireball|wexp=Ignis|class=|menu=Magic|icon=|idx=0,0|desc=
+Glimmer|name=Glimmer|ability=Glimmer|wexp=Solus|class=|menu=Magic|icon=|idx=0,0|desc=
+Gust|name=Gust|ability=Gust|wexp=Ventus|class=|menu=Magic|icon=|idx=0,0|desc=
+HealingWater|name=HealingWater|ability=HealingWater|wexp=Aquis|class=|menu=Magic|icon=|idx=0,0|desc=
+Icicle|name=Icicle|ability=Icicle|wexp=Glacies|class=|menu=Magic|icon=|idx=0,0|desc=
+Static|name=Static|ability=Static|wexp=Fulgus|class=|menu=Magic|icon=|idx=0,0|desc=
+Stone|name=Stone|ability=Stone|wexp=Tellus|class=|menu=Magic|icon=|idx=0,0|desc=
+Tendril|name=Tendril|ability=Tendril|wexp=Lunis|class=|menu=Magic|icon=|idx=0,0|desc=
