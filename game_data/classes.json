@@ -2428,6 +2428,257 @@
         "fields": []
     },
     {
+        "nid": "Lord",
+        "name": "Lord",
+        "desc": "Heir to the throne of Prythani destined for greatness.",
+        "tier": 5,
+        "movement_group": "Light Foot",
+        "promotes_from": null,
+        "turns_into": [
+            "Pirate_Lord"
+        ],
+        "tags": [
+            "Lord",
+            "Pirate",
+            "Queiza",
+            "Gjin",
+            "Sword",
+            "Rapier"
+        ],
+        "max_level": 20,
+        "bases": {
+            "LCK": 0,
+            "RES": 0,
+            "CON": 9,
+            "MOV": 5,
+            "STR": 6,
+            "HP": 18,
+            "MAG": 3,
+            "SKL": 6,
+            "SPD": 7,
+            "DEF": 6,
+            "MP": 0,
+            "WT": 0
+        },
+        "growths": {
+            "LCK": 40,
+            "RES": 15,
+            "CON": 0,
+            "MOV": 0,
+            "STR": 45,
+            "HP": 90,
+            "MAG": 22,
+            "SKL": 40,
+            "SPD": 45,
+            "DEF": 15,
+            "MP": 0,
+            "WT": 0
+        },
+        "growth_bonus": {
+            "LCK": 0,
+            "RES": 0,
+            "CON": 0,
+            "MOV": 0,
+            "STR": 0,
+            "HP": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
+            "MP": 0,
+            "WT": 0
+        },
+        "promotion": {
+            "LCK": 0,
+            "RES": 0,
+            "CON": 0,
+            "MOV": 0,
+            "STR": 0,
+            "HP": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
+            "MP": 0,
+            "WT": 0
+        },
+        "max_stats": {
+            "LCK": 30,
+            "RES": 20,
+            "CON": 20,
+            "MOV": 15,
+            "STR": 20,
+            "HP": 60,
+            "MAG": 20,
+            "SKL": 20,
+            "SPD": 20,
+            "DEF": 20,
+            "MP": 40,
+            "WT": 30
+        },
+        "learned_skills": [],
+        "wexp_gain": {
+            "Sword": [
+                true,
+                31,
+                251
+            ],
+            "Dagger": [
+                false,
+                0,
+                null
+            ],
+            "Lance": [
+                false,
+                0,
+                251
+            ],
+            "Axe": [
+                false,
+                0,
+                251
+            ],
+            "Bow": [
+                false,
+                0,
+                251
+            ],
+            "Solus": [
+                false,
+                0,
+                251
+            ],
+            "Lunis": [
+                false,
+                0,
+                251
+            ],
+            "Ignis": [
+                true,
+                0,
+                null
+            ],
+            "Ventus": [
+                false,
+                0,
+                null
+            ],
+            "Fulgus": [
+                false,
+                0,
+                null
+            ],
+            "Tellus": [
+                false,
+                0,
+                251
+            ],
+            "Glacies": [
+                false,
+                0,
+                null
+            ],
+            "Aquis": [
+                true,
+                0,
+                null
+            ],
+            "Runic": [
+                false,
+                0,
+                251
+            ],
+            "Shield": [
+                false,
+                0,
+                null
+            ],
+            "Armor": [
+                false,
+                0,
+                null
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ],
+            "Valuables": [
+                false,
+                0,
+                null
+            ],
+            "Claw": [
+                false,
+                0,
+                null
+            ],
+            "Staff": [
+                false,
+                0,
+                251
+            ],
+            "Light": [
+                false,
+                0,
+                251
+            ],
+            "Dark": [
+                false,
+                0,
+                251
+            ],
+            "Earth": [
+                false,
+                0,
+                251
+            ],
+            "Water": [
+                false,
+                0,
+                null
+            ],
+            "New_Weapon_Type_2": [
+                false,
+                0,
+                null
+            ],
+            "New Weapon Type_3": [
+                false,
+                0,
+                null
+            ],
+            "Anima": [
+                false,
+                0,
+                251
+            ],
+            "Ice": [
+                false,
+                0,
+                null
+            ],
+            "New_Weapon_Type_3": [
+                false,
+                0,
+                null
+            ],
+            "Magic": [
+                false,
+                0,
+                251
+            ]
+        },
+        "icon_nid": "Generic_Portrait_Citizen",
+        "icon_index": [
+            0,
+            0
+        ],
+        "map_sprite_nid": "Lord",
+        "combat_anim_nid": "Lord",
+        "fields": []
+    },
+    {
         "nid": "Lieutenant",
         "name": "Lieutenant",
         "desc": "Loyal retainer for a noble house.\nRace: Alf",
