@@ -5616,19 +5616,6 @@
                 ],
                 "starting_traveler": null,
                 "generic": false
-            },
-            {
-                "nid": "Artor",
-                "team": "player",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    4,
-                    8
-                ],
-                "starting_traveler": null,
-                "generic": false
             }
         ],
         "regions": [

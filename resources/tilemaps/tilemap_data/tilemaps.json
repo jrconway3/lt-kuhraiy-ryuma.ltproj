@@ -4261,7 +4261,7 @@
                 }
             },
             {
-                "nid": "Village1",
+                "nid": "Village Left",
                 "visible": false,
                 "foreground": false,
                 "terrain_grid": {
@@ -4278,7 +4278,7 @@
                 }
             },
             {
-                "nid": "Village2",
+                "nid": "Village Middle",
                 "visible": false,
                 "foreground": false,
                 "terrain_grid": {
@@ -4295,7 +4295,7 @@
                 }
             },
             {
-                "nid": "Village3",
+                "nid": "Village Right",
                 "visible": false,
                 "foreground": false,
                 "terrain_grid": {

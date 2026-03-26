@@ -2672,7 +2672,7 @@
             0
         ],
         "map_sprite_nid": "Lord",
-        "combat_anim_nid": "Lord",
+        "combat_anim_nid": null,
         "fields": []
     },
     {

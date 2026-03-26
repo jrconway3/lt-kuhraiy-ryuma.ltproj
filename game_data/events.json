@@ -4368,8 +4368,8 @@
         "_source": [
             "speak;{unit};Hmm... what's this?",
             "give_item;{unit};IronKnife",
-            "show_layer;Village1",
-            "has_visited;{unit}"
+            "has_visited;{unit}",
+            "show_layer;Village Left"
         ],
         "nid": "DEBUG Village1"
     },
@@ -4399,7 +4399,7 @@
         "_source": [
             "speak;{unit};Hmm... what's this?",
             "give_item;{unit};IronKnife",
-            "show_layer;Village2",
+            "show_layer;Village Middle",
             "has_visited;{unit}"
         ],
         "nid": "DEBUG Village2"
