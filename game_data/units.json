@@ -1001,10 +1001,6 @@
             [
                 "Steel_Katana",
                 false
-            ],
-            [
-                "Static",
-                false
             ]
         ],
         "learned_skills": [],
@@ -2782,20 +2778,7 @@
             "MP": 0,
             "WT": 0
         },
-        "starting_items": [
-            [
-                "Frostbite",
-                false
-            ],
-            [
-                "Potion",
-                false
-            ],
-            [
-                "Gust",
-                false
-            ]
-        ],
+        "starting_items": [],
         "learned_skills": [],
         "unit_notes": [],
         "wexp_gain": {
@@ -3074,16 +3057,7 @@
             "MP": 0,
             "WT": 0
         },
-        "starting_items": [
-            [
-                "FlareBurst",
-                false
-            ],
-            [
-                "Static",
-                false
-            ]
-        ],
+        "starting_items": [],
         "learned_skills": [],
         "unit_notes": [],
         "wexp_gain": {
@@ -3649,16 +3623,7 @@
             "MP": 0,
             "WT": 0
         },
-        "starting_items": [
-            [
-                "Gust",
-                false
-            ],
-            [
-                "Tendril",
-                false
-            ]
-        ],
+        "starting_items": [],
         "learned_skills": [],
         "unit_notes": [],
         "wexp_gain": {
@@ -5082,16 +5047,7 @@
             "MP": 0,
             "WT": 0
         },
-        "starting_items": [
-            [
-                "FlareBurst",
-                false
-            ],
-            [
-                "Static",
-                false
-            ]
-        ],
+        "starting_items": [],
         "learned_skills": [],
         "unit_notes": [],
         "wexp_gain": {
@@ -5237,10 +5193,6 @@
             ],
             [
                 "IronShield",
-                false
-            ],
-            [
-                "Icicle",
                 false
             ]
         ],

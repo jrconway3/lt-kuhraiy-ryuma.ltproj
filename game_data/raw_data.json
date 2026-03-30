@@ -25,7 +25,7 @@
                 "nid": "svet2",
                 "Item": "Static",
                 "Type": "Fulgus",
-                "Wexp": "1",
+                "Wexp": "121",
                 "Rank": "E",
                 "Unit": "Svetlanya",
                 "Level": "1"
@@ -286,15 +286,15 @@
         ],
         "lovalue": [
             {
-                "nid": "rel1",
+                "nid": "tha1",
                 "Item": "Tendril",
                 "Type": "Lunis",
                 "Wexp": "1",
                 "Rank": "D"
             },
             {
-                "nid": "rel2",
-                "Item": "Tendril",
+                "nid": "tha2",
+                "Item": "Leech",
                 "Type": "Lunis",
                 "Wexp": "1",
                 "Rank": "E"

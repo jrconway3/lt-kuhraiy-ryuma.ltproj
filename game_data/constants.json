@@ -76,6 +76,10 @@
         true
     ],
     [
+        "spell_list",
+        true
+    ],
+    [
         "reset_uses",
         true
     ],
@@ -256,6 +260,10 @@
         false
     ],
     [
+        "can_unequip",
+        true
+    ],
+    [
         "num_save_slots",
         3
     ],
@@ -290,6 +298,10 @@
     [
         "title_sound",
         true
+    ],
+    [
+        "title_full_support",
+        false
     ],
     [
         "music_main",

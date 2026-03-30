@@ -1717,6 +1717,7 @@
             "game_var;_supports;True",
             "add_talk;Svetlanya;Amaya",
             "add_talk;Svetlanya;Shyara",
+            "give_item;Svetlanya;Static;no_banner",
             "hide_talk;Svetlanya;Shyara",
             "give_item;Svetlanya;Almace;force_give;no_banner",
             "give_money;10000;no_banner",
@@ -3428,7 +3429,8 @@
             "                continue",
             "            if int(spell.Wexp) <= unit.wexp[spell.Type]:",
             "                #$add_item_to_multiitem unit.nid spells spell.Item,no_duplicate no_warn",
-            "                $give_skill unit.nid spell.Item, no_banner"
+            "                #$give_skill unit.nid spell.Item, no_banner",
+            "                $give_item unit.nid spell.Item, no_banner"
         ],
         "nid": "Global SpellbookInit"
     },
@@ -3592,7 +3594,8 @@
             "        #if not get_subitem(unit, spells, spell.Item) and weapon_type != 'spell.Type' and int(spell.Wexp) <= unit.wexp[weapon_type]:",
             "            #$add_item_to_multiitem unit.nid spells spell.Item,no_duplicate no_warn",
             "        $sound \"Item\"",
-            "        $give_skill unit.nid spell.Item, no_banner",
+            "        #$give_skill unit.nid spell.Item, no_banner",
+            "        $give_item unit.nid spell.Item, no_banner",
             "        $alert (unit.nid + \" has learned \" + spell.Item + \"!\") Item=spell.Item"
         ],
         "nid": "Global SpellbookLearn"
@@ -3846,13 +3849,15 @@
         "name": "TalkNPC",
         "trigger": "on_roam_interact",
         "level_nid": "0",
-        "condition": "unit2 != None and unit2.nid != 'Serena'",
+        "condition": "units != None and any(unit.nid != 'Serena' for unit in units)",
         "commands": [],
         "only_once": false,
         "priority": 20,
         "_source": [
             "#pyev1",
             "",
+            "filtered = [unit for unit in units if unit.nid != 'Serena']",
+            "unit2 = filtered[0]",
             "if unit2.nid == 'Urso':",
             "    $add_portrait \"Urso\" \"Right\"",
             "    $speak \"Urso\" \"Apologies milady. I assure you, the Knights of Oestridel shall deal with this promptly.\"",
